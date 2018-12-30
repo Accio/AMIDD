@@ -22,6 +22,7 @@ Below are the key resources that I used. Individual papers and book chapters are
 # Bioinformatics
 
 * [An Introduction to Applied Bioinformatics (IAB)](http://readiab.org/)
+* [Rosalind, a platform to learn bioinformatics and programming via problem solving](http://rosalind.info/problems/locations/)
 
 # Chemoinformatics
 
