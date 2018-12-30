@@ -26,10 +26,10 @@ The course consists of 14 sessions (two hours each) and a final oral examination
 
 ## Syllabus (in revision)
 
-* Part I: Introduction
-  1. Introduction to drug discovery
-* Part II: Bioinformatics and computational biology
-  2. Biological sequence analysis and phylogeny
+1. Part I: Introduction
+    1. Introduction to drug discovery
+1. Part II: Bioinformatics and computational biology
+    1. Biological sequence analysis and phylogeny
     3. Protein structure
     4. Experiment design, data visualization and result interpretation
     5. Gene expression
