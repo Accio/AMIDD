@@ -30,18 +30,18 @@ The course consists of 14 sessions (two hours each) and a final oral examination
     1. Introduction to drug discovery
 1. Part II: Bioinformatics and computational biology
     1. Biological sequence analysis and phylogeny
-    3. Protein structure
-    4. Experiment design, data visualization and result interpretation
-    5. Gene expression
+    2. Protein structure
+    3. Experiment design, data visualization and result interpretation
+    4. Gene expression
 1. Part III: Chemoinformatics and drug design
-    6. Chemoinformatics for medicinal chemistry
-    7. Target-based drug discovery and computer aided drug design (CADD)
-    8. Phenotypic drug discovery
+    1. Chemoinformatics for medicinal chemistry
+    2. Target-based drug discovery and computer aided drug design (CADD)
+    3. Phenotypic drug discovery
 1. Part IV: Mathematical modelling and pharmacology
-    9. Computational enzymology
-    10. Mechanistic cardiac modelling for drug safety evaluation
-    11. Pharmacokinetics/Pharmacodynamics (PK/PD) modelling (I)
-    12. PK/PD modelling (II)
+    1. Computational enzymology
+    1. Mechanistic cardiac modelling for drug safety evaluation
+    1. Pharmacokinetics/Pharmacodynamics (PK/PD) modelling (I)
+    1. PK/PD modelling (II)
 1. Part V: From candidates to drugs
-    13. Imaging and digital biomarkers
-    14. Introduction to clinical trials
+    1. Imaging and digital biomarkers
+    1. Introduction to clinical trials
