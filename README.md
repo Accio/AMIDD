@@ -6,7 +6,7 @@ Introduction to Applied Mathematics and Informatics in Drug Discovery (iAMIDD)
 
 Applied Mathematics and Informatics In Drug Discovery (AMIDD) is a course that I am designing. It is expected to be given in the autumn semester 2019 to an audience of university students who are interested in this topic.
 
-The course material is published under the GPL-3.
+The course material is published under the GPL-3 license.
 
 ## Motivation
 
