@@ -1,12 +1,12 @@
 Introduction to Applied Mathematics and Informatics in Drug Discovery (iAMIDD)
 ===
 
-[Jitao David Zhang](mailto:jitao_david.zhang@gmail.com?subject=iAMIDD on github), Pharma Research and Early Development, Roche Innovation Center Basel, Pharmaceutical Sciences, Grenzacherstrasse 124, 4070 Basel, Switzerland
+[Jitao David Zhang](mailto:jitao_david.zhang@roche.com), Pharma Research and Early Development, Roche Innovation Center Basel, Pharmaceutical Sciences, Grenzacherstrasse 124, 4070 Basel, Switzerland
 
 
 Applied Mathematics and Informatics In Drug Discovery (AMIDD) is a course that I am designing. It is expected to be given in the autumn semester 2019 to an audience of university students who are interested in this topic.
 
-The course material is published under the GNU Lisence (version 3).
+The course material is published under the GPL-3.
 
 ## Motivation
 
