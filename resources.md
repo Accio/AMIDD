@@ -26,3 +26,6 @@ Below are the key resources that I used. Individual papers and book chapters are
 
 # Chemoinformatics
 
+# Mathematical modelling
+
+* Modelling Biological Systems by James W. Haefner
