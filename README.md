@@ -47,3 +47,10 @@ The course consists of 14 sessions (two hours each) and a final oral examination
 1. Part V: From candidates to drugs
     1. Imaging and digital biomarkers
     1. Introduction to clinical trials
+
+## Acknowledgement
+
+I have got great support to design and implement the course. Especially I would like to thank 
+
+* Martin Ebeling and Fabian Birzele
+* Lisa Sach-Peltason
