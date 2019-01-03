@@ -50,7 +50,11 @@ The course consists of 14 sessions (two hours each) and a final oral examination
 
 ## Acknowledgement
 
-I have got great support to design and implement the course. Especially I would like to thank 
+I got great input and support from numerous colleagues to design and implement the course. Especially I would like to thank 
 
-* Martin Ebeling and Fabian Birzele
-* Lisa Sach-Peltason
+* Martin Ebeling, Fabian Birzele, and Iakov Davydov for the bioinformatics part.
+* Lisa Sach-Peltason, Christian Kramer and Michael Reutlinger for the chemoinformatics and drug design part.
+* Arne Rufer, Ken Wang, Norman Mazer, Neil Parrot Jones for the modelling and pharmacology part.
+* Markus von Klien for the biomarker and clinical part.
+* Manfred Kansy and Matthias Nettokoven for chemistry.
+
