@@ -29,3 +29,7 @@ Below are the key resources that I used. Individual papers and book chapters are
 # Mathematical modelling
 
 * Modelling Biological Systems by James W. Haefner
+
+# Drug discovery from the perspectives of patients and their relatives
+
+* [CureFFI.org](http://www.cureffi.org/), by Eric Vallabh Minikel and his wife. Consider a [donation](http://www.cureffi.org/donate/) if you care about prion diseases.
