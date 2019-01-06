@@ -18,6 +18,7 @@ Below are the key resources that I used. Individual papers and book chapters are
 
 * Medicinal Chemistry: The Molecular Basis of Drug Discovery (Davidson: D001x) on edX
 * [Design and Analysis of Clinical Trails](https://www.chalmers.se/en/departments/math/education/university-of-gothenburg/courses/mathematical-statistics/Pages/msa620.aspx)
+* Blog [In The Pipeline](http://blogs.sciencemag.org/pipeline/) by Derek Lowe, a veteran chemist working in drug discovery.
 
 # Bioinformatics
 
