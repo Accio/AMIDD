@@ -30,6 +30,11 @@ Below are the key resources that I used. Individual papers and book chapters are
 # Mathematical modelling
 
 * Modelling Biological Systems by James W. Haefner
+* Roche Clinical Pharmacology Video Series
+    * [The benefits of using modeling and simulation in drug development](https://www.youtube.com/watch?v=o2ntCRCgpUM)
+    * [The benefits of using Pharmacokinetic and Pharmacodynamic modeling](https://www.youtube.com/watch?v=jxvJHXVIV4E)
+    * [Disease modeling to inform clinical trial simulation](https://www.youtube.com/watch?v=Hhd2U94QM60)
+    * [The benefits of using Clinical Trial Simulation](https://www.youtube.com/watch?v=dW4fek6plP4)
 
 # Drug discovery from the perspectives of patients and their relatives
 
