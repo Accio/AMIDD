@@ -55,6 +55,6 @@ I got great input and support from numerous colleagues to design and implement t
 * Martin Ebeling, Fabian Birzele, and Iakov Davydov for the bioinformatics part.
 * Lisa Sach-Peltason, Christian Kramer and Michael Reutlinger for the chemoinformatics and drug design part.
 * Arne Rufer, Ken Wang, Norman Mazer, Neil Parrot Jones for the modelling and pharmacology part.
-* Markus von Klien for the biomarker and clinical part.
+* Markus von Kienlin for the biomarker and clinical part.
 * Manfred Kansy and Matthias Nettokoven for chemistry.
 
