@@ -56,5 +56,6 @@ I got great input and support from numerous colleagues to design and implement t
 * Lisa Sach-Peltason, Christian Kramer and Michael Reutlinger for the chemoinformatics and drug design part.
 * Arne Rufer, Ken Wang, Norman Mazer, Neil Parrot Jones, Francois Mercier for the modelling and pharmacology part.
 * Markus von Kienlin for the imaging part
-* Manfred Kansy and Matthias Nettokoven for chemistry.
+* Manfred Kansy and Matthias Nettekoven for chemistry.
+
 
