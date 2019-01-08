@@ -44,9 +44,9 @@ The course consists of 14 sessions (two hours each) and a final oral examination
     1. Mechanistic cardiac modelling for drug safety evaluation
     1. Pharmacokinetics/Pharmacodynamics (PK/PD) modelling
     1. Pharmacometrics in clinical trials
-1. Part V: From candidates to drugs
-    1. Imaging and digital biomarkers
-    1. Introduction to clinical trials
+1. Part V: From candidates to drugs 
+    1. Imaging
+    1. Digital biomarker and real-world data
 
 ## Acknowledgement
 
@@ -54,7 +54,7 @@ I got great input and support from numerous colleagues to design and implement t
 
 * Martin Ebeling, Fabian Birzele, and Iakov Davydov for the bioinformatics part.
 * Lisa Sach-Peltason, Christian Kramer and Michael Reutlinger for the chemoinformatics and drug design part.
-* Arne Rufer, Ken Wang, Norman Mazer, Neil Parrot Jones for the modelling and pharmacology part.
-* Markus von Kienlin for the biomarker and clinical part.
+* Arne Rufer, Ken Wang, Norman Mazer, Neil Parrot Jones, Francois Mercier for the modelling and pharmacology part.
+* Markus von Kienlin for the imaging part
 * Manfred Kansy and Matthias Nettokoven for chemistry.
 
