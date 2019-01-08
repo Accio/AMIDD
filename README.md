@@ -39,11 +39,11 @@ The course consists of 14 sessions (two hours each) and a final oral examination
     1. Chemoinformatics for medicinal chemistry
     2. Target-based drug discovery and computer aided drug design (CADD)
     3. Phenotypic drug discovery
-1. Part IV: Mathematical modelling and pharmacology
+1. Part IV: Mathematical modelling
     1. Computational enzymology
     1. Mechanistic cardiac modelling for drug safety evaluation
-    1. Pharmacokinetics/Pharmacodynamics (PK/PD) modelling (I)
-    1. PK/PD modelling (II)
+    1. Pharmacokinetics/Pharmacodynamics (PK/PD) modelling
+    1. Pharmacometrics in clinical trials
 1. Part V: From candidates to drugs
     1. Imaging and digital biomarkers
     1. Introduction to clinical trials
