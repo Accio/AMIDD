@@ -14,7 +14,7 @@ Below are the key resources that I used. Individual papers and book chapters are
 * Probability theory and statistics
   * Pattern recognition and machine learning by M. Bishop
 
-# Drug discovery
+# Drug discovery in general
 
 * Medicinal Chemistry: The Molecular Basis of Drug Discovery (Davidson: D001x) on edX
 * [Design and Analysis of Clinical Trails](https://www.chalmers.se/en/departments/math/education/university-of-gothenburg/courses/mathematical-statistics/Pages/msa620.aspx)
@@ -27,14 +27,19 @@ Below are the key resources that I used. Individual papers and book chapters are
 
 # Chemoinformatics
 
-# Mathematical modelling
+# Mathematical modelling in preclinical research
 
 * Modelling Biological Systems by James W. Haefner
+
+# Pharmacometrics
+
 * Roche Clinical Pharmacology Video Series
     * [The benefits of using modeling and simulation in drug development](https://www.youtube.com/watch?v=o2ntCRCgpUM)
     * [The benefits of using Pharmacokinetic and Pharmacodynamic modeling](https://www.youtube.com/watch?v=jxvJHXVIV4E)
     * [Disease modeling to inform clinical trial simulation](https://www.youtube.com/watch?v=Hhd2U94QM60)
     * [The benefits of using Clinical Trial Simulation](https://www.youtube.com/watch?v=dW4fek6plP4)
+* [International Society of Pharmacometrics](http://www.go-isop.org/learning-resources)
+* [General background and links for learning more about pharmacometrics, provided by the Faculty of Medical and Health Sciences, Department of Pharmacology and Clinical Pharmacology, University of Auckland](http://holford.fmhs.auckland.ac.nz/research/pharmacometrics.php)
 
 # Drug discovery from the perspectives of patients and their relatives
 
