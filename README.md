@@ -36,8 +36,8 @@ The course consists of 14 sessions (two hours each) and a final oral examination
     3. Experiment design, data visualization and result interpretation
     4. Gene expression
 1. Part III: Chemoinformatics and drug design
-    1. Chemoinformatics for medicinal chemistry
-    2. Target-based drug discovery and computer aided drug design (CADD)
+    1. Structure-based methods for drug design
+    2. Chemoinformatics
     3. Phenotypic drug discovery
 1. Part IV: Mathematical modelling and pharmacology
     1. Computational enzymology
