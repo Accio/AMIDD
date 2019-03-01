@@ -56,6 +56,6 @@ I got great input and support from numerous colleagues to design and implement t
 * Lisa Sach-Peltason, Christian Kramer and Michael Reutlinger for the chemoinformatics and drug design part.
 * Manfred Kansy and Matthias Nettekoven for chemistry.
 * Arne Rufer, Ken Wang, Norman Mazer, Neil Parrot Jones, Francois Mercier, and Gonzalo Duran-Pacheco for the modelling and pharmacology part.
-* Markus von Kienlin, Andreas Bruns and Kasper Rufibach for the biomarker and clinical part
+* Prof. Markus von Kienlin, Andreas Bruns and Kasper Rufibach for the biomarker and clinical part
 
-
+I also want to extend my thanks to Prof. Gianluca Crippa, Prof. Helmut Harbrecht , Prof. Jiří Černý, and Dr. Jung Kyu Canci for the kind support for me to offer this course at the Department of Mathematics and Informatics, University of Basel.
