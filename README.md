@@ -4,7 +4,7 @@ Introduction to Applied Mathematics and Informatics in Drug Discovery (iAMIDD)
 [Jitao David Zhang](mailto:jitao_david.zhang@roche.com), Pharma Research and Early Development, Roche Innovation Center Basel, Pharmaceutical Sciences, Grenzacherstrasse 124, 4070 Basel, Switzerland
 
 
-Applied Mathematics and Informatics In Drug Discovery (AMIDD) is a course that I am designing. It is expected to be given in the autumn semester 2019 to an audience of university students who are interested in this topic.
+*Applied Mathematics and Informatics In Drug Discovery (AMIDD)* is a course that I am designing. It is expected to be given in fourteen 2-hour sessions to an audience of undergraduate and master students who are interested in this topic. 
 
 The course material is published under the GPL-3 license.
 
@@ -22,7 +22,7 @@ This course is designed for all students who are interested in applied mathemati
 
 ## Content
 
-The course is designed to be part of the curriculum of applied mathematics for undergraduates to give a high-level overview of applications of mathematics and informatics tools in drug discovery. Therefore, while key concepts and principles are introduced, almost all subjects can only be briefly touched. Intensive investigations into some subjects, for instance bioinformatics and computational biology, are planned as follow-up courses.
+The course is designed to be part of the curriculum of applied mathematics for undergraduate and master students to give a high-level overview of applications of mathematics and informatics tools in drug discovery. Therefore, while key concepts and principles are introduced, almost all subjects can only be briefly touched. Intensive investigations into some subjects, for instance bioinformatics and computational biology, are planned as follow-up courses.
 
 The course consists of 14 sessions (two hours each) and a final oral examination. The sessions will cover an introduction to drug discovery (1 session), bioinformatics and computational biology (4 sessions), chemoinformatics and computer-aided drug design (3 sessions), statistical and mathematical modelling (4 sessions), and key approaches to translate candidates into drugs such as biomarkers and clinical trials (2 sessions).  The sessions are so arranged that they roughly reflect the general drug discovery pipeline, starting from target assessment, transiting via screening, lead identification and optimization, preclinical safety evaluation, PK/PD modelling, clinical trials to regulatory approval.
 
