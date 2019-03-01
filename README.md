@@ -3,6 +3,10 @@ Introduction to Applied Mathematics and Informatics in Drug Discovery (iAMIDD)
 
 [Jitao David Zhang](mailto:jitao_david.zhang@roche.com), Pharma Research and Early Development, Roche Innovation Center Basel, Pharmaceutical Sciences, Grenzacherstrasse 124, 4070 Basel, Switzerland
 
+March 1<sup>st</sup>, 2019
+
+
+## Background
 
 *Applied Mathematics and Informatics In Drug Discovery (AMIDD)* is a course that I am designing. It is expected to be given in fourteen 2-hour sessions to an audience of undergraduate and master students who are interested in this topic. 
 
