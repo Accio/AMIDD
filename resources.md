@@ -20,12 +20,18 @@ Below are the key resources that I used. Individual papers and book chapters are
 * [Design and Analysis of Clinical Trails](https://www.chalmers.se/en/departments/math/education/university-of-gothenburg/courses/mathematical-statistics/Pages/msa620.aspx)
 * Blog [In The Pipeline](http://blogs.sciencemag.org/pipeline/) by Derek Lowe, a veteran chemist working in drug discovery.
 
-# Bioinformatics
+# Bioinformatics: sequence analysis and phylogeny
 
 * [An Introduction to Applied Bioinformatics (IAB)](http://readiab.org/)
 * [Rosalind, a platform to learn bioinformatics and programming via problem solving](http://rosalind.info/problems/locations/)
 
-# Chemoinformatics
+# Chemoinformatics and computer-aided drug design
+
+* [Bissantz, Caterina, Bernd Kuhn, and Martin Stahl. “A Medicinal Chemist’s Guide to Molecular Interactions.” Journal of Medicinal Chemistry 53, no. 14 (July 22, 2010): 5061–84](https://doi.org/10.1021/jm100112j).
+* [Stanton, Benjamin Z., Emma J. Chory, and Gerald R. Crabtree. “Chemically Induced Proximity in Biology and Medicine.” Science 359, no. 6380 (March 9, 2018): eaao5902](https://doi.org/10.1126/science.aao5902).
+* [Bajorath, Ling Xue and Jurgen. “Molecular Descriptors in Chemoinformatics, Computational Combinatorial Chemistry, and Virtual Screening.” Combinatorial Chemistry & High Throughput Screening, September 30, 2000](http://www.eurekaselect.com/65759/article).
+* [Grisoni, Francesca, Davide Ballabio, Roberto Todeschini, and Viviana Consonni. “Molecular Descriptors for Structure–Activity Applications: A Hands-On Approach.” Computational Toxicology, 2018, 3–53](https://doi.org/10.1007/978-1-4939-7899-1_1).
+
 
 # Mathematical modelling in preclinical research
 
