@@ -18,15 +18,15 @@ It is hoped that with an introduction to mathematics and informatics in drug dis
 
 ## Audience
 
-This course is designed for all students who are interested in applied mathematics and informatics and their applications in modern drug discovery. Though no prerequisite courses are obligatory, elementary understanding of statistics and ordinary differential equations are helpful. Knowledge and proficiency in at least one programming language (preferably C/C++, Java, R, Python, and Julia) is very helpful to try real-world problems.
+This course is designed for all students who are interested in applied mathematics and informatics and their applications in modern drug discovery. Though no prerequisite courses are obligatory, elementary understanding of statistics and ordinary differential equations are helpful. Knowledge and proficiency in at least one programming language (preferably C/C++, Java, R, Python, or Julia) is very helpful to try real-world problems.
 
 ## Content
 
-The course is designed to give a high-level overview of applications of mathematics and informatics tools in the value chain of drug discovery. Therefore, while key concepts and principles are introduced, most subjects can only be briefly touched. Intensive investigations into some subjects, for instance bioinformatics and computational biology, are planned as follow-up courses.
+The course is designed to be part of the curriculum of applied mathematics for undergraduates to give a high-level overview of applications of mathematics and informatics tools in drug discovery. Therefore, while key concepts and principles are introduced, almost all subjects can only be briefly touched. Intensive investigations into some subjects, for instance bioinformatics and computational biology, are planned as follow-up courses.
 
-The course consists of 14 sessions (two hours each) and a final oral examination. The sessions will cover an introduction to drug discovery (1 session), bioinformatics (2 sessions),  experiment design and interpretation (1 session), computational biology (2 sessions), chemoinformatics and drug design (2 sessions), mechanistic modelling (2 sessions), pharmacology  (2 sessions), and emerging technologies between bench and bed for personalized healthcare such as imaging, digital biomarkers, and real-world data (2 sessions).  The sessions are so arranged that they roughly reflect the general drug discovery pipeline, starting from target assessment, transiting via screening, lead identification and optimization, preclinical safety evaluation, PK/PD modelling, clinical trials to regulatory approval.
+The course consists of 14 sessions (two hours each) and a final oral examination. The sessions will cover an introduction to drug discovery (1 session), bioinformatics and computational biology (4 sessions), chemoinformatics and computer-aided drug design (3 sessions), statistical and mathematical modelling (4 sessions), and key approaches to translate candidates into drugs such as biomarkers and clinical trials (2 sessions).  The sessions are so arranged that they roughly reflect the general drug discovery pipeline, starting from target assessment, transiting via screening, lead identification and optimization, preclinical safety evaluation, PK/PD modelling, clinical trials to regulatory approval.
 
-## Syllabus (in revision)
+## Syllabus
 
 1. Part I: Introduction
     1. Introduction to drug discovery
@@ -35,7 +35,7 @@ The course consists of 14 sessions (two hours each) and a final oral examination
     1. Next-generation sequencing
     1. From RNA to antisense oligonucleotides
     1. Protein: from sequence to structure
-1. Part III: Medicinal chemistry and chemoinformatics
+1. Part III: Chemoinformatics and computer-aided drug design
     1. Chemical structure representation and search
     1. Proximity and molecular interactions
     1. Molecular descriptors and QSAR
