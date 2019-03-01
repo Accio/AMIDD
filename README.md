@@ -31,22 +31,22 @@ The course consists of 14 sessions (two hours each) and a final oral examination
 1. Part I: Introduction
     1. Introduction to drug discovery
 1. Part II: Bioinformatics and computational biology
-    1. Biological sequence analysis and phylogeny
-    2. Protein structure
-    3. Experiment design, data visualization and result interpretation
-    4. Gene expression
-1. Part III: Chemoinformatics and drug design
-    1. Chemoinformatics for medicinal chemistry
-    2. Target-based drug discovery and computer aided drug design (CADD)
-    3. Phenotypic drug discovery
-1. Part IV: Mathematical modelling
-    1. Computational enzymology
+    1. Biological sequence analysis
+    1. Next-generation sequencing
+    1. From RNA to antisense oligonucleotides
+    1. Protein: from sequence to structure
+1. Part III: Medicinal chemistry and chemoinformatics
+    1. Chemical structure representation and search
+    1. Proximity and molecular interactions
+    1. Molecular descriptors and QSAR
+1. Part IV: Statistical and mathematical modelling
+    1. Causal analysis and inference
+    1. Computational and translational enzymology
     1. Mechanistic cardiac modelling for drug safety evaluation
     1. Pharmacokinetics/Pharmacodynamics (PK/PD) modelling
-    1. Pharmacometrics in clinical trials
-1. Part V: From candidates to drugs 
-    1. Imaging
-    1. Digital biomarker and real-world data
+1. Part V: From candidates to drugs (and back)
+    1. Emerging biomarkers: imaging and digital biomarker
+    1. Clinical trials and pharmacometrics
 
 ## Acknowledgement
 
@@ -54,8 +54,8 @@ I got great input and support from numerous colleagues to design and implement t
 
 * Martin Ebeling, Fabian Birzele, and Iakov Davydov for the bioinformatics part.
 * Lisa Sach-Peltason, Christian Kramer and Michael Reutlinger for the chemoinformatics and drug design part.
-* Arne Rufer, Ken Wang, Norman Mazer, Neil Parrot Jones, Francois Mercier for the modelling and pharmacology part.
-* Markus von Kienlin for the imaging part
 * Manfred Kansy and Matthias Nettekoven for chemistry.
+* Arne Rufer, Ken Wang, Norman Mazer, Neil Parrot Jones, Francois Mercier, and Gonzalo Duran-Pacheco for the modelling and pharmacology part.
+* Markus von Kienlin, Andreas Bruns and Kasper Rufibach for the biomarker and clinical part
 
 
