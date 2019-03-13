@@ -1,22 +1,113 @@
 ---
-title: "Introduction to Applied Mathematics And Informatics In Drug Discovery (iAMIDD)"
+title: "Introduction to Applied Mathematics and Informatics In Drug Discovery (iAMIDD)"
 author: "Jitao David Zhang"
 date: "13 März 2019"
 output: 
   beamer_presentation:
-    theme: "CambridgeUS"
-    colortheme: "dolphin"
-    fonttheme: "structurebold"
+    includes:
+      in_header: mypreamble.tex
+    colortheme: dolphin
+    fig_height: 4
+    fig_width: 4
+    fonttheme: structurebold
+    theme: CambridgeUS
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
 ```
 
-# First slide
+# Before we start ...
 
-See more setting options on [https://bookdown.org/yihui/rmarkdown/beamer-presentation.html](https://bookdown.org/yihui/rmarkdown/beamer-presentation.html)
+# Outline of today's course
 
-# Second slide
+# Phases of drug discovery
 
-How to add a take-home message?
+TA
+  ~ Target assessment, should we invest to make a molecule modulating protein X?
+  
+Screening
+  ~ Many molecules are evaluated and few, so-called *hits*, are prioritised.
+  
+LI
+  ~ Lead identification, identify promising molecules chemists wish to work on
+
+LO
+  ~ Lead optimization, optimize pharmacological profiles of lead compounds
+  
+Phase I
+  ~ Mainly for safety, mostly in healthy volunteers, but also patients possible
+  
+Phase II
+  ~ Safety and efficacy, proof-of-concept
+  
+Phase III
+  ~ Efficacy and efficacy, in large population
+
+Phase IV
+  ~ Follow-up study post approval
+  
+# Target assessment
+
+\takehome{A good TA can lead to better understanding of biology}
+
+# Screening
+
+\takehome{Tailored screening stategy increases likelihood of success}
+
+# LI and LO phase
+
+\takehome{Molecular interaction and QSAR guides lead optimization}
+
+# Preclinical safety
+
+\takehome{To make a drug safe is no less important than making it work}
+
+# PK/PD modelling and simulation
+
+\takehome{PK/PD connects exposure, efficacy, and time}
+
+# Clinical trials
+
+* Experiment design
+* Power analysis
+* PTS (probability of technical success)
+* ...
+\takehome{Clinical trials can be tranquilizing for statisticians!}
+
+# Biomarkers
+
+\begincols
+  \begincol{.5\textwidth}
+
+This slide has two columns.
+
+  \endcol
+\begincol{.5\textwidth}
+
+```{r}
+set.seed(1887)
+plot(function(x) 1/(x-0.5)^2+log(x), pch=21, xlim=c(1,6), xaxt="n",
+     ylab="A simulated biomarker", xlab="Time",
+     bg=sample(colors(), 10), cex=1.5)
+```
+
+  \endcol
+\endcols
+
+\takehome{Biomarkers are important!}
+
+# Conclusions
+
+* Phases
+* Mathematics and informatics are critical to the drug-discovery process
+
+# References
+
+# Technical notes
+
+See more setting options on [https://bookdown.org/yihui/rmarkdown/beamer-presentation.html](https://bookdown.org/yihui/rmarkdown/beamer-presentation.html).
+
+A comprehensive tutorial on using Markdown to make beamer presentations with `pandoc` can be found at [https://pandoc.org/MANUAL.html#pandocs-markdown](https://pandoc.org/MANUAL.html#pandocs-markdown).
