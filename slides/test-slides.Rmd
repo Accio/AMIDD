@@ -1,0 +1,22 @@
+---
+title: "Test-beamer.Rmd"
+author: "Jitao David Zhang"
+date: "13 März 2019"
+output: 
+  beamer_presentation:
+    theme: "AnnArbor"
+    colortheme: "dolphin"
+    fonttheme: "structurebold"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# First slide
+
+See more setting options on [https://bookdown.org/yihui/rmarkdown/beamer-presentation.html](https://bookdown.org/yihui/rmarkdown/beamer-presentation.html)
+
+# Second slide
+
+How to add a take-home message?
