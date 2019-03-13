@@ -1,10 +1,10 @@
 ---
-title: "Test-beamer.Rmd"
+title: "Introduction to Applied Mathematics And Informatics In Drug Discovery (iAMIDD)"
 author: "Jitao David Zhang"
 date: "13 März 2019"
 output: 
   beamer_presentation:
-    theme: "AnnArbor"
+    theme: "CambridgeUS"
     colortheme: "dolphin"
     fonttheme: "structurebold"
 ---
