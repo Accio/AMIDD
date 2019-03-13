@@ -1,4 +1,24 @@
+% for columns
+% https://support.rstudio.com/hc/en-us/community/posts/202717656-Can-we-have-columns-in-rmarkdown-beamer-presentations-
 \def\begincols{\begin{columns}}
 \def\begincol{\begin{column}}
 \def\endcol{\end{column}}
 \def\endcols{\end{columns}}
+
+% for color box, a great package with great documentation, by Prof.Dr.Dr. T-F-S.
+% https://www.ctan.org/pkg/tcolorbox
+\usepackage{tcolorbox}
+
+% \bigskip and \btVfill: see https://tex.stackexchange.com/questions/54180/how-do-i-write-something-at-the-end-of-the-slide-in-beamer
+\newcommand{\btVFill}{\vskip0pt plus 1filll}
+
+% my takehome function
+\newcommand{\takehome}[1]{%
+  \bigskip
+  \btVFill
+  \begin{tcolorbox}[colback=blue!10!white, colframe=blue!50!black,notitle,boxsep=0mm,
+  fontupper=\sffamily\bfseries, halign=center, valign=center, height=0.7cm] 
+  #1
+  \end{tcolorbox}
+
+}
