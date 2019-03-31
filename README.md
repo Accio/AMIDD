@@ -28,7 +28,7 @@ This course is designed for all students who are interested in applied mathemati
 
 The course is designed to be part of the curriculum of applied mathematics for undergraduate and master students to give a high-level overview of applications of mathematics and informatics tools in drug discovery. Therefore, while key concepts and principles are introduced, almost all subjects can only be briefly touched. Intensive investigations into some subjects, for instance bioinformatics and computational biology, are planned as follow-up courses.
 
-The course consists of 14 sessions (two hours each) and a final oral examination. The sessions will cover an introduction to drug discovery (1 session), bioinformatics and computational biology (4 sessions), chemoinformatics and computer-aided drug design (3 sessions), statistical and mathematical modelling (4 sessions), and key approaches to translate candidates into drugs such as biomarkers and clinical trials (2 sessions).  The sessions are so arranged that they roughly reflect the general drug discovery pipeline, starting from target assessment, transiting via screening, lead identification and optimization, preclinical safety evaluation, PK/PD modelling, clinical trials to regulatory approval.
+The course consists of 14 sessions (two hours each) and a final oral examination. The sessions will cover an introduction to drug discovery (1 session), bioinformatics and computational biology (4 sessions), chemoinformatics and computer-aided drug design (3 sessions), statistical and mathematical modeling (4 sessions), and key approaches to translate candidates into drugs such as biomarkers and clinical trials (2 sessions).  The sessions are so arranged that they roughly reflect the general drug discovery pipeline, starting from target assessment, transiting via screening, lead identification and optimization, preclinical safety evaluation, PK/PD modeling, clinical trials to regulatory approval.
 
 ## Syllabus
 
@@ -43,10 +43,10 @@ The course consists of 14 sessions (two hours each) and a final oral examination
     1. Chemical structure representation and search
     1. Proximity and molecular interactions
     1. Molecular descriptors and QSAR
-1. Part IV: Mathematical modelling
-    1. Principles and applications of bioloigcal-system modelling
-    1. Pharmacokinetics/Pharmacodynamics (PK/PD) modelling
-    1. Clinical pharmacology and pharmacometics
+1. Part IV: Mathematical modeling
+    1. Principles and applications of biological-system modeling
+    1. Pharmacokinetics/Pharmacodynamics (PK/PD) modeling
+    1. Clinical pharmacology and pharmacometrics
 1. Part V: From candidates to drugs (and back)
     1. Emerging biomarkers: imaging and digital biomarker
     1. Clinical trials 
