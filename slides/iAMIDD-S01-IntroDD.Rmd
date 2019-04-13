@@ -194,6 +194,7 @@ plot(function(x) 1/(x-0.5)^2+log(x), pch=21, xlim=c(1,6), xaxt="n",
 ## Administrivia
 
 * Oral examination
+* An in-depth course in computational biology, bioinformatics and biostatistics in preclinical drug discovery will be provisionally offered in the spring semester.
 
 # Conclusions and perspectives
 
