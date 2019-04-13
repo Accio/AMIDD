@@ -2,3 +2,4 @@
 .*.swp
 
 slides/*.pdf
+.Rproj.user
