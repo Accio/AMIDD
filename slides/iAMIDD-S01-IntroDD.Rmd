@@ -6,6 +6,7 @@ output:
   beamer_presentation:
     includes:
       in_header: mypreamble.tex
+    toc: true
     colortheme: dolphin
     fig_height: 4
     fig_width: 4
@@ -19,11 +20,52 @@ knitr::opts_chunk$set(echo = FALSE,
                       warning = FALSE)
 ```
 
-# Before we start ...
+# Introduction
 
-# Outline of today's course
+## About me
 
-# Phases of drug discovery
+Jitao _David_ Zhang, \myemail.
+
+* Experience
+    * Bachelor in Biology (2006)
+    * Master in Bioinformatics (2008)
+    * Ph.D. in Computational Biology and Bioinformatics (2011)
+    * Working at Pharma Research and Early Development (pRED), Roche Innovation Center Basel, F. Hoffmann-La Roche, Ltd.
+* Research interests
+    * Modelling, interpretation, and integration of biological data
+    * Developing novel computational and experimental approaches for disease understanding and drug discovery
+    * Developing sofware to translate mathematical and computational concepts to (re)usable tools
+
+\takehome{My personal opinions do not represent those of Roche}
+
+## Some thoughts about the course series
+
+* We try to understand key concepts, impacts, and challenges of applied mathematics and informatics approaches together.
+* Case studies are discussed both in the context of drug discovery process and with a brief discussion of relevant mathematics and informatics concepts.
+* Selected open-source software solutions are introduced along with the concepts.
+* I am open to any questions, suggestions, and critics any time. Please share them directly with me at \myemail.
+
+\takehome{Share your opinion with me to improve the course!}
+
+## About you
+
+Will you mind telling us ...
+
+1. Who are you
+2. What are the key steps in your educational and personal experience
+3. Why are you joining this course series
+4. What do you expect from this course series
+5. Any questions you have about this course series
+
+\takehome{Thank you \textit{all} for sharing}
+
+# An overview on drug discovery and development
+
+## Drug discovery is a long and expensive process
+
+TODO: the avastin slide from Roche
+
+## Phases of drug discovery
 
 TA
   ~ Target assessment, should we invest to make a molecule modulating protein X?
@@ -48,28 +90,43 @@ Phase III
 
 Phase IV
   ~ Follow-up study post approval
-  
-# Target assessment
+
+## DD is under constant (r)evolution
+
+TODO: more
+
+Since late 19th century, drug discovery experienced several waves of revolution
+
+* The first wave, in early 20th century, was mainly driven by chemistry and microbiology
+* The second wave, starting from ~1960s, was mainly driven by genetics and molecular biology 
+* The third wave, starting from ~1980s, was mainly driven by technologies 
+* The fourth wave, starting from 1990s, was driven by omics, increasing power of hardware and software to extract information from data
+* Thr fifth wave, which we are experiencing, is characterized by large amount of heterogeneous data, novel biomarkers, and increasing awareness of the importance of data-driven decisions
+* The next wave???
+
+## Target assessment: which target to work on?
+
+* Genetics and molecular biology revolutionlized drug discovery
 
 \takehome{A good TA can lead to better understanding of biology}
 
-# Screening
+## Screening: find a few hundred molecules to start!
 
 \takehome{Tailored screening stategy increases likelihood of success}
 
-# LI and LO phase
+## LI and LO phase: work up on the chosen few
 
 \takehome{Molecular interaction and QSAR guides lead optimization}
 
-# Preclinical safety
+## Preclinical safety: do animals tolerate the drug?
 
 \takehome{To make a drug safe is no less important than making it work}
 
-# PK/PD modelling and simulation
+## PK/PD modelling and simulation: how much and how often?
 
 \takehome{PK/PD connects exposure, efficacy, and time}
 
-# Clinical trials
+## Clinical trials: is the drug safe and efficacous?
 
 * Experiment design
 * Power analysis
@@ -77,7 +134,7 @@ Phase IV
 * ...
 \takehome{Clinical trials can be tranquilizing for statisticians!}
 
-# Biomarkers
+## Biomarkers
 
 \begincols
   \begincol{.5\textwidth}
@@ -99,15 +156,59 @@ plot(function(x) 1/(x-0.5)^2+log(x), pch=21, xlim=c(1,6), xaxt="n",
 
 \takehome{Biomarkers are important!}
 
-# Conclusions
+## Special aspects of DD compared with other industries
 
-* Phases
-* Mathematics and informatics are critical to the drug-discovery process
+* Drug discovery is one of the most interdisciplinary enterprises of human beings
+    * Pros for quantitative minds: mathematics is the language
+    * Challenges for quantitative minds: openness and effective communication is critical
+* We are *doing what patients need next*
+    * We save lifes by making new drugs or introducing new diagonistic tools
+* Drug discovery is subject to strong regulatory regulation
+    * Especially in the development process, interactions with health authorities (HA) are essential.
+* Ethic considerations are important
+    * Refinement, replacement, and reduction (3R) of animal models
+    * Accessibility of drugs for patients
 
-# References
+# An overview on the course series
 
-# Technical notes
+## The curriculum
 
-See more setting options on [https://bookdown.org/yihui/rmarkdown/beamer-presentation.html](https://bookdown.org/yihui/rmarkdown/beamer-presentation.html).
+* Computational biology and bioinformatics
+    * Biological sequence analysis
+    * DNA and RNA sequencing
+    * Differential gene expression and gene-set enrichment analysis
+* Structural biology, chemoinformatics and computer-aided drug design
+    * Protein structure
+    * Molecular modelling
+    * Chemoinformatics
+    * Quantitative Structure-Activity Relationship (QSAR)
+* Mathematical modelling 
+    * Mathematical modelling in pharmacology
+    * Mathematically modelling for efficacy and for safety
+    * Pharmacokinetics (PK) and pharmacodynamics (PD) modelling
+    * Modelling in clinical pharmacology and pharmacokinetics
+* From bench to bed and back
+    * Non-invasive markers: imaging and digital biomarker
+    * Clinical trials
+    * Real-world data and causal analysis
 
-A comprehensive tutorial on using Markdown to make beamer presentations with `pandoc` can be found at [https://pandoc.org/MANUAL.html#pandocs-markdown](https://pandoc.org/MANUAL.html#pandocs-markdown).
+## Administrivia
+
+* Oral examination
+
+# Conclusions and perspectives
+
+## Conclusions
+
+* Drug discovery is a long and expensive process consisted of many phases
+* Mathematics and informatics are critical to many aspects the drug-discovery process
+* In *iAMIDD*, we will focus on selected topics where an quantatitive approach makes huge impact
+
+## Next week: 
+
+## References
+
+## Technical notes
+
+* The document is published under GPL-3 license under
+
