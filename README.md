@@ -36,21 +36,21 @@ The course consists of 14 sessions (two hours each) and a final oral examination
     1. Introduction to drug discovery
 1. Part II: Bioinformatics and computational biology
     1. Biological sequence analysis
-    1. Phylogenetic analysis and tree thinking
     1. Next-generation sequencing
+    1. Bioinformatics approaches to understanding MoA of compounds
     1. Protein sequence and structure
 1. Part III: Chemoinformatics and computer-aided drug design
     1. Chemical structure representation and search
-    1. Proximity and molecular interactions
+    1. Molecular modelling
     1. Molecular descriptors and QSAR
-1. Part IV: Mathematical modeling
-    1. Principles and applications of biological-system modeling
-    1. Pharmacokinetics/Pharmacodynamics (PK/PD) modeling
+1. Part IV: Mathematical modelling
+    1. Principles and applications of modelling in pharmacology
+    1. Pharmacokinetics (PK) and pharmacodynamics (PD) modelling
     1. Clinical pharmacology and pharmacometrics
 1. Part V: From candidates to drugs (and back)
     1. Emerging biomarkers: imaging and digital biomarker
     1. Clinical trials 
-    1. Causal analysis and inference
+    1. From real-world data to causal analysis and inference
 
 ## Acknowledgement
 
@@ -59,7 +59,7 @@ I got great input and support from numerous colleagues to design and implement t
 * Martin Ebeling, Fabian Birzele, and Iakov Davydov for helping improving the bioinformatics part.
 * Lisa Sach-Peltason, Christian Kramer and Michael Reutlinger for teaching me a lot about chemoinformatics and drug design.
 * Manfred Kansy, Holger Fischer, and Matthias Nettekoven for leading me into the field of medicinal chemistry and pharmacology.
-* Arne Rufer, Ken Wang, Norman Mazer, Neil Parrot Jones, Francois Mercier, Benjamin Ribba, and Hans-Peter Grimm for selfless sharing of knowledge in mathematical modelling, PK/PD modelling, and clinical pharmacology.
+* Arne Rufer, Ken Wang, Norman Mazer, Neil Parrot Jones, Francois Mercier, Benjamin Ribba, Hans-Peter Grimm, and Nicolas Frey for selfless sharing of knowledge in mathematical modelling, PK/PD modelling, and clinical pharmacology and pharmacometrics.
 * Prof. Markus von Kienlin, Andreas Bruns, Gonzalo Christian Duran Pacheco, Kasper Rufibach for the biomarker and clinical development.
 
 I also want to extend my thanks to Prof. Gianluca Crippa, Prof. Helmut Harbrecht , Prof. Jiří Černý, and Dr. Jung Kyu Canci for the kind support for me to offer this course at the Department of Mathematics and Informatics, University of Basel.

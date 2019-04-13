@@ -175,22 +175,21 @@ plot(function(x) 1/(x-0.5)^2+log(x), pch=21, xlim=c(1,6), xaxt="n",
 
 * Computational biology and bioinformatics
     * Biological sequence analysis
-    * DNA and RNA sequencing
-    * Differential gene expression and gene-set enrichment analysis
-* Structural biology, chemoinformatics and computer-aided drug design
-    * Protein structure
+    * Next-generation sequencing
+    * Bioinformatics approaches to understanding MoA of compounds
+    * Protein sequence and structure
+* Chemoinformatics and computer-aided drug design
+    * Chemical structure representation and search
     * Molecular modelling
-    * Chemoinformatics
-    * Quantitative Structure-Activity Relationship (QSAR)
+    * Molecular descriptors and Quantitative Structure-Activity Relationship (QSAR)
 * Mathematical modelling 
-    * Mathematical modelling in pharmacology
-    * Mathematically modelling for efficacy and for safety
+    * Principles and applications of modelling in pharmacology
     * Pharmacokinetics (PK) and pharmacodynamics (PD) modelling
-    * Modelling in clinical pharmacology and pharmacokinetics
+    * Clinical pharmacology and pharmacokinetics
 * From bench to bed and back
-    * Non-invasive markers: imaging and digital biomarker
+    * Emerging non-invasive markers: imaging and digital biomarker
     * Clinical trials
-    * Real-world data and causal analysis
+    * From real-world data to causal analysis and inference
 
 ## Administrivia
 
