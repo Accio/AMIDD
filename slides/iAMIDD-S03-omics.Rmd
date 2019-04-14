@@ -1,0 +1,57 @@
+---
+title: "Omics and next-generation sequencing"
+author: "Jitao david Zhang"
+date: "`r format(Sys.Date(), '%b %d, %Y')`"
+## fontsize: 10pt
+output: 
+  beamer_presentation:
+    includes:
+      in_header: mypreamble.tex
+    toc: true
+    colortheme: dolphin
+    fig_height: 4
+    fig_width: 4
+    fonttheme: structurebold
+    theme: CambridgeUS
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Omics
+
+## The central dogma
+
+## Genomics
+
+\takehome{Genomics among others helps to stratify patients}
+
+## Transcriptomics
+
+\takehome{Transcriptomics can characterize drug candidates}
+
+## Proteomics
+
+\takehome{Proteomics can identify biomarkers}
+
+# Next-generation sequencing
+
+## Principles
+
+## Applications
+
+# Mathematics and informatics underlying next-generation sequencing
+
+## Mapping reads to the genome with BWA
+
+## Mapping reads to the transcriptome with graph models
+
+## Model gene expression data with negative-binomial distributions and generalized linear models
+
+## Gene-set enrichment analysis
+
+# Conclusions
+
+## Omics complement the classical pharmacological studies of drug candidates
+
