@@ -1,0 +1,65 @@
+---
+title: "Protein sequence and structure"
+author: "Jitao david Zhang"
+date: "`r format(Sys.Date(), '%b %d, %Y')`"
+fontsize: 10pt
+output: 
+  beamer_presentation:
+    includes:
+      in_header: mypreamble.tex
+    toc: true
+    colortheme: dolphin
+    fig_height: 4
+    fig_width: 4
+    fonttheme: structurebold
+    theme: CambridgeUS
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Proteins structure
+
+## Protein sequences as the primary structure
+
+\takehome{Most proteins are encoded by 21 amino acids}
+
+## Secondary structures of proteins: $\alpha$-helix and $\beta$-strand
+
+* Ramachandran plot
+
+## Tertiary structure and quaternary structure
+
+## Afinsen's dogma and Levinthal's paradox
+
+# Protein structure determination and database
+
+## X-ray crystallography
+
+## Nuclear magnetic resonance (NMR)
+
+## Cyro-electron microscopy
+
+## PDB: Protein Data Bank
+
+# Protein structure prediction
+
+## Principles
+
+## Methodology
+
+## CASP
+
+## Recent Alpha news
+
+# Protein design
+
+## Principles
+
+## Methodology
+
+## Recent progress
+
+# Conclusions
+
