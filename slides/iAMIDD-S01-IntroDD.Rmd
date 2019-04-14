@@ -176,7 +176,7 @@ plot(function(x) 1/(x-0.5)^2+log(x), pch=21, xlim=c(1,6), xaxt="n",
 
 * Computational biology and bioinformatics
     * Biological sequence analysis
-    * Next-generation sequencing
+    * Omics and next-generation sequencing
     * Bioinformatics approaches to understanding MoA of compounds
     * Protein sequence and structure
 * Chemoinformatics and computer-aided drug design
