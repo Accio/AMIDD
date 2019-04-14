@@ -2,7 +2,7 @@
 title: "Introduction to Applied Mathematics and Informatics In Drug Discovery (iAMIDD)"
 author: "Jitao David Zhang"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
-## fontsize: 10pt
+fontsize: 10pt
 output: 
   beamer_presentation:
     includes:
