@@ -1,0 +1,113 @@
+---
+title: "Biological sequence analysis in drug discovery"
+author: "Jitao David Zhang"
+date: "`r format(Sys.Date(), '%b %d, %Y')`"
+## fontsize: 10pt
+output: 
+  beamer_presentation:
+    includes:
+      in_header: mypreamble.tex
+    toc: true
+    colortheme: dolphin
+    fig_height: 4
+    fig_width: 4
+    fonttheme: structurebold
+    theme: CambridgeUS
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# The Central Dogma of Molecular Biology
+
+## The Central Dogma: A law of biological information flow
+
+\takehome{The central dogma describes how biological information flows}
+
+## The Central Dogma as a graph (CD graph)
+
+\takehome{The CD graph view offers insights for drug discovery}
+
+## Drugs target either nodes or edges of the graph
+
+\takehome{Drugs target either nodes or edges of the CD graph}
+
+## Examples of drugs that target DNA or RNA
+
+\takehome{More and more drugs target DNA/RNA of the CD graph}
+
+## Antisense oligonucleotides
+
+\takehome{Sequence analysis allows designing potent and specific ASOs}
+
+## Sequence analysis is critical for phylogenetic analysis
+
+\takehome{Sequence analysis helps us understanding evolution of sequences}
+
+# DNA/RNA sequence analysis
+
+## DNA: the chemistry and the symbolic representation
+
+\takehome{DNA is a string of characters and often form double helixes}
+
+## RNA: the chemistry and the symbolic representation
+
+\takehome{RNA is a string of characters and is often single-stranded}
+
+## Levenshtein distance
+
+\takehome{Levenshtein distance describe distances between DNA/RNA sequences}
+
+## Substitution matrix
+
+## The Needleman-Wunsch algorithm
+
+\takehome{Dynamic programming underlies the Needleman-Wunsch algorithm}
+
+## The Smith-Waterman algorithm
+
+\takehome{SM reaches local alignment whereas NW reaches global alignment}
+
+# How does BLAST work
+
+## Seuqnce query: David versus Goliath
+
+\takehome{Sequence query is frequently used in drug discovery}
+
+## The NCBI and command-line BLAST tool
+
+\takehome{Anyone can query similar sequences using the BLAST tool}
+
+## How BLAST in principle works
+
+\takehome{BLAST is a heuristic method}
+
+## Gumbel extreme value distribution (EVD)
+
+\takehome{Statistical models are important components of bioinformatics}
+
+# Probablistic modelling of biological sequences
+
+## Model DNA/RNA sequences using Markov chains
+
+\takehome{Markov chain is a probablistic model of biological sequences}
+
+## Hidden Markov Models
+
+\takehome{HMMs allow sequence discrimination}
+
+# Conclusions
+
+## Other sequence-analysis tasks in drug discovery
+
+* Phylogenetic analysis of drug targets
+    * Is my target present in mouse/rat/rabbit...?
+    * Is the function of my target conserved in animals?
+* Prediction of RNA secondary structure
+* Protein sequence and structure analysis
+    * Discussed in the follow-up sessions
+    
+## References
+
+* Rosalind
