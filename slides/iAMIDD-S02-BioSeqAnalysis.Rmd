@@ -111,3 +111,5 @@ knitr::opts_chunk$set(echo = FALSE)
 ## References
 
 * Rosalind
+* [Teaching RNA algorithms](http://rna.informatik.uni-freiburg.de/Teaching/) by Backofen Lab at U Freiburg, with [source code](https://github.com/BackofenLab/RNA-Playground) available on Github.
+* [An Introduction to Applied Bioinformatics](http://readiab.org/)
