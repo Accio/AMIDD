@@ -1,0 +1,31 @@
+---
+title: "Structure-based drug design"
+author: "Jitao david Zhang"
+date: "`r format(Sys.Date(), '%b %d, %Y')`"
+fontsize: 10pt
+output: 
+  beamer_presentation:
+    includes:
+      in_header: mypreamble.tex
+    toc: true
+    colortheme: dolphin
+    fig_height: 4
+    fig_width: 4
+    fonttheme: structurebold
+    theme: CambridgeUS
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# Concepts and approaches
+
+# Molecular modelling
+
+# Docking: search algorithm
+
+# Docking: scoring function
+
+# Software

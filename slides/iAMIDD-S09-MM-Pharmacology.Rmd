@@ -1,0 +1,30 @@
+---
+title: "Mathematical modelling in biology and pharmacology"
+author: "Jitao david Zhang"
+date: "`r format(Sys.Date(), '%b %d, %Y')`"
+fontsize: 10pt
+output: 
+  beamer_presentation:
+    includes:
+      in_header: mypreamble.tex
+    toc: true
+    colortheme: dolphin
+    fig_height: 4
+    fig_width: 4
+    fonttheme: structurebold
+    theme: CambridgeUS
+---
+
+# Introduction to Pharmacology
+
+# Basic concepts of mathematical modelling
+
+# Mathematical modelling in biology: a case study of enzymology
+
+# Mathematical modelling in pharmacology: a case study of the heart model
+
+# Software
+
+## COPASI
+
+# Conclusions

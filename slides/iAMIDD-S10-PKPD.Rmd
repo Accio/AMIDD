@@ -1,0 +1,26 @@
+---
+title: "Pharmacokinetics and pharmacodynamics modelling"
+author: "Jitao david Zhang"
+date: "`r format(Sys.Date(), '%b %d, %Y')`"
+fontsize: 10pt
+output: 
+  beamer_presentation:
+    includes:
+      in_header: mypreamble.tex
+    toc: true
+    colortheme: dolphin
+    fig_height: 4
+    fig_width: 4
+    fonttheme: structurebold
+    theme: CambridgeUS
+---
+
+# Pharmacokinetics
+
+# Physiologically based pharmacokinetic (PBPK) modelling
+
+# Pharmacodynamics
+
+# Case study
+
+# Software

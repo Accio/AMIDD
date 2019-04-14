@@ -1,0 +1,61 @@
+---
+title: "Chemical structure representation and search"
+author: "Jitao david Zhang"
+date: "`r format(Sys.Date(), '%b %d, %Y')`"
+fontsize: 10pt
+output: 
+  beamer_presentation:
+    includes:
+      in_header: mypreamble.tex
+    toc: true
+    colortheme: dolphin
+    fig_height: 4
+    fig_width: 4
+    fonttheme: structurebold
+    theme: CambridgeUS
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Chemoinformatics
+
+## Motivation
+
+## Key concepts
+
+## Applications in drug discovery
+
+## Methods
+
+# Chemical structure representation
+
+## 2D - approximation of reality
+
+## Molecular scaffolds
+
+# Chemical structure searches
+
+## Structure searches
+
+## Structure standarization
+
+# Chemical structure similarity
+
+## Key techniques
+
+## Fingerprinting
+
+## 3D structure comparison
+
+## Edit distance
+
+## Graph edit distance (GED)
+
+* NextMove
+* [Graph edit distance](https://cisrg.shef.ac.uk/shef2016/conference-programme/tuesday-5th/chemical-similarity-based-on-graph-edit-distance-efficient-implementation-and-the-challenges-of-evaluation/)
+
+# Perspectives and conclusions
+
+## Open questions

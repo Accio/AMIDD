@@ -181,8 +181,8 @@ plot(function(x) 1/(x-0.5)^2+log(x), pch=21, xlim=c(1,6), xaxt="n",
     * Protein sequence and structure
 * Chemoinformatics and computer-aided drug design
     * Chemical structure representation and search
-    * Molecular modelling
-    * Molecular descriptors and Quantitative Structure-Activity Relationship (QSAR)
+    * Ligand-based drug design
+    * Structure-based drug design
 * Mathematical modelling 
     * Principles and applications of modelling in pharmacology
     * Pharmacokinetics (PK) and pharmacodynamics (PD) modelling
