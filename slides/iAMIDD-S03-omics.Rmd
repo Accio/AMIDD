@@ -2,7 +2,7 @@
 title: "Omics and next-generation sequencing"
 author: "Jitao david Zhang"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
-## fontsize: 10pt
+fontsize: 10pt
 output: 
   beamer_presentation:
     includes:
@@ -29,29 +29,42 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Transcriptomics
 
-\takehome{Transcriptomics can characterize drug candidates}
+\takehome{Transcriptomics among others characterizes drug candidates}
 
 ## Proteomics
 
-\takehome{Proteomics can identify biomarkers}
+\takehome{Proteomics among others identifies biomarkers}
 
 # Next-generation sequencing
 
 ## Principles
 
-## Applications
-
-# Mathematics and informatics underlying next-generation sequencing
+\takehome{NGS generate reads from DNA}
 
 ## Mapping reads to the genome with BWA
 
+\takehome{BWA is an efficient way to map reads to the genome}
+
 ## Mapping reads to the transcriptome with graph models
+
+\takehome{Graph models allow fast mapping of reads to transcriptome}
 
 ## Model gene expression data with negative-binomial distributions and generalized linear models
 
+\takehome{NB+GLM model NGS gene expression and differential expression}
+
 ## Gene-set enrichment analysis
+
+\takehome{Competative and self-containing methods are available for GSEA}
 
 # Conclusions
 
-## Omics complement the classical pharmacological studies of drug candidates
+## Omics complement classical pharmacological studies of drug candidates
 
+## Other topics
+
+* Variants of NGS to study chromatin structure, epigenetics, \textit{etc.}
+* Mass spectrometry, flow cytometry and Cytometry of the Masses (CyTOF)
+* Metabolomics
+* Single-cell genomics, transcriptomics and proteomics
+* Spatial transcriptomics
