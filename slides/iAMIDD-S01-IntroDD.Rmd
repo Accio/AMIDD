@@ -174,7 +174,7 @@ plot(function(x) 1/(x-0.5)^2+log(x), pch=21, xlim=c(1,6), xaxt="n",
 
 ## The curriculum
 
-* Computational biology and bioinformatics
+* Bioinformatics and computational biology
     * Biological sequence analysis
     * Omics and next-generation sequencing
     * Bioinformatics approaches to understanding MoA of compounds
@@ -187,7 +187,7 @@ plot(function(x) 1/(x-0.5)^2+log(x), pch=21, xlim=c(1,6), xaxt="n",
     * Principles and applications of modelling in pharmacology
     * Pharmacokinetics (PK) and pharmacodynamics (PD) modelling
     * Clinical pharmacology and pharmacokinetics
-* From bench to bed and back
+* From bench to bed and back: statistics, machine learning, and causal inference
     * Emerging non-invasive markers: imaging and digital biomarker
     * Clinical trials
     * From real-world data to causal analysis and inference
