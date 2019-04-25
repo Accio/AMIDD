@@ -323,7 +323,7 @@ PhRMA, Drug Development Process
 
 ## The curriculum
 
-* Computational biology and bioinformatics
+* Bioinformatics and computational biology
     * Biological sequence analysis
     * Omics and next-generation sequencing
     * Bioinformatics approaches to understanding MoA of compounds
@@ -336,7 +336,7 @@ PhRMA, Drug Development Process
     * Principles and applications of modelling in pharmacology
     * Pharmacokinetics (PK) and pharmacodynamics (PD) modelling
     * Clinical pharmacology and pharmacokinetics
-* From bench to bed and back
+* From bench to bed and back: statistics, machine learning, and causal inference
     * Emerging non-invasive markers: imaging and digital biomarker
     * Clinical trials
     * From real-world data to causal analysis and inference

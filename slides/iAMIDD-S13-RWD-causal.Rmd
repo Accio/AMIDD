@@ -17,6 +17,116 @@ output:
 
 # Real-world data
 
-# Machine learning or AI: what are we talking about?
+## What is real-world data
 
-# Causal analysis and inference
+* Real world data (RWD) in medicine is data derived from a number of sources that are associated with outcomes in a heterogeneous patient population in real-world settings, such as patient surveys, clinical trials, and observational cohort studies.
+* Real-world data refer to observational data as opposed to data gathered in an experimental setting such as a randomized controlled trial (RCT). 
+* They can come from electronic health records, insurance claims and billing activities, product and disease registries, \textit{etc}.
+
+## Potential applications of RWD in drug discovery
+
+* Generating Evidence Regarding Safety and Effectiveness
+* Supporting FDA’s Regulatory Decisions of Effectiveness
+* Trial Designs Using RWD to Generate Evidence 
+
+## Pitfalls of RWD and other 'big-data' activities around drug discovery
+
+## Motivation of causal analysis and inference
+
+* The detection of statistical dependences is a core problem of statistics and machine learning. It plays a crucial role in association studies, and it generalizes the prediction tasks commonly studied by machine learning. 
+* In recent years, machine learning methods have enabled us to perform rather accurate prediction, often based on large training sets, for complex nonlinear problems that not long ago would have appeared completely random.
+* However, in many situations we would actually prefer a \textbf{causal model} to a purely predictive one; i.e., a model that might tell us that a specific variable (say, whether or not a person smokes) is not just statistically associated with a disease, but it is causal for the disease. 
+
+## How causal analysis and inference can be done
+
+* The ultimate method to argue convincingly that such a causal link exists is if we understand the mechanism by which it acts (the goal of drug discovery). 
+* A slightly weaker, albeit still generally recognized method is to perform a controlled intervention study (randomized clinical trials).
+* The weakest method at present are those that rely solely on observational data. They are weakest in terms of the reliability of the statements they lead to; however, they are strongest in the sense of broad applicability including also problems where mechanistic modeling or interventions are impossible. It is still an open question to what extent this is possible.
+* Many academic research groups, for instance MPI Tübingen, work on discovering causal relations from observational data alone.
+
+## Why are Randomised Clinical Trials golden standard in drug discovery?
+
+## Three schools for causal analysis
+
+## Causal Bayesian Network
+
+Graphical model
+
+## Counterfactuals
+
+What would happen if I have not smoked in the last two years?
+
+## Structural equation models (SEMs)
+
+# Causal analysis for drug discovery: the case study of neurogenesis
+
+## Neurogenesis in adult hippocampus
+
+## Exercise, neurogenesis, and behavior
+
+* Running enhances spatial pattern separation in mice (Creer et al., PNAS)
+* Figure 2: neurogenesis and improved behavior
+doi:10.1073/pnas.0911725107
+
+## Assumptions as models
+
+* Model 1: Neurogenesis-dependent model ($M_{ND}$)
+
+* Model 2: Neurogenesis-independent model ($M_{NI}$)
+
+## Classical statistical analysis
+
+* Student's t-test
+* Linear regression
+* ANCOVA
+
+## Bayesian graphical model
+
+Advantages
+
+* Can be scaled up to more complex experimental designs
+* More robust estimates with small sample sizes
+* Allows latent variables and prior information to be included
+* Direct probability statements can be made about the parameters, and hence the results can provide support for the null hypothesis
+
+## The analysis
+
+For $M_{ND}$
+\begin{equation}
+P(T,N,B) = P(B|N)P(N|T)P(T)
+\end{equation}
+
+For $M_{NI}$
+\begin{equation}
+P(T,N,B) = P(B|T)P(N|T)P(T)
+\end{equation}
+
+## Assumptions
+
+* Standard assumptions
+    * A large enough sample size to obtain reasonably precise estimates
+    * Important variables must not be omitted
+    * Random assignment of animals to groups
+    * Randomized collection of data, processing of samples, and quantification to avoid time-dependent confounding factors
+* Additional assumptions for causal models
+    * The mediator (\textit{e.g.} neurogensis in this case) should ideally be measured without error
+    * There should no neurogenesis by treatment interaction
+    * The reasiduals $\eta_{1}$ and $\eta_{4}$ should not be correlated
+    * The arrows are pointing in the right direction
+    
+## The results
+
+## Discussions
+
+# Further reading
+
+## Granger causality
+
+* Granger (1969)
+* The fundamental idea is to leverage the assumption that \textbf{the future does not cause the past} to test the existence and direction of a causal link between two time series
+
+## Causal inference in statistics: an overview
+
+## MPI Tübingen: causal inference
+
+* [MPI Tübingen](http://webdav.tuebingen.mpg.de/causality/description_of_our_work.html)

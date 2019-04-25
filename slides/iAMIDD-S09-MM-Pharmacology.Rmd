@@ -1,5 +1,5 @@
 ---
-title: "Mathematical modelling in biology and pharmacology"
+title: "Mathematical modelling in pharmacology"
 author: "Jitao David Zhang"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 fontsize: 10pt
@@ -15,13 +15,84 @@ output:
     theme: CambridgeUS
 ---
 
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(echo=FALSE,
+                     message=FALSE,
+                     warnings=FALSE)
+library(ggplot2)
+ggplot2::theme_update(text=element_text(size=14))
+ggplot2::update_geom_defaults("point", list(size = 2))
+```
+
 # Introduction to Pharmacology
 
-# Basic concepts of mathematical modelling
+## What is pharmacology
 
-# Mathematical modelling in biology: a case study of enzymology
+## Why mathematical modelling in pharmacology
 
-# Mathematical modelling in pharmacology: a case study of the heart model
+Mathematical modelling links the experimental observations and the events taking place on the molecular level between the drug and protein recognition sites. It can be used to 
+
+* Gain insights about the system;
+* Predict the bahavior of the system;
+* Explain or resolve apparent conflicts in observed data;
+* Guide optimal experiment design;
+
+## The Langmuir adsoprtion isotherm
+
+## Dose-response data
+
+\begincols
+  \begincol{.4\textwidth}
+  Function 1:
+  $$
+  y = 78(1-e^{-.76[\textrm{A}]^.75})-2
+  $$
+  Function 2:
+  $$
+  y = \frac{80\textrm{[A]}}{\textrm{[A]}+1}
+  $$
+  \endcol
+  \begincol{.6\textwidth} 
+```{r doseResponse, fig.height=3, fig.width=5}
+dr1 <- function(x) 78*(1-exp(-.76*x^.75))-2
+dr2 <- function(x) 80*x/(x+1)
+
+dose <- 10^seq(-3,3)
+dr1Data <- data.frame(Function="Func1", Input=dose, Output=dr1(dose))
+dr2Data <- data.frame(Function="Func2", Input=dose, Output=dr2(dose))
+drData <- rbind(dr1Data, dr2Data) 
+drPlot <- ggplot(drData, aes(x=Input, y=Output)) +
+  facet_wrap(~Function, scale="free_y") +
+  scale_x_log10() +
+  geom_point() +
+  geom_line()
+print(drPlot)
+```
+  One data set fit to two functions of the same general shape within the given domain.
+  \endcol
+\endcols
+
+## An ubiquitous input-output model in biology
+
+
+$$
+\textrm{Output} = \frac{\alpha \cdot \textrm{[Input]}}{\beta \cdot \textrm{[Input]} + \gamma} + \delta
+$$
+
+* Visualization
+* Non-linearity
+
+## The classical model of receptor function
+
+## The operational model of receptor function
+
+## Two-state theory
+
+## The ternary complex model and the extended ternary complex model
+
+## The cubic ternary complex model
+
+# A case study of computational enzymology
 
 # Software
 
