@@ -1,6 +1,6 @@
 ---
 title: "Mathematical modelling in biology and pharmacology"
-author: "Jitao david Zhang"
+author: "Jitao David Zhang"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 fontsize: 10pt
 output: 
