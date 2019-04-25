@@ -341,6 +341,28 @@ PhRMA, Drug Development Process
     * Clinical trials
     * From real-world data to causal analysis and inference
 
+## What To and Not To Expect
+
+\begincols
+  \begincol{.5\textwidth}
+**What do expect**
+
+* Introduction to many different aspects of applied mathematics and informatics in drug discovery
+* Awareness of how applied mathematics and informatics helps transforming good ideas into a medicine
+* Raise interest, questions, and explore options for professional development
+* Resources if you want to learn more about specific topics
+
+  \endcol
+  \begincol{.5\textwidth}
+**What not to expect**
+
+* Emphasis on one specific descipline
+* Detailed descriptions of each topic
+* Prompt and accurate answers for all questions (we will try to find them out, though!)
+
+  \endcol
+\endcols
+
 ## Administrivia
 
 * Oral examination
@@ -357,6 +379,10 @@ PhRMA, Drug Development Process
 ## Next week: 
 
 ## References
+
+## Acknowledgment
+
+* Dr. Ignacio Rodriguez
 
 ## Technical notes
 
