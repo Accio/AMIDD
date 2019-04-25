@@ -81,7 +81,7 @@ LO
   ~ Lead optimization, optimize pharmacological profiles of lead compounds
   
 Phase I
-  ~ Mainly for safety, mostly in healthy volunteers, but also patients possible
+  ~ Mainly for safety, mostly in healthy volunteers (HVs), but also patients possible
   
 Phase II
   ~ Safety and efficacy, proof-of-concept
@@ -107,7 +107,9 @@ Since late 19th century, drug discovery experienced several waves of revolution
 
 ## Target assessment: which target to work on?
 
+* Sometimes known as target identification and validation
 * Genetics and molecular biology revolutionlized drug discovery
+* Phenotypic and genotypic approaches
 
 \takehome{A good TA can lead to better understanding of biology}
 
@@ -115,17 +117,39 @@ Since late 19th century, drug discovery experienced several waves of revolution
 
 \takehome{Tailored screening stategy increases likelihood of success}
 
-## LI and LO phase: work up on the chosen few
+## Lead Identification (LI)
+
+* Selection of most promising chemical series
+
+## Lead Optimization (LO)
+
+* Selection of most promising candidate(s)
 
 \takehome{Molecular interaction and QSAR guides lead optimization}
 
-## Preclinical safety: do animals tolerate the drug?
+## Formulation and delivery
+
+* Biopharmaceutical properties
+* Formulation to optimize use, safety, and efficacy
+
+## Preclinical safety and toxicology
+
+* ADME studies
+    * **A**bsorption
+    * **D**istribution
+    * **M**etabolism
+    * **E**xcretion
+* GLP (Good Laboratory Process) toxicology studies
+    * Species selection based on relevance and sensitivity
+    * Target expression
+    * On-target and off-target effects
+    * Dose selection for human studies with PK/PD modelling and simulation: how much and how often?
+    * Inform risk management in humans
+* Investigative toxicology studies
+
+The three **R** (replace, reduce, and refine) principle applies.
 
 \takehome{To make a drug safe is no less important than making it work}
-
-## PK/PD modelling and simulation: how much and how often?
-
-\takehome{PK/PD connects exposure, efficacy, and time}
 
 ## Clinical trials: is the drug safe and efficacous?
 
@@ -134,6 +158,58 @@ Since late 19th century, drug discovery experienced several waves of revolution
 * PTS (probability of technical success)
 * ...
 \takehome{Clinical trials can be tranquilizing for statisticians!}
+
+## Phase I clinical trials
+
+* Safety and tolerability
+    * Define a safe clinical dose range
+* Human pharmacology
+    * The right dose for the right patient
+* Studies in a small number of subjects
+    * HV vs. patients
+* Drug-drug interaction studies
+
+## Phase II clinical trials
+
+* Therapeutic exploration
+* Safety in the target population
+* Proof-of-concept studies
+* Use of biomarkers to stratify patients
+* Dose selection
+* Pharmacokinetics/pharmacodynamics (PK/PD) modelling
+
+## Phase III clinical trials
+
+* Therapeutic confirmation
+    * Sometimes known as *pivoral* trials
+    * Usually multinational studies with many more patients than previous phases
+* Safety evaluation for post-marketing risk management 
+* Regulatory filing
+
+## Phase IV clinical trials
+
+* Therapeutic use
+    * Post-registration monitoring
+    * Further exploration/confirmation of safety and efficacy profiles
+    * Real-life experience of the medicine
+    * Pharmacoeconomic evaluations
+* Global expansion
+* Novel indications, sometimes known as *repurposing*.
+* Investigator-led studies
+* Epidemiologic studies
+
+## Model- and data-driven approaches drive current trends in clinical development 
+
+** Maybe we should put this in the clinical part of the presentation? **
+
+* Seamless development programs, for instance
+    * Integrated phase I-II studies
+    * Move from phase I to phase III directly
+    * Adaptive clinical studies
+    * Staggered enrollment and interim analysis
+* Predictions based on preclinical models
+* Use PK/PD modelling and simulation
+* Use of biomarkers for patient stratification
 
 ## Biomarkers
 
@@ -162,13 +238,86 @@ plot(function(x) 1/(x-0.5)^2+log(x), pch=21, xlim=c(1,6), xaxt="n",
 * Drug discovery is one of the most interdisciplinary enterprises of human beings
     * Pros for quantitative minds: mathematics is the language
     * Challenges for quantitative minds: openness and effective communication is critical
+* Scientifically challenging
+    * Much remains unknown about biology and chemistry
 * We are *doing what patients need next*
     * We save lifes by making new drugs or introducing new diagonistic tools
-* Drug discovery is subject to strong regulatory regulation
+* Strong regulatory regulation
     * Especially in the development process, interactions with health authorities (HA) are essential.
+* Economic implications
 * Ethic considerations are important
     * Refinement, replacement, and reduction (3R) of animal models
     * Accessibility of drugs for patients
+
+## Approval times
+
+Kaitin KI et al., Clin Pharmacol Ther. 2011; 89(2): 183-188
+
+## Considerations to start a drug-discovery program
+
+* Efficacy
+* Safety
+    * Thorough evaluation of benefit and risk
+    * Risk management
+* Marketing
+    * Differenation
+    * Evidence of efficacy
+    * Long-temr development plans
+* Timing
+* Regulatory strategy
+* Clinical use
+
+## More factors for consideration
+
+* Medical need
+* Business and strategic plan
+* Therapeutic modality
+* Indication (e.g. high risk versus primary care)
+* First-in-class vs. follow-on
+* Regulatory plan
+* Internal capabilities and expertise
+* Availability and predictability of non-clinical models
+* Planned population in early clinical studies
+* etc.
+
+## Therapeutic modalities
+
+* Small molecules
+* Peptides
+* Antibodies
+* Therapetic proteins
+* Oligonucleotides
+* Antibody-drug conjugates
+* Vaccines
+* Gene therapy
+
+## Today's drug development work is for tomorrow
+
+** Need to start with the end in mind **
+
+* Use of models/surrogate markers for extrapolation
+    * Non-clinical --> clinical
+    * HVs --> Patients
+    * Phase II --> Phase III
+    * Phase III --> Phase IV
+    * Current indication(s) --> Novel indication(s)
+* Safety always - Hoping for efficacy
+    * Need to optimize risk benefit
+    * Understand risk tolerance
+    * Alternative therapeutic options
+* Characterize and understand variability in response
+
+## Success rates by therapeutic classes
+
+DiMasi JA et al. Clin PHarmacol Ther. 2010;87(3):272-277
+
+## Success rates as experienced by AstraZeneca
+
+Morgan et al. NRDD. 2018; 17(3):167-181
+
+## Drug discovery is a long and expensive process
+
+PhRMA, Drug Development Process
 
 # An overview on the course series
 
