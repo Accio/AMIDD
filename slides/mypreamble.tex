@@ -9,10 +9,12 @@
 \definecolor{lightblue}{rgb}{0.68, 0.85, 0.9}
 \definecolor{steelblue}{rgb}{0.27, 0.51, 0.71}
 \definecolor{rocheblue}{rgb}{0, .4, .8}
+\definecolor{amber}{rgb}{1.0, 0.75, 0.0}
 
 % for color box, a great package with great documentation, by Prof.Dr.Dr. T-F-S.
 % https://www.ctan.org/pkg/tcolorbox
 \usepackage{tcolorbox}
+\usepackage{graphicx}
 
 % \bigskip and \btVfill: see https://tex.stackexchange.com/questions/54180/how-do-i-write-something-at-the-end-of-the-slide-in-beamer
 \newcommand{\btVFill}{\vskip0pt plus 1filll}
@@ -40,4 +42,11 @@
    #2
    \end{tcolorbox}
    \pause
+}
+
+\newcommand{\question}[1]{%
+  \pause
+  \begin{tcolorbox}[colback=amber!5,colframe=amber!95!black, title=Questions, boxsep=0mm, fonttitle=\bfseries]
+   #1
+  \end{tcolorbox}
 }
