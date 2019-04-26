@@ -56,6 +56,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Levenshtein distance
 
+<!-- This method was invented in 1965 by the Russian Mathematician Vladimir Levenshtein (1935-2017).  --> 
+
+---
+## This another way to make comments within Rmd file
+---
+
 - The minimum number of operations required to transform string $a$ to string $b$ with following operations:
     * Insersion, for instance sit $\textrm{bat}~\rightarrow~\textrm{bait}$ 
     * Deletion, \textit{e.g.} $\textrm{boat}~\rightarrow~\textrm{bot}$
@@ -83,6 +89,7 @@ ldRes <- utils::adist(str1, str2)[1,1]
 ```
 
 \exercise{What is the Levenshtein distance between \texttt{`r str1`} and \texttt{`r str2`}?}{`r ldRes`}
+
 - Beyond bioinformatics, the Levenshtein distance is often used in computational linguistics and natural language processing, for example in spellchecking. For instance, check out [*How to Write a Spelling Corrector*](http://norvig.com/spell-correct.html) by Peter Norvig.
 
 \takehome{Levenshtein distance applies to biological sequences}
