@@ -58,6 +58,7 @@ eAttrs$style <- c("RNA~DNA"="dotted")
                   graph=list()),
        recipEdges="distinct")
   ## TODO: (1) dotted in reverse transcription (2) offsets of labels. Are both possible with Rgraphviz?? I am not sure.
+  ## Alternative: DiagrammeR
 }
 ```
   \endcol
