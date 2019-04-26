@@ -6,6 +6,10 @@
 \def\endcols{\end{columns}}
 \def\myemail{\href{mailto:jitao\_david.zhang@roche.com}{jitao\_david.zhang@roche.com}}
 
+\definecolor{lightblue}{rgb}{0.68, 0.85, 0.9}
+\definecolor{steelblue}{rgb}{0.27, 0.51, 0.71}
+\definecolor{rocheblue}{rgb}{0, .4, .8}
+
 % for color box, a great package with great documentation, by Prof.Dr.Dr. T-F-S.
 % https://www.ctan.org/pkg/tcolorbox
 \usepackage{tcolorbox}
@@ -18,9 +22,22 @@
   \bigskip
   \btVFill
   \pause
-  \begin{tcolorbox}[colback=blue!10!white, colframe=blue!50!black,notitle,boxsep=0mm,
+  \begin{tcolorbox}[colback=green!10!white, colframe=green!40!black,notitle,boxsep=0mm,
   fontupper=\sffamily\bfseries, halign=center, valign=center, natural height] 
   #1
   \end{tcolorbox}
 
+}
+
+
+\newcommand{\exercise}[2]{%
+   \pause
+   \begin{tcolorbox}[colback=orange!5,colframe=orange, title=Question, boxsep=0mm, fonttitle=\bfseries]
+   #1
+   \end{tcolorbox}
+   \pause
+   \begin{tcolorbox}[colback=rocheblue!5,colframe=rocheblue, title=Answer, boxsep=0mm, fonttitle=\bfseries]
+   #2
+   \end{tcolorbox}
+   \pause
 }
