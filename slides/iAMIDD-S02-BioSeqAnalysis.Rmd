@@ -119,10 +119,9 @@ $\begin{bmatrix}
 ## Substitution matrix continued
 
 - Log-odds matrices: we can express the probabilities of substitution with log-odds scores. The scores matrix S is defined as
-
-$S_{i,j} = \log \frac{p_i \cdot M_{i,j}}{p_i \cdot p_j} = \log \frac{M_{i,j}}{p_j} = \log \frac{\text{observed frequency}}{\text{expected frequency}}$
-
-where $M_{i,j}$ is the probability that character $i$ transforms into character $j$, and $p_i$, $p_j$ are the frequencies of character $i$ and $j$.
+    $S_{i,j} = \log \frac{p_i \cdot M_{i,j}}{p_i \cdot p_j} = \log \frac{M_{i,j}}{p_j} = \log \frac{\text{observed frequency}}{\text{expected frequency}}$
+    \newline
+    where $M_{i,j}$ is the probability that character $i$ transforms into character $j$, and $p_i$, $p_j$ are the frequencies of character $i$ and $j$.
 
 - Commonly used log-odds substitution matrices
     * PAM (Point Accepted Mutation) matrix, developed by Margaret Dayhoff in the 1970s, works well to compare closely related species, \textit{e.g.} rat and mouse.
