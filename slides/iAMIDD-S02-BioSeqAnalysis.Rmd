@@ -82,7 +82,6 @@ where $1_{(a_i \neq b_j)}$ is the indicator function equal to 0 when  $a_i = b_j
 
 - The Levenshtein distance is often referred to as the *edit distance*. 
 
-
 ```{r levenshteinDistanceExcercise, echo=FALSE, results='hide'}
 str1 <- "AATGCTGCTT"
 str2 <- "AATGCATT"
@@ -96,6 +95,38 @@ ldRes <- utils::adist(str1, str2)[1,1]
 \takehome{Levenshtein distance applies to biological sequences}
 
 ## Substitution matrix
+
+<!-- use \scalebox in the graphicx package to resize things  --> 
+
+- Substitution matrix describes the rate at which one character changes to other character states over time.
+- Example of DNA-damage-inducible 1/2 protein (Silva *et al.*, Nature Reports, 2016): 
+    * \texttt{...DTGAQTT...} (yeast)
+    * \texttt{...D\textcolor{red}{S}GAQTT...} (fruit fly)
+    * \texttt{...D\textcolor{red}{S}GAQ\textcolor{red}{M}T...} (human)
+- The simplest substitution matrix: the Identity matrix
+\scalebox{0.7}{
+$\begin{bmatrix}
+ 1 & 0 & \cdots & 0 & 0 \\
+ 0 & 1 &        & 0 & 0 \\
+ \vdots & & \ddots & & \vdots \\
+ 0 & 0 &        & 1 & 0 \\
+ 0 & 0 & \cdots & 0 & 1
+\end{bmatrix}$
+}
+
+\question{(1) What are the advantage and disadvantage of using the identity matrix? (2) What other alternatives can you imagine?}
+
+## Substitution matrix continued
+
+- Log-odds matrices: we can express the probabilities of substitution with log-odds scores. The scores matrix S is defined as
+
+$S_{i,j} = \log \frac{p_i \cdot M_{i,j}}{p_i \cdot p_j} = \log \frac{M_{i,j}}{p_j} = \log \frac{\text{observed frequency}}{\text{expected frequency}}$
+
+where $M_{i,j}$ is the probability that character $i$ transforms into character $j$, and $p_i$, $p_j$ are the frequencies of character $i$ and $j$.
+
+- Commonly used log-odds substitution matrices
+    * PAM (Point Accepted Mutation) matrix, developed by Margaret Dayhoff in the 1970s, works well to compare closely related species, \textit{e.g.} rat and mouse.
+    * BLOSUM (BLOck SUbstitution Matrix), developed by Steven and Jorja G. Henikoff in early 1990s, works well for evolutionarily divergent sequences, say zebrafish and human.
 
 ## The Needleman-Wunsch algorithm
 
