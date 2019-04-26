@@ -8,11 +8,9 @@ output:
     includes:
       in_header: mypreamble.tex
     toc: true
-    colortheme: dolphin
     fig_height: 4
     fig_width: 4
-    fonttheme: structurebold
-    theme: CambridgeUS
+    theme: metropolis
 ---
 
 ```{r setup, include=FALSE}
@@ -56,6 +54,25 @@ knitr::opts_chunk$set(echo = FALSE)
 \takehome{RNA is a string of characters and is often single-stranded}
 
 ## Levenshtein distance
+
+*<1->The minimum number of operations required to transform string $a$ to string $b$ with following operations:
+    * Insersion, for instance sit $\textrm{like}~\rightarrow~\textrm{alike}$ 
+    * Deletion, \textit{e.g.} $\textrm{boat}~\rightarrow~\textrm{bot}$
+    * Substitution, \textit{e.g.} $\textrm{pig}~\rightarrow~\textrm{big}$
+*<2->The Levenshtein distance between two strings $a, b$ of length $|a|$ and $|b|$ respectively is given by $\operatorname{lev}_{a,b}(|a|,|b|)$ where
+
+$\qquad\operatorname{lev}_{a,b}(i,j) = \begin{cases}
+  \max(i,j) & \text{ if } \min(i,j)=0, \\
+  \min \begin{cases}
+          \operatorname{lev}_{a,b}(i-1,j) + 1 \\
+          \operatorname{lev}_{a,b}(i,j-1) + 1 \\
+          \operatorname{lev}_{a,b}(i-1,j-1) + 1_{(a_i \neq b_j)}
+       \end{cases} & \text{ otherwise.}
+\end{cases}$
+
+where $1_{(a_i \neq b_j)}$ is the indicator function equal to 0 when  $a_i = b_j$ and equal to 1 otherwise, and $\operatorname{lev}_{a,b}(i,j)$ is the distance between the first $i$ characters of $a$ and the first $j$ characters of $b$.
+
+*<3->The Levenshtein distance is often referred to as the *edit distance*. It is often used in computational linguistics and natural language processing, for example in spellchecking.
 
 \takehome{Levenshtein distance describe distances between DNA/RNA sequences}
 
