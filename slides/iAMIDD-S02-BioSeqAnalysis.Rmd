@@ -3,15 +3,21 @@ title: "Biological sequence analysis in drug discovery"
 author: "Jitao David Zhang"
 date: "`r format(Sys.Date(), '%b %d, %Y')`"
 fontsize: 10pt
+always_allow_html: yes
 output: 
   beamer_presentation:
     includes:
       in_header: mypreamble.tex
+    latex_engine: xelatex
     toc: true
     fig_height: 4
     fig_width: 4
     incremental: true
     theme: metropolis
+  html_document:
+    self_contained: yes
+    theme: cerulean
+    toc: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -19,6 +25,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(Rgraphviz)
 library(RColorBrewer)
 library(ribiosPlot)
+library(DiagrammeR)
 ```
 
 # The Central Dogma of Molecular Biology
@@ -65,6 +72,20 @@ eAttrs$style <- c("RNA~DNA"="dotted")
 \endcols  
    
 \takehome{The CD graph view offers insights for drug discovery}
+
+## The central dogma, again
+
+<!-- Not rendering, TODO: https://github.com/rich-iannone/DiagrammeR/issues/133 -->
+
+```{r echo=FALSE}
+DiagrammeR::grViz("digraph rmarkdown {
+  DNA -> RNA
+  RNA -> Protein
+  DNA -> DNA
+  RNA -> DNA
+  RNA -> RNA
+}", height=400)
+```
 
 ## Drugs target either nodes or edges of the graph
 
