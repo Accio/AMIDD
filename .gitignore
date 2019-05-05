@@ -7,3 +7,4 @@ slides/*.pdf
 .Rproj.user
 .Rhistory
 
+*.log
