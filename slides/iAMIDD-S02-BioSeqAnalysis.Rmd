@@ -22,6 +22,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+options(tinytex.verbose = TRUE)
 library(Rgraphviz)
 library(RColorBrewer)
 library(ribiosPlot)
