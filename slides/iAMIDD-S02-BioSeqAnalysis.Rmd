@@ -76,16 +76,45 @@ eAttrs$style <- c("RNA~DNA"="dotted")
 
 ## The central dogma, again
 
-<!-- Not rendering, TODO: https://github.com/rich-iannone/DiagrammeR/issues/133 -->
+<!-- 
+By default, DiagrammeR::grViz(cdgGrFullCode, height=400) won't work.
+
+Either export_svg -> charToRaw -> rsvg_pdf
+or use phantomjs (see blow)
+
+https://github.com/rich-iannone/DiagrammeR/issues/133#issuecomment-284370996 -->
 
 ```{r echo=FALSE}
-DiagrammeR::grViz("digraph rmarkdown {
+pdf_digraph <- function(filename, code){
+  capture.output({
+  g <- grViz(paste("digraph{", code, "}"))
+  DiagrammeRsvg::export_svg(g) %>% charToRaw %>% rsvg::rsvg_pdf(filename)
+  },  file='NUL')
+  knitr::include_graphics(filename)
+}
+cdgGrCode <- "
   DNA -> RNA
   RNA -> Protein
   DNA -> DNA
   RNA -> DNA
-  RNA -> RNA
-}", height=400)
+  RNA -> RNA"
+cdgGrFullCode <- paste("digraph{", cdgGrCode, "}")
+##DiagrammeR::grViz(cdgGrCode, height=400)
+pdf_digraph("cfgraph.pdf", cdgGrCode)
+```
+
+## The central dogma, yet again
+
+<!-- 
+Run this once
+
+  install.packages("webshot")
+  webshot::install_phantomjs()
+
+See
+https://github.com/rich-iannone/DiagrammeR/issues/133#issuecomment-415121045 -->
+```{r cdrTry}
+DiagrammeR::grViz(cdgGrFullCode, height=400)
 ```
 
 ## Drugs target either nodes or edges of the graph
