@@ -27,6 +27,8 @@ library(Rgraphviz)
 library(RColorBrewer)
 library(ribiosPlot)
 library(DiagrammeR)
+library(rsvg)
+library(DiagrammeRsvg)
 ```
 
 # The Central Dogma of Molecular Biology
