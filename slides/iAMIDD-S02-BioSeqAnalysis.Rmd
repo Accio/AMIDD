@@ -87,13 +87,12 @@ https://github.com/rich-iannone/DiagrammeR/issues/133#issuecomment-284370996 -->
 ```{r echo=FALSE}
 pdf_digraph <- function(filename, code){
   capture.output({
-  g <- grViz(paste("digraph{", code, "}"))
-  DiagrammeRsvg::export_svg(g) %>% charToRaw %>% rsvg::rsvg_pdf(filename)
-  },  file='NUL')
+    g <- grViz(paste("digraph{", code, "}"))
+    DiagrammeRsvg::export_svg(g) %>% charToRaw %>% rsvg::rsvg_pdf(filename)
+  },  file=NULL)
   knitr::include_graphics(filename)
 }
-cdgGrCode <- "
-  DNA -> RNA
+cdgGrCode <- "DNA -> RNA
   RNA -> Protein
   DNA -> DNA
   RNA -> DNA
