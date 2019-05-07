@@ -8,3 +8,4 @@ slides/*.pdf
 .Rhistory
 
 *.log
+*.RData
