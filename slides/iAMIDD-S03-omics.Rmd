@@ -21,18 +21,38 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Omics
 
-## The central dogma
+## Omics in the view of the central dogma
 
 ## Genomics
 
+* Three billion bases in human genome in the form of \texttt{ATGCGACT...}.
+* Genomic information, together with environmental factors, determine *traits*, including risk to development disease and likelihood to suffer from diseases
+    * APOE: associated with risk of Alzheimer
+    * HER2: associated with response to HER2-blocking anti-cancer therapy
+    * (TODO: another example of CYP)
+
 \takehome{Genomics among others helps to stratify patients}
 
+## GWAS studies
+
+* GWAS = Genome-while association studies
+* Explore genotype-phenotype associations in a large population
+* One way to identify target genes, conditional on functional validation
+
 ## Transcriptomics
+
+* About 20,000 genes in the human genome, both protein-coding and non-coding.
+* Genes in the genome are transcribed as message RNAs (mRNAs), in the form of \texttt{AUGGACT}
+* Much information are available by profiling the transcriptome by sequencing
+     * Nucleotide sequence
+     * Abundance
 
 \takehome{Transcriptomics among others characterizes drug candidates}
 
 ## Proteomics
 
+* About 20,000 proteins in the human genome, which are translated from mRNAs into proteins.
+* Proteomics can quantify expression levels of proteins, but also post-translational modifications (PTMs), such as phosphorylation, ubiquitination, etc.
 \takehome{Proteomics among others identifies biomarkers}
 
 # Next-generation sequencing
@@ -52,6 +72,14 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Model gene expression data with negative-binomial distributions and generalized linear models
 
 \takehome{NB+GLM model NGS gene expression and differential expression}
+
+## Negative-binomial distributions
+
+Two understanding of negative-binomial distributions
+
+## Linear models
+
+## Generalized linear models
 
 ## Gene-set enrichment analysis
 
