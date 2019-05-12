@@ -47,7 +47,7 @@ The course consists of 14 sessions (two hours each) and a final oral examination
     1. Principles and applications of modelling in pharmacology
     1. Pharmacokinetics (PK) and pharmacodynamics (PD) modelling
     1. Clinical pharmacology and pharmacometrics
-1. Part V: From candidates to drugs (and back)
+1. Part V: Statistics and machine learning
     1. Emerging biomarkers: imaging and digital biomarker
     1. Clinical trials 
     1. From real-world data to causal analysis and inference
