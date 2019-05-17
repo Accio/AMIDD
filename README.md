@@ -37,7 +37,6 @@ The course consists of 14 sessions (two hours each) and a final oral examination
 1. Part II: Bioinformatics and computational biology
     1. Biological sequence analysis
     1. Next-generation sequencing
-    1. Bioinformatics approaches to understanding MoA of compounds
     1. Protein sequence and structure
 1. Part III: Chemoinformatics and computer-aided drug design
     1. Chemical structure representation and search
@@ -48,8 +47,8 @@ The course consists of 14 sessions (two hours each) and a final oral examination
     1. Pharmacokinetics (PK) and pharmacodynamics (PD) modelling
     1. Clinical pharmacology and pharmacometrics
 1. Part V: Statistics and machine learning
+    1. Design of Experiment and clinical trials 
     1. Emerging biomarkers: imaging and digital biomarker
-    1. Clinical trials 
     1. From real-world data to causal analysis and inference
 
 ## Acknowledgement
