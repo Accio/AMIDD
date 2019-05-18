@@ -1,0 +1,37 @@
+# Design of comparative experiments and data analysis {#doce}
+
+## Questions
+
+## Background
+
+### (Un)reproducible research
+
+### In vivo studies
+
+### The 3R principle
+
+## Mathematical concepts and models
+
+### Randomization
+
+### Blocking
+
+### Blinding
+
+### Association schemes in DOCE
+
+### Common statistical tests as linear models
+
+### Causal inference
+
+## Software
+
+### R
+
+## Resources for further learning
+
+http://statsthinking21.org/
+
+https://lindeloev.github.io/tests-as-linear/
+
+Shalizi, Cosma Rohilla. Advanced Data Analysis from An Elementary Point of View, n.d. http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/.
