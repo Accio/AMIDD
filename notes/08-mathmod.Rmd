@@ -1,0 +1,23 @@
+# Mathematical modelling {#mathmod}
+
+## Questions
+
+## Background
+
+### Enzymology and pharmacology
+
+## Mathematical concepts models
+
+### Four types of models
+
+### Langmuir aborption model
+
+### Michaelis Menten Enzyme Model
+
+## Software
+
+COPASI
+
+## Resources for further learning
+
+http://ocw.uci.edu/courses/math_113b_intro_to_mathematical_modeling_in_biology.html

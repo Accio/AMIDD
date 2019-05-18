@@ -1,0 +1,31 @@
+# Molecular descriptors and QSAR {#moldes}
+
+## Questions
+
+## Background
+
+### Descriptors derived from experimental measurements
+
+### Theoretical molecular descriptors
+
+### Efficacy
+
+### ADMET
+
+## Mathematical concepts and models
+
+### Unsupervised learning with principal component analysis
+
+### Supervised learning
+
+## Software
+
+pubchem
+
+ChEMBL
+
+https://deepchem.io/
+
+## Resources for further learning
+
+http://www.moleculardescriptors.eu/tutorials/tutorials.htm

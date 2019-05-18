@@ -1,0 +1,33 @@
+# Structure of biomolecules {#structure}
+
+## Questions
+
+## Background
+
+### Proteins
+
+## Mathematical concepts and models
+
+### Frames and moving frames
+
+### Orthogonal transformation and rotations
+
+### Torsion angles
+
+### X-ray
+
+### NMR
+
+### Protein folding
+
+## Software
+
+### pdb
+
+### pymol
+
+## Resources for further learning
+
+MATHEMATICAL TECHNIQUES IN STRUCTURAL BIOLOGY by J. R. Quine
+
+

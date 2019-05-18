@@ -1,0 +1,5 @@
+book_filename: "iAMIDD_notes_"
+language:
+  ui:
+    chapter_name: "Lecture "
+delete_merged_file: true

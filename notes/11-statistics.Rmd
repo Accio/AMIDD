@@ -1,0 +1,23 @@
+# Clinical trials {#ct}
+
+## Questions
+
+## Background
+
+### Design of comparative experiments
+
+## Mathematical concepts
+
+### Randomization
+
+### Blocking
+
+### Blinding
+
+### Bayesian statistics
+
+### Association scheme
+
+## Software tools
+
+## Resources for further learning

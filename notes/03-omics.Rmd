@@ -1,0 +1,39 @@
+# Genomics, transcriptomics, and proteomics {#omics}
+
+We describe applications of omics in disease understanding and drug discovery, especially in the light of underlying mathematical concepts.
+
+## Questions
+
+## Background information
+
+### Genomics
+
+### Transcriptomics
+
+### Proteomics
+
+### Next-generation sequencing
+
+### Mass spectrometry based protein quantification
+
+## Mathematical concepts and models
+
+### De Bruijn graph
+
+### Graph model
+
+### Linear model
+
+### Negative binomial distribution
+
+## Resources for further learning
+
+### Genomics
+
+### Transcriptomics
+
+### Mass spectrometry
+
+[Khan Academy](https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/mass-spectrometry/a/isotopes-and-mass-spectrometry)
+
+Meija, Juris. “Mathematical Tools in Analytical Mass Spectrometry.” Analytical and Bioanalytical Chemistry 385, no. 3 (June 1, 2006): 486–99. https://doi.org/10.1007/s00216-006-0298-4.

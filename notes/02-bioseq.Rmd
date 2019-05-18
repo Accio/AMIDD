@@ -1,0 +1,33 @@
+# Biological sequence analysis {#bioseq}
+
+## Questions
+
+## Background information
+
+### Central dogma of molecular biology
+
+### DNA, RNA, and proteins
+
+## Mathematical concepts and models
+
+### Levenshtein distance (edit distance)
+
+### Substitution matrix
+
+### Linear programming and the Needleman-Wunsch algorithm
+
+### Markov and hidden markov models
+
+## Software
+
+### BLAST
+
+### hmmer
+
+### Biopython
+
+## Resources for further learning
+
+* Rosalind
+* [Teaching RNA algorithms](http://rna.informatik.uni-freiburg.de/Teaching/) by Backofen Lab at U Freiburg, with [source code](https://github.com/BackofenLab/RNA-Playground) available on Github.
+* [An Introduction to Applied Bioinformatics](http://readiab.org/)

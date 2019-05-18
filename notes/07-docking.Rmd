@@ -1,0 +1,31 @@
+# Molecular modelling {#molmod}
+
+## Questions
+
+## Background
+
+### Molecular modelling
+
+### Molecular mechanics and quantum chemistry approaches
+
+### Molecular descriptors
+
+### Force fields
+
+### Docking
+
+The disco analogy
+
+## Mathematical concepts and models
+
+### The Lennard-Jones potential
+
+### Scoring functions for docking
+
+## Software 
+
+Autodock
+
+## Resources for further learning
+
+Neumaier, A. “Molecular Modeling of Proteins and Mathematical Prediction of Protein Structure.” SIAM Review 39, no. 3 (January 1, 1997): 407–60. https://doi.org/10.1137/S0036144594278060.
