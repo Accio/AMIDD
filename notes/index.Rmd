@@ -1,5 +1,5 @@
 --- 
-title: "Lecture notes: Introduction to Applied Mathematics And Informatics In Drug Discovery"
+title: "Introduction to Applied Mathematics And Informatics In Drug Discovery"
 author: "Jitao David Zhang"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
