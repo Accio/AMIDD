@@ -1,6 +1,46 @@
 # Introduction {#intro}
 
-## Drug discovery and development
+## Drug discovery as a multiscale modelling problem
+
+Drug discovery is an interdisciplinary enterprise. To develop a efficacious and safe drug, it requires the joint effort of scientists of many fields, in particular chemistry, biology, medicine, physics, statistics, mathematics, informatics,. 
+
+A common trait underlying contributions of different fields to drug discovery is that they presume models, and generate data to either validate, reject, or amend and improve the models. Drug mechanism and safety is profiled at multiple scales - molecular, cellular, and systematic levels - before a candidate can be tested in human in clinical trials. The *multiscale modelling process*, a term that I borrow from the field of physics and material science, lies right in the heart of applied mathematics and informatics in drug discovery. It sets the framework in which mathematical concepts and tools are used to describe complex biological systems and how drugs assert effects on them, and in which computers are used to translate the mathematical objects into human interpretable results.
+
+In light of the multiscale modelling process, this course series introduces selected applications of mathematics and informatics in drug discovery. In particular, we focus on four areas:
+
+1. Molecular-level modelling, which models structures of molecules and interactions between molecules using molecular modelling and simulation techniques.
+2. Celluar-level, or more recently, omics-level modelling, which examines all molecules of a particular kind (DNA, RNA, proteins, metabolites, *etc.*) of cells using high-throughput techniques.
+3. Physiological-level, or system-level, which examines how drug and the body interact and affect each other.
+4. Statistical modelling and inference, which underlies the three types of modelling above and informs us about the uncertainty of our models and inferences based on them.
+
+## The process of drug discovery and development
+
+A linear presentation of the drug discovery and development process can be often found in the following form or its variants.
+
+```{r drugDiscoveryLinear}
+```
+
+The phases are briefly introduced below.
+
+* Target assessment and validation
+* Screening/target-to-hit
+* Hit-to-lead
+* Lead optimization
+* Preclinical
+* Phase I clinical trial
+* Phase II clinical trial
+* Phase III clinical trial
+* Submission to launch
+* Post-launch activities
+
+## Reflecting the linear model 
+
+The linear model of drug discovery is very useful in several aspects.
+
+In reality, drug discovery is rarely linear. Instead, it is often a dynamic and iterative process, with countless variants from the ideal linear model. Rationalized approaches may not always lead to successful drug-discovery projects; and very often. serendipity plays a critical role, especially in the discovery of drugs of new, unexpected mechanisms. 
+
+Why, then, do we still care about rationalized approaches as described above in the multiscale modelling problem? First, because the rationalized approach complements the trial-and-error model of drug discovery. In addition, it can even pave ways to findings by chance, as long as the multiscale modelling process is not seen as a doctrine and the only way to success. Last but not least, the rationalized approach is the scientific way to follow up lucky findings in order to gain insights so that the drug candidate obtained by a lucky strike can be further improved in its efficacy and safety profiles. All the three aspects have been demonstrated by numerous examples in the last three decades of drug discovery.
+
 
 ## Some examples of bookdown
 
