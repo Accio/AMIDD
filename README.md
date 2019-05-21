@@ -36,11 +36,11 @@ $^{2}$ Department of Mathematics and Informatics, University Basel, Spiegelgasse
 
 ## Motivation
 
-Interdisciplinary research is imperative to drug discovery and disease understanding in the industrial setting. Mathematics and informatics play a central role in orchestrating different fields of research and integrating available knowledge and information to enable decisions. The speed and quality of these decisions have direct impacts on life quality of patients and their families. It is therefore of common interest to systematically review concepts, tools, and approaches of applied mathematics and informatics in drug discovery to encourage innovation. 
+Interdisciplinary research is imperative to drug discovery and disease understanding in the industrial setting. Mathematics and informatics play a central role in orchestrating different fields of research and integrating available knowledge and information to enable decisions. The speed and quality of these decisions have direct impacts on life quality of patients and their families. Therefore I believe it is important to discuss industrial questions and practices with students to encourage scientific exchange and future innovation. 
 
 ## Goals 
 
-It is hoped that with an introduction to applied mathematics and informatics in drug discovery, especially the motivating questions, concepts and models, and relevant open-source software, the students are motivated to deepen their knowledge in relevant fields. Equally important, the students are encouraged to apply what they learn to solve open challenges in drug discovery and to gain new insights.
+It is hoped that with an introduction to applied mathematics and informatics in drug discovery, especially the motivating questions, concepts and models, and relevant open-source software, the students are motivated to deepen their knowledge in relevant fields in order to solve open challenges in drug discovery.
 
 ## Audience
 
