@@ -1,16 +1,38 @@
 Introduction to Applied Mathematics and Informatics in Drug Discovery (iAMIDD)
 ===
 
-[Jitao David Zhang](mailto:jitao_david.zhang@roche.com), Pharma Research and Early Development, Roche Innovation Center Basel, Pharmaceutical Sciences, Grenzacherstrasse 124, 4070 Basel, Switzerland
+[Jitao David Zhang](mailto:jitao_david.zhang@roche.com)$^{1,2}$
 
-March 1<sup>st</sup>, 2019
+$^{1}$ Pharma Research and Early Development, Roche Innovation Center Basel, Pharmaceutical Sciences, Grenzacherstrasse 124, 4070 Basel, Switzerland \newline
+$^{2}$ Department of Mathematics and Informatics, University Basel, Spiegelgasse 1, 4051 Basel, Switzerland
 
+*This document and the course material are published under the Creative Commons Attribution-ShareAlike 4.0 International License. They were prepraed and accomplished by Jitao David Zhang in his personal capacity. The opinions expressed in this document and the course material are author's own and do not reflect the view of F. Hoffmann-La Roche Ltd.*
+
+
+## Syllabus (Autumn Semester 2019-2020)
+
+1. Part I: Introduction
+    1. Introduction to drug discovery
+1. Part II: Bioinformatics and computational biology
+    1. Biological sequence analysis
+    1. Omics: genomics, transcriptomics, and proteomics
+    1. Protein sequence and structure
+1. Part III: Cheminformatics and computer-aided drug design
+    1. Chemical structure representation and search
+    1. Molecular modelling
+    1. Molecular descriptors and QSAR
+1. Mid-term presentation and invited guest speakers
+1. Part IV: Mathematical modelling
+    1. Principles and applications of modelling in pharmacology
+    1. Pharmacokinetics (PK) and pharmacodynamics (PD) modelling
+1. Part V: Statistics and machine learning
+    1. Design of comparative experiments and data analysis
+    1. Emerging biomarkers: imaging and digital biomarker
+    1. Principles of clinical-trial design
 
 ## Background
 
-*Applied Mathematics and Informatics In Drug Discovery (AMIDD)* is a course that I am designing. It is expected to be given in fourteen 2-hour sessions to an audience of undergraduate and master students who are interested in this topic. 
-
-The course material is published under the GPL-3 license.
+*Introduction to Applied Mathematics and Informatics In Drug Discovery (iAMIDD)* is a course series designed for an audience of undergraduate and master students who are interested in understanding how applications of mathematics and informatics complement experimental approaches and impact drug discovery.
 
 ## Motivation
 
@@ -18,47 +40,26 @@ Interdisciplinary research is imperative to drug discovery and disease understan
 
 ## Goals 
 
-It is hoped that with an introduction to mathematics and informatics in drug discovery, and especially the motivation and the impacts of their applications, the students are motivated to deepen their knowledge in relevant fields. Equally important, the students are encouraged to apply what they learn to solve open challenges in drug discovery and to gain new insights.
+It is hoped that with an introduction to applied mathematics and informatics in drug discovery, especially the motivating questions, concepts and models, and relevant open-source software, the students are motivated to deepen their knowledge in relevant fields. Equally important, the students are encouraged to apply what they learn to solve open challenges in drug discovery and to gain new insights.
 
 ## Audience
 
-This course is designed for all students who are interested in applied mathematics and informatics and their applications in modern drug discovery. Though no prerequisite courses are obligatory, elementary understanding of statistics and ordinary differential equations are helpful. Knowledge and proficiency in at least one programming language (preferably C/C++, Java, R, Python, or Julia) is very helpful to try real-world problems.
+This course is designed for all students who are interested in applied mathematics and informatics and their applications in modern drug discovery. Though no prerequisite courses are obligatory, elementary understanding of statistics and ordinary differential equations as well as high-school level knowledge in physics, chemistry, and biology are helpful. Knowledge and proficiency in at least one programming language (preferably C/C++, Java, R, Python, or Julia) is very helpful to try real-world problems.
 
 ## Content
 
-The course is designed to be part of the curriculum of applied mathematics for undergraduate and master students to give a high-level overview of applications of mathematics and informatics tools in drug discovery. Therefore, while key concepts and principles are introduced, almost all subjects can only be briefly touched. Intensive investigations into some subjects, for instance bioinformatics and computational biology, are planned as follow-up courses.
+The course is designed to be part of the curriculum of applied mathematics for undergraduate and master students to give a high-level overview of applications of mathematics and informatics tools in drug discovery. Therefore, while key concepts and principles are introduced, almost all subjects can only be briefly and likely superficially touched. Intensive investigations into some subjects, for instance bioinformatics and computational biology, are planned as follow-up courses.
 
-The course consists of 14 sessions (two hours each) and a final oral examination. The sessions will cover an introduction to drug discovery (1 session), bioinformatics and computational biology (4 sessions), chemoinformatics and computer-aided drug design (3 sessions), statistical and mathematical modeling (4 sessions), and key approaches to translate candidates into drugs such as biomarkers and clinical trials (2 sessions).  The sessions are so arranged that they roughly reflect the general drug discovery pipeline, starting from target assessment, transiting via screening, lead identification and optimization, preclinical safety evaluation, PK/PD modeling, clinical trials to regulatory approval.
-
-## Syllabus
-
-1. Part I: Introduction
-    1. Introduction to drug discovery
-1. Part II: Bioinformatics and computational biology
-    1. Biological sequence analysis
-    1. Next-generation sequencing
-    1. Protein sequence and structure
-1. Part III: Chemoinformatics and computer-aided drug design
-    1. Chemical structure representation and search
-    1. Molecular modelling
-    1. Molecular descriptors and QSAR
-1. Part IV: Mathematical modelling
-    1. Principles and applications of modelling in pharmacology
-    1. Pharmacokinetics (PK) and pharmacodynamics (PD) modelling
-    1. Clinical pharmacology and pharmacometrics
-1. Part V: Statistics and machine learning
-    1. Design of Experiment and clinical trials 
-    1. Emerging biomarkers: imaging and digital biomarker
-    1. From real-world data to causal analysis and inference
+The course consists of thirteen sessions (90 minutes each), a mid-term presentation, and an final oral examination. Besides an introduction to drug discovery, the sessions will cover (1) bioinformatics and computational biology, (2) cheminformatics and computer-aided drug design, (3) mathematical modelling, and (4) statistics and machine learning.  The sessions are so arranged that they roughly reflect the linear model of the drug discovery process, including target assessment, screening, lead identification and optimization, preclinical safety evaluation, PK/PD modelling and clinical trials prior to filing and regulatory approval.
 
 ## Acknowledgement
 
 I got great input and support from numerous colleagues to design and implement the course. Especially I would like to thank 
 
-* Martin Ebeling, Fabian Birzele, and Iakov Davydov for helping improving the bioinformatics part.
-* Lisa Sach-Peltason, Christian Kramer and Michael Reutlinger for teaching me a lot about chemoinformatics and drug design.
+* Martin Ebeling, Fabian Birzele, and Iakov Davydov for suggestions and help with the bioinformatics part.
+* Lisa Sach-Peltason, Christian Kramer and Michael Reutlinger for teaching me a lot about cheminformatics and drug design.
 * Manfred Kansy, Holger Fischer, and Matthias Nettekoven for leading me into the field of medicinal chemistry and pharmacology.
 * Arne Rufer, Ken Wang, Norman Mazer, Neil Parrot Jones, Francois Mercier, Benjamin Ribba, Hans-Peter Grimm, and Nicolas Frey for selfless sharing of knowledge in mathematical modelling, PK/PD modelling, and clinical pharmacology and pharmacometrics.
-* Prof. Markus von Kienlin, Andreas Bruns, Gonzalo Christian Duran Pacheco, Kasper Rufibach for the biomarker and clinical development.
+* Prof. Markus von Kienlin, Andreas Bruns, Gonzalo Christian Duran Pacheco, Stanley Lasiz, Kasper Rufibach for statistics, biomarker and clinical development.
 
-I also want to extend my thanks to Prof. Gianluca Crippa, Prof. Helmut Harbrecht , Prof. Jiří Černý, and Dr. Jung Kyu Canci for the kind support for me to offer this course at the Department of Mathematics and Informatics, University of Basel.
+I also want to extend my thanks to Prof. Gianluca Crippa, Prof. Helmut Harbrecht , Prof. Jiří Černý, and Dr. Jung Kyu Canci for the kind support for me to offer this course at the Department of Mathematics and Informatics, University of Basel. Philipp Mekler, Gang Mu, and many students provided great support and help to shape the lectures. 
