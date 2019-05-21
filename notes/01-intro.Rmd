@@ -26,21 +26,26 @@ The phases are briefly introduced below.
 * Screening/target-to-hit
 * Hit-to-lead
 * Lead optimization
-* Preclinical
+* Preclinical development
 * Phase I clinical trial
 * Phase II clinical trial
 * Phase III clinical trial
 * Submission to launch
 * Post-launch activities
 
-## Reflecting the linear model 
+## Reflecting the linear model of drug discovery
 
-The linear model of drug discovery is very useful in several aspects.
+The linear model of drug discovery is very useful in several aspects. First, it provides an initial mental model for people outside the industry and beginners to think about drug discovery. Second, it highlights the key decision points, in the chronological order, along the discovery and development process. Third, it simplifies communications about the stage in which drug candidates are currently in.
 
-In reality, drug discovery is rarely linear. Instead, it is often a dynamic and iterative process, with countless variants from the ideal linear model. Rationalized approaches may not always lead to successful drug-discovery projects; and very often. serendipity plays a critical role, especially in the discovery of drugs of new, unexpected mechanisms. 
+Despite the usefulness of the linear model, drug discovery in reality is rarely linear. Instead, it is often a dynamic and iterative process, with countless variants from the ideal linear model. During the discovery process, for instance, a lead compound may fail to show the expected efficacy in the preclinical experiment and therefore a new round of lead optimization is necessary or even a new hit series has to be identified. In another example, a drug that has been designed for one indication is found, either by real-world evidence or by serendipity, to be potentially effective for another indication, and thus the step of target identification, hit and lead optimization may be omitted or strongly shortened to meet the purpose. And in the development phase, more and more clinical trials are designed differently compared with the canonical ones, for instance with adaptive design, and with real-world data supported virtual trials. Many more examples like this suggest that the linear model is far away from the reality.
+
+In the dynamic and iterative process, modelling mechanism and safety at different levels become important, because these models embody our belief of how drug works. Rationalized approaches may not always lead to successful drug-discovery projects; and very often. serendipity plays a critical role, especially in the discovery of drugs of new, unexpected mechanisms. 
 
 Why, then, do we still care about rationalized approaches as described above in the multiscale modelling problem? First, because the rationalized approach complements the trial-and-error model of drug discovery. In addition, it can even pave ways to findings by chance, as long as the multiscale modelling process is not seen as a doctrine and the only way to success. Last but not least, the rationalized approach is the scientific way to follow up lucky findings in order to gain insights so that the drug candidate obtained by a lucky strike can be further improved in its efficacy and safety profiles. All the three aspects have been demonstrated by numerous examples in the last three decades of drug discovery.
 
+## Applied mathematics and informatics in drug discovery
+
+Applied mathematics and informatics have supported and transformed drug discovery from its early days to now. And the impact has been ever increasing thanks to the exponential growth of data, the fast progress of technology, and the ever more complicated diseases that we as human beings are facing with.
 
 ## Some examples of bookdown
 
