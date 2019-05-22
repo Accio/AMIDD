@@ -43,6 +43,14 @@ In the dynamic and iterative process, modelling mechanism and safety at differen
 
 Why, then, do we still care about rationalized approaches as described above in the multiscale modelling problem? First, because the rationalized approach complements the trial-and-error model of drug discovery. In addition, it can even pave ways to findings by chance, as long as the multiscale modelling process is not seen as a doctrine and the only way to success. Last but not least, the rationalized approach is the scientific way to follow up lucky findings in order to gain insights so that the drug candidate obtained by a lucky strike can be further improved in its efficacy and safety profiles. All the three aspects have been demonstrated by numerous examples in the last three decades of drug discovery.
 
+## How will we approach the multiscale modelling problem in this course?
+
+Generally, each session will follow a similar structure. We first list selected questions that can be potentially solved by mathematics and informatics tools, in the context of each stage in drug discovery. The questions are not comprehensive, but it is hoped that they give a flavour of real-world problems in the drug-discovery process. 
+
+Next, we discuss models and concepts behind the tools that we choose, as well as the software tools that are used, in particular those open-source solutions. The list of models and concepts, similar like questions, are not comprehensive. In addition, they may be frequently used in practice but potentially suboptimal. The audience is invited to view them with a critical mind and challenge the routines and practices.
+
+Finally, we will point to resources for further reading. This can contain two types of material, one type heavier on mathematics and informatics, and other type heavier on practice and process of drug discovery. My personal wish is that the audience can assess the resources that are more familiar to her or his own background, but also the resources on the other end of the spectrum. This is because, as we stated at the beginning of the chapter, drug discovery is an interdisciplinary enterprise, and this nature determines that interdisciplinary communication is key. Without knowing, using or mastering the language of other domains, we run in the risk of creating solutions that are not applicable to real problems.
+
 ## Applied mathematics and informatics in drug discovery
 
 Applied mathematics and informatics have supported and transformed drug discovery from its early days to now. And the impact has been ever increasing thanks to the exponential growth of data, the fast progress of technology, and the ever more complicated diseases that we as human beings are facing with.
