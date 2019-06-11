@@ -53,7 +53,29 @@ Finally, we will point to resources for further reading. This can contain two ty
 
 ## Applied mathematics and informatics in drug discovery
 
-Applied mathematics and informatics have supported and transformed drug discovery from its early days to now. And the impact has been ever increasing thanks to the exponential growth of data, the fast progress of technology, and the ever more complicated diseases that we as human beings are facing with.
+Applied mathematics and informatics have supported and transformed drug discovery from its early days to now. And the impact has been ever increasing thanks to the exponential growth of data, the fast progress of technology, and the ever more complicated diseases that we as human beings are facing with. 
+
+
+Applications of mathematics and informatics can be found broadly in four categories:
+
+### Molecular-level modelling
+
+Molecular-level modelling of biological and chemical systems. This includes for instance biological sequence analysis and structural biology, which studies how biological sequences and variations are translated in structures and functions. The information are highly relevant for drug discovery, which aims at delaying, halting, or reversing disease progression by modulating biological molecules. On the the same level, physical models of both biological and chemical molecules are often used to study their interactions. Such chemical-biology interactions are fundamental to both efficacy and safety of drugs.
+
+### Ceullar- and omics level modelling
+
+What does a drug candidate do to cancer cells? Why does a compound with a particular structure cause DILI/toxicity in liver while another compound with a very similar structure does not? Such questions can be answered by cellular-level modelling. A human cell contains billions molecules, therefore it is not feasible to fully characterize the status of the whole system. However, it is possible to examine some aspects of the system in order to make inferences. For instance, in the second lecture, we will talk about the central dogma in molecular biology, which states that DNA directs transcription of RNA, which can be translated into proteins. While DNA is largely identical (not always so though) between different cells, the abundance of RNA and protein vary a lot depending on the context, for instance where the cells are, their interactions with other cells and external stimuli, what physiological status they are in (for instance activated or dying). Thus, it is feasible to measure all RNA or proteins in a cell (or the average of many cells) in order to query the status of the system. The techniques that we use to characterize all molecules of a given type is commonly known as the 'omics', which is a suffix coming from the Greek language.
+
+Besides omics technologies, it is also possible to query other aspects of the cellular system. For instance, different types of imaging techniques such as microscopy and immunohistochemistry staining can be applied to directly observe whether treatment with an drug candidate cause morphological changes in cells. Combined with cell-type specific markers, it is possible to infer cell-type specific changes, which can be useful if the efficacy or toxicity of the drug is manifested in specific and/or rare cell types.
+
+Apparently, cellular and omics level modelling misses the comprehensive and often deterministic nature of molecular modelling. And models on this level are of limited scope per definition. No change in RNA expression profiles of the cells, for instance, does not necessarily mean that the drug does not work (assuming that the drug reached the target and binds to it). Instead, for instance, the regulation may be only visible on the protein level. Therefore, change in omics profiles is neither necessary or sufficient for mechanisms of drugs. The same logic applies to imaging and other cellular and omics level models as well.
+
+On the other side, cellular and omics level models bring its own strength and power. Molecular-level modelling often addresses one or one pair of molecules, for instance drug or drug-target protein interaction, in isolation. Due to limitations in our modelling power, we can hardly model more than a few molecules once a time. That requires we ignore many molecules in a cell that may interact with the system that we study. The ignorance has a price, which can manifested in unexpected off-target, nameling being active on another gene besides the one aimed at, effects of the drug. Even more, since proteins form networks to execute functions, even a highly specific modulator of a given protein will likely induce widespread consequences due to the fact that its target interacts with other proteins in the cell. This kind of signal propogation can hardly be studied using molucular levels, however is feasible to be studied using omics and cellular levels, when the prior knowledge of protein-protein interaction is integrated.
+
+### 
+
+
+
 
 ## Some examples of bookdown
 
