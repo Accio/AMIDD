@@ -23,3 +23,6 @@
 ### Graph edit distance
 
 ## Resources for further learning
+
+A short video about basic concepts of drug, drug target, and molecular interactions, https://www.youtube.com/watch?v=u49k72rUdyc
+Computational chemistry in drug discovery on youtube, https://www.youtube.com/watch?v=9DESulCWbRQ
