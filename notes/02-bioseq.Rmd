@@ -6,6 +6,8 @@
 
 ### Central dogma of molecular biology
 
+Drugs target either the nodes or the edges of the graph.
+
 ### DNA, RNA, and proteins
 
 ## Mathematical concepts and models
