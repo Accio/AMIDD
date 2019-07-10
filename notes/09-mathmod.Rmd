@@ -16,7 +16,9 @@
 
 ## Software
 
-COPASI
+### COPASI
+
+### KinTek explorer
 
 ## Resources for further learning
 
