@@ -1,5 +1,11 @@
 # Pharmacokinetic and pharmacodynamic modelling {#pkpd}
 
+## What do we want to achieve today
+
+* Have a high-level understanding of pharmacokinetics and pharmacodynamics
+* Understand mathematical foundations of one-compartment and two-compartment PK models
+* Build a joint PK/PD model with R
+
 ## Questions
 
 ## Background
@@ -22,7 +28,7 @@
 
 ## Software
 
-COPASI
+NONMEM as standard, but also open-source, R-based solution is introduced.
 
 ## Resources for further learning
 

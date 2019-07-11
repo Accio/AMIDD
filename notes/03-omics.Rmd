@@ -1,5 +1,12 @@
 # Genomics, transcriptomics, and proteomics {#omics}
 
+## What we want to achieve today
+
+* Understand the basics of omics technologies, especially in the light of central dogma and biological sequence analysis
+* Know technical terms including De Bruijn graphs, Burrows-Wheeler transformation
+* Have a first understanding of graph models with the example of RSEM
+* Have a first understanding of linear models and generalised linear models with the example of edgeR
+
 We describe applications of omics in disease understanding and drug discovery, especially in the light of underlying mathematical concepts.
 
 ## Questions

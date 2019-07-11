@@ -1,5 +1,9 @@
 # Clinical trials
 
+## What do we want to achieve today
+
+* Understand why clinical trials are often designed as randomised and double-blinded experiments
+
 ## Questions
 
 ## Background

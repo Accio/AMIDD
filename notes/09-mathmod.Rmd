@@ -1,5 +1,11 @@
 # Mathematical modelling {#mathmod}
 
+## What do we want to achieve today
+
+* Gain a high-level understanding of how mathematics is used to model biological systems
+* Understand the Michaelis-Menten kinetics equation and its applications in drug discovery
+* Know software COPASI to simulate biological systems
+
 ## Questions
 
 ## Background

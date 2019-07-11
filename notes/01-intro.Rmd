@@ -1,5 +1,11 @@
 # Introduction {#intro}
 
+## What do we want to achieve today
+
+* Have a high-level understanding of the drug discovery process
+* Become familiar with technical terms, including target identification, screening, lead identification, lead optimization, pre-clinical safety, clinical trials.
+* Have a first impression of applications of mathematics and informatics in the drug discovery process
+
 ## Drug discovery as a multiscale modelling problem
 
 Drug discovery is an interdisciplinary enterprise. To develop a efficacious and safe drug, it requires the joint effort of scientists of many fields, in particular chemistry, biology, medicine, physics, statistics, mathematics, informatics,. 

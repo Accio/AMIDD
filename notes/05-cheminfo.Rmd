@@ -1,5 +1,12 @@
 # Encoding and similarity search of chemical structures {#cheminfo}
 
+## What do we want to achieve today
+
+* Have a high-level understanding of encoding chemical structures and similarity search
+* Know technical terms such as SMILEs, INCHI keys, fingerprint, Tanimoto Index
+* Know how Tanimoto Index is applied to fingerprint-based chemical structure search
+* Know how graph edit distance is mathematically defined and used to search for similar molecules
+
 ## Questions
 
 ## Background

@@ -1,5 +1,13 @@
 # Biological sequence analysis {#bioseq}
 
+## What do we want to achieve today
+
+* Know the central dogma of molecular biology
+* Understand how biological information is stored in DNA and protein sequences and how can they be analysed
+* Understand technical terms including edit distance, Smith-Waterman algorithm, Needleman-Wunsch algorithm, Markov model
+* Know software BLAST, hmmer
+* Know self-learning algorithm rosalind
+
 ## Questions
 
 * Are there other genes other the target X with similar structures to X, that may increase the effect of the drug and/or cause side effects?

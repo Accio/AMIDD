@@ -1,5 +1,13 @@
 # Biomarkers {#biomarkers}
 
+## What do we want to achieve today
+
+* Understand the basics of biomarker identification and applications
+* Learn two examples of emerging, non-invasive biomarkers: fMRI and occular imaging.
+* Understand principles of machine-learning algorithms used to analyse fMRI and imaging data, especially PC-LDA and neural networks
+* Introduction to optimization techniques
+
+
 ## Questions
 
 ## Background

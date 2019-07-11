@@ -1,5 +1,13 @@
 # Structure of biomolecules {#structure}
 
+## What do we want to achieve today
+
+* Have a mathematical understanding of DNA and protein structures
+* Become familiar with technical terms including the Frenet frame, torsion angles, Ramachandran plot
+* Have a high-level understanding of methods determining structures of biomolecules, including X-ray, NMR, and Cryo-EM
+* Know where to find and how to read PDB files
+* Know how to start PyMOL and visualize a protein of interest
+
 ## Questions
 
 ## Background
