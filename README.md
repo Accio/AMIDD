@@ -12,23 +12,23 @@ $^{2}$ Department of Mathematics and Informatics, University Basel, Spiegelgasse
 ## Syllabus (Autumn Semester 2019-2020)
 
 1. Part I: Introduction
-    1. Introduction to drug discovery
+    1. Introduction to drug discovery (20.9.2019)
 1. Part II: Bioinformatics and computational biology
-    1. Biological sequence analysis
-    1. Omics: genomics, transcriptomics, and proteomics
-    1. Protein sequence and structure
+    1. Biological sequence analysis (27.9)
+    1. Omics: genomics, transcriptomics, and proteomics (4.10.)
+    1. Protein sequence and structure (11.10)
 1. Part III: Cheminformatics and computer-aided drug design
-    1. Chemical structure representation and search
-    1. Molecular modelling
-    1. Molecular descriptors and QSAR
-1. Mid-term presentation and invited guest speakers
+    1. Chemical structure representation and search (18.10)
+    1. Molecular descriptors and QSAR (25.10)
+    1. Molecular modelling and docking (1.11)
+1. Mid-term presentation and invited guest speakers (8.11)
 1. Part IV: Mathematical modelling
-    1. Principles and applications of modelling in pharmacology
-    1. Pharmacokinetics (PK) and pharmacodynamics (PD) modelling
+    1. Principles and applications of modelling in pharmacology (15.11)
+    1. Pharmacokinetics (PK) and pharmacodynamics (PD) modelling (22.11)
 1. Part V: Statistics and machine learning
-    1. Design of comparative experiments and data analysis
-    1. Emerging biomarkers: imaging and digital biomarker
-    1. Principles of clinical-trial design
+    1. Emerging biomarkers: imaging and digital biomarker (6.12)
+    1. Design and analysis of clinical trials (13.12)
+    1. From designed comparative experiments to causal inference (20.12)
 
 ## Background
 
