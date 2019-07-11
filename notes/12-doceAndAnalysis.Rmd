@@ -1,11 +1,11 @@
-# Design of comparative experiments and data analysis {#doce}
+# From designed comparative experiments to causal inference {#doce}
 
 ## What do we want to achieve today
 
 * Principles of designing and analysing comparative experiments
 * Know technical terms such as randomization, blocking
 * Understand hypothesis testing in the framework of linear regression
-* Know how to perform hypotheses testing and linear regression with software R 
+* Causal inference, and its use in target proposal in drug discovery
 
 ## Questions
 
