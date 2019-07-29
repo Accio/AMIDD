@@ -6,9 +6,40 @@
 * Become familiar with technical terms, including target identification, screening, lead identification, lead optimization, pre-clinical safety, clinical trials.
 * Have a first impression of applications of mathematics and informatics in the drug discovery process
 
+## The process of drug discovery and development
+
+A linear presentation of the drug discovery and development process can be often found in the following form or its variants.
+
+```{r drugDiscoveryLinear}
+```
+
+The phases are briefly introduced below.
+
+* Target identification
+* Target validation
+* Screening/target-to-hit
+* Lead identification (LI)
+* Lead optimization
+* Preclinical development
+* Phase I clinical trial
+* Phase II clinical trial
+* Phase III clinical trial
+* Submission to launch
+* Post-launch activities
+
+## Reflections on the linear model of drug discovery
+
+The linear model of drug discovery is very useful in several aspects. First, it provides an initial mental model for people outside the industry and beginners to think about drug discovery. Second, it highlights the key decision points, in the chronological order, along the discovery and development process. Third, it simplifies communications about the stage in which drug candidates are currently in.
+
+Despite the usefulness of the linear model, drug discovery in reality is rarely linear. Instead, it is often a dynamic and iterative process, with countless variants from the ideal linear model. During the discovery process, for instance, a lead compound may fail to show the expected efficacy in the preclinical experiment and therefore a new round of lead optimization is necessary or even a new hit series has to be identified. In another example, a drug that has been designed for one indication is found, either by real-world evidence or by serendipity, to be potentially effective for another indication, and thus the step of target identification, hit and lead optimization may be omitted or strongly shortened to meet the purpose. And in the development phase, more and more clinical trials are designed differently compared with the canonical ones, for instance with adaptive design, and with real-world data supported virtual trials. Many more examples like this suggest that the linear model is far away from the reality.
+
+In the dynamic and iterative process, modelling mechanism and safety at different levels become important, because these models embody our belief of how drug works. Rationalized approaches may not always lead to successful drug-discovery projects; and very often. serendipity plays a critical role, especially in the discovery of drugs of new, unexpected mechanisms. 
+
+Why, then, do we still care about rationalized approaches as described above in the multiscale modelling problem? First, because the rationalized approach complements the trial-and-error model of drug discovery. In addition, it can even pave ways to findings by chance, as long as the multiscale modelling process is not seen as a doctrine and the only way to success. Last but not least, the rationalized approach is the scientific way to follow up lucky findings in order to gain insights so that the drug candidate obtained by a lucky strike can be further improved in its efficacy and safety profiles. All the three aspects have been demonstrated by numerous examples in the last three decades of drug discovery.
+
 ## Drug discovery as a multiscale modelling problem
 
-Drug discovery is an interdisciplinary enterprise. To develop a efficacious and safe drug, it requires the joint effort of scientists of many fields, in particular chemistry, biology, medicine, physics, statistics, mathematics, informatics,. 
+Drug discovery is an interdisciplinary enterprise. To develop a efficacious and safe drug, it requires the joint effort of scientists of many fields, in particular chemistry, biology, medicine, physics, statistics, mathematics, informatics. 
 
 A common trait underlying contributions of different fields to drug discovery is that they presume models, and generate data to either validate, reject, or amend and improve the models. Drug mechanism and safety is profiled at multiple scales - molecular, cellular, and systematic levels - before a candidate can be tested in human in clinical trials. The *multiscale modelling process*, a term that I borrow from the field of physics and material science, lies right in the heart of applied mathematics and informatics in drug discovery. It sets the framework in which mathematical concepts and tools are used to describe complex biological systems and how drugs assert effects on them, and in which computers are used to translate the mathematical objects into human interpretable results.
 
@@ -19,48 +50,23 @@ In light of the multiscale modelling process, this course series introduces sele
 3. Physiological-level, or system-level, which examines how drug and the body interact and affect each other.
 4. Statistical modelling and inference, which underlies the three types of modelling above and informs us about the uncertainty of our models and inferences based on them.
 
-## The process of drug discovery and development
+## How will we approach the multiscale-modelling problem in this course?
 
-A linear presentation of the drug discovery and development process can be often found in the following form or its variants.
+We select a few topics from the broad spectrum of applications. Each session will focus on one of them. 
 
-```{r drugDiscoveryLinear}
-```
+Each session follows a similar structure. We first expose and explain *selected questions* that can be potentially solved by mathematics and informatics tools, in the context of each stage in drug discovery. The questions are not comprehensive, but it is hoped that they give a flavour of real-world problems in the drug-discovery process. 
 
-The phases are briefly introduced below.
+Next, we discuss *concepts and models* behind the tools that we choose to solve the problems. We will not go into depths unless necessary. If you are intrigued by the models and concepts, some references are available that hopefully can help you deepen your knowledge. 
 
-* Target assessment and validation
-* Screening/target-to-hit
-* Hit-to-lead
-* Lead optimization
-* Preclinical development
-* Phase I clinical trial
-* Phase II clinical trial
-* Phase III clinical trial
-* Submission to launch
-* Post-launch activities
+The list of models and concepts, similar like questions, are far away from comprehensive. In addition, the models that we are accustomed to use can be suboptimal, biased, or simply wrong. You are invited to view them with a critical mind and encouraged to challenge the routines and practices.
 
-## Reflecting the linear model of drug discovery
+There are questions which can solved back-on-the evelope, without using computers. However, the majority of the questions require both computation and interative visualization, two aspects that can be augmented strongly by informatics tools. Therefore, we will also introduce the *software and databases*, particularly open-source solutions, that are used in pharma research. 
 
-The linear model of drug discovery is very useful in several aspects. First, it provides an initial mental model for people outside the industry and beginners to think about drug discovery. Second, it highlights the key decision points, in the chronological order, along the discovery and development process. Third, it simplifies communications about the stage in which drug candidates are currently in.
+Last but not least, we will point to *resources for further learning*. This part often contains two types of material, one heavier on mathematics and informatics,the other heavier on the practical aspets of drug discovery. You are encouraged to check out both types of material, not at least to be incubated in both ways of thinking and their langagues. This is because, as we stated at the beginning of the chapter, drug discovery is an interdisciplinary enterprise, and this nature determines that interdisciplinary communication is key. Without knowing, using or mastering the language of other domains, we run in the risk of creating solutions that are not applicable to real problems.
 
-Despite the usefulness of the linear model, drug discovery in reality is rarely linear. Instead, it is often a dynamic and iterative process, with countless variants from the ideal linear model. During the discovery process, for instance, a lead compound may fail to show the expected efficacy in the preclinical experiment and therefore a new round of lead optimization is necessary or even a new hit series has to be identified. In another example, a drug that has been designed for one indication is found, either by real-world evidence or by serendipity, to be potentially effective for another indication, and thus the step of target identification, hit and lead optimization may be omitted or strongly shortened to meet the purpose. And in the development phase, more and more clinical trials are designed differently compared with the canonical ones, for instance with adaptive design, and with real-world data supported virtual trials. Many more examples like this suggest that the linear model is far away from the reality.
-
-In the dynamic and iterative process, modelling mechanism and safety at different levels become important, because these models embody our belief of how drug works. Rationalized approaches may not always lead to successful drug-discovery projects; and very often. serendipity plays a critical role, especially in the discovery of drugs of new, unexpected mechanisms. 
-
-Why, then, do we still care about rationalized approaches as described above in the multiscale modelling problem? First, because the rationalized approach complements the trial-and-error model of drug discovery. In addition, it can even pave ways to findings by chance, as long as the multiscale modelling process is not seen as a doctrine and the only way to success. Last but not least, the rationalized approach is the scientific way to follow up lucky findings in order to gain insights so that the drug candidate obtained by a lucky strike can be further improved in its efficacy and safety profiles. All the three aspects have been demonstrated by numerous examples in the last three decades of drug discovery.
-
-## How will we approach the multiscale modelling problem in this course?
-
-Generally, each session will follow a similar structure. We first list selected questions that can be potentially solved by mathematics and informatics tools, in the context of each stage in drug discovery. The questions are not comprehensive, but it is hoped that they give a flavour of real-world problems in the drug-discovery process. 
-
-Next, we discuss models and concepts behind the tools that we choose, as well as the software tools that are used, in particular those open-source solutions. The list of models and concepts, similar like questions, are not comprehensive. In addition, they may be frequently used in practice but potentially suboptimal. The audience is invited to view them with a critical mind and challenge the routines and practices.
-
-Finally, we will point to resources for further reading. This can contain two types of material, one type heavier on mathematics and informatics, and other type heavier on practice and process of drug discovery. My personal wish is that the audience can assess the resources that are more familiar to her or his own background, but also the resources on the other end of the spectrum. This is because, as we stated at the beginning of the chapter, drug discovery is an interdisciplinary enterprise, and this nature determines that interdisciplinary communication is key. Without knowing, using or mastering the language of other domains, we run in the risk of creating solutions that are not applicable to real problems.
-
-## Applied mathematics and informatics in drug discovery
+## Selected topics of applied mathematics and informatics in drug discovery.
 
 Applied mathematics and informatics have supported and transformed drug discovery from its early days to now. And the impact has been ever increasing thanks to the exponential growth of data, the fast progress of technology, and the ever more complicated diseases that we as human beings are facing with. 
-
 
 Applications of mathematics and informatics can be found broadly in four categories:
 
@@ -94,15 +100,13 @@ Mathematically, ordinary differential equations (ODEs) are often used to charact
 
 Organ- and sytem-level modelling will be introduced in the part III of the course.
 
-### Statistical modelling
+### Populational modelling
 
-The last modelling aspect is special: it underlies the three types of models (molecular, cellular and omics, and organ- and system) that we introduced above. Often, we have to reply on the support and the uncertainty measures provided by statistical modelling to gain molecular, cellular and omics, and organ and system level understanding. Beyond that, is used to model populational response to drug treatments, for instance in RCTs.
+A typical use is to model populational response to drug treatments, for instance in RCTs.
 
 Two topics in statistical modelling deserve special treatment: machine learning, and causal inference. Machine learning is the working horse of drug discovery since many years, whcih seized public attention since a few years' time, sometimes under other names such as Artificial Intelligence (AI). Causal inference is the natural development and extension of statistical analysis, seeking for causalities (does alhocol consumption shorten life expectance) and relevant topics such as counterfactuals (what may happen if I have not consumed alcohol in the last two years)?
 
-The topic of statistical modelling, especially RCT, and the topics of machine learning and causal inference, will be introduced in the part IV of the course, though statistical thinking and modelling is also demanded in other parts of the course.
-
-
+The topic of statistical populational modelling, especially RCT, and the topics of machine learning and causal inference, will be introduced in the part IV of the course, though statistical thinking and modelling is also demanded in other parts of the course.
 
 ## Some examples of bookdown
 
