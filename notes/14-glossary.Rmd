@@ -1,0 +1,7 @@
+# Glossary {-}
+
+Safety
+: Safety is determined by balanceing risk and benefit for a given disease
+
+Efficacy
+: The ability of a drug to work under idea conditions, for instance, in a well-controlled clinical trial
