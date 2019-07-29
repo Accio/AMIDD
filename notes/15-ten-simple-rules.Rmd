@@ -1,0 +1,70 @@
+# Ten Simple Rules of Computational Biologists Working In Drug Discovery {-}
+
+## Ten Simple Rules for Computational Biologists Working In Drug Discovery
+
+I was inspired by [@demharter_ten_2017] and [@chen_ten_2014]. In revision, not finished yet.
+
+1. Find an impactful and solvable question to devote long-term investment
+2, Get the best of what's out there
+3. Open to new opportunities and expand your horizons beyond your project
+4. Be kind to people, give genuine feedback
+5. Keep to the deadline
+6. Start managing time lines and expectations early on
+7. Define the boundaries of your research: be pragmatic, then explore
+8. Don't be embarrassed: Always ask the "stupid question"
+9. Build a network: Find other people to complement the gaps
+10. Embrace your unique skillset and use it to drive drug discovery and disease understanding
+11. Dare to swim against the flow, to experiment, and to fail
+12. Learn from every project and every analysis towards a long-term goal
+13. Adjust to your audience
+14. Work on the best plan B
+
+## Key tasks of one-to-one communication
+
+Adapted from *Key communications skills and how to acquire them* [@maguire_key_2002]
+
+* Eliciting (a) the partner's main problems, (b) the partner's perceptions of these, (c) the impact of the problems on the partner, the project, and the organization: What is the problem and how do you see it?
+* Tailoring information to what the partner wants to know; checking his or her understanding: Here is how I propose to help, does it make sense to you?
+* Eliciting the partner's reactions to the information given and his or her main concerns: Do you have questions about my proposal?
+* Determining how much the patient wants to participate in deicision making: How much do you wish to participate in data analysis and interpretation?
+* Discussion analysis options (time line, tools/data required) so that the partner understands the implications: These are the specificics on how to solve your problem and potentially gain underestanding, it will take so long and will involve other resources. Does that make sense?
+* Maximising the chance the partner will follow agreed decisions about next steps: performing experiments, discussing data, etc: Shall we meet in a week to discuss the progress?
+
+### Going even further
+
+* Can I get so close to the partner so that I understand the question before he can formulate it?
+* Depart from a strictly quantiative model, deal with psychosocial issues, and adopt a more negotiating and partnership style.
+* Realise blocking behavior
+    * Offering advice and reassurance before the main problems have been identified
+    * Explaining away problems as normal
+    * Attending to the facts only and ignore emotions
+    * Switching the topic
+    * "Jollying" partners
+
+### Skills needed
+
+#### Eliciting partner's problems and concerns
+
+* Establish eye contact at the beginning, and maintain it at reasonable intervals to show interest
+* Encourage partners to be exact about the sequence in which their problems occured
+* Ask for time lines of the project and about partner's perceptions and feelings
+* Use active listening to clairfy what partners are concerned about - respond to cues about problems and distress by clarifiying and exploring them, but avoid interrupting before partners have completed important statements.
+* Summarize inofmration to show the partner that they have been heard, and give them an opportunity to correct any misunderstandings.
+* Inquire about the impact of problems on the partner personally, on the project, and on the organization.
+
+#### Giving information
+
+* Check what partner thinks can be done and how these beliefs will affect the collaboration.
+* Ask the partner what information they would like, and prioritise their information needs so that important needs can be dealt with first if time is short.
+* Preesent information by category
+* Check the partner has understood before moving on.
+* With complex questions, check whether the partner would like additional information.
+
+#### Discussing potential solutions
+
+* Properly inform partners potential solutions, and ask them if they want to be involved in the decisions (which method/data to use). Partners who take part in decision making are more likely to adhere to the plans.
+
+#### Being supportive
+
+* Use empathy to show that you have some sense of how the partner is feeling ("the fact that we have still not identified a target of the molecule so far is upsetting")
+* Feedback to partners your intuitions how they are feeling. even if the guess is incorrect it shows parteners that you are trying to further your understanding of their problem.
