@@ -20,6 +20,12 @@ NDA
 RCT
 : Random Clinical Trials
 
+PK
+: Pharmacokinetics
+
+PD
+: Pharmacodynamics
+
 ## Glossary {-}
 
 Safety
