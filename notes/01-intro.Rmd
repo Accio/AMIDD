@@ -1,25 +1,57 @@
 # Introduction {#intro}
 
+```{r setup, echo=FALSE, results='hide'}
+knitr::opts_chunk$set(echo=FALSE,
+                      message=FALSE,
+                      fig.path = "figures-01/",
+                      dev = c('png','pdf'),
+                      dpi = 300,
+                      fig.width=5, fig.height=5)
+library(DiagrammeR)
+```
+
 ## What do we want to achieve today
 
-* Have a high-level understanding of the drug discovery process
-* Become familiar with technical terms, including target identification, screening, lead identification, lead optimization, pre-clinical safety, clinical trials.
+* Have a high-level understanding of the drug-discovery process, including target identification, screening, lead identification, lead optimization, pre-clinical development and clinical trials.
+* Have a discussion around why drug discovery takes a long time and costs a fortune (or more)
 * Have a first impression of applications of mathematics and informatics in the drug discovery process
 
 ## The process of drug discovery and development
 
 A linear presentation of the drug discovery and development process can be often found in the following form or its variants.
 
-```{r drugDiscoveryLinear}
+```{r drugDiscoveryLinear, fig.height=8, fig.width=5}
+mermaid("
+graph TD
+    subgraph Discovery Research
+      A(Target Identification)-->B(Target Validation)
+      B-->C(Lead Identification)
+      C-->D(Lead Optimization)
+      D-->E(Preclinical development)
+    end
+
+    subgraph Development Research
+      E-->F(Phase I Clinical Trial)
+      F-->G(Phase II Clinical Trial)
+      G-->H(Phase III Clinical Trial)
+    end
+   
+    subgraph Submission and Launch
+      H-->I(Submission to Launch)
+    end
+
+    subgraph Post-launch activities
+      I-->J(Post-launch activities)
+    end
+")
 ```
 
 The phases are briefly introduced below.
 
-* Target identification
-* Target validation
-* Screening/target-to-hit
-* Lead identification (LI)
-* Lead optimization
+* Target Identification (TID or TI)
+* Target Validation (TV)
+* Lead Identification (LID or LI)
+* Lead Optimization (LO)
 * Preclinical development
 * Phase I clinical trial
 * Phase II clinical trial
@@ -36,6 +68,34 @@ Despite the usefulness of the linear model, drug discovery in reality is rarely 
 In the dynamic and iterative process, modelling mechanism and safety at different levels become important, because these models embody our belief of how drug works. Rationalized approaches may not always lead to successful drug-discovery projects; and very often. serendipity plays a critical role, especially in the discovery of drugs of new, unexpected mechanisms. 
 
 Why, then, do we still care about rationalized approaches as described above in the multiscale modelling problem? First, because the rationalized approach complements the trial-and-error model of drug discovery. In addition, it can even pave ways to findings by chance, as long as the multiscale modelling process is not seen as a doctrine and the only way to success. Last but not least, the rationalized approach is the scientific way to follow up lucky findings in order to gain insights so that the drug candidate obtained by a lucky strike can be further improved in its efficacy and safety profiles. All the three aspects have been demonstrated by numerous examples in the last three decades of drug discovery.
+
+## Why drug discovery is expensive
+
+Since the mid-1960s, the process of drug approval has been modified to significantly improve the safety and efficacy of drugs for use by the general public. The increase in time taken and cost of bringing a new drug to market is a consequence of these scientific and regulatory changes.
+
+* A brief introduction to the business model
+* Risks due to scientific, regulatory, and economic uncertainty
+* Pharma is facing the challenge of increasing cost and decreasing return of investment. 
+* Many factors contribute to the challenge
+* Computational modelling with applied mathematics and informatics increases efficiency and reduce cost of drug discovery
+
+The review by [@dickson_key_2004] is an execellent read about the drug discovery process and some analysis why it is expensive.
+
+Much increase in the time of the clinical trial portion (between IND to NDA), due to several reasons
+
+* Increased regulatory requirements
+* The need for more study subjects
+* The increasing difficulty of recruiting subjects for clinical trials
+* The nature of diseases being investigated today, which are more often associated with chronic conditions
+
+Major factors for risks:
+
+* The combination of long lead times from discovery to NDA approval
+* The high probability of failure for compounds entering clinical testing
+* Unpredictability of sales once a product is marketed
+Grabowski (1997) argued for integrating pharmacoeconomic analysis directly into strategic decision-making, starting as early as possible in the R&D process. 
+
+Paul *et al.* and Morgan *et al.* proposed ways to improve R&D producivity from an industrial perspective [@paul_how_2010;@morgan_impact_2018]. Smietana *et al* shared their insights from the consulting perspective [@smietana_improving_2015]. Relevant aspects for applied mathematics and informatics
 
 ## Drug discovery as a multiscale modelling problem
 
@@ -108,6 +168,14 @@ Two topics in statistical modelling deserve special treatment: machine learning,
 
 The topic of statistical populational modelling, especially RCT, and the topics of machine learning and causal inference, will be introduced in the part IV of the course, though statistical thinking and modelling is also demanded in other parts of the course.
 
+## The **no-silver-bullet** conjecture and its implications
+
+Does a simple, seemingly magical solution exist for such a complex and difficult problem as drug discovery? Our best guess is not. It can probably not be approved, but our intuitions and experience tell us the conjecture is likely to be true.
+
+What does this imply in our study of applied mathematics and informatics in drug discovery? The **no-silver-bullet** conjecture reminds us of the limitations of mathematical and *in silico* approaches. The models cannot capture all the complexity of life. It also prompts us to listen to experts to other disciplines, including biologists, chemists, toxicologists, medical doctors, *etc*., in order to get an full picture of what drug discovery is. The author of this note is strongly convinced of an interdiscplinary approach to drug discovery, where experts from different fields do their best to model and solve problems with diverse skills and tools. In this process, mathematicians and informaticians do not only provide logical models and computational tools to solve problems, they also need to communicate with other experts. The communication is two-way: listening to others about their problems, and speaking to others about how our knowledge and skills can help to solve the problem. 
+
+During the course of *Introduction to Applied Mathematics and Informatics In Drug Discovery*, we aim at using games, discussions, and presentations to raise the awareness of effecitive communication, and to exchange everyone's best practice in the class.
+
 ## Some examples of bookdown
 
 You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
@@ -128,4 +196,4 @@ knitr::kable(
 )
 ```
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@drawnel_molphen_2017].
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@drawnel_molphen_2017] [@dickson_key_2004].
