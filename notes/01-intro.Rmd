@@ -93,9 +93,10 @@ Major factors for risks:
 * The combination of long lead times from discovery to NDA approval
 * The high probability of failure for compounds entering clinical testing
 * Unpredictability of sales once a product is marketed
-Grabowski (1997) argued for integrating pharmacoeconomic analysis directly into strategic decision-making, starting as early as possible in the R&D process. 
 
-Paul *et al.* and Morgan *et al.* proposed ways to improve R&D producivity from an industrial perspective [@paul_how_2010;@morgan_impact_2018]. Smietana *et al* shared their insights from the consulting perspective [@smietana_improving_2015]. Relevant aspects for applied mathematics and informatics
+Grabowski (1997) argued for integrating pharmacoeconomic analysis directly into strategic decision-making, starting as early as possible in the R&D process. This is definitely valid; however, it is important to prioritise scientific confidence over commercial potential. An analysis with internal historical data at AstraZeneca [@morgan_impact_2018] revealed that when projects are moved forward based on commercial values rather than scientific rationales, they are more likely, unsprisingly, to fail in mid-stage and late-stage development.
+
+Paul *et al.* and Morgan *et al.* proposed ways to improve R&D producivity from an industrial perspective [@paul_how_2010;@morgan_impact_2018]. Smietana *et al* shared their insights from the consulting perspective [@smietana_improving_2015]. As Morgan *et al.* put it, a crucial part to improve R&D producitivity is to put emphasis on 'truth-seeking' behavior and to ask 'killer' projects for projects. The way towards it was to implement stronger quantiative sciences and quantiative decision-making. This is a *bona fide* support for more rigorous assessment of scientific uncertainty in drug discovery with applied mathematics and informatics.
 
 ## Drug discovery as a multiscale modelling problem
 
