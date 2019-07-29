@@ -1,6 +1,6 @@
 # Ten Simple Rules of Computational Biologists Working In Drug Discovery {-}
 
-## Ten Simple Rules for Computational Biologists Working In Drug Discovery
+## Ten Simple Rules for Computational Biologists Working In Drug Discovery {-}
 
 I was inspired by [@demharter_ten_2017] and [@chen_ten_2014]. In revision, not finished yet.
 
@@ -17,9 +17,9 @@ I was inspired by [@demharter_ten_2017] and [@chen_ten_2014]. In revision, not f
 11. Dare to swim against the flow, to experiment, and to fail
 12. Learn from every project and every analysis towards a long-term goal
 13. Adjust to your audience
-14. Work on the best plan B
+14. Keep working hard on the best plan B
 
-## Key tasks of one-to-one communication
+## Key tasks of one-to-one communication {-}
 
 Adapted from *Key communications skills and how to acquire them* [@maguire_key_2002]
 
