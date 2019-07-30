@@ -42,3 +42,12 @@ New chemical entity
 
 New molecular entity
 : A drug that contains at least one active moiety that has never been approved
+
+Pharmacokinetics
+: The time course of the drug concentration in the body, for instance in blood or plasma
+
+Pharmacodynamics
+: The relationship between drug concentration and response, desired or undesired
+
+Compartment (in PK models)
+: A part of the body where drug is assumed to be homogenously mixed and shares similar kinetics
