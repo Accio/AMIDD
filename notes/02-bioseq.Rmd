@@ -1,12 +1,22 @@
 # Biological sequence analysis {#bioseq}
 
+```{r}
+knitr::opts_chunk$set(echo=FALSE,
+                      message=FALSE,
+                      fig.path = "figures/02-",
+                      dev = c('png','pdf'),
+                      dpi = 300,
+                      fig.width=7, fig.height=5)
+library(DiagrammeR)
+```
+
 ## What do we want to achieve today
 
-* Know the central dogma of molecular biology
+* Learn the central dogma of molecular biology and its implications in drug discovery
 * Understand how biological information is stored in DNA and protein sequences and how can they be analysed
-* Understand technical terms including edit distance, Smith-Waterman algorithm, Needleman-Wunsch algorithm, Markov model
+* Understand technical terms including edit distance, Smith-Waterman algorithm, Needleman-Wunsch algorithm, Markov chains
 * Know software BLAST, hmmer
-* Know self-learning algorithm rosalind
+* Self-learning with rosalind
 
 ## Questions
 
@@ -18,6 +28,15 @@
 ## Background information
 
 ### Central dogma of molecular biology
+
+To understand how drugs treat diseases, we need to first understand how information is stored in biological systems, how the information or its flow is distorted and interrupted in disease, and how drugs work from an information point of view.
+
+The central dogma of molecular biology is shown in figure \@ref(fig:figCD).
+
+```{r figCD, fig.cap="Central dogma of molecular biology", out.width="100%", fig.height=1}
+DiagrammeR::grViz("data/central-dogma.gv")
+```
+
 
 Drugs target either the nodes or the edges of the graph.
 

@@ -3,10 +3,10 @@
 ```{r setup, echo=FALSE, results='hide'}
 knitr::opts_chunk$set(echo=FALSE,
                       message=FALSE,
-                      fig.path = "figures-01/",
+                      fig.path = "figures/01-",
                       dev = c('png','pdf'),
                       dpi = 300,
-                      fig.width=5, fig.height=5)
+                      fig.width=7, fig.height=5)
 library(DiagrammeR)
 ```
 
