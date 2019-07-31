@@ -33,94 +33,9 @@ library(DiagrammeRsvg)
 
 # The Central Dogma of Molecular Biology
 
-## The Central Dogma: A law of biological information flow
+## The central dogma
 
-\begincols
-  \begincol{.5\textwidth}
-    Central dogma
-  \endcol
-  \begincol{.5\textwidth}
-```{r cdgraph, fig.height=4, fig.width=4}
-cdg <- new("graphNEL", nodes=c("DNA", "RNA", "Protein"), edgemode="directed")
-cdg <- addEdge("DNA", "RNA", cdg, 1)
-cdg <- addEdge("DNA", "DNA", cdg, 1)
-cdg <- addEdge("RNA", "RNA", cdg, 1)
-cdg <- addEdge("RNA", "DNA", cdg, 1)
-cdg <- addEdge("RNA", "Protein", cdg, 1)
-
-geneticColors <- brewer.pal(9, "Pastel1")
-nAttrs <- list()
-nAttrs$fillcolor <- list("DNA"=geneticColors[1],
-               "RNA"=geneticColors[2],
-               "Protein"=geneticColors[3])
-eAttrs <- list()
-eAttrs$label <- c("DNA~RNA"="Transcription",
-                  "RNA~DNA"="Reverse Transcription",
-                  "RNA~Protein"="Translation",
-                  "DNA~DNA"="Replication")
-eAttrs$style <- c("RNA~DNA"="dotted")
-
-{
-  ## compactPar()
-  plot(cdg, edgeAttrs=eAttrs, nodeAttrs=nAttrs,
-       attrs=list(node=list(fontsize=12, height=1, width=1),
-                  edge=list(color="black", arrowsize=0.3),
-                  graph=list()),
-       recipEdges="distinct")
-  ## TODO: (1) dotted in reverse transcription (2) offsets of labels. Are both possible with Rgraphviz?? I am not sure.
-  ## Alternative: DiagrammeR
-}
-```
-  \endcol
-\endcols  
-   
-\takehome{The CD graph view offers insights for drug discovery}
-
-## The central dogma, again
-
-<!-- 
-By default, DiagrammeR::grViz(cdgGrFullCode, height=400) won't work.
-
-Either export_svg -> charToRaw -> rsvg_pdf
-or use phantomjs (see blow)
-
-https://github.com/rich-iannone/DiagrammeR/issues/133#issuecomment-284370996 -->
-
-```{r echo=FALSE}
-pdf_digraph <- function(filename, code){
-  capture.output({
-    g <- grViz(paste("digraph{", code, "}"))
-    DiagrammeRsvg::export_svg(g) %>% charToRaw %>% rsvg::rsvg_pdf(filename)
-  },  file=NULL)
-  knitr::include_graphics(filename)
-}
-cdgGrCode <- "DNA -> RNA
-  RNA -> Protein
-  DNA -> DNA
-  RNA -> DNA
-  RNA -> RNA"
-cdgGrFullCode <- paste("digraph{", cdgGrCode, "}")
-##DiagrammeR::grViz(cdgGrCode, height=400)
-pdf_digraph("cfgraph.pdf", cdgGrCode)
-```
-
-## The central dogma, yet again
-
-<!-- 
-Run this once
-
-  install.packages("webshot")
-  webshot::install_phantomjs()
-
-See
-https://github.com/rich-iannone/DiagrammeR/issues/133#issuecomment-415121045 -->
-```{r cdrTry}
-DiagrammeR::grViz(cdgGrFullCode, height=400)
-```
-
-## Drugs target either nodes or edges of the graph
-
-\takehome{Drugs target either nodes or edges of the CD graph}
+See the notes
 
 ## Examples of drugs that target DNA or RNA
 
