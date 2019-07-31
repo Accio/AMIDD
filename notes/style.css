@@ -12,3 +12,8 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+div Explore {
+  font-weight: bold;
+  color: red
+}
