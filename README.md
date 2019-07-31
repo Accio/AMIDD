@@ -63,3 +63,7 @@ I got great input and support from numerous colleagues to design and implement t
 * Prof. Markus von Kienlin, Andreas Bruns, Gonzalo Christian Duran Pacheco, Stanley Lasiz, Kasper Rufibach for statistics, biomarker and clinical development.
 
 I also want to extend my thanks to Prof. Gianluca Crippa, Prof. Helmut Harbrecht , Prof. Jiří Černý, Dr. Jung Kyu Canci, Prof. Enno Lenzmann for the kind support for me to offer this course at the Department of Mathematics and Informatics, University of Basel. Philipp Mekler, Gang Mu, and many students provided great support and help to shape the lectures. I dedicate the lecture series to Clemens Broger, a great mentor of mine and many other colleagues, who stayed curious, courageous, passionate, and true to himself until the last day of his life.
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
