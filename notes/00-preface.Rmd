@@ -1,0 +1,12 @@
+# Preface {-}
+
+## What is this book about {-}
+
+## Organization of the book {-}
+
+## Acknowledgement {-}
+
+## Licensing {-}
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/"><img alt="Creative Commons License" style="border-width:0" src="figures/CC-BY-NC-SA-2.0.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License</a>.
+
