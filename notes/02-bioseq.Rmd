@@ -33,7 +33,7 @@ To understand how drugs treat diseases, we need to first understand how informat
 
 The central dogma of molecular biology is shown in figure \@ref(fig:figCD).
 
-```{r figCD, fig.cap="Central dogma of molecular biology", out.width="100%", fig.height=1}
+```{r figCD, fig.cap="Central dogma of molecular biology", out.width="100%", fig.height=0.8}
 DiagrammeR::grViz("data/central-dogma.gv")
 ```
 
