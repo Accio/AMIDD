@@ -19,16 +19,16 @@ $^{2}$ Department of Mathematics and Informatics, University Basel, Spiegelgasse
     1. Protein sequence and structure (11.10)
 1. Part III: Cheminformatics and computer-aided drug design
     1. Chemical structure representation and search (18.10)
-    1. Molecular descriptors and QSAR (25.10)
-    1. Molecular modelling and docking (1.11)
-1. Mid-term presentation and invited guest speakers (8.11)
+    1. Molecular modelling and docking (25.10)
+1. Case study I: learning drug-induced toxicity with TG-GATEs (1.11)
+1. Mid-term presentations and invited guest speakers (8.11)
 1. Part IV: Mathematical modelling
-    1. Principles and applications of modelling in pharmacology (15.11)
-    1. Pharmacokinetics (PK) and pharmacodynamics (PD) modelling (22.11)
+    1. Mathematical modelling in pharmacology (15.11)
+    1. PK/PD modelling (22.11)
 1. Part V: Statistics and machine learning
-    1. Emerging biomarkers: imaging and digital biomarker (6.12)
+    1. From designed comparative experiments to machine learning and causal inference (6.12)
     1. Design and analysis of clinical trials (13.12)
-    1. From designed comparative experiments to causal inference (20.12)
+1. Case study II: computational approaches to model preclinical drug mechanism and safety (20.12.)
 
 ## Background
 
