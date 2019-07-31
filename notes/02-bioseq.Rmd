@@ -25,22 +25,42 @@ library(DiagrammeR)
 * How variable are the coding sequences of the target X among the general population, and among patients of a certain disease?
 * Can we design efficacious and safe RNA-based therapies that target gene X potently and specifically to reverse the disease? 
 
-## Background information
 
-### Central dogma of molecular biology
+## Central dogma of molecular biology
 
 To understand how drugs treat diseases, we need to first understand how information is stored in biological systems, how the information or its flow is distorted and interrupted in disease, and how drugs work from an information point of view.
 
 The central dogma of molecular biology is shown in figure \@ref(fig:figCD).
 
-```{r figCD, fig.cap="Central dogma of molecular biology", out.width="100%", fig.height=0.8}
+```{r figCD, fig.cap="Central dogma of molecular biology.", out.width="100%", fig.height=0.8}
 DiagrammeR::grViz("data/central-dogma.gv")
 ```
 
+## DNA
 
-Drugs target either the nodes or the edges of the graph.
+The [1BNA](https://www.rcsb.org/3d-view/1BNA) entry of RCSB PDB database is the structure of a piece of DNA. Explore its structure with the interactive *3D view*.
 
-### DNA, RNA, and proteins
+```{r dna}
+library(Rpdb)
+dna <- read.pdb("data/1bna.pdb.gz")
+```
+
+Ech DNA nucleotide is composed of three main units:
+
+* a 5-carbon monosaccharide (deoxyribose)
+* a phosphate group
+* a nitrogenous base
+
+```{r DNAbases, fig.cap="Nitrogenous bases"}
+knitr::include_graphics("figures/nitrogenousBases.jpg")
+```
+
+
+## RNA
+
+## Protein
+
+## Drugs target either the nodes or the edges of the graph
 
 ## Mathematical concepts and models
 
