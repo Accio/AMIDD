@@ -52,6 +52,18 @@ The course is designed to be part of the curriculum of applied mathematics for u
 
 The course consists of thirteen sessions (90 minutes each), a mid-term presentation, and an final oral examination. Besides an introduction to drug discovery, the sessions will cover (1) bioinformatics and computational biology, (2) cheminformatics and computer-aided drug design, (3) mathematical modelling, and (4) statistics and machine learning.  The sessions are so arranged that they roughly reflect the linear model of the drug discovery process, including target assessment, screening, lead identification and optimization, preclinical safety evaluation, PK/PD modelling and clinical trials prior to filing and regulatory approval.
 
+## Literature
+
+Lecture notes and slides. Recommend reading (papers, book chapters, etc.) and media (e.g. YouTube videos) will be distributed.
+
+## Learning objectives
+
+We explore the drug-discovery process and study applications of mathematics and informatics with case studies. We examine how mathematics concepts and informatics tools are used to model complex systems at multiple levels - molecular level, cellular and omics level, and organ- and system-level - and how the multiscale modelling approach contributes to drug discovery. 
+
+## Examination
+
+Scores will be given by participation (20%), mid-term presentation (30%), and end-term oral examination (50%).
+
 ## Acknowledgement
 
 I got great input and support from numerous colleagues to design and implement the course. Especially I would like to thank 
