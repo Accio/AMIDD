@@ -16,6 +16,10 @@ library(DiagrammeR)
 * Have a discussion around why drug discovery takes a long time and costs a fortune (or more)
 * Have a first impression of applications of mathematics and informatics in the drug discovery process
 
+## Video: Drug Development - the Herceptin Story
+
+[iBiology.org seminar, by Susan Desmond-Hellmann](https://www.ibiology.org/human-disease/herceptin/). Recorded in 2011, 12:43.
+
 ## The process of drug discovery and development
 
 A linear presentation of the drug discovery and development process can be often found in the following form or its variants.
@@ -176,6 +180,12 @@ Does a simple, seemingly magical solution exist for such a complex and difficult
 What does this imply in our study of applied mathematics and informatics in drug discovery? The **no-silver-bullet** conjecture reminds us of the limitations of mathematical and *in silico* approaches. The models cannot capture all the complexity of life. It also prompts us to listen to experts to other disciplines, including biologists, chemists, toxicologists, medical doctors, *etc*., in order to get an full picture of what drug discovery is. The author of this note is strongly convinced of an interdiscplinary approach to drug discovery, where experts from different fields do their best to model and solve problems with diverse skills and tools. In this process, mathematicians and informaticians do not only provide logical models and computational tools to solve problems, they also need to communicate with other experts. The communication is two-way: listening to others about their problems, and speaking to others about how our knowledge and skills can help to solve the problem. 
 
 During the course of *Introduction to Applied Mathematics and Informatics In Drug Discovery*, we aim at using games, discussions, and presentations to raise the awareness of effecitive communication, and to exchange everyone's best practice in the class.
+
+## Background videos
+
+[Introduction to the Drug Discovery Process, Part I, from iBiology](https://www.ibiology.org/archive/introduction-drug-discovery-process/#part-1)
+[From "Hit" to Pill, from iBiology](https://www.ibiology.org/archive/introduction-drug-discovery-process/#part-2)
+[Imatinib as a paradigm of targeted cancer therapies](https://www.ibiology.org/human-disease/imatinib-paradigm-targeted-cancer-therapies/)
 
 ## Some examples of bookdown
 
