@@ -51,3 +51,10 @@ Below are the key resources that I used. Individual papers and book chapters are
 
 * [CureFFI.org](http://www.cureffi.org/), by Eric Vallabh Minikel and his wife Sonia Vallabh [who are 'patient-scientists'](https://www.broadinstitute.org/bios/sonia-vallabh). I personally believe that what they do represents well how drug discovery should work - driven by a strong motivation and passion, enabled by a wide knowledge in biology, chemistry, and quantitative sciences including mathematics and informatics, and catalysed by ever deeper understanding of the complex biological system. Consider a [donation](http://www.cureffi.org/donate/) if you care about prion diseases.
 * [Tomorrow Edition](https://tmrwedition.com/) by Ben Stecher, a patient of Parkinson's Disease. His series [The Search For A Cure](https://tmrwedition.com/2018/11/14/the-search-for-a-cure-part-1-back-to-the-future/) is a great source of introduction to efforts of the human being to identify disease treatments, including drug discovery.
+
+# Emerging techniques
+
+* [Synthetic Biology](https://www.ibiology.org/bioengineering/introduction-to-synthetic-biology/)
+* [Molecular Dynamics](https://www.ibiology.org/biophysics/protein-dynamics/)
+* [Visualizing activity in the brain](https://www.ibiology.org/neuroscience/visualizing-activity-in-the-brain/)
+* [Genome editting with CRISPR-Cas9](https://www.ibiology.org/genetics-and-gene-regulation/crispr-cas9/)
