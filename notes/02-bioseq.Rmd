@@ -76,6 +76,28 @@ Nitrogenous bases of two anti-parallel DNA strands form pairs: Adenine (A) pairs
 
 How can we effectively represent DNA sequences? ATGCGTC
 
+### The human genome
+
+The human genome consists of about three billion DNA base pairs in germ cells - eggs and sperms - and twice of that in somatic cells. They are organized in 23 chromosome pairs in cell nuclei, and a small DNA molecule found within mitochondria.
+
+Among the three billion DNA base pairs, about 0.1% are different between individuals. Compared with our closest living relatives, such as chimpanzees and bonobos, only about 4% of the genome is different.
+
+By end of 2018, scientists around the world have sequenced the diploid genomes of over a million individuals. 
+
+Protein-coding sequences account for only a very small fraction of the genome, approximately 1.5%. The rest is associated with non-coding RNA genes, regulatory DNA sequences, and other elements. 
+
+Protein-coding genes are transcribed into messenger RNAs (mRNAs). The transcription is regulated at many levels, starting from the transcriptional regulation. Transcriptional regulation is achieved by interaction between DNA sequences in the gene regulatory region and proteins that are dedicated to regulate gene expression, which in turn are transcribed from other loci of the genome, translated, and exported into nuclei. 
+
+The gene regulatory region usually contain stretches of DNA sequences that have certain functions, which are known as regulatory elements. The core promoter, a DNA stretch between approximately -40 bp and +40 base pairs of transcriptional starting site (TSS), is a regulatory element that controls basal expression. The proximal promoter elements, usually less than 1 kilobase (kb) upstream of the gene, contain short, 6-12 bases DNA sequences that are recognized by transcription factors, a class of proteins that bind specifically to such short sequences known as motifs. Mathematically, motifs are often represented as position weight matrix (PWM) and visualized in sequence logos (web logos). Transcription factors bind to DNA and collaborate with each other to regulate gene expression. In the protein section below, we will examine how transcription factor can be identified from the sequences.
+
+Besides proximal promoter elements, other regulatory elements can exist to regulate gene expression. Enhancers and silencers regulate gene expression positively and negatively, respectively, independent of both the distance from and orientation relative to the promoter. Insulators block genes from being affected by the transcriptional activity of neighbouring genes. Bioinformaticians use the same tools that we introduced earlier for transcription factor binding motifs, position weight matrix and web logos, to describe and visualize these elements. 
+
+Below we have a closer look at these two concepts.
+
+#### Position weight matrix
+
+#### Web logos
+
 ## RNA
 
 Almost the same as DNA, but with ribose as the pentose sugar instead of deoxyribose. And it exists mostly as single strand, or forming helix with DNA.
@@ -89,7 +111,6 @@ How can we effectivel represent protein sequences?
 ## The central dogma, revisited
 
 ## Drugs target either the nodes or the edges of the graph
-
 
 ## Mathematical concepts and models
 
