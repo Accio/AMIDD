@@ -120,7 +120,27 @@ How can we effectivel represent protein sequences?
 
 ### Linear programming and the Needleman-Wunsch algorithm
 
-### Markov and hidden markov models
+### Markov markov models
+
+### Profile hidden Markov models
+
+(the following paragraph is almost a verbatim copy of hmmer's user guide, which is a masterpiece of writing.] Most protein sequences are composed from a relatively small number of ancestral protein domain families. The sampling of common protein domain families has become comprehensive and deep, while raw sequence data continues to accumulate explosively. It has become advantageous to compare sequences against all known domain families, instead of known sequences.
+
+The idea is to identify subunits of protein sequences and annotate them. This resembles speech recognition, where user's voice is compared with a prebuilt dataset of statistical models of common words and phonemes. Using machine learning techniques, each statistical model is trained on large datasets of examples spoken by different speakers in different accents. Similarly, for each protein domain family, there are thousands of known homologs that can be aligned into deep multiple sequence alignments. Sequence alignments reveal a specific pattern of evolutionary conservation particular to that domains' structure and function. These patterns can be captured by probabilistic models.
+
+These probabilistic models are called profile hidden Markov models, sometimes called profile HMMs or just profiles. They model protein and DNA sequence domain families.
+
+Profiles can be used for
+
+* Sensitive homology searches: build a profile based on multiple sequence alignment, and search the profile against a sequence database
+* ... even for single sequence queries
+* Automated annotation of protein domains
+* Curated collections of deep multiple alignments
+
+Assumptions and limitations
+
+* Profile HMMs are primary sequence consensus models. They assume that the residue at a particular position is independent of the residues at all other positions. They ignore higher-order correlations. For instance, profile HMMs are often not good models of structural RNAs, because there base pairs are correlated.
+* Lacks an explicit model of the phylogenetic relationships between a set of homologous seqeunces.
 
 ## Software
 
