@@ -148,6 +148,8 @@ Assumptions and limitations
 
 ### hmmer
 
+To construct profile HMM models, hmmer uses in essence an Expectation-Maximization (EM) algorithm. To avoid the computational bottleneck where all paths need to be considered, a dynamic programming technique, known as the forward-backward procedure, is used. Details can be found in the excellent tutorial article on HMMs by Rabiner (1989). A variant of forward-backward procedure is the Viterbi algorithm. Instead of calculating the likelihood score of a sequence, which implicitly involves all possible paths for that sequence through the model, the Viterbi algorithm computers the score of the single most likely path for the sequence.
+
 ### Biopython
 
 ## Resources for further learning
