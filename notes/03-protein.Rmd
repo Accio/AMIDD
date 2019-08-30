@@ -1,0 +1,102 @@
+# Proteins as drug targets and drugs
+
+## What are proteins? (15 min)
+
+Video by RCSB PDB-101: https://www.youtube.com/watch?v=wvTv8TqWC48&list=PLHib7JgKNUUdFEo9lZ4MnipbB1fLqyAVh
+
+Proteins perform their functions either alone, or form complexes with other proteins to achieve certain function.
+
+Some proteins are structural. They build up for instance membranes in the cells, support intracellular traffacking, and migrate molecules from one place to another. Most of them are absolutely necessary for most cells. Mutations in them, or genes that regulate them, can cause failure in embryo development or very severe and often rare diseases. For instance, Duchenne muscular dystrophy (DMD) is a rare muscle disorder. It is one of the most frequent genetic conditions, affecting approximately 1 in 3,500 male births worldwide. It is caused by changes on the DMD gene. The DMD gene regulates the production of another gene called dystrophin, which is found association with the inner side of the membrane of skeletal and cardiac muscle cells. It plays an important role in maintaining the membrane (known as sarcolemma) of muscle cells. More information about the disease can be found on the website of US [National Organization for Rare Diseases (NORD)](https://rarediseases.org/rare-diseases/duchenne-muscular-dystrophy/). For the purpose of this lecture, it suffices to know that dystrophin is one of such structural proteins.
+
+Exercise: (a) what is the latest statistics of male birth in the world? (b) How many male births are affected each year? (c) Can you suggest possible models why males are particularly affected by the Duchenne muscular dystrophy?
+
+The Guide To Pharmacology
+
+## Hidden Markov Model (15 min)
+
+(the following paragraph is almost a verbatim copy of hmmer's user guide, which is a masterpiece of writing.) Most protein sequences are composed from a relatively small number of ancestral protein domain families. The sampling of common protein domain families has become comprehensive and deep, while raw sequence data continues to accumulate explosively. It has become advantageous to compare sequences against all known domain families, instead of known sequences.
+
+The idea is to identify subunits of protein sequences and annotate them. This resembles speech recognition, where user's voice is compared with a prebuilt dataset of statistical models of common words and phonemes. Using machine learning techniques, each statistical model is trained on large datasets of examples spoken by different speakers in different accents. Similarly, for each protein domain family, there are thousands of known homologs that can be aligned into deep multiple sequence alignments. Sequence alignments reveal a specific pattern of evolutionary conservation particular to that domains' structure and function. These patterns can be captured by probabilistic models.
+
+These probabilistic models are called profile hidden Markov models, sometimes called profile HMMs or just profiles. They model protein and DNA sequence domain families.
+
+Profiles can be used for
+
+* Sensitive homology searches: build a profile based on multiple sequence alignment, and search the profile against a sequence database
+* ... even for single sequence queries
+* Automated annotation of protein domains
+* Curated collections of deep multiple alignments
+
+Assumptions and limitations
+
+* Profile HMMs are primary sequence consensus models. They assume that the residue at a particular position is independent of the residues at all other positions. They ignore higher-order correlations. For instance, profile HMMs are often not good models of structural RNAs, because there base pairs are correlated.
+* Lacks an explicit model of the phylogenetic relationships between a set of homologous seqeunces.
+
+## Protein secondary structure
+
+## Protein structure determination (45 min)
+
+There are three major ways to determine protein structure.
+
+### X-ray (10 min)
+### NMR (10 min)
+### CryoEM (15 min)
+
+[a video explaining transmission cryo-electron microscopy] (2:58, no side) by Gabiel Lander, explaining the elementary principles of CryoEM in a clear way. 
+
+Biological samples, especially embedded in thin vitreous ice (vitreous=like glass in appearance or physical properties), are highly sensitive to radiation, thus only low electron doses can be used to image the sample. This low dose means images have high noise relative to the signal given by the particle being observed.
+
+The trick: enhancing the signal to noise ratio (SNR) by summing and averaging. By aligning several similar images to each other so they are in register and then averaging them, an image with higher signal to noise ratio can be obtained. As the noise is mostly randomly distributed and the underlying image features constant, by averaging the intensity of each pixel over several images only the constant features are reinforced. 
+
+Mathematically, the optimal alignment (a translation and an in-plane rotation) to map one image onto another is calculated by cross-correlation. This allows image registration, the process of aligning images in one common coordinate system. A clear mathematical illustration is provided by [the documentation and examples of the `xcorr2` function in Matlab](https://www.mathworks.com/help/signal/ref/xcorr2.html), and in the [MatLab tutorial to register an image using normalised cross-correlation](https://ch.mathworks.com/help/images/registering-an-image-using-normalized-cross-correlation.html).
+
+
+Another technique very useful in cryo-EM image processing is image filtering using fast Fourier transforms (FFT). This is used to reduce high or low spatial frequency information in the images. High-pass filters remove low spatial frequencies such as gradient effects.
+
+Transmission electron microscopy images are projections of the object showing the distribution of density through the object, similar to medical X rays. Since the molecules are imaged from many different viewing angles many times, and images are in fact 2D projection of the molecule, which is a 3D object, it is possible to reconstruct 3D structure using the projection-slice theorem
+
+The projection-slice theorem, first proposed by Ronald N. Bracewell in 1956 for a radio astronomy problem, is a fundamental theorem underlying many imaging platforms that are used in medicine and drug discovery, such as CryoEM and computed axial tomography (CT). The common theme is that we have a projection, for instance an X-ray image of an internal organ (in case of CT) and single particles we have just seen, and wish to reconstruct 3D structure.
+
+The theorem, sometimes known as Fourier slice theorem, in its two-dimensional form states that the results of the following two calculations are equal:
+
+* Take a two-dimensional function $f(r)$, project it onto a (one-dimensional) line, and perform Fourier transform of that projection
+* Take that same function $f$, perform first a two-dimensional Fourier transform, and then slice it through its origin, which is parallel to the projection line
+
+The theorem links Fourier transformation with Random transform, an integral transform.
+
+Here we try to give a proof for two dimensions. 
+
+Recall one way to define Fourier transform
+
+$$\hat{f}(\xi) = \int_{-\infty}^{\infty} f(x)\ e^{-2\pi i x \xi}\,dx$$
+
+If $f(x,y)$ is a two-dimensional function, then the projection of $f$ onto the x-axis, $p(x)$, can be written as 
+
+$$p(x) = \int_{-\infty}^{\infty} f(x, y) dy$$
+
+The Fourier transform of $f(x, y)$ is
+
+$$F(k_x, k_y) = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f(x,y) e^{-2\pi i (x k_x * y k_y} dx dy$$
+
+The slice is then $s(k_x)$
+
+$$s(k_x) = F(k_x, 0) = \int_{-\infty}^\infty \int_{-\infty}^\infty f(x,y)\,e^{-2\pi ixk_x}\,dxdy 
+         = \int_{-\infty}^\infty
+	 \left[\int_{-\infty}^\infty f(x,y)\,dy\right]\,e^{-2\pi ixk_x} dx 
+	 = \int_{-\infty}^\infty p(x)\,e^{-2\pi ixk_x}$$
+
+which is the Fourier transform of $p(x)$.
+
+Practically, filtered back projection is a commonly used method of generating 3D reconstructions in single particle analysis, the inverse problem of Radon transformation. See details in the videos on computed tomography by [Astra Toolbox](https://www.youtube.com/channel/UCcnUlWuFeS9miMR_o8-6v3w/videos), particularly [mathematical basics of computed tomography](https://www.youtube.com/watch?v=rKh_XIpsuc4).
+
+# How does an enzyme work?
+
+Video: https://www.youtube.com/watch?v=yk14dOOvwMk&list=PLHib7JgKNUUdFEo9lZ4MnipbB1fLqyAVh&index=2
+
+
+## Further learning
+
+* See an article from Better Explained about [Fourier Transformation](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/).
+* See the article [Does mathematical crystallography still have a role in the XXI century](https://journals.iucr.org/a/issues/2008/01/00/sc5006/) by Massimo Nespolo (Acta Crystallographica Section A, 2007) for a discussion on mathematical crystallography.
+* See two iBiology videos by Yifan Cheng: (1) [single particle cryo-EM](https://www.youtube.com/watch?v=Bk5lBvwSe-s) and (2) [single-particle Cyro-EM of membrane proteins](https://www.youtube.com/watch?v=tkrEKhiqhEk) to see a good overview of CryoEM applications in biophysics. See the video [Mathematics for Cryo-Electron Microscopy, 1h](https://www.youtube.com/watch?v=GxdIKOAwxzs) for mathematics in CryoEM.
+* Recall the HAART therapy against HIV? With more insights into proteins, you can now better understand molecular and structural basis of HIV therapy, with two videos provided by RCSB: (1) [A molecular View of HIV therapy](https://www.youtube.com/watch?v=9SptF9bCyd0&list=PLHib7JgKNUUdFEo9lZ4MnipbB1fLqyAVh&index=5), and (2) [Learn more about HIV from the RCSB Protein Data Bank](https://www.youtube.com/watch?v=QvavxKazmsY&list=PLHib7JgKNUUdFEo9lZ4MnipbB1fLqyAVh&index=6)

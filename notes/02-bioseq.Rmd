@@ -15,7 +15,7 @@ library(DiagrammeR)
 * Learn the central dogma of molecular biology and its implications in drug discovery
 * Understand how biological information is stored in DNA and protein sequences and how can they be analysed
 * Understand technical terms including edit distance, Smith-Waterman algorithm, Needleman-Wunsch algorithm, Markov chains
-* Know software BLAST, hmmer
+* Know software BLAST, hmmer, biopython
 * Self-learning with rosalind
 
 ## Questions
@@ -26,7 +26,7 @@ library(DiagrammeR)
 * Can we design efficacious and safe RNA-based therapies that target gene X potently and specifically to reverse the disease? 
 
 
-## Central dogma of molecular biology
+## Central dogma of molecular biology (5 min)
 
 To understand how drugs treat diseases, we need to first understand how information is stored in biological systems, how the information or its flow is distorted and interrupted in disease, and how drugs work from an information point of view.
 
@@ -36,7 +36,7 @@ The central dogma of molecular biology is shown in figure \@ref(fig:figCD).
 DiagrammeR::grViz("data/central-dogma.gv")
 ```
 
-## DNA
+## DNA (5min)
 
 The [1BNA](https://www.rcsb.org/3d-view/1BNA) entry of RCSB PDB database is the structure of a piece of DNA. Explore its structure with the interactive *3D view*.
 
@@ -48,7 +48,7 @@ visualize(dna)
 ```
 -->
 
-Ech DNA nucleotide is composed of three main units:
+Each DNA nucleotide is composed of three main units:
 
 * a pentose sguar (5-carbon monosaccharide, or deoxyribose)
 * a phosphate group
@@ -74,9 +74,40 @@ knitr::include_graphics("figures/nitrogenousBases.jpg")
 
 Nitrogenous bases of two anti-parallel DNA strands form pairs: Adenine (A) pairs with Thymine (T), and Guanine (G) pairs with Cytosine (C). In this way, pairs between a purine (A and G) and a pyrimidine (T and C) allow the formation of a double helix with a constant distance between the two backbone strands. The diameter of B-DNA, a common form of DNA, is about 20 Angstroms; one Angstrom is $10^{-10}$m, or 0.1 nanometer; the distance between base pairs is about 3.4 Angstrom. Apparently, pairing between two pyrimidines will take less space, and pairing between two purines will take larger space; in addition, hybrogen bond formation does not allow the pairing between two pyrimidines or purines. Readers that are interested in the physics and chemisty of DNA are encouraged to consult introductory books to biochemistry, for instance *The Basics of General, Organic, and Biological Chemistry* [@ball_basics_2012], which is shared under the Common Creative lisence.
 
-How can we effectively represent DNA sequences? ATGCGTC
+We let `A` denote adenine, `T` thymine, `G` guanine and `C` cytosine. Thus any DNA stretch can be represented by a character string with the four elements. For instance, the following stretch is the beginning of the mRNA encoding part of the BRCA2 gene: `ATGCCTATTGGATCC`, and the following stretch is the end of the part: `AAAAAATATATCTAA`.
 
-### The human genome
+## RNA (3 min)
+
+Almost the same as DNA, but with ribose as the pentose sugar instead of deoxyribose. And it exists mostly as single strand, or forming helix with DNA. In most organisms, uracil (U) is used in RNA instead of thymine (T).
+
+Similarly, we can let `A`, `G`, `C`, and `U` denote adenine, guanine, cytosine and uracil, respectively. 
+
+Following our example above, the mRNA encoded are `AUGCCUAUUGGAUCC`, and `AAAAAAUAUAUCUAA‘. Notice that while DNA often forms duplexes, RNA often is single-stranded and forms complex 3D structures.
+
+## Protein (8 min)
+
+Message RNA is translated into proteins in cytoplasm of human cells. The translation follows the genetic code: each three nucleotides specify one amino acid. There are twenty-one amino acids used in human and other eukaryotes. 
+
+Exercises: (a) translate the mRNA sequences above to protein sequences (b) verify that the genetic code is degenerate, or redundant (b) what is the implication of degeneration?
+
+
+## Drugs target either the nodes or the edges of the graph (15 min)
+
+Most drugs target either the nodes or the edges of the central-dogma graph.
+
+* Proteins are targets of most drugs. According the statistics in [@rask-andersen_trends_2011], by 2019, more than 80% drugs act on protein targets. According to the latest statistics [@oprea_unexplored_2018], among different kinds of proteins, most targeted ones include enzymes (31%), ion channels (21%), GPCR (16%). Other much explored targets include kinase (8%), transporters (4%), nuclear receptor - a class of transcription factors - (3%) and epigenetic factors (2%). Later we will briefly introduce what do these genes in principle do. And we will examine two examples, Herceptin (chemical name: trastuzumab) and cetrizine, in detail.
+* Translation inhibitors, for instance antimicrobial protein synthesis inhibitors. A prominent example are tetracyclines glycylcyclines. Tetracyclines are a series of derivatives of a basic 4-ring structure known as doxycycline. Glycylcyclines are tetracycline congers with substituents that confer broad-spectrum activity, and activity against bacteria that are resistant to other antibiotics. Tetracyclines and glycylcyclines inhibit bacterial protein synthesis by binding to the 30S bacterial ribosome and preventing access of aminoacyl tRNA to the acceptor (A) site on the mRNA-ribosome complex. See more in chapter 55 of *Goodman and Gilman's Manual of Pharmacology and Therapeutics, 2e*, [Protein Synthesis Inhibitors and Miscellaneous Antibacterial Agents](https://accesspharmacy.mhmedical.com/content.aspx?bookid=1810&sectionid=124496077). In human, mTOR inhibitors, a class of immunosuppresants, drugs that supress functions of the immune system, for instance after organ transplanation or in case of autoimmune diseases, also modulates the translation process.
+* RNA are targets of a class of drugs known as antisense-oligonucleotides (ASO). Chemically, they are modified, short DNA or RNA molecules that bind to an RNA target, leading to reduced expression of the protein target. The ASO-RNA recognition works by the Watson-Crick base maching mechanism that we described before. The first antisense drug that was approved in the U.S. is fomivirsen (brand name *Vitravene*), an antiviral drug that treats one kind of virus known as cytomegalovirus retinitis (CMV) in patients with deficient immune system (immunocompromised patients), such as those with AIDS. It is a synthetic 21mer oligonucleotide with phosphorothioate linkage (S instead of O), which are resistant to degradation by nucleases, with the sequence `5'-GCG TTT GCT CTT CTT CTT CTT GCG-3'`. It blocks translation of viral mRNA by binding to the complementary sequence of the mRNA transcribed from the template segment of a key CMV gene. It was discovered at National Institutes of Health (NIH), was licensed and initially developed by Isis Pharmaceuticals, which subsequently licensed it to Novartis. Novartis withdrew the marketing authorization in the EU in 2002 and in the US in 2006.The drug was withdrawn because while there was a high unmet need for drugs to treat CMV when the drug was initially discovered and developed due to the CMV arising in people with AIDS, the development of HAART dramatically reduced the number of cases of CMV.
+* Transcription: some antimicrobials and chemotherapeutic agents inhibit transcription, such as Dactinomycin (known also as actinomycin D). Some strong toxins, such as \alpha-Amanitin, also interferes with transcription. In human, drugs have been developed to specifically modulate single gene and even transcript expression patterns with the help of mathematics and informatics tools. We will examine risdiplam, a small molecule for Spinal Muscle Atrophy (SMA), a type of rare disease, in details in later part of the course.
+* Reverse transcription: reverse transcriptase inhibitors, such as Zidovudine (AZT), are important components of the highly active antiretroviral therapy (HAART), a way to use multiple antiretroviral drugs to control HIV infection.
+* DNA: gene-therapy and cell-therapy use biotechnologies and genome-editting to introduce exogeneous DNA, or delete/modify human DNA. Examples include chimeric activated receptors in T-cells (CAR-T) as an immunotherapy for cancer. In this therapy, T cells are isolated from human blood, either from the patient or a healthy donor. The cells are stimulated, for instance by cytokine interleukin 2 (IL-2) and anti-CD3 antibodies, to proliferate and expand to large numbers. Next, they are purified and transduced with a gene encoding the engineered chimeric antigen receptor (CAR) via a retroviral vector, which is safe due to deletion of pathogenic regions, or using the CRISPR-CAS9 technology, which we will hear more about later. Last but not least, the modified CAR-T cells are infused into the patient after the patient undergos chemotherapy to remove existing T cells. CAR-T cells have two functions: it can binds to the antigen, for instance on the tumor cell, and the binding will activates T cells, which will activate the adaptive immune system.
+* DNA replication: antimicrobials and chemotherapy agents, such as topoisomerase inhibitors like quinolones, inhibit DNA replication.
+
+Exercise: (a) Derive the reverse-complement sequence of fomivirsen. (b) it is possible to search for sequence matches in large databases of nucleotides, for instance using the BLAST algorithm. An implementation is freely available at NIH: https://blast.ncbi.nlm.nih.gov/Blast.cgi. Try to search for the RNA/protein targeted by fomivirsen.
+
+## The human genome (10 min)
+
+Modern drug discovery depends on understanding architecture and function of human genome, as well as genomes of other species. Some of them are very different from human genomes, for instance those of virus and bacteria. Others are in many aspects rather similar, especially major model species, including mouse, rat, rabbit, dog, pig, and non-human primates. Phylogenetics is the study of the evolutionary history and relationships among individuals or groups of roganisms (species, populations). From a genomic point of view, the phylogenetic relationship between major species is shown in the figure below.
 
 The human genome consists of about three billion DNA base pairs in germ cells - eggs and sperms - and twice of that in somatic cells. They are organized in 23 chromosome pairs in cell nuclei, and a small DNA molecule found within mitochondria.
 
@@ -92,39 +123,23 @@ The gene regulatory region usually contain stretches of DNA sequences that have 
 
 Besides proximal promoter elements, other regulatory elements can exist to regulate gene expression. Enhancers and silencers regulate gene expression positively and negatively, respectively, independent of both the distance from and orientation relative to the promoter. Insulators block genes from being affected by the transcriptional activity of neighbouring genes. Bioinformaticians use the same tools that we introduced earlier for transcription factor binding motifs, position weight matrix and web logos, to describe and visualize these elements. 
 
-Below we have a closer look at these two concepts.
+Given the huge size of the humen genome, mathematics and informatics tools are fundamental to understand its architecture and function. It is part of the Level 1 modelling, namely molecular modelling. In the coming two sessions, we will discuss other aspects of molecular modelling, especially drug-target modelling.
 
-#### Position weight matrix
+## Levenshtein distance (edit distance, 5 min)
 
-#### Web logos
+## Substitution matrix (5 min)
 
-## RNA
+## Position weight matrix (5 min)
 
-Almost the same as DNA, but with ribose as the pentose sugar instead of deoxyribose. And it exists mostly as single strand, or forming helix with DNA.
+## Web logos (5 min)
 
-How can we effectively represent RNA sequences? AUGUUC
+## Linear programming and the Needleman-Wunsch algorithm (10 min)
 
-## Protein
-
-How can we effectivel represent protein sequences?
-
-## The central dogma, revisited
-
-## Drugs target either the nodes or the edges of the graph
-
-## Mathematical concepts and models
-
-### Levenshtein distance (edit distance)
-
-### Substitution matrix
-
-### Linear programming and the Needleman-Wunsch algorithm
-
-### Markov markov models
+### Markov markov models (10 min)
 
 ### Profile hidden Markov models
 
-(the following paragraph is almost a verbatim copy of hmmer's user guide, which is a masterpiece of writing.] Most protein sequences are composed from a relatively small number of ancestral protein domain families. The sampling of common protein domain families has become comprehensive and deep, while raw sequence data continues to accumulate explosively. It has become advantageous to compare sequences against all known domain families, instead of known sequences.
+(the following paragraph is almost a verbatim copy of hmmer's user guide, which is a masterpiece of writing.) Most protein sequences are composed from a relatively small number of ancestral protein domain families. The sampling of common protein domain families has become comprehensive and deep, while raw sequence data continues to accumulate explosively. It has become advantageous to compare sequences against all known domain families, instead of known sequences.
 
 The idea is to identify subunits of protein sequences and annotate them. This resembles speech recognition, where user's voice is compared with a prebuilt dataset of statistical models of common words and phonemes. Using machine learning techniques, each statistical model is trained on large datasets of examples spoken by different speakers in different accents. Similarly, for each protein domain family, there are thousands of known homologs that can be aligned into deep multiple sequence alignments. Sequence alignments reveal a specific pattern of evolutionary conservation particular to that domains' structure and function. These patterns can be captured by probabilistic models.
 
@@ -157,3 +172,7 @@ To construct profile HMM models, hmmer uses in essence an Expectation-Maximizati
 * Rosalind
 * [Teaching RNA algorithms](http://rna.informatik.uni-freiburg.de/Teaching/) by Backofen Lab at U Freiburg, with [source code](https://github.com/BackofenLab/RNA-Playground) available on Github.
 * [An Introduction to Applied Bioinformatics](http://readiab.org/)
+
+## Summary
+
+
