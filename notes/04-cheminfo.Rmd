@@ -41,6 +41,10 @@ Ofloxacin, levofloxacin and dextrofloxacin are all fluoroquinolone antibiotics.
 
 ## Structural-activity relationship
 
+## Molecular descriptions of small molecules
+
+### Lipinski's rule of five
+
 ## Software and resources
 
 ### ChEMBL and ChEBI
