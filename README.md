@@ -9,26 +9,22 @@ $^{2}$ Department of Mathematics and Informatics, University Basel, Spiegelgasse
 *This document and the course material are published under the Creative Commons Attribution-ShareAlike 4.0 International License. They were prepraed and accomplished by Jitao David Zhang in his personal capacity. The opinions expressed in this document and the course material are author's own and do not reflect the view of F. Hoffmann-La Roche Ltd.*
 
 
-## Syllabus (Autumn Semester 2019-2020)
+## Syllabus of autumn semester 2019-2020
 
-1. Part I: Introduction
-    1. Introduction to drug discovery (20.9.2019)
-1. Part II: Bioinformatics and computational biology
-    1. Biological sequence analysis (27.9)
-    1. Omics: genomics, transcriptomics, and proteomics (4.10.)
-    1. Protein sequence and structure (11.10)
-1. Part III: Cheminformatics and computer-aided drug design
-    1. Chemical structure representation and search (18.10)
-    1. Molecular modelling and docking (25.10)
-1. Case study I: learning drug-induced toxicity with TG-GATEs (1.11)
-1. Mid-term presentations and invited guest speakers (8.11)
-1. Part IV: Mathematical modelling
-    1. Mathematical modelling in pharmacology (15.11)
-    1. PK/PD modelling (22.11)
-1. Part V: Statistics and machine learning
-    1. From designed comparative experiments to machine learning and causal inference (6.12)
-    1. Design and analysis of clinical trials (13.12)
-1. Case study II: computational approaches to model preclinical drug mechanism and safety (20.12.)
+1. Drug discovery: an overview (20.09.2019)
+2. Biological sequence analysis (27.09)
+3. Protein structure (4.10.)
+4. Chemical structure representation and search (11.10)
+5. Molecular interaction and modelling (18.10.)
+6. Omics: genomics, transcriptomics, and proteomics (25.10.)
+7. PK/PD and PBPK modelling (1.11.)
+8. Bayesian modelling and causal inference (8.11.)
+9. Multiscale modelling of drug mechanism and safety (15.11)
+10. Clinical trial and clinical pharmacology (22.11.)
+11. *Dies academicus - no lecture* (28.11.)
+12. Guest speakers (TBA) (6.12.)
+13. Student presentation (I): the heart model (13.12.)
+14. Student presentation (II): the diffusion-reaction system (20.12.)
 
 ## Background
 
@@ -44,13 +40,13 @@ It is hoped that with an introduction to applied mathematics and informatics in 
 
 ## Audience
 
-This course is designed for all students who are interested in applied mathematics and informatics and their applications in modern drug discovery. Though no prerequisite courses are obligatory, elementary understanding of statistics and ordinary differential equations as well as high-school level knowledge in physics, chemistry, and biology are helpful. Knowledge and proficiency in at least one programming language (preferably C/C++, Java, R, Python, or Julia) is very helpful to try real-world problems.
+This course is designed for all students who are interested in applied mathematics and informatics and their applications in modern drug discovery. Though no prerequisite courses are obligatory, elementary understanding of statistics, probability, calculus, and ordinary differential equations are helpful. High-school knowledge in physics, chemistry, and biology are required. Knowledge and proficiency in at least one programming language (preferably C/C++, Java, R, Python, or Julia) is very helpful to try real-world problems.
 
 ## Content
 
 The course is designed to be part of the curriculum of applied mathematics for undergraduate and master students to give a high-level overview of applications of mathematics and informatics tools in drug discovery. Therefore, while key concepts and principles are introduced, almost all subjects can only be briefly and likely superficially touched. Intensive investigations into some subjects, for instance bioinformatics and computational biology, are planned as follow-up courses.
 
-The course consists of thirteen sessions (90 minutes each), a mid-term presentation, and an final oral examination. Besides an introduction to drug discovery, the sessions will cover (1) bioinformatics and computational biology, (2) cheminformatics and computer-aided drug design, (3) mathematical modelling, and (4) statistics and machine learning.  The sessions are so arranged that they roughly reflect the linear model of the drug discovery process, including target assessment, screening, lead identification and optimization, preclinical safety evaluation, PK/PD modelling and clinical trials prior to filing and regulatory approval.
+The course consists of element sessions (90 minutes each), a near-end-term presentation, and an final oral examination. Besides an introduction to drug discovery, the sessions will cover (1) bioinformatics and computational biology, (2) cheminformatics and computer-aided drug design, (3) mathematical modelling, and (4) statistics and machine learning.  The sessions are so arranged that they roughly reflect the linear model of the drug discovery process, including target assessment, screening, lead identification and optimization, preclinical safety evaluation, PK/PD modelling and clinical trials prior to filing and regulatory approval.
 
 ## Literature
 
@@ -62,7 +58,7 @@ We explore the drug-discovery process and study applications of mathematics and 
 
 ## Examination
 
-Scores will be given by participation (20%), mid-term presentation (30%), and end-term oral examination (50%).
+Scores will be given by participation (20%), near-end-term presentation (30%), and end-term oral examination (50%).
 
 ## Acknowledgement
 
