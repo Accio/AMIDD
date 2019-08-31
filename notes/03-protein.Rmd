@@ -1,5 +1,14 @@
 # Proteins as drug targets and drugs
 
+
+## What do we want to achieve today
+
+* Have a mathematical understanding of DNA and protein structures
+* Become familiar with technical terms including the Frenet frame, torsion angles, Ramachandran plot
+* Have a high-level understanding of methods determining structures of biomolecules, including X-ray, NMR, and Cryo-EM
+* Know where to find and how to read PDB files
+* Know how to start PyMOL and visualize a protein of interest
+
 ## What are proteins? (15 min)
 
 Video by RCSB PDB-101: https://www.youtube.com/watch?v=wvTv8TqWC48&list=PLHib7JgKNUUdFEo9lZ4MnipbB1fLqyAVh
@@ -100,3 +109,5 @@ Video: https://www.youtube.com/watch?v=yk14dOOvwMk&list=PLHib7JgKNUUdFEo9lZ4Mnip
 * See the article [Does mathematical crystallography still have a role in the XXI century](https://journals.iucr.org/a/issues/2008/01/00/sc5006/) by Massimo Nespolo (Acta Crystallographica Section A, 2007) for a discussion on mathematical crystallography.
 * See two iBiology videos by Yifan Cheng: (1) [single particle cryo-EM](https://www.youtube.com/watch?v=Bk5lBvwSe-s) and (2) [single-particle Cyro-EM of membrane proteins](https://www.youtube.com/watch?v=tkrEKhiqhEk) to see a good overview of CryoEM applications in biophysics. See the video [Mathematics for Cryo-Electron Microscopy, 1h](https://www.youtube.com/watch?v=GxdIKOAwxzs) for mathematics in CryoEM.
 * Recall the HAART therapy against HIV? With more insights into proteins, you can now better understand molecular and structural basis of HIV therapy, with two videos provided by RCSB: (1) [A molecular View of HIV therapy](https://www.youtube.com/watch?v=9SptF9bCyd0&list=PLHib7JgKNUUdFEo9lZ4MnipbB1fLqyAVh&index=5), and (2) [Learn more about HIV from the RCSB Protein Data Bank](https://www.youtube.com/watch?v=QvavxKazmsY&list=PLHib7JgKNUUdFEo9lZ4MnipbB1fLqyAVh&index=6)
+* MATHEMATICAL TECHNIQUES IN STRUCTURAL BIOLOGY by J. R. Quine
+
