@@ -181,6 +181,24 @@ What does this imply in our study of applied mathematics and informatics in drug
 
 During the course of *Introduction to Applied Mathematics and Informatics In Drug Discovery*, we aim at using games, discussions, and presentations to raise the awareness of effecitive communication, and to exchange everyone's best practice in the class.
 
+## A list of things to consider before starting a drug discovery project
+
+* Indication: what disease do we want to combat with the drug? Apparently, many factors influence this decision, including the medical need, our knowledge about the disease, the market, etc.
+* Approach: targeted-approach or phenotypic approach?
+* In case of targeted-approach
+     * Activity profile: how potent should the drug bind to its target?
+     * Selectivity: the concentration at which the activity observed, and the concentation at which toxicity is observed: what is the dynamic window
+     * Formulation: oral, injection, etc.? Physicochemical properties need adjustment: solubility, permeability, etc.
+     * Pharmacokinetics: how can we select the compound that is most likely to reach the target?
+     * Pharmacodynamics: how can we convince ourselfs and others that the drug is likely to work in animal disease models and finally in patients?
+     * Drug-drug interaction: CYP induction? Time-dependent inhibition (TDI)?
+     * Safety: hERG flag? GSH flag? Ames and MNT flag? minitox study?
+           * hERG: The human Ether-a-go-go-Related Gene, known as KCNH2. It is the alpha subunit of a potassium ion channel. It is best known for its contribution to the electrical activity of the heart. If its function is inhibited, it can cause a potentially fatal disorder called torsades de pointes, an irregularity of the heartbeat. 
+	   * A steady supply of GSH ensures that Glutathione S-transferase (GSTs) work properly to detoxify xenobiotics.
+	   * Ames test: a test using bacteria to test whether a given chemical can cause mutations in the DNA of the test organism
+	   * MNT (micronucleus test): screening for genotoxic compounds. 
+	   * mini tox
+
 ## Background videos
 
 [Introduction to the Drug Discovery Process, Part I, from iBiology](https://www.ibiology.org/archive/introduction-drug-discovery-process/#part-1)
