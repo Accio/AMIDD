@@ -22,7 +22,7 @@ $^{2}$ Department of Mathematics and Informatics, University Basel, Spiegelgasse
 9. Multiscale modelling of drug mechanism and safety (15.11)
 10. Guest speakers (TBA) (22.11.)
 11. *Dies academicus - no lecture* (29.11.)
-12. Guest speakers (TBA) (6.12.)
+12. Guest speakers: Dr. Kaspar Rufibach and Dr. Benjamin Ribba (titles to be announced) (6.12.)
 13. Student presentation (I): the heart model (13.12.)
 14. Student presentation (II): the diffusion-reaction system (20.12.)
 
