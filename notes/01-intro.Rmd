@@ -101,7 +101,12 @@ The phases are briefly introduced below.
 
 A linear presentation of the drug discovery and development process can be often found in the following form or its variants.
 
-```{r drugDiscoveryLinear, fig.height=8, fig.width=5}
+```{r drugDiscoveryLinearGV, fig.cap="The linear presentation of the drug-discovery process", out.width="100%", fig.height=4}
+DiagrammeR::grViz("data/linear-drug-discovery-workflow.gv")
+```
+
+
+```{r drugDiscoveryLinear, eval=FALSE, fig.height=8, fig.width=5}
 mermaid("
 graph TD
     subgraph Discovery Research
