@@ -25,38 +25,74 @@ knitr::opts_chunk$set(echo = FALSE,
 
 ## About me
 
-Jitao _David_ Zhang, \myemail.
+Jitao _David_ Zhang, a computational biologist working in drug discovery
 
-* Experience
-    * Bachelor in Biology (2006)
-    * Master in Bioinformatics (2008)
-    * Ph.D. in Computational Biology and Bioinformatics (2011)
-    * Working at Pharma Research and Early Development (pRED), Roche Innovation Center Basel, F. Hoffmann-La Roche, Ltd.
-* Research interests
-    * Modelling, interpretation, and integration of biological data
-    * Developing novel computational and experimental approaches for disease understanding and drug discovery
-    * Developing sofware to translate mathematical and computational concepts to (re)usable tools
+Email: \myemail \ or \myrocheemail
 
-\takehome{My personal opinions do not represent those of Roche}
 
-## Some thoughts about the course series
 
-* We try to understand key concepts, impacts, and challenges of applied mathematics and informatics approaches together.
-* Case studies are discussed both in the context of drug discovery process and with a brief discussion of relevant mathematics and informatics concepts.
-* Selected open-source software solutions are introduced along with the concepts.
-* I am open to any questions, suggestions, and critics any time. Please share them directly with me at \myemail.
+## My career path
 
-\takehome{Share your opinion with me to improve the course!}
+```{r DNAsegment}
+knitr::include_graphics("figures/career-path-with-countries.png")
+```
+
+## Motivations
+
+* Language
+
+* Process
+
+* Models
+
+* Career
+
+* Life
+
+## Disclaimers
+
+* **My opinions and views do not necessarily reflect those by F. Hoffmann-La Roche, my employer**.
+
+* Hobby *vs.* training
+
+* Sharing and learning
+
+## The format of the course
+
+* Time
+* No excerise hour, but pre- and after-reading are recommended.
+* Logic of the lecture series.
+* Both board and powerpoints are used; lecture notes and powerpoints will be available.
+* $\textrm{Note} = 0.2 \times \textrm{Participation} + 0.3 \times \textrm{presentation} + 0.5 \times \textrm{oral examination}$.
+* $\textrm{Oral examination} = \textrm{Learning} + \textrm{Explaining your expertise to a layman}$.
+
+## The Herceptin story
+
+Pre-video questions:
+
+* What is the indication of Herceptin? What is the generic (USAN, or United States Adopted Name) name of Herceptin?
+* What is the gene that Herceptin targeting at?
+* In which year was the target of Herceptin described? And when was Herceptin approved?
+* What was the improvement of Herceptin compared with earlier antibodies?
+* Why does a bimarker matter besides developing drugs?
+* In the clinical trial of herceptin for metastatic breast cancer, how much improvement in the median survival did Herceptin achieve? And how much improvement is in the adjuvant setting (Herceptin applied directly after operation)?
+
+Questions for further thinking
+
+* Susan Desmond-Hellmann summarizes great drug development in four key concepts: (1) Having a deep understanding of the basic science and the characteristics of the drug. (2) Target the right patients. (3) Set a high bar in the clinic. (4) Work effectively with key regulatory decision markers. Where do you think mathematics and informatics play a crucial role?
+* She emphasized the importance of collaboration: you cannot do drug discovery alone. What skillsets do we need, as mathematicians or other experts, for such collaborations?
+* How do you like her presentation? Anything that you can learn from her about presentation and story telling?
+
 
 ## About you
 
 Will you mind telling us ...
 
-1. Who are you
-2. What are the key steps in your educational and personal experience
-3. Why are you joining this course series
-4. What do you expect from this course series
-5. Any questions you have about this course series
+
+1. Name?
+2. Subject of study?
+3. Which part of mathematics or informatics (or other background) are you mostly interested in?
+4. What do you want to take away from the course? Credit points, knowledge in drug discovery, applications of mathematics, or others?
 
 \takehome{Thank you \textit{all} for sharing}
 

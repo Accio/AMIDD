@@ -20,7 +20,7 @@ library(DiagrammeR)
 
 ### Who am I (5 min)
 
-### Motivation (10 min)
+### Motivation (5 min)
 
 1. **Language**: what is the language that we use in drug discovery? How is the language of mathematics and informatics used?
 
@@ -32,7 +32,7 @@ library(DiagrammeR)
 
 5. **Life**: drug discovery is about saving lifes and enabling a life of quality. Life is short. It fills the life with purpose for many scientists working with drug discovery, when you keep human life in mind.
 
-### Disclaimers (5 min)
+### Disclaimers (3 min)
 
 * Teaching as a personal choice. My opinions and views do not necessarily reflect those by F. Hoffmann-La Roche, my employer.
 
@@ -40,7 +40,7 @@ library(DiagrammeR)
 
 * I do not think my job here is to teach high mathematics. I am not an expert in mathematics and informatics, but I think I have some experience in drug discovery and in particular how mathematics concepts and informatics tools are used in it. In another word, I am sharing with you what mathematical concepts and computational approaches in drug discovery that I find beautiful, useful, or both.  I look forward to learning from you mathematics that I did not know.
 
-### The format of the course (10 min)
+### The format of the course (5 min)
 
 * The course is touching a lot of disciplines, especially biology, chemistry, physics, besides mathematics and informatics. That has three implications:
     * The necessary working knowledge of other disciplines is introduced when it is needed.
@@ -73,7 +73,9 @@ Questions for further thinking
 
 [iBiology.org seminar, by Susan Desmond-Hellmann](https://www.ibiology.org/human-disease/herceptin/). Recorded in 2011, 12:43.
 
-## Pause (10 min)
+## Reading about cetricine
+
+## Pause (10 min) {-}
 
 ## Part II: student self-introduction (20 min)
 
@@ -103,33 +105,6 @@ A linear presentation of the drug discovery and development process can be often
 
 ```{r drugDiscoveryLinearGV, fig.cap="The linear presentation of the drug-discovery process", out.width="100%", fig.height=4}
 DiagrammeR::grViz("data/linear-drug-discovery-workflow.gv")
-```
-
-
-```{r drugDiscoveryLinear, eval=FALSE, fig.height=8, fig.width=5}
-mermaid("
-graph TD
-    subgraph Discovery Research
-      A(Target Identification)-->B(Target Validation)
-      B-->C(Lead Identification)
-      C-->D(Lead Optimization)
-      D-->E(Preclinical development)
-    end
-
-    subgraph Development Research
-      E-->F(Phase I Clinical Trial)
-      F-->G(Phase II Clinical Trial)
-      G-->H(Phase III Clinical Trial)
-    end
-   
-    subgraph Submission and Launch
-      H-->I(Submission to Launch)
-    end
-
-    subgraph Post-launch activities
-      I-->J(Post-launch activities)
-    end
-")
 ```
 
 ### Reflections on the linear model of drug discovery (5 min)
@@ -171,7 +146,7 @@ Grabowski (1997) argued for integrating pharmacoeconomic analysis directly into 
 
 Paul *et al.* and Morgan *et al.* proposed ways to improve R&D producivity from an industrial perspective [@paul_how_2010;@morgan_impact_2018]. Smietana *et al* shared their insights from the consulting perspective [@smietana_improving_2015]. As Morgan *et al.* put it, a crucial part to improve R&D producitivity is to put emphasis on 'truth-seeking' behavior and to ask 'killer' projects for projects. The way towards it was to implement stronger quantiative sciences and quantiative decision-making. This is a *bona fide* support for more rigorous assessment of scientific uncertainty in drug discovery with applied mathematics and informatics.
 
-## Part IV: Drug discovery as a multiscale modelling problem (20 min)
+## Part IV: Drug discovery as a multiscale modelling problem (10 min)
 
 ### Multiscale modelling (10 min)
 
@@ -226,7 +201,7 @@ Apparently, cellular and omics level modelling misses the comprehensive and ofte
 
 On the other side, cellular and omics level models bring its own strength and power. Molecular-level modelling often addresses one or one pair of molecules, for instance drug or drug-target protein interaction, in isolation. Due to limitations in our modelling power, we can hardly model more than a few molecules once a time. That requires we ignore many molecules in a cell that may interact with the system that we study. The ignorance has a price, which can manifested in unexpected off-target, nameling being active on another gene besides the one aimed at, effects of the drug. Even more, since proteins form networks to execute functions, even a highly specific modulator of a given protein will likely induce widespread consequences due to the fact that its target interacts with other proteins in the cell. This kind of signal propogation can hardly be studied using molucular levels, however is feasible to be studied using omics and cellular levels, when the prior knowledge of protein-protein interaction is integrated.
 
-Mathematics and informatics aspects of selected omics technologies will be introduced in Part I of the course. Image analysis will be briefly introduced in the Part IV of the course. 
+Mathematics and informatics aspects of selected omics technologies will be introduced in Part I and II of the course. 
 
 #### Organ- and system level modelling
 
@@ -244,6 +219,8 @@ Two topics in statistical modelling deserve special treatment: machine learning,
 
 The topic of statistical populational modelling, especially RCT, and the topics of machine learning and causal inference, will be introduced in the part IV of the course, though statistical thinking and modelling is also demanded in other parts of the course.
 
+## Other considerations (optional) {-}
+
 ### The **no-silver-bullet** conjecture and its implications
 
 Does a simple, seemingly magical solution exist for such a complex and difficult problem as drug discovery? Our best guess is not. It can probably not be approved, but our intuitions and experience tell us the conjecture is likely to be true.
@@ -252,7 +229,7 @@ What does this imply in our study of applied mathematics and informatics in drug
 
 During the course of *Introduction to Applied Mathematics and Informatics In Drug Discovery*, we aim at using games, discussions, and presentations to raise the awareness of effecitive communication, and to exchange everyone's best practice in the class.
 
-## A list of things to consider before starting a drug discovery project (optional)
+### A list of things to consider before starting a drug discovery project (optional)
 
 * Indication: what disease do we want to combat with the drug? Apparently, many factors influence this decision, including the medical need, our knowledge about the disease, the market, etc.
 * Approach: targeted-approach or phenotypic approach?
@@ -270,13 +247,14 @@ During the course of *Introduction to Applied Mathematics and Informatics In Dru
 	   * MNT (micronucleus test): screening for genotoxic compounds. 
 	   * mini tox
 
-## Background videos
+## Further learning {-}
+
+### Background videos
 
 * [Introduction to the Drug Discovery Process, Part I, from iBiology](https://www.ibiology.org/archive/introduction-drug-discovery-process/#part-1)
 * [From "Hit" to Pill, from iBiology](https://www.ibiology.org/archive/introduction-drug-discovery-process/#part-2)
 * [Imatinib as a paradigm of targeted cancer therapies](https://www.ibiology.org/human-disease/imatinib-paradigm-targeted-cancer-therapies/)
 
-## Further reading
 
 <!--
 ## Some examples of bookdown
