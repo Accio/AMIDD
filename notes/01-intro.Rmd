@@ -34,11 +34,13 @@ library(DiagrammeR)
 
 ### Disclaimers (3 min)
 
-* Teaching as a personal choice. My opinions and views do not necessarily reflect those by F. Hoffmann-La Roche, my employer.
+* **Teaching is my personal engagement.** My opinions and views do not necessarily reflect those by F. Hoffmann-La Roche, my employer.
 
-* I am neither a mathematician nor a computer scientist by training. I am a computational biologist working in drug discovery. I enjoy mathematics, programming, and  analytical thinking and constantly trying to have fun by applying my hobiies in my work to solve problems.
+* **Please be aware of my biases and limitations.**
+   * I am neither a mathematician nor a computer scientist by training. I am a computational biologist working in drug discovery. 
+   * I see my task is to share with you the mathematical concepts and computational approaches used in drug discovery that I find beautiful and useful.  
+   * I look forward to learning from you mathematics that I did not know.
 
-* I do not think my job here is to teach high mathematics. I am not an expert in mathematics and informatics, but I think I have some experience in drug discovery and in particular how mathematics concepts and informatics tools are used in it. In another word, I am sharing with you what mathematical concepts and computational approaches in drug discovery that I find beautiful, useful, or both.  I look forward to learning from you mathematics that I did not know.
 
 ### The format of the course (5 min)
 
@@ -47,14 +49,14 @@ library(DiagrammeR)
     * We will not focus on rigorous proofs nor detailed deductions. Instead, we focus on key mathematical models that are important in drug discovery and computational concepts that are vital in translating data and models into knowledge that allow decision making.
     * I try to achieve a balance between the background and the mathematical and informatics part. Suggestions and ideas to improve the balance are always welcome.
 * Each course starts at 12:15 on Fridays, and contains two 45-minute sessions.
-* No excercise hours currently. Articles and book chapters for pre-reading and afeter-reading are distributed. Similar for videos. Each of us is encouraged to read them to get an overview of the topic to be covered, and to bring the questions to the course. 
+* No exercise hours currently. Articles and book chapters for pre-reading and afeter-reading are distributed. Similar for videos. Each of us is encouraged to read them to get an overview of the topic to be covered, and to bring the questions to the course. 
 * Later today we will introduce the workflow of drug discovery and the concept of multiscale modelling, and the lectures of the semester are organised around the workflow and the multscale modelling model. We have nine course covering the entire drug-discovery processes. After that, we will have two courses where we invite several mathematicians working in drug discovery to share their personal experience in choosing drug discovery as a career, and their work. Last but not least, we will have a near-end-term mid-term presentation from each of us. More details about that later.
 * We will use both board and powerpoints. The notes and powerpoints will be available.
 * The final note is given by participation (20%), presentation (30%), and an oral examination (50%). The oral examination will be about general concepts that we introduced, and about explaining mathematical concepts to a layman. Individual appointments have to be made for the oral examination.
 
 ### Video: Drug Development - the Herceptin Story (~ 15min)
 
-We watch a video by [SUsan Desmond-Hellmann](https://en.wikipedia.org/wiki/Susan_Desmond-Hellmann) on drug development of Herceptin. She is an American oncologist and biotechnology expert who is currently the Chief Executive Officer of the Bill & Melinda Gates Foundation. She was previously prefessor at the University of California, San Francisco (UCSF), Chancellor of the university, and before that president of product development at Genentech, where she played a role in the development of the first gene-targeted cancer drugs, Avastin and Herceptin.
+We watch a video by [Susan Desmond-Hellmann](https://en.wikipedia.org/wiki/Susan_Desmond-Hellmann) on drug development of Herceptin. She is an American oncologist and biotechnology expert who is currently the Chief Executive Officer of the Bill & Melinda Gates Foundation. She was previously prefessor at the University of California, San Francisco (UCSF), Chancellor of the university, and before that president of product development at Genentech, where she played a role in the development of the first gene-targeted cancer drugs, Avastin and Herceptin.
 
 Pre-video questions:
 
@@ -62,7 +64,7 @@ Pre-video questions:
 2. What is the gene that Herceptin targeting at?
 3. In which year was the target of Herceptin described? And when was Herceptin approved?
 4. What was the improvement of Herceptin compared with earlier antibodies?
-5. Why does a bimarker matter besides developing drugs?
+5. Why does a biomarker matter besides developing drugs?
 6. In the clinical trial of herceptin for metastatic breast cancer, how much improvement in the median survival did Herceptin achieve? And how much improvement is in the adjuvant setting (Herceptin applied directly after operation)?
 
 Questions for further thinking
