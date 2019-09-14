@@ -13,18 +13,19 @@ $^{2}$ Department of Mathematics and Informatics, University Basel, Spiegelgasse
 
 1. Drug discovery: an overview (20.09.2019)
 2. Biological sequence analysis (27.09)
-3. Protein structure (4.10.)
+3. Protein structure and function (4.10.)
 4. Chemical structure representation and search (11.10)
 5. Molecular interaction and modelling (18.10.)
 6. Omics: genomics, transcriptomics, and proteomics (25.10.)
 7. PK/PD and PBPK modelling (1.11.)
-8. Bayesian modelling and causal inference (8.11.)
+8. Bayesian modelling, machine learning, and causal inference (8.11.)
 9. Multiscale modelling of drug mechanism and safety (15.11)
-10. Guest speakers (TBA) (22.11.)
+10. Guest speakers: Dr. Nicolas Frey and Dr. Lucy Hutchinson (titles to be announced) (22.11.)
 11. *Dies academicus - no lecture* (29.11.)
 12. Guest speakers: Dr. Kaspar Rufibach and Dr. Benjamin Ribba (titles to be announced) (6.12.)
-13. Student presentation (I): the heart model (13.12.)
-14. Student presentation (II): the diffusion-reaction system (20.12.)
+13. Student presentation (I) (13.12.)
+14. Student presentation (II) (20.12.)
+
 
 ## Background
 
