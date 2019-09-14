@@ -27,16 +27,17 @@ Changes, if necessary, be communicated during the course.
 
 ## Assessment
 
-The final note is given by participation (20%), presentation (30%), and an oral examination (50%). The oral examination will be about concepts that we learned together, and about explaining mathematical concepts (or concepts in your domain of experts) to a layman.
+The final note is given by participation (20%), presentation (30%), and an oral examination (50%). 
+
+The oral examination will be about concepts that we learned together, and about explaining mathematical concepts (or concepts in your domain of experts) to a layman.
 
 ## Further information
 
-We focus on interdisciplinary research with mathematics as the language and informatics as the tool.
+* We focus on interdisciplinary research with mathematics as the language and informatics as the tool.
 
-I do not offer exercise hour yet. Pre-reading and post-reading articles, as well as videos, are shared and recommended.
+* I do not offer exercise hour yet. Pre-reading and post-reading articles, as well as videos, are shared and recommended.
 
-Both slides and board are used for the course. Slides and notes are shared.
-Further questions?
+* Both slides and board are used for the course. Slides and notes are shared.
 
 ## You have got further questions?
 
