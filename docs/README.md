@@ -4,7 +4,7 @@ The website for *Introduction to Applied Mathematics and Informatics In Drug Dis
 
 The lecture takes place on Fridays between 12:15 and 14:00 in Seminarraum 5.002, Department of Mathematics and Informatics, University of Basel, Spiegelgasse 1, 4051 Basel.
 
-Course material, including lecture notes, slides, and reading material, are shared here unless otherwise specified in the course.
+Course material, including lecture notes, slides, and reading material, are shared on the course's web site, [amidd.ch](http://amidd.ch), unless otherwise specified in the course.
 
 ## Syllabus
 
@@ -29,7 +29,7 @@ Changes, if necessary, be communicated during the course.
 
 The final note is given by participation (20%), presentation (30%), and an oral examination (50%). 
 
-The oral examination will be about concepts that we learned together, and about explaining mathematical concepts (or concepts in your domain of experts) to a layman (the lecturer).
+The oral examination will be about concepts that we learned together, and about explaining mathematical concepts (or concepts in your domain of experts) to a layman - your lecturer.
 
 ## Further information
 
