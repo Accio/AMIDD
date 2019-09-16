@@ -1,4 +1,4 @@
-The website for *Introduction to Applied Mathematics and Informatics In Drug Discovery*, the course series running at the Department of Mathematics and Informatics, University of Basel.
+Welcome to the website for *Introduction to Applied Mathematics and Informatics In Drug Discovery*, the course series running at the Department of Mathematics and Informatics, University of Basel.
 
 ## Time and place
 
@@ -39,6 +39,7 @@ The oral examination will be about concepts that we learned together, and about 
 
 * Both slides and board are used for the course. Slides and notes are shared.
 
-## You have got further questions?
+## Further questions or suggestions?
 
 Please contact the lecturer, Jitao David Zhang, at [jitao-david.zhang@unibas.ch](mailto:jitao-david.zhang@unibas.ch).
+
