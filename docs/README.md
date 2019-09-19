@@ -9,6 +9,9 @@ Course material, including lecture notes, slides, and reading material, are shar
 ## Syllabus
 
 1. Drug discovery: an overview (20.09.2019)
+    * Handout [Course info](./assets/01/course-info.pdf)
+    * [Slides](./assets/01/AMIDD-01-Introduction.pdf)
+    * Handout [Package insert demo](./assets/01/package-insert-demo.pdf)
 2. Biological sequence analysis (27.09)
 3. Protein structure and function (4.10.)
 4. Chemical structure representation and search (11.10)
