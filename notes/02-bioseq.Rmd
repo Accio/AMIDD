@@ -10,21 +10,19 @@ knitr::opts_chunk$set(echo=FALSE,
 library(DiagrammeR)
 ```
 
-## What do we want to achieve today
+## Goals today
 
-* Learn the central dogma of molecular biology and its implications in drug discovery
-* Understand how biological information is stored in DNA and protein sequences and how can they be analysed
-* Understand technical terms including edit distance, Smith-Waterman algorithm, Needleman-Wunsch algorithm, Markov chains
-* Know software BLAST, hmmer, biopython
-* Self-learning with rosalind
+* The central dogma of molecular biology and its implications in drug discovery
+* Dynamic programming and (hidden) Markov chains in biological sequence analysis
+* Know software BLAST, hmmer, biopython, and resources including rosalind
 
-## Questions
+## Typical questions in drug discovery that call for biological sequence analysis
 
-* Are there other genes other the target X with similar structures to X, that may increase the effect of the drug and/or cause side effects?
-* Does it make sense to test drug candidates of target X in mouse, rat, or another model species?
+* Are there other genes other the target X that is similar to X, that may increase the effect of the drug and/or cause side effects when the drug interferes with their functionaltiies?
+* Is it appropriate to test drug candidates of target X in mouse, rat, cyno monkey, or another model species?
 * How variable are the coding sequences of the target X among the general population, and among patients of a certain disease?
-* Can we design efficacious and safe RNA-based therapies that target gene X potently and specifically to reverse the disease? 
-
+* Can we design efficacious and safe RNA-based therapies that target the transcript of X potently and specifically to reverse the disease? 
+* Can we design efficacious and safe gene therapy that specifically increases or decreases expression of target X?
 
 ## Central dogma of molecular biology (5 min)
 
@@ -76,6 +74,8 @@ Nitrogenous bases of two anti-parallel DNA strands form pairs: Adenine (A) pairs
 
 We let `A` denote adenine, `T` thymine, `G` guanine and `C` cytosine. Thus any DNA stretch can be represented by a character string with the four elements. For instance, the following stretch is the beginning of the mRNA encoding part of the BRCA2 gene: `ATGCCTATTGGATCC`, and the following stretch is the end of the part: `AAAAAATATATCTAA`.
 
+The basepair matching in DNA is known as the Watson-Crick pair matching, to honour the two scientists who contributed to solving the DNA structure, with inputs from other scientists. The DNA structure was solved by X-ray crystallography. Mathematics contributes to X-ray crystallography in at least two important aspects. The study of *space groups* tells what periodic configurations are possible in the 3D space. In fact, they are often called *crystallographic groups* by mathematicians (see AMS feature column by Tony Philips). The other connection is the fact that when a monochromatic X-ray diffracts off a crystal, it performs in fact part of a mathematical operation: the Fourier transform. When the incidence angle is varied, the complete transform is produced. More about this later.
+
 ## RNA (3 min)
 
 Almost the same as DNA, but with ribose as the pentose sugar instead of deoxyribose. And it exists mostly as single strand, or forming helix with DNA. In most organisms, uracil (U) is used in RNA instead of thymine (T).
@@ -84,12 +84,18 @@ Similarly, we can let `A`, `G`, `C`, and `U` denote adenine, guanine, cytosine a
 
 Following our example above, the mRNA encoded are `AUGCCUAUUGGAUCC`, and `AAAAAAUAUAUCUAA‘. Notice that while DNA often forms duplexes, RNA often is single-stranded and forms complex 3D structures.
 
+The structures can be predicted based by free-energy minimization. By assuming the nearest neighbour model, which assumes that the free energy change for forming a base pair depends only on the sequence identities of that pair and the immediately neighboring base pairs. Likewise, free energy changes associated with forming loop regions and other
+structural motifs are assumed to be independent of any nucleotide outside of the loop sequence and the sequence of the bounding base pairs. Thus, the free energy change for a given structure can be computed simply by adding up all the energies associated with forming all the base pair stacks and all the other structural motifs. The parameters were determined from optical melting experiments.
+
+Under the hood, popular software to predict RNA structure, for instance MFOLD and ViennaRNA, use dynamic programming to calculate the predicted structure. The idea is very much like the Needleman-Wunsch algorithm that we talk about below. See the primer by Sean Eddy for more details.
+
+From a pratical point of view, RNA structures can be found by by chemical methods such as the SHAPE method. The ability to predict and determined structures of RNAs expands our ability to use RNA as drug targets, for instance using antisense oligonucleotides or RNA-binding small molecules. More about that later.  
+
 ## Protein (8 min)
 
 Message RNA is translated into proteins in cytoplasm of human cells. The translation follows the genetic code: each three nucleotides specify one amino acid. There are twenty-one amino acids used in human and other eukaryotes. 
 
 Exercises: (a) translate the mRNA sequences above to protein sequences (b) verify that the genetic code is degenerate, or redundant (b) what is the implication of degeneration?
-
 
 ## Drugs target either the nodes or the edges of the graph (15 min)
 
@@ -125,15 +131,25 @@ Besides proximal promoter elements, other regulatory elements can exist to regul
 
 Given the huge size of the humen genome, mathematics and informatics tools are fundamental to understand its architecture and function. It is part of the Level 1 modelling, namely molecular modelling. In the coming two sessions, we will discuss other aspects of molecular modelling, especially drug-target modelling.
 
-## Levenshtein distance (edit distance, 5 min)
+## Levenshtein distance (edit distance, 10 min)
+
+A case study of dynamic programming
 
 ## Substitution matrix (5 min)
 
+Replacing the edit distance by biology-driven costs
+
+## The Needleman-Wunsch algorithm (10 min)
+
+An extension of the Levenshtein distance
+
 ## Position weight matrix (5 min)
+
+When many similar sequences are compared
 
 ## Web logos (5 min)
 
-## Linear programming and the Needleman-Wunsch algorithm (10 min)
+Information theory meets biological sequence
 
 ### Markov markov models (10 min)
 
@@ -174,5 +190,10 @@ To construct profile HMM models, hmmer uses in essence an Expectation-Maximizati
 * [An Introduction to Applied Bioinformatics](http://readiab.org/)
 
 ## Summary
+
+## Topics that we leave out
+
+* Phylogenetic analysis
+* Comparative genomics
 
 
