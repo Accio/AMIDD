@@ -12,13 +12,13 @@ library(DiagrammeR)
 
 ## What do we want to achieve today {-}
 
-* Have a high-level understanding of the drug-discovery process, including target identification, screening, lead identification, lead optimization, pre-clinical development and clinical trials.
-* Have a discussion around why drug discovery takes a long time and costs a fortune (or more)
-* Have a first impression of applications of mathematics and informatics in the drug discovery process
+* A first impression of the drug-discovery process
+* The linear view and the multscale-modelling view of drug discovery
+* A first impression of applications of mathematics and informatics in drug discovery
 
 ## Part I: Introduction, motivation, and administrivia (~30 min)
 
-### Who am I (5 min)
+### Who am I (2 min)
 
 ### Motivation (5 min)
 
