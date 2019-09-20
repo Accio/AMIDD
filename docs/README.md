@@ -14,6 +14,7 @@ Course material, including lecture notes, slides, and reading material, are shar
     * Handout [Package insert demo](./assets/01/package-insert-demo.pdf)
     * After-read: [Principles of early drug discovery](./assets/01/Principles-DD-Hughes.pdf) by Hughes *et al.*
 2. Biological sequence analysis (27.09)
+    * Pre-read: Wikipedia pages [Central dogma of molecular biology](https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology) and [Sequence analysis](https://en.wikipedia.org/wiki/Sequence_analysis).
 3. Protein structure and function (4.10.)
 4. Chemical structure representation and search (11.10)
 5. Molecular interaction and modelling (18.10.)
