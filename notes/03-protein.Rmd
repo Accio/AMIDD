@@ -59,7 +59,6 @@ The trick: enhancing the signal to noise ratio (SNR) by summing and averaging. B
 
 Mathematically, the optimal alignment (a translation and an in-plane rotation) to map one image onto another is calculated by cross-correlation. This allows image registration, the process of aligning images in one common coordinate system. A clear mathematical illustration is provided by [the documentation and examples of the `xcorr2` function in Matlab](https://www.mathworks.com/help/signal/ref/xcorr2.html), and in the [MatLab tutorial to register an image using normalised cross-correlation](https://ch.mathworks.com/help/images/registering-an-image-using-normalized-cross-correlation.html).
 
-
 Another technique very useful in cryo-EM image processing is image filtering using fast Fourier transforms (FFT). This is used to reduce high or low spatial frequency information in the images. High-pass filters remove low spatial frequencies such as gradient effects.
 
 Transmission electron microscopy images are projections of the object showing the distribution of density through the object, similar to medical X rays. Since the molecules are imaged from many different viewing angles many times, and images are in fact 2D projection of the molecule, which is a 3D object, it is possible to reconstruct 3D structure using the projection-slice theorem
@@ -101,7 +100,6 @@ Practically, filtered back projection is a commonly used method of generating 3D
 # How does an enzyme work?
 
 Video: https://www.youtube.com/watch?v=yk14dOOvwMk&list=PLHib7JgKNUUdFEo9lZ4MnipbB1fLqyAVh&index=2
-
 
 ## Further learning
 
