@@ -10,11 +10,11 @@ knitr::opts_chunk$set(echo=FALSE,
 library(DiagrammeR)
 ```
 
-## Goals today
+## Goals today {-}
 
 * The central dogma of molecular biology and its implications in drug discovery
-* Dynamic programming and (hidden) Markov chains in biological sequence analysis
-* Know software BLAST, hmmer, biopython, and resources including rosalind
+* Dynamic programming and Markov chains in biological sequence analysis
+* Know software BLAST, hmmer, biopython, and resources including Rosalind
 
 ## Typical questions in drug discovery that call for biological sequence analysis
 
@@ -85,11 +85,11 @@ Similarly, we can let `A`, `G`, `C`, and `U` denote adenine, guanine, cytosine a
 Following our example above, the mRNA encoded are `AUGCCUAUUGGAUCC`, and `AAAAAAUAUAUCUAA‘. Notice that while DNA often forms duplexes, RNA often is single-stranded and forms complex 3D structures.
 
 The structures can be predicted based by free-energy minimization. By assuming the nearest neighbour model, which assumes that the free energy change for forming a base pair depends only on the sequence identities of that pair and the immediately neighboring base pairs. Likewise, free energy changes associated with forming loop regions and other
-structural motifs are assumed to be independent of any nucleotide outside of the loop sequence and the sequence of the bounding base pairs. Thus, the free energy change for a given structure can be computed simply by adding up all the energies associated with forming all the base pair stacks and all the other structural motifs. The parameters were determined from optical melting experiments.
+structural motifs are assumed to be independent of any nucleotide outside of the loop sequence and the sequence of the bounding base pairs. Thus, the free energy change for a given structure can be computed simply by adding up all the energies associated with forming all the base pair stacks and all the other structural motifs. The parameters were determined from optical melting experiments [@seetin_rna_2012].
 
-Under the hood, popular software to predict RNA structure, for instance MFOLD and ViennaRNA, use dynamic programming to calculate the predicted structure. The idea is very much like the Needleman-Wunsch algorithm that we talk about below. See the primer by Sean Eddy for more details.
+Under the hood, popular software to predict RNA structure, for instance MFOLD and ViennaRNA, use dynamic programming to calculate the predicted structure. The idea is very much like the Needleman-Wunsch algorithm that we talk about below. See the primer by Sean Eddy for more details [@eddy_how_2004].
 
-From a pratical point of view, RNA structures can be found by by chemical methods such as the SHAPE method. The ability to predict and determined structures of RNAs expands our ability to use RNA as drug targets, for instance using antisense oligonucleotides or RNA-binding small molecules. More about that later.  
+From a pratical point of view, RNA structures can be found by by chemical methods such as the  Selective 2‘-Hydroxyl Acylation and Primer Extension (SHAPE) method [@merino_rna_2005]. Computational methods can be then used to predict the structure or structure ensemble of RNA [@spasic_modeling_2018]. The ability to predict and determined structures of RNAs expands our ability to use RNA as drug targets, for instance using antisense oligonucleotides or RNA-binding small molecules. More about that later.  
 
 ## Protein (8 min)
 
