@@ -12,6 +12,7 @@ Course material, including lecture notes, slides, and reading material, are shar
     * Handout [Course info](./assets/01/course-info.pdf)
     * [Slides](./assets/01/AMIDD-01-Introduction.pdf)
     * Handout [Package insert demo](./assets/01/package-insert-demo.pdf)
+    * After-read: [Principles of early drug discovery](./assets/01/Principles-DD-Hughes.pdf) by Hughes *et al.*
 2. Biological sequence analysis (27.09)
 3. Protein structure and function (4.10.)
 4. Chemical structure representation and search (11.10)
