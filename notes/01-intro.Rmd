@@ -26,7 +26,7 @@ library(DiagrammeR)
 
 2. **Process**: how do experts with diverse background communicate and collaborate to make drugs? What roles do mathematics and informatics play in this process?
 
-3. **Models**: what types of models do we use in drug discovery? What are their advantages and limitations?
+3. **Model**: what types of models do we use in drug discovery? What are their advantages and limitations?
 
 4. **Career**: How do you think of the sentence 'Biology is mathematician's next physics?' I was excited and humbled. Joel E. Cohen, an methamatical biologist, wrote eloquently in 2004 that 'Mathematics Is Biology's Next Microscope, Only Better; Biology Is Mathematics' Next Physics, Only Better'. Since drug discovery finally comes down to controlled perturbation of biological systems by biological and chemical means, I believe it is an attractive career path for mathematicians to understand the problems in drug discovery, and to use their knowledge and curiosity to help patients.
 
