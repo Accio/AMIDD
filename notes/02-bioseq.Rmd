@@ -160,12 +160,12 @@ Simply speaking, the Levenshtein distance between two words is the minimum numbe
 
 ### Example of Levenstein distance between any two strings
 
-*herceptin* and *herapin*: a Levenstein distance of 3
+*herceptin* and *heparin*: a Levenstein distance of 5
 
 In R:
 
 ```r
-utils::adist("herceptin", "herapin")
+utils::adist("herceptin", "heparin")
 ```
 
 An online tool to demonstrate Levenshtein's distance: http://www.let.rug.nl/~kleiweg/lev/.
