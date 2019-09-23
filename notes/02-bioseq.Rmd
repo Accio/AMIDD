@@ -16,7 +16,20 @@ library(DiagrammeR)
 * Dynamic programming and Markov chains in biological sequence analysis
 * Know software BLAST, hmmer, biopython, and resources including Rosalind
 
-## Typical questions in drug discovery that call for biological sequence analysis
+## Examples of distance in drug discovery
+
+### miR-200bc and miR-200a/149 (3 min)
+
+### Vemurafenib (5 min)
+
+* [RCSB Ligand 032](http://www.rcsb.org/ligand/032)
+* [PDB 3OG7: B-Raf kinase V600E oncogenic mutatnt in complex with PLX4032](http://www.rcsb.org/structure/3OG7)
+* [LIGPLOT](http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPage.pl?pdbcode=3og7&template=ligands.html&l=1.1)
+* [Crystallographic structure of Vemurafenib (PLX4032) complexed with B-Raf kinase, based on PDB coordinates 3OG7](https://en.wikipedia.org/wiki/File:3OG7.png) - 'key in the lock' model by Emil Fischer (1893)
+* [Bollag *et al.*, Nature, 2010, which reported that clinical efficacy of Vemurafenib (PLX4032, RG7204)](https://www.nature.com/articles/nature09454)
+* [Safety and efficacy of vemurafenib in $\textrm{BRAF}^\textrm{V600E}$ mutation-positive melanoma, Phase III study](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(14)70012-9/fulltext?version=printerFriendly#%20)
+
+## Typical questions in drug discovery that call for biological sequence analysis (5 min)
 
 * Are there other genes other the target X that is similar to X, that may increase the effect of the drug and/or cause side effects when the drug interferes with their functionaltiies?
 * Is it appropriate to test drug candidates of target X in mouse, rat, cyno monkey, or another model species?
@@ -76,7 +89,7 @@ We let `A` denote adenine, `T` thymine, `G` guanine and `C` cytosine. Thus any D
 
 The basepair matching in DNA is known as the Watson-Crick pair matching, to honour the two scientists who contributed to solving the DNA structure, with inputs from other scientists. The DNA structure was solved by X-ray crystallography. Mathematics contributes to X-ray crystallography in at least two important aspects. The study of *space groups* tells what periodic configurations are possible in the 3D space. In fact, they are often called *crystallographic groups* by mathematicians (see AMS feature column by Tony Philips). The other connection is the fact that when a monochromatic X-ray diffracts off a crystal, it performs in fact part of a mathematical operation: the Fourier transform. When the incidence angle is varied, the complete transform is produced. More about this later.
 
-## RNA (3 min)
+## RNA (5 min)
 
 Almost the same as DNA, but with ribose as the pentose sugar instead of deoxyribose. And it exists mostly as single strand, or forming helix with DNA. In most organisms, uracil (U) is used in RNA instead of thymine (T).
 
@@ -133,15 +146,95 @@ Given the huge size of the humen genome, mathematics and informatics tools are f
 
 ## Levenshtein distance (edit distance, 10 min)
 
-A case study of dynamic programming
+A case study of dynamic programming.
+
+The Levenshtein distance is a string metric for measuring the difference between two sequences. 
+
+Simply speaking, the Levenshtein distance between two words is the minimum number of single-character edits, which include a) insertions, b) deletions, and c) substitutions, that are required to change one word into the other. It was proposed by Vladimir Levenshtein, a Russian mathematician who did research in information theory, error-correcting codes, and combinatorial design.
+
+### Examples of Levenshtein distance
+
+* love - dove (substitution)
+* AATGC - AATC (deletion)
+* AGTA - AGTTAG (insertion, Levenshtein distance 2)
+
+### Example of Levenstein distance between any two strings
+
+*herceptin* and *herapin*: a Levenstein distance of 3
+
+In R:
+
+```r
+utils::adist("herceptin", "herapin")
+```
+
+An online tool to demonstrate Levenshtein's distance: http://www.let.rug.nl/~kleiweg/lev/.
+
+### Boundaries and complexity
+
+The Levenshtein distance $L$ of two strings $a$ (of $m$ characters) and $b$ (of $n$ characters):
+
+* $L \geqslant |m-n|$
+* $L \leqslant max(m,n)$
+* $L=0$ if $a=b$
+* $L_{ac}+L_{bc} \geqslant L_{ab}$ for any string $c$
+
+The space and time complexity of the dynamic programming way of calculating Levenshtein distance is about $O(mn)$. The algorithm used is called Wagner-Fisher algorithm.
+
+The Wagner-Fisher algorithm to calculate Levenshtein distance is an instance of Dynamic Programming, a mathematical technique very often used. It was developed by Richard Bellmann in the 1950s. He developed Bellman equation, or dynamic programming equation, as a necessary condition for optimality associated with dynamic programming. among others coined thw word *curse of dimensionality*.
+
+We will talk about a few of them, for instance the Viterbi algorithm used in HMMs, and the Needleman-Wunsch algorithm that we will talk about now.
 
 ## Substitution matrix (5 min)
 
 Replacing the edit distance by biology-driven costs
 
+The limitation of the Levenshtein distance is that the cost of insertion, deletion, and substitution are fix and constant for all types of changes (1). In the context of biology, such a cost is an over-simplification.
+
+Due to the redudancy of the genetic code, and due to the selection pressue, the cost associated with different types of changes must be different on the protein level. Similarly, for DNA, transitions (change of one purine to another purine, or pyrimidine to another pyrimidine) is much more likely than transversions (purine to a pyrimidine, or vice versa).
+
+Therefore, a simple extension of the Levenshtein edit distance, where each type of change is assigned to a different cost, may better characterize the distance between two biological sequences.
+
+For nucleotides, a similarity matrix can be used
+For amino acids, commonly used substitution matrices include PAM and BLOSUM.
+
+* PAM = Point Accepted Mutation, developed by Margaret Dayhoff in the 1970s. It works best for closely related proteins
+* BLOSUM = BLOck Substitution Matrix, which uses multiple alignments of evolutionarily divergent proteins. 
+
+Both of them use probabilities of transformation as scores, or log-odds scores, defained by log of observed frequency divided by expected frequency.
+
+Many programs can perform Needleman-Wunsch alignment, for intance the `Needle` tool in the EMBOSS suite (webtool: https://www.ebi.ac.uk/Tools/psa/emboss_needle/). It uses `DNAfull`(http://rosalind.info/glossary/dnafull/) matrix by default for DNAs, and `BLOSUM62`(https://en.wikipedia.org/wiki/BLOSUM#/media/File:BLOSUM62.png)
+
 ## The Needleman-Wunsch algorithm (10 min)
 
-An extension of the Levenshtein distance
+The Needleman-Wunsch algorithm is an algorithm for optimal global alignment. It is very much like the Levenshtein distance. Both are identical if match is scored as 0, index as 1, and mismatch as 1. In NW, often the convention is to give a positive score to a match (say 1) and a negative one to a mismatch or indel (say -1).
+
+The scoring can be changed for purpose. For instance, if we wish to punish gaps more than mismatches, we may use 5 or 10 as the score of mismatch.
+
+In addition, gap penalty may be introduced. The intuition is that when gaps must be introduced, a large gap is more likely to occur as one large deletion as opposed to multiple single deletions. A simple way to do that is to assign a large gap-start score for a new index, and a smaller gap-extension score for every letter which extends the index.
+
+For example, a new-indel may cost 8 and extend-indel may cost .5. 
+
+```bash
+ATTTTTTG
+A-T-T-TG
+```
+would be penalized and become
+
+```bash
+ATTTTTTG
+ATTT---G
+```
+
+## Smith-Waterman algorithm for local alignments (10 min)
+
+Largely similar, but able to find local alignments with following changes
+
+* First row and first column: in NW they are set to gap penalty, in SW they are set to 0
+* Scoring: in NW scores can be negative, in SW negative scores are set to zero
+* Traceback: in NW, we beging with the lower right corner of the matrix, and end at top left; in SW, we begin with the highest score, and end when 0 is encoutered.
+
+Example: 
 
 ## Position weight matrix (5 min)
 
@@ -150,6 +243,10 @@ When many similar sequences are compared
 ## Web logos (5 min)
 
 Information theory meets biological sequence
+
+Web tool [WebLogo 3](http://weblogo.threeplusone.com/): http://weblogo.threeplusone.com/
+
+$ H = - \Sigma{i=1}{M}P_{i}log_{2}P{i} \textrm{bits/symbol} $
 
 ### Markov markov models (10 min)
 
@@ -197,3 +294,43 @@ To construct profile HMM models, hmmer uses in essence an Expectation-Maximizati
 * Comparative genomics
 
 
+## Notes
+
+### How often a drug is given
+
+* QD (q.d. or qd) : one a day, from Latin *quaque die*
+* BID (b.i.d or bid), twice a day, *bis in die*
+* TID (t.i.d or tid), three times a day, *ter in die*
+* QID (q.i.d or qid): four times a day, *quater in die*
+* q*x*h, every *x* hours
+
+### Molecular level MoA of PLX4032
+
+* Azaindole (aza = carbon replaced by nitrogen, indole is a well known compound) interacts with the kinase hinge
+* The sulfonamide (R1-SOO-NR2R3) interacts with the DFG loopi (Asp-Phe-Gly), Sulfonamide is a functional group found in a class of sulphonamides or sulfa drugs.
+### Kinase structure
+
+### V600E
+
+Valine (Val, V) is encoded by GT?
+
+Glutamic acid (Glu, E) is encoded by GA[A|G]. Aspartic acid, Asp or D, is encoded by GA[T|C].
+
+The mRNA encoding BRAF gene (NM_004433) has CDS between 227 and 2527 nt. The 600's amino acid is encoded by 227+(600-1)*3 - 227+600*3 nts, namely 2024-2027. The normal sequence is GTG, and mutated one is GAG. It is also known as c.1799T>A, because the mutation position is the 1799th position of the cDNA.
+
+
+### BRAF
+
+The vast majority of benign nevi (pl. of nevus, any congenital anomaly of the skin, including moles and various types of birthmarks) harbour the same BRAF (V60E) mutation. Current understanding is that the nevi are benign because the BRAF mutation alone, without cooperating mutations, induces senescence.
+
+### The current status?
+
+Co-targeting BRAF(V600E) and MEK inhibition.
+
+[iBiology course by Susan Taylor, Architecture of a Protein Kinase](https://www.youtube.com/watch?v=TQ2C-5P-I5E)
+
+### RECIST
+
+RECIST means Response Evaluation Criteria in Solid Tumors.
+
+A standard way to measure how well a cancer patient responds to treatment. It is based on whether tumors shrink, stay the same, or get bigger. To use RECIST, there must be at least one tumor that can be measured on x-rays, CT scans, or MRI scans. The types of response a patient can have are a complete response (CR), a partial response (PR), progressive disease (PD), and stable disease (SD).
