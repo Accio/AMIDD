@@ -145,3 +145,4 @@ NONMEM as standard, but also open-source, R-based solution is introduced.
 
 http://ocw.uci.edu/courses/math_113b_intro_to_mathematical_modeling_in_biology.html
 [Statistics in Action with R: Pharmacokinetic modelling](http://sia.webpopix.org/pharmacokinetics.html)
+[nlmixr package for population modelling in R](http://nlmixrdevelopment.github.io)
