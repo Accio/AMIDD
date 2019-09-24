@@ -16,15 +16,126 @@
 
 ### Physiology-based pharmacokinetic modelling
 
-## Mathematical concepts models
+## Population modelling
 
-### Ordinary differentiatial equations
+Much text below comes from a good review on predictive population modelling by Sheiner and Wakefield [@sheiner_population_1999]. 
+
+The aim of clinical drug development, from entry into human to approval, is to turn molecules into drugs. That is, to provide 'user's manual'  (words by Sheiner and Wakefield) required for their safe and efficacious use.
+
+Population modelling, especially in a mechanistic approach, allows predictions to be made for conditions that have not so far been encountered (*extrapolation*). For instance, outcomes conditional on so far unseen dosage schedules, or types of individuals (patients), may be predicted and tested against observation.
+
+Population modelling involves both PK and PD modelling.
+
+* PK describes the relationship between drug inflow, which is a more general term than *dose*, and drug concentration(s) at various body sites, especially the sites of drug action, the so-called bio-phase(s). Sub-processes (sub-modules) for drug absorption, distribution, metabolism, and elimination determine the relationship.
+* PD describes the relationship between drug concentrations and pharmacological effects, which are sometimes called surrogate effects, but more precisely they should be called bio-responses, and the relationship, in turn, of these responses to clinical outcomes.
+
+The goal is to provide reliable predictions of the individualized dose-exposure-effect relationship. The *effect* refers to both efficacy and toxicity. Individuals can be characterized by demographic variables, such as age, sex, and weight,by biological information, such as the values of biological states and genetic information, and by other factors such as co-medications, environmental factors, and disease states.
+
+Drug development is an information gathering process of two learning-confirmation cycles:
+
+* The first cycle, traditionally implemented in Phase I and IIa, addresses the question of whether benefit in terms of efficacy and safety can be expected over existing therapies. It includes learning what is the largest short-term dose that may be administered to humans without causing harm, which is achieved in Phase , and testing whether that dose induces some measurable short-term benefit in patients for whom the drug is intended to be therapeutic. An affirmative answer at this first cycle provides the justification for a more elaborate second cycle, which happens traditionally in Phase IIb and III.
+* In the second cycle, the aim is to first learn what is good, if not optimal, dosage regimen to achieve useful clinical value, *i.e.* an acceptable benefit-risk ratio, in Phase IIb. Next, several formal clinical trials are performed of that regimen versus a comparator, which is can be the standard of care or other drugs.
+
+### The statistical framework
+
+Let $y$ and $z$ denote, respectively, generic drug concentrations and effect measures of an individual. Each of these quantities may be multivariate, for instance, the concentration may be available for both the drug and the metabolite, and the effects may include measures of both efficacy and toxicity. Effect measure may for instance include tumour volume, pain scores, viral load, and survival times.
+
+Let $x$ denote the covariates of the individual, for instance age and sex. The ostensibly (appearing to be true, though not necessary so) controllable factors of the trial by the design is denoted by $d$. It may, for instance, include the number of individuals and the covariate-defined populations to be studied, the treatment to be administered, and the outcome measurements to be made, which include but are not limited to $y$ and $z$, along with the (nominal) schedule of those measurements.
+
+Note that each of the quantities defined by $d$ are *norminal*, and in practice deviations from the design are almost bound to happen.
+
+The aim is to build a model for $y$ and $z$, conditional on $x$ and $d$.
+
+Once the design has been established, we obtain concentrations and effect measures $y_{ij}$ and $z_{ij}$ from $i=1,...,N$ individuals at times $t_{ij}, j=1, ..., n_i$. The notation implies that concentration and effect measures are obtained simultaneously, which is not necessary in this context, but for convenience we will ignore this aspect below. Individual $i$ has associated covariates $x_i$. In reality, the covariates may change over time; again for convenience we assume constancy of covariates.
+
+To characterize the dose-exposure-effect relationship, it is straightforward to first model the concentrations given the dose, and then to model the effects as  a function of exposure. Let $\theta$ denote a vector of PK parameters, $\phi$ a vector of PD parameters, and $p(\dot)$ a generic probability density function, we can write down the following factorization
+
+$$ p(y,z|\theta, \phi, d) = p(y|\theta, d) \times p(z|\theta, \phi, d) $$
+
+We make the assumption that $z$ is conditionally independent of $y$ given $\theta$ and $d$. It means that errors in $y$ and $z$ are unrelated. The full probability model for each of the responses, either concentration and effect, will also depend on variance-covariance parameters. They are not included in the equation for notational convenience.
+
+Another assumption is that the PK and PD parameters $\theta$ and $\phi$ do not change over time. This can be relaxed if necessary, for instance by modelling between-occasion variability.
+
+A hierarchical model can model the data from multiple individuals. It allows the variability in either concentrations or effects to be separated into within-individual and between-individual components. At the first stage of the hierarchy, the data of each individual are modelled conditional on a set of individual-specific PK and PD parameters. The fundamental assumption here is that the biological processes that act on each of the individuals are similar - while the parameters may vary, the structure of the biological processes are constant - so the functional forms of the concentration or effect profiles are identically. In another word, differences between individual profiles arise only because each individual has his or her own set of PK and PD parameters. These differences are modelled at the second stage of the model, which assumes that, given the covariates $x$ of a particular individual, the PK and PD parameters may be viewed as realizations from probability density functions.
+
+The *first-stage* model models for within-individual variability
+
+$$ p(y_{ij}|\theta_i, d) \textrm{and} p(z_{ij}|\theta_i, \phi_i, d), i=1,...,N; j=1,...,N $$
+
+The *second-stage* model models for between-individual variability:
+
+$$ p(\theta_i|\mu_1, \Sigma_1, x_i) \textrm{and} p(\phi_i|\mu_2, \Sigma_2, x_i), i=1,...,N $$
+
+Here $\mu_1$ and $\Sigma_1$ ($\mu_2$ and $\Sigma_2$) denote the population mean and variance-covariance parameters of the PK (PD) parameters. We hereby assume that the distributions of the PK and PD parameters are independent given $x$.
+
+A Bayesian analysis would add a third stage to the model, containing prior distributions on the population parameters.
+
+If we use $x$, $y$, $z$, $\theta$ and $\phi$ to denote the totality of covariate information, PK data, PD data, and the collection of all PK and PD parameters of all individuals, the probability model for $y$ and $z$ is given by
+
+$$ p(y,z|\theta, \phi, x, \mu_1, \Sigma_1, \mu_2, \Sigma_2, d) = \prod_i\prod_jp(y_{ij}|\theta_i, d)p(z_{ij}|\theta_i, \phi_i, d) \times p(\theta_i|\mu_1, \Sigma_1, x_i)p(\phi_i|\mu_2, \Sigma_2, x_i) $$.
+
+To illustrate the model, we examine a specific modelling strcture below.
+
+#### First-stage model
+
+Suppose that each invididual provides a set of univariate drug concentrations and/or measures. We let $f_{PK}(\theta_i, d)$ and $f_{PD}(\theta_i, \phi_i, d)$ denote the functional forms of the PK and PD models, respectively. It can be assumed that
+
+$$ y_{ij} = f_{PK}(\theta_i, d) + \epsilon_{ij}^{PK} $$
+
+where the error terms $\epsilon_{ij}^{PK}$ are independently and identically distributed normal random variables with mean zero, and a variance that may depend on the mean concentration $f_{PK}$. For instance, some models assume that the standard deviation of the residual to be proportional to $f_{PK}(\theta_i, d)$. Alternatively, a logarithm transformation of the concentration can be used to produce constant variance.
+
+The PD response may be similarly modelled as 
+
+$$ z_{ij} = f_{PD}(\theta_i, \phi_i, d) + \epsilon_{ij}^{PD} $$
+
+The forms of $f_{PK}$ and $f_{PD}$ are drug and effect specific. Their choice should be guided by prior knowledge and by the goal of attaining a predictive model. In order to provide credible extrapolation, they should embody relevant scientific knowledge, namely be mechanistic, as opposed to empirical.
+
+ADME can be modelled by differential equations that describe the rate of flow of drug between a series of compartments that are nominally assumed to model the body. The DEs often lead to a concentration-time profile that is of sums-of-exponential form. The parameters of this form are contained in $\theta$. 
+
+The exposure-effect relationship can take a wide range of forms, since there are numerous outcome measures that may be considered. For instance, blood pressure are continuous and may be modelled using the Emax model, while pain scores assumes one of a discrete number of outcomes and may be modelled using cumulative logit models.
+
+In summary, both PK and PD models usually take the form of generalized linear models (GLMs).
+
+#### Second-stage model
+
+It is usual to model the PK and PD parameters via
+
+$$ \theta_i = x'_i\mu_1 + \theta_i^{PK} \textrm{and} \phi_i = x''_i\mu_2 + \theta_i^{PD} $$
+
+where the error terms are independent and identically distributed, and are assumed to have zero mean and variance-covariance matrices $\Sigma_1$ and $\Sigma2_2$ respectively. The covariate vectors $x'_i$ and $x''_i$ are constructed as subsets of the original $x_i$. The most usual choice of the second-stage distribution is the multivariate normal distribution.
+
+For simulation, we may generate a set of PK and PD data by:
+
+1. selecting a design $d$
+2. simulating specific individual covariates $x$, conditional on the design $d$
+3. simulating individual data $y$ and $z$.
+
+Both step 2 and 3 require probability models.
+
+Once the data have been obtained for the analysis, the design $d$ and the covariates $x$ are conditioned upon. Models for the distribution of $x$ are thus important for simulating clinical trials, but are less important for other uses of modelling in drug drug development. 
+
+### Other considerations
+
+Subject-specific PK and PD models are better than population-averaged approaches, because
+
+1. It allows predictions to be made for specific individuals
+2. Mechanistic models for subject-average responses rarely exist
+3. Conditional modelling using random effects allows examination of specific components of within- and between-individual variability, which is often of interest itself.
+
+Another issue is noncompliance, either a failure to adhere faithfully to the assigned dosage regimen, or drop-out, an extreme form. In some instances, bias will be introduced if the data of patients who drop out is treated in an identical fashion to those that complete the study. There are multiple strategies to deal with this problem. 
+
+Due to the nonlinear models that are typically assumed for the first-stage PK and PD models, neither likelihood nor Bayesian approaches are trivial to implement.
+## Mathematical concepts and models
+
+### Ordinary differential equations
 
 ### Data fitting
 
 ### Model comparison and validation
 
 ### Stochastic differentiatial equations
+
+### Non-linear mixed-effect modelling
 
 ## Software
 
@@ -33,3 +144,4 @@ NONMEM as standard, but also open-source, R-based solution is introduced.
 ## Resources for further learning
 
 http://ocw.uci.edu/courses/math_113b_intro_to_mathematical_modeling_in_biology.html
+[Statistics in Action with R: Pharmacokinetic modelling](http://sia.webpopix.org/pharmacokinetics.html)
