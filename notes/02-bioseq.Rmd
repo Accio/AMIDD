@@ -29,6 +29,13 @@ library(DiagrammeR)
 * [Bollag *et al.*, Nature, 2010, which reported that clinical efficacy of Vemurafenib (PLX4032, RG7204)](https://www.nature.com/articles/nature09454)
 * [Safety and efficacy of vemurafenib in $\textrm{BRAF}^\textrm{V600E}$ mutation-positive melanoma, Phase III study](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(14)70012-9/fulltext?version=printerFriendly#%20)
 
+```{bash, eval=FALSE}
+## command in PyMOL
+load ./data/032.cif ## structure of vemurafenib
+fetch 3OG7 ## fetch the crystall structure of vemurafenib binding to BRAF V600E
+# Go do A>Preset>Pretty to create a ribbon diagram. Now you can see the ligand (vemurafenib)
+```
+
 ## Typical questions in drug discovery that call for biological sequence analysis (5 min)
 
 * Are there other genes other the target X that is similar to X, that may increase the effect of the drug and/or cause side effects when the drug interferes with their functionaltiies?
@@ -160,12 +167,12 @@ Simply speaking, the Levenshtein distance between two words is the minimum numbe
 
 ### Example of Levenstein distance between any two strings
 
-*herceptin* and *heparin*: a Levenstein distance of 5
+*protein* and *proton*: a Levenstein distance of 2
 
 In R:
 
 ```r
-utils::adist("herceptin", "heparin")
+utils::adist("protein", "proton")
 ```
 
 An online tool to demonstrate Levenshtein's distance: http://www.let.rug.nl/~kleiweg/lev/.
@@ -248,7 +255,7 @@ Web tool [WebLogo 3](http://weblogo.threeplusone.com/): http://weblogo.threeplus
 
 $ H = - \Sigma{i=1}{M}P_{i}log_{2}P{i} \textrm{bits/symbol} $
 
-### Markov markov models (10 min)
+### Markov models (10 min)
 
 ### Profile hidden Markov models
 
@@ -274,11 +281,30 @@ Assumptions and limitations
 
 ### BLAST
 
+BLAST is a tool for fast alignment searches.
+
+In its core, it is a local alignment, like the Smith-Waterman algorithm, based o
+n dynamic programming.
+
+The search sequence is broken into small words (usually 3 residuals long for proteins). So there are 20^3=8000 protein words. They act as seeds for searches.
+
+On the other hand, the target dataset (sequences to be mapped) is pre-indexed for all positions that have an ungapped match for each word above some score threshold, using a score matrix, by default BLOSUM62.
+
+The trade-off is sensitivity. Occasionally, matches will be missed, especially when differences are common and dispersed enough that no local words match above the predefined threshold.
+
+When interpreting the result, note that scores (aka bit scores) are independent of database size, but E-values are dependent on database size. The statistical significance is estimated by exploting the Gumbel extreme value distribution (EVD), because the distribution of Smith-Waterman local alignment scores between two random seqeunces follows the Gumbel EVD. For local alignments with gaps, it is not proved.
+
+
 ### hmmer
 
 To construct profile HMM models, hmmer uses in essence an Expectation-Maximization (EM) algorithm. To avoid the computational bottleneck where all paths need to be considered, a dynamic programming technique, known as the forward-backward procedure, is used. Details can be found in the excellent tutorial article on HMMs by Rabiner (1989). A variant of forward-backward procedure is the Viterbi algorithm. Instead of calculating the likelihood score of a sequence, which implicitly involves all possible paths for that sequence through the model, the Viterbi algorithm computers the score of the single most likely path for the sequence.
 
 ### Biopython
+
+## Topics that we have left out so far
+
+* Motif finding (like MEME)
+* Short-read mapping (will be covered later)
 
 ## Resources for further learning
 
