@@ -25,7 +25,7 @@ Course material, including lecture notes, slides, and reading material, are shar
 5. Molecular interaction and modelling (18.10.)
 6. Omics: genomics, transcriptomics, and proteomics (25.10.)
 7. PK/PD and PBPK modelling (1.11.)
-8. Bayesian inference, machine learning, and causal inference (8.11.)
+8. Clinical trial and population modelling
 9. Multiscale modelling of drug mechanism and safety (15.11)
 10. Guest speakers: Dr. Nicolas Frey and Dr. Lucy Hutchinson (titles to be announced) (22.11.)
 11. *Dies academicus - no lecture* (29.11.)
