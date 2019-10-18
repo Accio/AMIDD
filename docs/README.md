@@ -22,7 +22,9 @@ Course material, including lecture notes, slides, and reading material, are shar
 4. From protein structure to screening (11.10)
     * [Slides](./assets/04/AMIDD-04-screening.pdf)
     * In- and after-read: [Tsai *et al.*, PNAS, 2008](./assets/04/Tsai-BRAF-PNAS-2008.pdf)
-5. Molecular interaction and modelling (18.10.)
+5. Screening and drug design (18.10.)
+    * [Slides](./assets/05/AMIDD-05-screening-drug-design.pdf)
+    * Optional after-read: [Mathematical techniques in structural biology, by J.R. Quine](./assets/05/JRQuine-MathBiophysicsBook.pdf)
 6. Omics: genomics, transcriptomics, and proteomics (25.10.)
 7. PK/PD and PBPK modelling (1.11.)
 8. Clinical trial and population modelling
