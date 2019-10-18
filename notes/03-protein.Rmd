@@ -51,7 +51,7 @@ There are three major ways to determine protein structure.
 ### NMR (10 min)
 ### CryoEM (15 min)
 
-[a video explaining transmission cryo-electron microscopy] (2:58, no side) by Gabiel Lander, explaining the elementary principles of CryoEM in a clear way. 
+[a video explaining transmission cryo-electron microscopy](https://www.youtube.com/watch?v=BJKkC0W-6Qk) (2:58, no side) by Gabiel Lander, explaining the elementary principles of CryoEM in a clear way. 
 
 Biological samples, especially embedded in thin vitreous ice (vitreous=like glass in appearance or physical properties), are highly sensitive to radiation, thus only low electron doses can be used to image the sample. This low dose means images have high noise relative to the signal given by the particle being observed.
 
