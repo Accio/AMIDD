@@ -26,6 +26,8 @@ Course material, including lecture notes, slides, and reading material, are shar
     * [Slides](./assets/05/AMIDD-05-screening-drug-design.pdf)
     * Optional after-read: [Mathematical techniques in structural biology, by J.R. Quine](./assets/05/JRQuine-MathBiophysicsBook.pdf)
 6. From molecular modelling to network analysis (25.10.)
+    * [Slides](./assets/06/AMIDD-06-molecular-modelling.pdf)
+    * In-depth read for interested students: [Computational Methods in Drug Discovery by Silwoski *et al.*](./assets/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf)
 7. Omics and cellular modelling (1.11.)
 8. PK/PD and PBPK modelling (8.11.)
 9. Clinical trial and population modelling (15.11.)
