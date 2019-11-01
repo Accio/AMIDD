@@ -29,6 +29,7 @@ Course material, including lecture notes, slides, and reading material, are shar
     * [Slides](./assets/06/AMIDD-06-molecular-modelling.pdf)
     * In-depth read for interested students: [Computational Methods in Drug Discovery by Silwoski *et al.*](./assets/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf)
 7. Omics and cellular modelling (1.11.)
+    * [Slides](./assets/07/AMIDD-07-omics-cellular-modelling.pdf)
 8. PK/PD and PBPK modelling (8.11.)
 9. Clinical trial and population modelling (15.11.)
 10. Guest speakers: Dr. Nicolas Frey and Dr. Lucy Hutchinson (titles to be announced) (22.11.)
