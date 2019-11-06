@@ -12,6 +12,25 @@
 
 ### Pharmacokinetics
 
+#### ADME
+
+A drug can be delivered to a patient in many ways, for instance intravanously, orally, subcutaneously (under the skin), or in less common ways such as skin patch, inhalation, via the rectal route (for example for infants), and intramuscularly. Once it is administered, the drug undergoes a complex process involving absorption, distribution, metabolism, and excretion (ADME).
+
+* Absorption describes the movement of the drug into the bloodstream from an extravascular site. Not all drug that is delivered can be fully absorbed: the extent of absorption into the systemic circulation is known as the bioavailability.
+* Most drugs are distributed, after absorption, via the blood to organs and tissues in the body. *Distribution* describes the reversible transfer of a drug substance between blood, organs and tissues.
+* Many drugs undergo biochemical transformation within the body and thereby change into other molecules, or metabolites. This process is called *Metabolism*. Depending on drugs, the metabolite may be inactive, or can be active or toxic. For instance, pro-drugs are designed to become only active when they are metabolized.
+* A drug will, sooner or later, leave the body. *Excretion* describes the removal of a drug from the body. Two organs are especially important for this process. On one side, kidney excretes water soluble substances with urine. On the other side, bile flow from the liver eliminates drug in feces. A drug may also leave the body by other routes, for instance sweat, tears, saliva, breath, etc. Sometimes the metabolism and excretion processes are named as the *elimination* process.
+
+### Compartmental model of pharmacokinetics
+
+The compartmental model describes the human body by a number of interconnected compartments among which the drugs are distributed.
+
+Departments are of different nature. A depot department is the site where a drug is deposited, for instance the gut for oral administration, the bloodstream for intravenous administration, and lung for inhalation, for instance. The central compartment, on the other side, consists of blood, highly perfused organs such as liver, kidney and lungs, and peripheral compartments of less perfused tissue such as muscle, skin and fat.
+
+The key idea of a compartment model is to describe the concentration of a drug in any department with a mathematical model. A good model is expected to give a reasonable descriptive approximation of the PK process, and such able to predict the concentration of a drug at any time in at part of the body that is modelled.
+
+Simple PK compartment models assume that the drug concentration is perfectly homogeneous in each compartment of the body at all times. Under this assumption, a PK model describes how the drug amount varies in each compartment. 
+
 ### Pharmacodynamics
 
 ### Physiology-based pharmacokinetic modelling
@@ -147,3 +166,6 @@ NONMEM as standard, but also open-source, R-based solution is introduced.
 * [Statistics in Action with R: Pharmacokinetic modelling](http://sia.webpopix.org/pharmacokinetics.html)
 * [nlmixr package for population modelling in R](http://nlmixrdevelopment.github.io)
 * [mrgsolve package for hierarchical, ordinary differential equation (ODE) based models](https://github.com/metrumresearchgroup/mrgsolve)
+* [Introduction to PK modelling](http://sia.webpopix.org/pharmacokinetics.html)
+* Introduction to PK/PD modelling - with focus on PK and stochastic differential
+ equations, by Mortensen *et al.*,  Lyngby: Technical University of Denmark, DTU Informatics, Building  321. D T U Compute. Technical Report, No. 2008-16
