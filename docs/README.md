@@ -30,15 +30,22 @@ Course material, including lecture notes, slides, and reading material, are shar
     * In-depth read for interested students: [Computational Methods in Drug Discovery by Silwoski *et al.*](./assets/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf)
 7. Omics and cellular modelling (1.11.)
     * [Slides](./assets/07/AMIDD-07-omics-cellular-modelling.pdf)
-8. PK/PD and PBPK modelling (8.11.)
+9. PK/PD and PBPK modelling (8.11.)
+    * Only board is used for today's lecture
+    * Recommended read for all, [Introduction to PK/PD modelling](./assets/08/2008-Mortensen-IntroductionToPKPDModelling.pdf), by Mortensen *et al*, DTU Informatics, 2008.
+    * Recommended read for mathematicians about [Numerical Transforms](./assets/08/Bracewell-1990-NumericalTransforms.pdf), by Ronald N. Bracewell, Nature **248** (4956), 697-704, 1990.
 9. Clinical trial and population modelling (15.11.)
 10. Guest speakers: Dr. Nicolas Frey and Dr. Lucy Hutchinson (titles to be announced) (22.11.)
 11. *Dies academicus - no lecture* (29.11.)
 12. Guest speakers: Dr. Kaspar Rufibach and Dr. Benjamin Ribba (titles to be announced) (6.12.)
 13. Student presentation (I) (13.12.)
+    * Paper #1: [*The chemical basis of morphogenesis*](./assets/13/01 - Turing - 1950 - The chemical basis of morphogenesis.pdf) by Alan Turing, *Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences*, 1950.
+    * Paper #2, [*How were new medicines discovered?*](./assets/13/02 - Swinney and Anthony - 2011 - How were new medicines discovered.pdf) by Swinney and Anthony, *Nature Reviews Drug Discovery*, 2011.
+    * Paper #3, [*Opportunities and challenges in phenotypic drug discovery: an industrial perspective*](./assets/13/03 - Moffat et al. - 2017 - Opportunities and challenges in phenotypic drug di.pdf) by Moffat *et al*, *Nature Reviews Drug Discovery*, 2017.
 14. Student presentation (II) (20.12.)
-
-Changes, if necessary, be communicated during the course.
+    * Paper #4: [*A quantitative description of membrane current and its application to conduction and excitation in nerve*](./assets/14/04 - Hodgkin und Huxley - 1952 - A quantitative description of membrane current and.pdf) by Hodgkin and Huxley, *The Journal of Physiology*, 1952.
+    * Paper #5: [*Key factors in the rising cost of new drug discovey and development*](./assets/14/05 - Dickson and Gagnon - 2004 - Key factors in the rising cost of new drug discove.pdf) by Dickson and Gagnon, *Nature Reviews Drug Discovery*, 2004.
+    * Paper #6: [*Applications of machine learning in drug discovery and development*](./assets/14/06 - Vamathevan et al. - 2019 - Applications of machine learning in drug discovery.pdf) by Vamathevan *et al.*, *Nature Reviews Drug Discovery*, 2019.
 
 ## Assessment
 
