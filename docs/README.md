@@ -35,7 +35,9 @@ Course material, including lecture notes, slides, and reading material, are shar
     * Recommended read for all, [Introduction to PK/PD modelling](./assets/08/2008-Mortensen-IntroductionToPKPDModelling.pdf), by Mortensen *et al*, DTU Informatics, 2008.
     * Recommended read for mathematicians about [Numerical Transforms](./assets/08/Bracewell-1990-NumericalTransforms.pdf), by Ronald N. Bracewell, Nature **248** (4956), 697-704, 1990.
 9. Clinical trial and population modelling (15.11.)
-10. Guest speakers: Dr. Nicolas Frey and Dr. Lucy Hutchinson (titles to be announced) (22.11.)
+10. Guest speakers: Dr. Lucy Hutchinson and Dr. Nicolas Frey (22.11.)
+    * Talk by Dr. Lucy Hutchinson (12:15-13:00): *Mathematical modeling in academia and industry*
+    * Talk by Dr. Nicolas Frey (13:15-14:00): *Introduction to Clinical Pharmacometrics*, or *About the Role of Mathematical Modeling and Simulation in Clinical Drug Development*
 11. *Dies academicus - no lecture* (29.11.)
 12. Guest speakers: Dr. Kaspar Rufibach and Dr. Benjamin Ribba (titles to be announced) (6.12.)
 13. Student presentation (I) (13.12.)
@@ -51,7 +53,7 @@ Course material, including lecture notes, slides, and reading material, are shar
 
 The final note is given by participation (20%), presentation (30%), and an oral examination (50%). 
 
-The oral examination will be about concepts that we learned together, and about explaining mathematical concepts (or concepts in your domain of experts) to a layman - your lecturer.
+The oral examination (20 min) will be about concepts that we learned together, and about explaining mathematical concepts (or concepts in your domain of experts) to a layman - your lecturer.
 
 ## Further information
 
