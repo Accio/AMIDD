@@ -34,7 +34,10 @@ Course material, including lecture notes, slides, and reading material, are shar
     * Only board is used for today's lecture
     * Recommended read for all, [Introduction to PK/PD modelling](./assets/08/2008-Mortensen-IntroductionToPKPDModelling.pdf), by Mortensen *et al*, DTU Informatics, 2008.
     * Recommended read for mathematicians about [Numerical Transforms](./assets/08/Bracewell-1990-NumericalTransforms.pdf), by Ronald N. Bracewell, Nature **248** (4956), 697-704, 1990.
-9. Clinical trial and population modelling (15.11.)
+9. Population modelling and clinical trial (15.11.)
+    * Only board is used for today's lecture
+    * Recommended read: [Basic concepts in Population Modelling, Simulation, and Model-based Drug Development](./assets/09/MouldUpton-CPT-BasicConceptsInPopulationModelling.pdf), by Mould and Upton, CPT: Pharmacometrics & Systems Pharmacology (2013). 
+     * Interested students are encouraged to also read the follow-up pieces. In-depth discussions on PK modelling can be found in [Part 2](./assets/09/MouldUpton-CPT-BasicConceptsInPopulationModelling-Part2.pdf). Read [Part 3](./assets/09/MouldUpton-CPT-BasicConceptsInPopulationModelling-Part3.pdf) for more information on PD population modeling.
 10. Guest speakers: Dr. Lucy Hutchinson and Dr. Nicolas Frey (22.11.)
     * Talk by Dr. Lucy Hutchinson (12:15-13:00): *Mathematical modeling in academia and industry*
     * Talk by Dr. Nicolas Frey (13:15-14:00): *Introduction to Clinical Pharmacometrics*, or *About the Role of Mathematical Modeling and Simulation in Clinical Drug Development*
