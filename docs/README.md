@@ -43,7 +43,10 @@ Course material, including lecture notes, slides, and reading material, are shar
     * Talk by Dr. Lucy Hutchinson (12:15-13:00): *Mathematical modeling in academia and industry*
     * Talk by Dr. Nicolas Frey (13:15-14:00): *Introduction to Clinical Pharmacometrics*, or *About the Role of Mathematical Modeling and Simulation in Clinical Drug Development*
 11. *Dies academicus - no lecture* (29.11.)
-12. Guest speakers: Dr. Kaspar Rufibach and Dr. Benjamin Ribba (titles to be announced) (6.12.)
+12. Guest speakers: Dr. Kaspar Rufibach and Dr. Benjamin Ribba (6.12)
+    * [Flyer](./assets/12/AMIDD-2019-GuestSessionII.pdf)
+    * Talk by Dr. Kaspar Rufibach (12:15-13:00): *Interim look into pivotal clinical trials - why it matters and how to do it*
+    * Talk by Dr. Benjamin Ribba (13:15-14:00): *The mathematics behind medicine prediction*
 13. Student presentation (I) (13.12.)
     * Paper #1: [*The chemical basis of morphogenesis*](./assets/13/01 - Turing - 1950 - The chemical basis of morphogenesis.pdf) by Alan Turing, *Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences*, 1950.
     * Paper #2, [*How were new medicines discovered?*](./assets/13/02 - Swinney and Anthony - 2011 - How were new medicines discovered.pdf) by Swinney and Anthony, *Nature Reviews Drug Discovery*, 2011.
