@@ -144,9 +144,14 @@ Subject-specific PK and PD models are better than population-averaged approaches
 Another issue is noncompliance, either a failure to adhere faithfully to the assigned dosage regimen, or drop-out, an extreme form. In some instances, bias will be introduced if the data of patients who drop out is treated in an identical fashion to those that complete the study. There are multiple strategies to deal with this problem. 
 
 Due to the nonlinear models that are typically assumed for the first-stage PK and PD models, neither likelihood nor Bayesian approaches are trivial to implement.
+
 ## Mathematical concepts and models
 
 ### Ordinary differential equations
+
+One-compartment model
+
+Two-compartment model
 
 ### Data fitting
 
