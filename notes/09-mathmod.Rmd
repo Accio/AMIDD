@@ -16,7 +16,7 @@
 
 ## Software
 
-COPASI
+[COPASI](http://copasi.org/), a software application for simulation and analysis of biochemical networks and their dynamics. 
 
 ## Resources for further learning
 
