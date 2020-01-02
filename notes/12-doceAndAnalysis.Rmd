@@ -1,0 +1,44 @@
+# From designed comparative experiments to causal inference {#doce}
+
+## What do we want to achieve today
+
+* Principles of designing and analysing comparative experiments
+* Know technical terms such as randomization, blocking
+* Understand hypothesis testing in the framework of linear regression
+* Causal inference, and its use in target proposal in drug discovery
+
+## Questions
+
+## Background
+
+### (Un)reproducible research
+
+### In vivo studies
+
+### The 3R principle
+
+## Mathematical concepts and models
+
+### Randomization
+
+### Blocking
+
+### Blinding
+
+### Association schemes in DOCE
+
+### Common statistical tests as linear models
+
+### Causal inference
+
+## Software
+
+### R
+
+## Resources for further learning
+
+http://statsthinking21.org/
+
+https://lindeloev.github.io/tests-as-linear/
+
+Shalizi, Cosma Rohilla. Advanced Data Analysis from An Elementary Point of View, n.d. http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/.

@@ -1,0 +1,60 @@
+# Cheminformatics {#chemoinfo}
+
+## What do we want to achieve today
+
+* Have a first impression of small molecules as drugs 
+* Digital representation of small molecules, in particular SMILEs and InChi keys
+* Structure search by fingerprints, Tanimoto coefficient, and graph-edit distances 
+* Know information sources of small molecules and drugs, especially ChEBI, CheEMBL, and PubChem
+
+## Questions
+
+## Small molecules are important for life and for drug discovery
+
+## Getting to know two small molecules: caffeine/ valium
+
+## Structural representation of small molecules
+
+### Stereoisomers
+
+Chiral center
+
+The example of Thalidomide
+
+Ofloxacin, levofloxacin and dextrofloxacin are all fluoroquinolone antibiotics. 
+
+* Ofloxacin is a *racemic* (equal) mixture of Levo and Dextro isomers
+* Levofloxacin is the more active stereoisomer
+* Dextrofloxacin is the less active steroisomer
+
+### SMILES
+
+### InChi key
+
+## Structure search
+
+### Fingerprints
+
+### Tanimoto similarity
+
+### Graph-edit distance
+
+## Structural-activity relationship
+
+## Molecular descriptions of small molecules
+
+### Lipinski's rule of five
+
+## Software and resources
+
+### ChEMBL and ChEBI
+
+### PubChem
+
+### pymol
+
+## Resources for further learning
+
+* The original publication describing the graph edit distance (GED) is [@sanfeliu_distance_1983]. Gao *et al.* [@gao_survey_2010] provided a survey of different ways to determine GED.
+* European Molecular Biology Laboratory - European Bioinformatics Institute (EMBL-EBI) provides great training programs. Their online training courses in small molecule and cheminformatics are great resources particular for beginners: https://www.ebi.ac.uk/training/online/topic/small-molecules.
+* Companies like NextMove work on improving small-molecule representation and search. Some of their work can be found on SlideShare: https://www.slideshare.net/NextMoveSoftware?utm_campaign=profiletracking&utm_medium=sssite&utm_source=ssslideview

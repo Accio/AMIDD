@@ -1,0 +1,56 @@
+# Genomics, transcriptomics, and proteomics {#omics}
+
+## What we want to achieve today
+
+* Understand the basics of omics technologies, especially in the light of central dogma and biological sequence analysis
+* Know technical terms including De Bruijn graphs, Burrows-Wheeler transformation
+* Have a first understanding of graph models with the example of RSEM
+* Have a first understanding of linear models and generalised linear models with the example of edgeR
+
+We describe applications of omics in disease understanding and drug discovery, especially in the light of underlying mathematical concepts.
+
+## Questions
+
+## Background information
+
+### Principles of DNA and RNA sequencing
+
+Sanger sequencing represents the first generation of DNA sequencing technique.
+
+Second generation sequencing, sometimes called next-generation sequencing, comes in several variants. One variant is Illumina sequencing, sometimes known as sequencing by synthesis. DNA sequences to be sequenced, together with ingridients that are required for the synthesis, such as enyzmes, are dispersed into droplets. These seqeunces can be potentially modified, for instance, with the addition of a short strech of artificial nucleotides as *barcodes*. In each round of synthesis, a nucleotide is added to the newly synthesised strand. The addition of the nucleotide is detected by sensors that recognize nucleotides based on their illuminant modifications. A camera takes pictures of thousands of droplets and image analysis is used to read the nucleotide added at each step. At the end of the sequencing process, the nucleotide sequence of the original template is constructed by concatenateing the detected nucleotides together. They are saved in FASTQ files.
+
+A variant is not to sequence the whole stretch of the template, but rather only the two ends of it. This will give pair-end (PE) reads.
+
+RNA can be reverse trascribed into DNA. Therefore RNAs can be sequenced just as DNAs, with the difference that uracil (*U*) replaces thymine (*T*).
+
+### Genomics
+
+### Transcriptomics
+
+### Proteomics
+
+### Next-generation sequencing
+
+### Mass spectrometry based protein quantification
+
+## Mathematical concepts and models
+
+### De Bruijn graph
+
+### Graph model
+
+### Linear model
+
+### Negative binomial distribution
+
+## Resources for further learning
+
+### Genomics
+
+### Transcriptomics
+
+### Mass spectrometry
+
+[Khan Academy](https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/mass-spectrometry/a/isotopes-and-mass-spectrometry)
+
+Meija, Juris. “Mathematical Tools in Analytical Mass Spectrometry.” Analytical and Bioanalytical Chemistry 385, no. 3 (June 1, 2006): 486–99. https://doi.org/10.1007/s00216-006-0298-4.

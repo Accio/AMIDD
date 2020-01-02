@@ -1,5 +1,12 @@
 # Molecular modelling {#molmod}
 
+## What do we want to achieve today
+
+* Understand the principles of mechanistic modelling in computational chemistry
+* Understand the theory of docking, search algorithms, and scoring function
+* Understand technical terms including Hooke's law, Force Fields, Lennard-Jones potential
+* Know the software AutoDock
+
 ## Questions
 
 ## Background

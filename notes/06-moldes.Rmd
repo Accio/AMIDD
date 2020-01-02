@@ -1,5 +1,10 @@
 # Molecular descriptors and QSAR {#moldes}
 
+## What do we want to achieve today
+
+* Understand what are molecular descriptors and QSARs
+* Understand applications of linear models and dimension reduction in the context of QSAR
+
 ## Questions
 
 ## Background

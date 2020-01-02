@@ -1,0 +1,33 @@
+# Mathematical modelling {#mathmod}
+
+## What do we want to achieve today
+
+* Gain a high-level understanding of how mathematics is used to model biological systems
+* Understand the Michaelis-Menten kinetics equation and its applications in drug discovery
+* Know software COPASI to simulate biological systems
+
+## Questions
+
+## Background
+
+### Enzymology and pharmacology
+
+## Mathematical concepts models
+
+### Four types of models
+
+### Langmuir aborption model
+
+### Michaelis Menten Enzyme Model
+
+## Software
+
+### COPASI
+
+[COPASI](http://copasi.org/), a software application for simulation and analysis of biochemical networks and their dynamics. 
+
+### KinTek explorer
+
+## Resources for further learning
+
+http://ocw.uci.edu/courses/math_113b_intro_to_mathematical_modeling_in_biology.html
