@@ -77,7 +77,7 @@ Each DNA nucleotide is composed of three main units:
 * a phosphate group
 * a nitrogenous base
 
-They are connected as shown in the bottom panel of figure \@ref(DNAsegment).
+They are connected as shown in the bottom panel of figure \@ref(fig:DNAsegment).
 
 ```{r DNAsegment, fig.cap="Double-helix structure of DNA, nitrogenous bases pairing, and the molecular structure of a DNA molecule. From the text book [OpenStax Anatomy and Physiology](https://cnx.org/contents/FPtK1zmh@8.25:fEI3C8Ot@10/Preface), discovered through [Wikimedia](https://commons.wikimedia.org/wiki/File:0322_DNA_Nucleotides.jpg), reused under the CC license. "}
 knitr::include_graphics("figures/WikimediaDNANucleotides.jpg")
