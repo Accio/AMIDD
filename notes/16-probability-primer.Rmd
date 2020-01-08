@@ -1,0 +1,47 @@
+# A short primer on probability {-}
+
+Here we review the basic theory of probability. The chapter was inspired by [@jones_stochastic_2018]
+
+## Probability
+
+## Conditional probability and independence
+
+## Discrete random variables
+
+## Continuous random variables
+
+## Mean and variance
+
+## Robust statistics: median, MAD, *etc*.
+
+## Selected discrete probability distributions
+
+### The Bernoulli distribution
+
+### The binomial distribution
+
+### The geometric distribution
+
+### The negative binomial distribution
+
+### The Poisson distribution
+
+### The discrete uniform distribution
+
+## Selected continuous probability distributions
+
+### The exponential distribution
+
+### The normal distribution
+
+### The Gamma distribution
+
+### The Beta distribution
+
+### The Weibull distribution
+
+## Generating functions
+
+### Moment generating functions
+
+### Probability generating functions
