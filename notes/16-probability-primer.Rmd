@@ -1,4 +1,4 @@
-# A short primer on probability {-}
+# Appendix I: A short primer on probability {-}
 
 Here we review the basic theory of probability. The chapter was inspired by [@jones_stochastic_2018]
 
