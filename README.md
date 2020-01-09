@@ -75,7 +75,7 @@ I got great input and support from numerous colleagues to design and implement t
 * Arne Rufer, Ken Wang, Norman Mazer, Neil Parrot Jones, Francois Mercier, Benjamin Ribba, Hans-Peter Grimm, and Nicolas Frey for selfless sharing of knowledge in mathematical modelling, PK/PD modelling, and clinical pharmacology and pharmacometrics.
 * Prof. Markus von Kienlin, Andreas Bruns, Gonzalo Christian Duran Pacheco, Stanley Lazic, Kasper Rufibach for statistics, biomarker and clinical development.
 
-I want to thank Prof. Gianluca Crippa, Prof. Helmut Harbrecht , Prof. Jiří Černý, Dr. Jung Kyu Canci, Prof. Enno Lenzmann, and other professors for the great support for me to offer this course at the Department of Mathematics and Informatics, University of Basel. Philipp Mekler, Gang Mu, and many students provided great support and help to shape the lectures. 
+I want to thank Prof. Gianluca Crippa, Prof. Helmut Harbrecht , Prof. Jiří Černý, Dr. Jung Kyu Canci, Prof. Enno Lenzmann, and other professors for the great support for me to offer this course at the Department of Mathematics and Informatics, University of Basel. Dr. Philipp Mekler, Gang Mu, Prof. Dr. Niko Beerenwinkel, and other colleagues provided great support and help to shape the lectures. Heidi Karypidis and Barbara Fridez provided outstanding administrative support.
 
 Students that attended previous series have provided invaluable feedback to improve and enrich the course. I learned a lot about mathematics, informatics, and knowledge sharing from them. I am thankful to be able to learn together with them.
 
