@@ -6,7 +6,7 @@ The course in autumn semester 2019 has been finished. The next course will take 
 
 The lecture takes place on Fridays between 12:15 and 14:00 in Seminarraum 5.002, Department of Mathematics and Informatics, University of Basel, Spiegelgasse 1, 4051 Basel.
 
-Course material, including lecture notes, slides, and reading material, are shared on the course's web site, [amidd.ch](http://amidd.ch), unless otherwise specified in the course.
+Course material, including lecture notes, slides, and reading material, are shared on the course's web site, [AMIDD.ch](http://amidd.ch), unless otherwise specified in the course.
 
 ## Syllabus
 
@@ -58,11 +58,17 @@ Course material, including lecture notes, slides, and reading material, are shar
     	* Presentation by Group #2: [Slides](./assets/13/AMIDD-2019-Presentation-Group2-HowWereNewMedicinesDiscovered.pdf)
     * Paper #3
     	* [*Opportunities and challenges in phenotypic drug discovery: an industrial perspective*](./assets/13/03 - Moffat et al. - 2017 - Opportunities and challenges in phenotypic drug di.pdf) by Moffat *et al*, *Nature Reviews Drug Discovery*, 2017.
-    	* Presentation by Group #3: [Slides](./assets/13/AMIDD-2019-Presentation-Group3-PhenotypicDrugDiscovery.pdf)
+    	* Presentation by Group #3: [Slides](./assets/13/AMIDD-2019-Presentation-Group3-PhenotypicDrugDiscovery.pdf).The presentation slides are also available online in the *Prezi* format, at [this link](https://prezi.com/xrpn8jwoj_ux/drug-discovery/?utm_campaign=share&utm_medium=copy).
 14. Student presentation (II) (20.12.)
-    * Paper #4: [*A quantitative description of membrane current and its application to conduction and excitation in nerve*](./assets/14/04 - Hodgkin und Huxley - 1952 - A quantitative description of membrane current and.pdf) by Hodgkin and Huxley, *The Journal of Physiology*, 1952.
-    * Paper #5: [*Key factors in the rising cost of new drug discovey and development*](./assets/14/05 - Dickson and Gagnon - 2004 - Key factors in the rising cost of new drug discove.pdf) by Dickson and Gagnon, *Nature Reviews Drug Discovery*, 2004.
-    * Paper #6: [*Applications of machine learning in drug discovery and development*](./assets/14/06 - Vamathevan et al. - 2019 - Applications of machine learning in drug discovery.pdf) by Vamathevan *et al.*, *Nature Reviews Drug Discovery*, 2019.
+    * Paper #4
+        * [*A quantitative description of membrane current and its application to conduction and excitation in nerve*](./assets/14/04 - Hodgkin und Huxley - 1952 - A quantitative description of membrane current and.pdf) by Hodgkin and Huxley, *The Journal of Physiology*, 1952.
+    	* Presentation by Group #4: [Slides](./assets/14/AMIDD-2019-Presentation-Group4-PhenotypicDrugDiscovery.pdf). 
+	* Paper #5
+		 * [*Key factors in the rising cost of new drug discovey and development*](./assets/14/05 - Dickson and Gagnon - 2004 - Key factors in the rising cost of new drug discove.pdf) by Dickson and Gagnon, *Nature Reviews Drug Discovery*, 2004.
+		 * Presentation by Group #5: [Slides](./assets/14/AMIDD-2019-Presentation-Group5-RisingCostsInDrugDiscoveryDevelopment.pdf)
+    * Paper #6
+		* [*Applications of machine learning in drug discovery and development*](./assets/14/06 - Vamathevan et al. - 2019 - Applications of machine learning in drug discovery.pdf) by Vamathevan *et al.*, *Nature Reviews Drug Discovery*, 2019.
+		* Presentation by Group #6: [Slides](./assets/14/AMIDD-2019-Presentation-Group6-MachineLearningInDrugDiscovery.pdf)
 
 ## Assessment
 
