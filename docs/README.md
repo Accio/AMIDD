@@ -1,5 +1,7 @@
 Welcome to the website for *Introduction to Applied Mathematics and Informatics In Drug Discovery*, the course series running at the Department of Mathematics and Informatics, University of Basel.
 
+The course in autumn semester 2019 has been finished. The next course will take place in autumn semester 2020.
+
 ## Time and place
 
 The lecture takes place on Fridays between 12:15 and 14:00 in Seminarraum 5.002, Department of Mathematics and Informatics, University of Basel, Spiegelgasse 1, 4051 Basel.
@@ -48,9 +50,15 @@ Course material, including lecture notes, slides, and reading material, are shar
     * Talk by Dr. Kaspar Rufibach (12:15-13:00): *Interim look into pivotal clinical trials - why it matters and how to do it*
     * Talk by Dr. Benjamin Ribba (13:15-14:00): *The mathematics behind medicine prediction*
 13. Student presentation (I) (13.12.)
-    * Paper #1: [*The chemical basis of morphogenesis*](./assets/13/01 - Turing - 1950 - The chemical basis of morphogenesis.pdf) by Alan Turing, *Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences*, 1950.
-    * Paper #2, [*How were new medicines discovered?*](./assets/13/02 - Swinney and Anthony - 2011 - How were new medicines discovered.pdf) by Swinney and Anthony, *Nature Reviews Drug Discovery*, 2011.
-    * Paper #3, [*Opportunities and challenges in phenotypic drug discovery: an industrial perspective*](./assets/13/03 - Moffat et al. - 2017 - Opportunities and challenges in phenotypic drug di.pdf) by Moffat *et al*, *Nature Reviews Drug Discovery*, 2017.
+    * Paper #1
+        * [*The chemical basis of morphogenesis*](./assets/13/01 - Turing - 1950 - The chemical basis of morphogenesis.pdf) by Alan Turing, *Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences*, 1950.
+    	* Presentation by Group #1: [Slides](./assets/13/AMIDD-2019-Presentation-Group1.pptx)
+    * Paper #2
+    	* [*How were new medicines discovered?*](./assets/13/02 - Swinney and Anthony - 2011 - How were new medicines discovered.pdf) by Swinney and Anthony, *Nature Reviews Drug Discovery*, 2011.
+    	* Presentation by Group #2: [Slides](./assets/13/AMIDD-2019-Presentation-Group2-HowWereNewMedicinesDiscovered.pdf)
+    * Paper #3
+    	* [*Opportunities and challenges in phenotypic drug discovery: an industrial perspective*](./assets/13/03 - Moffat et al. - 2017 - Opportunities and challenges in phenotypic drug di.pdf) by Moffat *et al*, *Nature Reviews Drug Discovery*, 2017.
+    	* Presentation by Group #3: [Slides](./assets/13/AMIDD-2019-Presentation-Group3-PhenotypicDrugDiscovery.pdf)
 14. Student presentation (II) (20.12.)
     * Paper #4: [*A quantitative description of membrane current and its application to conduction and excitation in nerve*](./assets/14/04 - Hodgkin und Huxley - 1952 - A quantitative description of membrane current and.pdf) by Hodgkin and Huxley, *The Journal of Physiology*, 1952.
     * Paper #5: [*Key factors in the rising cost of new drug discovey and development*](./assets/14/05 - Dickson and Gagnon - 2004 - Key factors in the rising cost of new drug discove.pdf) by Dickson and Gagnon, *Nature Reviews Drug Discovery*, 2004.
