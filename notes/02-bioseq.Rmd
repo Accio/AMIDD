@@ -107,7 +107,7 @@ Almost the same as DNA, but with ribose as the pentose sugar instead of deoxyrib
 
 Similarly, we can let `A`, `G`, `C`, and `U` denote adenine, guanine, cytosine and uracil, respectively. 
 
-Following our example above, the mRNA encoded are `AUGCCUAUUGGAUCC`, and `AAAAAAUAUAUCUAA‘. Notice that while DNA often forms duplexes, RNA often is single-stranded and forms complex 3D structures.
+Following our example above, the mRNA encoded are `AUGCCUAUUGGAUCC`, and `AAAAAAUAUAUCUAA`. Notice that while DNA often forms duplexes, RNA often is single-stranded and forms complex 3D structures.
 
 The structures can be predicted based by free-energy minimization. By assuming the nearest neighbour model, which assumes that the free energy change for forming a base pair depends only on the sequence identities of that pair and the immediately neighboring base pairs. Likewise, free energy changes associated with forming loop regions and other
 structural motifs are assumed to be independent of any nucleotide outside of the loop sequence and the sequence of the bounding base pairs. Thus, the free energy change for a given structure can be computed simply by adding up all the energies associated with forming all the base pair stacks and all the other structural motifs. The parameters were determined from optical melting experiments [@seetin_rna_2012].
