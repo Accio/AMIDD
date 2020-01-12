@@ -109,12 +109,11 @@ Similarly, we can let `A`, `G`, `C`, and `U` denote adenine, guanine, cytosine a
 
 Following our example above, the mRNA encoded are `AUGCCUAUUGGAUCC`, and `AAAAAAUAUAUCUAA`. Notice that while DNA often forms duplexes, RNA often is single-stranded and forms complex 3D structures.
 
-The structures can be predicted based by free-energy minimization. By assuming the nearest neighbour model, which assumes that the free energy change for forming a base pair depends only on the sequence identities of that pair and the immediately neighboring base pairs. Likewise, free energy changes associated with forming loop regions and other
-structural motifs are assumed to be independent of any nucleotide outside of the loop sequence and the sequence of the bounding base pairs. Thus, the free energy change for a given structure can be computed simply by adding up all the energies associated with forming all the base pair stacks and all the other structural motifs. The parameters were determined from optical melting experiments [@seetin_rna_2012].
+The structures can be predicted based by free-energy minimization. By assuming the nearest neighbour model, which assumes that the free energy change for forming a base pair depends only on the sequence identities of that pair and the immediately neighboring base pairs. Likewise, free energy changes associated with forming loop regions and other structural motifs are assumed to be independent of any nucleotide outside of the loop sequence and the sequence of the bounding base pairs. Thus, the free energy change for a given structure can be computed simply by adding up all the energies associated with forming all the base pair stacks and all the other structural motifs. The parameters were determined from optical melting experiments [@seetin_rna_2012].
 
 Under the hood, popular software to predict RNA structure, for instance MFOLD and ViennaRNA, use dynamic programming to calculate the predicted structure. The idea is very much like the Needleman-Wunsch algorithm that we talk about below. See the primer by Sean Eddy for more details [@eddy_how_2004].
 
-From a pratical point of view, RNA structures can be found by by chemical methods such as the  Selective 2‘-Hydroxyl Acylation and Primer Extension (SHAPE) method [@merino_rna_2005]. Computational methods can be then used to predict the structure or structure ensemble of RNA [@spasic_modeling_2018]. The ability to predict and determined structures of RNAs expands our ability to use RNA as drug targets, for instance using antisense oligonucleotides or RNA-binding small molecules. More about that later.  
+From a pratical point of view, RNA structures can be found by by chemical methods such as the  Selective 2‘-Hydroxyl Acylation and Primer Extension (SHAPE) method [@merino_rna_2005]. Computational methods can be then used to predict the structure or structure ensemble of RNA [@spasic_modeling_2018]. The ability to predict and determined structures of RNAs expands our ability to use RNA as drug targets, for instance using antisense oligonucleotides or RNA-binding small molecules. More about that later. 
 
 ## Protein (8 min)
 
@@ -193,21 +192,24 @@ The Levenshtein distance $L$ of two strings $a$ (of $m$ characters) and $b$ (of 
 
 The space and time complexity of the dynamic programming way of calculating Levenshtein distance is about $O(mn)$. The algorithm used is called Wagner-Fisher algorithm.
 
-The Wagner-Fisher algorithm to calculate Levenshtein distance is an instance of Dynamic Programming, a mathematical technique very often used. It was developed by Richard Bellmann in the 1950s. He developed Bellman equation, or dynamic programming equation, as a necessary condition for optimality associated with dynamic programming. among others coined thw word *curse of dimensionality*.
+The Wagner-Fisher algorithm to calculate Levenshtein distance is an instance of Dynamic Programming, a mathematical technique very often used. It was developed by Richard Bellmann in the 1950s. He developed Bellman equation, or dynamic programming equation, as a necessary condition for optimality associated with dynamic programming. among others coined the word *curse of dimensionality*.
 
 We will talk about a few of them, for instance the Viterbi algorithm used in HMMs, and the Needleman-Wunsch algorithm that we will talk about now.
 
 ## Substitution matrix (5 min)
 
-Replacing the edit distance by biology-driven costs
+The default edit distance assumes that the cost of insertion, deletion, and substitution is all the same. This assumption, however, fails to capture some properties of biological sequences. For instance, in protein coding sequences, substitutions are more likely to happen than either insertion or deletion (Why? See some reasons in the note elow). To make the distance better characterize the likelihood that the two sequences are relevant, we can replace the costs used in the calculation of the edit distance by biology-driven costs.
 
-The limitation of the Levenshtein distance is that the cost of insertion, deletion, and substitution are fix and constant for all types of changes (1). In the context of biology, such a cost is an over-simplification.
+```{block2, type="rmdnote"}
+Why a different cost model is needed?
 
-Due to the redudancy of the genetic code, and due to the selection pressue, the cost associated with different types of changes must be different on the protein level. Similarly, for DNA, transitions (change of one purine to another purine, or pyrimidine to another pyrimidine) is much more likely than transversions (purine to a pyrimidine, or vice versa).
+Due to the redudancy of the genetic code, and due to the selection pressure, the cost associated with different types of changes must be different on the protein level. Similarly, for DNA, transitions (change of one purine to another purine, or pyrimidine to another pyrimidine) is much more likely than transversions (purine to a pyrimidine, or vice versa).
 
 Therefore, a simple extension of the Levenshtein edit distance, where each type of change is assigned to a different cost, may better characterize the distance between two biological sequences.
+```
 
-For nucleotides, a similarity matrix can be used
+For nucleotides, a similarity matrix can be used.
+
 For amino acids, commonly used substitution matrices include PAM and BLOSUM.
 
 * PAM = Point Accepted Mutation, developed by Margaret Dayhoff in the 1970s. It works best for closely related proteins
