@@ -155,6 +155,10 @@ Besides proximal promoter elements, other regulatory elements can exist to regul
 
 Given the huge size of the humen genome, mathematics and informatics tools are fundamental to understand its architecture and function. It is part of the Level 1 modelling, namely molecular modelling. In the coming two sessions, we will discuss other aspects of molecular modelling, especially drug-target modelling.
 
+## Other stations of the information flow from genotype to phenotype
+
+The information flow from genome to phenotype is regulated at multiple levels. Chromatin accessibility controls which areas of the genome are being transcribed and therefore regulate the state of the cells. Both mRNAs and proteins can be modified chemically, which are known as epitranscriptomics and post-translational modifications (PTMs). Last but least, cells are organised in spatial patterns. Short-term interactions, for instance between two neighbouring cells, and long-term interactions, for instance facilitated by soluble hormones and other small molecules, affect the function and homeostasis of the cells. Drugs may regulate these processes as well.
+
 ## Levenshtein distance (edit distance, 10 min)
 
 A case study of dynamic programming.
