@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 # Biological sequence analysis {#bioseq}
 
 ```{r}
@@ -157,7 +152,7 @@ Given the huge size of the humen genome, mathematics and informatics tools are f
 
 ## Other stations of the information flow from genotype to phenotype
 
-The information flow from genome to phenotype is regulated at multiple levels. Chromatin accessibility controls which areas of the genome are being transcribed and therefore regulate the state of the cells. Both mRNAs and proteins can be modified chemically, which are known as epitranscriptomics and post-translational modifications (PTMs). Last but least, cells are organised in spatial patterns. Short-term interactions, for instance between two neighbouring cells, and long-term interactions, for instance facilitated by soluble hormones and other small molecules, affect the function and homeostasis of the cells. Drugs may regulate these processes as well.
+The information flow from genome to phenotype is regulated at multiple levels. Chromatin accessibility controls which areas of the genome are being transcribed and therefore regulate the state of the cells. Both mRNAs and proteins can be modified chemically, which are known as post-transcriptional modifications, or epitranscriptomics, and post-translational modifications, respectively. Last but least, cells are organised in spatial patterns. Short-term interactions, for instance between two neighbouring cells, and long-term interactions, for instance facilitated by soluble hormones and other small molecules, affect the function and homeostasis of the cells. Drugs may regulate these processes as well.
 
 ## Levenshtein distance (edit distance, 10 min)
 
