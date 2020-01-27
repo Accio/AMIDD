@@ -26,15 +26,35 @@ Here we review the basic theory of probability. The chapter was inspired by [@jo
 
 ### The Poisson distribution
 
+If we stand next to a bus station, and count how many people arrive at the bus station within every minute. The distribution of the numbers will, under certain assumptions, follow the Poisson distribution.
+
+If we stay in a hospital, and count how many children are born naturally within every hour. The distribution of the counts will, again, under certain assumptions, follow the Poisson distribution.
+
+If we have a very large table, on which we draw fine, orthogonal grids to each other. At a very high place, we throw a handful of rice or tiny balls on to the table. We count how many rice grains or balls are found in each cell defined by the grids. The distribution of the counts will, probably not surprising to you, largely follow the Poisson distribution.
+
+The Poisson distribution can be expressed by the following formula:
+
+A few examples of the Poisson distribution can be visualized in the graph below.
+
 ### The discrete uniform distribution
 
 ## Selected continuous probability distributions
 
 ### The exponential distribution
 
+Let us continue the example of bus station and birth clinic above. If we record the time between two consecutive arrivals, either that of passengers or of babies, the distribution of the time intervals follows the exponential distribution.
+
 ### The normal distribution
 
+The normal distribution is probably one of the distributions that are best known by a general audience. The body weight and height of all women between 30 and 40, for instance, would follow the normal distribution.
+
+The formula of normal distribution is:
+
+And you probably have met the bell-shape curve before.
+
 ### The Gamma distribution
+
+Numbers following the Gamma distribution can be obtained by the sum of exponentially distributed variables.
 
 ### The Beta distribution
 
