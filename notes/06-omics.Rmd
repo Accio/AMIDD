@@ -25,6 +25,14 @@ RNA can be reverse trascribed into DNA. Therefore RNAs can be sequenced just as 
 
 ### Genomics
 
+The genetic information, for instance DNA sequence in our genomes, varies between species, between individuals, and between different cells in our body. 
+
+Chimpanzees and human share 96% identical DNA sequences in their genomes. Mice and human share 85% and 50% identical DNA sequences in protein-coding and non-coding regions. 
+
+Between human individuals, 99.9% DNA sequences are identical. This means that out of six billion DNA bases in somatic cells, about a few million bases are different.
+
+How about DNA variations between cells in a human body?
+
 ### Transcriptomics
 
 ### Proteomics
