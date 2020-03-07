@@ -2,14 +2,24 @@
 
 ## What do we want to achieve today
 
-* Have a first impression of small molecules as drugs 
+* Have a first impression of common forms of drugs 
 * Digital representation of small molecules, in particular SMILEs and InChi keys
 * Structure search by fingerprints, Tanimoto coefficient, and graph-edit distances 
 * Know information sources of small molecules and drugs, especially ChEBI, CheEMBL, and PubChem
 
 ## Questions
 
-## Small molecules are important for life and for drug discovery
+## Classification of drugs
+
+Drugs can be classified in different ways, taking different perspectives. From the chemical perspective, for instance, drugs can be classified by their chemical structure. Loosely speaking, we distinguish traditional small-molecule drugs, which are often derived from chemical synthesis, from biologics, which can include recombinant proteins, nucleotides or nucleosides, vaccines, blood products that are used therapeutically (such as immunoglobulins), gene therapy, and cell therapy. 
+
+Small-molecule drugs are sometimes classified by the shared chemical structure, for instance $\beta$-lactam antibiotic (used for bacterial infection), steroid (inflammation and auto-immunity), and benzodiazepine (psychoactive drugs). In the same line, they can be classified by physical chemical properties. For instance, the Biopharmaceutics Classification System classifies drugs by solubility and intestinal permeability.
+
+Besides chemical structures, drugs can be classified by their biological target, or more broadly, by their mechanism of action. Mechanism of action is defined as the modulation of activity of specific biological target(s) that cause the pharmacological effect of the drug. Examples include beta blockers (managing abnormal heart rhythms), angiotensin-converting-enzyme (ACE) inhibitors (high blood pressure and heart failure), and nonsteroidal anti-inflammatory drugs (NSAIDs).
+
+One level above the mechanism of action, which describes biochemical properties, drugs can be classified by a more general biological persepective to describe the anatomical or functional changes they induce. Examples include diuretic (promoting urine production), decongestant (relieving nasal congestion), and bronchodilators (increasing airflow to the lungs). Similarly, drugs can be classified by the therapeutic use, *i.e.* the pathology they are used to treat. For instance, analgesics (pain relief), antiepileptic, or antiviral.
+
+While it is helpful to know the different perspectives underlying the classifications above, most of them are not comprehensive and not amenable for computer queries. Systems have been developed to classify drugs, with prominent examples including the [Anatomical Therapeutic Chemical Classification System](https://www.whocc.no/) (ATC system), and medication codes from [Systematized Nomenclature of Medicine](https://www.hl7.org/fhir/valueset-medication-codes.html) (SNOMAD).
 
 ## Getting to know two small molecules: caffeine/ valium
 
