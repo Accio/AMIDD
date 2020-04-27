@@ -13,7 +13,7 @@ library(DiagrammeR)
 ## What do we want to achieve today {-}
 
 * A first impression of the drug-discovery process
-* The linear view and the multscale-modelling view of drug discovery
+* The linear view and the multiscale-modelling view of drug discovery
 * A first impression of applications of mathematics and informatics in drug discovery
 
 ## Part I: Introduction, motivation, and administrivia (~30 min)
@@ -28,9 +28,9 @@ library(DiagrammeR)
 
 3. **Model**: what types of models do we use in drug discovery? What are their advantages and limitations?
 
-4. **Career**: How do you think of the sentence 'Biology is mathematician's next physics?' I was excited and humbled. Joel E. Cohen, an methamatical biologist, wrote eloquently in 2004 that 'Mathematics Is Biology's Next Microscope, Only Better; Biology Is Mathematics' Next Physics, Only Better'. Since drug discovery finally comes down to controlled perturbation of biological systems by biological and chemical means, I believe it is an attractive career path for mathematicians to understand the problems in drug discovery, and to use their knowledge and curiosity to help patients.
+4. **Career**: How do you think of the sentence 'Biology is mathematician's next physics?' I was excited and humbled. Joel E. Cohen, an mathematical biologist, wrote eloquently in 2004 that 'Mathematics Is Biology's Next Microscope, Only Better; Biology Is Mathematics' Next Physics, Only Better'. Since drug discovery finally comes down to controlled perturbation of biological systems by biological and chemical means, I believe it is an attractive career path for mathematicians to understand the problems in drug discovery, and to use their knowledge and curiosity to help patients.
 
-5. **Life**: drug discovery is about saving lifes and enabling a life of quality. Life is short. It fills the life with purpose for many scientists working with drug discovery, when you keep human life in mind.
+5. **Life**: drug discovery is about saving life and enabling a life of quality. Life is short. It fills the life with purpose for many scientists working with drug discovery, when you keep human life in mind.
 
 ### Disclaimers (3 min)
 
@@ -49,35 +49,33 @@ library(DiagrammeR)
     * We will not focus on rigorous proofs nor detailed deductions. Instead, we focus on key mathematical models that are important in drug discovery and computational concepts that are vital in translating data and models into knowledge that allow decision making.
     * I try to achieve a balance between the background and the mathematical and informatics part. Suggestions and ideas to improve the balance are always welcome.
 * Each course starts at 12:15 on Fridays, and contains two 45-minute sessions.
-* No exercise hours currently. Articles and book chapters for pre-reading and afeter-reading are distributed. Similar for videos. Each of us is encouraged to read them to get an overview of the topic to be covered, and to bring the questions to the course. 
-* Later today we will introduce the workflow of drug discovery and the concept of multiscale modelling, and the lectures of the semester are organised around the workflow and the multscale modelling model. We have nine course covering the entire drug-discovery processes. After that, we will have two courses where we invite several mathematicians working in drug discovery to share their personal experience in choosing drug discovery as a career, and their work. Last but not least, we will have a near-end-term mid-term presentation from each of us. More details about that later.
-* We will use both board and powerpoints. The notes and powerpoints will be available.
+* No exercise hours currently. Articles and book chapters for pre-reading and after-reading are distributed. Similar for videos. Each of us is encouraged to read them to get an overview of the topic to be covered, and to bring the questions to the course. 
+* Later today we will introduce the workflow of drug discovery and the concept of multiscale modelling, and the lectures of the semester are organised around the workflow and the multiscale modelling model. We have nine course covering the entire drug-discovery processes. After that, we will have two courses where we invite several mathematicians working in drug discovery to share their personal experience in choosing drug discovery as a career, and their work. Last but not least, we will have a near-end-term mid-term presentation from each of us. More details about that later.
+* We will use both board and presentation slides. Notes and slides will be available.
 * The final note is given by participation (20%), presentation (30%), and an oral examination (50%). The oral examination will be about general concepts that we introduced, and about explaining mathematical concepts to a layman. Individual appointments have to be made for the oral examination.
 
 ### Video: Drug Development - the Herceptin Story (~ 15min)
 
-We watch a video by [Susan Desmond-Hellmann](https://en.wikipedia.org/wiki/Susan_Desmond-Hellmann) on drug development of Herceptin. She is an American oncologist and biotechnology expert who is currently the Chief Executive Officer of the Bill & Melinda Gates Foundation. She was previously prefessor at the University of California, San Francisco (UCSF), Chancellor of the university, and before that president of product development at Genentech, where she played a role in the development of the first gene-targeted cancer drugs, Avastin and Herceptin.
+We watch a video by [Susan Desmond-Hellmann](https://en.wikipedia.org/wiki/Susan_Desmond-Hellmann) on drug development of Herceptin. She is an American oncologist and biotechnology expert who is currently the Chief Executive Officer of the Bill & Melinda Gates Foundation. She was previously professor at the University of California, San Francisco (UCSF), Chancellor of the university, and before that president of product development at Genentech, where she played a role in the development of the first gene-targeted cancer drugs, *Avastin* (*Bevacizumab*) and *Herceptin* (*Trastuzumab*).
 
 Pre-video questions:
 
-1. What is the **indication** of *Herceptin*? What is the generic (USAN, or United States Adopted Name) name of Herceptin?
+1. What is the **indication** of *Herceptin*? What is the generic (*USAN*, or United States Adopted Name) name of Herceptin?
 2. What is the gene that Herceptin targeting at?
 3. In which year was the target of Herceptin described? And when was Herceptin approved?
 4. What was the improvement of Herceptin compared with earlier antibodies?
 5. Why does a biomarker matter besides developing drugs?
-6. In the clinical trial of herceptin for metastatic breast cancer, how much improvement in the median survival did Herceptin achieve? And how much improvement is in the adjuvant setting (Herceptin applied directly after operation)?
+6. In the clinical trial of Herceptin for metastatic breast cancer, how much improvement in the median survival did Herceptin achieve? And how much improvement is in the adjuvant setting (Herceptin applied directly after operation)?
 
 Questions for further thinking
 
 * Susan Desmond-Hellmann summarizes great drug development in four key concepts: (1) Having a deep understanding of the basic science and the characteristics of the drug. (2) Target the right patients. (3) Set a high bar in the clinic. (4) Work effectively with key regulatory decision markers. Where do you think mathematics and informatics play a crucial role?
-* She emphasized the importance of collaboration: you cannot do drug discovery alone. What skillsets do we need, as mathematicians or other experts, for such collaborations?
+* She emphasized the importance of collaboration: you cannot do drug discovery alone. What skill-sets do we need, as mathematicians or other experts, for such collaborations?
 * How do you like her presentation? Anything that you can learn from her about presentation and story telling?
 
 [iBiology.org seminar, by Susan Desmond-Hellmann](https://www.ibiology.org/human-disease/herceptin/). Recorded in 2011, 12:43.
 
-## Reading about cetricine
-
-## Pause (10 min) {-}
+## Reading about *Zyrtec* (*Cetirizine*)
 
 ## Part II: student self-introduction (20 min)
 
@@ -86,7 +84,7 @@ Questions for further thinking
 * Which part of mathematics or informatics (or other background) are you mostly interested in?
 * What do you want to take away from the course? Credit points, knowledge in drug discovery, applications of mathematics, or others?
 
-## Part III: the drug discovpery process (25 min)
+## Part III: the drug discovery process (25 min)
 
 ### The process of drug discovery and development (15 min)
 
@@ -115,7 +113,7 @@ The linear model of drug discovery is very useful in several aspects. First, it 
 
 Despite the usefulness of the linear model, drug discovery in reality is rarely linear. Instead, it is often a dynamic and iterative process, with countless variants from the ideal linear model. During the discovery process, for instance, a lead compound may fail to show the expected efficacy in the preclinical experiment and therefore a new round of lead optimization is necessary or even a new hit series has to be identified. In another example, a drug that has been designed for one indication is found, either by real-world evidence or by serendipity, to be potentially effective for another indication, and thus the step of target identification, hit and lead optimization may be omitted or strongly shortened to meet the purpose. And in the development phase, more and more clinical trials are designed differently compared with the canonical ones, for instance with adaptive design, and with real-world data supported virtual trials. Many more examples like this suggest that the linear model is far away from the reality.
 
-In the dynamic and iterative process, modelling mechanism and safety at different levels become important, because these models embody our belief of how drug works. Rationalized approaches may not always lead to successful drug-discovery projects; and very often. serendipity plays a critical role, especially in the discovery of drugs of new, unexpected mechanisms. 
+In the dynamic and iterative process, modelling mechanism and safety at different levels become important, because these models embody our belief of how drug works. Rationalized approaches may not always lead to successful drug-discovery projects; and very often. Serendipity plays a critical role, especially in the discovery of drugs of new, unexpected mechanisms. 
 
 Why, then, do we still care about rationalized approaches as described above in the multiscale modelling problem? First, because the rationalized approach complements the trial-and-error model of drug discovery. In addition, it can even pave ways to findings by chance, as long as the multiscale modelling process is not seen as a doctrine and the only way to success. Last but not least, the rationalized approach is the scientific way to follow up lucky findings in order to gain insights so that the drug candidate obtained by a lucky strike can be further improved in its efficacy and safety profiles. All the three aspects have been demonstrated by numerous examples in the last three decades of drug discovery.
 
@@ -129,9 +127,9 @@ Since the mid-1960s, the process of drug approval has been modified to significa
 * Many factors contribute to the challenge
 * Computational modelling with applied mathematics and informatics increases efficiency and reduce cost of drug discovery
 
-The review by [@dickson_key_2004] is an execellent read about the drug discovery process and some analysis why it is expensive.
+The review by [@dickson_key_2004] is an excellent read about the drug discovery process and some analysis why it is expensive.
 
-Much increase in the time of the clinical trial portion (between IND to NDA), due to several reasons
+Much increase in the time of the clinical trial portion (between IND to NDA), due to several reasons:
 
 * Increased regulatory requirements
 * The need for more study subjects
@@ -144,9 +142,9 @@ Major factors for risks:
 * The high probability of failure for compounds entering clinical testing
 * Unpredictability of sales once a product is marketed
 
-Grabowski (1997) argued for integrating pharmacoeconomic analysis directly into strategic decision-making, starting as early as possible in the R&D process. This is definitely valid; however, it is important to prioritise scientific confidence over commercial potential. An analysis with internal historical data at AstraZeneca [@morgan_impact_2018] revealed that when projects are moved forward based on commercial values rather than scientific rationales, they are more likely, unsprisingly, to fail in mid-stage and late-stage development.
+The scientific discipline *pharmacoeconomics* in the field of health economics compares the value of one pharmaceutical drug or therapy to another. Pharmacoeconomic studies evaluate the cost of the drug, expressed in monetary terms, and effects, expressed in terms of monetary value, efficacy or enhanced quality of life. Grabowski (1997) argued for integrating pharmacoeconomic analysis directly into strategic decision-making, starting as early as possible in the R&D process. This is definitely valid. At the same time, evidence suggests that it is important to prioritise scientific confidence over commercial potential. An analysis with internal historical data at AstraZeneca [@morgan_impact_2018] revealed that when projects are moved forward based on commercial values rather than scientific rationales, they are more likely, unsurprisingly, to fail in mid-stage and late-stage development.
 
-Paul *et al.* and Morgan *et al.* proposed ways to improve R&D producivity from an industrial perspective [@paul_how_2010;@morgan_impact_2018]. Smietana *et al* shared their insights from the consulting perspective [@smietana_improving_2015]. As Morgan *et al.* put it, a crucial part to improve R&D producitivity is to put emphasis on 'truth-seeking' behavior and to ask 'killer' projects for projects. The way towards it was to implement stronger quantiative sciences and quantiative decision-making. This is a *bona fide* support for more rigorous assessment of scientific uncertainty in drug discovery with applied mathematics and informatics.
+Paul *et al.* and Morgan *et al.* proposed ways to improve R&D productivity from an industrial perspective [@paul_how_2010;@morgan_impact_2018]. Smietana *et al* shared their insights from the consulting perspective [@smietana_improving_2015]. As Morgan *et al.* put it, a crucial part to improve R&D productivity is to put emphasis on 'truth-seeking' behaviour and to ask 'killer' projects for projects. The way towards it was to implement stronger quantitative sciences and quantitative decision-making. This is a *bona fide* support for more rigorous assessment of scientific uncertainty in drug discovery with applied mathematics and informatics.
 
 ## Part IV: Drug discovery as a multiscale modelling problem (10 min)
 
@@ -159,7 +157,7 @@ A common trait underlying contributions of different fields to drug discovery is
 In light of the multiscale modelling process, this course series introduces selected applications of mathematics and informatics in drug discovery. In particular, we focus on four areas:
 
 1. Molecular-level modelling, which models structures of molecules and interactions between molecules using molecular modelling and simulation techniques.
-2. Celluar-level, or more recently, omics-level modelling, which examines all molecules of a particular kind (DNA, RNA, proteins, metabolites, *etc.*) of cells using high-throughput techniques.
+2. Cellular-level, or more recently, omics-level modelling, which examines all molecules of a particular kind (DNA, RNA, proteins, metabolites, *etc.*) of cells using high-throughput techniques.
 3. Physiological-level, or system-level, which examines how drug and the body interact and affect each other.
 4. Statistical modelling and inference, which underlies the three types of modelling above and informs us about the uncertainty of our models and inferences based on them.
 
@@ -173,9 +171,9 @@ Next, we discuss *concepts and models* behind the tools that we choose to solve 
 
 The list of models and concepts, similar like questions, are far away from comprehensive. In addition, the models that we are accustomed to use can be suboptimal, biased, or simply wrong. You are invited to view them with a critical mind and encouraged to challenge the routines and practices.
 
-There are questions which can solved back-on-the evelope, without using computers. However, the majority of the questions require both computation and interative visualization, two aspects that can be augmented strongly by informatics tools. Therefore, we will also introduce the *software and databases*, particularly open-source solutions, that are used in pharma research. 
+There are questions which can solved back-on-the envelope, without using computers. However, the majority of the questions require both computation and interactive visualization, two aspects that can be augmented strongly by informatics tools. Therefore, we will also introduce the *software and databases*, particularly open-source solutions, that are used in pharma research. 
 
-Last but not least, we will point to *resources for further learning*. This part often contains two types of material, one heavier on mathematics and informatics,the other heavier on the practical aspets of drug discovery. You are encouraged to check out both types of material, not at least to be incubated in both ways of thinking and their langagues. This is because, as we stated at the beginning of the chapter, drug discovery is an interdisciplinary enterprise, and this nature determines that interdisciplinary communication is key. Without knowing, using or mastering the language of other domains, we run in the risk of creating solutions that are not applicable to real problems.
+Last but not least, we will point to *resources for further learning*. This part often contains two types of material, one heavier on mathematics and informatics,the other heavier on the practical aspects of drug discovery. You are encouraged to check out both types of material, not at least to be incubated in both ways of thinking and their languages. This is because, as we stated at the beginning of the chapter, drug discovery is an interdisciplinary enterprise, and this nature determines that interdisciplinary communication is key. Without knowing, using or mastering the language of other domains, we run in the risk of creating solutions that are not applicable to real problems.
 
 ### Selected topics of applied mathematics and informatics in drug discovery
 
@@ -185,41 +183,41 @@ Applications of mathematics and informatics can be found broadly in four categor
 
 #### Molecular-level modelling
 
-Molecular-level modelling of biological and chemical systems. This includes for instance biological sequence analysis and structural biology, which studies how biological sequences and variations are translated in structures and functions. The information are highly relevant for drug discovery, which aims at delaying, halting, or reversing disease progression by modulating biological molecules. On the the same level, physical models of both biological and chemical molecules are often used to study their interactions. Such chemical-biology interactions are fundamental to both efficacy and safety of drugs.
+Molecular-level modelling of biological and chemical systems. This includes for instance biological sequence analysis and structural biology, which studies how biological sequences and variations are translated in structures and functions. The information are highly relevant for drug discovery, which aims at delaying, halting, or reversing disease progression by modulating biological molecules. On the same level, physical models of both biological and chemical molecules are often used to study their interactions. Such chemical-biology interactions are fundamental to both efficacy and safety of drugs.
 
-Molecular modelling is the foundation of our understanding of drug's mechanism and safety profiles. Without them, we will not have any quantiative information about the structure and physio-chemical properties of the drug molecule, the structure of the primary target, and how a drug and its target interact.
+Molecular modelling is the foundation of our understanding of drug's mechanism and safety profiles. Without them, we will not have any quantitative information about the structure and physicochemical properties of the drug molecule, the structure of the primary target, and how a drug and its target interact.
 
 The mathematical tools describing biological sequences are the tools that we characterize any discrete sequences, including probabilistic models and Markov chains. Models describing both proteins and chemicals are the ones that we characterize any molecular systems (molecular modelling), for instance 3D geometry and ball-spring models. The two aspects will be covered in Part I and Part II of this course.  
 
-#### Ceullar- and omics level modelling
+#### Cellular- and omics level modelling
 
 What does a drug candidate do to cancer cells? Why does a compound with a particular structure cause DILI/toxicity in liver while another compound with a very similar structure does not? Such questions can be answered by cellular-level modelling. A human cell contains billions molecules, therefore it is not feasible to fully characterize the status of the whole system. However, it is possible to examine some aspects of the system in order to make inferences. For instance, in the second lecture, we will talk about the central dogma in molecular biology, which states that DNA directs transcription of RNA, which can be translated into proteins. While DNA is largely identical (not always so though) between different cells, the abundance of RNA and protein vary a lot depending on the context, for instance where the cells are, their interactions with other cells and external stimuli, what physiological status they are in (for instance activated or dying). Thus, it is feasible to measure all RNA or proteins in a cell (or the average of many cells) in order to query the status of the system. The techniques that we use to characterize all molecules of a given type is commonly known as the 'omics', which is a suffix coming from the Greek language.
 
 Besides omics technologies, it is also possible to query other aspects of the cellular system. For instance, different types of imaging techniques such as microscopy and immunohistochemistry staining can be applied to directly observe whether treatment with an drug candidate cause morphological changes in cells. Combined with cell-type specific markers, it is possible to infer cell-type specific changes, which can be useful if the efficacy or toxicity of the drug is manifested in specific and/or rare cell types.
 
-Besides informing about cellular response to drug candidates, cellular and omics modelling techniques are also powerful tools to characterize populational variations of biological sequences and to infer subsequent variations in structure and function of the proteins. This aspect has gained more and more attention in the last two decades, especially thanks to the power the knowledge unreveals. For instance, it has been shown that single-nucleotide polymorphisms (SNPs), base-level variations in the DNA sequence of the human genome, is associated with increased metabolism of drugs. Therefore, patients carrying this SNP should be dosed differently than patients not carrying this SNP. Another reminent example of GPCRs will be examined in the upcoming lectures.
+Besides informing about cellular response to drug candidates, cellular and omics modelling techniques are also powerful tools to characterize population variations of biological sequences and to infer subsequent variations in structure and function of the proteins. This aspect has gained more and more attention in the last two decades, especially thanks to the power the knowledge unravels. For instance, it has been shown that single-nucleotide polymorphism (SNP), base-level variations in the DNA sequence of the human genome, is associated with increased metabolism of drugs. Therefore, patients carrying one SNP should be dosed differently than patients not carrying the particular SNP. Another prominent example of G-protein coupled receptors (GPCRs) will be examined in the upcoming lectures.
 
 Apparently, cellular and omics level modelling misses the comprehensive and often deterministic nature of molecular modelling. And models on this level are of limited scope per definition. No change in RNA expression profiles of the cells, for instance, does not necessarily mean that the drug does not work (assuming that the drug reached the target and binds to it). Instead, for instance, the regulation may be only visible on the protein level. Therefore, change in omics profiles is neither necessary or sufficient for mechanisms of drugs. The same logic applies to imaging and other cellular and omics level models as well.
 
-On the other side, cellular and omics level models bring its own strength and power. Molecular-level modelling often addresses one or one pair of molecules, for instance drug or drug-target protein interaction, in isolation. Due to limitations in our modelling power, we can hardly model more than a few molecules once a time. That requires we ignore many molecules in a cell that may interact with the system that we study. The ignorance has a price, which can manifested in unexpected off-target, nameling being active on another gene besides the one aimed at, effects of the drug. Even more, since proteins form networks to execute functions, even a highly specific modulator of a given protein will likely induce widespread consequences due to the fact that its target interacts with other proteins in the cell. This kind of signal propogation can hardly be studied using molucular levels, however is feasible to be studied using omics and cellular levels, when the prior knowledge of protein-protein interaction is integrated.
+On the other side, cellular and omics level models bring its own strength and power. Molecular-level modelling often addresses one or one pair of molecules, for instance drug or drug-target protein interaction, in isolation. Due to limitations in our modelling power, we can hardly model more than a few molecules once a time. That requires we ignore many molecules in a cell that may interact with the system that we study. The ignorance has a price, which can manifested in unexpected off-target, namely being active on another gene besides the one aimed at, effects of the drug. Even more, since proteins form networks to execute functions, even a highly specific modulator of a given protein will likely induce widespread consequences due to the fact that its target interacts with other proteins in the cell. This kind of signal propagation can hardly be studied using molecular levels, however is feasible to be studied using omics and cellular levels, when the prior knowledge of protein-protein interaction is integrated.
 
 Mathematics and informatics aspects of selected omics technologies will be introduced in Part I and II of the course. 
 
 #### Organ- and system level modelling
 
-It is not sufficient to characterize drug's efficacy and safety profiles only on the molecular and cellular level. The golden standard, which is won not only from successes but also from disasters that cost lives, of assessing drug's efficacy and safety profiles is randomised clinical trials (RCTs), with patients. When the drug is given to or taken by the patient, what organs (liver, kidney, heart, brain, etc.) and tissues (blood, fat, etc.) do it reach? How is the speed of reaching them? How long does it take to reach the maximum concentration and how does does it take for the concentration coming back to zero? How is the concentration associated with (hopefully) the improvement of symptom and (hopefully not) adverse events? In these contents, organ and system-level modelling is called to study the pharmacology and toxicology of the drug. Specifically,  what does the body to the drug including metabolism and excretion (pharmacokinetics, often abbreivated as PK), and what does the drug do to the body (pharmacodynamics, often abbreivated as PD) are two questions of interest.
+It is not sufficient to characterize drug's efficacy and safety profiles only on the molecular and cellular level. The golden standard, which is won not only from successes but also from disasters that cost lives, of assessing drug's efficacy and safety profiles is a randomised clinical trial (RCT) with patients. When the drug is given to or taken by the patient, what organs (liver, kidney, heart, brain, etc.) and tissues (blood, fat, etc.) do it reach? How is the speed of reaching them? How long does it take to reach the maximum concentration and how does does it take for the concentration coming back to zero? How is the concentration associated with (hopefully) the improvement of symptom and (hopefully not) adverse events? In these contents, organ and system-level modelling is called to study the pharmacology and toxicology of the drug. Specifically,  what does the body to the drug including metabolism and excretion (pharmacokinetics, often abbreviated as PK), and what does the drug do to the body (pharmacodynamics, often abbreviated as PD) are two questions of interest.
 
-Mathematically, ordinary differential equations (ODEs) are often used to characterize organ and system level effects of drugs, because they can neatly characterize changes by time. Variations such as partial differential equations (PDEs) and stochastic differential equations (SDEs) are occasionally used, either to capture spatial-temporal changes or to capture XXX. An interesting aspect that in clinical pharmacology, ODEs can be coupled with stochastic models (Markov chain for instance) to characterize either efficacy or adverse effects of drugs mathematically in a populational level.
+Mathematically, ordinary differential equations (ODEs) are often used to characterize organ and system level effects of drugs, because they can neatly characterize changes by time. Variations such as partial differential equations (PDEs), stochastic differential equations (SDEs), and agent-based modelling are occasionally used, either to capture spatial-temporal changes or to gain more details about the properties of the system. An interesting aspect that in clinical pharmacology, ODEs can be coupled with stochastic models (Markov chain for instance) to characterize either efficacy or adverse effects of drugs mathematically in a population level.
 
-Organ- and sytem-level modelling will be introduced in the part III of the course.
+Organ- and system-level modelling will be introduced in the part III of the course.
 
-#### Populational modelling
+#### Population modelling
 
-A typical use is to model populational response to drug treatments, for instance in RCTs.
+A typical use is to model individual response to drug treatments, for instance in a RCT, in a population. It can be used to estimate the effect of individual characteristics, *e.g.* age, sex, genotype, *etc.*, on pharmacokinetic or pharmacodynamic properties.
 
-Two topics in statistical modelling deserve special treatment: machine learning, and causal inference. Machine learning is the working horse of drug discovery since many years, whcih seized public attention since a few years' time, sometimes under other names such as Artificial Intelligence (AI). Causal inference is the natural development and extension of statistical analysis, seeking for causalities (does alhocol consumption shorten life expectance) and relevant topics such as counterfactuals (what may happen if I have not consumed alcohol in the last two years)?
+Two topics in statistical modelling deserve special treatment: machine learning, and causal inference. Machine learning is the working horse of drug discovery since many years, which seized public attention since a few years' time, sometimes under other names such as Artificial Intelligence (AI). Causal inference is the natural development and extension of statistical analysis, seeking for causalities (does alcohol consumption shorten life expectancy) and relevant topics such as counterfactuals (what may happen if I have not consumed alcohol in the last two years)?
 
-The topic of statistical populational modelling, especially RCT, and the topics of machine learning and causal inference, will be introduced in the part IV of the course, though statistical thinking and modelling is also demanded in other parts of the course.
+The topic of statistical population modelling, especially RCT, and the topics of machine learning and causal inference, will be introduced in the part IV of the course, though statistical thinking and modelling is also demanded in other parts of the course.
 
 ## Other considerations (optional) {-}
 
@@ -227,9 +225,9 @@ The topic of statistical populational modelling, especially RCT, and the topics 
 
 Does a simple, seemingly magical solution exist for such a complex and difficult problem as drug discovery? Our best guess is not. It can probably not be approved, but our intuitions and experience tell us the conjecture is likely to be true.
 
-What does this imply in our study of applied mathematics and informatics in drug discovery? The **no-silver-bullet** conjecture reminds us of the limitations of mathematical and *in silico* approaches. The models cannot capture all the complexity of life. It also prompts us to listen to experts to other disciplines, including biologists, chemists, toxicologists, medical doctors, *etc*., in order to get an full picture of what drug discovery is. The author of this note is strongly convinced of an interdiscplinary approach to drug discovery, where experts from different fields do their best to model and solve problems with diverse skills and tools. In this process, mathematicians and informaticians do not only provide logical models and computational tools to solve problems, they also need to communicate with other experts. The communication is two-way: listening to others about their problems, and speaking to others about how our knowledge and skills can help to solve the problem. 
+What does this imply in our study of applied mathematics and informatics in drug discovery? The **no-silver-bullet** conjecture reminds us of the limitations of mathematical and *in silico* approaches. The models cannot capture all the complexity of life. It also prompts us to listen to experts to other disciplines, including biologists, chemists, toxicologists, medical doctors, *etc*., in order to get an full picture of what drug discovery is. I am strongly convinced of an interdisciplinary approach to drug discovery, where experts from different fields do their best to model and solve problems with diverse skills and tools. In this process, mathematics and computer science do not only provide logical models and computational tools to solve problems, they also need to communicate with other experts. The communication is two-way: listening to others about their problems, and speaking to others about how our knowledge and skills can help to solve the problem. 
 
-During the course of *Introduction to Applied Mathematics and Informatics In Drug Discovery*, we aim at using games, discussions, and presentations to raise the awareness of effecitive communication, and to exchange everyone's best practice in the class.
+During the course of *Introduction to Applied Mathematics and Informatics In Drug Discovery*, we aim at using games, discussions, and presentations to raise the awareness of effective communication, and to exchange everyone's best practice in the class.
 
 ### A list of things to consider before starting a drug discovery project (optional)
 
@@ -237,17 +235,17 @@ During the course of *Introduction to Applied Mathematics and Informatics In Dru
 * Approach: targeted-approach or phenotypic approach?
 * In case of targeted-approach
      * Activity profile: how potent should the drug bind to its target?
-     * Selectivity: the concentration at which the activity observed, and the concentation at which toxicity is observed: what is the dynamic window
+     * Selectivity: the concentration at which the activity observed, and the concentration at which toxicity is observed: what is the dynamic window
      * Formulation: oral, injection, etc.? Physicochemical properties need adjustment: solubility, permeability, etc.
      * Pharmacokinetics: how can we select the compound that is most likely to reach the target?
-     * Pharmacodynamics: how can we convince ourselfs and others that the drug is likely to work in animal disease models and finally in patients?
-     * Drug-drug interaction: CYP induction? Time-dependent inhibition (TDI)?
+     * Pharmacodynamics: how can we convince ourself and others that the drug is likely to work in animal disease models and finally in patients?
+     * Drug-drug interaction: CYP induction? Time-dependent inhibition?
      * Safety: hERG flag? GSH flag? Ames and MNT flag? minitox study?
-           * hERG: The human Ether-a-go-go-Related Gene, known as KCNH2. It is the alpha subunit of a potassium ion channel. It is best known for its contribution to the electrical activity of the heart. If its function is inhibited, it can cause a potentially fatal disorder called torsades de pointes, an irregularity of the heartbeat. 
-	   * A steady supply of GSH ensures that Glutathione S-transferase (GSTs) work properly to detoxify xenobiotics.
+           * hERG: The human Ether-a-go-go-Related Gene, known as *KCNH2*. It is the alpha subunit of a potassium ion channel. It is best known for its contribution to the electrical activity of the heart. If its function is inhibited, it can cause a potentially fatal disorder called *torsades de pointes*, an irregularity of the heartbeat. 
+	   * A steady supply of GSH ensures that Glutathione S-transferase (GST) work properly to detoxify xenobiotics.
 	   * Ames test: a test using bacteria to test whether a given chemical can cause mutations in the DNA of the test organism
 	   * MNT (micronucleus test): screening for genotoxic compounds. 
-	   * mini tox
+	   * minitox
 
 ## Further learning {-}
 
@@ -256,29 +254,4 @@ During the course of *Introduction to Applied Mathematics and Informatics In Dru
 * [Introduction to the Drug Discovery Process, Part I, from iBiology](https://www.ibiology.org/archive/introduction-drug-discovery-process/#part-1)
 * [From "Hit" to Pill, from iBiology](https://www.ibiology.org/archive/introduction-drug-discovery-process/#part-2)
 * [Imatinib as a paradigm of targeted cancer therapies](https://www.ibiology.org/human-disease/imatinib-paradigm-targeted-cancer-therapies/)
-
-
-<!--
-## Some examples of bookdown
-
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
-
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
-
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
-
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
-
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
-
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@drawnel_molphen_2017] [@dickson_key_2004].
--->
 
