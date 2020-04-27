@@ -74,12 +74,28 @@ Drug discovery is an interdisciplinary enterprise. To develop a efficacious and 
 
 A common trait underlying contributions of different fields to drug discovery is that they presume models, and generate data to either validate, reject, or amend and improve the models. Drug mechanism and safety is profiled at multiple scales - molecular, cellular, and systematic levels - before a candidate can be tested in human in clinical trials. The *multiscale modelling process*, a term that I borrow from the field of physics and material science, lies right in the heart of applied mathematics and informatics in drug discovery. It sets the framework in which mathematical concepts and tools are used to describe complex biological systems and how drugs assert effects on them, and in which computers are used to translate the mathematical objects into human interpretable results.
 
+The term 'model' refers to either mathematical or computational models that are
+defined and discussed in [@weisberg_simulation_2015]. An example of mathematical
+model is the Susceptible-Infected-Recovered (SIR) model in epidemiology. An SIR
+model assumes that each individual can be in one of three states: susceptible,
+infected, or recovered. The spreading of disease is modelled by linear ordinary
+differential equations. 
+
+An example of mathematical modelling is provided in the pharmacokinetic and
+pharmacodynamic modelling of this book.
+
+An example of computational models is the Game of Life. 
+
+We will also examine statistical modelling. *To do: to reconcile it with
+mathematical and computational modelling*.
+
 In light of the multiscale modelling process, this course series introduces selected applications of mathematics and informatics in drug discovery. In particular, we focus on four areas:
 
 1. Molecular-level modelling, which models structures of molecules and interactions between molecules using molecular modelling and simulation techniques.
 2. Cellular-level, or more recently, omics-level modelling, which examines all molecules of a particular kind (DNA, RNA, proteins, metabolites, *etc.*) of cells using high-throughput techniques.
 3. Physiological-level, or system-level, which examines how drug and the body interact and affect each other.
 4. Statistical modelling and inference, which underlies the three types of modelling above and informs us about the uncertainty of our models and inferences based on them.
+
 
 ### How will we approach the multiscale-modelling problem in this course? (10 min)
 
