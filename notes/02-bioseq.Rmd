@@ -38,7 +38,7 @@ fetch 3OG7 ## fetch the crystall structure of vemurafenib binding to BRAF V600E
 
 ## Typical questions in drug discovery that call for biological sequence analysis (5 min)
 
-* Are there other genes other the target X that is similar to X, that may increase the effect of the drug and/or cause side effects when the drug interferes with their functionaltiies?
+* Are there other genes other the target X that is similar to X, that may increase the effect of the drug and/or cause side effects when the drug interferes with their functionalities?
 * Is it appropriate to test drug candidates of target X in mouse, rat, cyno monkey, or another model species?
 * How variable are the coding sequences of the target X among the general population, and among patients of a certain disease?
 * Can we design efficacious and safe RNA-based therapies that target the transcript of X potently and specifically to reverse the disease? 
