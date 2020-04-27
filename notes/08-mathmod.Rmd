@@ -20,6 +20,23 @@
 
 ### Michaelis Menten Enzyme Model
 
+### Stochastic model of chemical reactions: the Gillespie algorithm
+
+As we have learned in biological sequence analysis, many problems can be treated both with a deterministic and a probabilistic approach. While the Michaelis-Menten model is a deterministic model, the Gillespie algorithm generates possible solutions of a stochastic equation. It can simulate chemical or biochemical reaction systems. 
+
+It is a variant of a dynamic Monte Carlo method. 
+
+Roughly speaking, the Gillespie algorithm runs in four steps:
+
+1. *Initialization*: initialize the number of molecules in the system, reaction constants, as well as random number generators.
+2. *Monte-Carto simulation*: Generate random numbers to determine (a) the next reaction to occur, and (b) the time interval. The probability of a given reaction to happen next is proportional to the number of substrate molecules. The time interval is modelled by an expotential distribution, if we assume that the reactions follow a Poisson process. This is the *stochastic* step.
+3. *Update*: Increase the time by the amount generated in the Step 2. Update the molecule counts based on the reaction that was chosen to occue. This is the *deterministic* part in the Gillespie algorithm.
+4. *Iterate*: Go back to Step 2, unless the number of reactants is zero or the simulation time has been exceeded.
+
+Because the original Gillespie algorithm is computationally expensive, many modifications and adaptations exist. 
+
+We next use an example to illustrate how Gillespie algorithm works.
+
 ## Software
 
 ### COPASI
