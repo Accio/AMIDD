@@ -31,14 +31,19 @@ The book can be used in a course of 12-14 sessions with 90 minutes each.
 
 ## Organization of the book {-}
 
-Part 1: Workflow of drug discovery: the linear view and the multiscale-modelling view
+### Part 1: Workflow of drug discovery: the linear view and the multiscale-modelling view {-}
 
 1. The linear view of drug discovery
 2. The multiscale-modelling view of drug discovery
 3. Major modalities: small-molecule, anti-sense oligonucleotides (ASO) and
    duplex RNA, antibodies, gene therapy, cell therapy.
 
-Part 2: Molecular modelling
+### Excursion 1: Programming skills
+
+1. R
+2. Python
+
+### Part 2: Molecular modelling {-}
 
 1. The central dogma and drug targets
 2. Biological sequence analysis
@@ -47,31 +52,54 @@ Part 2: Molecular modelling
 5. Thermodynamic modelling of DNA/RNA
 6. Antibody design
 
-Part 3: Cellular and omics modelling
+### Excursion 2: Open-source tools for molecular modelling
+
+1. BLAST
+2. hmmer
+3. PyMOL
+
+### Part 3: Cellular and omics modelling {-}
 
 1. Biological network analysis
 1. Omics technologies
 2. Imaging technologies
 
-Part 4: Organ and system-level modelling
+### Excursion 3: Open-source tools for cellular and omics modelling
 
-1. PK modelling
-2. PD modelling
+1. COPASI
+1. Bioconductor
+2. Snakemake and nextflow
+3. ImageJ
+
+### Part 4: Organ and system-level modelling {-}
+
+1. Pharmacodynamics and pharmacodynamics modelling
 3. PBPK modelling
+2. *In vitro* to *in vivo* translation
+3. From animal testing to entry-into-human
 
-Part 5: Population modelling
+### Part 5: Population modelling {-}
 
 1. Non-linear mixed effect modelling
 1. Clinical trial
 1. Real-world data
 
-Appendix:
+### Excursion 4: Open-source tools for PBPK modelling and simulation
+
+1. Open Systems Pharmacology Community 
+2. See comments here: https://www.researchgate.net/post/Is_there_any_open_source_Pharmacokinetic_software
+
+### Part 6: Conclusion and prospectives
+
+### Appendix {-}
 
 1. Biology
 2. Chemistry
 3. Mathematics
 4. Information theory
-5. Resources
+5. Programming
+
+### Resources for learning {-}
 
 ## Acknowledgement {-}
 
