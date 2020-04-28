@@ -4,13 +4,14 @@ Drug discovery is the activity of identifying chemical or biological entities
 that potentially slow down, halt, or even reverse disease progress. 
 
 The history of *Homo sapiens* is strongly shaped by human diseases and fighting
-against them. 
-
-The history of drug discovery is short. However, it has fundamentally improved
-human health and life quality.
+against them. While the history of drug discovery is short, it has fundamentally
+improved human health, life quality, and changed the demographic structures of
+societies.
 
 Drug discovery is one of the most interdisciplinary and collaborative human
-enterprises. The first wave was the development in chemistry and physiology. In
+enterprises. 
+
+The first wave was the development in chemistry and physiology. In
 the second wave, advances in molecular biology, genetics, and physics made
 significant contribution. In the third wave, computational approaches such as
 molecular modelling demonstrated its power. In the fourth wave,
@@ -23,7 +24,7 @@ There is little doubt that future waves will bring more opportunities to find
 new drugs.
 
 These waves do not only offered new drugs against various diseases. They also
-gradually revealed the importance of mathematics and informatics in drug
+gradually revealed the importance of mathematical and statistical modelling approaches in drug
 discovery. In the first wave, .... In the second wave, mathematical language to
 describe human genetic information and computational tools to store, retrieve,
 and analyse them brought disciplines such as cheminformatics and bioinformatics
@@ -88,18 +89,19 @@ identification and assessment. We examine both deterministic and probabilistic
 approaches to analyse biological sequences, and their applications in drug
 discovery.
 
-#### Chapter six: structure of DNA, RNA, and protein {-}
+#### Chapter six: structure-based modelling {-}
 
 In target-based drug discovery, high-quality structural information of the target molecule
 can strongly determine how a project is pursued. We examine structural
 properties of drug target molecules that are most relevant for drug discovery,
 and examine mathematical and informatics models involved.
 
-#### Chapter seven: cheminformatics {-}
+#### Chapter seven: ligand-based modelling {-}
 
 Cheminformatics uses computer-science languages and tools to describe chemical
 molecules, and make predictions about their properties. It finds wide
-application in drug discovery. In this chapter, we review some relevant aspects.
+application in drug discovery. In this chapter, we particularly highlight its
+role in ligand-based modelling.
 
 #### Chapter eight: modelling of oligonucleotides {-}
 
@@ -118,11 +120,11 @@ critical for antibody design.
 
 ### Part III: cellular and omics modelling {-}
 
-#### Chapter ten: biological network analysis {-}
+#### Chapter ten: network analysis {-}
 
 Graph, or network, is an important mathematical model that links molecular-level 
 modelling with cellular and omics modelling. We examine both deterministic and
-probablistic approaches of analysing biological networks.
+probabilistic approaches of analysing biological networks.
 
 #### Chapter eleven: DNA and RNA sequencing {-}
 

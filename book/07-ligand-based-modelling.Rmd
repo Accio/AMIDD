@@ -1,3 +1,114 @@
+# Encoding and similarity search of chemical structures {#cheminfo}
+
+## What do we want to achieve today
+
+* Have a high-level understanding of encoding chemical structures and similarity search
+* Know technical terms such as SMILEs, INCHI keys, fingerprint, Tanimoto Index
+* Know how Tanimoto Index is applied to fingerprint-based chemical structure search
+* Know how graph edit distance is mathematically defined and used to search for similar molecules
+
+## Questions
+
+## Background
+
+### Small molecules
+
+### InChi
+
+### SMILES
+
+### Stereochemistry
+
+### Fingerprints
+
+## Mathematical concepts
+
+### Structure diagrams as graphs
+
+### Similarity measures
+
+### Graph edit distance
+
+## Resources for further learning
+
+A short video about basic concepts of drug, drug target, and molecular interactions, https://www.youtube.com/watch?v=u49k72rUdyc
+Computational chemistry in drug discovery on youtube, https://www.youtube.com/watch?v=9DESulCWbRQ
+
+# Molecular descriptors and QSAR {#moldes}
+
+## What do we want to achieve today
+
+* Understand what are molecular descriptors and QSARs
+* Understand applications of linear models and dimension reduction in the context of QSAR
+
+## Questions
+
+## Background
+
+### Descriptors derived from experimental measurements
+
+### Theoretical molecular descriptors
+
+### Efficacy
+
+### ADMET
+
+## Mathematical concepts and models
+
+### Unsupervised learning with principal component analysis
+
+### Supervised learning
+
+## Software
+
+pubchem
+
+ChEMBL
+
+https://deepchem.io/
+
+## Resources for further learning
+
+http://www.moleculardescriptors.eu/tutorials/tutorials.htm
+
+# Molecular modelling {#molmod}
+
+## What do we want to achieve today
+
+* Understand the principles of mechanistic modelling in computational chemistry
+* Understand the theory of docking, search algorithms, and scoring function
+* Understand technical terms including Hooke's law, Force Fields, Lennard-Jones potential
+* Know the software AutoDock
+
+## Questions
+
+## Background
+
+### Molecular modelling
+
+### Molecular mechanics and quantum chemistry approaches
+
+### Molecular descriptors
+
+### Force fields
+
+### Docking
+
+The disco analogy
+
+## Mathematical concepts and models
+
+### The Lennard-Jones potential
+
+### Scoring functions for docking
+
+## Software 
+
+Autodock
+
+## Resources for further learning
+
+Neumaier, A. “Molecular Modeling of Proteins and Mathematical Prediction of Protein Structure.” SIAM Review 39, no. 3 (January 1, 1997): 407–60. https://doi.org/10.1137/S0036144594278060.
 # Cheminformatics {#chemoinfo}
 
 ## What do we want to achieve today

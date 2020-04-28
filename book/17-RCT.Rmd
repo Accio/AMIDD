@@ -42,3 +42,26 @@ http://statsthinking21.org/
 https://lindeloev.github.io/tests-as-linear/
 
 Shalizi, Cosma Rohilla. Advanced Data Analysis from An Elementary Point of View, n.d. http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/.
+# Clinical trials
+
+## What do we want to achieve today
+
+* Understand why clinical trials are often designed as randomised and double-blinded experiments
+
+## Questions
+
+## Background
+
+### Design of comparative experiments
+
+## Mathematical concepts
+
+### Randomization
+
+### Blocking
+
+### Blinding
+
+## Software tools
+
+## Resources for further learning
