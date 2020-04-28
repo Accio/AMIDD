@@ -31,40 +31,109 @@ The book can be used in a course of 12-14 sessions with 90 minutes each.
 
 ## Organization of the book {-}
 
-### Part 1: Workflow of drug discovery: the linear view and the multiscale-modelling view {-}
+### Part I: Overview of drug discovery: the linear view and the multiscale-modelling view {-}
 
-1. The linear view of drug discovery
-2. The multiscale-modelling view of drug discovery
-3. Major modalities: small-molecule, anti-sense oligonucleotides (ASO) and
-   duplex RNA, antibodies, gene therapy, cell therapy.
+#### Chapter one: Introduction to drug discovery {-}
 
-### Excursion 1: Programming skills
+In this chapter, we sketch a brief history of drug discovery, focusing
+especially on how quantitative methods change our way to finding drugs, and
+important aspects of drug discovery today, especially the choice of target-based
+and phenotypic drug discovery, as well as the modalities.
 
-1. R
-2. Python
+#### Chapter two: The linear view of drug discovery {-}
 
-### Part 2: Molecular modelling {-}
+The linear view of the drug discovery process can be found everywhere from
+scientific publications to pharma companies' websites. Why they are so
+popular? What are the advantages of disadvantages of this view?
 
-1. The central dogma and drug targets
-2. Biological sequence analysis
-3. RNA and protein structure
-4. Cheminformatics
-5. Thermodynamic modelling of DNA/RNA
-6. Antibody design
+#### Chapter three: The multiscale-modelling view of drug discovery {-}
 
-### Excursion 2: Open-source tools for molecular modelling
+We provide an alternative view to modern drug discovery
+based on mathematical, statistical, and computational models at different
+levels. 
+
+### Part II: Molecular modelling {-}
+
+Chapter four to six focus on molecular modelling of the targets, where as
+chapter seven to nine focus on molecular modelling of the drug candidates and
+their interactions with the targets.
+
+#### Chapter four: The Central Dogma and drug targets
+
+The central dogma of molecular biology dictates the rules of information flow in
+biological systems. We examine the central dogma and study drug targets from an
+information theory prospective.
+
+
+#### Chapter five: Biological sequence analysis
+
+Biological sequence analysis plays an important role in drug target
+identification and assessment. We examine both deterministic and probabilistic
+approaches to analyse biological sequences, and their applications in drug
+discovery.
+
+#### Chapter six: Structure of DNA, RNA, and protein
+
+In target-based drug discovery, high-quality structural information of the target molecule
+can strongly determine how a project is pursued. We examine structural
+properties of drug target molecules that are most relevant for drug discovery,
+and examine mathematical and informatics models involved.
+
+#### Chapter seven: Cheminformatics
+
+Cheminformatics uses computer-science languages and tools to describe chemical
+molecules, and make predictions about their properties. It finds wide
+application in drug discovery. In this chapter, we review some relevant aspects.
+
+#### Chapter eight: Modelling of oligonucleotides
+
+Antisense oligonucleotides (ASOs) and duplex RNAs are two classes of most widely
+used molecules to target RNAs. Sequence-based and thermodynamic modelling of
+DNA/RNA and RNA/RNA interaction are critical to identify drug candidates with favourable efficacy and toxicity properties. We review key modelling methods here.
+
+#### Chapter nine: Antibody design
+
+Antibodies are proteins that bind to and modulate the function of other
+proteins. Engineered human antibodies represent an important class of drugs. In
+this chapter, we discuss the mathematical and computational models that are
+critical for antibody design.
+
+### Excursion 1: Open-source tools for molecular modelling
 
 1. BLAST
 2. hmmer
 3. PyMOL
 
-### Part 3: Cellular and omics modelling {-}
+### Part III: Cellular and omics modelling {-}
 
-1. Biological network analysis
-1. Omics technologies
-2. Imaging technologies
+#### Chapter ten: Biological network analysis
 
-### Excursion 3: Open-source tools for cellular and omics modelling
+Graph, or network, is an important mathematical model that links molecular-level 
+modelling with cellular and omics modelling. We examine both deterministic and
+probablistic approaches of analysing biological networks.
+
+#### Chapter eleven: DNA and RNA sequencing
+
+Genomics and transcriptomics studies with high-throughput DNA and RNA sequencing greatly
+expanded the ability of drug discovery scientists to both undrestand the
+etiology of diseases and to assess the efficacy and safety liability profiles of
+drug candidates. We introduce the key concepts and models to analyse the data.
+
+#### Chapter twelve: Proteomics and metabolomics
+
+Proteomics and metabolics technologies find a wide range of applications in drug
+discovery, from quantification of drug-target binding to accurate determination of
+biomarkers. We introduce the key concepts and models to analyse the data.
+
+#### Chapter thirteen: Biological imaging
+
+Biological imaging offers an orthogonal approach to investigate biological
+processes and the effect of drug perturbation. We introduce selected techniqus
+of biological imaging that are commonly used in drug discovery, with a
+particular emphasis on modelling approaches to analyse
+the data.
+
+### Excursion 2: Open-source tools for cellular and omics modelling
 
 1. COPASI
 1. Bioconductor
@@ -73,23 +142,60 @@ The book can be used in a course of 12-14 sessions with 90 minutes each.
 
 ### Part 4: Organ and system-level modelling {-}
 
-1. Pharmacodynamics and pharmacodynamics modelling
-3. PBPK modelling
-2. *In vitro* to *in vivo* translation
-3. From animal testing to entry-into-human
+#### Chapter fourteen: Pharmacokinetic and pharmacodynamic modelling
 
-### Part 5: Population modelling {-}
+Pharmacokinetic (PK) and pharmacodynamic (PD) modelling describes what the body
+does to the drug, and what the drug does to the body, respectively. We introduce
+how mathematical modelling is used to characterize PK and PD profile of drug
+candidates.
 
-1. Non-linear mixed effect modelling
-1. Clinical trial
-1. Real-world data
+#### Chapter fifteen: Physiologically based pharmacokinetic (PBPK) modelling
 
-### Excursion 4: Open-source tools for PBPK modelling and simulation
+Physiologically based pharmacokinetic modelling represents our knowledge of
+human physiology in mathematical structures, and is applied for a wide range of
+purposes from animal-human translation and pediatric dose selection. In this
+chapter we introduce the basic concepts and tools in PBPK modelling.
+
+#### Chapter sixteen: Systems models
+
+Systems models offer an integrative approach to combine mechanistic preclinical
+safety data with PK and patient-specific characteristics. They can assess safety
+liabilities under different dosing regimens in different populations
+quantitatively. They can also identify mechanisms underlying liabilities, which
+may offer insight for compound optimisation.
+
+### Part 5: Population modelling and reverse translation {-}
+
+#### Chapter seventeen: Population modelling
+
+Population modelling informs common trends and individual variabilities of drug
+PK and PD profiles. It is used to infer associations between individual
+variables (age, sex, genotype, *etc.*) and PK/PD profiles in clinical
+pharmacology studies. We introduce the basic basic concepts of population modelling, in particular non-linear mixed
+effect modelling.
+
+#### Chapter eighteen: real-world data and reverse translation
+
+Real-world data is a collective term of data that are collected about patients,
+their medical history, and other data types that can be potentially used to
+infer efficacy and safety profiles of drugs. Classically, real-world data and clinical data are analysed in a 'for-purpose' fashion. Recently, however, researchers realise the potential to use such data to inform preclinical discovery. We examine key modelling approaches used as well as both opportunities and challenges.
+
+### Excursion 3: Open-source tools for modelling and simulation
 
 1. Open Systems Pharmacology Community 
 2. See comments here: https://www.researchgate.net/post/Is_there_any_open_source_Pharmacokinetic_software
 
 ### Part 6: Conclusion and prospectives
+
+#### Chapter nineteen: outlook of multiscale modelling
+
+* Molecular level
+* Cellular and omics level: Multimodal modelling
+* Organ and system level
+* Population level: precision phenotyping
+
+Bringing it together: a pledge for interdisciplinary research and information-
+and knowledge-driven decision making.
 
 ### Appendix {-}
 
@@ -97,7 +203,9 @@ The book can be used in a course of 12-14 sessions with 90 minutes each.
 2. Chemistry
 3. Mathematics
 4. Information theory
-5. Programming
+5. Programming:
+    1. GNU-R
+    1. Python
 
 ### Resources for learning {-}
 

@@ -12,9 +12,12 @@ library(DiagrammeR)
 
 ## Topics of the chapter
 
+* A brief history of drug discovery
 * The drug-discovery process: the linear view
 * Multiscale modelling: an alternative view of the drug-discovery process
-* Overview of roles of mathematics and computer science in drug discovery
+* Mathematical, statistical, and computational modelling approaches in drug discovery
+
+## Drug modalities
 
 ## The process of drug discovery and development
 
