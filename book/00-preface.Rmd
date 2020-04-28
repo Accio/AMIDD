@@ -4,7 +4,7 @@ Drug discovery is the activity of identifying chemical or biological entities
 that potentially slow down, halt, or even reverse disease progress. 
 
 The history of *Homo sapiens* is strongly shaped by human diseases and fighting
-against them.
+against them. 
 
 The history of drug discovery is short. However, it has fundamentally improved
 human health and life quality.
@@ -50,10 +50,11 @@ and biology.
 
 #### Chapter one: introduction to drug discovery {-}
 
-In this chapter, we sketch a brief history of drug discovery, focusing
-especially on how quantitative methods change our way to finding drugs, and
-important aspects of drug discovery today, especially the choice of target-based
-and phenotypic drug discovery, as well as the modalities.
+We sketch a brief history of drug discovery, focusing especially on how
+quantitative methods, in particular mathematical modelling, statistical tools,
+and computational methods change our way to finding drugs. We will also
+introduce a few important aspects of drug discovery today, especially the choice
+of target-based and phenotypic drug discovery, as well as the modalities.
 
 #### Chapter two: the linear view of drug discovery {-}
 
