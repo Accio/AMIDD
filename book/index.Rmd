@@ -1,5 +1,5 @@
 --- 
-title: "Introduction to Applied Mathematics And Informatics In Drug Discovery"
+title: "Drug discovery: a multiscale-modelling approach"
 author: "Jitao David Zhang"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
