@@ -1,0 +1,7 @@
+# Chapter eighteen: population modelling
+
+These resources can be interesting
+
+1. Open Systems Pharmacology Community 
+2. See comments here: https://www.researchgate.net/post/Is_there_any_open_source_Pharmacokinetic_software
+3. FDA RWE and RWD guideline: https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence
