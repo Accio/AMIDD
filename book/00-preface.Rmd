@@ -31,11 +31,11 @@ This book aims at providing undergraduate and graduate students from relevant
 fields as well as drug-discovery researchers a practical introduction to basic
 concepts and tools for data modelling and analysis in drug discovery.
 
-Prerequisite is high-school knowledge of mathematics, chemistry, physics,
-and biology. Resources are provided to more advanced (usually bachelor-level)
-knowledge in each chapter. An appendix is available to refresh the essential
-knowledge in mathematics, statistics, computer science, chemistry, and biology
-that are used throughout the book.
+Prerequisite is high-school knowledge of mathematics, chemistry, physics, and
+biology. Resources are provided in each chapter for self-learning of more
+advanced (usually bachelor-level) knowledge. An appendix is available to refresh
+the essential knowledge in mathematics, statistics, computer science, chemistry,
+and biology that are used throughout the book.
 
 ## Organization of the book {-}
 
@@ -43,11 +43,11 @@ The book is organised in three parts:
 
 1. Introduction to drug discovery
 2. Modelling at individual levels
-  1. Molecule-level modelling
-  2. Cell-level modelling
-  3. Organ- and system-level modelling
-  4. Population modelling
-3. Multiscale modelling: state-of-the-art and prospectives
+    1. Molecule-level modelling
+    2. Cell-level modelling
+    3. Organ- and system-level modelling
+    4. Population modelling
+3. Multiscale modelling: state-of-the-art practice and prospectives
 
 ### Part I: Introduction to drug discovery {-}
 
@@ -89,9 +89,9 @@ With the multiscale-modelling view as a mental model of the drug discovery
 process, we will start our journey of learning principles, concepts, and tools
 of modelling at individual levels. 
 
-### Part II: Modelling at individual levels
+### Part II: Modelling at individual levels {-}
 
-#### Part II.I: Molecular modelling
+#### Part II.I: Molecular modelling {-}
 
 Chapter four to six focus on molecular modelling of drug targets, including DNA,
 protein and proteins. Chapter seven to nine go on introducing molecular modelling
@@ -253,19 +253,21 @@ opportunities and challenges.
 
 ### Part III: Multiscale modelling: state-of-the-art and prospectives {-}
 
-#### Chapter twenty: state-of-the-art multiscale modelling in drug discovery
+#### Chapter twenty: current multiscale-modelling practice in drug discovery {-}
 
-We examine emerging patterns and iterative and integrated modelling. The two
-examples come academic and industrial research, respectively.
+We examine emerging patterns and iterative and integrated modelling. The
+examples come from both academic and industrial research.
 
-* Halicin
-* Risdiplam
+* Discovery of Sofosbuvir
+* Discovery of Vemurafenib
+* Discovery of Risdiplam
+* Discovery of halicin as an antibiotics
 
 #### Chapter twenty: outlook of multiscale modelling in drug discovery {-}
 
 In the last chapter, we discuss the outlook of multiscale modelling in drug discovery. 
 
-We will examine the potential of further developments at each individual levels. On the molecular level, molecular simulation of longer time frames may reveal rare and unexpected structures that are important for drug design. On the cellular level, multimodal modelling is becoming a prominent tool to associate different aspects of cellular biology and to integrate them into a unified view. On the organ and system level, better models to simulate human physiology, such as microphysiological systems, and accumulation of data and knowledge makes it more feasible to predict PK and PD profiles of drugs. Last but not least, the use of digital biomarkers and the accumulation of data allows precision phenotyping of patients and healthy individuals, creating both a wealthy data mine as well as privacy concerns.
+We will examine the potential of further developments at each individual levels. On the molecular level, molecular simulation of longer time frames may reveal rare and unexpected structures that are important for drug design. On the cellular level, multimodal modelling is becoming a prominent tool to associate different aspects of cellular biology and to integrate them into a unified view. On the organ and system level, better models to simulate human physiology, such as micro-physiological systems, and accumulation of data and knowledge makes it more feasible to predict PK and PD profiles of drugs. Last but not least, the use of digital biomarkers and the accumulation of data allows precision phenotyping of patients and healthy individuals, creating both a wealthy data mine as well as privacy concerns.
 
 We list key open questions of bringing models at different levels and discuss potential solutions. We study the success of multiscale modelling in two scientific fields, molecular modelling and material science, and speculate how drug discovery may learn and benefit from their approaches. Finally, we bring forward a call for interdisciplinary modelling practice in drug discovery, driven by computer-enhanced human cognition and communication, and information-driven decision making with uncertainty.
 
@@ -274,14 +276,15 @@ We list key open questions of bringing models at different levels and discuss po
 1. Biology
 2. Chemistry
 3. Mathematics
-4. Information theory
+4. Statistics
 5. Programming:
     1. GNU-R
     1. Python
 
-### Resources for learning {-}
-
 ## Acknowledgement {-}
+
+I would like to thank many mentors, colleagues, and friends who have helped me
+and supported me.
 
 ## Licensing {-}
 
