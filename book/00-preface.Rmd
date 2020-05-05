@@ -1,5 +1,7 @@
 # Preface {-}
 
+*Proposal for the book 'Multiscale modelling in drug discovery'*
+
 ## Modelling in drug discovery
 
 Drug discovery is the activity of identifying chemical or biological entities
