@@ -16,7 +16,7 @@ mathematical, statistical, and computational modelling has become essential
 besides experimental approaches. We apply such models mainly for two reasons. 
 
 First, we apply these models to study human body as a biochemical system. Since
-the system is very large and complex, we usually consider a part of it, for
+the system is large and complex, we usually consider a part of it, for
 instance the liver infected by the hepatitis B virus or a melanoma (skin
 tumour), as a sub-system. From this perspective, health and diseases are treated
 as the states of the system. Mathematical, statistical, and computational models
@@ -38,10 +38,10 @@ serve *efficacy and safety profiling* in drug discovery.
 
 Data of drug-body interactions are collected at multiple scales. We can roughly
 classify them into molecular data, cellular data, organ- and system-level data,
-and population data.  Interpretation of models at individual levels and
+and population data. Interpretation of models at individual levels and
 integration of the results across the hierarchies allow us to make key
 decisions, such as which drug target to work on or which molecule to test in
-human, along the drug-discovery process.  For simplicity, we say that models
+human, along the drug-discovery process. For simplicity, we say that models
 serve *drug discovery* in such contexts.
 
 It is obvious that the two types of applications are dependent on each other: a
@@ -117,7 +117,7 @@ are relevant for later chapters of the book, namely:
 The linear view of the drug-discovery process is prevalent. It is found
 everywhere from scientific publications to pharma companies' websites. In this
 chapter, we will examine the linear view from multiple perspectives: how can we
-interpret it? What is the time and cost associated with each stage?  What are
+interpret it? What is the time and cost associated with each stage? What are
 the advantages and disadvantages of this view of drug discovery?
 
 Once we are familiar with the linear view of drug discovery, we are ready to
