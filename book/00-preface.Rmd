@@ -70,7 +70,7 @@ and safety profiling in drug discovery. The aim is to
 integrate modelling approaches at different levels into a unified,
 *multiscale-modelling* view of drug discovery.
 
-## Targeted readership {-}
+## Target readership {-}
 
 This book aims at providing undergraduate and graduate students from relevant
 fields (mathematics, computer science, biology, physics, chemistry,
@@ -355,13 +355,9 @@ information-driven decision making with uncertainty.
 
 ### Appendix {-}
 
-1. Biology
-2. Chemistry
-3. Mathematics
-4. Statistics
-5. Programming:
-    1. GNU-R
-    1. Python
+1. Mathematics
+2. Statistics
+3. Programming
 
 ## Acknowledgement {-}
 
