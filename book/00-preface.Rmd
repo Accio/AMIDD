@@ -30,17 +30,21 @@ manipulating of which may worsen or cure the disease? For simplicity, we say
 that models serve *disease understanding* in such contexts.
 
 The other application of mathematical, statistical, and computational models is
-to characterize drug-body interactions. From a system's perspective, the goal
-of drug discovery is to identify a perturbation or a combination of
-perturbations that switches the state of the sub-system from 'disease' to
-'health', while causing as little harm as possible to the whole system.
+to characterize the drug molecules and their interactions with the human body.
+While it is perfectly feasible and sometimes necessary to ignore the human body
+system and consider drug molecules only, we model drug-body interactions in
+most cases because they form the mechanistic foundation of the therapeutic use of
+drugs.
 
-A drug's capacity of switching the state of a sub-system from 'disease' to
-'health' is defined as its *efficacy profile*. Its capacity of causing harm,
-known as *adverse effects*, to the whole system is defined as its *toxicity
-profile*. Equivalently, its capacity of not causing adverse effects is its
-*safety profile*. Therefore, models also reveal *efficacy and safety profiles*
-of drug candidates.
+From a system's perspective, the goal of drug discovery is to identify a
+perturbation or a combination of perturbations that switches the state of the
+sub-system from 'disease' to 'health', while causing as little harm as possible
+to the whole system. A drug's capacity of switching the state of a sub-system
+from 'disease' to 'health' is defined as its *efficacy profile*. Its capacity of
+causing harm, known as *adverse effects*, to the whole system is defined as its
+*toxicity profile*. Equivalently, its capacity of not causing adverse effects is
+its *safety profile*. Therefore, models also reveal *efficacy and safety
+profiles* of drug candidates.
 
 It is obvious that the two types of applications are dependent on each other: a
 better understanding of the disease may catalyse the discovery of new drugs with
