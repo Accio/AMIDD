@@ -1,10 +1,7 @@
 # Preface {-}
 
-This document is the preface to *Multiscale Modelling in Drug Discovery*, a book
-that I am writing. The work is still in progress.
-
-* TOC
-:{toc}
+This document is the preface to *Multiscale Modelling in Drug Discovery*
+(working title), a book that I am writing. 
 
 ## Modelling in drug discovery
 
@@ -13,40 +10,33 @@ that potentially slow down, halt, or even reverse disease progression. Modern
 drug discovery has a much shorter history compared with the history of human and
 human diseases. It has, however, fundamentally changed the life of each of us. 
 
-Today, drug discovery represents one of the most interdisciplinary and
-collaborative human research enterprises. Drug discovery in its early years was
-primarily driven by trial-and-errors in chemistry, biology, and medicine. As the
+It has also changed itself during its development. In its early years, drug
+discovery was primarily driven by serendipity and trial-and-errors in chemistry,
+biology, and medicine. Today, drug discovery represents one of the most
+interdisciplinary and collaborative human research enterprises. As the
 techniques of drug discovery developed and refined, mathematical, statistical,
-and computational modelling has become essential besides experimental
+and computational models have become essential besides experimental
 approaches. 
 
 We apply these models mainly for two reasons. First, they help us study human
 body as a biochemical system. Since the system is large and complex, we usually
-consider part of it. Example of such sub-systems include the lung infected by the corona virus, and a melanoma tissue, a type of skin cancer that originate from pigment-producing cells known as melanocytes. From this perspective, health and
-diseases are treated as the states of the system. Mathematical, statistical, and
-computational models are used to characterize the different states of the
-system: what variables are correlated with the states? Which
-variables are causal, manipulating of which may worsen or cure the
-disease? For simplicity, we say that models serve *disease understanding* in
-such contexts.
+consider part of it. Example of such sub-systems include the lung infected by
+the corona virus, and a melanoma tissue, a skin cancer that originates from
+pigment-producing cells known as melanocytes. From this perspective, health and
+diseases are considered as the states of the system. Mathematical, statistical,
+and computational models are used to characterize the different states: what
+variables are correlated with the states? Which variables are causal,
+manipulating of which may worsen or cure the disease? For simplicity, we say
+that models serve *disease understanding* in such contexts.
 
 The other application of mathematical, statistical, and computational models is
-to characterize drug-body interactions. From our systems perspective, the goal
+to characterize drug-body interactions. From the systems perspective, the goal
 of drug discovery is to identify a perturbation, or a combination of
 perturbations, that switches the state of the sub-system from 'disease' to
-'health', while causing as little harm,  known as *adverse effects*, as possible to the whole system.
+'health', while causing as little harm as possible to the whole system.
 
 The capacity of a drug to switch the state of a sub-system from 'disease' to
-'health' is defined as its *efficacy*. Its capacity of causing adverse
-effects to the whole system is defined as its *safety*. Therefore, models also
-reveal *efficacy and safety profiles* of drug candidates.
-
-Data of drug-body interactions are collected at multiple scales. We can roughly
-classify them into molecular data, cellular data, organ- and system-level data,
-and population data. Interpretation of models at individual levels and
-integration of the results across the hierarchies allow us to make key
-decisions, such as which drug target to work on or which molecule to test in
-human.
+'health' is defined as its *efficacy profile*. Its capacity of causing harm, known as *adverse effects*, to the whole system is defined as its *toxicity profile*. Equivalently, its capacity of not causing adverse effects is its *safety profile*. Therefore, models also reveal *efficacy and safety profiles* of drug candidates.
 
 It is obvious that the two types of applications are dependent on each other: a
 better understanding of the disease may catalyse the discovery of new drugs with
@@ -56,17 +46,18 @@ be used as perturbations to investigate biological systems, either in the
 healthy state or in disease states. Such studies may reveal unexpected aspects
 of the disease or even fundamental biology.
 
-In summary, drug discovery can be viewed as an iterative process consisting of
-experiments and modelling. The starting point consists of a disease that we wish
-to cure and some biological or chemical entities that we deem as appropriate
-prototypes of drug candidates. We collect data of the disease and of drug
-candidates from experiments. Models characterize diseases as states of the
-system and encode our understanding of drug-body interactions. Informed by these
-models, we use our expertise in chemistry and biology to modify the drug
-candidate to improve its efficacy and safety profile. In the next cycle, more
-experiments further refine the drug candidate and we construct improved models
-to update our belief about how the molecule interacts with the body. The process
-is repeated until a drug with desired efficacy and safety profiles is found. 
+In summary, modern drug discovery can be thought as an iterative process
+consisting of experiments and modelling. The starting point consists of a
+disease that we wish to cure and some biological or chemical entities that we
+deem as appropriate prototypes of drug candidates. We collect data of the
+disease and data of drug candidates from experiments. Models characterize
+diseases as states of the system and encode our understanding of drug-body
+interactions.  Informed by these models, we find ways to improve the efficacy
+and safety profile of our molecules and use our expertise in chemistry and
+biology to make the changes. In the next cycle, more experiments further refine
+the drug candidate and we improved models update our belief about
+how the molecule interacts with the body. The process is repeated until a drug
+with desired efficacy and safety profiles is found. 
 
 This book introduces basic concepts, principles and selected tools of
 mathematical, statistical, and computational modelling approaches to disease
@@ -76,18 +67,16 @@ is to integrate diverse modelling approaches at different levels into a unified,
 
 ## The target audience {-}
 
-This book aims at providing undergraduate and graduate students from relevant
-fields (mathematics, computer science, biology, physics, chemistry,
-pharmacology, *etc.*) an application-oriented introduction to drug discovery
-from the modelling perspective. It can also be used by researchers
-working in the fields of disease understanding and drug discovery as a practical
-guide to modelling.
+This book aims at providing undergraduate- and graduate-level students
+interested in drug discovery an application-oriented introduction. It can also
+be used by researchers working in the fields of disease understanding and drug
+discovery as a practical guide to mathematical, statistical, and computational modelling.
 
 Prerequisite is high-school knowledge of mathematics, chemistry, physics, and
 biology. Resources are provided in each chapter for self-learning of more
-advanced (usually bachelor-level) knowledge. An appendix is available to refresh
-the essential knowledge in mathematics, statistics, chemistry, and biology that
-is used throughout the book.
+advanced (usually bachelor-level) knowledge if necessary. An appendix is
+available to refresh the essential knowledge in mathematics, statistics and
+programming that is used throughout the book.
 
 ## Organization of the book {-}
 
