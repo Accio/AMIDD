@@ -21,7 +21,7 @@ approaches.
 We apply these models mainly for two reasons. First, they help us study human
 body as a biochemical system. Since the system is large and complex, we usually
 consider part of it. Example of such sub-systems include the lung infected by
-the corona virus, and a melanoma tissue, a skin cancer that originates from
+the coronavirus, and a melanoma tissue, a skin cancer that originates from
 pigment-producing cells known as melanocytes. From this perspective, health and
 diseases are considered as the states of the system. Mathematical, statistical,
 and computational models are used to characterize the different states: what
@@ -30,13 +30,17 @@ manipulating of which may worsen or cure the disease? For simplicity, we say
 that models serve *disease understanding* in such contexts.
 
 The other application of mathematical, statistical, and computational models is
-to characterize drug-body interactions. From the systems perspective, the goal
+to characterize drug-body interactions. From a system's perspective, the goal
 of drug discovery is to identify a perturbation, or a combination of
 perturbations, that switches the state of the sub-system from 'disease' to
 'health', while causing as little harm as possible to the whole system.
 
 The capacity of a drug to switch the state of a sub-system from 'disease' to
-'health' is defined as its *efficacy profile*. Its capacity of causing harm, known as *adverse effects*, to the whole system is defined as its *toxicity profile*. Equivalently, its capacity of not causing adverse effects is its *safety profile*. Therefore, models also reveal *efficacy and safety profiles* of drug candidates.
+'health' is defined as its *efficacy profile*. Its capacity of causing harm,
+known as *adverse effects*, to the whole system is defined as its *toxicity
+profile*. Equivalently, its capacity of not causing adverse effects is its
+*safety profile*. Therefore, models also reveal *efficacy and safety profiles*
+of drug candidates.
 
 It is obvious that the two types of applications are dependent on each other: a
 better understanding of the disease may catalyse the discovery of new drugs with
@@ -55,7 +59,7 @@ diseases as states of the system and encode our understanding of drug-body
 interactions.  Informed by these models, we find ways to improve the efficacy
 and safety profile of our molecules and use our expertise in chemistry and
 biology to make the changes. In the next cycle, more experiments further refine
-the drug candidate and we improved models update our belief about
+the drug candidate, and improved models update our belief about
 how the molecule interacts with the body. The process is repeated until a drug
 with desired efficacy and safety profiles is found. 
 
@@ -81,7 +85,7 @@ throughout the book.
 
 ## Organization of the book {-}
 
-The content of the book is organised in three parts:
+The content of the book is organized in three parts:
 
 1. Introduction to modern drug discovery
 2. Modelling at individual levels
@@ -237,12 +241,13 @@ determination of biomarkers. We introduce the principles of two widely used tech
 
 #### Chapter Thirteen: Biological Imaging {-}
 
-Biological imaging offers an orthogonal approach to omics technologies to
+Biological imaging offers an orthogonal approach to omics technologies
+introduced in the last two chapters to
 investigate biological processes and the effect of drug perturbation.
 Application of imaging spans a wide range between molecular modelling and population modelling. 
 
 First we give a brief overview of imaging technologies used in drug discovery.
-Next we focus on cellular level imaging, in particular high-content microscop.
+Next we focus on cellular level imaging, in particular high-content microscopy.
 We introduce both non-supervised and supervised methods of biological imaging
 data analysis.
 
@@ -265,7 +270,7 @@ Physiologically based pharmacokinetic (PBPK) modelling represents our knowledge
 of human physiology in mathematical structures. It can be seen as a natural
 extension of the PK and PD models introduced in the last chapter. PBPK models
 are applied for a wide range of purposes from animal-human translation to
-pediatric dose selection. 
+paediatric dose selection. 
 
 We introduce the basic concepts and principles of PBPK modelling, and tools to
 construct and analyse the models.
@@ -275,7 +280,7 @@ construct and analyse the models.
 Quantitative systems pharmacology (QSP) models, or systems models for short,
 offer an integrative approach to combine mechanistic preclinical safety data
 with PK and patient-specific characteristics. They can identify mechanisms of
-actions of drugs, which may offer insight for compoudn optimisation or may even
+actions of drugs, which may offer insight for compound optimization or may even
 propose new targets. They can also assess safety liabilities under different
 dosing regimens in different populations quantitatively.
 
@@ -287,13 +292,13 @@ developed in drug discovery and development projects.
 
 #### Chapter Seventeen: Randomized Controlled Trials {-}
 
-Randomized controlled trial (RCT) is the gold standard of measuing the
+Randomized controlled trial (RCT) is the gold standard of measuring the
 effectiveness of an intervention or a treatment. It is used in drug discovery
 and development to examine the efficacy and safety profiles of a drug in a
 defined patient population. In this chapter, we learn key concepts and
-principles of desining a randomized controlled trial, including statistical
+principles of designing a randomized controlled trial, including statistical
 power calculation, randomization, blinding, and causality inference. We will
-also examine the common forms of RCTs in drug discovery.
+also examine the common forms of RCT in drug discovery.
 
 #### Chapter Eighteen: Population Modelling {-}
 
@@ -310,7 +315,7 @@ personal data, omics data, medical records, and other data types that can be
 potentially used to infer efficacy and safety profiles of drugs.  Classically,
 real-world data, like clinical-trial data, are analysed 'for-purpose', namely to
 serve the development of the particular drug product for which the data were
-collected. Recently, however, researchers realise the potential of such data to
+collected. Recently, however, researchers realize the potential of such data to
 inform preclinical discovery, which is summarized in the term *reverse
 translation*. We examine key modelling approaches used as well as both
 opportunities and challenges of reverse translation.
@@ -327,7 +332,7 @@ examples available in patents and publications. They come from both industrial a
 * Discovery of Risdiplam
 * Discovery of halicin as an antibiotics
 
-#### Chapter Twenty-one: Outlook of Multiscale Modelling in Drug DIscovery {-}
+#### Chapter Twenty-one: Outlook of Multiscale Modelling in Drug Discovery {-}
 
 In the final chapter, we discuss the outlook of multiscale modelling in drug discovery. 
 
@@ -348,11 +353,18 @@ We first discuss future developments at individual levels.
 
 We list key open questions of bringing models at different levels and discuss
 potential solutions. We study the success of multiscale modelling in other two
-scientific fields, molecular modelling in chemitry and material science in
+scientific fields, molecular modelling in chemistry and material science in
 physics, and speculate how drug discovery may learn and benefit from their
 approaches. 
 
-Finally, we consider how interdisciplinary multiscale modelling may shape drug discovery in the future. We focus on two aspects: computer-enhanced human cognition and collaboration, uncertainty- and risk-aware decision making. Mathematical, statistical, and computational models, when unified and integrated, may help us identify and build better drug-like molecules faster and cheapter. They may also help us make better decisions that are optimized given facts, uncertainty and risk. If implemented, these measures may revolutionize the way we discover drugs in the future.
+Finally, we consider how interdisciplinary multiscale modelling may shape drug
+discovery in the future. We focus on two aspects: computer-enhanced human
+cognition and collaboration, uncertainty- and risk-aware decision-making.
+Mathematical, statistical, and computational models, when unified and
+integrated, may help us identify, build, and test better drug-like molecules faster and
+cheaper. They may also help us make better decisions that are optimized given
+facts, uncertainty and risk. If implemented, these measures may revolutionize
+the way we discover drugs in the future.
 
 ### Appendix {-}
 
@@ -367,4 +379,4 @@ and supported me. (To be filled)
 
 ## Licensing {-}
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="figures/CC-BY-SA-4.0.png" /></a><br />The online version of this book is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="licence" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="figures/CC-BY-SA-4.0.png" /></a><br />The online version of this book is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International Licencec/a>.
