@@ -12,7 +12,9 @@ render-pdfbook:
 render-all:
 	Rscript -e "bookdown::render_book('index.Rmd', 'all')"
 
-render-preface: 00-preface.Rmd
+render-preface: 00-preface.pdf
+
+00-preface.pdf: 00-preface.Rmd
 	pandoc -f markdown \
             -V linkcolor:blue \
             -V geometry:a4paper \
@@ -22,4 +24,9 @@ render-preface: 00-preface.Rmd
             --pdf-engine=xelatex \
             00-preface.Rmd -o 00-preface.pdf
 
+00-preface.txt: 00-preface.Rmd
+	## to copy the context to xclip (using clipboard)
+	pandoc -f markdown 00-preface.Rmd -o 00-preface.txt
 
+copy-00-preface.txt: 00-preface.txt
+	xclip -i 00-preface.txt -selection clipboard
