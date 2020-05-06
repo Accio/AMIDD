@@ -226,8 +226,8 @@ molecules in a single cell or even in sub-compartments such as the nucleus.
 We introduce the principles of sequencing technologies, discuss key concepts
 and models to analyse the data, and examine their applications in drug
 discovery. In particular, we will introduce single-cell sequencing technologies
-and multimodal analysis, which hold promise to knowledge abou disease and
-drug-body interaction in individual cells and in interactions between cells.
+and multimodal analysis, which hold promise for knowledge about disease and
+drug-body interaction in individual cells and in interactions between the cells.
 
 #### Chapter Twelve: Proteomics and Metabolomics {-}
 
