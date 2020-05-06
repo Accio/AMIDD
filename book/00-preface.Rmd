@@ -57,7 +57,7 @@ disease that we wish to cure and some biological or chemical entities that we
 deem as appropriate prototypes of drug candidates. We collect data of the
 disease and data of drug candidates from experiments. Models characterize
 diseases as states of the system and encode our understanding of drug-body
-interactions.  Informed by these models, we find ways to improve the efficacy
+interactions. Informed by these models, we find ways to improve the efficacy
 and safety profile of our molecules and use our expertise in chemistry and
 biology to make the changes. In the next cycle, more experiments further refine
 the drug candidate, and improved models update our belief about
@@ -116,7 +116,7 @@ are relevant for later chapters:
 
 The linear view of drug discovery is prevalent. It is found everywhere from
 scientific publications to pharma companies' websites. In this chapter, we will
-examine it from three perspectives: how can we interpret it?  What is the time
+examine it from three perspectives: how can we interpret it? What is the time
 and cost associated with each stage in the linear view? What are the advantages
 and disadvantages of such a view?
 
@@ -262,7 +262,7 @@ data analysis.
 #### Chapter Fourteen: Pharmacokinetic and pharmacodynamic modelling {-}
 
 Pharmacokinetic (PK) modelling describes and predicts what the body does to the
-drug.  Pharmacodynamic (PD) modelling, on the other hand, describes and predicts
+drug. Pharmacodynamic (PD) modelling, on the other hand, describes and predicts
 what the drug does to the body.
 
 We introduce the basic models of PK and PD modelling, including a
@@ -319,7 +319,7 @@ modelling.
 
 Real-World Data (RWD) refers to data is collected about patients, including the
 personal data, omics data, medical records, and other data types that can be
-potentially used to infer efficacy and safety profiles of drugs.  Classically,
+potentially used to infer efficacy and safety profiles of drugs. Classically,
 real-world data, like clinical-trial data, are analysed 'for-purpose', namely to
 serve the development of the particular drug product for which the data were
 collected. Recently, however, researchers realize the potential of such data to
