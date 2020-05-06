@@ -93,7 +93,7 @@ The content of the book is organized in three parts:
     2. Cell-level modelling
     3. Organ- and system-level modelling
     4. Population modelling
-3. Multiscale modelling: state-of-the-art practice and prospectives
+3. Multiscale modelling: state-of-the-art practice and prospects
 
 ### Part I: Introduction to modern drug discovery {-}
 
@@ -320,7 +320,7 @@ inform preclinical discovery, which is summarized in the term *reverse
 translation*. We examine key modelling approaches used as well as both
 opportunities and challenges of reverse translation.
 
-### Part III: Multiscale Modelling: State-of-the-art and Prospectives {-}
+### Part III: Multiscale Modelling: State-of-the-art and Prospects {-}
 
 #### Chapter Twenty: Examples of Multiscale Modelling in Drug Discovery {-}
 
@@ -379,4 +379,4 @@ and supported me. (To be filled)
 
 ## Licensing {-}
 
-<a rel="licence" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="figures/CC-BY-SA-4.0.png" /></a><br />The online version of this book is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International Licencec/a>.
+<a rel="licence" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="figures/CC-BY-SA-4.0.png" /></a><br />The online version of this book is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International Licence</a>.
