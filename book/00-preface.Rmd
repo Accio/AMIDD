@@ -124,7 +124,7 @@ Once we are familiar with the linear view, we are ready to take an alternative,
 *multiscale-modelling* perspective in the next chapter. It may help us better
 understand some aspects of drug discovery.
 
-#### Chapter Three: the multiscale-modelling view of drug discovery {-}
+#### Chapter Three: The Multiscale-modelling View of Drug Discovery {-}
 
 We examine models constructed at multiple levels, including molecule-level
 models, cell-level models, system- and organ-level models, and population-level
@@ -199,7 +199,7 @@ iteratively. Here we examine core concepts and techniques of structure-based
 modelling, as well as further applications including toxicity prediction and
 virtual screening.
 
-#### Chapter Eight: ligand-based modelling {-}
+#### Chapter Eight: Ligand-based Modelling {-}
 
 Complementary to structure-based modelling, ligand-based modelling uses
 cheminformatics tools to describe chemical molecules and make predictions about
@@ -207,7 +207,7 @@ their physicochemical and biological properties. We highlight the key concepts a
 approaches to ligand-based modelling, its commonality with and differences from
 structure-based modelling, and its applications in drug discovery.
 
-#### Chapter Nine: antibody design {-}
+#### Chapter Nine: Antibody Design {-}
 
 Antibodies are proteins that bind to and modulate the function of other
 proteins. Engineered human antibodies represent an important class of drugs. WE
@@ -259,7 +259,7 @@ data analysis.
 
 ### Part II.III: Organ- And System-level Modelling {-}
 
-#### Chapter Fourteen: Pharmacokinetic and pharmacodynamic modelling {-}
+#### Chapter Fourteen: Pharmacokinetic and Pharmacodynamic modelling {-}
 
 Pharmacokinetic (PK) modelling describes and predicts what the body does to the
 drug. Pharmacodynamic (PD) modelling, on the other hand, describes and predicts
