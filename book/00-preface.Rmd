@@ -1,6 +1,6 @@
 # Preface {-}
 
-This document is the preface to *Multiscale Modelling in Drug Discovery: An
+This document is also the proposal for *Multiscale Modelling in Drug Discovery: An
 Introduction* (working title), a book that I am writing. 
 
 ## Modelling in drug discovery
