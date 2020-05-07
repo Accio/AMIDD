@@ -24,13 +24,13 @@ interest. A computational model implements logic in procedures. It simulates the
 behaviour of a system. 
 
 Examples of these models are introduced throughout the book. There are different
-views in the literature of philosophy of science about whether statistical and
+views in the literature on the philosophy of science about whether statistical and
 computational models are special forms of mathematical models or they are
 distinct forms of conceptual modelling. For our purpose though, it suffices that
 we refer to all of them as models and specify the type only in case of
 ambiguity.
 
-We apply models for two reasons mainly. First, they allow us study the human
+We apply models for two reasons mainly. First, they allow us to study the human
 body as a biochemical system. Since the system is large and complex, we usually
 consider part of it. Examples of such sub-systems include the brain suffering
 from the Alzheimer's Disease, the lung infected by the coronavirus, and
@@ -59,7 +59,7 @@ harm, known as *adverse effects*, to the whole system is defined as its
 *efficacy and safety profiles* of drug candidates.
 
 It is obvious that the two types of applications are dependent on each other:
-better understanding of the human body system and more knowledge of diseases
+a better understanding of the human body system and more knowledge of diseases
 catalyse new drugs with better efficacy and safety profiles. The study of
 body-drug interactions offers more than chemical or biological tools that treat
 diseases. The tools can be used to interrogate
@@ -71,15 +71,14 @@ biology.
 In summary, modern drug discovery can be thought of as an iterative process
 consisting of experiments and modelling. The starting point is a disease that we
 wish to cure and some biological or chemical entities that we deem as
-appropriate prototypes of drug candidates. We collect data of the disease and
-data of the candidate molecules from experiments. Models characterize diseases
-as states of the system and encode our understanding of body-drug interactions.
-Informed by these models, we use our expertise in chemistry and biology to
-change the molecule in order to improve its efficacy and safety profile. In the
-next cycle, more experiments further refine the drug candidate, and improved
-models update our belief about how the molecule interacts with the body. The
-process is repeated until a drug with desired efficacy and safety profiles is
-found. 
+appropriate prototypes of drug candidates. We collect data on the disease and on
+the candidate molecules from experiments. Models characterize diseases as states
+of the system and encode our understanding of body-drug interactions.  Informed
+by these models, we use our expertise in chemistry and biology to change the
+molecule in order to improve its efficacy and safety profile. In the next cycle,
+more experiments further refine the drug candidate, and improved models update
+our belief about how the molecule interacts with the body. The process is
+repeated until a drug with desired efficacy and safety profiles is found. 
 
 This book introduces basic concepts, principles and selected tools of modelling
 both for disease understanding and for efficacy and safety profiling of drug
@@ -98,7 +97,7 @@ quantitative modelling in drug discovery. It delivers neither comprehensive
 discussions nor technicalities of individual modelling methods. References to
 resources dedicated to specific topics are provided at the end of each chapter.
 
-Prerequisite is high-school knowledge of mathematics, chemistry, physics, and
+Prerequisite is a high-school knowledge of mathematics, chemistry, physics, and
 biology. An appendix is available to refresh the essential knowledge in
 mathematics, statistics, and programming that is used throughout the book.
 
@@ -202,9 +201,9 @@ therapeutics.
 For protein targets, we introduce computational and biophysical methods commonly
 used to determine 3D structures. They include homology modelling, X-ray
 crystallography, Nuclear Magnetic Resonance (NMR), and cryo-electron microscopy
-(cryo-EM). We highlight key mathematical and computational methods underlying
-these methods. Finally, we introduce databases and software tools that store,
-visualize, and use structural information. 
+(cryo-EM). We highlight the key models underlying these methods. Finally, we
+introduce databases and software tools that store, visualize, and use structural
+information. 
 
 #### Chapter Seven: Structure-based Modelling {-}
 
@@ -213,7 +212,7 @@ candidate and its target (or targets). It is essential for target-based drug
 discovery because the binding profile largely determines the efficacy and safety
 profiles of a molecule. Structure-based modelling and medicinal chemistry
 experiments complement and inform each other to improve the affinity and
-specificity of a molecule iteratively. We examine concepts and techniques of
+specificity of a molecule iteratively. We examine the concepts and techniques of
 structure-based modelling for computer-aided drug design. We also discuss
 further applications including toxicity prediction and virtual screening.
 
@@ -313,7 +312,7 @@ Quantitative systems pharmacology (QSP) models, or systems models for short,
 integrates preclinical mechanistic data with PK and PD profiles and
 patient-specific characteristics collected in clinical studies. They can
 identify mechanisms of actions of drugs, which may offer insight for compound
-optimization or even lead to identification of new targets. They can also
+optimization or even lead to the identification of new targets. They can also
 assess safety liabilities under varying dosing regimens in different populations
 quantitatively.
 
@@ -365,7 +364,7 @@ modelling in drug discovery. The examples come from both industrial and academic
 * Discovery of Vemurafenib
 * Discovery of Sofosbuvir
 * Discovery of Risdiplam
-* Discovery of halicin as an new antibiotic
+* Discovery of halicin as a new antibiotic
 
 #### Chapter Twenty-one: Outlook of Multiscale Modelling in Drug Discovery {-}
 
