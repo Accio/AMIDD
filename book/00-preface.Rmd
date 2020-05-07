@@ -1,7 +1,7 @@
 # Preface {-}
 
-This document is the preface to *Multiscale Modelling in Drug Discovery*
-(working title), a book that I am writing. 
+This document is the preface to *Multiscale Modelling in Drug Discovery: An
+Introduction* (working title), a book that I am writing. 
 
 ## Modelling in drug discovery
 
@@ -17,73 +17,82 @@ most interdisciplinary and collaborative human research enterprises. As the
 techniques of drug discovery developed and refined, mathematical, statistical,
 and computational models have become essential besides experimental methods.
 
-We apply these models for two reasons mainly. First, they help us study the
-human body as a biochemical system. Since the system is large and complex, we
-usually consider part of it. Examples of such sub-systems include the brain
-suffering from the Alzheimer's Disease, the lung infected by the coronavirus,
-and a melanoma tissue, a skin cancer that originates from pigment-producing
-cells known as melanocytes. From this perspective, health and diseases are
-considered as the states of the system. Mathematical, statistical, and
-computational models are used to characterize the different states: what
+A mathematical model describes the state and dynamics of a system. A statistical
+model represents assumptions about sample data. It allows us to use data
+analysis to infer the distribution of variables of interest. A computational
+model implements logic in procedures. It simulates the behaviour of a complex
+system. There are different views in the literature of philosophy of science
+about whether statistical and computational models are special forms of
+mathematical models or they are distinct forms of conceptual modelling. For our
+purpose though, it suffices that we refer to all of them as models and specify
+the type only in case of ambiguity.
+
+We apply models for two reasons mainly. First, they allow us study the human
+body as a biochemical system. Since the system is large and complex, we usually
+consider part of it. Examples of such sub-systems include the brain suffering
+from the Alzheimer's Disease, the lung infected by the coronavirus, and a
+melanoma tissue, a skin cancer that originates from pigment-producing cells
+known as melanocytes. From this perspective, health and diseases are the states
+of the system. Models are used to characterize the different states: what
 variables are correlated with the states? Which variables are causal,
 manipulating of which may worsen or cure the disease? For simplicity, we say
 that models serve *disease understanding* in such contexts.
 
-The other application of mathematical, statistical, and computational models is
-to characterize the drug molecules and their interactions with the human body.
-While it is perfectly feasible and sometimes necessary to ignore the human body
-system and consider drug molecules only, we model drug-body interactions in
-most cases because they form the mechanistic foundation of the therapeutic use of
-drugs.
+The other application of models is to study body-drug interactions. While it is
+feasible and sometimes helpful to ignore the human body system and model drug
+molecules only, the effectiveness of such models will finally be tested in the
+body system. Therefore, even if we start by modelling drug molecules only, we
+will end up modelling body-drug interactions because they form the mechanistic
+foundation of the therapeutic use of drugs.
 
 From a system's perspective, the goal of drug discovery is to identify a
 perturbation or a combination of perturbations that switches the state of the
 sub-system from 'disease' to 'health', while causing as little harm as possible
 to the whole system. A drug's capacity of switching the state of a sub-system
-from 'disease' to 'health' is defined as its *efficacy profile*. Its capacity of
-causing harm, known as *adverse effects*, to the whole system is defined as its
-*toxicity profile*. Equivalently, its capacity of not causing adverse effects is
-its *safety profile*. Therefore, models also reveal *efficacy and safety
-profiles* of drug candidates.
+from 'disease' to 'health' is defined as its *efficacy*. Its capacity of causing
+harm, known as *adverse effects*, to the whole system is defined as its
+*toxicity*. Equivalently, its capacity of not causing adverse effects is its
+*safety*. Therefore, models characterizing body-drug interactions reveal
+*efficacy and safety profiles* of drug candidates.
 
-It is obvious that the two types of applications are dependent on each other: a
-better understanding of the disease may catalyse the discovery of new drugs with
-better efficacy and safety profiles. The study of drug-body interactions does
-not only provide chemical or biological tools to treat diseases. The tools can
-be used as perturbations to investigate biological systems, either in the
-healthy state or in disease states. Such studies may reveal unexpected aspects
-of the disease or even fundamental biology.
+It is obvious that the two types of applications are dependent on each other:
+better understanding of the human body system and more knowledge of diseases
+catalyse new drugs with better efficacy and safety profiles. The study of
+body-drug interactions offers more than chemical or biological tools as drugs
+that treat diseases. The tools can be used as perturbations to interrogate
+biological model systems of various kinds, including cultured cells, known as
+*in vitro* systems, and animal models, known as *in vivo* systems. Such studies
+may reveal unexpected aspects of diseases or even new insights into fundamental
+biology.
 
 In summary, modern drug discovery can be thought of as an iterative process
 consisting of experiments and modelling. The starting point is a disease that we
 wish to cure and some biological or chemical entities that we deem as
 appropriate prototypes of drug candidates. We collect data of the disease and
 data of drug candidates from experiments. Models characterize diseases as states
-of the system and encode our understanding of drug-body interactions. Informed
+of the system and encode our understanding of body-drug interactions. Informed
 by these models, we use our expertise in chemistry and biology to change the
 molecule in order to improve its efficacy and safety profile. In the next cycle,
 more experiments further refine the drug candidate, and improved models update
 our belief about how the molecule interacts with the body. The process is
 repeated until a drug with desired efficacy and safety profiles is found. 
 
-This book introduces basic concepts, principles and selected tools of
-mathematical, statistical, and computational modelling for disease
-understanding and for efficacy and safety profiling of drug candidates. The aim
-is to integrate diverse modelling approaches at different levels into a unified,
-*multiscale-modelling* view of drug discovery.
+This book introduces basic concepts, principles and selected tools of modelling
+both for disease understanding and for efficacy and safety profiling of drug
+candidates. The aim is to integrate diverse modelling approaches at different
+levels into a unified, *multiscale-modelling* view of drug discovery.
 
 ## The target audience {-}
 
 This book aims at providing undergraduate students of mathematics, computer
 sciences and natural sciences with an application-oriented introduction to drug
-discovery. It can also be used by researchers working on disease understanding
-and drug discovery as a practical guide to mathematical, statistical, and
-computational modelling.
+discovery. It can also be used by researchers working in the fields of disease
+understanding and drug discovery as a practical guide to modelling.
 
-The book does not aim to cover the technicality. Instead, it attempts to offer a
-broad overview of basic concepts and principles of quantitative modelling in
-drug discovery.  References to resources dedicated to individual modelling
-approaches are provided for interested readers.
+The book attempts to offer a broad overview of basic concepts and principles of
+quantitative modelling in drug discovery. It delivers neither comprehensive
+discussions nor technicalities of individual modelling methods. References to
+resources dedicated to specific topics are provided at the end of each chapter.
 
 Prerequisite is high-school knowledge of mathematics, chemistry, physics, and
 biology. An appendix is available to refresh the essential knowledge in
@@ -95,8 +104,8 @@ The content of the book is organized in three parts:
 
 1. Introduction to modern drug discovery
 2. Modelling at individual levels
-    1. Molecule-level modelling
-    2. Cell-level modelling
+    1. Molecular-level modelling
+    2. Cellular-level modelling
     3. Organ- and system-level modelling
     4. Population modelling
 3. Multiscale modelling: current practice and prospects
@@ -114,13 +123,12 @@ later chapters:
 
 1. the choice between target-based and phenotypic drug discovery,
 2. the balance between efficacy and safety, and 
-3. drug modalities, such as small molecules, antibodies, oligonucleotides,
-   vaccines, *etc.*
+3. drug modalities, such as small molecules, antibodies, and oligonucleotides.
 
 #### Chapter Two: The Linear View of Drug Discovery {-}
 
 The linear view of drug discovery is prevalent. It is found everywhere from
-scientific publications to pharma companies' websites. In this chapter, we will
+scientific publications to websites of pharma companies. In this chapter, we will
 examine it from three perspectives: how can we interpret it? What is the time
 and cost associated with each stage in the linear view? What are the advantages
 and disadvantages of such a view?
@@ -131,10 +139,9 @@ understand some aspects of drug discovery.
 
 #### Chapter Three: The Multiscale-modelling View of Drug Discovery {-}
 
-We examine models constructed at multiple levels, including molecule-level
-models, cell-level models, system- and organ-level models, and population-level
-models. Models at different models are interconnected, informing and providing
-feedback to each other.
+We examine models constructed at multiple levels, including molecular-level
+models, cellular-level models, system- and organ-level models, and population
+models. They are interconnected, informing and providing feedback to each other.
 
 We will scrutinize and challenge the multiscale-modelling view: what are its
 advantages and disadvantages compared with the linear view? What new insights
@@ -155,9 +162,9 @@ modelling of drug candidates and their interactions with targets.
 #### Chapter Four: The Central Dogma and Drug Targets {-}
 
 The central dogma of molecular biology dictates the rule of information flow in
-biological systems. It builds the molecular foundation of drug discovery because
-drugs, in order to treat diseases, must interact with and modulate components
-specified in the central dogma.
+biological systems. It builds the molecular foundation of drug discovery. Drugs,
+in order to treat diseases, must interact with and modulate components specified
+in the central dogma either directly or indirectly.
 
 We will learn how biological information is stored in and transferred between
 DNA (the building blocks of the genome), RNA (the building blocks of the
@@ -190,10 +197,10 @@ chapter for the prediction of efficacy and safety profiles of nucleotide-based
 therapeutics.
 
 For protein targets, we introduce computational and biophysical methods commonly
-used to determine 3D structures, including homology modelling, X-ray
+used to determine 3D structures. They include homology modelling, X-ray
 crystallography, Nuclear Magnetic Resonance (NMR), and cryo-electron microscopy
 (cryo-EM). We highlight key mathematical and computational methods underlying
-these methods. Finally, we introduce databases and software tools to store,
+these methods. Finally, we introduce databases and software tools that store,
 visualize, and use structural information. 
 
 #### Chapter Seven: Structure-based Modelling {-}
@@ -201,11 +208,11 @@ visualize, and use structural information.
 Structure-based modelling describes and predicts binding modes between a drug
 candidate and its target (or targets). It is essential for target-based drug
 discovery because the binding profile largely determines the efficacy and safety
-profiles of a molecule. Structure-based modelling and experiments complement and
-inform each other to improve the affinity and specificity of a molecule
-iteratively. We examine core concepts and techniques of structure-based
-modelling for computer-aided drug design. We also discuss further applications
-including toxicity prediction and virtual screening.
+profiles of a molecule. Structure-based modelling and medicinal chemistry
+experiments complement and inform each other to improve the affinity and
+specificity of a molecule iteratively. We examine concepts and techniques of
+structure-based modelling for computer-aided drug design. We also discuss
+further applications including toxicity prediction and virtual screening.
 
 #### Chapter Eight: Ligand-based Modelling {-}
 
@@ -219,41 +226,43 @@ structure-based modelling, and its applications in drug discovery.
 
 Antibodies are proteins that bind to and modulate the function of other
 proteins. Engineered human antibodies represent an important class of drugs. We
-introduce key mathematical, statistical, and computational models that are
-critical for therapeutic antibody design.
+introduce key models that are critical for therapeutic antibody design. We also
+review tools and databases that assist antibody design.
 
 ### Part II.II: Cellular modelling {-}
 
 #### Chapter Ten: Network Analysis {-}
 
-Graph, or network, is a collection of nodes (vertices) and edges that connect
-them. It is an important mathematical model that links molecule-level modelling
-with cell-level modelling. We examine selected deterministic and probabilistic
-approaches of chemical and biological networks analysis. Examples include
-statistical methods, graph-theory-based methods, rule-based methods, and methods
-based on either ordinary differential equations (ODEs) or stochastic
-differential equations (SDEs). 
+Graph, or network, is a collection of nodes (also known as vertices) and edges
+that connect the nodes. It is an important mathematical model that links
+molecular-level modelling with cellular-level modelling. We examine selected
+deterministic and probabilistic approaches to chemical and biological networks
+analysis. Examples include statistical methods, graph-theory-based methods,
+rule-based methods, and methods based on either ordinary differential equations
+(ODEs) or stochastic differential equations (SDEs). 
 
 #### Chapter Eleven: DNA- and RNA-Sequencing {-}
 
 Genomics and transcriptomics studies with high-throughput DNA and RNA sequencing
-greatly expanded our ability to understand diseases. They are also used to assess the efficacy and safety profiles of drug
-candidates. With the recent progress, it is even possible to profile DNA or RNA
-molecules in a single cell or even in sub-compartments such as the nucleus.
+greatly expanded our ability to understand diseases. They are also used to
+assess the efficacy and safety profiles of drug candidates. With the recent
+progress, it is possible to profile DNA or RNA molecules in a single cell, in
+sub-compartments such as the nucleus, or in cells that are organized in
+two-dimensional or three-dimensional structures.
 
 We introduce the principles of selected sequencing technologies, including the
 Illumina(R) next-generation sequencing and Nanopore sequencing. We discuss key
 concepts and models to analyse the sequencing data. And we examine their
-applications in drug discovery. In particular, we will introduce single-cell
-sequencing technologies and multimodal analysis, which hold promise for
-knowledge about diseases and drug-body interaction on the level of individual
-cells and interactions between the cells.
+applications in drug discovery. In particular, we will introduce selected
+approaches to single-cell sequencing data analysis and multimodal analysis.
+These analyses hold promise for knowledge about diseases and body-drug
+interaction on the level of individual cells and between-cell interactions. 
 
 #### Chapter Twelve: Proteomics and Metabolomics {-}
 
 Proteomics and metabolomics technologies find a wide range of applications in
 drug discovery, from quantification of drug-target binding to accurate
-determination of biomarkers. 
+quantification of biomarkers. 
 
 We introduce the principles of two widely used technologies, mass spectrometry
 and flow cytometry. We examine the practice of data analysis and modelling.
@@ -262,17 +271,16 @@ discovery.
 
 #### Chapter Thirteen: Biological Imaging {-}
 
-Biological imaging offers an approach orthogonal to omics technologies that were
-introduced in the last two chapters to the study of biological processes.
-Application of imaging spans a wide range between molecular modelling and
-population modelling. 
+Biological imaging complements the omics technologies introduced in the last two
+chapters for studies of body-drug interactions. Application of imaging spans a
+wide range between molecular modelling and population modelling. 
 
 Here, we first give a brief overview of imaging technologies used in drug
-discovery. Next, we focus on cellular level imaging, in particular high-content
+discovery. Next, we focus on cellular-level imaging, in particular high-content
 microscopy. We introduce both non-supervised and supervised methods of
 biological imaging data analysis.
 
-### Part II.III: Organ- And System-level Modelling {-}
+### Part II.III: Organ- and System-level Modelling {-}
 
 #### Chapter Fourteen: Pharmacokinetic and Pharmacodynamic modelling {-}
 
@@ -283,7 +291,7 @@ what the drug does to the body.
 We introduce the basic models of PK and PD modelling, including a
 one-compartment PK model, a two-compartment PK model, and a joint PK-PD model.
 We examine how mathematical modelling and statistical data analysis help to
-characterize PK and the PD profiles of drug candidates.
+characterize PK and PD profiles of drug candidates.
 
 #### Chapter Fifteen: Physiologically Based Pharmacokinetic Modelling {-}
 
@@ -299,12 +307,12 @@ construct and analyse the models.
 #### Chapter Sixteen: Quantitative Systems Pharmacology Models {-}
 
 Quantitative systems pharmacology (QSP) models, or systems models for short,
-offer an integrative approach to combine preclinical mechanistic data with PK
-and PD profiles and patient-specific characteristics collected in clinical
-studies. They can identify mechanisms of actions of drugs, which may offer
-insight for compound optimization or may even propose new targets. They can also
-assess safety liabilities under different dosing regimens in different
-populations quantitatively.
+integrates preclinical mechanistic data with PK and PD profiles and
+patient-specific characteristics collected in clinical studies. They can
+identify mechanisms of actions of drugs, which may offer insight for compound
+optimization or may even lead to identification of new targets. They can also
+assess safety liabilities under varying dosing regimens in different populations
+quantitatively.
 
 We introduce principles and basic applications of system models to investigate
 either mechanism-of-action or safety liabilities of drug candidates. We will
@@ -316,12 +324,13 @@ projects.
 #### Chapter Seventeen: Randomized Controlled Trials {-}
 
 Randomized controlled trial (RCT) is the gold standard of measuring the
-effectiveness of an intervention or a treatment. It is used in drug discovery
-and development to examine the efficacy and safety profiles of a drug in a
-defined patient population. In this chapter, we learn key concepts and
-principles of designing a randomized controlled trial, including statistical
-power calculation, randomization, blinding, and causality inference. We also
-examine the common forms of RCT in drug discovery.
+effectiveness of an intervention or a treatment. It is used in the form of
+clinical trials to examine the efficacy and safety profiles of a drug in a
+defined patient population. 
+
+We learn key concepts and principles of designing a randomized controlled trial,
+including statistical power calculation, randomization, blinding, and causal
+inference. We also examine the common forms of RCT in drug discovery.
 
 #### Chapter Eighteen: Population Modelling {-}
 
@@ -329,7 +338,7 @@ Population modelling informs common trends and individual variabilities of PK
 and PD profiles of a drug. It is used to infer associations between individual
 variables (age, sex, genotype, *etc.*) and PK/PD profiles in clinical
 pharmacology. We introduce the basic concepts of population modelling and its
-techniques, in particular the statistical model that is known as non-linear mixed-effect
+techniques, in particular the statistical model known as non-linear mixed-effect
 modelling.
 
 #### Chapter Nineteen: Real-World Data and Reverse Translation {-}
@@ -337,7 +346,7 @@ modelling.
 Real-World Data (RWD) refers to data collected about patients, including the
 personal data, omics data, medical records, and other data types that can be
 potentially used to infer efficacy and safety profiles of drugs. Classically,
-real-world data, like clinical-trial data, are analysed 'for-purpose', namely to
+real-world data, like clinical-trial data, are analysed 'for-purpose' to
 serve the development of the drug product for which the data were
 collected. Recently, however, researchers realize the potential of such data to
 inform preclinical discovery. This practice is summarized in the term *reverse
@@ -362,28 +371,27 @@ In the final chapter, we discuss the outlook of multiscale modelling in drug dis
 
 We first discuss future developments at individual levels.
 
-* On the molecular level, molecular simulation of longer time frames may reveal
+* At the molecular level, molecular simulation of longer time frames may reveal
   rare and unexpected structures that are important for drug design.
-* On the cellular level, multimodal analysis is becoming a prominent tool to
-  associate different aspects of cellular biology and to integrate them into a
+* At the cellular level, multimodal analysis is becoming a prominent tool to
+  associate different aspects of cell biology and to integrate them into a
   unified view.
-* On the organ and system level, better models to simulate human physiology,
+* At the organ and system level, better models to simulate human physiology,
   such as induced pluripotent stem cells and micro-physiological systems, will
-  allow better predictions of PK and PD profiles. Patient-specific data and
-  knowledge of genotype-phenotype association may allow individualized dosing.
-* On the population level, digital biomarkers and integration of genotype and
-  phenotype data may allow continuous and non-invasive characterization of
-  response to drugs. 
+  allow better predictions of PK and PD profiles. Patient data and knowledge of
+  genotype-phenotype association accumulated in population studies may allow
+  personalized PK and PD models and individualized dosing.
+* At the population level, digital biomarkers and integration of real-world data
+  may allow continuous and non-invasive characterization of response to drugs. 
 
-We list key open questions about integrating models at different levels and discuss
-potential solutions. We study the success of multiscale modelling in two other
-scientific fields, molecular modelling in chemistry and material science in
-physics, and speculate how drug discovery may learn and benefit from their
-approaches. 
+We list key open questions about integrating models at different levels. We
+study the success of multiscale modelling in two other scientific fields,
+molecular modelling in chemistry and material science in physics, and speculate
+how drug discovery may learn and benefit from their approaches. 
 
 Finally, we consider how interdisciplinary multiscale modelling may shape drug
 discovery in the future. We focus on two aspects: computer-enhanced human
-cognition, and uncertainty- and risk-aware decision-making.  Mathematical,
+cognition, and uncertainty- and risk-aware decision-making. Mathematical,
 statistical, and computational models, when unified and integrated, may help us
 identify, build, and test better drug-like molecules faster and cheaper. They
 may also help us make better decisions that are optimized given facts,
@@ -398,7 +406,7 @@ we discover drugs in the future.
 
 ## Acknowledgement {-}
 
-I would like to thank many mentors, colleagues, and friends who have helped me
+I would like to thank many mentors, colleagues, and friends who have helped
 and supported me. (To be filled)
 
 ## Licensing {-}
