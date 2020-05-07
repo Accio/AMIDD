@@ -12,9 +12,9 @@ render-pdfbook:
 render-all:
 	Rscript -e "bookdown::render_book('index.Rmd', 'all')"
 
-render-preface: 00-preface.pdf
+proposal: book-proposal-zhang-202005.pdf
 
-00-preface.pdf: 00-preface.Rmd
+book-proposal-zhang-202005.pdf: 00-preface.Rmd
 	pandoc -f markdown \
             -V linkcolor:blue \
             -V geometry:a4paper \
@@ -22,7 +22,7 @@ render-preface: 00-preface.pdf
             -V mainfont="DejaVu Serif" \
             -V monofont="DejaVu Sans Mono" \
             --pdf-engine=xelatex \
-            00-preface.Rmd -o 00-preface.pdf
+            00-preface.Rmd -o book-proposal-zhang-202005.pdf
 
 00-preface.txt: 00-preface.Rmd
 	## to copy the context to xclip (using clipboard)
