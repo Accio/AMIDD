@@ -374,8 +374,9 @@ We first discuss future developments at individual levels.
 
 * At the molecular level, molecular simulation of longer time frames may reveal
   rare and unexpected structures that are important for drug design.
-* At the cellular level, multimodal analysis may associate different aspects of
-  cell biology and integrate them into a unified view.
+* At the cellular level, integration of network modelling, multimodal omics, and
+  imaging may associate different aspects of cell biology and integrate them
+  into a unified view.
 * At the organ and system level, better models to simulate human physiology,
   such as induced pluripotent stem cells and micro-physiological systems, will
   allow better predictions of PK and PD profiles. Patient data and knowledge of
