@@ -254,7 +254,7 @@ sub-compartments such as the nucleus, or in cells that are organized in
 two-dimensional or three-dimensional structures.
 
 We introduce the principles of selected sequencing technologies, including the
-Illumina(R) next-generation sequencing and Nanopore(R) sequencing. We discuss key
+Illumina next-generation sequencing and Nanopore sequencing. We discuss key
 concepts and models to analyse the sequencing data. And we examine their
 applications in drug discovery. In particular, we will introduce selected
 approaches to single-cell sequencing data analysis and multimodal analysis.
