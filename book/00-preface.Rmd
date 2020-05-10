@@ -1,7 +1,6 @@
 # Preface {-}
 
-This document is also the proposal for *Multiscale Modelling in Drug Discovery: An
-Introduction* (working title), a book that I am writing. 
+This document is also the proposal for *Multiscale Modelling in Drug Discovery: An Introduction* (working title), a book that I am writing with the help of Dr. Philipp Mekler. 
 
 ## Modelling in drug discovery
 
