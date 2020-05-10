@@ -1,6 +1,6 @@
 # Preface {-}
 
-This document is also the proposal for *Multiscale Modelling in Drug Discovery: An Introduction* (working title), a book that I am writing with the help of Dr. Philipp Mekler. 
+This document is also the proposal for *Multiscale Modelling in Drug Discovery: An Introduction* (working title), a book that we are writing.
 
 ## Modelling in drug discovery
 
@@ -417,8 +417,8 @@ the future.
 
 ## Acknowledgement {-}
 
-I would like to thank many mentors, colleagues, and friends who have helped
-and supported me. (To be filled)
+We would like to thank many mentors, colleagues, and friends who have helped
+and supported us. (To be filled)
 
 ## Licensing {-}
 

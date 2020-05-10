@@ -1,6 +1,6 @@
 --- 
 title: "Drug discovery: a multiscale-modelling approach"
-author: "Jitao David Zhang"
+author: "Jitao David Zhang and Philipp Mekler"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output:
