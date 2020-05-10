@@ -73,7 +73,7 @@ consisting of experiments and modelling. The starting point is a disease that we
 wish to cure and some biological or chemical entities that we deem as
 appropriate prototypes of drug candidates. We collect data on the disease and on
 the candidate molecules from experiments. Models characterize diseases as states
-of the system and encode our understanding of body-drug interactions.  Informed
+of the system and encode our understanding of body-drug interactions. Informed
 by these models, we use our expertise in chemistry and biology to change the
 molecule in order to improve its efficacy and safety profile. In the next cycle,
 more experiments further refine the drug candidate, and improved models update
@@ -125,15 +125,15 @@ later chapters:
 
 1. the choice between target-based and phenotypic drug discovery,
 2. the balance between efficacy and safety, and 
-3. drug modalities, such as small molecules, antibodies, and oligonucleotides.
+3. drug modalities, such as small molecules, oligonucleotides, antibodies, recombinant proteins, and vaccines.
 
 #### Chapter Two: The Linear View of Drug Discovery {-}
 
 The linear view of drug discovery is prevalent. It is found everywhere from
-scientific publications to websites of pharma companies. In this chapter, we will
-examine it from three perspectives: how can we interpret it? What is the time
-and cost associated with each stage in the linear view? What are the advantages
-and disadvantages of such a view?
+scientific publications to websites of pharma companies. In this chapter, we
+will examine it from three perspectives: how can we interpret it? What is the
+time and cost associated with each stage in the linear view? What are the
+advantages and disadvantages of such a view?
 
 Once we are familiar with the linear view, we are ready to take an alternative,
 *multiscale-modelling* perspective in the next chapter. It may help us better
@@ -168,10 +168,9 @@ biological systems. It builds the molecular foundation of drug discovery. Drugs,
 in order to treat diseases, must modulate components specified in the central
 dogma.
 
-We will learn how biological information is stored in and transferred between
+We learn how biological information is stored in and transferred between
 DNA (the building blocks of the genome), RNA (the building blocks of the
-transcriptome), and protein (the building blocks of the proteome). We will also
-examine approved drugs by their targets in the context of the central dogma.
+transcriptome), and protein (the building blocks of the proteome). We examine approved drugs by their targets in the context of the central dogma. Finally, we introduce extensions of the classical central dogma that are relevant for drug discovery, including post-translational modification, epigenetic modification, and prions.
 
 #### Chapter Five: Biological Sequence Analysis {-}
 
@@ -262,9 +261,13 @@ interactions on the level of individual cells and between-cell interactions.
 
 #### Chapter Twelve: Proteomics and Metabolomics {-}
 
-Proteomics and metabolomics technologies find a wide range of applications in
-drug discovery, from quantification of drug-target binding to accurate
-quantification of biomarkers. 
+Proteomics and metabolomics describe abundance, modulation, and homeostasis of
+proteins and metabolites, respectively. Study of the healthy baseline and
+pathologically disturbed states of these systems reaveal a wealth of drug
+target and mechanistic information of how drug works. Proteomics and
+metabolomics technologies find a wide range of applications in drug discovery,
+from quantification of drug-target binding to accurate quantification of
+biomarkers. 
 
 We introduce the principles of two widely used technologies, mass spectrometry
 and flow cytometry. We examine the practice of data analysis and modelling.
@@ -347,12 +350,16 @@ modelling.
 Real-World Data (RWD) refers to data collected about patients, including the
 personal data, omics data, medical records, and other data types that can be
 potentially used to infer efficacy and safety profiles of drugs. Classically,
-real-world data, like clinical-trial data, are analysed 'for-purpose' to
-serve the development of the drug product for which the data were
-collected. Recently, however, researchers realize the potential of such data to
-inform preclinical discovery. This practice is summarized in the term *reverse
-translation*. We examine key modelling approaches used in reverse translation as well as both
-opportunities and challenges.
+real-world data, like clinical-trial data, are analysed 'for-purpose' to serve
+the development of the drug product for which the data were collected.
+Recently, however, researchers realize the potential of such data to inform
+both preclinical discovery and clinical research. 
+
+The term *reverse translation* was coined to indicate the practice of informing
+drug discovery with insights from drug development and real-world evidence. It
+complements *forward translation*, which indicates the common drug discovery
+and development workflow starting from animal or *in vitro* disease models to
+patient populations. We examine key modelling approaches used in real-world data analysis and reverse translation as well as both opportunities and challenges.
 
 ### Part III: Multiscale Modelling: Current Practice and Prospects {-}
 
@@ -360,6 +367,8 @@ opportunities and challenges.
 
 We examine state-of-the-art practice and emerging patterns of multiscale
 modelling in drug discovery. The examples come from both industrial and academic research. 
+
+In particular, the study of (i) excitable systems, (ii) stem-cell drive complex biosystems, (iii) nanoparticle delivery, (iv) immune systems, and (iv) host-pathogen interactions lend themselves to the tools of multiscale modelling. The following examples are presented in some detail:
 
 * Discovery of Vemurafenib
 * Discovery of Sofosbuvir
@@ -374,16 +383,18 @@ We first discuss future developments at individual levels.
 
 * At the molecular level, molecular simulation of longer time frames may reveal
   rare and unexpected structures that are important for drug design.
-* At the cellular level, integration of network modelling, multimodal omics, and
-  imaging may associate different aspects of cell biology and integrate them
-  into a unified view.
+* At the cellular level, integration of network modelling, multimodal omics,
+  and imaging may associate different aspects of cell biology and integrate
+  them into a unified view.
 * At the organ and system level, better models to simulate human physiology,
   such as induced pluripotent stem cells and micro-physiological systems, will
   allow better predictions of PK and PD profiles. Patient data and knowledge of
   genotype-phenotype association collected from population studies may allow
   personalized PK and PD models and individualized dosing.
-* At the population level, digital biomarkers and integration of real-world data
-  may allow non-invasive and continuous monitoring of response to drugs. 
+* At the population level, digital biomarkers and integration of real-world
+  data may allow non-invasive and continuous monitoring of response to drugs.
+  Such data may change our look at traditional 'normal physiological values',
+  requring the definition of both individual- and population-based normals.
 
 We list key open questions about integrating models at different levels. We
 study the success of multiscale modelling in two other scientific fields,
