@@ -358,7 +358,9 @@ The term *reverse translation* was coined to indicate the practice of informing
 drug discovery with insights from drug development and real-world evidence. It
 complements *forward translation*, which indicates the common drug discovery
 and development workflow starting from animal or *in vitro* disease models to
-patient populations. We examine key modelling approaches used in real-world data analysis and reverse translation as well as both opportunities and challenges.
+patient populations. We examine key modelling approaches used in real-world
+data analysis and reverse translation as well as both opportunities and
+challenges.
 
 ### Part III: Multiscale Modelling: Current Practice and Prospects {-}
 
@@ -367,7 +369,10 @@ patient populations. We examine key modelling approaches used in real-world data
 We examine state-of-the-art practice and emerging patterns of multiscale
 modelling in drug discovery. The examples come from both industrial and academic research. 
 
-In particular, the study of (i) excitable systems, (ii) stem-cell drive complex biosystems, (iii) nanoparticle delivery, (iv) immune systems, and (iv) host-pathogen interactions lend themselves to the tools of multiscale modelling. The following examples are presented in some detail:
+In particular, the study of (i) excitable systems, (ii) stem-cell drive complex
+biosystems, (iii) nanoparticle delivery, (iv) immune systems, and (iv)
+host-pathogen interactions lend themselves to the tools of multiscale
+modelling. The following examples are presented in some detail:
 
 * Discovery of Vemurafenib
 * Discovery of Sofosbuvir
