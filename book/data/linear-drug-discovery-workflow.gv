@@ -11,7 +11,9 @@ digraph LinearWorkflow {
 	fillcolor = "lightyellow:khaki",
 	gradientangle=315,
 	fontname="Helvetica"]
-  TargetID[label=< <B>Target Identification/Validation</B> >]
+  DU[label=< <B>Disease understanding</B> >]
+  TI[label=< <B>Target Identification</B> >]
+  TV[label=< <B>Target Validation</B> >]
   LI [label=< <B>Lead Identification</B> >]
   LO [label=< <B>Lead Optimization</B> >]
   PcD [label=< <B>Preclinical development</B> >]
@@ -27,7 +29,9 @@ digraph LinearWorkflow {
         arrowname = vee,
         fontname="Helvetica",
         fontsize=10]
-  TargetID -> LI
+  DU -> TI
+  TI -> TV
+  TV -> LI
   LI -> LO
   LO -> PcD
   PcD -> CT1
