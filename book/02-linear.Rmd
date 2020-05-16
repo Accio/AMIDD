@@ -1,1 +1,85 @@
 # A linear view of the drug-discovery workflow {#linear}
+
+```{r setup, echo=FALSE, results='hide'}
+knitr::opts_chunk$set(echo=FALSE,
+                      message=FALSE,
+                      fig.path = "figures/02-",
+                      dev = c('png','pdf'),
+                      dpi = 300,
+                      fig.width=7, fig.height=5)
+```
+
+## Topics of the chapter
+
+* The linear view of the drug-discovery process
+* Time and cost associated with each stage of the process
+* Advantages and disadvantages of the linear view
+
+## The linear view
+
+A popular mental model and visual representation of the drug discovery process is the linear view that starts with disease undestanding and target identification and ends with clinical trials, product launch, and post-launch activities. One such model is represented in \@ref{fig:drugDiscoveryLinearGV}. 
+
+```{r drugDiscoveryLinearGV, fig.cap="The linear presentation of the drug-discovery process", out.width="100%", fig.height=4}
+DiagrammeR::grViz("data/linear-drug-discovery-workflow.gv")
+```
+
+There are many variants of the model, with some stages merged, omitted, or named otherwise. However, the variants share the common feature that they represent drug discovery as a sequential process. Each stage receives input from the previous stage and provides input to the next stage, except for the first and the last stage. 
+
+* Target Identification (TID or TI)
+* Target Validation (TV)
+* Lead Identification (LID or LI)
+* Lead Optimization (LO)
+* Preclinical development
+* Phase I clinical trial
+* Phase II clinical trial
+* Phase III clinical trial
+* Submission to launch
+* Post-launch activities
+
+### Disease understanding
+
+To primary aim to discover develop a drug is to treat a disease. Therefore, we need to identify a disease that we wish to treat it, and understand it as much as possible.
+
+Disease understanding comes from many different ways. Medical doctor, research labs, personal data from individuals affected by diseases provide us with knowledge and data that we can use to build informal or formal models of the disease. These models help us decide how we proceed with the drug discovery process.
+
+Let us take breast cancer as an example. It affects people around the world. In 1980s, scientists found out that the HER2 protein, the human epidermal growth factor receptor 2, or known as ERBB2, is highly abundant on the cell surface of tumor cells of some patients of breast cancer.
+
+While the finding describes only a correlation relationship but not a causal relationship. A causal relationship would suggests that manipulation or regulation of ERBB2 would slow down the progression of the disease, improve the life quality, and elongate the survival time of the patient. 
+
+Fortunately, scientists did not stop at the correlation. Due to ethical and safety reasons, we cannot test treatments with patients directly. Nevertheless, we can rely on *biological modelling systems*. An example of biological modelling systems includes breast cancer cells that are collected from a patient once and are cultured in artificial conditions outside the body, known as *in vitro* models. Another example is animal models of the disease such as mouse with transplanted breast-cancer tissues derived from a patient. Such as model, known a xenograft model, belongs to *in vivo* models. 
+
+*In vitro* and *in vivo* models are used not only in disease understanding. They also play a critical role in drug discovery and development, which we will examine later.
+
+Besides *in vitro* and *in vivo* models, *in silico* models are used to model disease progression as well. The *in silico* models can causally describe entities and relationship between them using mathematical terms such as graphs and differential equation systems. They can model correlation and, under certain circumstances, infer causal relationships using statistical modelling techniques. And they can implement computational procedures that models the behaviour of biological systems underlying the disease. In any case, *in silico* models are constructed by humans by using data derived from *in vitro* models, *in vivo* models, and from patients, and optionally by integrating prior knowledge of the disease. In turn, they inform the selection of biological system models and contributes to the *translation* of findings from biological modelling systems to patients, the final target of modelling.
+
+We will investigate the interplay between biological modelling systems and mathematical, statistical, and computational models more often later in the book.
+ 
+### Target identification
+
+### Target validation
+
+### Lead identification
+
+### Lead optimization
+
+### Preclinical development
+
+### Phase I clinical trial
+
+### Phase II clinical trial
+
+### Phase III clinical trials
+
+### Submission, launch, and post-launch activities
+
+
+## Reflections on the linear model of drug discovery
+
+The linear model of drug discovery is very useful in several aspects. First, it provides an initial mental model for people outside the industry and beginners to think about drug discovery. Second, it highlights the key decision points, in the chronological order, along the discovery and development process. Third, it simplifies communications about the stage in which drug candidates are currently in.
+
+Despite the usefulness of the linear model, drug discovery in reality is rarely linear. Instead, it is often a dynamic and iterative process, with countless variants from the ideal linear model. During the discovery process, for instance, a lead compound may fail to show the expected efficacy in the preclinical experiment and therefore a new round of lead optimization is necessary or even a new hit series has to be identified. In another example, a drug that has been designed for one indication is found, either by real-world evidence or by serendipity, to be potentially effective for another indication, and thus the step of target identification, hit and lead optimization may be omitted or strongly shortened to meet the purpose. And in the development phase, more and more clinical trials are designed differently compared with the canonical ones, for instance with adaptive design, and with real-world data supported virtual trials. Many more examples like this suggest that the linear model is far away from the reality.
+
+In the dynamic and iterative process, modelling mechanism and safety at different levels become important, because these models embody our belief of how drug works. Rationalized approaches may not always lead to successful drug-discovery projects; and very often. Serendipity plays a critical role, especially in the discovery of drugs of new, unexpected mechanisms.
+
+Why, then, do we still care about rationalized approaches as described above in the multiscale modelling problem? First, because the rationalized approach complements the trial-and-error model of drug discovery. In addition, it can even pave ways to findings by chance, as long as the multiscale modelling process is not seen as a doctrine and the only way to success. Last but not least, the rationalized approach is the scientific way to follow up lucky findings in order to gain insights so that the drug candidate obtained by a lucky strike can be further improved in its efficacy and safety profiles. All the three aspects have been demonstrated by numerous examples in the last three decades of drug discovery.
+
