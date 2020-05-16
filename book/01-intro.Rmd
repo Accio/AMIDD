@@ -1,4 +1,4 @@
-# Introduction {#intro}
+# The past and present of drug discovery {#pastpresent}
 
 ```{r setup, echo=FALSE, results='hide'}
 knitr::opts_chunk$set(echo=FALSE,
@@ -12,7 +12,11 @@ library(DiagrammeR)
 
 ## Topics of the chapter
 
-* A brief history of drug discovery
+* A brief history of drug discovery from a modelling perspective
+* The choice between phenotypic and target-based drug discovery
+* The two major considerations: efficacy and safety
+* Commonly persued drug modalities
+
 * The drug-discovery process: the linear view
 * Multiscale modelling: an alternative view of the drug-discovery process
 * Mathematical, statistical, and computational modelling approaches in drug discovery
@@ -22,12 +26,12 @@ library(DiagrammeR)
 For a long time in human history, drug discovery means looking for natural ingredients that
 can cure diseases, based largely both trial-and-error and serendipity. 
 
-Modern drug drug discovery, thanks to advances in chemistry, biology, medicine, and
-other relevant fields, have largely expanded the search space for matters that
-can cure diseases. We are equipped with much more knowledge and better tools
-both in the wet labs and in inference and computation. Surprisingly, the
-principles of trial-and-error and serendipity are still valid. Nevertheless, our
-search for cures is now more focused and more knowledge- and information-driven. 
+Modern drug drug discovery, thanks to advances in chemistry, biology, medicine,
+and other relevant fields, have largely expanded the search space for matters
+that can cure diseases. We are equipped with much more knowledge and better
+tools both in the wet labs and in inference and computation. The principles of
+trial-and-error and serendipity are still valid. Nevertheless, our search for
+cures is now more focused and more knowledge- and information-driven. 
 
 The first wave was the development in chemistry and physiology. In
 the second wave, advances in molecular biology, genetics, and physics made
@@ -42,72 +46,21 @@ There is little doubt that future waves will bring more opportunities to find
 new drugs.
 
 These waves do not only offered new drugs against various diseases. They also
-gradually revealed the importance of mathematical and statistical modelling approaches in drug
-discovery. In the first wave, .... In the second wave, mathematical language to
-describe human genetic information and computational tools to store, retrieve,
-and analyse them brought disciplines such as cheminformatics and bioinformatics
-to the core business of pharma research. Next, high-dimensional statistics,
-pattern recognition and machine learning tools demonstrate their power to mine
-large-volume data of heterogeneous types. Looking ahead, system-modelling
-approaches such as network modelling and multiscale modelling become ever more
-important.
+gradually revealed the importance of mathematical and statistical modelling
+approaches in drug discovery. In the first wave, .... In the second wave,
+mathematical language to describe human genetic information and computational
+tools to store, retrieve, and analyse them brought disciplines such as
+cheminformatics and bioinformatics to the core business of pharma research.
+Next, high-dimensional statistics, pattern recognition and machine learning
+tools demonstrate their power to mine large-volume data of heterogeneous types.
+Looking ahead, system-modelling approaches such as network modelling and
+multiscale modelling become ever more important.
 
-
-While the history of drug discovery is short, it has fundamentally
-improved human health, life quality, and changed the demographic structures of
+While the history of drug discovery is short, it has fundamentally improved
+human health, life quality, and changed the demographic structures of
 societies.
 
 ## Drug modalities
-
-## The process of drug discovery and development
-
-The phases are briefly introduced below.
-
-* Target Identification (TID or TI)
-* Target Validation (TV)
-* Lead Identification (LID or LI)
-* Lead Optimization (LO)
-* Preclinical development
-* Phase I clinical trial
-* Phase II clinical trial
-* Phase III clinical trial
-* Submission to launch
-* Post-launch activities
-
-A linear presentation of the drug discovery and development process can be often found in the following form or its variants.
-
-```{r drugDiscoveryLinearGV, fig.cap="The linear presentation of the drug-discovery process", out.width="100%", fig.height=4}
-DiagrammeR::grViz("data/linear-drug-discovery-workflow.gv")
-```
-
-### Target identification
-
-### Target validation
-
-### Lead identification
-
-### Lead optimization
-
-### Preclinical development
-
-### Phase I clinical trial
-
-### Phase II clinical trial
-
-### Phase III clinical trials
-
-### Submission, launch, and post-launch activities
-
-
-## Reflections on the linear model of drug discovery
-
-The linear model of drug discovery is very useful in several aspects. First, it provides an initial mental model for people outside the industry and beginners to think about drug discovery. Second, it highlights the key decision points, in the chronological order, along the discovery and development process. Third, it simplifies communications about the stage in which drug candidates are currently in.
-
-Despite the usefulness of the linear model, drug discovery in reality is rarely linear. Instead, it is often a dynamic and iterative process, with countless variants from the ideal linear model. During the discovery process, for instance, a lead compound may fail to show the expected efficacy in the preclinical experiment and therefore a new round of lead optimization is necessary or even a new hit series has to be identified. In another example, a drug that has been designed for one indication is found, either by real-world evidence or by serendipity, to be potentially effective for another indication, and thus the step of target identification, hit and lead optimization may be omitted or strongly shortened to meet the purpose. And in the development phase, more and more clinical trials are designed differently compared with the canonical ones, for instance with adaptive design, and with real-world data supported virtual trials. Many more examples like this suggest that the linear model is far away from the reality.
-
-In the dynamic and iterative process, modelling mechanism and safety at different levels become important, because these models embody our belief of how drug works. Rationalized approaches may not always lead to successful drug-discovery projects; and very often. Serendipity plays a critical role, especially in the discovery of drugs of new, unexpected mechanisms. 
-
-Why, then, do we still care about rationalized approaches as described above in the multiscale modelling problem? First, because the rationalized approach complements the trial-and-error model of drug discovery. In addition, it can even pave ways to findings by chance, as long as the multiscale modelling process is not seen as a doctrine and the only way to success. Last but not least, the rationalized approach is the scientific way to follow up lucky findings in order to gain insights so that the drug candidate obtained by a lucky strike can be further improved in its efficacy and safety profiles. All the three aspects have been demonstrated by numerous examples in the last three decades of drug discovery.
 
 ## Drug discovery as a multiscale modelling problem
 
