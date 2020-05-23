@@ -1,12 +1,7 @@
 # A linear view of the drug-discovery workflow {#linear}
 
-```{r setup, echo=FALSE, results='hide'}
-knitr::opts_chunk$set(echo=FALSE,
-                      message=FALSE,
-                      fig.path = "figures/02-",
-                      dev = c('png','pdf'),
-                      dpi = 300,
-                      fig.width=7, fig.height=5)
+```{r setupLinear, echo=FALSE, results='hide'}
+knitr::opts_chunk$set(fig.path = "figures/02-")
 ```
 
 ## Topics of the chapter
