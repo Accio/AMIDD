@@ -25,10 +25,9 @@ DiagrammeR::grViz("data/linear-drug-discovery-workflow.gv")
 
 There are many variants of the model, with some stages merged, omitted, or named otherwise. However, the variants share the common feature that they represent drug discovery as a sequential process. Each stage receives input from the previous stage and provides input to the next stage, except for the first and the last stage.
 
-* Target Identification (TID or TI)
-* Target Validation (TV)
-* Lead Identification (LID or LI)
-* Lead Optimization (LO)
+* Target identification and validation
+* Lead Identification
+* Lead Optimization
 * Preclinical development
 * Phase I clinical trial
 * Phase II clinical trial
@@ -54,15 +53,71 @@ Besides *in vitro* and *in vivo* models, *in silico* models are used to model di
 
 We will investigate the interplay between biological modelling systems and mathematical, statistical, and computational models more often later in the book.
 
-### Target identification
+### Target identification and validation
 
-### Target validation
+Once the target disease(s) are determined, we need to make an important
+decision: do we want to pursue a target-based discovery route or a phenotypic
+drug-discovery route? In case we decide for a target-based approach, we need to
+identify one or more biological entities, such as protein or messenger RNA, as
+our *target*. Once we have the target, we can discover chemical or biological
+entities that modulate it function.
+
+There are many ways to identify targets. They can come from experiments in
+animal disease models, genetic data from patients, and modelling approaches that
+infer and simulate disease progress when the function of the targets is
+modulated. Usually, the decision to work on a target is not made based on one
+type of result. Instead, evidence from multiple sources is synthesized and the
+decision is made by estimating the probability of success and the risk
+associated. Common factors of consideration include:
+
+* Do we have solid evidence showing that the we can influence the disease
+  progress sufficiently by modulating the target?
+* Is it feasible to develop specific therapeutics against the target with
+  an acceptable safety profile? We may not have answer to this
+  question without a molecule at our hand. It is, however, possible to consult
+  historical data of the target or other targets of similar properties.
+* How likely it is to come up with a specific and potent enough molecule that
+  modulates the target with the resource constraint such as time and money?
+
+
+These and other factors determine whether a target is considered or not. Once it
+is considered, often its role in disease modification needs to be validated, for
+instance using publicly available and proprietary cellular models, animal
+models, and computational models. This is necessary out of several reasons,
+including lack of reproducibility in published studies. A study published by
+three employees of the company Bayer Healthcare in 2011, for instance, reported
+data collected from 67 drug discovery projects [@prinz_believe_2011]. In 45
+projects (67%), inconsistency was found between published data and in-house data
+that either prolonged the target validation process or led to the termination of
+the data. Only in less than 25% of the projects, in-house data were consistent
+with published data. Given this and other reasons, it is necessary to validate
+the target.
+
+The target needs not to be one molecule. While the concept of 'one drug, one
+target' dominated the trend of drug discovery for many years, it was not always
+the case and the mindset has changed to embrace multi-target drugs. In a review
+published in 2020 [@deshaies_multispecific_2020], Raymond J. Deshaies argues
+that multi-specific drugs are the fourth transformative waves that the
+biopharmaceutical industry experience, following the first wave of defined
+molecules with undefined molecular target (with the example of Aspirin), the
+second wave of defined molecules with defined molecular targets (for instance
+angiotensin converter enzyme II inhibitors that treat hypertension and HIV
+reverse transcriptase inhibitor), the third wave of biological drugs (for instance
+engineered monoclonal antibodies and oligonucleotide-based therapies). Many
+variants of multi-specific drugs are available, allowing simultaneous regulation
+of more than one biological targets or bring two or more targets interact with
+each other which otherwise interact with much lower affinity or do not interact
+at all. To develop such multi-specific drugs, it is even more important to
+identify a valid drug target given the cost and technical complexity associated
+with different formats of multi-specific drugs.
 
 ### Lead identification
 
 ### Lead optimization
 
 ### Preclinical development
+
+We can use the therapeutic index (TI; also referred to as therapeutic ratio) to quantify the relative safety profile of a drug.
 
 ### Phase I clinical trial
 
