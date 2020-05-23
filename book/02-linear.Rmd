@@ -17,13 +17,13 @@ knitr::opts_chunk$set(echo=FALSE,
 
 ## The linear view
 
-A popular mental model and visual representation of the drug discovery process is the linear view that starts with disease undestanding and target identification and ends with clinical trials, product launch, and post-launch activities. One such model is represented in \@ref{fig:drugDiscoveryLinearGV}. 
+A popular mental model and visual representation of the drug discovery process is the linear view that starts with disease understanding and target identification and ends with clinical trials, product launch, and post-launch activities. One such model is represented in \@ref{fig:drugDiscoveryLinearGV}.
 
 ```{r drugDiscoveryLinearGV, fig.cap="The linear presentation of the drug-discovery process", out.width="100%", fig.height=4}
 DiagrammeR::grViz("data/linear-drug-discovery-workflow.gv")
 ```
 
-There are many variants of the model, with some stages merged, omitted, or named otherwise. However, the variants share the common feature that they represent drug discovery as a sequential process. Each stage receives input from the previous stage and provides input to the next stage, except for the first and the last stage. 
+There are many variants of the model, with some stages merged, omitted, or named otherwise. However, the variants share the common feature that they represent drug discovery as a sequential process. Each stage receives input from the previous stage and provides input to the next stage, except for the first and the last stage.
 
 * Target Identification (TID or TI)
 * Target Validation (TV)
@@ -42,18 +42,18 @@ To primary aim to discover develop a drug is to treat a disease. Therefore, we n
 
 Disease understanding comes from many different ways. Medical doctor, research labs, personal data from individuals affected by diseases provide us with knowledge and data that we can use to build informal or formal models of the disease. These models help us decide how we proceed with the drug discovery process.
 
-Let us take breast cancer as an example. It affects people around the world. In 1980s, scientists found out that the HER2 protein, the human epidermal growth factor receptor 2, or known as ERBB2, is highly abundant on the cell surface of tumor cells of some patients of breast cancer.
+Let us take breast cancer as an example. It affects people around the world. In 1980s, scientists found out that the HER2 protein, the human epidermal growth factor receptor 2, also known as ERBB2, is highly abundant on the cell surface of tumor cells of some patients of breast cancer.
 
-While the finding describes only a correlation relationship but not a causal relationship. A causal relationship would suggests that manipulation or regulation of ERBB2 would slow down the progression of the disease, improve the life quality, and elongate the survival time of the patient. 
+While the finding describes only a correlation relationship but not a causal relationship. A causal relationship would suggests that manipulation or regulation of ERBB2 would slow down the progression of the disease, improve the life quality, and elongate the survival time of the patient.
 
-Fortunately, scientists did not stop at the correlation. Due to ethical and safety reasons, we cannot test treatments with patients directly. Nevertheless, we can rely on *biological modelling systems*. An example of biological modelling systems includes breast cancer cells that are collected from a patient once and are cultured in artificial conditions outside the body, known as *in vitro* models. Another example is animal models of the disease such as mouse with transplanted breast-cancer tissues derived from a patient. Such as model, known a xenograft model, belongs to *in vivo* models. 
+Fortunately, scientists did not stop at the correlation. Due to ethical and safety reasons, we cannot test treatments with patients directly. Nevertheless, we can rely on *biological modelling systems*. An example of biological modelling systems includes breast cancer cells that are collected from a patient once and are cultured in artificial conditions outside the body, known as *in vitro* models. Another example is animal models of the disease such as mouse with transplanted breast-cancer tissues derived from a patient. Such as model, known a xenograft model, belongs to *in vivo* models.
 
 *In vitro* and *in vivo* models are used not only in disease understanding. They also play a critical role in drug discovery and development, which we will examine later.
 
 Besides *in vitro* and *in vivo* models, *in silico* models are used to model disease progression as well. The *in silico* models can causally describe entities and relationship between them using mathematical terms such as graphs and differential equation systems. They can model correlation and, under certain circumstances, infer causal relationships using statistical modelling techniques. And they can implement computational procedures that models the behaviour of biological systems underlying the disease. In any case, *in silico* models are constructed by humans by using data derived from *in vitro* models, *in vivo* models, and from patients, and optionally by integrating prior knowledge of the disease. In turn, they inform the selection of biological system models and contributes to the *translation* of findings from biological modelling systems to patients, the final target of modelling.
 
 We will investigate the interplay between biological modelling systems and mathematical, statistical, and computational models more often later in the book.
- 
+
 ### Target identification
 
 ### Target validation
