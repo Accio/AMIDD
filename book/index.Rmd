@@ -36,7 +36,7 @@ output:
     dev: svglite
     stylesheet: css/style.css
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography: [book.bib, packages.bib, literature-for-review.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: accio/Introduction-to-Applied-Mathematics-And-Informatics-In-Drug-Discovery

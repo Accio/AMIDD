@@ -1,3 +1,12 @@
+---
+bibliography: literature-for-review.bibtex
+output:
+  pdf_document:
+    citation_package: natbib
+  bookdown::pdf_book:
+    citation_package: biblatex
+---
+
 # Preface {-}
 
 This document is also the proposal for *Multiscale Modelling in Drug Discovery: An Introduction* (working title), a book that we are writing.
@@ -95,10 +104,6 @@ The book attempts to offer a broad overview of basic concepts and principles of
 quantitative modelling in drug discovery. It delivers neither comprehensive
 discussions nor technicalities of individual modelling methods. References to
 resources dedicated to specific topics are provided at the end of each chapter.
-
-Prerequisite is a high-school knowledge of mathematics, chemistry, physics, and
-biology. An appendix is available to refresh the essential knowledge in
-mathematics, statistics, and programming that is used throughout the book.
 
 ## Organization of the book {-}
 
@@ -429,6 +434,32 @@ the future.
 
 We would like to thank many mentors, colleagues, and friends who have helped
 and supported us. (To be filled)
+
+## Relevant literature {-}
+
+Below we list selected literature that are relevant for multiscale modelling in
+drug discovery.
+
+[@hughes_principles_2011]
+[@quine_mathematical_nodate]
+[@sliwoski_computational_2014]
+[@mortensen_introduction_2008]
+[@upton_basic_2014]
+[@mould_basic_2013]
+[@mould_basic_2012]
+[@ledder_mathematics_2013]
+[@durbin_biological_1998]
+[@drews_drug_2000]
+[@paul_how_2010]
+[@dickson_key_2004]
+[@zhang_multiscale_2020]
+[@compeau_bioinformatics_2015]
+[@yang_machine-learning-guided_2019]
+[@hoch_drug_nodate]
+[@kenakin_pharmacology_2019]
+[@gerald_drug_2013]
+[@gabrielsson_pharmacokinetic_2006]
+[@haefner_modeling_2005]
 
 ## Licensing {-}
 
