@@ -47,17 +47,54 @@ Assumptions and limitations
 
 There are three major ways to determine protein structure.
 
+See an overview of biomolecular simulation at Dror, Ron O., et al. "Biomolecular simulation: a computational microscope for molecular biology." Annual review of biophysics 41 (2012): 429-452.
+
 ### X-ray (10 min)
+
+Three properties of waves:
+
+* Frequency, with $I=sin(x)$, and $I=sin(kx)$
+* Amplitude, $I=Asin(kx)$
+* Phase $\phi_{0}$
+
+In a two-dimensional space, direction (rotation) is added:
+
+$$ I(x,y) = Asin(k\dotr+\phi_{0}) $$
+
 ### NMR (10 min)
 ### CryoEM (15 min)
 
+The classical bottleneck of X-ray is the quality of protein crystall. Many proteins unfortunately cannot form crystall, and others only form small crystalls that fail to diffract.
+
+CryoEM made huge progress in the last years. Previously it was limited by the resolution (10 A). However, now it can reach resolution around or below 3A, reaching the resolution of X-ray. Therefore, in the last few years, many publications have reported structures of proteins of which the structure was not available before.
+
+Cryo fixation works within a few milliseconds so that the water molecules do not form crystall, but remain vitreuos.
+
+Recently, the development in the direct electron device (DDD) cameras and as well as simplification and automatioin of EM image collection and image processing (movie instead of photo, and motion correction) drive cryoEM applied massively to many problems. However, it lacks objective quality critierion that is simple and easy to use, such as the R-free value in XRD.
+
+See more about mechanism and applications of EM with two reviews by Cheng *et a.l*, in Cell
+* https://www.sciencedirect.com/science/article/pii/S0092867415003700
+* https://www.sciencedirect.com/science/article/pii/S0092867415003694
+
 [a video explaining transmission cryo-electron microscopy] (2:58, no side) by Gabiel Lander, explaining the elementary principles of CryoEM in a clear way. 
+
+
 
 Biological samples, especially embedded in thin vitreous ice (vitreous=like glass in appearance or physical properties), are highly sensitive to radiation, thus only low electron doses can be used to image the sample. This low dose means images have high noise relative to the signal given by the particle being observed.
 
 The trick: enhancing the signal to noise ratio (SNR) by summing and averaging. By aligning several similar images to each other so they are in register and then averaging them, an image with higher signal to noise ratio can be obtained. As the noise is mostly randomly distributed and the underlying image features constant, by averaging the intensity of each pixel over several images only the constant features are reinforced. 
 
-Mathematically, the optimal alignment (a translation and an in-plane rotation) to map one image onto another is calculated by cross-correlation. This allows image registration, the process of aligning images in one common coordinate system. A clear mathematical illustration is provided by [the documentation and examples of the `xcorr2` function in Matlab](https://www.mathworks.com/help/signal/ref/xcorr2.html), and in the [MatLab tutorial to register an image using normalised cross-correlation](https://ch.mathworks.com/help/images/registering-an-image-using-normalized-cross-correlation.html).
+Mathematically, the optimal alignment (a translation and an in-plane rotation) to map one image onto another is calculated by cross-correlation (J. Frank & L. Al-Ali, Nature, 1975). This allows image registration, the process of aligning images in one common coordinate system. A clear mathematical illustration is provided by [the documentation and examples of the `xcorr2` function in Matlab](https://www.mathworks.com/help/signal/ref/xcorr2.html), and in the [MatLab tutorial to register an image using normalised cross-correlation](https://ch.mathworks.com/help/images/registering-an-image-using-normalized-cross-correlation.html).
+
+Biological molecules, when imaged at different angles, have different 2D projections. An simple average is not enough. In addition, a molecule may adopt multiple configurations. How to cluster projections of biological molecules from the same angle? It is a classification problem in images with low SNR. Frank and van Heel proposed correspondence analysis for image analysis (Frank J.;van Heel M. J. Mol. Biol. 1982, 161, 134.).
+
+Furthermore, Frank and Radermacher *et al* proposed Random Conical Tilt for 3D reconstruction (Radermacher M. ; Wagenknecht T. ; Verschoor A. ; Frank J. J. Microscopy 1986, 141, Rp1.).
+
+Software: SPIDER (System for Processing Image Data from Electron microscopy and Related field)
+
+A good overview of methology development by Frank (in Chinese): http://www.dxhx.pku.edu.cn/article/2018/1000-8438/dxhx-201711035.shtml
+
+These methods are implemented in System for Processing Image Data from Electron microscopy and Related field (http://www.dxhx.pku.edu.cn/article/2018/1000-8438/dxhx-201711035.shtml). A wiki book provides an execellent oview of 3D EM: https://en.wikibooks.org/wiki/Three_Dimensional_Electron_Microscopy. 
 
 Another technique very useful in cryo-EM image processing is image filtering using fast Fourier transforms (FFT). This is used to reduce high or low spatial frequency information in the images. High-pass filters remove low spatial frequencies such as gradient effects.
 
@@ -96,6 +133,17 @@ $$s(k_x) = F(k_x, 0) = \int_{-\infty}^\infty \int_{-\infty}^\infty f(x,y)\,e^{-2
 which is the Fourier transform of $p(x)$.
 
 Practically, filtered back projection is a commonly used method of generating 3D reconstructions in single particle analysis, the inverse problem of Radon transformation. See details in the videos on computed tomography by [Astra Toolbox](https://www.youtube.com/channel/UCcnUlWuFeS9miMR_o8-6v3w/videos), particularly [mathematical basics of computed tomography](https://www.youtube.com/watch?v=rKh_XIpsuc4).
+
+
+## Future?
+
+X-ray free electron laser (XFEL) and serial femtosecond crystallography (SFX) can handle room-temperature, air atmosphere, native growth environment, chemical reaction, conformation changes, and multiple physical fields. X-ray photon energy (>2Kev) is only available at a few places.
+
+References:
+1. Tetsuya Ishikawa, et al. Nat Photonics, **6** 540 (2012)
+2. P. Emma, R. Akre, et al.. Nat Photonics, **4** 641 (2010)
+
+It takes some development though, for instance to reduce radiation damage.
 
 # How does an enzyme work?
 
