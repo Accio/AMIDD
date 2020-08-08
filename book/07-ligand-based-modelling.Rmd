@@ -1,0 +1,181 @@
+# Encoding and similarity search of chemical structures {#cheminfo}
+
+## What do we want to achieve today
+
+* Have a high-level understanding of encoding chemical structures and similarity search
+* Know technical terms such as SMILEs, INCHI keys, fingerprint, Tanimoto Index
+* Know how Tanimoto Index is applied to fingerprint-based chemical structure search
+* Know how graph edit distance is mathematically defined and used to search for similar molecules
+
+## Questions
+
+## Background
+
+### Small molecules
+
+### InChi
+
+### SMILES
+
+### Stereochemistry
+
+### Fingerprints
+
+## Mathematical concepts
+
+### Structure diagrams as graphs
+
+### Similarity measures
+
+### Graph edit distance
+
+## Resources for further learning
+
+A short video about basic concepts of drug, drug target, and molecular interactions, https://www.youtube.com/watch?v=u49k72rUdyc
+Computational chemistry in drug discovery on youtube, https://www.youtube.com/watch?v=9DESulCWbRQ
+
+# Molecular descriptors and QSAR {#moldes}
+
+## What do we want to achieve today
+
+* Understand what are molecular descriptors and QSARs
+* Understand applications of linear models and dimension reduction in the context of QSAR
+
+## Questions
+
+## Background
+
+### Descriptors derived from experimental measurements
+
+### Theoretical molecular descriptors
+
+### Efficacy
+
+### ADMET
+
+## Mathematical concepts and models
+
+### Unsupervised learning with principal component analysis
+
+### Supervised learning
+
+## Software
+
+pubchem
+
+ChEMBL
+
+https://deepchem.io/
+
+## Resources for further learning
+
+http://www.moleculardescriptors.eu/tutorials/tutorials.htm
+
+# Molecular modelling {#molmod}
+
+## What do we want to achieve today
+
+* Understand the principles of mechanistic modelling in computational chemistry
+* Understand the theory of docking, search algorithms, and scoring function
+* Understand technical terms including Hooke's law, Force Fields, Lennard-Jones potential
+* Know the software AutoDock
+
+## Questions
+
+## Background
+
+### Molecular modelling
+
+### Molecular mechanics and quantum chemistry approaches
+
+### Molecular descriptors
+
+### Force fields
+
+### Docking
+
+The disco analogy
+
+## Mathematical concepts and models
+
+### The Lennard-Jones potential
+
+### Scoring functions for docking
+
+## Software 
+
+Autodock
+
+## Resources for further learning
+
+Neumaier, A. “Molecular Modeling of Proteins and Mathematical Prediction of Protein Structure.” SIAM Review 39, no. 3 (January 1, 1997): 407–60. https://doi.org/10.1137/S0036144594278060.
+# Cheminformatics {#chemoinfo}
+
+## What do we want to achieve today
+
+* Have a first impression of common forms of drugs 
+* Digital representation of small molecules, in particular SMILEs and InChi keys
+* Structure search by fingerprints, Tanimoto coefficient, and graph-edit distances 
+* Know information sources of small molecules and drugs, especially ChEBI, CheEMBL, and PubChem
+
+## Questions
+
+## Classification of drugs
+
+Drugs can be classified in different ways, taking different perspectives. From the chemical perspective, for instance, drugs can be classified by their chemical structure. Loosely speaking, we distinguish traditional small-molecule drugs, which are often derived from chemical synthesis, from biologics, which can include recombinant proteins, nucleotides or nucleosides, vaccines, blood products that are used therapeutically (such as immunoglobulins), gene therapy, and cell therapy. 
+
+Small-molecule drugs are sometimes classified by the shared chemical structure, for instance $\beta$-lactam antibiotic (used for bacterial infection), steroid (inflammation and auto-immunity), and benzodiazepine (psychoactive drugs). In the same line, they can be classified by physical chemical properties. For instance, the Biopharmaceutics Classification System classifies drugs by solubility and intestinal permeability.
+
+Besides chemical structures, drugs can be classified by their biological target, or more broadly, by their mechanism of action. Mechanism of action is defined as the modulation of activity of specific biological target(s) that cause the pharmacological effect of the drug. Examples include beta blockers (managing abnormal heart rhythms), angiotensin-converting-enzyme (ACE) inhibitors (high blood pressure and heart failure), and nonsteroidal anti-inflammatory drugs (NSAIDs).
+
+One level above the mechanism of action, which describes biochemical properties, drugs can be classified by a more general biological persepective to describe the anatomical or functional changes they induce. Examples include diuretic (promoting urine production), decongestant (relieving nasal congestion), and bronchodilators (increasing airflow to the lungs). Similarly, drugs can be classified by the therapeutic use, *i.e.* the pathology they are used to treat. For instance, analgesics (pain relief), antiepileptic, or antiviral.
+
+While it is helpful to know the different perspectives underlying the classifications above, most of them are not comprehensive and not amenable for computer queries. Systems have been developed to classify drugs, with prominent examples including the [Anatomical Therapeutic Chemical Classification System](https://www.whocc.no/) (ATC system), and medication codes from [Systematized Nomenclature of Medicine](https://www.hl7.org/fhir/valueset-medication-codes.html) (SNOMAD). ATC and SNOMAD CT are examples of ontologies, which allow annotation, unification, and standarization of terms. See [BioPortal](https://bioportal.bioontology.org/) by the U.S. National Center for Biomedical Ontology for more examples.
+
+## Getting to know two small molecules: caffeine/ valium
+
+## Structural representation of small molecules
+
+### Stereoisomers
+
+Chiral center
+
+The example of Thalidomide
+
+Ofloxacin, levofloxacin and dextrofloxacin are all fluoroquinolone antibiotics. 
+
+* Ofloxacin is a *racemic* (equal) mixture of Levo and Dextro isomers
+* Levofloxacin is the more active stereoisomer
+* Dextrofloxacin is the less active steroisomer
+
+### SMILES
+
+### InChi key
+
+## Structure search
+
+### Fingerprints
+
+### Tanimoto similarity
+
+### Graph-edit distance
+
+## Structural-activity relationship
+
+## Molecular descriptions of small molecules
+
+### Lipinski's rule of five
+
+## Software and resources
+
+### ChEMBL and ChEBI
+
+### PubChem
+
+### pymol
+
+## Resources for further learning
+
+* The original publication describing the graph edit distance (GED) is [@sanfeliu_distance_1983]. Gao *et al.* [@gao_survey_2010] provided a survey of different ways to determine GED.
+* European Molecular Biology Laboratory - European Bioinformatics Institute (EMBL-EBI) provides great training programs. Their online training courses in small molecule and cheminformatics are great resources particular for beginners: https://www.ebi.ac.uk/training/online/topic/small-molecules.
+* Companies like NextMove work on improving small-molecule representation and search. Some of their work can be found on SlideShare: https://www.slideshare.net/NextMoveSoftware?utm_campaign=profiletracking&utm_medium=sssite&utm_source=ssslideview

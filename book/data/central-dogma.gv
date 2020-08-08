@@ -1,0 +1,27 @@
+digraph CentralDogma {
+
+  graph [rankdir = LR]
+
+  node [shape = ellipse,
+	style = filled,
+	fixedsize=true,
+	width=1,
+	height=0.618,
+	fontsize=14,
+	fillcolor = "lightyellow:khaki",
+	gradientangle=315,
+	fontname="Helvetica"]
+  DNA [label=< <B>DNA</B> >]
+  RNA [label=< <B>RNA</B> >]
+  Protein [label=< <B>Protein</B> >]
+
+  edge [color = black,
+        arrowname = vee,
+        fontname="Helvetica",
+        fontsize=10]
+  DNA->DNA [label=replication]
+  DNA->RNA [label=transcription]
+  RNA->Protein [label="translation"]
+  RNA->DNA [style=dashed, label="reverse\ntranscription", labelloc="b"]
+  RNA->RNA [style=dashed, label="RNA replication"]
+}

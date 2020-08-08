@@ -1,0 +1,52 @@
+--- 
+title: "Drug discovery: a multiscale-modelling approach"
+author: "Jitao David Zhang and Philipp Mekler"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook:
+    css: css/style.css
+    config:
+      toc:
+        before: |
+          <li><a href="./">Applied Mathematics and Informatics In Drug Discovery</a></li>
+        after: |
+          <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+      download: [pdf, epub, mobi]
+      edit: https://github.com/Accio//AMIDD/notes/edit/master/%s
+      sharing:
+        github: yes
+        facebook: no
+  bookdown::html_chapters:
+    css: [css/style.css, css/toc.css]
+  bookdown::pdf_book:
+    includes:
+      in_header: latex/preamble.tex
+    keep_tex: yes
+    dev: "cairo_pdf"
+    latex_engine: xelatex
+    citation_package: natbib
+    template: null
+    pandoc_args: --top-level-division=chapter
+    toc_depth: 3
+    toc_unnumbered: no
+    toc_appendix: yes
+    quote_footer: ["\\VA{", "}{}"]
+  bookdown::epub_book:
+    dev: svglite
+    stylesheet: css/style.css
+documentclass: book
+bibliography: [book.bib, packages.bib, literature-for-review.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: accio/Introduction-to-Applied-Mathematics-And-Informatics-In-Drug-Discovery
+description: "Lecture notes to the iAMIDD course in autumn semester 2019/2020"
+---
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

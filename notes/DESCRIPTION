@@ -1,6 +1,0 @@
-Package: AMIDD
-Type: Book
-Title: Applied Mathematics And Informatics In Drug Discovery
-Version: 0.0.1
-Imports: bookdown
-Remotes: rstudio/bookdown
