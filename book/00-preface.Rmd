@@ -19,21 +19,26 @@ drug discovery has a short history compared with that of human and human
 diseases. It has, however, fundamentally changed the life of each of us.
 
 Drug discovery has also changed itself during its development. In its early
-years, drug discovery was primarily driven by serendipity and trials and errors
-in chemistry, biology, and medicine. Today, drug discovery represents one of the
-most interdisciplinary and collaborative human research enterprises. As the
-techniques of drug discovery developed and refined, mathematical, statistical,
-and computational models have become essential besides experimental methods.
+years, drug discovery was primarily driven by trials and errors as well as
+serendipity in chemistry, biology, and medicine. Today, drug discovery
+represents one of the most interdisciplinary and collaborative human research
+enterprises. The trial-and-error principle and serendipity still play a role,
+because our knowledge in biology is much limited. Nevertheless, as the
+techniques of drug discovery develop and refine, mathematical, statistical, and
+computational models have become essential besides experimental methods to
+predict drug targets, to identify drug molecules, and to describe how drug
+works.
+
 
 What are these models? A mathematical model describes the state and dynamics of
-a system. A statistical model represents assumptions about sample data. It
+a system. A statistical model represents assumptions about sample data, which
 allows us to use data analysis to infer the distribution of variables of
-interest. A computational model implements logic in procedures. It simulates the
-behaviour of a system.
+interest. A computational model implements logic in procedures, which simulate
+the behaviour of a system.
 
 Examples of these models are introduced throughout the book. There are different
-views in the literature on the philosophy of science about whether statistical and
-computational models are special forms of mathematical models or they are
+views in the literature on the philosophy of science about whether statistical
+and computational models are special forms of mathematical models or they are
 distinct forms of conceptual modelling. For our purpose though, it suffices that
 we refer to all of them as models and specify the type only in case of
 ambiguity.
@@ -49,12 +54,12 @@ variables are correlated with the states? Which variables are causal,
 manipulating of which may worsen or cure the disease? For simplicity, we say
 that models serve *disease understanding* in such contexts.
 
-The other application of models is to study body-drug interactions. While it is
-feasible and sometimes helpful to ignore the human body system and model drug
-molecules alone, the effectiveness of such models will finally be tested in the
-body system. Therefore, even if we start by modelling drug molecules, we will
-end up modelling body-drug interactions because they form the mechanistic basis
-of the therapeutic use of drugs.
+The other main application of models is to study body-drug interactions. While
+it is feasible and sometimes helpful to ignore the human body system and model
+drug molecules alone, the effectiveness of such models will finally be tested in
+the body system. Therefore, even if we start by modelling drug molecules, we
+will end up modelling body-drug interactions because they form the mechanistic
+basis of the therapeutic use of drugs.
 
 From a system's perspective, the goal of drug discovery is to identify a
 perturbation or a combination of perturbations that switches the state of the
@@ -64,17 +69,18 @@ from 'disease' to 'health' is defined as its *efficacy*. Its capacity of causing
 harm, known as *adverse effects*, to the whole system is defined as its
 *toxicity*. Alternately, its capacity of not causing adverse effects is its
 *safety*. Therefore, models characterizing body-drug interactions reveal
-*efficacy and safety profiles* of drug candidates.
+*efficacy and safety profiles* of drug candidates. Since a successful
+drug-discovery project entails favourable efficacy and safety profiles, models
+serve *drug discovery* in such contexts.
 
-It is obvious that the two types of applications are dependent on each other:
-a better understanding of the human body system and more knowledge of diseases
-catalyse new drugs with better efficacy and safety profiles. The study of
-body-drug interactions offers more than chemical or biological tools that treat
-diseases. The tools can be used to interrogate
-biological model systems of various kinds, including cultured cells, known as
-*in vitro* systems, and animal models, known as *in vivo* systems. Such studies
-may reveal unexpected aspects of diseases or even new insights into fundamental
-biology.
+It is obvious that the two types of applications depend on each other: a better
+understanding of the human body system and more knowledge of diseases catalyse
+new drugs with better efficacy and safety profiles. The study of body-drug
+interactions offers more than chemical or biological tools that treat diseases.
+The tools can be used to interrogate biological model systems of various kinds,
+including cultured cells, known as *in vitro* systems, and animal models, known
+as *in vivo* systems. Such studies may reveal unexpected aspects of diseases or
+even new insights into fundamental biology.
 
 In summary, modern drug discovery can be thought of as an iterative process
 consisting of experiments and modelling. The starting point is a disease that we
@@ -82,7 +88,7 @@ wish to cure and some biological or chemical entities that we deem as
 appropriate prototypes of drug candidates. We collect data on the disease and on
 the candidate molecules from experiments. Models characterize diseases as states
 of the system and encode our understanding of body-drug interactions. Informed
-by these models, we use our expertise in chemistry and biology to change the
+by these models, we use knowledge in chemistry and biology to change the
 molecule in order to improve its efficacy and safety profile. In the next cycle,
 more experiments further refine the drug candidate, and improved models update
 our belief about how the molecule interacts with the body. The process is
@@ -95,10 +101,11 @@ levels into a unified, *multiscale-modelling* view of drug discovery.
 
 ## The target audience {-}
 
-This book aims at providing undergraduate students of mathematics, computer
-sciences and natural sciences with an application-oriented introduction to drug
-discovery. It can also be used by researchers working in the fields of disease
-understanding and drug discovery as a practical guide to modelling.
+This book aims at providing undergraduate and graduate students of mathematics,
+computer sciences, natural sciences, and medicine with an application-oriented
+introduction to drug discovery. It can also be used by researchers working in
+the fields of disease understanding and drug discovery as a practical guide to
+modelling.
 
 The book attempts to offer a broad overview of basic concepts and principles of
 quantitative modelling in drug discovery. It delivers neither comprehensive
