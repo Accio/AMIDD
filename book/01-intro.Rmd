@@ -12,26 +12,22 @@ library(DiagrammeR)
 
 ## Topics of the chapter
 
-* A brief history of drug discovery from a modelling perspective
+* A brief history of modern drug discovery
 * The choice between phenotypic and target-based drug discovery
-* The two major considerations: efficacy and safety
-* Commonly persued drug modalities
-
-* The drug-discovery process: the linear view
-* Multiscale modelling: an alternative view of the drug-discovery process
-* Mathematical, statistical, and computational modelling approaches in drug discovery
+* The two major considerations of drug discovery: efficacy and safety
+* Commonly pursued drug modalities
 
 ## A brief history of drug discovery
 
 For a long time in human history, drug discovery means looking for natural ingredients that
-can cure diseases, based largely both trial-and-error and serendipity. 
+can cure diseases, based largely both trial-and-error and serendipity.
 
 Modern drug drug discovery, thanks to advances in chemistry, biology, medicine,
 and other relevant fields, have largely expanded the search space for matters
 that can cure diseases. We are equipped with much more knowledge and better
 tools both in the wet labs and in inference and computation. The principles of
 trial-and-error and serendipity are still valid. Nevertheless, our search for
-cures is now more focused and more knowledge- and information-driven. 
+cures is now more focused and more knowledge- and information-driven.
 
 The first wave was the development in chemistry and physiology. In
 the second wave, advances in molecular biology, genetics, and physics made
@@ -60,7 +56,19 @@ While the history of drug discovery is short, it has fundamentally improved
 human health, life quality, and changed the demographic structures of
 societies.
 
+## Efficacy and safety
+
+### Efficacy
+
+### Safety
+
+
 ## Drug modalities
+
+### Small molecules
+### Oligonucleotides
+### Antibodies and recombinant proteins
+### Vaccines
 
 ## Drug discovery as a multiscale modelling problem
 
