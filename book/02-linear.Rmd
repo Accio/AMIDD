@@ -108,28 +108,98 @@ with different formats of multi-specific drugs.
 
 ### Lead identification
 
+The lead identification process aims to identify a molecule with promising
+physico-chemical properties and potentially acceptable efficacy and safety
+profile, which will be further optimized.
+
 ### Lead optimization
+
+The lead optimization process aims to optimize the lead molecule to achieve
+better physico-chemical properties, which hopefully translate into better
+efficacy and safety profiles. At the end of this process, a candidate
+compound is ideally selected to be further tested in preclinical and clinical
+studies.
 
 ### Preclinical development
 
-We can use the therapeutic index (TI; also referred to as therapeutic ratio) to quantify the relative safety profile of a drug.
+Preclinical development aims at testing the candidate compound delivered by the
+lead optimization process to ensure its efficacy and safety profile. In
+addition, it includes formulation development, which aims at formulating the
+drug candidate, which is also known as active pharmaceutical ingredient (API),
+into its dosage form, such as tablets or infusion solutions, by mixing them with
+non-active, inert material known as excipients.
+
+We can use the therapeutic index (TI; also referred to as therapeutic ratio) to
+quantify the relative safety profile of a drug.
 
 ### Phase I clinical trial
 
+The main aim of conducting phase I clinical trial is to test the pharmacokinetic
+and safety profile of a drug.
+
 ### Phase II clinical trial
+
+Phase II clinical trials test both pharmacokinetic and pharmacodynmic profiles
+of a drug, as well as safety and efficacy profiles in a small number of
+patients.
 
 ### Phase III clinical trials
 
+Phase III clinical trials extends the Phase II clinical trial by including many
+more patients. In order to get regulatory approval, the sponser of a tested
+drug, which can be pharmaceutical companies or other forms such as research
+institutes or an academic-industrial alliance, usually needs to submit successful
+results of two Phase III clinical trials, with Type-I errors less than 0.05 in
+each trial (namely the probability that the drug in fact does not work is
+smaller than 1 out of 20).
+
 ### Submission, launch, and post-launch activities
 
+Successful clinical trials are followed with filing and launching activities.
+
+Sometimes, post-launch activities are required by regulatory agencies to ensure
+the safety and efficacy profiles of the drug, for instance to monitor rare
+adverse effects or to monitor mutation rates of the target virus in case of
+antivirals. They are called Phase IV pharmacosurveillance studies.
 
 ## Reflections on the linear model of drug discovery
 
-The linear model of drug discovery is very useful in several aspects. First, it provides an initial mental model for people outside the industry and beginners to think about drug discovery. Second, it highlights the key decision points, in the chronological order, along the discovery and development process. Third, it simplifies communications about the stage in which drug candidates are currently in.
+The linear model of drug discovery is very useful in several aspects. First, it
+provides an initial mental model for people outside the industry and beginners
+to think about drug discovery. Second, it highlights the key decision points, in
+the chronological order, along the discovery and development process. Third, it
+simplifies communications about the stage in which drug candidates are currently
+in.
 
-Despite the usefulness of the linear model, drug discovery in reality is rarely linear. Instead, it is often a dynamic and iterative process, with countless variants from the ideal linear model. During the discovery process, for instance, a lead compound may fail to show the expected efficacy in the preclinical experiment and therefore a new round of lead optimization is necessary or even a new hit series has to be identified. In another example, a drug that has been designed for one indication is found, either by real-world evidence or by serendipity, to be potentially effective for another indication, and thus the step of target identification, hit and lead optimization may be omitted or strongly shortened to meet the purpose. And in the development phase, more and more clinical trials are designed differently compared with the canonical ones, for instance with adaptive design, and with real-world data supported virtual trials. Many more examples like this suggest that the linear model is far away from the reality.
+Despite the usefulness of the linear model, drug discovery in reality is rarely
+linear. Instead, it is often a dynamic and iterative process, with countless
+variants from the ideal linear model. During the discovery process, for
+instance, a lead compound may fail to show the expected efficacy in the
+preclinical experiment and therefore a new round of lead optimization is
+necessary or even a new hit series has to be identified. In another example, a
+drug that has been designed for one indication is found, either by real-world
+evidence or by serendipity, to be potentially effective for another indication,
+and thus the step of target identification, hit and lead optimization may be
+omitted or strongly shortened to meet the purpose. And in the development phase,
+more and more clinical trials are designed differently compared with the
+canonical ones, for instance with adaptive design, and with real-world data
+supported virtual trials. Many more examples like this suggest that the linear
+model is far away from the reality.
 
-In the dynamic and iterative process, modelling mechanism and safety at different levels become important, because these models embody our belief of how drug works. Rationalized approaches may not always lead to successful drug-discovery projects; and very often. Serendipity plays a critical role, especially in the discovery of drugs of new, unexpected mechanisms.
+In the dynamic and iterative process, modelling mechanism and safety at
+different levels become important, because these models embody our belief of how
+drug works. Rationalized approaches may not always lead to successful
+drug-discovery projects; and very often. Serendipity plays a critical role,
+especially in the discovery of drugs of new, unexpected mechanisms.
 
-Why, then, do we still care about rationalized approaches as described above in the multiscale modelling problem? First, because the rationalized approach complements the trial-and-error model of drug discovery. In addition, it can even pave ways to findings by chance, as long as the multiscale modelling process is not seen as a doctrine and the only way to success. Last but not least, the rationalized approach is the scientific way to follow up lucky findings in order to gain insights so that the drug candidate obtained by a lucky strike can be further improved in its efficacy and safety profiles. All the three aspects have been demonstrated by numerous examples in the last three decades of drug discovery.
+Why, then, do we still care about rationalized approaches as described above in
+the multiscale modelling problem? First, because the rationalized approach
+complements the trial-and-error model of drug discovery. In addition, it can
+even pave ways to findings by chance, as long as the multiscale modelling
+process is not seen as a doctrine and the only way to success. Last but not
+least, the rationalized approach is the scientific way to follow up lucky
+findings in order to gain insights so that the drug candidate obtained by a
+lucky strike can be further improved in its efficacy and safety profiles. All
+the three aspects have been demonstrated by numerous examples in the last three
+decades of drug discovery.
 
