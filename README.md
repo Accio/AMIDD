@@ -21,7 +21,13 @@ Applied mathematics and informatics is indispensable in modern drug discovery to
 
 ### Learning objectives
 
-We explore the drug-discovery process and study applications of mathematics and informatics with case studies. We examine how mathematics concepts and informatics tools are used to model complex systems at multiple levels - molecular level, cellular and omics level, organ- and system-level, and population level - and how the multiscale modelling approach contributes to drug discovery.
+* We explore the drug-discovery process and study applications of mathematics
+  and informatics with case studies.
+* We examine how mathematics concepts and informatics tools are used to model
+  complex systems at multiple levels, and how the *multiscale modelling
+  approach* contributes to drug discovery.
+* We encourage interdisciplinary thinking, application- and question-driven
+  learning, and teamwork.
 
 ## Admission requirements
 
@@ -38,7 +44,7 @@ Though no prerequisite courses are obligatory, elementary understanding of stati
 * Applications and Related Topics (Computer Science)
 * Life-science informatics
 
-## Assessment 
+## Assessment
 
 Scores will be given in scale 1-6 by 0.5, by participation (20%), near-end-term presentation (30%), and end-term oral examination (50%).
 
