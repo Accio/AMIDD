@@ -2,16 +2,21 @@ Welcome to the website for *Introduction to Applied Mathematics and Informatics
 In Drug Discovery*, the course series running at the Department of Mathematics
 and Informatics, University of Basel in the fall semester 2020.
 
+We focus on interdisciplinary research in drug discovery with mathematics as the
+language and informatics as the tool. More information on the course can be
+found at [the course directory of the University
+Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=251981).
+
 ## Lectures with Zoom: registration required
 
-Due to the coronavirus pandemic, the course in the fall semester 2020 will take
-place online with *Zoom*.
+Due to the coronavirus pandemic, the course in 2020 will take place online with
+*Zoom*.
 
 In order to attend the interactive lectures, please register yourself once for
-the Zoom meetings at
-[https://unibas.zoom.us](https://unibas.zoom.us/meeting/register/tJwof-6upzktE92okfuCd-2UY3z8iQWvF7Dk).
-The registration is necessary for both students who want to get credits and for auditors of
-the course.
+the Zoom meetings with
+[this link at https://unibas.zoom.us](https://unibas.zoom.us/meeting/register/tJwof-6upzktE92okfuCd-2UY3z8iQWvF7Dk).
+The registration is necessary for students who want to get credits and for
+auditors.
 
 ## Time and place
 
@@ -53,18 +58,10 @@ The final note is given by participation (20%), presentation (30%), and an oral 
 
 The oral examination (~20 min) will be about concepts that we learned together, and about explaining mathematical concepts (or concepts in your domain of experts) to a layman - your lecturer.
 
-## Further information
-
-* We focus on interdisciplinary research with mathematics as the language and
-  informatics as the tool.
-
-* I do not offer exercise hour yet. Pre-reading and post-reading articles, as
-  well as videos, are shared and recommended.
-
-
 ## Further questions or suggestions?
 
-Please contact the lecturer, Jitao David Zhang, at [jitao-david.zhang@unibas.ch](mailto:jitao-david.zhang@unibas.ch).
+Please contact the lecturer, Jitao David Zhang, at
+[jitao-david.zhang@unibas.ch](mailto:jitao-david.zhang@unibas.ch).
 
 ## Archives of past courses
 
