@@ -1,4 +1,5 @@
-**This is an archived page of the course 2019.** Visit [here]({{site.url}}) to
+<span style="font-weight:bold;color:red;">This is an archived page of the
+course 2019.</span> Visit [here]({{site.url}}) to
 view the page of the current course.
 
 Welcome to the website for *Introduction to Applied Mathematics and Informatics In Drug Discovery*, the course series running at the Department of Mathematics and Informatics, University of Basel.
