@@ -46,7 +46,7 @@ Commons (CC-BY-SA 4.0) license.
 7. Omics and cellular modelling (30.10.2020)
 9. PK/PD and PBPK modelling (06.11.2020)
 9. Population modelling and clinical trials (13.11.2020)
-10. Guest speakers (TBD) (22.11.)
+10. Guest speakers (TBD) (20.11.)
 11. *Dies academicus - optional Ask Me Anything session* (27.11.)
 12. Guest speakers (TBD) (4.12)
 13. Student presentation (I) (11.12.)
