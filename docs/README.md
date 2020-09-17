@@ -20,9 +20,12 @@ auditors.
 
 ## Time and place
 
-The lecture takes place on Fridays between 12:15 and 14:00 on Zoom. You can add
-the events to your calendar once you register for the Zoom meetings with the
-link above.
+The lecture takes place on Fridays between 12:15 and 13:45 exclusively on Zoom.
+The meeting will be active between 12:00 and 14:00, so that any questions to the
+lecturer can be addressed before and after the lecture.
+
+You can add the events to your calendar once you register for the Zoom meetings
+with the link above.
 
 ## Course material and licensing
 
@@ -54,9 +57,14 @@ Commons (CC-BY-SA 4.0) license.
 
 ## Assessment
 
-The final note is given by participation (20%), presentation (30%), and an oral examination (50%).
+The final note is given by participation (20%), presentation (30%), and project
+work (50%).
 
-The oral examination (~20 min) will be about concepts that we learned together, and about explaining mathematical concepts (or concepts in your domain of experts) to a layman - your lecturer.
+The project work will be about concepts that we learned together and their
+applications in practice. The work will be judged by how you work within a team,
+how you find and integrate information, and how well you explain your findings
+to a general, non-expert readership. Details will follow when the attendee list
+is finalized.
 
 ## Further questions or suggestions?
 
