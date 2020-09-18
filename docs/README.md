@@ -40,20 +40,45 @@ Commons (CC-BY-SA 4.0) license.
 
 ## Syllabus
 
-1. Drug discovery: an overview (18.09.2020)
-2. Let's start with the real business (25.09.2020)
-3. Biological sequence analysis (02.10.2020)
-4. From protein structure to screening (09.10.2020)
-5. Screening and drug design (16.10.2020)
-6. From molecular modelling to network analysis (23.10.2020)
-7. Omics and cellular modelling (30.10.2020)
-9. PK/PD and PBPK modelling (06.11.2020)
-9. Population modelling and clinical trials (13.11.2020)
-10. Guest speakers (TBD) (20.11.)
-11. *Dies academicus - optional Ask Me Anything session* (27.11.)
-12. Guest speakers (TBD) (4.12)
-13. Student presentation (I) (11.12.)
-14. Student presentation (II) (18.12.)
+### 1. Drug discovery: an overview (18.09.2020)
+
+* [Slides]({{site.assetbaseurl}}{% link assets/2020/01/AMIDD-2020-01-Intro.pdf
+  %})
+* [Recording (passcode shared by
+  emails)](https://unibas.zoom.us/rec/share/e_cN59wIfaX-CT_2fBM_zGe3THf3Zp4Eocqta5CsHoYC4di4qWOc6dERDrx6o7U1.6PnEMww6h9c5ywYC)
+* Material for offline activities (see slides 28-31)
+    * [Link to the video](https://www.ibiology.org/human-disease/herceptin/) on
+      the discovery and development of Herceptin, by Susan Desmond-Hellmann
+    * [Principles of early drug discovery]({{site.assetbaseurl}}{% link
+      assets/2019/01/Principles-DD-Hughes.pdf %}) by Hughes *et al.*
+    * Handout [package insert demo]({{site.assetbaseurl}}{% link
+      assets/2020/01/package-insert-demo.pdf %})
+
+### 2. Discovery of Vemurafenib and biological sequence analysis (I) (25.09.2020)
+
+### 3. Biological sequence analysis (II) (02.10.2020)
+
+### 4. From protein structure to screening (09.10.2020)
+
+### 5. Molecular property prediction and molecular modelling (16.10.2020)
+
+### 6. From molecular networks to omics and cellular modelling (23.10.2020)
+
+### 7. Omics and cellular modelling (II) (30.10.2020)
+
+### 8. PK/PD and PBPK modelling (06.11.2020).
+
+### 9. Population modelling and clinical trials (13.11.2020)
+
+### 10. Guest speakers (to be announced) (20.11.2020)
+
+### 11. *Dies academicus - optional Ask Me Anything session* (27.11.)
+
+### 12. Guest speakers (TBA) (4.12)
+
+### 13. Student presentation (I) (11.12.)
+
+### 14. Student presentation (II) (18.12.)
 
 ## Assessment
 
