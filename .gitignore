@@ -9,3 +9,4 @@ slides/*.pdf
 
 *.log
 *.RData
+.DS_Store
