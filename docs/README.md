@@ -58,7 +58,8 @@ Commons (CC-BY-SA 4.0) license.
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2020/02/AMIDD-02-BioSeq.pdf %})
 * In- and after-read: [Bollag *et al.*, 2010]({{site.assetbaseurl}}{% link assets/2020/02/Bollag-Nature-2010.pdf %})
-* [Handout]({{site.assetbaseurl}}{% link assets/2020/02/Lecture 2 Handout.pdf %}) for this and the next lecture
+* [Handout]({{site.assetbaseurl}}{% link assets/2020/02/Lecture 2 Handout.pdf
+  %}) for this and the next lecture.
 
 ### 3. Biological sequence analysis (II) (02.10.2020)
 
