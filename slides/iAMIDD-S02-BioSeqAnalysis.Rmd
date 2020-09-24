@@ -68,7 +68,7 @@ See the notes
 ---
 
 - The minimum number of operations required to transform string $a$ to string $b$ with following operations:
-    * Insersion, for instance sit $\textrm{bat}~\rightarrow~\textrm{bait}$ 
+    * Insertion, for instance sit $\textrm{bat}~\rightarrow~\textrm{bait}$ 
     * Deletion, \textit{e.g.} $\textrm{boat}~\rightarrow~\textrm{bot}$
     * Substitution, \textit{e.g.} $\textrm{pig}~\rightarrow~\textrm{big}$
 - The Levenshtein distance between two strings $a, b$ of length $|a|$ and $|b|$ respectively is given by $\operatorname{lev}_{a,b}(|a|,|b|)$ where
