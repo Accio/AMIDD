@@ -56,12 +56,10 @@ Commons (CC-BY-SA 4.0) license.
 
 ### 2. Discovery of Vemurafenib and biological sequence analysis (I) (25.09.2020)
 
-    * [Slides]({{site.assetbaseurl}}{% link assets/2020/02/AMIDD-02-BioSeqAnalysis.pdf %})
-    * In- and after-read: [Bollag *et al.*, 2010]({{site.assetbaseurl}}{% link assets/2020/02/Bollag-Nature-2010.pdf %})
-    * [Handout]({{site.assetbaseurl}}{% link assets/2020/02/Lecture 2 Handout.pdf %})
+* [Slides]({{site.assetbaseurl}}{% link assets/2020/02/AMIDD-02-BioSeq.pdf %})
+* In- and after-read: [Bollag *et al.*, 2010]({{site.assetbaseurl}}{% link assets/2020/02/Bollag-Nature-2010.pdf %})
+* [Handout]({{site.assetbaseurl}}{% link assets/2020/02/Lecture 2 Handout.pdf %}) for this and the next lecture
 
-4. Biological sequence analysis (4.10.)
-    * [Slides]({{site.assetbaseurl}}{% link assets/2019/02/AMIDD-02-BioSeq.pdf %})
 ### 3. Biological sequence analysis (II) (02.10.2020)
 
 ### 4. From protein structure to screening (09.10.2020)
