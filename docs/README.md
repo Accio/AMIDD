@@ -52,14 +52,16 @@ Commons (CC-BY-SA 4.0) license.
     * [Principles of early drug discovery]({{site.assetbaseurl}}{% link
       assets/2019/01/Principles-DD-Hughes.pdf %}) by Hughes *et al.*
     * Handout [package insert demo]({{site.assetbaseurl}}{% link
-      assets/2020/01/package-insert-demo.pdf %})
+      assets/2020/01/package-insert-demo.pdf %}).
 
 ### 2. Discovery of Vemurafenib and biological sequence analysis (I) (25.09.2020)
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2020/02/AMIDD-02-BioSeq.pdf %})
-* In- and after-read: [Bollag *et al.*, 2010]({{site.assetbaseurl}}{% link assets/2020/02/Bollag-Nature-2010.pdf %})
-* [Handout]({{site.assetbaseurl}}{% link assets/2020/02/Lecture 2 Handout.pdf
-  %}) for this and the next lecture.
+* Material for offline activities
+    * Reading: [Clinical efficacy of a RAF inhibitor needs broad target
+blockade in BRAF-mutant melanoma]({{site.assetbaseurl}}{% link
+assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
+    * [Handout]({{site.assetbaseurl}}{% link assets/2020/02/Lecture 2 Handout.pdf %}) for this and the next lecture.
 
 ### 3. Biological sequence analysis (II) (02.10.2020)
 
