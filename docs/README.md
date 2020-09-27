@@ -54,16 +54,18 @@ Commons (CC-BY-SA 4.0) license.
     * Handout [package insert demo]({{site.assetbaseurl}}{% link
       assets/2020/01/package-insert-demo.pdf %}).
 
-### 2. Discovery of Vemurafenib and biological sequence analysis (I) (25.09.2020)
+### 2. The central dogma and the discovery of Vemurafenib (25.09.2020)
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2020/02/AMIDD-02-BioSeq.pdf %})
+* [Recording (passcode shared by
+  emails)](https://unibas.zoom.us/rec/share/1yaZcUTrRrZzRviEfp7c02iU-xFrxWns7BpK4sFWzLMXP6enZPxxowN3XOV0JnQS.JztO8flu6yG_pdWG)
 * Material for offline activities
     * Reading: [Clinical efficacy of a RAF inhibitor needs broad target
 blockade in BRAF-mutant melanoma]({{site.assetbaseurl}}{% link
 assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
     * [Handout]({{site.assetbaseurl}}{% link assets/2020/02/Lecture 2 Handout.pdf %}) for this and the next lecture.
 
-### 3. Biological sequence analysis (II) (02.10.2020)
+### 3. Biological sequence analysis (02.10.2020)
 
 ### 4. From protein structure to screening (09.10.2020)
 
@@ -89,8 +91,8 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 ## Assessment
 
-The final note is given by participation (20%), presentation (30%), and project
-work (50%).
+The final note is given by participation (40%), presentation (30%), and project
+work (30%).
 
 The project work will be about concepts that we learned together and their
 applications in practice. The work will be judged by how you work within a team,
