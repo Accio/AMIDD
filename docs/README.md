@@ -69,8 +69,8 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2020/03/AMIDD-03-BioSeq.pdf %})
 * Material for offline activities
-    * Reading: [Tsai *et al.*, PNAS, 2008]({{site.assetbaseurl}}{% link
-      assets/2020/03/Tsai-BRAF-PNAS-2008.pdf %})
+    * Reading: [Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity]({{site.assetbaseurl}}{% link
+      assets/2020/03/Tsai-BRAF-PNAS-2008.pdf %}) by Tsai *et al.*, PNAS 2008.
 
 ### 4. From protein structure to screening (09.10.2020)
 
