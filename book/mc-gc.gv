@@ -1,0 +1,23 @@
+digraph {
+  A
+  C
+  G
+  T
+
+  A->A [label=".180"]
+  A->C [label=".274"]
+  A->G [label=".426"]
+  A->T [label=".120"]
+  C->A [label=".171"]
+  C->C [label=".368"]
+  C->G [label=".274"]
+  C->T [label=".188"]
+  G->A [label=".161"]
+  G->C [label=".339"]
+  G->G [label=".375"]
+  G->T [label=".125"]
+  T->A [label=".079"]
+  T->C [label=".355"]
+  T->G [label=".384"]
+  T->T [label=".182"]
+}
