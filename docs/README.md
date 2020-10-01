@@ -67,6 +67,11 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 ### 3. Biological sequence analysis (02.10.2020)
 
+* [Slides]({{site.assetbaseurl}}{% link assets/2020/03/AMIDD-03-BioSeq.pdf %})
+* Material for offline activities
+    * Reading: [Tsai *et al.*, PNAS, 2008]({{site.assetbaseurl}}{% link
+      assets/2020/03/Tsai-BRAF-PNAS-2008.pdf %})
+
 ### 4. From protein structure to screening (09.10.2020)
 
 ### 5. Molecular property prediction and molecular modelling (16.10.2020)
