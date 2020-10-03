@@ -68,6 +68,8 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 ### 3. Biological sequence analysis (02.10.2020)
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2020/03/AMIDD-03-BioSeq.pdf %})
+* [Recording (passcode shared by
+  emails)](https://unibas.zoom.us/rec/share/cnNZRdBhhFUVzubT58YF3ZqH8DJtRk9rSH-FjfzfC2EmQR_k5hjubHa13BKlOF2R.mVg4-j9HRCEU3Mao)
 * Material for offline activities
     * Reading: [Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity]({{site.assetbaseurl}}{% link
       assets/2020/03/Tsai-BRAF-PNAS-2008.pdf %}) by Tsai *et al.*, PNAS 2008.
