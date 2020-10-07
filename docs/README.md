@@ -86,11 +86,17 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 ### 9. Population modelling and clinical trials (13.11.2020)
 
-### 10. Guest speakers (to be announced) (20.11.2020)
+### 10. Guest-speaker session (I) (20.11.2020)
+
+* Presentation by Nicolò Milani (12:15-13:00)
+* To be announced
 
 ### 11. *Dies academicus - optional Ask Me Anything session* (27.11.)
 
-### 12. Guest speakers (TBA) (4.12)
+### 12. Guest-speaker session (II) (4.12)
+
+* Presentation by Detlef Wolf (12:15-13:00)
+* Presentation by Jenny Devenport (13:10-13:55)
 
 ### 13. Student presentation (I) (11.12.)
 
