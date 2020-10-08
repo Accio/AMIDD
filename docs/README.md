@@ -76,6 +76,10 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 ### 4. From protein structure to screening (09.10.2020)
 
+* [Slides]({{site.assetbaseurl}}{% link assets/2020/04/AMIDD-04-BioSeq.pdf %})
+* Recording (to be announced)
+* Material for offline activities (to be announced)
+
 ### 5. Molecular property prediction and molecular modelling (16.10.2020)
 
 ### 6. From molecular networks to omics and cellular modelling (23.10.2020)
@@ -88,15 +92,15 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 ### 10. Guest-speaker session (I) (20.11.2020)
 
-* Presentation by Nicolò Milani (12:15-13:00)
-* To be announced
+* Guest speaker Nicolò Milani (12:15-13:00)
+* Guest speaker to be announced
 
 ### 11. *Dies academicus - optional Ask Me Anything session* (27.11.)
 
 ### 12. Guest-speaker session (II) (4.12)
 
-* Presentation by Detlef Wolf (12:15-13:00)
-* Presentation by Jenny Devenport (13:10-13:55)
+* Guest speaker Detlef Wolf (12:15-13:00)
+* Guest speaker Jenny Devenport (13:10-13:55)
 
 ### 13. Student presentation (I) (11.12.)
 
