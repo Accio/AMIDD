@@ -77,7 +77,8 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 ### 4. From protein structure to screening (09.10.2020)
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2020/04/AMIDD-04-screening.pdf %})
-* Recording (to be announced)
+* [Recording (passcode shared by
+  emails)](https://unibas.zoom.us/rec/share/wm2aYWd_iHbEkNN2V5yyxVzbnDQumgOb6l2hnRXqL65ZVAICl9XpCO7qhHClwFJY.DZZQmLhGPANz1MUE)
 * Material for offline activities (to be announced)
 
 ### 5. Molecular property prediction and molecular modelling (16.10.2020)
