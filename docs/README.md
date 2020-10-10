@@ -76,10 +76,24 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 ### 4. From protein structure to screening (09.10.2020)
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2020/04/AMIDD-04-screening.pdf %})
+* [Slides]({{site.assetbaseurl}}{% link assets/2020/04/AMIDD-04-screening.pdf
+  %})
 * [Recording (passcode shared by
   emails)](https://unibas.zoom.us/rec/share/wm2aYWd_iHbEkNN2V5yyxVzbnDQumgOb6l2hnRXqL65ZVAICl9XpCO7qhHClwFJY.DZZQmLhGPANz1MUE)
-* Material for offline activities (to be announced)
+* Material for offline activities
+    * [*Evaluation of the Biological Activity of Compounds: Techniques and
+      Mechanism of Action Studies*]({{site.assetbaseurl}}{% link
+      assets/2020/04/BiologicalActivity-Dougall-Unitt.pdf%}) by Iain
+      G. Dougall and John Unitt, chapter two of the book *The Practice of
+      Medicinal Chemistry*.
+      **To answer offline-activity questions**, it is required to read pages
+      15-22 (1-8 of the 29 pages in total, before section &lsquo;*4. Types of Enzyme
+      Inhibition and Their Analysis*&rsquo;), page 27 (section 6A), and page
+      34-37 (*Assay Biostatistics*). The rest is optional reading.
+    * [Mathematics techniques in structural biology]({{site.assetbaseurl}}{%
+      link assets/2020/04/JRQuine-MathBiophysicsBook.pdf %}) by John R. Quine.
+      Recommended booklet for students interested in applications of mathematics
+      in determining structures of DNA and proteins without or with drugs.
 
 ### 5. Molecular property prediction and molecular modelling (16.10.2020)
 
