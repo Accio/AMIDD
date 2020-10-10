@@ -88,7 +88,7 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
       Medicinal Chemistry*.
       **To answer offline-activity questions**, it is required to read pages
       15-22 (1-8 of the 29 pages in total, before section &lsquo;*4. Types of Enzyme
-      Inhibition and Their Analysis*&rsquo;), page 27 (section 6A), and page
+      Inhibition and Their Analysis*&rsquo;), page 27 (section 6A), and pages
       34-37 (*Assay Biostatistics*). The rest is optional reading.
     * [Mathematics techniques in structural biology]({{site.assetbaseurl}}{%
       link assets/2020/04/JRQuine-MathBiophysicsBook.pdf %}) by John R. Quine.
