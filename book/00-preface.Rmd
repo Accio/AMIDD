@@ -1,10 +1,10 @@
 ---
-bibliography: literature-for-review.bibtex
-output:
-  pdf_document:
-    citation_package: natbib
-  bookdown::pdf_book:
-    citation_package: biblatex
+bibliography: 00-preface.bibtex
+geometry: margin=2cm
+linkcolor: "blue"
+mainfont: "DejaVu Serif"
+monofont: "DejaVu Sans Mono"
+output:  pdf_document
 ---
 
 # Preface {-}
@@ -126,13 +126,9 @@ The content of the book is organized in three parts:
 
 ### Part I: Introduction to Modern Drug Discovery {-}
 
-#### Chapter One: The Past and the Present of Drug Discovery {-}
+#### Chapter One: A Brief History of Modern Drug Discovery {-}
 
-We sketch a brief history of drug discovery, focusing especially on how models
-change our way of finding drugs.
-
-We next examine three important concepts of drug discovery that are relevant for
-later chapters:
+We learn the principles of modern drug discovery by following its history [@hughes_principles_2011], focusing especially on how models change our way of finding drugs. We next examine three important concepts of drug discovery that are relevant for later chapters:
 
 1. the choice between target-based and phenotypic drug discovery,
 2. the balance between efficacy and safety, and
@@ -140,7 +136,7 @@ later chapters:
 
 #### Chapter Two: The Linear View of Drug Discovery {-}
 
-The linear view of drug discovery is prevalent. It is found everywhere from
+The linear view of drug discovery is prevalent [@paul_how_2010]. It is found everywhere from
 scientific publications to websites of pharma companies. In this chapter, we
 will examine it from three perspectives: how can we interpret it? What is the
 time and cost associated with each stage in the linear view? What are the
@@ -154,7 +150,7 @@ understand some aspects of drug discovery.
 
 We examine models constructed at multiple levels, including molecular-level
 models, cellular-level models, system- and organ-level models, and population
-models. They are interconnected, informing and providing feedback to each other.
+models [@zhang_multiscale_2020]. They are interconnected, informing and providing feedback to each other.
 
 We will scrutinize and challenge the multiscale-modelling view: what are its
 advantages and disadvantages compared with the linear view? What new insights
@@ -177,7 +173,7 @@ modelling of drug candidates and their interactions with targets.
 The central dogma of molecular biology dictates the rule of information flow in
 biological systems. It builds the molecular foundation of drug discovery. Drugs,
 in order to treat diseases, must modulate components specified in the central
-dogma.
+dogma [@santos_comprehensive_2017].
 
 We learn how biological information is stored in and transferred between DNA
 (the building blocks of the genome), RNA (the building blocks of the
@@ -191,7 +187,7 @@ and prions.
 
 DNA, RNA, and protein sequence analysis plays an important role in drug target
 identification and assessment. We introduce both deterministic
-and probabilistic approaches to biological sequences analysis, using the
+and probabilistic approaches to biological sequences analysis [@durbin_biological_1998; ], using the
 Levenshtein distance, dynamic programming, and (hidden) Markov chains as
 examples.
 
@@ -442,32 +438,9 @@ the future.
 We would like to thank many mentors, colleagues, and friends who have helped
 and supported us. (To be filled)
 
-## Relevant literature {-}
-
-Below we list selected literature that are relevant for multiscale modelling in
-drug discovery.
-
-[@hughes_principles_2011]
-[@quine_mathematical_nodate]
-[@sliwoski_computational_2014]
-[@mortensen_introduction_2008]
-[@upton_basic_2014]
-[@mould_basic_2013]
-[@mould_basic_2012]
-[@ledder_mathematics_2013]
-[@durbin_biological_1998]
-[@drews_drug_2000]
-[@paul_how_2010]
-[@dickson_key_2004]
-[@zhang_multiscale_2020]
-[@compeau_bioinformatics_2015]
-[@yang_machine-learning-guided_2019]
-[@hoch_drug_nodate]
-[@kenakin_pharmacology_2019]
-[@gerald_drug_2013]
-[@gabrielsson_pharmacokinetic_2006]
-[@haefner_modeling_2005]
-
 ## Licensing {-}
 
 <a rel="licence" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="figures/CC-BY-SA-4.0.png" /></a><br />The online version of this book is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International Licence</a>.
+
+## References
+

@@ -14,15 +14,8 @@ render-all:
 
 proposal: book-proposal-zhang-202005.pdf
 
-book-proposal-zhang-202005.pdf: 00-preface.Rmd
-	pandoc -f markdown \
-            -V linkcolor:blue \
-            -V geometry:a4paper \
-            -V geometry:margin=2cm \
-            -V mainfont="DejaVu Serif" \
-            -V monofont="DejaVu Sans Mono" \
-            --pdf-engine=xelatex \
-            00-preface.Rmd -o book-proposal-zhang-202005.pdf
+book-proposal-zhang-202010.pdf: 00-preface.Rmd
+	R -e "rmarkdown::render('00-preface.Rmd', output_file='book-proposal-zhang-202010.pdf')"
 
 00-preface.txt: 00-preface.Rmd
 	## to copy the context to xclip (using clipboard)
