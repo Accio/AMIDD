@@ -187,7 +187,7 @@ and prions.
 
 DNA, RNA, and protein sequence analysis plays an important role in drug target
 identification and assessment. We introduce both deterministic
-and probabilistic approaches to biological sequences analysis [@durbin_biological_1998; ], using the
+and probabilistic approaches to biological sequences analysis [@durbin_biological_1998; @compeau_bioinformatics_2015; @caporaso_introduction_nodate], using the
 Levenshtein distance, dynamic programming, and (hidden) Markov chains as
 examples.
 
@@ -201,7 +201,8 @@ In target-based drug discovery, structural information of the target is
 critical. Its resolution and availability often determine how a discovery
 project is designed and executed. Even for phenotypic discovery projects,
 structural information can be helpful because it may allow the prediction of
-potential targets and off-targets of the drug candidate.
+potential targets and off-targets of the drug candidate [@schlick_molecular_2010].
+
 
 For DNA and RNA targets, we focus on the thermodynamic modelling of DNA/RNA and
 RNA/RNA interactions. It complements sequence analysis introduced in the last
@@ -218,13 +219,14 @@ information.
 #### Chapter Seven: Structure-based Modelling {-}
 
 Structure-based modelling describes and predicts binding modes between a drug
-candidate and its target (or targets). It is essential for target-based drug
-discovery because the binding profile largely determines the efficacy and safety
-profiles of a molecule. Structure-based modelling and medicinal chemistry
-experiments complement and inform each other to improve the affinity and
-specificity of a molecule iteratively. We examine the concepts and techniques of
-structure-based modelling for computer-aided drug design. We also discuss
-further applications including toxicity prediction and virtual screening.
+candidate and its target [@sliwoski_computational_2014]. It is essential for
+target-based drug discovery because the binding profile largely determines the
+efficacy and safety profiles of a molecule. Structure-based modelling and
+medicinal chemistry experiments complement and inform each other to improve the
+affinity and specificity of a molecule iteratively. We examine the concepts and
+techniques of structure-based modelling for computer-aided drug design. We also
+discuss further applications including toxicity prediction and virtual
+screening.
 
 #### Chapter Eight: Ligand-based Modelling {-}
 
@@ -232,12 +234,12 @@ Complementary to structure-based modelling, ligand-based modelling uses
 cheminformatics tools to describe chemical molecules and to infer their
 physicochemical and biological properties. We highlight the key concepts and
 approaches to ligand-based modelling, its commonality with and differences from
-structure-based modelling, and its applications in drug discovery.
+structure-based modelling, and its applications in drug discovery [@brown_silico_2015].
 
 #### Chapter Nine: Antibody Design {-}
 
 Antibodies are proteins that bind to and modulate the function of other
-proteins. Engineered human antibodies represent an important class of drugs. We
+proteins. Engineered human antibodies represent an important class of drugs [@jain_biophysical_2017]. We
 introduce key models that are critical for therapeutic antibody design. We also
 review tools and databases that assist antibody design.
 
@@ -266,15 +268,16 @@ We introduce the principles of selected sequencing technologies, including the
 Illumina next-generation sequencing and Nanopore sequencing. We discuss key
 concepts and models to analyse the sequencing data. And we examine their
 applications in drug discovery. In particular, we will introduce selected
-approaches to single-cell sequencing data analysis and multimodal analysis.
-Results of these analyses hold promise for knowledge about diseases and body-drug
-interactions on the level of individual cells and between-cell interactions.
+approaches to molecular phenotyping [@drawnel_molecular_2017], single-cell sequencing data analysis and multimodal analysis.
+Results of these analyses hold promise for knowledge about diseases and
+body-drug interactions on the level of individual cells and between-cell
+interactions.
 
 #### Chapter Twelve: Proteomics and Metabolomics {-}
 
 Proteomics and metabolomics describe abundance, modulation, and homeostasis of
 proteins and metabolites, respectively. Study of the healthy baseline and
-pathologically disturbed states of these systems reaveal a wealth of drug
+pathologically disturbed states of these systems reveal a wealth of drug
 target and mechanistic information of how drug works. Proteomics and
 metabolomics technologies find a wide range of applications in drug discovery,
 from quantification of drug-target binding to accurate quantification of
@@ -302,7 +305,7 @@ biological imaging data analysis.
 
 Pharmacokinetic (PK) modelling describes and predicts what the body does to the
 drug. Pharmacodynamic (PD) modelling, on the other hand, describes and predicts
-what the drug does to the body.
+what the drug does to the body [@gabrielsson_pharmacokinetic_2016].
 
 We introduce the basic models of PK and PD modelling, including a
 one-compartment PK model, a two-compartment PK model, and a joint PK-PD model.
@@ -315,7 +318,7 @@ Physiologically based pharmacokinetic (PBPK) modelling represents our knowledge
 of human physiology in mathematical structures. It can be seen as a natural
 extension of the PK and PD models introduced in the last chapter. PBPK models
 are applied for a wide range of purposes from animal-human translation to
-paediatric dose selection.
+paediatric dose selection [@jones_basic_2013; @kuepfer_applied_2016].
 
 We introduce the basic concepts and principles of PBPK modelling and tools to
 construct and analyse the models.
@@ -328,7 +331,8 @@ patient-specific characteristics collected in clinical studies. They can
 identify mechanisms of actions of drugs, which may offer insight for compound
 optimization or even lead to the identification of new targets. They can also
 assess safety liabilities under varying dosing regimens in different populations
-quantitatively.
+quantitatively [@knight-schrijver_promises_2016; @leil_quantitative_2014;
+@helmlinger_drug-disease_2017].
 
 We introduce principles and basic applications of system models to investigate
 both efficacy and safety profiles of drug candidates. We will learn from systems
@@ -341,7 +345,7 @@ models developed in drug discovery and development projects.
 Randomized controlled trial (RCT) is the gold standard of measuring the
 effectiveness of an intervention or a treatment. It is used in the form of
 clinical trials to examine the efficacy and safety profiles of a drug in a
-defined patient population.
+defined patient population [@evans_clinical_2010].
 
 We learn key concepts and principles of designing a randomized controlled trial,
 including statistical power calculation, randomization, blinding, and causal
@@ -352,7 +356,7 @@ inference. We also examine the common forms of clinical trials in drug discovery
 Population modelling informs common trends and individual variabilities of PK
 and PD profiles of a drug. It is used to infer associations between individual
 variables (age, sex, genotype, *etc.*) and PK/PD profiles in clinical
-pharmacology. We introduce the basic concepts of population modelling and its
+pharmacology [@sheiner_population_1999]. We introduce the basic concepts of population modelling and its
 techniques, in particular the statistical model known as non-linear mixed-effect
 modelling.
 
@@ -363,8 +367,9 @@ personal data, omics data, medical records, and other data types that can be
 potentially used to infer efficacy and safety profiles of drugs. Classically,
 real-world data, like clinical-trial data, are analysed 'for-purpose' to serve
 the development of the drug product for which the data were collected.
-Recently, however, researchers realize the potential of such data to inform
-both preclinical discovery and clinical research.
+Recently, however, more researchers realize the potential of such data to inform
+both preclinical discovery and clinical research [@gibbs_bedside_2018;
+@miksad_harnessing_2018; @schneeweiss_real-world_2018].
 
 The term *reverse translation* was coined to indicate the practice of informing
 drug discovery with insights from drug development and real-world evidence. It
@@ -379,7 +384,7 @@ challenges.
 #### Chapter Twenty: Examples of Multiscale Modelling in Drug Discovery {-}
 
 We examine state-of-the-art practice and emerging patterns of multiscale
-modelling in drug discovery. The examples come from both industrial and academic
+modelling in drug discovery [@walpole_multiscale_2013; @amaro_multiscale_2018]. The examples come from both industrial and academic
 research.
 
 In particular, the study of (i) excitable systems, (ii) stem-cell drive complex
