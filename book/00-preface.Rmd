@@ -427,16 +427,10 @@ may also help us make better decisions that are optimized given uncertainty and
 risk. If implemented, these measures may revolutionize the way we find drugs in
 the future.
 
-### Appendix {-}
-
-1. Mathematics
-2. Statistics
-3. Programming
-
 ## Acknowledgement {-}
 
 We would like to thank many mentors, colleagues, and friends who have helped
-and supported us. (To be filled)
+and supported us.
 
 ## Licensing {-}
 
