@@ -118,13 +118,13 @@ $$
 
 In the reaction above, the law of mass action will entitle four non-linear
 ordinary differential equations that define the rate of change of reactants,
-with regard to time $t$.
+with regard to time $t$,
 
 \begin{align}
 \frac{d[E]}{dt} &= -k_f[E][S] + k_r[ES]+k_{cat}[ES], \\
 \frac{d[S]}{dt} &= -k_f[E][S] + k_r[ES], \\
 \frac{d[ES]}{dt} &= k_f[E][S] - k_r[ES] - k_{cat}[ES], \\
-\frac{d[P]}{dt]} &= k_{cat}[ES],
+\frac{d[P]}{dt} &= k_{cat}[ES],
 \end{align}
 
 where
@@ -160,7 +160,7 @@ k_f[E]_0[S] &= [ES](k_{r}+k_f[S]) \\
 [ES] &= \frac{k_f[E]_0[S]}{k_f(\frac{k_r}{k_f} + [S])} \\
 \end{align}
 
-If we define the dissociation constant $K_D$ as $\frac{k_r}{k_f}$, we get that
+If we define the dissociation constant $K_D \equiv \frac{k_r}{k_f}$, we get
 
 $$ [ES] = \frac{[E]_0[S]}{K_D+[S]} $$
 
@@ -177,7 +177,7 @@ $$ v = \frac{V_{max}[S]}{K_D + [S]} $$
 An alternative assumption known as the quasi-steady-state assumption of the
 pseudo-steady-state assumption, proposed by Briggs and Haldane, is that the
 concentration of the intermediate complex remains constant on the time scale of
-product formation. It can be expressed mathematically as $ k_f[E][S] =
+product formation. It can be expressed mathematically as $k_f[E][S] =
 k_r[ES]+k_{cat}[ES] = (k_r+k_{cat})[ES]$. Apparently, this has essentially the
 same mathematical formulation as the assumption above, with $k_r$ replaced by
 $k_r+k_{cat}$. If we accept this assumption, the form of the Michealis-Menten
@@ -201,7 +201,7 @@ cellular and tissue response to a ligand. In either case, geometrically, the
 Hill equation is a special case of a rectangular hyperbola, and has the general
 form of
 
-$$ H = A + B\frac{C^n}{D^n+C^n} $$
+$$ H = H_{max}\frac{x^n}{k^n+x^n} $$
 
 For instance, the response of a cell (for instance, apoptosis, or programmed
 cell death) to a drug candidate may be modelled by the following equation
