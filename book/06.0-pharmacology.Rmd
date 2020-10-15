@@ -16,10 +16,8 @@ the reaction, known as reactants.
 
 $$
 \require{mhchem}
-\ce{H2O + HCl <=> H3O+ + Cl-}
+\ce{L + R <=>[k_1][k_2] LR}
 $$
-
-$$ L + R -> k_1 - K_2 [LR] $$.
 
 Consider the situation where a drug (ligand) binds reversibly to a target
 (a receptor, or more generally a protein) at a single site. We can write the following ordinary differential
@@ -110,16 +108,17 @@ where,
 * $K_{M}$ is known as the Michaelis constant, numerically equal to the substrate
   concentration at which the reaction rate is half of $V_{max}$.
 
-Given a enzyme reaction described below, (TODO: how to present a chemical
-reaction in rmarkdown?), we can derive the Michaelis-Menten model by starting
-from the law of mass action.
+Given a enzyme reaction described below, we can derive the Michaelis-Menten
+model by starting from the law of mass action.
 
-$$ E + S  -> (k_f) <- (k_r) ES -> k_{cat} E+P $$
+$$
+\require{mhchem}
+\ce{E + S <=>[k_f][k_r] ES ->[k_{cat}] E + P}
+$$
 
-In the
-reaction above, the law of mass action will entitle four non-linear ordinary
-differential equations that define the rate of change of reactants, with regard
-to time $t$.
+In the reaction above, the law of mass action will entitle four non-linear
+ordinary differential equations that define the rate of change of reactants,
+with regard to time $t$.
 
 \begin{align}
 \frac{d[E]}{dt} &= -k_f[E][S] + k_r[ES]+k_{cat}[ES], \\
