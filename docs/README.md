@@ -95,7 +95,14 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
       Recommended booklet for students interested in applications of mathematics
       in determining structures of DNA and proteins without or with drugs.
 
-### 5. Molecular property prediction and molecular modelling (16.10.2020)
+### 5. Principles of molecular modelling (16.10.2020)
+
+* [Slides]({{site.assetbaseurl}}{% link
+  assets/2020/05/AMIDD-05-molecular-modelling.pdf
+  %})
+* Recording (passcode shared by
+  emails): link to the announced
+* Material for offline activities: to be announced
 
 ### 6. From molecular networks to omics and cellular modelling (23.10.2020)
 
