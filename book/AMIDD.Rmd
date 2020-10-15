@@ -242,7 +242,7 @@ and prions.
 
 DNA, RNA, and protein sequence analysis plays an important role in drug target
 identification and assessment. We introduce both deterministic
-and probabilistic approaches to biological sequences analysis [@durbin_biological_1998; ], using the
+and probabilistic approaches to biological sequences analysis [@durbin_biological_1998; @compeau_bioinformatics_2015; @caporaso_introduction_nodate], using the
 Levenshtein distance, dynamic programming, and (hidden) Markov chains as
 examples.
 
@@ -256,7 +256,8 @@ In target-based drug discovery, structural information of the target is
 critical. Its resolution and availability often determine how a discovery
 project is designed and executed. Even for phenotypic discovery projects,
 structural information can be helpful because it may allow the prediction of
-potential targets and off-targets of the drug candidate.
+potential targets and off-targets of the drug candidate [@schlick_molecular_2010].
+
 
 For DNA and RNA targets, we focus on the thermodynamic modelling of DNA/RNA and
 RNA/RNA interactions. It complements sequence analysis introduced in the last
@@ -273,13 +274,14 @@ information.
 #### Chapter Seven: Structure-based Modelling {-}
 
 Structure-based modelling describes and predicts binding modes between a drug
-candidate and its target (or targets). It is essential for target-based drug
-discovery because the binding profile largely determines the efficacy and safety
-profiles of a molecule. Structure-based modelling and medicinal chemistry
-experiments complement and inform each other to improve the affinity and
-specificity of a molecule iteratively. We examine the concepts and techniques of
-structure-based modelling for computer-aided drug design. We also discuss
-further applications including toxicity prediction and virtual screening.
+candidate and its target [@sliwoski_computational_2014]. It is essential for
+target-based drug discovery because the binding profile largely determines the
+efficacy and safety profiles of a molecule. Structure-based modelling and
+medicinal chemistry experiments complement and inform each other to improve the
+affinity and specificity of a molecule iteratively. We examine the concepts and
+techniques of structure-based modelling for computer-aided drug design. We also
+discuss further applications including toxicity prediction and virtual
+screening.
 
 #### Chapter Eight: Ligand-based Modelling {-}
 
@@ -287,12 +289,12 @@ Complementary to structure-based modelling, ligand-based modelling uses
 cheminformatics tools to describe chemical molecules and to infer their
 physicochemical and biological properties. We highlight the key concepts and
 approaches to ligand-based modelling, its commonality with and differences from
-structure-based modelling, and its applications in drug discovery.
+structure-based modelling, and its applications in drug discovery [@brown_silico_2015].
 
 #### Chapter Nine: Antibody Design {-}
 
 Antibodies are proteins that bind to and modulate the function of other
-proteins. Engineered human antibodies represent an important class of drugs. We
+proteins. Engineered human antibodies represent an important class of drugs [@jain_biophysical_2017]. We
 introduce key models that are critical for therapeutic antibody design. We also
 review tools and databases that assist antibody design.
 
@@ -321,15 +323,16 @@ We introduce the principles of selected sequencing technologies, including the
 Illumina next-generation sequencing and Nanopore sequencing. We discuss key
 concepts and models to analyse the sequencing data. And we examine their
 applications in drug discovery. In particular, we will introduce selected
-approaches to single-cell sequencing data analysis and multimodal analysis.
-Results of these analyses hold promise for knowledge about diseases and body-drug
-interactions on the level of individual cells and between-cell interactions.
+approaches to molecular phenotyping [@drawnel_molecular_2017], single-cell sequencing data analysis and multimodal analysis.
+Results of these analyses hold promise for knowledge about diseases and
+body-drug interactions on the level of individual cells and between-cell
+interactions.
 
 #### Chapter Twelve: Proteomics and Metabolomics {-}
 
 Proteomics and metabolomics describe abundance, modulation, and homeostasis of
 proteins and metabolites, respectively. Study of the healthy baseline and
-pathologically disturbed states of these systems reaveal a wealth of drug
+pathologically disturbed states of these systems reveal a wealth of drug
 target and mechanistic information of how drug works. Proteomics and
 metabolomics technologies find a wide range of applications in drug discovery,
 from quantification of drug-target binding to accurate quantification of
@@ -357,7 +360,7 @@ biological imaging data analysis.
 
 Pharmacokinetic (PK) modelling describes and predicts what the body does to the
 drug. Pharmacodynamic (PD) modelling, on the other hand, describes and predicts
-what the drug does to the body.
+what the drug does to the body [@gabrielsson_pharmacokinetic_2016].
 
 We introduce the basic models of PK and PD modelling, including a
 one-compartment PK model, a two-compartment PK model, and a joint PK-PD model.
@@ -370,7 +373,7 @@ Physiologically based pharmacokinetic (PBPK) modelling represents our knowledge
 of human physiology in mathematical structures. It can be seen as a natural
 extension of the PK and PD models introduced in the last chapter. PBPK models
 are applied for a wide range of purposes from animal-human translation to
-paediatric dose selection.
+paediatric dose selection [@jones_basic_2013; @kuepfer_applied_2016].
 
 We introduce the basic concepts and principles of PBPK modelling and tools to
 construct and analyse the models.
@@ -383,7 +386,8 @@ patient-specific characteristics collected in clinical studies. They can
 identify mechanisms of actions of drugs, which may offer insight for compound
 optimization or even lead to the identification of new targets. They can also
 assess safety liabilities under varying dosing regimens in different populations
-quantitatively.
+quantitatively [@knight-schrijver_promises_2016; @leil_quantitative_2014;
+@helmlinger_drug-disease_2017].
 
 We introduce principles and basic applications of system models to investigate
 both efficacy and safety profiles of drug candidates. We will learn from systems
@@ -396,7 +400,7 @@ models developed in drug discovery and development projects.
 Randomized controlled trial (RCT) is the gold standard of measuring the
 effectiveness of an intervention or a treatment. It is used in the form of
 clinical trials to examine the efficacy and safety profiles of a drug in a
-defined patient population.
+defined patient population [@evans_clinical_2010].
 
 We learn key concepts and principles of designing a randomized controlled trial,
 including statistical power calculation, randomization, blinding, and causal
@@ -407,7 +411,7 @@ inference. We also examine the common forms of clinical trials in drug discovery
 Population modelling informs common trends and individual variabilities of PK
 and PD profiles of a drug. It is used to infer associations between individual
 variables (age, sex, genotype, *etc.*) and PK/PD profiles in clinical
-pharmacology. We introduce the basic concepts of population modelling and its
+pharmacology [@sheiner_population_1999]. We introduce the basic concepts of population modelling and its
 techniques, in particular the statistical model known as non-linear mixed-effect
 modelling.
 
@@ -418,8 +422,9 @@ personal data, omics data, medical records, and other data types that can be
 potentially used to infer efficacy and safety profiles of drugs. Classically,
 real-world data, like clinical-trial data, are analysed 'for-purpose' to serve
 the development of the drug product for which the data were collected.
-Recently, however, researchers realize the potential of such data to inform
-both preclinical discovery and clinical research.
+Recently, however, more researchers realize the potential of such data to inform
+both preclinical discovery and clinical research [@gibbs_bedside_2018;
+@miksad_harnessing_2018; @schneeweiss_real-world_2018].
 
 The term *reverse translation* was coined to indicate the practice of informing
 drug discovery with insights from drug development and real-world evidence. It
@@ -434,7 +439,7 @@ challenges.
 #### Chapter Twenty: Examples of Multiscale Modelling in Drug Discovery {-}
 
 We examine state-of-the-art practice and emerging patterns of multiscale
-modelling in drug discovery. The examples come from both industrial and academic
+modelling in drug discovery [@walpole_multiscale_2013; @amaro_multiscale_2018]. The examples come from both industrial and academic
 research.
 
 In particular, the study of (i) excitable systems, (ii) stem-cell drive complex
@@ -1519,6 +1524,192 @@ Video: https://www.youtube.com/watch?v=yk14dOOvwMk&list=PLHib7JgKNUUdFEo9lZ4Mnip
 
 
 <!--chapter:end:06-structure-based-modelling.Rmd-->
+
+
+# Drug-target interaction
+
+## Goals
+
+* Drug-target interaction
+* Binding assay versus functional assay
+* Understand how Michaelis-Menten kinetics and dose-response curve are used to
+  characterize drug-target interactions.
+
+## Reversible binding of a drug to its target at a single site
+
+The law of mass action assumes that the rate of a chemical reaction is
+proportional to the product of the concentrations of the entities participating
+the reaction, known as reactants.
+
+$$ L + R -> k_1 - K_2 [LR] $$.
+
+Consider the situation where a drug (ligand) binds reversibly to a target
+(a receptor, or more generally a protein) at a single site. We can write the following ordinary differential
+equation with regard to the production rate of the complex $[LR]$.
+
+$$ \frac{d[LR]}{dt} = k_1[L][R] - k_2[LR] $$.
+
+When the reaction reaches its equilibrium, namely when the production rate is
+constant at zero, we have
+
+$$ k_1[L][R] = k_2[LR] $$.
+
+Note that $ R_{total}=[R] + [LR] $, so we have
+
+\begin{align}
+k_1[L]([R_{total}]-[LR]) & = k_2[LR] , \\
+[LR] &= \frac{k_1[L][R_{total}]}{k_1[L]+k_2}.
+\end{align}
+
+If we define $K_d \equiv k_2/k_1$, we have
+
+$$ [LR] = \frac{[R_{total}][L]}{[L]+K_D} $$
+
+If we plot the relationship between $[LR]$ and $[L]$, we observe a rectangular
+hyperbola curve.
+
+We can interpret $K_D$ in two ways. First, it is the ratio of the velocity of
+the reverse reaction over that of the forward reaction. The smaller the value
+is, the more quickly the ligand-receptor target is formed. Second, notice that
+when $[L]=K_D$, $[LR]=[R_{total}]/2$. $K_D$ there represents the concentration
+of ligand that occupies 50 percent of all receptors.
+
+From physically chemistry we learn that thermodynamics studies can determine the
+relative contributions of enthalpy and entropy of a compound's binding energy.
+The Gibbs free energy of binding ($\DeltaG$) is made up of enthalpic and
+entropic contributions. For reversible binding events, it is described as
+
+$$ \DeltaG = \DeltaH-T\DeltaS $$
+
+The Van't Hoff equation defines the relationship between binding affinity,
+$K_D$, and the temperature, $T$:
+
+$$ ln(K_D) = \frac{\DeltaH/R}{T}-\frac{\DeltaS}{R}, $$
+
+where $R$ is the Gas Constant. By probing binding kinetics at varying
+temperatures, and performing linear regression analysis of $K_D$ versus $1/T$,
+we can infer the relative contribution of enthalpy and entropy to the compound's
+binding energy. The information is valuable because chemists can then optimize
+either enthalpy or entropy contribution or both by modifying chemical
+structures. In drug design, it is desired to increase enthalpic contribution by
+optimising ligand-target interactions , for instance by introducing
+electrostatic interactions, hydrogen bonding, *etc.*. At the same time, it is
+desired to decrease entropic (conformational) contributions by making the compound more rigid, for instance limiting the rotational freedom on binding.
+
+Therefore, we can measure the direct binding of a compound to a target by
+varying its concentration and measuring the concentration of ligand-protein
+complex. The dissociation constant $K_D$ can be estimated from the midpoint of
+the saturation curve. This however requires that we can measure the
+concentration of ligand-receptor complex, which in turn requiring us label the
+test compound, which is not usually feasible.
+
+Alternatively, one can test the competitive binding of a test compound and a
+labelled compound by displacing the labelled compound with increasing
+concentrations of a test compound. This provides an indirect assessment of
+binding.
+
+## Michaelis-Menten kinetics
+
+The Michaelis-Menten kinetics model, named after German biochemist Leonor
+Michaelis and Canadian physician Maud Menten, describes the relationship between
+the rate of enzymatic reactions and the rate of formation of the product as well
+as the concentration of the substrate. It is often used to model biochemical
+reactions involving a single substrate.
+
+The Michaelis-Menten kinetics have the following form:
+
+$$ v = \frac{d[P]}{dt} = \frac{V_{max}[S]}{K_{Ḿ}+[S]}, $$
+
+where
+* $V_{max}$ represents the maximum rate achieved by the system, which is reached
+  at the saturating substrate concentration,
+* $K_{M}$ is known as the Michaelis constant, numerically equal to the substrate
+  concentration at which the reaction rate is half of $V_{max}$.
+
+Given a enzyme reaction described below, (TODO: how to present a chemical
+reaction in rmarkdown?), we can derive the Michaelis-Menten model by starting
+from the law of mass action.
+
+$$ E + S  -> (k_f) <- (k_r) ES -> k_cat E+P $$
+
+In the
+reaction above, the law of mass action will entitle four non-linear ordinary
+differential equations that define the rate of change of reactants, with regard
+to time $t$.
+
+\begin{align}
+\frac{d[E]}{dt} &= -k_f[E][S] + k_r[ES]+k_{cat}[ES], \\
+\frac{d[S]}{dt} &= -k_f[E][S] + k_r[ES], \\
+\frac{d[ES]}{dt} &= k_f[E][S] - k_r[ES] - k_cat[ES], \\
+\frac{d[P]}{dt] &= k_cat[ES],
+\end{align}
+
+where
+* $[E]$, $[S]$, $[ES]$ and $[P]$ represents concentration of the enzyme, the
+  substrate, the enzyme-substrate complex, and the product, respectively.
+  Because the enzyme $E$ is only a catalyst, its total concentration remain
+  constant, namely $[E]+[ES]=[E]_{total}$. We can also write $[E]_{total}$ as
+  $[E]_0$.
+* $k_f$, $k_r$, and $k_{cat}$ represent the rate constant of the forward
+  reaction, the reverse reaction, and the catalytic reaction, respectively.
+
+While it is often feasible (though not always easy) to determine $[E]$, $[S]$,
+and $[P]$ analytically, because their concentration is either specified or
+easily measurable, the quantification of $[ES]$ is usually more challenging,
+because the complex usually exists transiently in a low amount. This fact,
+however, suggests that we can simplify the ODE system by making certain
+assumptions about the chemical system that we study. For instance, we may assume
+that the substrate is in *instantaneous* chemical equilibrium with the complex,
+which suggests
+
+$$ k_{f}[E][S] = k_{r}[ES]. $
+
+Based on the fact that $[E] = [E]_0 - [ES]$, we can deduce the Michaelis-Menten
+model in the following way,
+
+\begin{align}
+k_f([E]_0 - [ES])[S] &= k_{r}[ES]
+k_f[E]_0[S]-k_f[ES][S] &= k_{r}[ES]
+k_f[E]_0[S] &= k_{r}[ES]+k_f[ES][S]
+k_f[E]_0[S] &= [ES](k_{r}+k_f[S])
+[ES] &= \frac{k_f[E]_0[S]}{k_r + k_f[S]}
+[ES] &= \frac{k_f[E]_0[S]}{k_f(\frac{k_r}{k_f} + [S])}
+\end{align}
+
+If we define the dissociation constant $K_d$ as $\frac{k_r}{k_f}$, we get that
+
+$$ [ES] = \frac{[E]_0[S]}{K_d+[S]} $$
+
+Therefore, the velocity of the reaction, $v$, defined as the rate at which the
+product $P$ is formed, can be expressed as
+
+$$ v = \frac{d[P]}{dt} = k_{cat}[ES] = \frac{k_{cat}[E]_0[S]}{K_d + [S]} $$
+
+Assuming that at a certain time point in a reaction, all enzymes form $ES$
+complexes, the velocity of the reaction should then reaches its maximum, because $max([ES])=[E]_0$, when $[E]=0$. We can therefore define $V_{max} \equiv k_{cat}[E]_0$. Therefore
+
+$$ v = \frac{V_{max}[S]}{K_d + [S]} $$
+
+An alternative assumption known as the quasi-steady-state assumption of the
+pseudo-steady-state assumption, proposed by Briggs and Haldane, is that the
+concentration of the intermediate complex remains constant on the time scale of
+product formation. It can be expressed mathematically as $ k_f[E][S] =
+k_r[ES]+k_{cat}[ES] = (k_r+k_{cat})[ES]$. Apparently, this has essentially the
+same mathematical formulation as the assumption above, with $k_r$ replaced by
+$k_r+k_{cat}$. If we accept this assumption, the form of the Michealis-Menten
+model remains largely unchanged, with the only exception that $K_d$ is replaced
+by $K_M$, the Michaelis constant, defined as $K_M \equiv \frac{k_r + k_cat}{k_f}
+$. Whereas the first assumption is valid if the substrate reaches equilibrium on
+a much faster time-scale than the product is formed, the second assumption hold
+true if the enzyme concentration is much less than $[S]$ or $K_M$ or both.
+
+In practice, to determine $V_{max}$ and $K_M$, a series of enzyme assays can be
+run with varying substrate concentrations $[S]$ and measuring the initial
+reaction rate $v_0$. 
+
+## Agonist dose-response curves
+
+<!--chapter:end:06.0-pharmacology.Rmd-->
 
 # Encoding and similarity search of chemical structures {#cheminfo}
 
