@@ -14,6 +14,11 @@ The law of mass action assumes that the rate of a chemical reaction is
 proportional to the product of the concentrations of the entities participating
 the reaction, known as reactants.
 
+$$
+\require{mhchem}
+\ce{H2O + HCl <=> H3O+ + Cl-}
+$$
+
 $$ L + R -> k_1 - K_2 [LR] $$.
 
 Consider the situation where a drug (ligand) binds reversibly to a target
@@ -27,14 +32,14 @@ constant at zero, we have
 
 $$ k_1[L][R] = k_2[LR] $$.
 
-Note that $ R_{total}=[R] + [LR] $, so we have
+Note that $R_{total}=[R] + [LR]$, so we have
 
 \begin{align}
 k_1[L]([R_{total}]-[LR]) & = k_2[LR] , \\
 [LR] &= \frac{k_1[L][R_{total}]}{k_1[L]+k_2}.
 \end{align}
 
-If we define $K_d \equiv k_2/k_1$, we have
+If we define $K_D \equiv k_2/k_1$, we have
 
 $$ [LR] = \frac{[R_{total}][L]}{[L]+K_D} $$
 
@@ -49,15 +54,20 @@ of ligand that occupies 50 percent of all receptors.
 
 From physically chemistry we learn that thermodynamics studies can determine the
 relative contributions of enthalpy and entropy of a compound's binding energy.
-The Gibbs free energy of binding ($\DeltaG$) is made up of enthalpic and
+Roughly speaking, the enthalpy contribution describes whether a chemical
+reaction absorbs or releases energy from or to the environment, and the entropy
+change measures whether the degree of randomness or disorder of the system
+increases or decreases.
+
+The Gibbs free energy of binding ($\Delta G$) is made up of enthalpic and
 entropic contributions. For reversible binding events, it is described as
 
-$$ \DeltaG = \DeltaH-T\DeltaS $$
+$$ \Delta G = \Delta H-T\Delta S $$
 
 The Van't Hoff equation defines the relationship between binding affinity,
 $K_D$, and the temperature, $T$:
 
-$$ ln(K_D) = \frac{\DeltaH/R}{T}-\frac{\DeltaS}{R}, $$
+$$ ln(K_D) = \frac{\Delta H}{R}\frac{1}{T}-\frac{\Delta S}{R}, $$
 
 where $R$ is the Gas Constant. By probing binding kinetics at varying
 temperatures, and performing linear regression analysis of $K_D$ versus $1/T$,
@@ -81,7 +91,7 @@ labelled compound by displacing the labelled compound with increasing
 concentrations of a test compound. This provides an indirect assessment of
 binding.
 
-## Michaelis-Menten kinetics
+## The Michaelis-Menten kinetics
 
 The Michaelis-Menten kinetics model, named after German biochemist Leonor
 Michaelis and Canadian physician Maud Menten, describes the relationship between
@@ -93,7 +103,8 @@ The Michaelis-Menten kinetics have the following form:
 
 $$ v = \frac{d[P]}{dt} = \frac{V_{max}[S]}{K_{Ḿ}+[S]}, $$
 
-where
+where,
+
 * $V_{max}$ represents the maximum rate achieved by the system, which is reached
   at the saturating substrate concentration,
 * $K_{M}$ is known as the Michaelis constant, numerically equal to the substrate
@@ -103,7 +114,7 @@ Given a enzyme reaction described below, (TODO: how to present a chemical
 reaction in rmarkdown?), we can derive the Michaelis-Menten model by starting
 from the law of mass action.
 
-$$ E + S  -> (k_f) <- (k_r) ES -> k_cat E+P $$
+$$ E + S  -> (k_f) <- (k_r) ES -> k_{cat} E+P $$
 
 In the
 reaction above, the law of mass action will entitle four non-linear ordinary
@@ -113,12 +124,13 @@ to time $t$.
 \begin{align}
 \frac{d[E]}{dt} &= -k_f[E][S] + k_r[ES]+k_{cat}[ES], \\
 \frac{d[S]}{dt} &= -k_f[E][S] + k_r[ES], \\
-\frac{d[ES]}{dt} &= k_f[E][S] - k_r[ES] - k_cat[ES], \\
-\frac{d[P]}{dt] &= k_cat[ES],
+\frac{d[ES]}{dt} &= k_f[E][S] - k_r[ES] - k_{cat}[ES], \\
+\frac{d[P]}{dt]} &= k_{cat}[ES],
 \end{align}
 
 where
-* $[E]$, $[S]$, $[ES]$ and $[P]$ represents concentration of the enzyme, the
+
+* $[E]$, $[S]$, $[ES]$ and $[P]$ represent concentration of the enzyme, the
   substrate, the enzyme-substrate complex, and the product, respectively.
   Because the enzyme $E$ is only a catalyst, its total concentration remain
   constant, namely $[E]+[ES]=[E]_{total}$. We can also write $[E]_{total}$ as
@@ -135,33 +147,33 @@ assumptions about the chemical system that we study. For instance, we may assume
 that the substrate is in *instantaneous* chemical equilibrium with the complex,
 which suggests
 
-$$ k_{f}[E][S] = k_{r}[ES]. $
+$$ k_{f}[E][S] = k_{r}[ES]. $$
 
 Based on the fact that $[E] = [E]_0 - [ES]$, we can deduce the Michaelis-Menten
 model in the following way,
 
 \begin{align}
-k_f([E]_0 - [ES])[S] &= k_{r}[ES]
-k_f[E]_0[S]-k_f[ES][S] &= k_{r}[ES]
-k_f[E]_0[S] &= k_{r}[ES]+k_f[ES][S]
-k_f[E]_0[S] &= [ES](k_{r}+k_f[S])
-[ES] &= \frac{k_f[E]_0[S]}{k_r + k_f[S]}
-[ES] &= \frac{k_f[E]_0[S]}{k_f(\frac{k_r}{k_f} + [S])}
+k_f([E]_0 - [ES])[S] &= k_{r}[ES] \\
+k_f[E]_0[S]-k_f[ES][S] &= k_{r}[ES] \\
+k_f[E]_0[S] &= k_{r}[ES]+k_f[ES][S] \\
+k_f[E]_0[S] &= [ES](k_{r}+k_f[S]) \\
+[ES] &= \frac{k_f[E]_0[S]}{k_r + k_f[S]} \\
+[ES] &= \frac{k_f[E]_0[S]}{k_f(\frac{k_r}{k_f} + [S])} \\
 \end{align}
 
-If we define the dissociation constant $K_d$ as $\frac{k_r}{k_f}$, we get that
+If we define the dissociation constant $K_D$ as $\frac{k_r}{k_f}$, we get that
 
-$$ [ES] = \frac{[E]_0[S]}{K_d+[S]} $$
+$$ [ES] = \frac{[E]_0[S]}{K_D+[S]} $$
 
 Therefore, the velocity of the reaction, $v$, defined as the rate at which the
 product $P$ is formed, can be expressed as
 
-$$ v = \frac{d[P]}{dt} = k_{cat}[ES] = \frac{k_{cat}[E]_0[S]}{K_d + [S]} $$
+$$ v = \frac{d[P]}{dt} = k_{cat}[ES] = \frac{k_{cat}[E]_0[S]}{K_D + [S]} $$
 
 Assuming that at a certain time point in a reaction, all enzymes form $ES$
 complexes, the velocity of the reaction should then reaches its maximum, because $max([ES])=[E]_0$, when $[E]=0$. We can therefore define $V_{max} \equiv k_{cat}[E]_0$. Therefore
 
-$$ v = \frac{V_{max}[S]}{K_d + [S]} $$
+$$ v = \frac{V_{max}[S]}{K_D + [S]} $$
 
 An alternative assumption known as the quasi-steady-state assumption of the
 pseudo-steady-state assumption, proposed by Briggs and Haldane, is that the
@@ -170,8 +182,8 @@ product formation. It can be expressed mathematically as $ k_f[E][S] =
 k_r[ES]+k_{cat}[ES] = (k_r+k_{cat})[ES]$. Apparently, this has essentially the
 same mathematical formulation as the assumption above, with $k_r$ replaced by
 $k_r+k_{cat}$. If we accept this assumption, the form of the Michealis-Menten
-model remains largely unchanged, with the only exception that $K_d$ is replaced
-by $K_M$, the Michaelis constant, defined as $K_M \equiv \frac{k_r + k_cat}{k_f}
+model remains largely unchanged, with the only exception that $K_D$ is replaced
+by $K_M$, the Michaelis constant, defined as $K_M \equiv \frac{k_r + k_{cat}}{k_f}
 $. Whereas the first assumption is valid if the substrate reaches equilibrium on
 a much faster time-scale than the product is formed, the second assumption hold
 true if the enzyme concentration is much less than $[S]$ or $K_M$ or both.
@@ -181,3 +193,29 @@ run with varying substrate concentrations $[S]$ and measuring the initial
 reaction rate $v_0$. 
 
 ## Agonist dose-response curves
+
+In functional assays, we often use the Hill equation, a four- or five-parameter
+function which has a sigmoidal curve, to describe the consequence of binding of
+ligand to a target. The Hill equation has two forms: the Hill-Langmuir equation
+is derived from the Langmuir absorption model; the Hill equation reflects the
+cellular and tissue response to a ligand. In either case, geometrically, the
+Hill equation is a special case of a rectangular hyperbola, and has the general
+form of
+
+$$ H = A + B\frac{C^n}{D^n+C^n} $$
+
+For instance, the response of a cell (for instance, apoptosis, or programmed
+cell death) to a drug candidate may be modelled by the following equation
+
+\begin{align}
+E &= E_{max} \frac{[L]^n}{EC_{50}^n + [L]^n} \\
+  &= E_{max} \frac{1}{1+(\frac{EC_{50}}{[L]})^n}
+\end{align}
+
+where
+
+* $[L]$ is the ligand concentration,
+* $[EC_{50}]$ is the drug concentration that produces a 50% maximal response.
+
+The Hill equation represents an example of dose-response curve. Such curves are
+critical for drug candidate characterization and characterization.
