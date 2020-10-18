@@ -114,6 +114,23 @@ quantitative modelling in drug discovery. It delivers neither comprehensive
 discussions nor technicalities of individual modelling methods. References to
 resources dedicated to specific topics are provided at the end of each chapter.
 
+## Why we need such a book?
+
+Many great books cover modelling and system methods in biology, for instance
+@segel_primer_2013, @haefner_modeling_2005, @ingalls_mathematical_nodate, and @murray_mathematical_2002;@voit_first_2013,
+from which we draw inspirations and borrow concepts and examples. However, few
+of such books focus on modelling approaches in drug discovery.
+
+Other books give practical guide to drug discovery, for instance
+@wermuth_practice_2015, @kenakin_pharmacology_2019, and
+@gabrielsson_pharmacokinetic_2016, from which we benefit as well. However, they
+focus on in diverse, specific aspects of drug discovery. For instance, the three
+outstanding textbook dive deep in medicinal chemistry, pharmacology, and
+pharmacokinetic and pharmacodynamic modelling, respectively. In this book, we
+wish to build upon these efforts to present, compare, and link different modelling
+practice in the drug-discovery process, with the wish to provide an overview and
+to integrate them.
+
 ## Organization of the book {-}
 
 The content of the book is organized in three parts:
@@ -131,7 +148,7 @@ The content of the book is organized in three parts:
 #### Chapter One: A Brief History of Modern Drug Discovery {-}
 
 We learn the principles of modern drug discovery by following its history
-[@drews_drug_2000;@hughes_principles_2011], focusing especially on how models change our way of
+[@drews_drug_2000;@hughes_principles_2011;@gerald_drug_2013], focusing especially on how models change our way of
 finding drugs. We next examine three important concepts of drug discovery that
 are relevant for later chapters:
 
@@ -279,9 +296,10 @@ Illumina next-generation sequencing and Nanopore sequencing. We discuss key
 concepts and models to analyse the sequencing data. And we examine their
 applications in drug discovery. In particular, we will introduce selected
 approaches to molecular phenotyping [@drawnel_molecular_2017], single-cell
-sequencing data analysis and multimodal analysis.  Results of these analyses
-hold promise for knowledge about diseases and body-drug interactions on the
-level of individual cells and between-cell interactions.
+sequencing data analysis [@madler_besca_2020], and multimodal analysis, including machine learning
+[@badillo_introduction_2020]. Results of these analyses hold promise for
+knowledge about diseases and body-drug interactions on the level of individual
+cells and between-cell interactions.
 
 #### Chapter Twelve: Proteomics and Metabolomics {-}
 
@@ -305,9 +323,9 @@ chapters for studies of body-drug interactions. Application of imaging spans a
 wide range between molecular modelling and population modelling.
 
 Here, we first give a brief overview of imaging technologies used in drug
-discovery. We next focus on cellular-level imaging, in particular high-content
-microscopy. We introduce both non-supervised and supervised methods of
-biological imaging data analysis.
+discovery [@scheeder_machine_2018;@rudin_molecular_2003]. We next focus on cellular-level imaging, in particular high-content
+microscopy [@feng_multi-parameter_2009]. We introduce machine-learning based methods of
+biological imaging data analysis [@meijering_biological_2006;@mullard_machine_2019].
 
 ### Part II.III: Organ- and System-level Modelling {-}
 
@@ -315,7 +333,7 @@ biological imaging data analysis.
 
 Pharmacokinetic (PK) modelling describes and predicts what the body does to the
 drug. Pharmacodynamic (PD) modelling, on the other hand, describes and predicts
-what the drug does to the body [@gabrielsson_pharmacokinetic_2016].
+what the drug does to the body [@mortensen_introduction_2008;@gabrielsson_pharmacokinetic_2016].
 
 We introduce the basic models of PK and PD modelling, including a
 one-compartment PK model, a two-compartment PK model, and a joint PK-PD model.
