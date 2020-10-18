@@ -112,6 +112,10 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
     * [*Drug discovery with explainable artificial intelligence*]({{site.assetbaseurl}}{% link
       assets/2020/05/Jimenez-Luna-DD-XAI-2020.pdf %}) by Jiménez-Luna *et al.*
       (optional reading).
+* Special event: Talk by Kaspar Rufibach in *Seminar in Probability Theory &
+  Statistics*, titled *Use of multistate models to improve decision-making in
+  clinical trials*. See [talk abstract]({{site.assetbaseurl}}{% link
+  assets/2020/05/20201021_probStats.pdf %}).
 
 ### 6. From molecular networks to omics and cellular modelling (23.10.2020)
 
