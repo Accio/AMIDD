@@ -4,12 +4,15 @@ geometry: margin=2cm
 linkcolor: "blue"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
-output:  pdf_document
+output:
+  pdf_document:
+    latex_engine: xelatex
 ---
 
 # Preface {-}
 
-This document is also the proposal for *Multiscale Modelling in Drug Discovery: An Introduction* (working title), a book that we are writing.
+This document is also the proposal for *Multiscale Modelling in Drug Discovery:
+An Introduction* (working title), a book that we, Philipp Mekler and Jitao David Zhang, are writing.
 
 ## Modelling in drug discovery
 
@@ -28,7 +31,6 @@ techniques of drug discovery develop and refine, mathematical, statistical, and
 computational models have become essential besides experimental methods to
 predict drug targets, to identify drug molecules, and to describe how drug
 works.
-
 
 What are these models? A mathematical model describes the state and dynamics of
 a system. A statistical model represents assumptions about sample data, which
@@ -102,10 +104,10 @@ levels into a unified, *multiscale-modelling* view of drug discovery.
 ## The target audience {-}
 
 This book aims at providing undergraduate and graduate students of mathematics,
-computer sciences, natural sciences, and medicine with an application-oriented
-introduction to drug discovery. It can also be used by researchers working in
-the fields of disease understanding and drug discovery as a practical guide to
-modelling.
+computer sciences, natural sciences, and medicine with an application-oriented,
+interdisciplinary introduction to quantitative and modelling aspects of drug
+discovery. It can also be used by researchers working in the fields of disease
+understanding and drug discovery as a practical guide to modelling.
 
 The book attempts to offer a broad overview of basic concepts and principles of
 quantitative modelling in drug discovery. It delivers neither comprehensive
@@ -128,7 +130,10 @@ The content of the book is organized in three parts:
 
 #### Chapter One: A Brief History of Modern Drug Discovery {-}
 
-We learn the principles of modern drug discovery by following its history [@hughes_principles_2011], focusing especially on how models change our way of finding drugs. We next examine three important concepts of drug discovery that are relevant for later chapters:
+We learn the principles of modern drug discovery by following its history
+[@drews_drug_2000;@hughes_principles_2011], focusing especially on how models change our way of
+finding drugs. We next examine three important concepts of drug discovery that
+are relevant for later chapters:
 
 1. the choice between target-based and phenotypic drug discovery,
 2. the balance between efficacy and safety, and
@@ -186,8 +191,9 @@ and prions.
 #### Chapter Five: Biological Sequence Analysis {-}
 
 DNA, RNA, and protein sequence analysis plays an important role in drug target
-identification and assessment. We introduce both deterministic
-and probabilistic approaches to biological sequences analysis [@durbin_biological_1998; @compeau_bioinformatics_2015; @caporaso_introduction_nodate], using the
+identification and assessment. We introduce both deterministic and probabilistic
+approaches to biological sequences analysis [@durbin_biological_1998;
+@compeau_bioinformatics_2015; @caporaso_introduction_nodate], using the
 Levenshtein distance, dynamic programming, and (hidden) Markov chains as
 examples.
 
@@ -195,14 +201,14 @@ We also discuss other applications of biological sequence analysis in drug
 discovery, including phylogenetic analysis and off-target prediction of
 oligonucleotides.
 
-#### Chapter Six: Structure of Drug Targets {-}
+#### Chapter Six: Drug targets and drug-target interactions {-}
 
 In target-based drug discovery, structural information of the target is
 critical. Its resolution and availability often determine how a discovery
 project is designed and executed. Even for phenotypic discovery projects,
 structural information can be helpful because it may allow the prediction of
-potential targets and off-targets of the drug candidate [@schlick_molecular_2010].
-
+potential targets and off-targets of the drug candidate
+[@schlick_molecular_2010].
 
 For DNA and RNA targets, we focus on the thermodynamic modelling of DNA/RNA and
 RNA/RNA interactions. It complements sequence analysis introduced in the last
@@ -215,6 +221,10 @@ crystallography, Nuclear Magnetic Resonance (NMR), and cryo-electron microscopy
 (cryo-EM). We highlight the key models underlying these methods. Finally, we
 introduce databases and software tools that store, visualize, and use structural
 information.
+
+We also introduce *in vitro* pharmacological models of quantifying drug-target
+interactions, using Michaelis-Menten and the Hill function as
+examples [@wermuth_practice_2015].
 
 #### Chapter Seven: Structure-based Modelling {-}
 
@@ -268,10 +278,10 @@ We introduce the principles of selected sequencing technologies, including the
 Illumina next-generation sequencing and Nanopore sequencing. We discuss key
 concepts and models to analyse the sequencing data. And we examine their
 applications in drug discovery. In particular, we will introduce selected
-approaches to molecular phenotyping [@drawnel_molecular_2017], single-cell sequencing data analysis and multimodal analysis.
-Results of these analyses hold promise for knowledge about diseases and
-body-drug interactions on the level of individual cells and between-cell
-interactions.
+approaches to molecular phenotyping [@drawnel_molecular_2017], single-cell
+sequencing data analysis and multimodal analysis.  Results of these analyses
+hold promise for knowledge about diseases and body-drug interactions on the
+level of individual cells and between-cell interactions.
 
 #### Chapter Twelve: Proteomics and Metabolomics {-}
 
@@ -355,7 +365,8 @@ inference. We also examine the common forms of clinical trials in drug discovery
 
 Population modelling informs common trends and individual variabilities of PK
 and PD profiles of a drug. It is used to infer associations between individual
-variables (age, sex, genotype, *etc.*) and PK/PD profiles in clinical
+variables (age, sex, genotype, *etc.*) [@mould_basic_2012; @mould_basic_2013;
+@upton_basic_2014] and PK/PD profiles in clinical
 pharmacology [@sheiner_population_1999]. We introduce the basic concepts of population modelling and its
 techniques, in particular the statistical model known as non-linear mixed-effect
 modelling.
