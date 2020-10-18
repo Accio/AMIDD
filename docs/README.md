@@ -98,11 +98,20 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 ### 5. Principles of molecular modelling (16.10.2020)
 
 * [Slides]({{site.assetbaseurl}}{% link
-  assets/2020/05/AMIDD-05-molecular-modelling.pdf
-  %})
-* Recording (passcode shared by
-  emails): link to the announced
-* Material for offline activities: to be announced
+  assets/2020/05/AMIDD-05-molecular-modelling.pdf %})
+* [Recording (passcode shared by
+  emails)](https://unibas.zoom.us/rec/share/BPSdxG8yc64sJzQwBJ9txeY7SAWfIPY9Lx13PL8FfJ2rMfHybR1gUwHeFFpO7Se0.UZR0UwaOK7Om9Syz)
+* Material for offline activities
+    * **For offline-activity questions**: [*Computational methods in drug
+      discovery*]({{site.assetbaseurl}}{% link
+      assets/2020/05/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf
+      %}) by Gregory Sliwoski *et al.*
+    * [*An introduction to machine learning*]({{site.assetbaseurl}}{% link
+      assets/2020/05/Badillo-ML-2020.pdf %}) by Badillo *et al.* (optional
+      reading).
+    * [*Drug discovery with explainable artificial intelligence*]({{site.assetbaseurl}}{% link
+      assets/2020/05/Jimenez-Luna-DD-XAI-2020.pdf %}) by Jiménez-Luna *et al.*
+      (optional reading).
 
 ### 6. From molecular networks to omics and cellular modelling (23.10.2020)
 
