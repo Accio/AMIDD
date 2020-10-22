@@ -136,9 +136,21 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 ### 10. Guest-speaker session (I) (20.11.2020)
 
 * Guest speaker Nicolò Milani (12:15-13:00)
-* Guest speaker to be announced
+* Guest speaker Philipp Mekler (13:10-13:55)
 
 ### 11. *Dies academicus - optional Ask Me Anything session* (27.11.)
+
+* Attendance is voluntary.
+* If you can prepare your questions and share them with me in advance, I will
+  prepare for them. Spontaneous questions are equally welcome.
+* For career-relevant questions, I have prepared an appetizer, an opinion piece
+  titled *Ten Simple Rules for Doing A Postdoc in Pharma: Pros, Precautions, and
+  Preparations*. The manuscript is currently under review and [the preprint is
+  available here]({{site.assetbaseurl}}{% link
+  assets/2020/11/2020-08-03-industrial-postdocs-ten-simple-rules.pdf %}), which
+  is permitted by the publisher. Though the primary target audience of the piece
+  is PhD students, I am happy if some aspects turn out to be useful also for
+  other students of the class.
 
 ### 12. Guest-speaker session (II) (4.12)
 
