@@ -121,6 +121,12 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 ### 6. From molecular networks to omics and cellular modelling (23.10.2020)
 
+* [Slides]({{site.assetbaseurl}}{% link
+  assets/2020/06/AMIDD-06-from-network-to-cell.pdf %})
+* Recording (passcode shared by
+  emails): to be announced
+* Material for offline activities: to be announced
+
 ### 7. Omics and cellular modelling (II) (30.10.2020)
 
 ### 8. PK/PD and PBPK modelling (06.11.2020).
