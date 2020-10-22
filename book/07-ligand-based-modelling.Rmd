@@ -27,6 +27,25 @@
 
 ### Similarity measures
 
+Bajusz et al. compared well-known similarity and distance metrics using a large
+dataset, and found that the Tanimoto index, Dice index, Cosine coefficient, and
+Soergel distance as the best metrics for similarity calculations.
+
+If two chemical structures are represented as an array of bits (bitmaps), $X_i$
+is the $i$th bit of $X$, and $\land, \lor$ are bitwise operations *and* and
+*or*, respectively. The Tanimoto index is defined as
+
+$$ T_s(X,Y) = \frac{\sum_i (X_i \land Y_i)}{\sum_i (X_i \lor Y_i)}$$
+
+Note that it is essentially equivalent to the Jaccard Index between two sets,
+which are defined as the ratio between the size of interaction between two sets
+and the size of the union. For sets $A$ and $B$, this can be represented as 
+
+$$ J(A,B) = \frac{|A \cap B|}{|A \cup B|} $$
+
+
+
+
 ### Graph edit distance
 
 ## Resources for further learning

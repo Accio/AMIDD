@@ -218,3 +218,98 @@ where
 
 The Hill equation represents an example of dose-response curve. Such curves are
 critical for drug candidate characterization and characterization.
+
+## Deterministic and stochastic simulations
+
+### Deterministic simulation
+
+See http://seweb.se.wtb.tue.nl/biological_systems/de.
+
+$$
+\require{mhchem}
+\ce{S + E <=>[k_1][k_2] C ->[k_3] P + E }
+$$
+
+And according to the law of mass action
+
+\begin{align}
+\frac{d[S]}{dt} &= -k_1[E][S] + k_2[C], \\
+\frac{d[E]}{dt} &= -k_1[E][S] + (k_{2}+k_{3})[C], \\
+\frac{d[C]}{dt} &= k_1[E][S] - (k_{2}+k_{3})[C], \\
+\frac{d[P]}{dt} &= k_{3}[C],
+\end{align}
+
+If the initial concentrations and the reaction rates are given, the set of ODEs
+can be numerically solved. A deterministic simulation therefore is possible. For
+instance with the following examples (*Stochastic Modelling for Systems
+Biology*).
+
+* $S(0)=5e^{-7}$
+* $E(0)=2e^{-7}$
+* $C(0)=P(0)=0$
+* $k_1=1e^6$
+* $k_2=1e^{-4}$
+* $k_3=0.1$
+
+### Stochastic modelling
+
+Good reference: Higham, Desmond J. 2008. “Modeling and Simulating Chemical Reactions.” SIAM Review 50 (2): 347–68. https://doi.org/10.1137/060666457.
+
+We can formulate a chemical reaction with the *chemical master equation* (CME),
+a set of ordinary differential equations (ODEs), each ODE representing one
+possible state of the system. At time $t$, the $k$th equation gives the
+probability of the system in the $k$th state. In this case, the dimension of the
+ODE is not given by the number of species $N$, but by the number of possible
+states of the system. It depends on the total number of molecules as well as the
+form of the chemical reaction.
+
+Suppose we have following reactions
+
+$$
+\require{mhchem}
+\ce{A + B <=>[k_1][k_2] C + D }
+$$
+
+If we start with $K$ molecules of type A and $K$ molecules of type B, and no
+molecules of either $C$ or $D$, then we have
+
+$$
+\begin{align}
+    X(0) &= \begin{bmatrix}
+           K \\
+           K \\
+           0 \\
+           0
+         \end{bmatrix},
+  \end{align}
+$$
+
+then the state vector $X(t)$ takes one of the following possible values
+
+$$
+\begin{bmatrix}
+           K \\
+           K \\
+           0 \\
+           0
+         \end{bmatrix},
+\begin{bmatrix}
+           K-1 \\
+           K-1 \\
+           1 \\
+           1
+         \end{bmatrix},
+\begin{bmatrix}
+           K-2 \\
+           K-2 \\
+           2 \\
+           2
+         \end{bmatrix},
+\ldots,
+\begin{bmatrix}
+           0 \\
+           0 \\
+           K \\
+           K
+         \end{bmatrix},
+$$
