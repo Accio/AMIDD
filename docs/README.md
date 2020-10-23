@@ -123,9 +123,11 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 * [Slides]({{site.assetbaseurl}}{% link
   assets/2020/06/AMIDD-06-from-network-to-cell.pdf %})
-* Recording (passcode shared by
-  emails): to be announced
-* Material for offline activities: to be announced
+* [Recording (passcode shared by
+  emails)](https://unibas.zoom.us/rec/share/4Vb-w4nstBaOz6PkCevIWgrJwv878OJ01Y2-9QY3Vjmxsu-P1uePZGtz0DFqSbU.fHvfRESj1EfEgtMO)
+* No material for offline activities: the material from last week will be
+  discussed next week. You are welcome to raise questions for the AMA session in
+  one month from now on by filling the anonymous survey or sending me emails.
 
 ### 7. Omics and cellular modelling (II) (30.10.2020)
 
