@@ -122,7 +122,8 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 ### 6. From molecular networks to omics and cellular modelling (23.10.2020)
 
 * [Slides]({{site.assetbaseurl}}{% link
-  assets/2020/06/AMIDD-06-from-network-to-cell.pdf %})
+  assets/2020/06/AMIDD-06-from-network-to-cell.pdf %}) (we finished the slides
+  of the last lecture, the slides are used in lecture #7).
 * [Recording (passcode shared by
   emails)](https://unibas.zoom.us/rec/share/4Vb-w4nstBaOz6PkCevIWgrJwv878OJ01Y2-9QY3Vjmxsu-P1uePZGtz0DFqSbU.fHvfRESj1EfEgtMO)
 * No material for offline activities: the material from last week will be
@@ -130,6 +131,22 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
   one month from now on by filling the anonymous survey or sending me emails.
 
 ### 7. Omics and cellular modelling (II) (30.10.2020)
+
+* [Slides]({{site.assetbaseurl}}{% link
+  assets/2020/06/AMIDD-06-from-network-to-cell.pdf %}).
+* [Recording (passcode shared by
+  emails)](https://unibas.zoom.us/rec/share/soenUlvSX-0rvYyt2XrAvso1jhVlOSkYOSXGtx-wT2zJxoBx5xc31pO0bDxp6TwA.C35OFlViHnoPDlSe)
+* Material for offline activities:
+    * Rudin, Markus, and Ralph Weissleder. 2003. “[Molecular Imaging in Drug
+      Discovery and Development](https://doi.org/10.1038/nrd1007).” Nature
+      Reviews Drug Discovery 2 (2): 123–31. ([PDF version]({{site.assetbaseurl}}{% link
+  assets/2020/07/nrd1007.pdf %}))
+    * Meijering, Erik, and Gert van Cappellen. 2006. [“Biological Image Analysis
+      Primer”](https://imagescience.org/meijering/publications/1009/). ([PDF
+      version]({{site.assetbaseurl}}{% link
+  assets/2020/07/biap2006.pdf %}))
+    * [Assisting Pathologists in Detecting Cancer with Deep Learning (Google AI
+      blog)](https://ai.googleblog.com/2017/03/assisting-pathologists-in-detecting.html).
 
 ### 8. PK/PD and PBPK modelling (06.11.2020).
 
