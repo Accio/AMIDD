@@ -10,11 +10,39 @@
 
 ## Background
 
+```{r}
+library(DiagrammeR)
+nodes <-
+  create_node_df(
+    n=2,
+    label = c("Body", "Drug"),
+    style = "filled",
+    color = "aqua",
+    height=0.5, width=0.5,
+    shape = c("circle", "circle"),
+    fontname = "Helvetica")
+
+edges <-
+  create_edge_df(
+    from = c(1, 2),
+    to = c(2, 1),
+    label=c("PK (Pharmacokinetics)", "PD (Pharmacodynamics)"),
+    arrowsize=0.5)
+
+graph <- create_graph(
+    nodes_df = nodes,
+    edges_df = edges) %>%
+  set_node_position(node=1, x=0, y=1) %>%
+  set_node_position(node=2, x=2, y=1)
+
+DiagrammeR::render_graph(graph)
+```
+
 ### Pharmacokinetics
 
 #### ADME
 
-A drug can be delivered to a patient in many ways, for instance intravanously, orally, subcutaneously (under the skin), or in less common ways such as skin patch, inhalation, via the rectal route (for example for infants), and intramuscularly. Once it is administered, the drug undergoes a complex process involving absorption, distribution, metabolism, and excretion (ADME).
+A drug can be delivered to a patient in many ways, for instance intravenously, orally, subcutaneously (under the skin), or in less common ways such as skin patch, inhalation, via the rectal route (for example for infants), and intramuscularly. Once it is administered, the drug undergoes a complex process involving absorption, distribution, metabolism, and excretion (ADME).
 
 * Absorption describes the movement of the drug into the bloodstream from an extravascular site. Not all drug that is delivered can be fully absorbed: the extent of absorption into the systemic circulation is known as the bioavailability.
 * Most drugs are distributed, after absorption, via the blood to organs and tissues in the body. *Distribution* describes the reversible transfer of a drug substance between blood, organs and tissues.
