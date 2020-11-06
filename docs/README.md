@@ -133,7 +133,7 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 ### 7. Omics and cellular modelling (II) (30.10.2020)
 
 * [Slides]({{site.assetbaseurl}}{% link
-  assets/2020/06/AMIDD-06-from-network-to-cell.pdf %}).
+  assets/2020/06/AMIDD-06-from-network-to-cell.pdf %})
 * [Recording (passcode shared by
   emails)](https://unibas.zoom.us/rec/share/soenUlvSX-0rvYyt2XrAvso1jhVlOSkYOSXGtx-wT2zJxoBx5xc31pO0bDxp6TwA.C35OFlViHnoPDlSe)
 * Material for offline activities:
@@ -151,7 +151,7 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 ### 8. PK/PD and PBPK modelling (06.11.2020).
 
 * [Slides]({{site.assetbaseurl}}{% link
-  assets/2020/08/AMIDD-08-PK-PD-modelling.pdf %}).
+  assets/2020/08/AMIDD-08-PK-PD-modelling.pdf %})
 * Recording (passcode shared by emails): to be announced
 * Material for offline activities, for optional reading:
 	* Davies, Michael, *et al.*. 2020. “Improving the Accuracy of Predicted
