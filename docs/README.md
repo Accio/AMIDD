@@ -150,6 +150,21 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 ### 8. PK/PD and PBPK modelling (06.11.2020).
 
+* [Slides]({{site.assetbaseurl}}{% link
+  assets/2020/08/AMIDD-08-PK-PD-modelling.pdf %}).
+* Recording (passcode shared by emails): to be announced
+* Material for offline activities, for optional reading:
+	* Davies, Michael, *et al.*. 2020. “Improving the Accuracy of Predicted
+	  Human Pharmacokinetics: Lessons Learned from the AstraZeneca Drug
+	  Pipeline Over Two Decades.” Trends in Pharmacological Sciences 41 (6):
+	  390–408. (A good introduction to prediction of PK profiles in
+	  industry.)
+	* Jones, H. M., and K. Rowland‐Yeo. 2013. “Basic Concepts in
+	  Physiologically Based Pharmacokinetic Modeling in Drug Discovery and
+	  Development.” CPT: Pharmacometrics & Systems Pharmacology 2 (8): 63.
+	  https://doi.org/10.1038/psp.2013.41. A good introduction to PBPK
+	  modelling
+
 ### 9. Population modelling and clinical trials (13.11.2020)
 
 ### 10. Guest-speaker session (I) (20.11.2020)
