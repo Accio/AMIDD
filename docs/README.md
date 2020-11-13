@@ -152,7 +152,7 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 * [Slides]({{site.assetbaseurl}}{% link
   assets/2020/08/AMIDD-08-PK-PD-modelling.pdf %})
-* [Recording (passcode shared by emails)](https://unibas.zoom.us/rec/share/olgnwMUMmq6BlZYrsiKyJopKkNRiajpmm73d0oLXtMlUUWz2MDqIkAfWCpheRjCy.qGfV05Q-odrctEAF)
+* [Recording (passcode shared with email)](https://unibas.zoom.us/rec/share/olgnwMUMmq6BlZYrsiKyJopKkNRiajpmm73d0oLXtMlUUWz2MDqIkAfWCpheRjCy.qGfV05Q-odrctEAF)
 * Material for offline activities, for optional reading:
 	* Davies, Michael, *et al.*. 2020. “Improving the Accuracy of Predicted
 	  Human Pharmacokinetics: Lessons Learned from the AstraZeneca Drug
@@ -169,6 +169,8 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 * [Slides]({{site.assetbaseurl}}{% link
   assets/2020/09/AMIDD-09-Clinical-Trials-and-Population-Modelling.pdf %})
+* [Recording (passcode shared with
+  email)](https://unibas.zoom.us/rec/share/YkVDTEHyEv82lzDTnzrlK8MXsy3KtoFl_LiGNtKlOaUOuJv6QlQI1_isL5JQ5WIj._GpbRN-H8KPb1oDy)
 
 ### 10. Guest-speaker session (I) (20.11.2020)
 
