@@ -285,8 +285,11 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
      assets/2020/13-14/Tuszynski-2014-MathCompModeling.pdf %})) *A broad review
      of mathematical and computational modelling approaches across scales in
      biology*.
+5. **Drug discovery for COVID-19*
+   * Walser *et al.* 2020. "Highly potent anti-SARS-Cov-2 multi-DARPin
+     therapeutic candidates." bioRxiv (*preprint, not peer-reviewed*)
+     https://www.biorxiv.org/content/10.1101/2020.08.25.256339v1
 
-     
 
 ## Assessment
 
