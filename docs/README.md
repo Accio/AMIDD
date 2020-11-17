@@ -285,10 +285,17 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
      assets/2020/13-14/Tuszynski-2014-MathCompModeling.pdf %})) *A broad review
      of mathematical and computational modelling approaches across scales in
      biology*.
-5. **Drug discovery for COVID-19*
+5. **Drug discovery for COVID-19** (proposed by participants)
    * Walser *et al.* 2020. "Highly potent anti-SARS-Cov-2 multi-DARPin
      therapeutic candidates." bioRxiv (*preprint, not peer-reviewed*)
      https://www.biorxiv.org/content/10.1101/2020.08.25.256339v1
+   * (potentially useful reference 1) Riva, L., Yuan, S., Yin, X. et al.
+     Discovery of SARS-CoV-2 antiviral drugs through large-scale compound
+     repurposing. Nature 586, 113–119 (2020).
+     https://doi.org/10.1038/s41586-020-2577-1
+   * (potentially useful reference 2) Richardson *et al.* [Baricitinib as
+     potential treatment for 2019-nCoV acute respiratory
+     disease.](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30304-4/fulltext) Lancet 2020
 
 
 ## Assessment
