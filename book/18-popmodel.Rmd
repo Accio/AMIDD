@@ -5,3 +5,63 @@ These resources can be interesting
 1. Open Systems Pharmacology Community 
 2. See comments here: https://www.researchgate.net/post/Is_there_any_open_source_Pharmacokinetic_software
 3. FDA RWE and RWD guideline: https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence
+
+## The nonlinear mixed effect model
+
+Let us start with the linear case
+
+```{r, fig.height=4, fig.width=4}
+library(rethinking)
+library(dplyr)
+library(ggplot2)
+data(Howell1)
+d2 <- Howell1 %>% filter(age>=18) %>%
+  mutate(weight_s=scale(weight))
+d2plot <- ggplot(d2, aes(x=weight_s, y=height)) +
+  geom_point() +
+  ggtitle("The !Kung San data (adults only)") +
+  xlab("Standarized weight")
+print(d2plot)
+```
+
+Using frequentist's language
+
+$$
+  y_{i} = f(x) + \epsilon \\
+  f(x) = \alpha + \beta x \\
+  \epsilon \sim \mathcal{N}(0, \sigma)
+$$
+Using Bayesian language and some personal prior
+
+$$
+  y_{i} \sim \mathcal{N}(\mu_{i}, \sigma) \\
+  \mu = \alpha + \beta x_{i} \\
+  \alpha \sim \mathcal{N}(169, 20) \\
+  \sigma \sim \textrm{Unfoirm}(0, 50)
+$$
+
+```{r, fig.height=4, fig.width=4}
+d2plot + stat_smooth(method='lm', formula= y~x)
+```
+
+Consider a one-compartment model with drug administered as a single intravenous bolus dose
+
+$$
+C(t) = \frac{\textrm{Dose}}{V}e^{-\frac{CL}{V}t}
+$$
+
+$$
+  y_{ij} \sim \mathcal{N}(\mu_{ij}, \Sigma_{i}) \\
+  \mu_{ij} = f(t_{ij}, \beta_{i}, d_{i}) \\
+  \beta_{i} \sim \mathcal{N}(\beta, D)
+$$
+Parameters:
+
+* $y_{ij}$ is the $j^{th}$ response for the $i^{th}$ subject
+* $f$ is a scalar function nonlinear with regard to $\beta$
+* $\beta$ is a $k \times 1$ parameter vector, giving PK parameters such as absorption, $V_D$, and $CL$.
+* $t_{ij}$ is the $j^{th}$ time of measurement for the $i^{th}$ subject
+* $d_{i}$ is the dose of the $i^{th}$ subject
+* $j$ ranges from 1 to $n_i$
+* $D$ is a $k \times k$ covariance matrix
+* $\Sigma_i$ is an $n_{i} \times n_{i}$ covariance matrix
