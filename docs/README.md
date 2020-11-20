@@ -174,8 +174,25 @@ assets/2020/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
 
 ### 10. Guest-speaker session (I) (20.11.2020)
 
-* Guest speaker Nicolò Milani (12:15-13:00)
-* Guest speaker Philipp Mekler (13:10-13:55)
+* Guest speaker Nicolò Milani (12:15-13:00): *Applications of in silico
+  modelling in drug metabolism study in pharmaceutical research: Examples on the
+  combined application of experimental data and in silico modelling* ([PDF]({{site.assetbaseurl}}{% link
+  assets/2020/10/Milani-AMIDD-2020.pdf %}))
+* Guest speaker Philipp Mekler (13:10-13:55): *Mathematics of Rivalry* ([PDF]({{site.assetbaseurl}}{% link
+  assets/2020/10/Mekler-AMIDD-2020.pdf %}))
+* [Recording (passcode shared with email)](https://unibas.zoom.us/rec/share/dD5EZVJhiJK_c70nG-EmhXnomNj6ni5Gs_sGX-E4fbPU0xE5D3w4M_jhqSL8khVG.-iBlDupehtC9wohl)
+
+Nicolò Milani got his PhD at University of Perugia (Italy) in collaboration with
+Molecular Discovery Ltd. The main topic of his PhD was the application of *in
+vitro* data in combination with molecular modelling for drug metabolism
+investigation. The area of interest was mostly h-Aldehyde Oxidase and h-UGT2B10.
+The h-UGT2B10 project was in collaboration with Roche and he spent one year in
+Basel. He started his Postdoc in Roche one year ago and his project is about the
+quantitative application of mathematical modelling for complex in vitro systems
+(e.g. Organ-on-a-Chip) in DMPK.
+
+Philipp Mekler is a biochemist, mathematician, and businessman, with more than
+forty years' experience in life sciences.
 
 ### 11. *Dies academicus - optional Ask Me Anything session* (27.11.)
 
