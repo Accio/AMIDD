@@ -312,7 +312,28 @@ forty years' experience in life sciences.
      113–119 (2020).
    * (potentially useful reference 2) Richardson *et al.* [Baricitinib as
      potential treatment for 2019-nCoV acute respiratory
-     disease.](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30304-4/fulltext) Lancet 2020
+     disease.](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30304-4/fulltext)
+     Lancet 2020
+6. Can machine learning improve the productivity of drug discovery? If yes, how?
+   * There are much enthusiasm and hope. Besides the papers listed above, also
+     see a [blog
+     post](https://medium.com/pytorch/speeding-up-drug-discovery-with-advanced-machine-learning-b17d59e0daa6)
+     by Garvin Edwards at AstraZeneca, who is working on using knowledge graphs
+     for target identification (and probably more), for an example of applying
+     machine learning in preclinical research.
+   * See the following paper for discussions that are relevant for clinical
+     development: Shah, Pratik, Francis Kendall, Sean Khozin, Ryan Goosen,
+     Jianying Hu, Jason Laramie, Michael Ringel, and Nicholas Schork. 2019.
+     “Artificial Intelligence and Machine Learning in Clinical Development: A
+     Translational Perspective.” Npj Digital Medicine 2 (1): 1–5.
+     https://doi.org/10.1038/s41746-019-0148-3.
+   * Precautions are warranted: machine learning has its own limitations,
+     especially if our goal is to increase the productivity of drug discovery.
+     See a post by Derek Lowe (the author of the blog *In The Pipeline*), [AI,
+     Machine Learning, and the
+     pandemic](https://blogs.sciencemag.org/pipeline/archives/2020/07/23/ai-machine-learning-and-the-pandemic),
+     and linked blog posts therein, for inspiration for critical thoughts.
+
 
 
 ## Assessment
