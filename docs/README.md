@@ -314,8 +314,8 @@ forty years' experience in life sciences.
      potential treatment for 2019-nCoV acute respiratory
      disease.](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30304-4/fulltext)
      Lancet 2020
-6. *Can machine learning improve the productivity of drug discovery? If yes,
-   how?*
+6. **Can machine learning improve the productivity of drug discovery? If yes,
+   how?**
    * There are much enthusiasm and hope. Besides the papers listed above, also
      see a [blog
      post](https://medium.com/pytorch/speeding-up-drug-discovery-with-advanced-machine-learning-b17d59e0daa6)
