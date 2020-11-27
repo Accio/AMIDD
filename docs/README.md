@@ -7,6 +7,32 @@ language and informatics as the tool. More information on the course can be
 found at [the course directory of the University
 Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=251981).
 
+## Table of content
+
+- [Lectures with Zoom: registration required](#lectures-with-zoom--registration-required)
+- [Time and place](#time-and-place)
+- [Course material and licensing](#course-material-and-licensing)
+- [Syllabus](#syllabus)
+  * [1. Drug discovery: an overview (18.09.2020)](#1-drug-discovery--an-overview--18092020-)
+  * [2. The central dogma and the discovery of Vemurafenib (25.09.2020)](#2-the-central-dogma-and-the-discovery-of-vemurafenib--25092020-)
+  * [3. Biological sequence analysis (02.10.2020)](#3-biological-sequence-analysis--02102020-)
+  * [4. From protein structure to screening (09.10.2020)](#4-from-protein-structure-to-screening--09102020-)
+  * [5. Principles of molecular modelling (16.10.2020)](#5-principles-of-molecular-modelling--16102020-)
+  * [6. From molecular networks to omics and cellular modelling (23.10.2020)](#6-from-molecular-networks-to-omics-and-cellular-modelling--23102020-)
+  * [7. Omics and cellular modelling (II) (30.10.2020)](#7-omics-and-cellular-modelling--ii---30102020-)
+  * [8. PK/PD and PBPK modelling (06.11.2020).](#8-pk-pd-and-pbpk-modelling--06112020-)
+  * [9. Population modelling and clinical trials (13.11.2020)](#9-population-modelling-and-clinical-trials--13112020-)
+  * [10. Guest-speaker session (I) (20.11.2020)](#10-guest-speaker-session--i---20112020-)
+  * [11. *Dies academicus - optional Ask Me Anything session* (27.11.)](#11--dies-academicus---optional-ask-me-anything-session---2711-)
+  * [12. Guest-speaker session (II) (4.12)](#12-guest-speaker-session--ii---412-)
+  * [13. Student presentation (I) (11.12.)](#13-student-presentation--i---1112-)
+  * [14. Student presentation (II) (18.12.)](#14-student-presentation--ii---1812-)
+- [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
+- [End-term project](#end-term-project)
+- [Assessment](#assessment)
+- [Further questions or suggestions?](#further-questions-or-suggestions-)
+- [Archives of past courses](#archives-of-past-courses)
+
 ## Lectures with Zoom: registration required
 
 Due to the coronavirus pandemic, the course in 2020 will take place online with
@@ -338,17 +364,33 @@ forty years' experience in life sciences.
      and linked blog posts therein, for inspiration for critical thoughts.
 
 
+## End-term project
+
+I expect every participant to choose one concept from the list below and to
+write a short essay (1000-2500 words) introducing the concept for non-experts,
+with examples and ideally applications in drug discovery.
+
+List of candidate topics:
+
+1. Statistical power and sample size calculation
+2. Information (Shannon) entropy
+3. Principal component analysis (PCA)
+4. Non-negative matrix factorization
+5. The Viterbi algorithm
+6. MCMC (Markov-Chain Monte Carlo)
+7. The EM (Expectation-Maximization) algorithm
+8. Agent-based modelling
+9. Gaussian process
+10. Bayesian networks
+
+The preference is to be submitted by a Google Form (sent out via emails) by
+December the 10<sup>th</sup>, Thursday. The deadline for submitting the essay is January
+the 15<sup>th</sup>, 2021, Friday. No extension is possible.
 
 ## Assessment
 
 The final note is given by participation (40%), presentation (30%), and project
 work (30%).
-
-The project work will be about concepts that we learned together and their
-applications in practice. The work will be judged by how you work within a team,
-how you find and integrate information, and how well you explain your findings
-to a general, non-expert readership. Details will follow when the attendee list
-is finalized.
 
 ## Further questions or suggestions?
 
