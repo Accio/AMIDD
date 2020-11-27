@@ -13,20 +13,21 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=251981).
 - [Time and place](#time-and-place)
 - [Course material and licensing](#course-material-and-licensing)
 - [Syllabus](#syllabus)
-  * [1. Drug discovery: an overview (18.09.2020)](#1-drug-discovery--an-overview--18092020-)
-  * [2. The central dogma and the discovery of Vemurafenib (25.09.2020)](#2-the-central-dogma-and-the-discovery-of-vemurafenib--25092020-)
-  * [3. Biological sequence analysis (02.10.2020)](#3-biological-sequence-analysis--02102020-)
-  * [4. From protein structure to screening (09.10.2020)](#4-from-protein-structure-to-screening--09102020-)
-  * [5. Principles of molecular modelling (16.10.2020)](#5-principles-of-molecular-modelling--16102020-)
-  * [6. From molecular networks to omics and cellular modelling (23.10.2020)](#6-from-molecular-networks-to-omics-and-cellular-modelling--23102020-)
-  * [7. Omics and cellular modelling (II) (30.10.2020)](#7-omics-and-cellular-modelling--ii---30102020-)
-  * [8. PK/PD and PBPK modelling (06.11.2020).](#8-pk-pd-and-pbpk-modelling--06112020-)
-  * [9. Population modelling and clinical trials (13.11.2020)](#9-population-modelling-and-clinical-trials--13112020-)
-  * [10. Guest-speaker session (I) (20.11.2020)](#10-guest-speaker-session--i---20112020-)
-  * [11. *Dies academicus - optional Ask Me Anything session* (27.11.)](#11--dies-academicus---optional-ask-me-anything-session---2711-)
-  * [12. Guest-speaker session (II) (4.12)](#12-guest-speaker-session--ii---412-)
-  * [13. Student presentation (I) (11.12.)](#13-student-presentation--i---1112-)
-  * [14. Student presentation (II) (18.12.)](#14-student-presentation--ii---1812-)
+  * [1. Drug discovery: an overview (18.09.2020)](#1-drug-discovery-an-overview-18092020)
+  * [2. The central dogma and the discovery of Vemurafenib (25.09.2020)](#2-the-central-dogma-and-the-discovery-of-vemurafenib-25092020)
+  * [3. Biological sequence analysis (02.10.2020)](#3-biological-sequence-analysis-02102020)
+  * [4. From protein structure to screening (09.10.2020)](#4-from-protein-structure-to-screening-09102020)
+  * [5. Principles of molecular modelling (16.10.2020)](#5-principles-of-molecular-modelling-16102020)
+  * [6. From molecular networks to omics and cellular modelling (23.10.2020)](#6-from-molecular-networks-to-omics-and-cellular-modelling-23102020)
+  * [7. Omics and cellular modelling (II) (30.10.2020)](#7-omics-and-cellular-modelling-ii-30102020)
+  * [8. PK/PD and PBPK modelling (06.11.2020).](#8-pkpd-and-pbpk-modelling-06112020)
+  * [9. Population modelling and clinical trials (13.11.2020)](#9-population-modelling-and-clinical-trials-13112020)
+  * [10. Guest-speaker session (I) (20.11.2020)](#10-guest-speaker-session-i-20112020)
+  * [11. *Dies academicus - optional Ask Me Anything session*
+    (27.11.)](#11-dies-academicus---optional-ask-me-anything-session-2711)
+  * [12. Guest-speaker session (II) (4.12)](#12-guest-speaker-session-ii-412)
+  * [13. Student presentation (I) (11.12.)](#13-student-presentation-i-1112)
+  * [14. Student presentation (II) (18.12.)](#14-student-presentation-ii-1812)
 - [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
 - [End-term project](#end-term-project)
 - [Assessment](#assessment)
@@ -244,11 +245,21 @@ forty years' experience in life sciences.
 
 ### 13. Student presentation (I) (11.12.)
 
+* Group 1: Productivity and cost of drug discovery and development (12:05-12:35)
+* Group 2: Machine learning in drug discovery (12:40-13:10)
+* Group 3: Can machine learning improve the productivity of drug discovery? If
+  yes, how? (13:15-13:50)
+
 ### 14. Student presentation (II) (18.12.)
+
+* Group 4: Drug discovery for SARS-Cov-2 (12:05-12:35)
+* Group 5: How drugs are discovered: target-based and phenotypic drug discovery (12:40-13:10)
+* Group 6: Mathematical and computational modelling in biology and drug
+  discovery (13:15-13:50)
 
 ## Student presentation topics and reference papers
 
-1. **How drugs are discovered: target-based versus phenotypic screening**:
+1. **How drugs are discovered: target-based and phenotypic screening**:
    * Kleinstreuer, Nicole C., Jian Yang, Ellen L. Berg, Thomas B. Knudsen, Ann
      M. Richard, Matthew T. Martin, David M. Reif, *et al.* 2014. “Phenotypic
      Screening of the ToxCast Chemical Library to Classify Toxic and Therapeutic
@@ -331,7 +342,7 @@ forty years' experience in life sciences.
      assets/2020/13-14/Tuszynski-2014-MathCompModeling.pdf %})) *A broad review
      of mathematical and computational modelling approaches across scales in
      biology*.
-5. **Drug discovery for COVID-19** (proposed by participants)
+5. **Drug discovery for SARS-Cov-2 (COVID-19)** (proposed by participants)
    * Walser *et al.* 2020. "Highly potent anti-SARS-Cov-2 multi-DARPin
      therapeutic candidates." bioRxiv (*preprint, not peer-reviewed*)
      https://www.biorxiv.org/content/10.1101/2020.08.25.256339v1
