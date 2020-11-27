@@ -197,7 +197,7 @@ forty years' experience in life sciences.
 ### 11. *Dies academicus - optional Ask Me Anything session* (27.11.)
 
 * [Slides]({{site.assetbaseurl}}{% link
-  assets//2020/11/AMIDD-2020-AMA.pdf %})
+  assets/2020/11/AMIDD-2020-AMA.pdf %})
 * The session is not recorded.
 * Attendance is voluntary.
 * If you can prepare your questions and share them with me in advance, I will
