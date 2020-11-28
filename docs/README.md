@@ -259,27 +259,25 @@ forty years' experience in life sciences.
 
 ## Student presentation topics and reference papers
 
-1. **How drugs are discovered: target-based and phenotypic screening**:
-   * Kleinstreuer, Nicole C., Jian Yang, Ellen L. Berg, Thomas B. Knudsen, Ann
-     M. Richard, Matthew T. Martin, David M. Reif, *et al.* 2014. “Phenotypic
-     Screening of the ToxCast Chemical Library to Classify Toxic and Therapeutic
-     Mechanisms.” Nature Biotechnology 32 (6): 583–91.
-     https://doi.org/10.1038/nbt.2914. ([PDF]({{site.assetbaseurl}}{% link
-     assets/2020/13-14/Kleinstreuer-2014-ToxCast.pdf %})). *Comments by David:
-     An example of phenotypic screening, though not directly for drug discovery
-     but rather for mechanism and safety understanding, nevertheless
-     interesting*.
-   * Moffat, John G., Fabien Vincent, Jonathan A. Lee, Jörg Eder, and Marco
-     Prunotto. 2017. “Opportunities and Challenges in Phenotypic Drug Discovery:
-     An Industry Perspective.” Nature Reviews Drug Discovery 16 (8): 531–43.
-     https://doi.org/10.1038/nrd.2017.111. ([PDF]({{site.assetbaseurl}}{% link
-     assets/2020/13-14/Moffat-Phenotypic.pdf %})) *Current and relevant review
-     from the industrial point of view*.
-   * Swinney, David C., and Jason Anthony. 2011. “How Were New Medicines
-     Discovered?” Nature Reviews Drug Discovery 10 (7): 507–19.
-     https://doi.org/10.1038/nrd3480. ([PDF]({{site.assetbaseurl}}{% link
-     assets/2020/13-14/Swinney-Anthony-HowWereNewMedicinesDiscovered-2011.pdf
-     %})) *Analysis of historical data reveals how new drugs are discovered*.
+1. **Productivity and cost of drug discovery and development**:
+   * Dickson, Michael, and Jean Paul Gagnon. 2004. “Key Factors in the Rising
+     Cost of New Drug Discovery and Development.” Nature Reviews Drug Discovery
+     3 (5): 417. https://doi.org/10.1038/nrd1382. ([PDF]({{site.assetbaseurl}}{%
+     link assets/2020/13-14/DicksonGagnon-rising-cost.pdf %})) *Why drug
+     discovery and development has become more expensive over time?*
+   * Paul, Steven M., Daniel S. Mytelka, Christopher T. Dunwiddie, Charles C.
+     Persinger, Bernard H. Munos, Stacy R. Lindborg, and Aaron L. Schacht. 2010.
+     “How to Improve R&D Productivity: The Pharmaceutical Industry’s Grand
+     Challenge.” Nature Reviews Drug Discovery 9 (3): 203–14.
+     https://doi.org/10.1038/nrd3078. ([PDF]({{site.assetbaseurl}}{% link
+     assets/2020/13-14/Paul-2010-Productivity.pdf %})) *How can we do better?*
+   * Waring, Michael J., John Arrowsmith, Andrew R. Leach, Paul D. Leeson, Sam
+     Mandrell, Robert M. Owen, Garry Pairaudeau, *et al.* 2015. “An Analysis of
+     the Attrition of Drug Candidates from Four Major Pharmaceutical Companies.”
+     Nature Reviews Drug Discovery 14 (7): 475–86.
+     https://doi.org/10.1038/nrd4609. ([PDF]({{site.assetbaseurl}}{% link
+     assets/2020/13-14/Waring-2015-Attrition.pdf %})) *We learn at least as much
+     from our failures as from our successes*.
 2. **Machine learning in drug discovery**:
    * Vamathevan, Jessica, Dominic Clark, Paul Czodrowski, Ian Dunham, Edgardo
      Ferran, George Lee, Bin Li, *et al.* 2019. “Applications of Machine
@@ -302,26 +300,59 @@ forty years' experience in life sciences.
      ([PDF]({{site.assetbaseurl}}{% link
      assets/2020/13-14/McCloskey-2020-ML-DELT.pdf %})) *Interesting paper by
      Google and X-Chem to use ML explore DELT screening data*.
-3. **Productivity and cost of drug discovery and development**:
-   * Dickson, Michael, and Jean Paul Gagnon. 2004. “Key Factors in the Rising
-     Cost of New Drug Discovery and Development.” Nature Reviews Drug Discovery
-     3 (5): 417. https://doi.org/10.1038/nrd1382. ([PDF]({{site.assetbaseurl}}{%
-     link assets/2020/13-14/DicksonGagnon-rising-cost.pdf %})) *Why drug
-     discovery and development has become more expensive over time?*
-   * Paul, Steven M., Daniel S. Mytelka, Christopher T. Dunwiddie, Charles C.
-     Persinger, Bernard H. Munos, Stacy R. Lindborg, and Aaron L. Schacht. 2010.
-     “How to Improve R&D Productivity: The Pharmaceutical Industry’s Grand
-     Challenge.” Nature Reviews Drug Discovery 9 (3): 203–14.
-     https://doi.org/10.1038/nrd3078. ([PDF]({{site.assetbaseurl}}{% link
-     assets/2020/13-14/Paul-2010-Productivity.pdf %})) *How can we do better?*
-   * Waring, Michael J., John Arrowsmith, Andrew R. Leach, Paul D. Leeson, Sam
-     Mandrell, Robert M. Owen, Garry Pairaudeau, *et al.* 2015. “An Analysis of
-     the Attrition of Drug Candidates from Four Major Pharmaceutical Companies.”
-     Nature Reviews Drug Discovery 14 (7): 475–86.
-     https://doi.org/10.1038/nrd4609. ([PDF]({{site.assetbaseurl}}{% link
-     assets/2020/13-14/Waring-2015-Attrition.pdf %})) *We learn at least as much
-     from our failures as from our successes*.
-4. **Mathematical and computational modelling in biology and drug discovery**:
+3. **Can machine learning improve the productivity of drug discovery? If yes,
+   how?**:
+   * There are much enthusiasm and hope. Besides the papers listed above, also
+     see a [blog
+     post](https://medium.com/pytorch/speeding-up-drug-discovery-with-advanced-machine-learning-b17d59e0daa6)
+     by Garvin Edwards at AstraZeneca, who is working on using knowledge graphs
+     for target identification (and probably more), for an example of applying
+     machine learning in preclinical research.
+   * See the following paper for discussions that are relevant for clinical
+     development: Shah, Pratik, Francis Kendall, Sean Khozin, Ryan Goosen,
+     Jianying Hu, Jason Laramie, Michael Ringel, and Nicholas Schork. 2019.
+     “[Artificial Intelligence and Machine Learning in Clinical Development: A
+     Translational Perspective.](https://doi.org/10.1038/s41746-019-0148-3)” Npj Digital Medicine 2 (1): 1–5.
+   * Precautions are warranted: machine learning has its own limitations,
+     especially if our goal is to increase the productivity of drug discovery.
+     See a post by Derek Lowe (the author of the blog *In The Pipeline*), [AI,
+     Machine Learning, and the
+     pandemic](https://blogs.sciencemag.org/pipeline/archives/2020/07/23/ai-machine-learning-and-the-pandemic),
+     and linked blog posts therein, for inspiration for critical thoughts.
+4. **Drug discovery for SARS-Cov-2 (COVID-19)**:
+   * Walser *et al.* 2020. "Highly potent anti-SARS-Cov-2 multi-DARPin
+     therapeutic candidates." bioRxiv (*preprint, not peer-reviewed*)
+     https://www.biorxiv.org/content/10.1101/2020.08.25.256339v1
+   * (potentially useful reference 1) Riva, L., Yuan, S., Yin, X. et al.
+     [Discovery of SARS-CoV-2 antiviral drugs through large-scale compound
+     repurposing.](https://doi.org/10.1038/s41586-020-2577-1) Nature 586,
+     113–119 (2020).
+   * (potentially useful reference 2) Richardson *et al.* [Baricitinib as
+     potential treatment for 2019-nCoV acute respiratory
+     disease.](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30304-4/fulltext)
+     Lancet 2020
+5. **How drugs are discovered: target-based and phenotypic screening**:
+   * Kleinstreuer, Nicole C., Jian Yang, Ellen L. Berg, Thomas B. Knudsen, Ann
+     M. Richard, Matthew T. Martin, David M. Reif, *et al.* 2014. “Phenotypic
+     Screening of the ToxCast Chemical Library to Classify Toxic and Therapeutic
+     Mechanisms.” Nature Biotechnology 32 (6): 583–91.
+     https://doi.org/10.1038/nbt.2914. ([PDF]({{site.assetbaseurl}}{% link
+     assets/2020/13-14/Kleinstreuer-2014-ToxCast.pdf %})). *Comments by David:
+     An example of phenotypic screening, though not directly for drug discovery
+     but rather for mechanism and safety understanding, nevertheless
+     interesting*.
+   * Moffat, John G., Fabien Vincent, Jonathan A. Lee, Jörg Eder, and Marco
+     Prunotto. 2017. “Opportunities and Challenges in Phenotypic Drug Discovery:
+     An Industry Perspective.” Nature Reviews Drug Discovery 16 (8): 531–43.
+     https://doi.org/10.1038/nrd.2017.111. ([PDF]({{site.assetbaseurl}}{% link
+     assets/2020/13-14/Moffat-Phenotypic.pdf %})) *Current and relevant review
+     from the industrial point of view*.
+   * Swinney, David C., and Jason Anthony. 2011. “How Were New Medicines
+     Discovered?” Nature Reviews Drug Discovery 10 (7): 507–19.
+     https://doi.org/10.1038/nrd3480. ([PDF]({{site.assetbaseurl}}{% link
+     assets/2020/13-14/Swinney-Anthony-HowWereNewMedicinesDiscovered-2011.pdf
+     %})) *Analysis of historical data reveals how new drugs are discovered*.
+6. **Mathematical and computational modelling in biology and drug discovery**:
    * Allen, Richard, and Helen Moore. 2019. “Perspectives on the Role of
      Mathematics in Drug Discovery and Development.” Bulletin of Mathematical
      Biology, January, 1–11. https://doi.org/10.1007/s11538-018-00556-y.
@@ -342,38 +373,6 @@ forty years' experience in life sciences.
      assets/2020/13-14/Tuszynski-2014-MathCompModeling.pdf %})) *A broad review
      of mathematical and computational modelling approaches across scales in
      biology*.
-5. **Drug discovery for SARS-Cov-2 (COVID-19)** (proposed by participants)
-   * Walser *et al.* 2020. "Highly potent anti-SARS-Cov-2 multi-DARPin
-     therapeutic candidates." bioRxiv (*preprint, not peer-reviewed*)
-     https://www.biorxiv.org/content/10.1101/2020.08.25.256339v1
-   * (potentially useful reference 1) Riva, L., Yuan, S., Yin, X. et al.
-     [Discovery of SARS-CoV-2 antiviral drugs through large-scale compound
-     repurposing.](https://doi.org/10.1038/s41586-020-2577-1) Nature 586,
-     113–119 (2020).
-   * (potentially useful reference 2) Richardson *et al.* [Baricitinib as
-     potential treatment for 2019-nCoV acute respiratory
-     disease.](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30304-4/fulltext)
-     Lancet 2020
-6. **Can machine learning improve the productivity of drug discovery? If yes,
-   how?**
-   * There are much enthusiasm and hope. Besides the papers listed above, also
-     see a [blog
-     post](https://medium.com/pytorch/speeding-up-drug-discovery-with-advanced-machine-learning-b17d59e0daa6)
-     by Garvin Edwards at AstraZeneca, who is working on using knowledge graphs
-     for target identification (and probably more), for an example of applying
-     machine learning in preclinical research.
-   * See the following paper for discussions that are relevant for clinical
-     development: Shah, Pratik, Francis Kendall, Sean Khozin, Ryan Goosen,
-     Jianying Hu, Jason Laramie, Michael Ringel, and Nicholas Schork. 2019.
-     “[Artificial Intelligence and Machine Learning in Clinical Development: A
-     Translational Perspective.](https://doi.org/10.1038/s41746-019-0148-3)” Npj Digital Medicine 2 (1): 1–5.
-   * Precautions are warranted: machine learning has its own limitations,
-     especially if our goal is to increase the productivity of drug discovery.
-     See a post by Derek Lowe (the author of the blog *In The Pipeline*), [AI,
-     Machine Learning, and the
-     pandemic](https://blogs.sciencemag.org/pipeline/archives/2020/07/23/ai-machine-learning-and-the-pandemic),
-     and linked blog posts therein, for inspiration for critical thoughts.
-
 
 ## End-term project
 
