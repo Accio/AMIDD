@@ -240,8 +240,14 @@ forty years' experience in life sciences.
 
 ### 12. Guest-speaker session (II) (4.12)
 
-* Guest speaker Detlef Wolf (12:15-13:00)
-* Guest speaker Jenny Devenport (13:10-13:55)
+* Guest speaker Detlef Wolf (12:15-13:00): *42 Years of Programming -- Selected
+  Algorithms and Data Structures*
+* Guest speaker Jenny Devenport (13:10-13:55): *Reflections on Statistics Career
+  Opportunities in Drug Development and Healthcare*
+
+Detlef Wolf is a computer scientist by training, with an inclination towards working at the interface between biology and informatics. For many years he worked on data management systems, initially for genomic data, later biochemical data. Detlef likes to write re-usable, configurable code that supports scientific work. In the past Detlef was a member of the Roche bioinformatics group led by Clemens Broger. Now he is a member of the data science group led by Martin Strahm. The current focus of his work are Digital Biomarkers and quantum computing.
+
+Jenny Devenport is currently a Director of Biostatistics at Roche, overseeing a talented group of statisticians who work on late-stage products close to or just after launch in Immunology, Ophthalmology, and Neuroscience. With an unusually broad background covering public health, drug and device development and medical affairs, she champions scientific curiosity to improve patient care through the generation and effective communication of evidence.
 
 ### 13. Student presentation (I) (11.12.)
 
