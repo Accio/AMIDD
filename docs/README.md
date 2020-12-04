@@ -240,8 +240,11 @@ forty years' experience in life sciences.
 
 ### 12. Guest-speaker session (II) (4.12)
 
+* [Recording (passcode shared with
+  email)](https://unibas.zoom.us/rec/share/sLp454uOcb6d76QDeqgUPqp4ah6q-joeE_N2KlQuZTlQR0fVlCt-zmT9-neVqI63.wzUzAk6LoZvXwCsh)
 * Guest speaker Detlef Wolf (12:15-13:00): *42 Years of Programming -- Selected
-  Algorithms and Data Structures*
+  Algorithms and Data Structures* ([PDF]({{site.assetbaseurl}}{% link
+  assets/2020/12/DetlefWolf-AMIDD-2020.pdf %}))
 * Guest speaker Jenny Devenport (13:10-13:55): *Reflections on Statistics Career
   Opportunities in Drug Development and Healthcare*
 
