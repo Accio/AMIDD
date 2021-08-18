@@ -1,1 +1,49 @@
 # Central Dogma and Drug Targets {#centraldogma}
+
+## The Central Dogma
+
+You and I can be thought as vehicles of information in evolution. Biological
+information, together with the environment, determines our traits to a large
+extend, such as height, weight, skin colour, health condition, etc. The
+information is passed from parents to children in the form of deoxyribonucleic
+acids (DNA). Human DNA form double-helices, which in turn forms complex
+structures of higher hierarchies such as nucleosomes and chromosomes. As we will
+see later, the hierarchical organisation pattern prevails in biology.
+
+Information stored in DNA is transcribed into ribonucleic acids (RNA) by a large
+apparatus of transcription. Human RNA is single-stranded, and some RNA species
+are translated into chains of amino-acids, which form proteins. Proteins build
+main components of our material body, catalyse chemical reactions which generate
+metabolites, and act as signal sensors and function executors between cells and
+their environments. To do that, proteins interact with each other, as well as
+other molecules including DNA, RNA, metabolites, and other entities that can be
+met a human body, ranging from water to viral particles to gas molecules. We
+know about 20,000 proteins encoded by the human genome, many of which we know
+little about beyond their sequence and likely structure.
+
+DNA, RNA, proteins, and metabolites interact with each
+other, forming heterogeneous biological networks. These networks are highly
+mutable and dynamic: both the abundances of the nodes, i.e. those of DNA, RNA,
+protein, and metabolite molecules, and the strength of interactions between the
+nodes depend on many factors, among others the cell type, the cellular context
+(for instance, whether a cell is derived of energy source, or whether it is
+exposed to a drug), and the history of the cell. In another word, the network
+changes both temporally and spatially. It is a surprising fact if we consider
+that sequences of DNA, the most basic information vehicle, are almost identical
+in all cells in a body. While exceptions known as genetic mosaicism do exist,
+for instance due to spontaneous mutations (which may or may not lead to
+cancers), they cannot explain the high complexity observed in biological
+networks with regard to cell type.
+
+On top of that, differences in the genetic make-up of individuals further
+exacerbate the complexity between the chemical nature of the nodes, and
+consequently the interactions among them, may vary from person to person.
+
+The central goal of drug discovery, viewed from the angle of biological
+networks, is to identify nodes and edges that can be modulated to halt or
+reverse a disease condition, and to discover chemical molecules or biological
+entities to achieve that goal with acceptable safety profiles. The fact that
+biological networks are heterogeneous, dynamic, and complex, or simply put,
+messy, makes the process of drug discovery intellectually and practically
+challenging and rewarding.
+
