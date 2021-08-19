@@ -35,6 +35,8 @@ for instance due to spontaneous mutations (which may or may not lead to
 cancers), they cannot explain the high complexity observed in biological
 networks with regard to cell type.
 
+TODO: here we need a graph illustrating the central dogma
+
 On top of that, differences in the genetic make-up of individuals further
 exacerbate the complexity between the chemical nature of the nodes, and
 consequently the interactions among them, may vary from person to person.
@@ -47,3 +49,47 @@ biological networks are heterogeneous, dynamic, and complex, or simply put,
 messy, makes the process of drug discovery intellectually and practically
 challenging and rewarding.
 
+## Drug targets
+
+Drugs are molecules that operate on the biological network with the purpose of
+halting or reversing disease progression. Many operations are possible. The most
+common form of operation is modulating the function of individual proteins,
+which we call drug targets. While most drugs are designed to modulate, or
+target, one protein, they can both bind to and modulate other proteins directly,
+and affect the function of other proteins indirectly by the propagation
+through the biological network.
+
+It is possible for drugs to target other nodes than proteins, namely DNA, RNA,
+metabolites, or higher structures such as cell organelles or even cells. For
+instance, alkylating agents used in cancer chemotherapy assert their effect by
+binding to the DNA covalently with their alkyl group. Some drugs, for instance
+antisense oligonucleotides and RNA inference (RNAi) agents, work by specifically
+reducing the abundance of or eliminating a type of RNA. Other drugs modify the
+structure, transport, splicing, and other biological roles of RNA. An example is
+risdiplam (brand name Evrysdi), which is used to treat a disease called spinal
+muscle atrophy (SMA) by modifying the splicing of the gene survival motor
+neuron-2 (*SMN2*).
+
+It is also possible for drugs to target not nodes, but edges of the network. For
+instance, some antiviral and antibacterial drugs inhibit the process of
+transcription, inhibiting the synthesis of viral or bacterial RNA from
+respective DNA templates. Other drugs modulate the process of translation, where
+the information stored RNA is translated into amino acids, the building blocks
+of protein. Yet other drugs inhibit the binding of transcription factor to DNA,
+thereby regulating gene expression and consequently cell fate.
+
+Besides individual nodes and edges, drugs can target multiple targets
+simultaneously. Known as polypharmacology, this effect may come from its design,
+or from the nature of chemical molecules which entails many possible
+interactions with proteins and other molecules, or both. The strengths of a drug
+molecule binding to and modulating its targets can be expressed in several
+related terms, for instance the binding free-energy, constants of the
+equilibrium, or the concentration at which half of the maximum inhibition is
+achieved ($IC_{50}$). For most drugs, we do now all the targets comprehensively,
+not to say the strengths, not only because determining binding events and their
+functional consequences is labour-intensive and challenging, but also because
+the dynamic and context-dependent nature of biological networks. It is therefore
+imperative for scientists working in drug discovery to have an open mind and
+stay vigilant about the many possibilities of targets of their drugs, however
+much we wish to simplify the picture to the comfortable one-drug-one-target
+model.
