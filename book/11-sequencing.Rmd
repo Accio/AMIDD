@@ -119,3 +119,5 @@ levels of the transcription factors of each individual.
 [Khan Academy](https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/mass-spectrometry/a/isotopes-and-mass-spectrometry)
 
 Meija, Juris. “Mathematical Tools in Analytical Mass Spectrometry.” Analytical and Bioanalytical Chemistry 385, no. 3 (June 1, 2006): 486–99. https://doi.org/10.1007/s00216-006-0298-4.
+
+[Factor Analysis](https://en.wikipedia.org/wiki/Factor_analysis), Wikipedia
