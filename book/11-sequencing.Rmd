@@ -51,6 +51,63 @@ How about DNA variations between cells in a human body?
 
 ### Negative binomial distribution
 
+### Dimension reduction
+
+#### Principal component analysis
+
+#### Exploratory factor analysis
+
+Given gene expression and other high-dimensional data, we want to understand
+*why* they are so. For instance, what transcription factors and other mechanisms
+of gene expression are work to shape the gene expression data. While the
+underlying ground truth may be too complex to be known, we may achieve an
+approximate understanding if we allow some assumptions. Factor analysis is such
+a method that allows us to achieve such understandings while making minimal
+assumptions.
+
+Factor analysis describes the variability among observed, correlated variables
+by fewer unobserved variables called factors. In the context of gene expression
+profiling, individual genes can be thought of as correlated variables and their
+expression in a number of samples are observed values. Factor analysis
+identifies unobserved factors, which are generally fewer compared to the number
+of genes, that explain the variations of genes.
+
+For instance, let us assume that we are interested in 10 genes and we measure
+their expression in the blood of 100 individuals. We have the hypothesis that
+these genes are under control of two transcription factors, `TF1` and `TF2`,
+neither of which is directly observed. If each individual is chosen randomly
+from a large population, each each individual's expression of 10 genes are
+random variables. We hypothesize that in a particular individual, the expression
+of any gene is a linear sum of the factors. 
+
+$$
+g_i ~ N(m, sigma^2)
+m = \lambda_i1 TF_1j + \lambda_i2 TF_2j
+i in 1,2,...,10
+j in 1,2,...,100
+$$
+
+$TF_1j$ and $TF_2j$ are activities of the two transcription factors that we wish
+to infer for each individual. $lambda_i1$ and $lambda_i2$ are the *factor
+loadings* associated with gene $i$. Different genes have different factor
+loadings, which reflect the aptitude of the two transcription factors for
+regulating them.
+
+Two individuals assumed to have the same activities of $TF_1$ and $TF_2$ may
+have different expression in any gene, because (1) the equation above only makes
+predictions based on the population, while individuals may have aberrant
+expression profiles due to many factors (disease status, genetic background,
+etc.), and (2) the measurement may contain errors. Both types of differences are
+collectively called *errors*, which means the amount by which an individual, as
+measured, differs from what is predicted. Because many factors may contribute to
+the errors, their sum can be well modelled by the Gaussian distribution, thanks
+to the Central Limit Theorem.
+
+The observed data that go into factor analysis is expression of 10 genes of each
+of the 100 individuals, a matrix of 1000 numbers. The output are the factor
+loadings (how two transcription factors regulating the genes) and activity
+levels of the transcription factors of each individual.
+
 ## Resources for further learning
 
 ### Genomics
