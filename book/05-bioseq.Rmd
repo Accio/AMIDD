@@ -306,6 +306,34 @@ chain2lvec <- ginv(chain2rvec)
 chain2pi <- chain2lvec[1,]/sum(chain2lvec[1,])
 ```
 
+## Multiple sequence alignment
+
+Major applications
+
+* Extrapolation: a good multiple alignment can categorize an uncharacterized
+  sequence as a member of a protein family
+* Phylogenetic analysis: to reconstruct the history of proteins
+* Pattern identification: we may identify conserved positions in a region that
+  is characteristic of a function, e.g. the catalytic site of an enzyme.
+* Domain identification: it is possible to turn a multiple-sequence alignment
+  into a profile that describes a protein family or a protein.
+
+For domain identification
+
+* PROSITE: regular expressions
+* PSSMs (good for short, conserved regions, interpretable; no insertions and
+  deletions): useful for small regions with high variability but of constant length
+    * MSA
+    * Count of occurrence of amino acids by position
+    * Frequency matrix
+    * Probability matrix: (1) normalization (amino-acid frequency), (2)
+      pseudo-count (residues not found in the alignment are extrapolated from
+      obesrved amino-acid compositions from substitution tables), and (3)
+      optionally definition of a cut-off value.
+* Profiles: allowing insertion and deletion
+* HMMs: similar to profiles, but with a different implementation.
+
+
 ## Software
 
 ### BLAST

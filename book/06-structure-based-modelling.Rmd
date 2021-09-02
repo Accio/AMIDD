@@ -132,6 +132,112 @@ which is the Fourier transform of $p(x)$.
 
 Practically, filtered back projection is a commonly used method of generating 3D reconstructions in single particle analysis, the inverse problem of Radon transformation. See details in the videos on computed tomography by [Astra Toolbox](https://www.youtube.com/channel/UCcnUlWuFeS9miMR_o8-6v3w/videos), particularly [mathematical basics of computed tomography](https://www.youtube.com/watch?v=rKh_XIpsuc4).
 
+## Homology modelling
+
+### Definitions
+
+* Identity: proportions of pairs of identical residuals between two aligned sequences, which can be expressed as a percentage. The value can vary depending on how the two sequences are aligned.
+* Similarity: proportion of pairs of similar residuals between two aligned sequences. How two residuals are similar with each other is determined by the substitution matrix. Similarity depends on how the two sequences are aligned, and on the substitution matrix is used.
+* Homology: two sequences are homologous if and only if they have a common ancestor. It is binary: either two proteins are homologous or not. There is no level of homology.
+
+#### Homology modelling: the principles
+
+Question: we want to know the 3D structure of a protein that has not been solved empirically by X-ray or NMR or cryoEM. All you have is the sequence of the protein. You can look up the predicted structure with AlphaFold, but what if your sequence differs from the sequence used to generate the AlphaFold structure?
+
+* Homology modelling: at least 30% identity between the query (the protein to be modelled) and the template (the protein for which we have structures). For identity larger than 60%, we can probably achieve substrate specificity and a comparable resolution as NMR. For identity between 30% and 60%, we may be able to model the effect of site-directed mutagenesis.
+
+What can homology modelling do and what not, summarized by Eric Martz:
+
+* Homology modelling helps us to get a rough idea of where the alpha carbons of key residues sit in the folded protein. It can guide mutagenesis experiments, and bring up hypotheses about structure-function relationships.
+* Homology models are unreliable in predicting the conformations of insertions or deletions, as well as the details of side-chain positions.
+* Homology models are unlikely to be useful in modeling ligand docking, i.e. drug design, unless the sequence identity with the template is larger then 70%, and even so the results are less reliable than an empirical crystallographical, NMR, or cyro-EM structure.
+
+
+Eight steps of homology modelling
+
+#### Step 1: template identification and initial alignment
+
+Template identification with BLAST (PSI-BLAST, position-specific iterated BLAST): compare the query sequence against sequences with structures in PDB. Choose the highest identity one usually
+
+PSI-BLAST:
+* A query sequence queried with gapped BLAST
+* Construct multiple alginment from the output hits with E-value below a
+  threshold, excluding the identical sequence, and pair-wise alignment columns
+  with gaps in query are ignored.
+* Generate a position-specific matrix L*20 (20 amino acids)
+* Use the matrix in place of the query for the next run
+
+BLAST: bit scores below 50 are very unreliable, and E-values larger than 0.0001 are often questionable.
+
+Considerations
+
+* Conformational state: active or inactive (like in the PTPN example: we prefer to study the active, closed form of the WPD motif). Link:[Read about PTPNs](2021-09-02-0838-read about ptpns)
+* Co-factors
+* Other molecules or multimeric complexes
+
+It is possible to use multiple templates to built multiple models, or to combine multiple templates into one structure to be used for modelling.
+
+#### Step 2: alignment correction
+
+Having determined possible modelling templates, it is important to examine the alignment and correct it in case there are problems. This step is critical.
+
+I tried to search for a collection of common problems, failed to find some so far. A good alignment should not contain too many gaps, and should have a few patches of high similarity, rather than isolated identical residuals spread here and there.
+
+
+#### Step 3: backbone generation
+
+Given the alignment, the actual model building can start. It is done by copying the coordinates of the template residuals which are identical between the query and template. If the aligned residuals differ, the backbone coordinates for N, Calpha, C and O are often copied, and sometimes Cbeta.
+
+#### Step 4: loop modelling
+
+Most alignments contain gaps. Gap in the model sequence (i.e. query sequence, for which a model is built) are addressed by omitting residues from the template. Gaps in the template sequences are treated by inserting missing residues into the continuous backbone.
+
+Changes in loop conformation are notoriously hard to predict. A way is to search the PDB for known loops containing a match.
+
+#### Step 5: Side-chain modelling
+
+Libraries of common rotamers (rotation isomers) extracted from high-resolution X-ray are often used to position side chains.
+
+Various rotamers are explored and scored with a variety of energy functions.
+
+#### Step 6: model optimization
+
+To predict the side chain with high accuracy, we need to correct the backbone. It depends on the rotamers and their packing.
+
+A common way to address it is to iteratively model the rotamers and the backbone structure, like the EM algorithm. First, we make a guess about the rotamers, then we remodel the backbone to fit the rotamers. This is repeated until the solution converges. The process is in its essence a series of rotamer prediction and energy minimization steps.
+
+#### Step 7: model validation
+
+Given that every structure contains errors, homology models are no exception.
+
+Number and amplitude of errors depend mainly on two values:
+
+1. The sequence identity
+2. The errors in the template
+
+Two ways to address the errors in a structure
+
+1. Calculate the model's energy based on a force field
+2. Determining normality indices, which describe how well a given characteristic of the model resembles the same characteristic in real structures, for example the Ramachandran plot.
+
+#### Step 8: iteration to correct mistakes
+
+Iterating the process. Small errors that are induced during the optimization step may be removed by running a molecular dynamics (MD) simulation. An error in a loop may be corrected by choosing another loop confirmation. Large mistakes in the mistake conformation may require the complete process to be repeated.
+
+### Tools:
+
+* Model building: MODELLER and SWISS-MODEL. [SWISS-MODEL](https://swissmodel.expasy.org/) can generate a homology model automatically, provided an empirical structure with >30% sequence identity exist to serve as a template. Note that manual adjustments and corrections are sometimes needed to correct the sequence alignment by an expert. It also integrates DeepView, which visualizes the evaluates the model, aligned with the template. 
+* Quality assessment: QMEAN
+
+### How good can homology modelling be?
+
+Overall differences in protein backbone structures are quantified with the root mean square deviation of the positions of alpha carbons, or RMSD. By building models for previously solved structures (not using them though as template), Schwede et al. has compred homology models with empirical structures.
+
+For reference, up to 0.5 A RMSD of lapha carbons occurs in independent determinations of the same protein by X-ray. Proteins with 50% sequence identity have on average 1A RMSD. NMR determintaions have RMSD's several fold higher. To achieve RMSD <= 2A with a success rate >70%, we need >=60% sequence identity. Even identities are 60%-95%, 10% of homology models hvae an RMSD > 5A.
+
+
+## AlphaFold
+
 
 ## Future?
 
@@ -154,4 +260,12 @@ Video: https://www.youtube.com/watch?v=yk14dOOvwMk&list=PLHib7JgKNUUdFEo9lZ4Mnip
 * See two iBiology videos by Yifan Cheng: (1) [single particle cryo-EM](https://www.youtube.com/watch?v=Bk5lBvwSe-s) and (2) [single-particle Cyro-EM of membrane proteins](https://www.youtube.com/watch?v=tkrEKhiqhEk) to see a good overview of CryoEM applications in biophysics. See the video [Mathematics for Cryo-Electron Microscopy, 1h](https://www.youtube.com/watch?v=GxdIKOAwxzs) for mathematics in CryoEM.
 * Recall the HAART therapy against HIV? With more insights into proteins, you can now better understand molecular and structural basis of HIV therapy, with two videos provided by RCSB: (1) [A molecular View of HIV therapy](https://www.youtube.com/watch?v=9SptF9bCyd0&list=PLHib7JgKNUUdFEo9lZ4MnipbB1fLqyAVh&index=5), and (2) [Learn more about HIV from the RCSB Protein Data Bank](https://www.youtube.com/watch?v=QvavxKazmsY&list=PLHib7JgKNUUdFEo9lZ4MnipbB1fLqyAVh&index=6)
 * MATHEMATICAL TECHNIQUES IN STRUCTURAL BIOLOGY by J. R. Quine
+
+References about homology modelling: 
+
+* EMBO course: http://aidanbudd.github.io/ppisnd/programme.html, specifically about protein homology modelling: http://aidanbudd.github.io/ppisnd/trainingMaterial/allegraVia/PPI/tutorial_on_homology_modelling.html
+* Tips for HM on PLOS Comp Biol by Haddad et al.: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007449 
+* Homology modelling for beginners: https://www.umass.edu/molvis/workshop/homolmod.htm, which is found through [Protein 3D Structure Visualization & Structure Bioinformatics](https://www.umass.edu/molvis/workshop/um20-jk.htm), a workshop offered by U of Massachusetts, Amherst
+* [Molecular Modeling for Beginners](https://spdbv.vital-it.ch/TheMolecularLevel/SPVTut/), part of Tutorial for DeepView
+* [Introduciton to 3D-structure Visualization and Homology Modelling using the Swiss-Model Workspace](https://edu.sib.swiss/course/view.php?id=99), a tutorial by Lorenza Bordoli from SIB and Biozentrum, University Basel. In particular [the theory](https://edu.sib.swiss/pluginfile.php/735/course/section/1233/Introduction-SMW_part_II.pdf) introduced in Part II.
 
