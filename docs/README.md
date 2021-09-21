@@ -1,30 +1,30 @@
-Welcome to the website for *Introduction to Applied Mathematics and Informatics
-In Drug Discovery*, the course series running at the Department of Mathematics
-and Informatics, University of Basel in the fall semester 2020.
+Welcome to the website for *Applied Mathematics and Informatics In Drug
+Discovery* (AMIDD), the course series running at the Department of Mathematics
+and Informatics, University of Basel in the fall semester 2021.
 
 We focus on interdisciplinary research in drug discovery with mathematics as the
 language and informatics as the tool. More information on the course can be
 found at [the course directory of the University
-Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=251981).
+Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=258849).
 
 ## Table of content
 
-- [Lectures with Zoom: registration required](#lectures-with-zoom--registration-required)
+- [Lectures with Zoom](#lectures-with-zoom)
 - [Time and place](#time-and-place)
 - [Course material and licensing](#course-material-and-licensing)
+- [Pre-course survey](#pre-course-survey)
 - [Syllabus](#syllabus)
-  * [1. Drug discovery: an overview (18.09.2020)](#1-drug-discovery-an-overview-18092020)
-  * [2. The central dogma and the discovery of Vemurafenib (25.09.2020)](#2-the-central-dogma-and-the-discovery-of-vemurafenib-25092020)
-  * [3. Biological sequence analysis (02.10.2020)](#3-biological-sequence-analysis-02102020)
-  * [4. From protein structure to screening (09.10.2020)](#4-from-protein-structure-to-screening-09102020)
-  * [5. Principles of molecular modelling (16.10.2020)](#5-principles-of-molecular-modelling-16102020)
-  * [6. From molecular networks to omics and cellular modelling (23.10.2020)](#6-from-molecular-networks-to-omics-and-cellular-modelling-23102020)
-  * [7. Omics and cellular modelling (II) (30.10.2020)](#7-omics-and-cellular-modelling-ii-30102020)
-  * [8. PK/PD and PBPK modelling (06.11.2020).](#8-pkpd-and-pbpk-modelling-06112020)
-  * [9. Population modelling and clinical trials (13.11.2020)](#9-population-modelling-and-clinical-trials-13112020)
-  * [10. Guest-speaker session (I) (20.11.2020)](#10-guest-speaker-session-i-20112020)
-  * [11. *Dies academicus - optional Ask Me Anything session*
-    (27.11.)](#11-dies-academicus---optional-ask-me-anything-session-2711)
+  * [1. Drug discovery: an overview (24.09.2021)](#1-drug-discovery-an-overview-24092021)
+  * [2. The central dogma and the discovery of Vemurafenib (01.10.2021)](#2-the-central-dogma-and-the-discovery-of-vemurafenib-01102021)
+  * [3. Biological sequence analysis (08.10.2021)](#3-biological-sequence-analysis-08102021)
+  * [4. From protein structure to screening (15.10.2021)](#4-from-protein-structure-to-screening-15102021)
+  * [5. Principles of molecular modelling (22.10.2021)](#5-principles-of-molecular-modelling-22102021)
+  * [6. From molecular networks to omics and cellular modelling (29.10.2021)](#6-from-molecular-networks-to-omics-and-cellular-modelling-23102021)
+  * [7. Omics and cellular modelling (II) (05.11.2021)](#7-omics-and-cellular-modelling-ii-30102021)
+  * [8. PK/PD and PBPK modelling (12.11.2021).](#8-pkpd-and-pbpk-modelling-06112021)
+  * [9. Population modelling and clinical trials (19.11.2021)](#9-population-modelling-and-clinical-trials-13112021)
+  * [10. Guest-speaker session (I) (26.11.2021)](#10-guest-speaker-session-i-20112021)
+  * [11. *Dies academicus - optional Ask Me Anything session* (27.11.)](#11-dies-academicus---optional-ask-me-anything-session-2711)
   * [12. Guest-speaker session (II) (4.12)](#12-guest-speaker-session-ii-412)
   * [13. Student presentation (I) (11.12.)](#13-student-presentation-i-1112)
   * [14. Student presentation (II) (18.12.)](#14-student-presentation-ii-1812)
@@ -34,25 +34,19 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=251981).
 - [Further questions or suggestions?](#further-questions-or-suggestions-)
 - [Archives of past courses](#archives-of-past-courses)
 
-## Lectures with Zoom: registration required
+## Lectures with Zoom
 
-Due to the coronavirus pandemic, the course in 2020 will take place online with
-*Zoom*.
-
-In order to attend the interactive lectures, please register yourself once for
-the Zoom meetings with
-[this link at https://unibas.zoom.us](https://unibas.zoom.us/meeting/register/tJwof-6upzktE92okfuCd-2UY3z8iQWvF7Dk).
-The registration is necessary for students who want to get credits and for
-auditors.
+Due to the coronavirus pandemic, the course in 2021 will take place online with
+*Zoom* exclusively. The link to join the Zoom meeting is:
+[https://unibas.zoom.us/j/68803401669](https://unibas.zoom.us/j/68803401669).
+The passcode for the Zoom meeting is shared among registered students via
+emails.
 
 ## Time and place
 
-The lecture takes place on Fridays between 12:15 and 13:45 exclusively on Zoom.
-The meeting will be active between 12:00 and 14:00, so that any questions to the
-lecturer can be addressed before and after the lecture.
-
-You can add the events to your calendar once you register for the Zoom meetings
-with the link above.
+The lecture takes place on Fridays between 12:15 and 14:00 on Zoom. The meeting
+will be active between 12:00 and 14:00, so that any questions can be addressed
+before the lecture.
 
 ## Course material and licensing
 
@@ -67,7 +61,7 @@ Commons (CC-BY-SA 4.0) license.
 
 ## Syllabus
 
-### 1. Drug discovery: an overview (18.09.2020)
+### 1. Drug discovery: an overview (24.09.2021)
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2020/01/AMIDD-2020-01-Intro.pdf
   %})
@@ -81,7 +75,7 @@ Commons (CC-BY-SA 4.0) license.
     * Handout [package insert demo]({{site.assetbaseurl}}{% link
       assets/2020/01/package-insert-demo.pdf %}).
 
-### 2. The central dogma and the discovery of Vemurafenib (25.09.2020)
+### 2. The central dogma and the discovery of Vemurafenib (01.10.2021)
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2020/02/AMIDD-02-BioSeq.pdf %})
 * [Recording (passcode shared by
