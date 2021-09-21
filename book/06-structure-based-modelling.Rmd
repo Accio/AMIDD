@@ -159,13 +159,17 @@ Eight steps of homology modelling
 
 Template identification with BLAST (PSI-BLAST, position-specific iterated BLAST): compare the query sequence against sequences with structures in PDB. Choose the highest identity one usually
 
-PSI-BLAST:
+PSI-BLAST: more sensitive for distantly related family members, and more
+accurate for evolutionary distance sequences:
+
 * A query sequence queried with gapped BLAST
 * Construct multiple alginment from the output hits with E-value below a
   threshold, excluding the identical sequence, and pair-wise alignment columns
   with gaps in query are ignored.
 * Generate a position-specific matrix L*20 (20 amino acids)
 * Use the matrix in place of the query for the next run
+
+Critical to use PSI-BLAST: non-homologous sequences may diverge the process.
 
 BLAST: bit scores below 50 are very unreliable, and E-values larger than 0.0001 are often questionable.
 
