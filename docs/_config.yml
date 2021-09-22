@@ -2,7 +2,7 @@ theme: jekyll-theme-cayman
 
 assetbaseurl: https://accio.github.io/AMIDD
 
-title: Applied Mathematics and Informatics in Drug Discovery (AMIDD)
+title: Applied Mathematics and Informatics in Drug Discovery
 email: jitao-david.zhang@unibas.ch
 description: >- # this means to ignore newlines until "baseurl:"
   University of Basel/ Fall Semester 2021/ Fridays 12:15-14:00
