@@ -58,6 +58,12 @@ All Zoom sessions are recorded and distributed among attendees.
 All course material, unless otherwise stated, is shared under the Creative
 Commons (CC-BY-SA 4.0) license.
 
+## Pre-course survey
+
+Prior to attending the first session, please [fill out the voluntary pre-course
+survey](https://forms.gle/Qd6PdWv5LuwZDw6w7). It helps me to shape the course to
+meet your needs.
+
 ## Syllabus
 
 ### 1. Drug discovery: an overview
