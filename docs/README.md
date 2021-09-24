@@ -68,9 +68,13 @@ meet your needs.
 
 ### 1. Drug discovery: an overview
 
-* [Slides used last year, updates expected]({{site.assetbaseurl}}{% link assets/2020/01/AMIDD-2020-01-Intro.pdf
-  %})
-* Recording: to be shared
+* [Slides]({{site.assetbaseurl}}{% link assets/2021/01/AMIDD-2021-01-Intro.pdf %})
+* Recording (passcode shared by emails)
+* Material for offline activities (see slides 34-36)
+    * [Link to the video](https://www.ibiology.org/human-disease/herceptin/) on
+      the discovery and development of Herceptin, by Susan Desmond-Hellmann
+    * [Principles of early drug discovery]({{site.assetbaseurl}}{% link
+      assets/2019/01/Principles-DD-Hughes.pdf %}) by Hughes *et al.*
 
 ### 2. The central dogma and the discovery of Vemurafenib
 
