@@ -70,7 +70,7 @@ meet your needs.
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2021/01/AMIDD-2021-01-Intro.pdf %})
 * [Anonymous Post-lecture Survey #1](https://forms.gle/nahRRtbDPzZTKKAz5)
-* Recording (passcode shared by emails)
+* [Recording (passcode shared by emails)](https://unibas.zoom.us/rec/share/YrrIKSRC_07QxZjasj42bUsa21w48VlWEKDzZJrWU9rfPTs0IF2zHazwMphBAf3W.QIp8zvuLjEGI4-s6)
 * Material for offline activities (see slides 34-36)
     * [Link to the video](https://www.ibiology.org/human-disease/herceptin/) on
       the discovery and development of Herceptin, by Susan Desmond-Hellmann
