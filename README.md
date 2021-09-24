@@ -48,10 +48,10 @@ Though no prerequisite courses are obligatory, elementary understanding of stati
 
 Scores will be given in scale 1-6 by 0.5, by participation (20%), near-end-term presentation (30%), and end-term oral examination (50%).
 
-## Syllabus of autumn semester 2020-2021
+## Syllabus of autumn semester 2021-2022
 
 1. Drug discovery: an overview
-2. The central dogma and biological sequence analysis
+2. Biological sequence analysis
 3. Protein structure and function
 4. Chemical structure representation and search
 5. Molecular interaction and modelling
@@ -59,11 +59,10 @@ Scores will be given in scale 1-6 by 0.5, by participation (20%), near-end-term 
 7. PK/PD and PBPK modelling
 8. Clinical trials and population modelling
 9. Bayesian modelling, machine learning, and causal inference
-10. Multiscale modelling of drug mechanism and safety
+10. *Dies Academicus* - optional AMA session
 11. Guest speakers (to be announced)
-12. Guest speakers (to be announced)
-13. Student presentation (I)
-14. Student presentation (II)
+12. Student presentation (I)
+13. Student presentation (II)
 
 ## Content and Format
 
