@@ -86,6 +86,7 @@ meet your needs.
 * Material for offline activities (see slides 34-36)
     * Required reading: [Clinical efficacy of a RAF inhibitor needs broad target blockade in BRAF-mutant melanoma]({{site.assetbaseurl}}{% link assets/2021/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
     * Optional reading: [A comprehensive map of molecular drug targets]({{site.assetbaseurl}}{% link assets/2021/02/Santos-NRDD-2017.pdf %}) by Santos *et al.*, Nature Reviews Drug Discovery, 2017
+* Submit your answers for Offline Activities [here via Google Form](https://forms.gle/B1gp5gnWW6koev59A)
 
 ### 3. Biological sequence analysis
 
