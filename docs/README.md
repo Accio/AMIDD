@@ -82,7 +82,7 @@ meet your needs.
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2021/02/AMIDD-2021-02-TheCentralDogma.pdf %})
 * [Anonymous Post-lecture Survey #2](https://forms.gle/YefzD76iwd9LvW3YA)
-* Recording (passcode shared by emails)
+* [Recording (passcode shared by emails)](https://unibas.zoom.us/rec/share/Bug4v5SAKSs6-iIgREmBBOKZbX1YSzP1Me6PUVJwrZ4VdNu9xvgQ8iZEjoBuNCvh.roQgCCOtkEROuYAe)
 * Material for offline activities (see slides 34-36)
     * Required reading: [Clinical efficacy of a RAF inhibitor needs broad target blockade in BRAF-mutant melanoma]({{site.assetbaseurl}}{% link assets/2021/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
     * Optional reading: [A comprehensive map of molecular drug targets]({{site.assetbaseurl}}{% link assets/2021/02/Santos-NRDD-2017.pdf %}) by Santos *et al.*, Nature Reviews Drug Discovery, 2017
