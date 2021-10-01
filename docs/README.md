@@ -78,8 +78,14 @@ meet your needs.
       assets/2019/01/Principles-DD-Hughes.pdf %}) by Hughes *et al.*
     * Submit your answers to the offline activities [here via Google Form](https://forms.gle/R9k7aGVLfd8J4bLr6)
 
-### 2. The central dogma and the discovery of Vemurafenib
+### 2. The central dogma and drug discovery
 
+* [Slides]({{site.assetbaseurl}}{% link assets/2021/02/AMIDD-2021-02-TheCentralDogma.pdf %})
+* [Anonymous Post-lecture Survey #2](https://forms.gle/YefzD76iwd9LvW3YA)
+* Recording (passcode shared by emails)
+* Material for offline activities (see slides 34-36)
+    * Required reading: [Clinical efficacy of a RAF inhibitor needs broad target blockade in BRAF-mutant melanoma]({{site.assetbaseurl}}{% link assets/2021/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
+    * Optional reading: [A comprehensive map of molecular drug targets]({{site.assetbaseurl}}{% link assets/2021/02/Santos-NRDD-2017.pdf %}) by Santos *et al.*, Nature Reviews Drug Discovery, 2017
 
 ### 3. Biological sequence analysis
 
