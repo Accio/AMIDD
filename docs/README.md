@@ -90,6 +90,10 @@ meet your needs.
 
 ### 3. Biological sequence analysis
 
+* [Slides]({{site.assetbaseurl}}{% link assets/2021/03/AMIDD-2021-03-BiologicalSequenceAnalysis.pdf %})
+* [Anonymous Post-lecture Survey #3](https://forms.gle/EAfmEEG7JtCnW1m7A)
+* Recording (passcode shared by emails)
+* Material for offline activities
 
 ### 4. From protein structure to screening
 
