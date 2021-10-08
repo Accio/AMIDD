@@ -15,7 +15,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=258849).
 - [Pre-course survey](#pre-course-survey)
 - [Syllabus](#syllabus)
   * [1. Drug discovery: an overview (24.09.2021)](#1-drug-discovery-an-overview)
-  * [2. The central dogma and the discovery of Vemurafenib (01.10.2021)](#2-the-central-dogma-and-the-discovery-of-vemurafenib)
+  * [2. The central dogma and drug discovery (01.10.2021)](#2-the-central-dogma-and-drug-discovery)
   * [3. Biological sequence analysis (08.10.2021)](#3-biological-sequence-analysis)
   * [4. From protein structure to screening (15.10.2021)](#4-from-protein-structure-to-screening)
   * [5. Principles of molecular modelling (22.10.2021)](#5-principles-of-molecular-modelling)
@@ -94,9 +94,9 @@ meet your needs.
 * [Anonymous Post-lecture Survey #3](https://forms.gle/EAfmEEG7JtCnW1m7A)
 * Recording (passcode shared by emails)
 * Material for offline activities
-  * Reading (I): [Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity]({{site.assetbaseurl}}{% link assets/2021/03/Tsai-BRAF-PNAS-2008.pdf %}) by Tsai *et al.*, PNAS 2008
-  * Reading (II): [The Tangled History of MRNA Vaccines](https://doi.org/10.1038/d41586-021-02483-w) by Elie Dolgin, Nature 2021.
   * [Handout for lecture 2 and lecture 3]({{site.assetbaseurl}}{% link assets/2021/02/AMIDD-Lecture2-Handout.pdf %}), which contains genetic codes, information on amino acids, and offline exercises
+  * Required reading: [Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity]({{site.assetbaseurl}}{% link assets/2021/03/Tsai-BRAF-PNAS-2008.pdf %}) by Tsai *et al.*, PNAS 2008
+  * Optional reading: [The Tangled History of MRNA Vaccines](https://doi.org/10.1038/d41586-021-02483-w) by Elie Dolgin, Nature 2021.
 * Submit your answers for offline activities [here via Google Form](https://forms.gle/VzGGbXBvy9ZhTSVK8)
 
 
