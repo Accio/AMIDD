@@ -14,11 +14,11 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=258849).
 - [Course material and licensing](#course-material-and-licensing)
 - [Pre-course survey](#pre-course-survey)
 - [Syllabus](#syllabus)
-  * [1. Drug discovery: an overview (24.09.2021)](#1-drug-discovery-an-overview)
-  * [2. The central dogma and drug discovery (01.10.2021)](#2-the-central-dogma-and-drug-discovery)
-  * [3. Biological sequence analysis (08.10.2021)](#3-biological-sequence-analysis)
-  * [4. From protein structure to screening (15.10.2021)](#4-from-protein-structure-to-screening)
-  * [5. Principles of molecular modelling (22.10.2021)](#5-principles-of-molecular-modelling)
+  * [1. Drug discovery: an overview](#1-drug-discovery-an-overview) (24.09.2021)
+  * [2. The central dogma and drug discovery](#2-the-central-dogma-and-drug-discovery) (01.10.2021)
+  * [3. Biological sequence analysis (I)](#3-biological-sequence-analysis-i) (08.10.2021)
+  * [4. Biological sequence analysis (II)](#4-biological-sequence-analysis-ii) (15.10.2021)
+  * [5. From protein structure to screening](#5-from-protein-structure-to-screening) (22.10.2021)
   * [6. From molecular networks to omics and cellular modelling (29.10.2021)](#6-from-molecular-networks-to-omics-and-cellular-modelling)
   * [7. Omics and cellular modelling (II) (05.11.2021)](#7-omics-and-cellular-modelling-ii)
   * [8. PK/PD and PBPK modelling (12.11.2021)](#8-pkpd-and-pbpk-modelling)
@@ -88,19 +88,19 @@ meet your needs.
     * Optional reading: [A comprehensive map of molecular drug targets]({{site.assetbaseurl}}{% link assets/2021/02/Santos-NRDD-2017.pdf %}) by Santos *et al.*, Nature Reviews Drug Discovery, 2017
 * Submit your answers for Offline Activities [here via Google Form](https://forms.gle/B1gp5gnWW6koev59A)
 
-### 3. Biological sequence analysis
+### 3. Biological sequence analysis (I)
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2021/03/AMIDD-2021-03-BiologicalSequenceAnalysis.pdf %})
 * [Anonymous Post-lecture Survey #3](https://forms.gle/EAfmEEG7JtCnW1m7A)
 * Recording (passcode shared by emails)
 * Material for offline activities
-  * [Handout for lecture 2 and lecture 3]({{site.assetbaseurl}}{% link assets/2021/02/AMIDD-Lecture2-Handout.pdf %}), which contains genetic codes, information on amino acids, and offline exercises
-  * Required reading: [Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity]({{site.assetbaseurl}}{% link assets/2021/03/Tsai-BRAF-PNAS-2008.pdf %}) by Tsai *et al.*, PNAS 2008
+  * [Handout for lecture 2 and lecture 3]({{site.assetbaseurl}}{% link assets/2021/02/AMIDD-Lecture2-Handout.pdf %}), which contains genetic codes, information on amino acids, and offline exercises (which are due in two weeks, before Lecture 5).
+  * Required reading: [Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity]({{site.assetbaseurl}}{% link assets/2021/03/Tsai-BRAF-PNAS-2008.pdf %}) by Tsai *et al.*, PNAS 2008.
   * Optional reading: [The Tangled History of MRNA Vaccines](https://doi.org/10.1038/d41586-021-02483-w) by Elie Dolgin, Nature 2021.
-* Submit your answers for offline activities [here via Google Form](https://forms.gle/VzGGbXBvy9ZhTSVK8)
+* Submit your answers for offline activities [here via Google Form](https://forms.gle/VzGGbXBvy9ZhTSVK8). *They are due only in two weeks, before Lecture 5*, because we will cover the exercises of biological sequence analysis only in Lecture 4.
 
 
-### 4. From protein structure to screening
+### 4. Biological sequence analysis (II)
 
 
 ### 5. Principles of molecular modelling
