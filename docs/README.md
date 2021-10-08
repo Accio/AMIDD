@@ -94,6 +94,11 @@ meet your needs.
 * [Anonymous Post-lecture Survey #3](https://forms.gle/EAfmEEG7JtCnW1m7A)
 * Recording (passcode shared by emails)
 * Material for offline activities
+  * Reading (I): [Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity]({{site.assetbaseurl}}{% link assets/2021/03/Tsai-BRAF-PNAS-2008.pdf %}) by Tsai *et al.*, PNAS 2008
+  * Reading (II): [The Tangled History of MRNA Vaccines](https://doi.org/10.1038/d41586-021-02483-w) by Elie Dolgin, Nature 2021.
+  * [Handout for lecture 2 and lecture 3]({{site.assetbaseurl}}{% link assets/2021/02/AMIDD-Lecture2-Handout.pdf %}), which contains genetic codes, information on amino acids, and offline exercises
+* Submit your answers for offline activities [here via Google Form](https://forms.gle/VzGGbXBvy9ZhTSVK8)
+
 
 ### 4. From protein structure to screening
 
