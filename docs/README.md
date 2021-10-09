@@ -2,9 +2,14 @@ Welcome to the website for *Applied Mathematics and Informatics In Drug
 Discovery* (AMIDD), the course series running at the Department of Mathematics
 and Informatics, University of Basel in the fall semester 2021.
 
-We focus on interdisciplinary research in drug discovery with mathematics as the
-language and informatics as the tool. More information on the course can be
-found at [the course directory of the University
+The course series introduces interdisciplinary research in drug discovery with
+mathematics as the language and informatics as the tool. We have a diverse and
+lively class room that learn together and from each other: every year about two
+third students of the class study mathematics or computer science, while other
+students study physics, chemistry, (computational) biology, pharmacy, and other
+fields such as epidemiology and medicine.
+
+More information on the course can be found at [the course directory of the University
 Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=258849).
 
 ## Table of content
@@ -16,17 +21,17 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=258849).
 - [Syllabus](#syllabus)
   * [1. Drug discovery: an overview](#1-drug-discovery-an-overview) (24.09.2021)
   * [2. The central dogma and drug discovery](#2-the-central-dogma-and-drug-discovery) (01.10.2021)
-  * [3. Biological sequence analysis (I)](#3-biological-sequence-analysis-i) (08.10.2021)
-  * [4. Biological sequence analysis (II)](#4-biological-sequence-analysis-ii) (15.10.2021)
-  * [5. From protein structure to screening](#5-from-protein-structure-to-screening) (22.10.2021)
-  * [6. From molecular networks to omics and cellular modelling (29.10.2021)](#6-from-molecular-networks-to-omics-and-cellular-modelling)
-  * [7. Omics and cellular modelling (II) (05.11.2021)](#7-omics-and-cellular-modelling-ii)
-  * [8. PK/PD and PBPK modelling (12.11.2021)](#8-pkpd-and-pbpk-modelling)
-  * [9. Population modelling and clinical trials (19.11.2021)](#9-population-modelling-and-clinical-trials)
+  * [3. Biological sequence analysis](#3-biological-sequence-analysis) (08.10.2021)
+  * [4. From sequences to structures](#4-from-sequences-to-structures) (15.10.2021)
+  * [5. Modelling drug-ligand interactions](#5-modelling-drug-ligand-interactions) (22.10.2021)
+  * [6. From molecular networks to omics and cellular modelling](#6-from-molecular-networks-to-omics-and-cellular-modelling) (29.10.2021)
+  * [7. Omics and cellular modelling (II)](#7-omics-and-cellular-modelling-ii) (05.11.2021)
+  * [8. PK/PD and PBPK modelling](#8-pkpd-and-pbpk-modelling) (12.11.2021)
+  * [9. Population modelling and clinical trials](#9-population-modelling-and-clinical-trials) (19.11.2021)
   * [10.*Dies academicus - optional Ask Me Anything session* (26.11.2021)](#10-dies-academicus---optional-ask-me-anything-session)
-  * [11. Guest-speaker session (03.12.2021)](#11-guest-speaker-session)
-  * [12. Student presentation (I) (10.12.2021)](#12-student-presentation-i)
-  * [13. Student presentation (II) (17.12.2021)](#13-student-presentation-ii)
+  * [11. Guest-speaker session](#11-guest-speaker-session) (03.12.2021)
+  * [12. Student presentation (I)](#12-student-presentation-i) (10.12.2021)
+  * [13. Student presentation (II)](#13-student-presentation-ii) (17.12.2021)
 - [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
 - [End-term project](#end-term-project)
 - [Assessment](#assessment)
@@ -88,11 +93,11 @@ meet your needs.
     * Optional reading: [A comprehensive map of molecular drug targets]({{site.assetbaseurl}}{% link assets/2021/02/Santos-NRDD-2017.pdf %}) by Santos *et al.*, Nature Reviews Drug Discovery, 2017
 * Submit your answers for Offline Activities [here via Google Form](https://forms.gle/B1gp5gnWW6koev59A)
 
-### 3. Biological sequence analysis (I)
+### 3. Biological sequence analysis
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2021/03/AMIDD-2021-03-BiologicalSequenceAnalysis.pdf %})
 * [Anonymous Post-lecture Survey #3](https://forms.gle/EAfmEEG7JtCnW1m7A)
-* Recording (passcode shared by emails)
+* [Recording (passcode shared by emails)](https://unibas.zoom.us/rec/share/8DWc9YApVBl0nFEt-rN_uZXMcERSpjl7gq267pNbqhekCK36qlxLLj8PfXr1D4EZ.WdSsS9Hp5glCshyW)
 * Material for offline activities
   * [Handout for lecture 2 and lecture 3]({{site.assetbaseurl}}{% link assets/2021/02/AMIDD-Lecture2-Handout.pdf %}), which contains genetic codes, information on amino acids, and offline exercises (which are due in two weeks, before Lecture 5).
   * Required reading: [Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity]({{site.assetbaseurl}}{% link assets/2021/03/Tsai-BRAF-PNAS-2008.pdf %}) by Tsai *et al.*, PNAS 2008.
@@ -100,10 +105,10 @@ meet your needs.
 * Submit your answers for offline activities [here via Google Form](https://forms.gle/VzGGbXBvy9ZhTSVK8). *They are due only in two weeks, before Lecture 5*, because we will cover the exercises of biological sequence analysis only in Lecture 4.
 
 
-### 4. Biological sequence analysis (II)
+### 4. From sequences to structures
 
 
-### 5. Principles of molecular modelling
+### 5. Modelling drug-ligand interactions
 
 
 ### 6. From molecular networks to omics and cellular modelling
