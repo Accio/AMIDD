@@ -107,6 +107,10 @@ meet your needs.
 
 ### 4. From sequences to structures
 
+* [Slides]({{site.assetbaseurl}}{% link assets/2021/04/AMIDD-2021-04-From-Sequences-to-Structures.pdf %})
+* [Anonymous Post-lecture Survey #4](https://forms.gle/ajehjtKYPngji4yX7)
+* Recording (passcode shared by emails)
+* Material for offline activities: the same as lecture 3
 
 ### 5. Modelling drug-ligand interactions
 
