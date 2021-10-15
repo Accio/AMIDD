@@ -109,7 +109,7 @@ meet your needs.
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2021/04/AMIDD-2021-04-From-Sequences-to-Structures.pdf %})
 * [Anonymous Post-lecture Survey #4](https://forms.gle/ajehjtKYPngji4yX7)
-* Recording (passcode shared by emails)
+* [Recording (passcode shared by emails)](https://unibas.zoom.us/rec/share/TsMJr5JRaEzkWWbAILLuLjbOglmIp_ZgqHEfC4UB7RALJJ3mloGq309mmlqMwGo.j3qOVERQBN4iXSYo)
 * Material for offline activities: the same as lecture 3
 
 ### 5. Modelling drug-ligand interactions
