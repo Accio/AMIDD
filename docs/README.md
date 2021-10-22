@@ -121,7 +121,7 @@ meet your needs.
    * Required reading: [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2021/05/BiologicalActivity-Dougall-Unitt.pdf%}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. **To answer offline-activity questions**, it is required to read pages 15-22 (1-8 of the 29 pages in total, before section &lsquo;*4. Types of Enzyme Inhibition and Their Analysis*&rsquo;), page 27 (section 6A), and pages 34-37 (*Assay Biostatistics*). The rest is optional reading.
     * Optional reading:
         * [Mathematics techniques in structural biology]({{site.assetbaseurl}}{% link assets/2021/05/JRQuine-MathBiophysicsBook.pdf %}) by John R. Quine.  Recommended booklet for students interested in applications of mathematics in determining structures of DNA and proteins without or with drugs.
-        * Mullard, Asher. “What Does AlphaFold Mean for Drug Discovery?” Nature Reviews Drug Discovery 20, no. 10 (September 14, 2021): 725–27. https://doi.org/10.1038/d41573-021-00161-0. [PDF version available here]({{site.assetbaseurl}}{% link assets/2021/05/Mullard-2021-NRDD-AlphaFold-DD.pdf %}).
+        * Mullard, Asher. “What Does AlphaFold Mean for Drug Discovery?” Nature Reviews Drug Discovery 20, no. 10 (September 14, 2021): 725–27. [Web link](https://doi.org/10.1038/d41573-021-00161-0). [PDF version available here]({{site.assetbaseurl}}{% link assets/2021/05/Mullard-2021-NRDD-AlphaFold-DD.pdf %}).
    * Submit your results here [via Google Form](https://forms.gle/ktcoMPP8ChF3x1eo8)
 
 ### 6. From molecular networks to omics and cellular modelling
