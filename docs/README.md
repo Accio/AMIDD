@@ -23,8 +23,8 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=258849).
   * [2. The central dogma and drug discovery](#2-the-central-dogma-and-drug-discovery) (01.10.2021)
   * [3. Biological sequence analysis](#3-biological-sequence-analysis) (08.10.2021)
   * [4. From sequences to structures](#4-from-sequences-to-structures) (15.10.2021)
-  * [5. Modelling drug-ligand interactions](#5-modelling-drug-ligand-interactions) (22.10.2021)
-  * [6. From molecular networks to omics and cellular modelling](#6-from-molecular-networks-to-omics-and-cellular-modelling) (29.10.2021)
+  * [5. Proteins and ligands](#5-proteins-and-ligands) (22.10.2021)
+  * [6. Structure- and ligand-based drug design](#6-structure-and-ligand-based-drug-design) (29.10.2021)
   * [7. Omics and cellular modelling (II)](#7-omics-and-cellular-modelling-ii) (05.11.2021)
   * [8. PK/PD and PBPK modelling](#8-pkpd-and-pbpk-modelling) (12.11.2021)
   * [9. Population modelling and clinical trials](#9-population-modelling-and-clinical-trials) (19.11.2021)
@@ -112,9 +112,9 @@ meet your needs.
 * [Recording (passcode shared by emails)](https://unibas.zoom.us/rec/share/TsMJr5JRaEzkWWbAILLuLjbOglmIp_ZgqHEfC4UB7RALJJ3mloGq309mmlqMwGo.j3qOVERQBN4iXSYo)
 * Material for offline activities: the same as lecture 3
 
-### 5. Modelling drug-ligand interactions
+### 5. Proteins and ligands
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2021/05/AMIDD-2021-05-target-ligand-interactions.pdf %})
+* [Slides]({{site.assetbaseurl}}{% link assets/2021/05/AMIDD-2021-05-proteins-and-ligands.pdf %})
 * [Anonymous Post-lecture Survey #5](https://forms.gle/ktcoMPP8ChF3x1eo8)
 * Recording (passcode shared by emails)
 * Material for offline activities:
@@ -124,7 +124,7 @@ meet your needs.
         * Mullard, Asher. “What Does AlphaFold Mean for Drug Discovery?” Nature Reviews Drug Discovery 20, no. 10 (September 14, 2021): 725–27. [Web link](https://doi.org/10.1038/d41573-021-00161-0). [PDF version available here]({{site.assetbaseurl}}{% link assets/2021/05/Mullard-2021-NRDD-AlphaFold-DD.pdf %}).
    * Submit your results here [via Google Form](https://forms.gle/ktcoMPP8ChF3x1eo8)
 
-### 6. From molecular networks to omics and cellular modelling
+### 6. Structure- and ligand-based drug design
 
 
 ### 7. Omics and cellular modelling (II)
