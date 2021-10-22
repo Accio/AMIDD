@@ -139,6 +139,11 @@ meet your needs.
 ### 10. *Dies academicus - optional Ask Me Anything session*
 
 
+You can ask me anything in this session, which will be exceptionally *not* recorded.
+
+Besides scientific topics in drug discovery, my experience is that many students are interested in career topics: should I do a PhD or not? Should I consider working in industry? These and other questions are asked again and again. While I cannot provide any definitive answer for you, I am glad to share some of my thoughts. For instance, you may this article below interesting if you consider doing a PhD and perhaps doing a postdoc in pharma: Zhang, Jitao David. “[Ten Simple Rules for Doing a Postdoc in Pharma.](https://doi.org/10.1371/journal.pcbi.1008989)” PLOS Computational Biology 17, no. 6 (June 3, 2021): e1008989.
+
+
 ### 11. Guest-speaker session
 
 
@@ -150,14 +155,10 @@ meet your needs.
 
 ## Student presentation topics and reference papers
 
-
-We will announce presentation topics and reference papers end of October.
-
+You can vote for your presentation topics via [Google Form](https://forms.gle/pov9pfaitWAwVoFS9) by November the first.
 
 ## End-term project
 
-
-We will announce the end-term project in due time.
 
 ## Assessment
 
