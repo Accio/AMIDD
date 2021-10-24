@@ -115,7 +115,7 @@ meet your needs.
 ### 5. Proteins and ligands
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2021/05/AMIDD-2021-05-proteins-and-ligands.pdf %})
-* [Anonymous Post-lecture Survey #5](https://forms.gle/ktcoMPP8ChF3x1eo8)
+* [Anonymous Post-lecture Survey #5](https://forms.gle/YQRALAV6HiZ9QswZ6)
 * Recording (passcode shared by emails)
 * Material for offline activities:
    * Required reading: [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2021/05/BiologicalActivity-Dougall-Unitt.pdf%}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. **To answer offline-activity questions**, it is required to read pages 15-22 (1-8 of the 29 pages in total, before section &lsquo;*4. Types of Enzyme Inhibition and Their Analysis*&rsquo;), page 27 (section 6A), and pages 34-37 (*Assay Biostatistics*). The rest is optional reading.
