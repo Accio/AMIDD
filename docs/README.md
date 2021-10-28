@@ -24,7 +24,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=258849).
   * [3. Biological sequence analysis](#3-biological-sequence-analysis) (08.10.2021)
   * [4. From sequences to structures](#4-from-sequences-to-structures) (15.10.2021)
   * [5. Proteins and ligands](#5-proteins-and-ligands) (22.10.2021)
-  * [6. Structure- and ligand-based drug design](#6-structure-and-ligand-based-drug-design) (29.10.2021)
+  * [6. Structure- and ligand-based drug design](#6-structure--and-ligand-based-drug-design) (29.10.2021)
   * [7. Omics and cellular modelling](#7-omics-and-cellular-modelling) (05.11.2021)
   * [8. PK/PD and PBPK modelling](#8-pkpd-and-pbpk-modelling) (12.11.2021)
   * [9. Population modelling and clinical trials](#9-population-modelling-and-clinical-trials) (19.11.2021)
