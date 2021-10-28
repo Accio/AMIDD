@@ -126,6 +126,14 @@ meet your needs.
 
 ### 6. Structure- and ligand-based drug design
 
+* [Slides]({{site.assetbaseurl}}{% link assets/2021/06/AMIDD-2021-06-Structure-and-ligand-based-drug-discovery.pdf %})
+* [Anonymous Post-lecture Survey #6](https://forms.gle/nBcTT6EdrR1W4JN36)
+* Recording (passcode shared by emails)
+* Material for offline activities:
+    * You can vote for your presentation topics via [Google Form](https://forms.gle/pov9pfaitWAwVoFS9) by November the first.
+    * **For offline-activity questions**: [*Computational methods in drug discovery*]({{site.assetbaseurl}}{% link assets/2021/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf %}) by Gregory Sliwoski *et al.*
+    * [*An introduction to machine learning*]({{site.assetbaseurl}}{% link assets/2021/06/Badillo-ML-2020.pdf %}) by Badillo *et al.* (optional reading).
+
 
 ### 7. Omics and cellular modelling
 
