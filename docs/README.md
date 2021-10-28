@@ -131,9 +131,8 @@ meet your needs.
 * Recording (passcode shared by emails)
 * Material for offline activities:
     * You can vote for your presentation topics via [Google Form](https://forms.gle/pov9pfaitWAwVoFS9) by November the first.
-    * **For offline-activity questions**: [*Computational methods in drug discovery*]({{site.assetbaseurl}}{% link assets/2021/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf %}) by Gregory Sliwoski *et al.*
-    * Submit your replies to offline-activity questions [via this Google Form](https://forms.gle/XjbLVi1QG5R1QiyDA).
-    * [*An introduction to machine learning*]({{site.assetbaseurl}}{% link assets/2021/06/Badillo-ML-2020.pdf %}) by Badillo *et al.* (optional reading).
+    * **Offline activity: required reading**: [*Computational methods in drug discovery*]({{site.assetbaseurl}}{% link assets/2021/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf %}) by Gregory Sliwoski *et al.*. Please submit your replies to questions [via this Google Form](https://forms.gle/XjbLVi1QG5R1QiyDA).
+    * Optional reading: [*An introduction to machine learning*]({{site.assetbaseurl}}{% link assets/2021/06/Badillo-ML-2020.pdf %}) by Badillo *et al.*.
 
 
 ### 7. Omics and cellular modelling
