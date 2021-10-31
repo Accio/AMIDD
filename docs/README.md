@@ -128,7 +128,7 @@ meet your needs.
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2021/06/AMIDD-2021-06-Structure-and-ligand-based-drug-discovery.pdf %})
 * [Anonymous Post-lecture Survey #6](https://forms.gle/nBcTT6EdrR1W4JN36)
-* Recording (passcode shared by emails)
+* [Recording (passcode shared by emails)](https://unibas.zoom.us/rec/share/873ODLc7hA0jH5okp5MsUF1u2U-JUtendltOGJAE3tgJEBAc-QLLp-q1g9RMGSBV.tiwcTssuRGfEIPei)
 * Material for offline activities:
     * You can vote for your presentation topics via [Google Form](https://forms.gle/pov9pfaitWAwVoFS9) by November the first.
     * **Offline activity: required reading**: [*Computational methods in drug discovery*]({{site.assetbaseurl}}{% link assets/2021/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf %}) by Gregory Sliwoski *et al.*. Please submit your replies to questions [via this Google Form](https://forms.gle/XjbLVi1QG5R1QiyDA).
