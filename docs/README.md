@@ -164,6 +164,8 @@ Besides scientific topics in drug discovery, my experience is that many students
 
 You can vote for your presentation topics via [Google Form](https://forms.gle/pov9pfaitWAwVoFS9) by November the first.
 
+[Here]({{site.assetbaseurl}}{% link assets/2021/AMIDD-2021-presentation-list.pdf %}) is the list of teams and presentation topics in the PDF format.
+
 ## End-term project
 
 All participants are expected to finish the end-term project either individually
