@@ -166,9 +166,37 @@ You can vote for your presentation topics via [Google Form](https://forms.gle/po
 
 ## End-term project
 
+All participants are expected to finish the end-term project either individually
+or in a team of two people. She or he or the team shall choose *one* concept
+form the list below, upon which they will write a short essay introducing the
+concept to non-experts, with examples and ideally applications in drug
+discovery.
+
+The essay should have an abstract (fewer than 200 words), a list of references,
+and a main text that does not exceed 3,000 words. Visual elements like table and
+figures that help readers understand he concept are welcome but not obligatory.
+In case of a team work, the contribution of the two people should be specified.
+
+Essays in literature-programming styles, combining texts and source code with Jupyter notebook or Rmarkdown, are welcome. For such essays the source code does not count to the total words.
+
+List of candidate topics:
+
+1. [Simple/Statistics] Statistical power and sample-size calculation
+2. [Simple/Machine learning] Principal component analysis (PCA)
+3. [Simple/Algorithm] The Viterbi algorithm
+4. [Simple/Mathematical modelling] The Lotka-Volterra predator-prey model
+5. [Moderate/Statistics] Exploratory factor analysis
+6. [Moderate/Machine learning] Classification and regression trees
+7. [Moderate/Causal inference] Directed acyclic graphs (DAGs) for causal inference
+8. [Challenging/Causal inference] Mendelian randomization
+9. [Challenging/Algorithm] Community detection with Leiden clustering
+10. [Challenging/Statistics] Simpson's paradox and mixed models
+
+The choice of topic and the team composition is to be submitted via [this Google Form of voting for the project topic](https://forms.gle/VUTeFqsbu3yoF2DDA) by *Friday, December the 3rd*. Two people working together need to vote just once. The deadline for submitting the essay by email is *January 15th, 2022*. No extension is possible.
+
+Once the essays are submitted, they will be shared with the whole class for open review and joint learning.
 
 ## Assessment
-
 
 The final note is given by participation (40%), presentation (30%), and project
 work (30%).
