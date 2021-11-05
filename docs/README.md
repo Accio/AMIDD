@@ -202,7 +202,7 @@ List of candidate topics:
 9. [Challenging/Algorithm] Community detection with Leiden clustering
 10. [Challenging/Statistics] Simpson's paradox and mixed models
 
-The choice of topic and the team composition is to be submitted via [this Google Form of voting for the project topic](https://forms.gle/VUTeFqsbu3yoF2DDA) by *Friday, December the 3rd*. Two people working together need to vote just once. The deadline for submitting the essay by email is *January 15th, 2022*. No extension is possible.
+The choice of topic and the team composition is to be submitted via [this Google Form of voting for the project topic](https://forms.gle/VUTeFqsbu3yoF2DDA) by *Friday, December the 3rd*. Two people working together need to vote just once. The deadline for submitting the essay by email is *January 14th, 2022*. No extension is possible.
 
 Once the essays are submitted, they will be shared with the whole class for open review and joint learning.
 
