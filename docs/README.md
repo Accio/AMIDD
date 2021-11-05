@@ -25,9 +25,9 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=258849).
   * [4. From sequences to structures](#4-from-sequences-to-structures) (15.10.2021)
   * [5. Proteins and ligands](#5-proteins-and-ligands) (22.10.2021)
   * [6. Structure- and ligand-based drug design](#6-structure--and-ligand-based-drug-design) (29.10.2021)
-  * [7. Omics and cellular modelling](#7-omics-and-cellular-modelling) (05.11.2021)
-  * [8. PK/PD and PBPK modelling](#8-pkpd-and-pbpk-modelling) (12.11.2021)
-  * [9. Population modelling and clinical trials](#9-population-modelling-and-clinical-trials) (19.11.2021)
+  * [7. From individial interactions to networks](#7-from-individual-interactions-to-networks) (05.11.2021)
+  * [8. Omics and cellular modelling](#8-omics-and-cellular-modelling) (12.11.2021)
+  * [9. PKPD modelling](#9-pkpd-modelling) (19.11.2021)
   * [10.*Dies academicus - optional Ask Me Anything session* (26.11.2021)](#10-dies-academicus---optional-ask-me-anything-session)
   * [11. Guest-speaker session](#11-guest-speaker-session) (03.12.2021)
   * [12. Student presentation (I)](#12-student-presentation-i) (10.12.2021)
@@ -135,13 +135,18 @@ meet your needs.
     * Optional reading: [*An introduction to machine learning*]({{site.assetbaseurl}}{% link assets/2021/06/Badillo-ML-2020.pdf %}) by Badillo *et al.*.
 
 
-### 7. Omics and cellular modelling
+### 7. From individual interactions to networks
 
 
-### 8. PK/PD and PBPK modelling
+* [Slides]({{site.assetbaseurl}}{% link assets/2021/07/AMIDD-2021-07-from-individual-interactions-to-networks.pdf %})
+* [Anonymous Post-lecture Survey #7](https://forms.gle/ECBaiYvAdroimxuy7)
+* [Recording (passcode shared by emails)](https://unibas.zoom.us/rec/share/PvcZ_6mAP4NL-HXPWwEuaIbVEKPwLkfpB2GXPW1K-VpswWXqhcAh8M0jnkdzpg74.KWScjcWrQOOIf8AF)
+* No new offline activity this week, because the activity last week was time consuming. If you are not yet familiar with machine learning, please read the optional reading assigned last week, [*An introduction to machine learning*]({{site.assetbaseurl}}{% link assets/2021/06/Badillo-ML-2020.pdf %}) by Badillo *et al.*
+
+### 8. Omics and cellular modelling
 
 
-### 9. Population modelling and clinical trials
+### 9. PKPD modelling
 
 
 ### 10. *Dies academicus - optional Ask Me Anything session*
@@ -153,6 +158,9 @@ Besides scientific topics in drug discovery, my experience is that many students
 
 ### 11. Guest-speaker session
 
+This year we will welcome our guest speakers Dr. Elif Ozkirimli, Dr. Thomas
+Sander, and Dr. Juliane Siebourg-Polster to share with us their industrial
+research experience in applied mathematics and informatics in drug discovery.
 
 ### 12. Student presentation (I)
 
