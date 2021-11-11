@@ -145,6 +145,14 @@ meet your needs.
 
 ### 8. Omics and cellular modelling
 
+* [Slides]({{site.assetbaseurl}}{% link assets/2021/08/AMIDD-2021-08-omics.pdf %})
+* [Anonymous post-lecture survey #8](https://forms.gle/wPWzm7gFCCnAHAaG8)
+* Recording (password shared by emails)
+* Offline activities
+    * Required readings (1): [Biological Image Analysis Primer]({{site.assetbaseurl}}{% link assets/2021/08/Meijering-vanCappellen-2006-BioImage.pdf %}) by Erik Meijering and Gert van Cappellen (2006).
+    * Required readings (2): Rudin, Markus, and Ralph Weissleder. 2003. “[Molecular Imaging in Drug Discovery and Development](https://doi.org/10.1038/nrd1007).” Nature Reviews Drug Discovery 2 (2): 123–31. ([PDF version]({{site.assetbaseurl}}{% link assets/2021/08/Rudin-Weissleder-2003-Molecular-imaging.pdf %}))
+    * Submit your offline activities with regard to the required reading [here via the Google Form](https://forms.gle/BP8r46B2iWaeMaXL7).
+    * Optional reading: [Spatial omics and multiplexed imaging to explore cancer biology](https://www.nature.com/articles/s41592-021-01203-6), a review by Lewis *et al.*
 
 ### 9. PKPD modelling
 
