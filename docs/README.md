@@ -178,9 +178,17 @@ You can vote for your presentation topics via [Google Form](https://forms.gle/po
 
 In HS 2021, our class will present on four topics: machine learning, causal
 inference, drug discovery for SARS-Cov-2, and mathematical and computational
-modelling. [Here]({{site.assetbaseurl}}{% link
-assets/2021/AMIDD-2021-presentation-list.pdf %}) is the list of teams, the
-presentation topics, and the time slots in the PDF format (updated on 14.11.2021).
+modelling. Each team is expected to deliver a talk of 30 minutes, which is
+followed by 10 minutes of Q&A.
+
+[Please find a table here]({{site.assetbaseurl}}{% link
+assets/2021/AMIDD-2021-presentation-list.pdf %}) listing teams, the presentation
+topics, and the time slots in the PDF format (updated on 14.11.2021).
+
+Unfortunately we cannot satisfy the availability of everyone. I hope you can
+understand the difficulty, and arrange within each team so that all members can
+contribute to the presentation, whether she or he is available during the
+presentation is not.
 
 
 ### 12. Student presentation (I)
