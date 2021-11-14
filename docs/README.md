@@ -30,9 +30,9 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=258849).
   * [9. PKPD modelling](#9-pkpd-modelling) (19.11.2021)
   * [10.*Dies academicus - optional Ask Me Anything session* (26.11.2021)](#10-dies-academicus---optional-ask-me-anything-session)
   * [11. Guest-speaker session](#11-guest-speaker-session) (03.12.2021)
+- [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
   * [12. Student presentation (I)](#12-student-presentation-i) (10.12.2021)
   * [13. Student presentation (II)](#13-student-presentation-ii) (17.12.2021)
-- [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
 - [End-term project](#end-term-project)
 - [Assessment](#assessment)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
@@ -170,18 +170,6 @@ This year we will welcome our guest speakers Dr. Elif Ozkirimli, Dr. Thomas
 Sander, and Dr. Juliane Siebourg-Polster to share with us their industrial
 research experience in applied mathematics and informatics in drug discovery.
 
-### 12. Student presentation (I)
-
-#### *Machine learning and artificial intelligence in drug discovery*, presented by the Turing team
-
-#### *Causal inference in disease understanding and drug discovery*, presented by the Hill team
-
-### 13. Student presentation (II)
-
-#### *Drug-discovery for SARS-Cov-2*, presented by the Almeida team
-
-#### *Mathematical and computational modelling*, presented by the Euler team
-
 ## Student presentation topics and reference papers
 
 <!---
@@ -193,6 +181,19 @@ inference, drug discovery for SARS-Cov-2, and mathematical and computational
 modelling. [Here]({{site.assetbaseurl}}{% link
 assets/2021/AMIDD-2021-presentation-list.pdf %}) is the list of teams, the
 presentation topics, and the time slots in the PDF format (updated on 14.11.2021).
+
+
+### 12. Student presentation (I)
+
+#### *Machine learning and artificial intelligence in drug discovery*, presented by the Turing team
+
+#### *Causal inference in disease understanding and drug discovery*, presented by the Hill team
+
+### 13. Student presentation (II)
+
+#### *Drug-discovery for SARS-Cov-2*, presented by the Almeida team
+
+#### *Mathematical and computational modelling*, presented by the Euler team
 
 ## End-term project
 
