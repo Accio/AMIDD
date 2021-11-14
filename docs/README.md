@@ -172,15 +172,27 @@ research experience in applied mathematics and informatics in drug discovery.
 
 ### 12. Student presentation (I)
 
+#### *Machine learning and artificial intelligence in drug discovery*, presented by the Turing team
+
+#### *Causal inference in disease understanding and drug discovery*, presented by the Hill team
 
 ### 13. Student presentation (II)
 
+#### *Drug-discovery for SARS-Cov-2*, presented by the Almeida team
+
+#### *Mathematical and computational modelling*, presented by the Euler team
 
 ## Student presentation topics and reference papers
 
+<!---
 You can vote for your presentation topics via [Google Form](https://forms.gle/pov9pfaitWAwVoFS9) by November the first.
+-->
 
-[Here]({{site.assetbaseurl}}{% link assets/2021/AMIDD-2021-presentation-list.pdf %}) is the list of teams and presentation topics in the PDF format.
+In HS 2021, our class will present on four topics: machine learning, causal
+inference, drug discovery for SARS-Cov-2, and mathematical and computational
+modelling. [Here]({{site.assetbaseurl}}{% link
+assets/2021/AMIDD-2021-presentation-list.pdf %}) is the list of teams, the
+presentation topics, and the time slots in the PDF format (updated on 14.11.2021).
 
 ## End-term project
 
