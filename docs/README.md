@@ -223,6 +223,13 @@ Reference papers and software:
 
 #### *Drug-discovery for SARS-Cov-2*, presented by the Almeida team
 
+1. Tummino, Tia A., Veronica V. Rezelj, Benoit Fischer, Audrey Fischer, Matthew J. O’Meara, Blandine Monel, Thomas Vallet, et al. “Drug-Induced Phospholipidosis Confounds Drug Repurposing for SARS-CoV-2.” Science 373, no. 6554 (July 30, 2021): 541–47. https://doi.org/10.1126/science.abi4708.
+2. Delft, Frank von, Mark Calmiano, John Chodera, Ed Griffen, Alpha Lee, Nir London, Tatiana Matviuk, Ben Perry, Matt Robinson, and Annette von Delft. “A White-Knuckle Ride of Open COVID Drug Discovery.” Nature 594, no. 7863 (June 2021): 330–32. https://doi.org/10.1038/d41586-021-01571-1.
+3. Mei, Miao, and Xu Tan. “Current Strategies of Antiviral Drug Discovery for COVID-19.” Frontiers in Molecular Biosciences 8 (2021): 310. https://doi.org/10.3389/fmolb.2021.671263.
+4. Kwok, Andrew J., Alex Mentzer, and Julian C. Knight. “Host Genetics and Infectious Disease: New Tools, Insights and Translational Opportunities.” Nature Reviews Genetics 22, no. 3 (March 2021): 137–53. https://doi.org/10.1038/s41576-020-00297-6.
+5. Heinz, Franz X., and Karin Stiasny. “Distinguishing Features of Current COVID-19 Vaccines: Knowns and Unknowns of Antigen Presentation and Modes of Action.” Npj Vaccines 6, no. 1 (August 16, 2021): 1–13. https://doi.org/10.1038/s41541-021-00369-6.
+6. Relevant posts in [In The Pipeline](https://www.science.org/blogs/pipeline), for instance [Pfizer's Good News Is the World's Good News](https://www.science.org/content/blog-post/pfizer-s-good-news-world-s-good-news) and [Covid Therapeutic Trial Recruitment](https://www.science.org/content/blog-post/covid-therapeutic-trial-recruitment).
+
 #### *Mathematical and computational modelling*, presented by the Euler team
 
 ## End-term project
