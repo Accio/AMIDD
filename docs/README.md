@@ -190,12 +190,34 @@ understand the difficulty, and arrange within each team so that all members can
 contribute to the presentation, whether she or he is available during the
 presentation is not.
 
+Below we list the topics and relevant references. Each group is expected to
+select 2-4 references from the given ones and discuss them. Additional
+references are welcome.
 
 ### 12. Student presentation (I)
 
 #### *Machine learning and artificial intelligence in drug discovery*, presented by the Turing team
 
+Reference papers:
+
+1. Bender, Andreas, and Isidro Cortés-Ciriano. “Artificial Intelligence in Drug Discovery: What Is Realistic, What Are Illusions? Part 1: Ways to Make an Impact, and Why We Are Not There Yet.” Drug Discovery Today, December 17, 2020. https://doi.org/10.1016/j.drudis.2020.12.009.
+2. Bender, Andreas, and Isidro Cortes-Ciriano. “Artificial Intelligence in Drug Discovery: What Is Realistic, What Are Illusions? Part 2: A Discussion of Chemical and Biological Data.” Drug Discovery Today 26, no. 4 (April 1, 2021): 1040–52. https://doi.org/10.1016/j.drudis.2020.11.037.
+3. Barredo Arrieta, Alejandro, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, et al. “Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.” Information Fusion 58 (June 1, 2020): 82–115. https://doi.org/10.1016/j.inffus.2019.12.012.
+4. Stokes, Jonathan M., Kevin Yang, Kyle Swanson, Wengong Jin, Andres Cubillos-Ruiz, Nina M. Donghia, Craig R. MacNair, et al. “A Deep Learning Approach to Antibiotic Discovery.” Cell 180, no. 4 (February 20, 2020): 688-702.e13. https://doi.org/10.1016/j.cell.2020.01.021.
+5. Basile, Anna O., Alexandre Yahi, and Nicholas P. Tatonetti. “Artificial Intelligence for Drug Toxicity and Safety.” Trends in Pharmacological Sciences 40, no. 9 (September 1, 2019): 624–35. https://doi.org/10.1016/j.tips.2019.07.005.
+6. Ietswaart, Robert, Seda Arat, Amanda X. Chen, Saman Farahmand, Bumjun Kim, William DuMouchel, Duncan Armstrong, Alexander Fekete, Jeffrey J. Sutherland, and Laszlo Urban. “Machine Learning Guided Association of Adverse Drug Reactions with in Vitro Target-Based Pharmacology.” EBioMedicine, June 18, 2020, 102837. https://doi.org/10.1016/j.ebiom.2020.102837.
+
+
 #### *Causal inference in disease understanding and drug discovery*, presented by the Hill team
+
+Reference papers and software:
+
+1. Hill, Austin Bradford. “The Environment and Disease: Association or Causation?” Proceedings of the Royal Society of Medicine 58, no. 5 (May 1965): 295–300.
+2. Shrier, Ian, and Robert W. Platt. “Reducing Bias through Directed Acyclic Graphs.” BMC Medical Research Methodology 8, no. 1 (October 30, 2008): 70. https://doi.org/10.1186/1471-2288-8-70.
+3. Evans, David M., and George Davey Smith. “Mendelian Randomization: New Applications in the Coming Age of Hypothesis-Free Causality.” Annual Review of Genomics and Human Genetics 16, no. 1 (2015): 327–50. https://doi.org/10.1146/annurev-genom-090314-050016.
+4. Prosperi, Mattia, Yi Guo, Matt Sperrin, James S. Koopman, Jae S. Min, Xing He, Shannan Rich, Mo Wang, Iain E. Buchan, and Jiang Bian. “Causal Inference and Counterfactual Prediction in Machine Learning for Actionable Healthcare.” Nature Machine Intelligence 2, no. 7 (July 2020): 369–75. https://doi.org/10.1038/s42256-020-0197-y.
+5. Bica, Ioana, Ahmed M. Alaa, Craig Lambert, and Mihaela van der Schaar. “From Real-World Patient Data to Individualized Treatment Effects Using Machine Learning: Current and Future Methods to Address Underlying Challenges.” Clinical Pharmacology & Therapeutics 109, no. 1 (2021): 87–100. https://doi.org/10.1002/cpt.1907.
+6. [Tutorial of DoWhy](https://microsoft.github.io/dowhy/)
 
 ### 13. Student presentation (II)
 
