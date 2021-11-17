@@ -232,6 +232,13 @@ Reference papers and software:
 
 #### *Mathematical and computational modelling*, presented by the Euler team
 
+1. Handel, Andreas, Nicole L. La Gruta, and Paul G. Thomas. “Simulation Modelling for Immunologists.” Nature Reviews Immunology 20, no. 3 (March 2020): 186–95. https://doi.org/10.1038/s41577-019-0235-3.
+2. Jones, H. M., and K. Rowland‐Yeo. “Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development.” CPT: Pharmacometrics & Systems Pharmacology 2, no. 8 (August 1, 2013): 63. https://doi.org/10.1038/psp.2013.41.
+3. Gieschke, R., and J. L. Steimer. “Pharmacometrics: Modelling and Simulation Tools to Improve Decision Making in Clinical Drug Development.” European Journal of Drug Metabolism and Pharmacokinetics 25, no. 1 (March 2000): 49–58. https://doi.org/10.1007/BF03190058.
+4. Sancho-Araiz, Aymara, Victor Mangas-Sanjuan, and Iñaki F. Trocóniz. “The Role of Mathematical Models in Immuno-Oncology: Challenges and Future Perspectives.” Pharmaceutics 13, no. 7 (July 2, 2021): 1016. https://doi.org/10.3390/pharmaceutics13071016.
+5. Elmokadem, Ahmed, Matthew M. Riggs, and Kyle T. Baron. “Quantitative Systems Pharmacology and Physiologically-Based Pharmacokinetic Modeling With Mrgsolve: A Hands-On Tutorial.” CPT: Pharmacometrics & Systems Pharmacology 8, no. 12 (2019): 883–93. https://doi.org/10.1002/psp4.12467.
+6. Lu, James, Brendan Bender, Jin Y. Jin, and Yuanfang Guan. “Deep Learning Prediction of Patient Response Time Course from Early Data via Neural-Pharmacokinetic/Pharmacodynamic Modelling.” Nature Machine Intelligence 3, no. 8 (August 2021): 696–704. https://doi.org/10.1038/s42256-021-00357-4.
+
 ## End-term project
 
 All participants are expected to finish the end-term project either individually
