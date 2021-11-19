@@ -160,6 +160,15 @@ meet your needs.
 
 ### 9. PKPD modelling
 
+* [Slides]({{site.assetbaseurl}}{% link assets/2021/09/AMIDD-2021-09-PK-PD-modelling.pdf %})
+* [Anonymous post-lecture survey #9](https://forms.gle/yiv7Xo3gJH1XDsZu5)
+* Recording (password shared by emails)
+* Offline activities:
+    * Required reading: backup slides about non-linear mixed-effect (NLME) models and clinical trial
+    * Optional reading:
+        * Davies, Michael, et al.. 2020. “[Improving the Accuracy of Predicted Human Pharmacokinetics: Lessons Learned from the AstraZeneca Drug Pipeline Over Two Decades](https://doi.org/10.1016/j.tips.2020.03.004).” Trends in Pharmacological Sciences 41 (6): 390–408. *A good introduction to prediction of PK profiles in industry*.
+        * Jones, H. M., and K. Rowland‐Yeo. 2013. “[Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development](https://doi.org/10.1038/psp.2013.41).” CPT: Pharmacometrics & Systems Pharmacology 2 (8): 63. *A good introduction to PBPK modelling*.
+
 
 ### 10. *Dies academicus - optional Ask Me Anything session*
 
