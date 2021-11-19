@@ -172,9 +172,7 @@ research experience in applied mathematics and informatics in drug discovery.
 
 ## Student presentation topics and reference papers
 
-<!---
 You can vote for your presentation topics via [Google Form](https://forms.gle/pov9pfaitWAwVoFS9) by November the first.
--->
 
 In HS 2021, our class will present on four topics: machine learning, causal
 inference, drug discovery for SARS-Cov-2, and mathematical and computational
@@ -200,12 +198,12 @@ references are welcome.
 
 Reference papers:
 
-1. Bender, Andreas, and Isidro Cortés-Ciriano. “Artificial Intelligence in Drug Discovery: What Is Realistic, What Are Illusions? Part 1: Ways to Make an Impact, and Why We Are Not There Yet.” Drug Discovery Today, December 17, 2020. https://doi.org/10.1016/j.drudis.2020.12.009.
-2. Bender, Andreas, and Isidro Cortes-Ciriano. “Artificial Intelligence in Drug Discovery: What Is Realistic, What Are Illusions? Part 2: A Discussion of Chemical and Biological Data.” Drug Discovery Today 26, no. 4 (April 1, 2021): 1040–52. https://doi.org/10.1016/j.drudis.2020.11.037.
-3. Barredo Arrieta, Alejandro, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, et al. “Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.” Information Fusion 58 (June 1, 2020): 82–115. https://doi.org/10.1016/j.inffus.2019.12.012.
-4. Stokes, Jonathan M., Kevin Yang, Kyle Swanson, Wengong Jin, Andres Cubillos-Ruiz, Nina M. Donghia, Craig R. MacNair, et al. “A Deep Learning Approach to Antibiotic Discovery.” Cell 180, no. 4 (February 20, 2020): 688-702.e13. https://doi.org/10.1016/j.cell.2020.01.021.
-5. Basile, Anna O., Alexandre Yahi, and Nicholas P. Tatonetti. “Artificial Intelligence for Drug Toxicity and Safety.” Trends in Pharmacological Sciences 40, no. 9 (September 1, 2019): 624–35. https://doi.org/10.1016/j.tips.2019.07.005.
-6. Ietswaart, Robert, Seda Arat, Amanda X. Chen, Saman Farahmand, Bumjun Kim, William DuMouchel, Duncan Armstrong, Alexander Fekete, Jeffrey J. Sutherland, and Laszlo Urban. “Machine Learning Guided Association of Adverse Drug Reactions with in Vitro Target-Based Pharmacology.” EBioMedicine, June 18, 2020, 102837. https://doi.org/10.1016/j.ebiom.2020.102837.
+1. Bender, Andreas, and Isidro Cortés-Ciriano. “Artificial Intelligence in Drug Discovery: What Is Realistic, What Are Illusions? Part 1: Ways to Make an Impact, and Why We Are Not There Yet.” Drug Discovery Today, December 17, 2020. [https://doi.org/10.1016/j.drudis.2020.12.009](https://doi.org/10.1016/j.drudis.2020.12.009).
+2. Bender, Andreas, and Isidro Cortes-Ciriano. “Artificial Intelligence in Drug Discovery: What Is Realistic, What Are Illusions? Part 2: A Discussion of Chemical and Biological Data.” Drug Discovery Today 26, no. 4 (April 1, 2021): 1040–52. [https://doi.org/10.1016/j.drudis.2020.11.037](https://doi.org/10.1016/j.drudis.2020.11.037).
+3. Barredo Arrieta, Alejandro, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, et al. “Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.” Information Fusion 58 (June 1, 2020): 82–115. [https://doi.org/10.1016/j.inffus.2019.12.012](https://doi.org/10.1016/j.inffus.2019.12.012).
+4. Stokes, Jonathan M., Kevin Yang, Kyle Swanson, Wengong Jin, Andres Cubillos-Ruiz, Nina M. Donghia, Craig R. MacNair, et al. “A Deep Learning Approach to Antibiotic Discovery.” Cell 180, no. 4 (February 20, 2020): 688-702.e13. [https://doi.org/10.1016/j.cell.2020.01.021](https://doi.org/10.1016/j.cell.2020.01.021).
+5. Basile, Anna O., Alexandre Yahi, and Nicholas P. Tatonetti. “Artificial Intelligence for Drug Toxicity and Safety.” Trends in Pharmacological Sciences 40, no. 9 (September 1, 2019): 624–35. [https://doi.org/10.1016/j.tips.2019.07.005](https://doi.org/10.1016/j.tips.2019.07.005).
+6. Ietswaart, Robert, Seda Arat, Amanda X. Chen, Saman Farahmand, Bumjun Kim, William DuMouchel, Duncan Armstrong, Alexander Fekete, Jeffrey J. Sutherland, and Laszlo Urban. “Machine Learning Guided Association of Adverse Drug Reactions with in Vitro Target-Based Pharmacology.” EBioMedicine, June 18, 2020, 102837. [https://doi.org/10.1016/j.ebiom.2020.102837](https://doi.org/10.1016/j.ebiom.2020.102837).
 
 
 #### *Causal inference in disease understanding and drug discovery*, presented by the Hill team
@@ -213,31 +211,31 @@ Reference papers:
 Reference papers and software:
 
 1. Hill, Austin Bradford. “The Environment and Disease: Association or Causation?” Proceedings of the Royal Society of Medicine 58, no. 5 (May 1965): 295–300.
-2. Shrier, Ian, and Robert W. Platt. “Reducing Bias through Directed Acyclic Graphs.” BMC Medical Research Methodology 8, no. 1 (October 30, 2008): 70. https://doi.org/10.1186/1471-2288-8-70.
-3. Evans, David M., and George Davey Smith. “Mendelian Randomization: New Applications in the Coming Age of Hypothesis-Free Causality.” Annual Review of Genomics and Human Genetics 16, no. 1 (2015): 327–50. https://doi.org/10.1146/annurev-genom-090314-050016.
-4. Prosperi, Mattia, Yi Guo, Matt Sperrin, James S. Koopman, Jae S. Min, Xing He, Shannan Rich, Mo Wang, Iain E. Buchan, and Jiang Bian. “Causal Inference and Counterfactual Prediction in Machine Learning for Actionable Healthcare.” Nature Machine Intelligence 2, no. 7 (July 2020): 369–75. https://doi.org/10.1038/s42256-020-0197-y.
-5. Bica, Ioana, Ahmed M. Alaa, Craig Lambert, and Mihaela van der Schaar. “From Real-World Patient Data to Individualized Treatment Effects Using Machine Learning: Current and Future Methods to Address Underlying Challenges.” Clinical Pharmacology & Therapeutics 109, no. 1 (2021): 87–100. https://doi.org/10.1002/cpt.1907.
-6. [Tutorial of DoWhy](https://microsoft.github.io/dowhy/)
+2. Shrier, Ian, and Robert W. Platt. “Reducing Bias through Directed Acyclic Graphs.” BMC Medical Research Methodology 8, no. 1 (October 30, 2008): 70. [https://doi.org/10.1186/1471-2288-8-70](https://doi.org/10.1186/1471-2288-8-70).
+3. Evans, David M., and George Davey Smith. “Mendelian Randomization: New Applications in the Coming Age of Hypothesis-Free Causality.” Annual Review of Genomics and Human Genetics 16, no. 1 (2015): 327–50. [https://doi.org/10.1146/annurev-genom-090314-050016](https://doi.org/10.1146/annurev-genom-090314-050016).
+4. Prosperi, Mattia, Yi Guo, Matt Sperrin, James S. Koopman, Jae S. Min, Xing He, Shannan Rich, Mo Wang, Iain E. Buchan, and Jiang Bian. “Causal Inference and Counterfactual Prediction in Machine Learning for Actionable Healthcare.” Nature Machine Intelligence 2, no. 7 (July 2020): 369–75. [https://doi.org/10.1038/s42256-020-0197-y](https://doi.org/10.1038/s42256-020-0197-y).
+5. Bica, Ioana, Ahmed M. Alaa, Craig Lambert, and Mihaela van der Schaar. “From Real-World Patient Data to Individualized Treatment Effects Using Machine Learning: Current and Future Methods to Address Underlying Challenges.” Clinical Pharmacology & Therapeutics 109, no. 1 (2021): 87–100. [https://doi.org/10.1002/cpt.1907](https://doi.org/10.1002/cpt.1907).
+6. [Tutorial of DoWhy](https://microsoft.github.io/dowhy/).
 
 ### 13. Student presentation (II)
 
 #### *Drug-discovery for SARS-Cov-2*, presented by the Almeida team
 
-1. Tummino, Tia A., Veronica V. Rezelj, Benoit Fischer, Audrey Fischer, Matthew J. O’Meara, Blandine Monel, Thomas Vallet, et al. “Drug-Induced Phospholipidosis Confounds Drug Repurposing for SARS-CoV-2.” Science 373, no. 6554 (July 30, 2021): 541–47. https://doi.org/10.1126/science.abi4708.
-2. Delft, Frank von, Mark Calmiano, John Chodera, Ed Griffen, Alpha Lee, Nir London, Tatiana Matviuk, Ben Perry, Matt Robinson, and Annette von Delft. “A White-Knuckle Ride of Open COVID Drug Discovery.” Nature 594, no. 7863 (June 2021): 330–32. https://doi.org/10.1038/d41586-021-01571-1.
-3. Mei, Miao, and Xu Tan. “Current Strategies of Antiviral Drug Discovery for COVID-19.” Frontiers in Molecular Biosciences 8 (2021): 310. https://doi.org/10.3389/fmolb.2021.671263.
-4. Kwok, Andrew J., Alex Mentzer, and Julian C. Knight. “Host Genetics and Infectious Disease: New Tools, Insights and Translational Opportunities.” Nature Reviews Genetics 22, no. 3 (March 2021): 137–53. https://doi.org/10.1038/s41576-020-00297-6.
-5. Heinz, Franz X., and Karin Stiasny. “Distinguishing Features of Current COVID-19 Vaccines: Knowns and Unknowns of Antigen Presentation and Modes of Action.” Npj Vaccines 6, no. 1 (August 16, 2021): 1–13. https://doi.org/10.1038/s41541-021-00369-6.
+1. Tummino, Tia A., Veronica V. Rezelj, Benoit Fischer, Audrey Fischer, Matthew J. O’Meara, Blandine Monel, Thomas Vallet, et al. “Drug-Induced Phospholipidosis Confounds Drug Repurposing for SARS-CoV-2.” Science 373, no. 6554 (July 30, 2021): 541–47. [https://doi.org/10.1126/science.abi4708](https://doi.org/10.1126/science.abi4708).
+2. Delft, Frank von, Mark Calmiano, John Chodera, Ed Griffen, Alpha Lee, Nir London, Tatiana Matviuk, Ben Perry, Matt Robinson, and Annette von Delft. “A White-Knuckle Ride of Open COVID Drug Discovery.” Nature 594, no. 7863 (June 2021): 330–32. [https://doi.org/10.1038/d41586-021-01571-1](https://doi.org/10.1038/d41586-021-01571-1).
+3. Mei, Miao, and Xu Tan. “Current Strategies of Antiviral Drug Discovery for COVID-19.” Frontiers in Molecular Biosciences 8 (2021): 310. [https://doi.org/10.3389/fmolb.2021.671263](https://doi.org/10.3389/fmolb.2021.671263).
+4. Kwok, Andrew J., Alex Mentzer, and Julian C. Knight. “Host Genetics and Infectious Disease: New Tools, Insights and Translational Opportunities.” Nature Reviews Genetics 22, no. 3 (March 2021): 137–53. [https://doi.org/10.1038/s41576-020-00297-6](https://doi.org/10.1038/s41576-020-00297-6).
+5. Heinz, Franz X., and Karin Stiasny. “Distinguishing Features of Current COVID-19 Vaccines: Knowns and Unknowns of Antigen Presentation and Modes of Action.” Npj Vaccines 6, no. 1 (August 16, 2021): 1–13. [https://doi.org/10.1038/s41541-021-00369-6](https://doi.org/10.1038/s41541-021-00369-6).
 6. Relevant posts in [In The Pipeline](https://www.science.org/blogs/pipeline), for instance [Pfizer's Good News Is the World's Good News](https://www.science.org/content/blog-post/pfizer-s-good-news-world-s-good-news) and [Covid Therapeutic Trial Recruitment](https://www.science.org/content/blog-post/covid-therapeutic-trial-recruitment).
 
 #### *Mathematical and computational modelling*, presented by the Euler team
 
-1. Handel, Andreas, Nicole L. La Gruta, and Paul G. Thomas. “Simulation Modelling for Immunologists.” Nature Reviews Immunology 20, no. 3 (March 2020): 186–95. https://doi.org/10.1038/s41577-019-0235-3.
-2. Jones, H. M., and K. Rowland‐Yeo. “Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development.” CPT: Pharmacometrics & Systems Pharmacology 2, no. 8 (August 1, 2013): 63. https://doi.org/10.1038/psp.2013.41.
-3. Gieschke, R., and J. L. Steimer. “Pharmacometrics: Modelling and Simulation Tools to Improve Decision Making in Clinical Drug Development.” European Journal of Drug Metabolism and Pharmacokinetics 25, no. 1 (March 2000): 49–58. https://doi.org/10.1007/BF03190058.
-4. Sancho-Araiz, Aymara, Victor Mangas-Sanjuan, and Iñaki F. Trocóniz. “The Role of Mathematical Models in Immuno-Oncology: Challenges and Future Perspectives.” Pharmaceutics 13, no. 7 (July 2, 2021): 1016. https://doi.org/10.3390/pharmaceutics13071016.
-5. Elmokadem, Ahmed, Matthew M. Riggs, and Kyle T. Baron. “Quantitative Systems Pharmacology and Physiologically-Based Pharmacokinetic Modeling With Mrgsolve: A Hands-On Tutorial.” CPT: Pharmacometrics & Systems Pharmacology 8, no. 12 (2019): 883–93. https://doi.org/10.1002/psp4.12467.
-6. Lu, James, Brendan Bender, Jin Y. Jin, and Yuanfang Guan. “Deep Learning Prediction of Patient Response Time Course from Early Data via Neural-Pharmacokinetic/Pharmacodynamic Modelling.” Nature Machine Intelligence 3, no. 8 (August 2021): 696–704. https://doi.org/10.1038/s42256-021-00357-4.
+1. Handel, Andreas, Nicole L. La Gruta, and Paul G. Thomas. “Simulation Modelling for Immunologists.” Nature Reviews Immunology 20, no. 3 (March 2020): 186–95. [https://doi.org/10.1038/s41577-019-0235-3](https://doi.org/10.1038/s41577-019-0235-3).
+2. Jones, H. M., and K. Rowland‐Yeo. “Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development.” CPT: Pharmacometrics & Systems Pharmacology 2, no. 8 (August 1, 2013): 63. [https://doi.org/10.1038/psp.2013.41](https://doi.org/10.1038/psp.2013.41).
+3. Gieschke, R., and J. L. Steimer. “Pharmacometrics: Modelling and Simulation Tools to Improve Decision Making in Clinical Drug Development.” European Journal of Drug Metabolism and Pharmacokinetics 25, no. 1 (March 2000): 49–58. [https://doi.org/10.1007/BF03190058](https://doi.org/10.1007/BF03190058).
+4. Sancho-Araiz, Aymara, Victor Mangas-Sanjuan, and Iñaki F. Trocóniz. “The Role of Mathematical Models in Immuno-Oncology: Challenges and Future Perspectives.” Pharmaceutics 13, no. 7 (July 2, 2021): 1016. [https://doi.org/10.3390/pharmaceutics13071016](https://doi.org/10.3390/pharmaceutics13071016).
+5. Elmokadem, Ahmed, Matthew M. Riggs, and Kyle T. Baron. “Quantitative Systems Pharmacology and Physiologically-Based Pharmacokinetic Modeling With Mrgsolve: A Hands-On Tutorial.” CPT: Pharmacometrics & Systems Pharmacology 8, no. 12 (2019): 883–93. [https://doi.org/10.1002/psp4.12467](https://doi.org/10.1002/psp4.12467).
+6. Lu, James, Brendan Bender, Jin Y. Jin, and Yuanfang Guan. “Deep Learning Prediction of Patient Response Time Course from Early Data via Neural-Pharmacokinetic/Pharmacodynamic Modelling.” Nature Machine Intelligence 3, no. 8 (August 2021): 696–704. [https://doi.org/10.1038/s42256-021-00357-4](https://doi.org/10.1038/s42256-021-00357-4).
 
 ## End-term project
 
