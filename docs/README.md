@@ -250,7 +250,9 @@ and a main text that does not exceed 3,000 words. Visual elements like table and
 figures that help readers understand he concept are welcome but not obligatory.
 In case of a team work, the contribution of the two people should be specified.
 
-Essays in literature-programming styles, combining texts and source code with Jupyter notebook or Rmarkdown, are welcome. For such essays the source code does not count to the total words.
+Essays in literature-programming styles, combining texts and source code with
+Jupyter notebook or Rmarkdown, are welcome. For such essays the source code does
+not count to the total words.
 
 List of candidate topics:
 
