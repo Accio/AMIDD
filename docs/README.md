@@ -32,7 +32,11 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=258849).
   * [11. Guest-speaker session](#11-guest-speaker-session) (03.12.2021)
 - [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
   * [12. Student presentation (I)](#12-student-presentation-i) (10.12.2021)
+      * [Machine learning and artificial intelligence in drug discovery](#MachineLearningAI)
+      * [Causal inference in disease understanding and drug discovery](#CausalInference)
   * [13. Student presentation (II)](#13-student-presentation-ii) (17.12.2021)
+      * [Drug discovery for SARS-Cov-2](#SARS-COV-2) presented by the Almeida team
+      * [Mathematical and computational modelling](#Modelling) presented by the Euler team.
 - [End-term project](#end-term-project)
 - [Assessment](#assessment)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
@@ -194,6 +198,8 @@ references are welcome.
 
 ### 12. Student presentation (I)
 
+<a name="MachineLearningAI"></a>
+
 #### *Machine learning and artificial intelligence in drug discovery*, presented by the Turing team
 
 Reference papers:
@@ -205,6 +211,8 @@ Reference papers:
 5. Basile, Anna O., Alexandre Yahi, and Nicholas P. Tatonetti. “Artificial Intelligence for Drug Toxicity and Safety.” Trends in Pharmacological Sciences 40, no. 9 (September 1, 2019): 624–35. [https://doi.org/10.1016/j.tips.2019.07.005](https://doi.org/10.1016/j.tips.2019.07.005).
 6. Ietswaart, Robert, Seda Arat, Amanda X. Chen, Saman Farahmand, Bumjun Kim, William DuMouchel, Duncan Armstrong, Alexander Fekete, Jeffrey J. Sutherland, and Laszlo Urban. “Machine Learning Guided Association of Adverse Drug Reactions with in Vitro Target-Based Pharmacology.” EBioMedicine, June 18, 2020, 102837. [https://doi.org/10.1016/j.ebiom.2020.102837](https://doi.org/10.1016/j.ebiom.2020.102837).
 
+
+<a name="CausalInference"></a>
 
 #### *Causal inference in disease understanding and drug discovery*, presented by the Hill team
 
@@ -219,6 +227,8 @@ Reference papers and software:
 
 ### 13. Student presentation (II)
 
+<a name="SARS-COV-2"></a>
+
 #### *Drug-discovery for SARS-Cov-2*, presented by the Almeida team
 
 1. Tummino, Tia A., Veronica V. Rezelj, Benoit Fischer, Audrey Fischer, Matthew J. O’Meara, Blandine Monel, Thomas Vallet, et al. “Drug-Induced Phospholipidosis Confounds Drug Repurposing for SARS-CoV-2.” Science 373, no. 6554 (July 30, 2021): 541–47. [https://doi.org/10.1126/science.abi4708](https://doi.org/10.1126/science.abi4708).
@@ -227,6 +237,8 @@ Reference papers and software:
 4. Kwok, Andrew J., Alex Mentzer, and Julian C. Knight. “Host Genetics and Infectious Disease: New Tools, Insights and Translational Opportunities.” Nature Reviews Genetics 22, no. 3 (March 2021): 137–53. [https://doi.org/10.1038/s41576-020-00297-6](https://doi.org/10.1038/s41576-020-00297-6).
 5. Heinz, Franz X., and Karin Stiasny. “Distinguishing Features of Current COVID-19 Vaccines: Knowns and Unknowns of Antigen Presentation and Modes of Action.” Npj Vaccines 6, no. 1 (August 16, 2021): 1–13. [https://doi.org/10.1038/s41541-021-00369-6](https://doi.org/10.1038/s41541-021-00369-6).
 6. Relevant posts in [In The Pipeline](https://www.science.org/blogs/pipeline), for instance [Pfizer's Good News Is the World's Good News](https://www.science.org/content/blog-post/pfizer-s-good-news-world-s-good-news) and [Covid Therapeutic Trial Recruitment](https://www.science.org/content/blog-post/covid-therapeutic-trial-recruitment).
+
+<a name="Modelling"></a>
 
 #### *Mathematical and computational modelling*, presented by the Euler team
 
