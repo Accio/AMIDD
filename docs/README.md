@@ -185,12 +185,12 @@ Sander, and Dr. Juliane Siebourg-Polster to share with us their industrial
 research experience in applied mathematics and informatics in drug discovery.
 
 * Dr. Thomas Sander studied organic chemistry in Marburg, Germany (PhD with
-  Prof. RW Hoffmann). Then he did a post-doc in cheminformatics with JB
+  Prof. R.W. Hoffmann). Then he did a post-doc in cheminformatics with J.B.
   Hendrickson, Brandeis University, Waltham, Massachusetts. After that he worked
   for 5 years at Roche developing applications/databases for drug discovery.
   Dr. Sander joined Actelion as one of the first employees building up and shaping the
   drug discovery software landscape with a growing team for 20 years. Now he is
-  at Idorsia and mainly works on Open-Source cheminformatics projects.
+  at Idorsia and mainly works on open-source cheminformatics projects.
 
 ## Student presentation topics and reference papers
 
