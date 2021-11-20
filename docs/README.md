@@ -162,7 +162,8 @@ meet your needs.
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2021/09/AMIDD-2021-09-PK-PD-modelling.pdf %})
 * [Anonymous post-lecture survey #9](https://forms.gle/yiv7Xo3gJH1XDsZu5)
-* Recording (password shared by emails)
+* [Recording (password shared by
+  emails)](https://unibas.zoom.us/rec/share/ODJwhBXofea7bsSZ_ErpNqectSGUUburVh-5CW9uZOF0piQLFIOfypm2cVQKGTg.fICSH5sVf_ZdkM3-)
 * Offline activities:
     * Required reading: backup slides on non-linear mixed-effect (NLME) models and clinical trials.
     * Optional reading:
