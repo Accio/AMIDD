@@ -184,6 +184,14 @@ This year we will welcome our guest speakers Dr. Elif Ozkirimli, Dr. Thomas
 Sander, and Dr. Juliane Siebourg-Polster to share with us their industrial
 research experience in applied mathematics and informatics in drug discovery.
 
+* Dr. Thomas Sander studied organic chemistry in Marburg, Germany (PhD with
+  Prof. RW Hoffmann). Then he did a post-doc in cheminformatics with JB
+  Hendrickson, Brandeis University, Waltham, Massachusetts. After that he worked
+  for 5 years at Roche developing applications/databases for drug discovery.
+  Dr. Sander joined Actelion as one of the first employees building up and shaping the
+  drug discovery software landscape with a growing team for 20 years. Now he is
+  at Idorsia and mainly works on Open-Source cheminformatics projects.
+
 ## Student presentation topics and reference papers
 
 You can vote for your presentation topics via [Google Form](https://forms.gle/pov9pfaitWAwVoFS9) by November the first.
