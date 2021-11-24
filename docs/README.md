@@ -188,9 +188,18 @@ research experience in applied mathematics and informatics in drug discovery.
   Prof. R.W. Hoffmann). Then he did a post-doc in cheminformatics with J.B.
   Hendrickson, Brandeis University, Waltham, Massachusetts. After that he worked
   for 5 years at Roche developing applications/databases for drug discovery.
-  Dr. Sander joined Actelion as one of the first employees building up and shaping the
-  drug discovery software landscape with a growing team for 20 years. Now he is
-  at Idorsia and mainly works on open-source cheminformatics projects.
+  Dr. Sander joined Actelion as one of the first employees building up and
+  shaping the drug discovery software landscape with a growing team for 20
+  years. Now he is at Idorsia and mainly works on open-source cheminformatics
+  projects.
+* Dr. Juliane Siebourg-Polster is a biomathematician by training with a PhD in
+  computational biology from ETH Zürich. Currently, she works as a
+  Biostatistician in pre-clinical research at Roche pRED in Basel. She enjoys
+  working at the interface of biology, data analysis and mathematical modeling.
+  In pre-clinical drug discovery and development her focus is in statistical
+  analysis and modeling of high throughput omics biomarker studies as well as
+  experiment design. In addition she engages in teaching statistical methods and
+  concepts to colleagues.
 
 ## Student presentation topics and reference papers
 
