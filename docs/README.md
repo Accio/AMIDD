@@ -184,6 +184,8 @@ This year we will welcome our guest speakers Dr. Elif Ozkirimli, Dr. Thomas
 Sander, and Dr. Juliane Siebourg-Polster to share with us their industrial
 research experience in applied mathematics and informatics in drug discovery.
 
+*Please note that the course starts exceptionally at 12:05*.
+
 * Dr. Thomas Sander studied organic chemistry in Marburg, Germany (PhD with
   Prof. R.W. Hoffmann). Then he did a post-doc in cheminformatics with J.B.
   Hendrickson, Brandeis University, Waltham, Massachusetts. After that he worked
@@ -200,6 +202,15 @@ research experience in applied mathematics and informatics in drug discovery.
   analysis and modeling of high throughput omics biomarker studies as well as
   experiment design. In addition she engages in teaching statistical methods and
   concepts to colleagues.
+* Dr. Elif Ozkirimli is the head of data science and advanced analytics at
+  Roche. In her current role, she is focusing on the application of machine
+  learning (ML), natural-language processing (NLP), advanced mathematical
+  modeling and statistical approaches to understand the healthcare professional
+  or patient journeys to bring higher patient and healthcare impact. Previously,
+  Elif was a professor of chemical engineering at Bogazici University, Turkey,
+  and focused on the application of NLP and deep-learning (DL) approaches for
+  protein - compound interaction prediction. Elif has a PhD in structural
+  biology from Purdue University.
 
 ## Student presentation topics and reference papers
 
