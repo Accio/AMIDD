@@ -186,7 +186,7 @@ research experience in applied mathematics and informatics in drug discovery.
 
 *Please note that the course starts exceptionally at 12:05*.
 
-* Dr. Thomas Sander studied organic chemistry in Marburg, Germany (PhD with
+* **Dr. Thomas Sander** studied organic chemistry in Marburg, Germany (PhD with
   Prof. R.W. Hoffmann). Then he did a post-doc in cheminformatics with J.B.
   Hendrickson, Brandeis University, Waltham, Massachusetts. After that he worked
   for 5 years at Roche developing applications/databases for drug discovery.
@@ -194,7 +194,7 @@ research experience in applied mathematics and informatics in drug discovery.
   shaping the drug discovery software landscape with a growing team for 20
   years. Now he is at Idorsia and mainly works on open-source cheminformatics
   projects.
-* Dr. Juliane Siebourg-Polster is a biomathematician by training with a PhD in
+* **Dr. Juliane Siebourg-Polster** is a biomathematician by training with a PhD in
   computational biology from ETH Zürich. Currently, she works as a
   Biostatistician in pre-clinical research at Roche pRED in Basel. She enjoys
   working at the interface of biology, data analysis and mathematical modeling.
@@ -202,7 +202,7 @@ research experience in applied mathematics and informatics in drug discovery.
   analysis and modeling of high throughput omics biomarker studies as well as
   experiment design. In addition she engages in teaching statistical methods and
   concepts to colleagues.
-* Dr. Elif Ozkirimli is the head of data science and advanced analytics at
+* **Dr. Elif Ozkirimli** is the head of data science and advanced analytics at
   Roche. In her current role, she is focusing on the application of machine
   learning (ML), natural-language processing (NLP), advanced mathematical
   modeling and statistical approaches to understand the healthcare professional
