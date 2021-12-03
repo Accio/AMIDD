@@ -212,6 +212,10 @@ research experience in applied mathematics and informatics in drug discovery.
   protein - compound interaction prediction. Elif has a PhD in structural
   biology from Purdue University.
 
+* [Anonymous post-lecture survey, with questions for the guest speakers](https://forms.gle/Duu1MdcnjfEMG6rQ7)
+* [*Translator in Science*, the presentation by Dr. Juliane Sieborg-Polster]({{site.assetbaseurl}}{% link assets/2021/11/20211203-AMIDD-JulianeSiebourgPolster-Translator-in-science.pdf %})
+* [*Needles in a haystack: From coordinates to strings, from structural biology to NLP and AI*, the presentation by Dr. Elif Ozkirimli]({{site.assetbaseurl}}{% link assets/2021/11/20211203-AMIDD-ElifOzkirimli-Needles-in-a-Haystack.pdf %})
+
 ## Student presentation topics and reference papers
 
 You can vote for your presentation topics via [Google Form](https://forms.gle/pov9pfaitWAwVoFS9) by November the first.
