@@ -213,6 +213,7 @@ research experience in applied mathematics and informatics in drug discovery.
   biology from Purdue University.
 
 * [Anonymous post-lecture survey, with questions for the guest speakers](https://forms.gle/Duu1MdcnjfEMG6rQ7)
+* [Recording (password shared by emails)](https://unibas.zoom.us/rec/share/URGNwPojCpdKvObCgbQ2fGrSimf4g7I9SWysxby9_KMiLPYh_KbsJ0USxLizJHDN.foFdzsu0b4VUxHLx)
 * [*Translator in Science*, the presentation by Dr. Juliane Sieborg-Polster]({{site.assetbaseurl}}{% link assets/2021/11/20211203-AMIDD-JulianeSiebourgPolster-Translator-in-science.pdf %})
 * [*Needles in a haystack: From coordinates to strings, from structural biology to NLP and AI*, the presentation by Dr. Elif Ozkirimli]({{site.assetbaseurl}}{% link assets/2021/11/20211203-AMIDD-ElifOzkirimli-Needles-in-a-Haystack.pdf %})
 
@@ -241,6 +242,8 @@ references are welcome.
 ### 12. Student presentation (I)
 
 <a name="MachineLearningAI"></a>
+
+* [Zoom recording](https://unibas.zoom.us/rec/share/cu5undOxlvKYvCa1JBSf6BE4weX7iWDy38THK7YHNuINzBiQgwHYLjEsGpsGtBU.s6OdY7QXX1MTsm48)
 
 #### *Machine learning and artificial intelligence in drug discovery*, presented by the Turing team
 
