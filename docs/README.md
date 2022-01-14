@@ -304,7 +304,7 @@ discovery.
 
 The essay should have an abstract (fewer than 200 words), a list of references,
 and a main text that does not exceed 3,000 words. Visual elements like table and
-figures that help readers understand he concept are welcome but not obligatory.
+figures that help readers understand the concept are welcome but not obligatory.
 In case of a team work, the contribution of the two people should be specified.
 
 Essays in literature-programming styles, combining texts and source code with
