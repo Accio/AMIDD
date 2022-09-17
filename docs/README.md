@@ -27,7 +27,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=269095).
   * [7. From individial interactions to networks](#7-from-individual-interactions-to-networks) (04.11.2022)
   * [8. Omics and cellular modelling](#8-omics-and-cellular-modelling) (11.11.2022)
   * [9. PKPD modelling](#9-pkpd-modelling) (18.11.2022, exceptionally at Kollegienhaus, Hörsaal 120)
-  * [10.*Dies academicus - optional Ask Me Anything session*](#10-dies-academicus---optional-ask-me-anything-session) (25.11.2022, over Zoom)
+  * [10.*Dies academicus - optional Ask Me Anything session*](#10-dies-academicus---optional-ask-me-anything-session) (25.11.2022)
   * [11. Population modelling](#11-population-modelling) (02.12.2021)
   * [11. Guest-speaker session](#11-guest-speaker-session) (09.12.2021)
 - [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
@@ -141,9 +141,15 @@ course to meet your needs.
 
 ### 10. *Dies academicus - optional Ask Me Anything session*
 
-You can ask me anything in this session, which will be exceptionally *not* recorded.
+You can ask me anything in this session.
 
-Besides scientific topics in drug discovery, my experience is that many students are interested in career topics: should I do a PhD or not? Should I consider working in industry? You may this article below interesting if you consider doing a PhD and perhaps doing a postdoc in pharma: Zhang, Jitao David. “[Ten Simple Rules for Doing a Postdoc in Pharma.](https://doi.org/10.1371/journal.pcbi.1008989)” PLOS Computational Biology 17, no. 6 (June 3, 2021): e1008989.
+Besides scientific topics in drug discovery, my experience is that many students
+are interested in career topics: should I do a PhD or not? Should I consider
+working in industry? You may this article below interesting if you consider
+doing a PhD and perhaps doing a postdoc in pharma: Zhang, Jitao David. “[Ten
+Simple Rules for Doing a Postdoc in
+Pharma.](https://doi.org/10.1371/journal.pcbi.1008989)” PLOS Computational
+Biology 17, no. 6 (June 3, 2021): e1008989.
 
 ### 11. Population modelling
 
