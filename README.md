@@ -9,7 +9,7 @@ $^{2}$ Department of Mathematics and Informatics, University Basel, Spiegelgasse
 ## Description {#desc}
 
 * **Course title**: Applied Mathematics and Informatics in Drug Discovery (AMIDD)
-* **Semester**: Autumn Semester 2020
+* **Semester**: Every autumn Semester starting from 2020
 * **Course frequency**: every autumn semester
 * **Lecturer**: Jitao David Zhang (jitao-david.zhang@unibas.ch)
 * **Weblink**: [http:\/\/www.amidd.ch](http://www.amidd.ch)
