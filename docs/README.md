@@ -62,13 +62,14 @@ course to meet your needs.
 
 ### 1. Drug discovery: an overview
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2021/01/AMIDD-2021-01-Intro.pdf %})
-* Material for offline activities (see slides 34-36)
-    * [Link to the video](https://www.ibiology.org/human-disease/herceptin/) on
-      the discovery and development of Herceptin, by Susan Desmond-Hellmann
-    * [Principles of early drug discovery]({{site.assetbaseurl}}{% link
-      assets/2019/01/Principles-DD-Hughes.pdf %}) by Hughes *et al.*
-    * Submit your answers to the offline activities [here via Google Form](https://forms.gle/R9k7aGVLfd8J4bLr6)
+* [Slides]({{site.assetbaseurl}}{% link assets/2022/01/AMIDD-2022-01-Intro.pdf %})
+* [Anonymous Post-lecture Survey of Lecture 1](https://forms.gle/XBZu3iHJyL1D618Y7)
+* Material for offline activities (see slides 31-33)
+    * Watch [a video](https://www.ibiology.org/human-disease/herceptin/) on the
+      discovery and development of the drug *Herceptin*, presented by Susan
+      Desmond-Hellmann, and answer questions. See the questions and submit your
+      answers [here via a Google Form](https://forms.gle/1mAdkeebsB2QDx3m6).
+    * Required reading: [Principles of early drug discovery]({{site.assetbaseurl}}{% link assets/2022/01/Principles-DD-Hughes.pdf %}) by Hughes *et al.*
 
 ### 2. The central dogma and drug discovery
 
