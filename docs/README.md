@@ -81,12 +81,13 @@ course to meet your needs.
 
 ### 3. Biological sequence analysis
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2021/03/AMIDD-2021-03-BiologicalSequenceAnalysis.pdf %})
+* [Slides]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-03-BiologicalSequenceAnalysis.pdf %})
 * Material for offline activities
-  * [Handout for lecture 2 and lecture 3]({{site.assetbaseurl}}{% link assets/2021/02/AMIDD-Lecture2-Handout.pdf %}), which contains genetic codes, information on amino acids, and offline exercises (which are due in two weeks, before Lecture 5).
+  * Please go through the slides #22 and #23 to try out calculating the Levenshtein distance with dynamic programming.
   * Required reading: [Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity]({{site.assetbaseurl}}{% link assets/2021/03/Tsai-BRAF-PNAS-2008.pdf %}) by Tsai *et al.*, PNAS 2008.
-  * Optional reading: [The Tangled History of MRNA Vaccines](https://doi.org/10.1038/d41586-021-02483-w) by Elie Dolgin, Nature 2021.
-* Submit your answers for offline activities [here via Google Form](https://forms.gle/VzGGbXBvy9ZhTSVK8). *They are due only in two weeks, before Lecture 5*, because we will cover the exercises of biological sequence analysis only in Lecture 4.
+  * Optional reading: Richard Bell, the inventor of Dynamic Programming, on the origin of the name. See slide #29.
+  * [Handout for lecture 3 and 4]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-Lecture3-Handout.pdf %}), which contains genetic codes, information on amino acids, and offline exercises for both lecture 3 and 4. Please read the instructions in the Google Form below to finish this week's task.
+  * Submit your answers for offline activities [here via the Google Form *AMIDD-2022-OfflineActivity-Lecture3*](https://forms.gle/K5Z4PGsJofa66zHp6).
 
 
 ### 4. From sequences to structures
