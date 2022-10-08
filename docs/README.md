@@ -82,6 +82,7 @@ course to meet your needs.
 ### 3. Biological sequence analysis
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-03-BiologicalSequenceAnalysis.pdf %})
+* [Anonymous Post-lecture Survey, #3](https://forms.gle/rj5hRuss8oE8kdSKA)
 * Material for offline activities
   * Please go through the slides #22 and #23 to try out calculating the Levenshtein distance with dynamic programming.
   * Required reading: [Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity]({{site.assetbaseurl}}{% link assets/2021/03/Tsai-BRAF-PNAS-2008.pdf %}) by Tsai *et al.*, PNAS 2008.
