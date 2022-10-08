@@ -84,10 +84,10 @@ course to meet your needs.
 * [Slides]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-03-BiologicalSequenceAnalysis.pdf %})
 * [Anonymous Post-lecture Survey, #3](https://forms.gle/rj5hRuss8oE8kdSKA)
 * Material for offline activities
-  * Please go through the slides #22 and #23 to try out calculating the Levenshtein distance with dynamic programming.
+  * Please go through the [slides #22 and #23]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-03-BiologicalSequenceAnalysis.pdf %}) to try out calculating the Levenshtein distance with dynamic programming.
   * Required reading: [Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity]({{site.assetbaseurl}}{% link assets/2021/03/Tsai-BRAF-PNAS-2008.pdf %}) by Tsai *et al.*, PNAS 2008.
-  * Optional reading: Richard Bell, the inventor of Dynamic Programming, on the origin of the name. See slide #29.
-  * [Handout for lecture 3 and 4]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-Lecture3-Handout.pdf %}), which contains genetic codes, information on amino acids, and offline exercises for both lecture 3 and 4. Please read the instructions in the Google Form below to finish this week's task.
+  * Optional reading: Richard Bell, the inventor of Dynamic Programming, on the origin of the name. See slide [#29]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-03-BiologicalSequenceAnalysis.pdf %}).
+  * [Handout for lecture 3 and 4]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-Lecture3-Handout.pdf %}), which contains genetic codes, information on amino acids, and offline exercises for both lecture 3 and 4. *Not all questions need to be answered now.* Please read the instructions in the Google Form below to finish this week's task.
   * Submit your answers for offline activities [here via the Google Form *AMIDD-2022-OfflineActivity-Lecture3*](https://forms.gle/K5Z4PGsJofa66zHp6).
 
 
