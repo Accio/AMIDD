@@ -3,3 +3,5 @@ gem 'github-pages', group: :jekyll_plugins
 
 gem 'rake'
 gem 'html-proofer'
+
+gem "webrick", "~> 1.7"
