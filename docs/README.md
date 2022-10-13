@@ -96,8 +96,10 @@ course to meet your needs.
 * [Slides]({{site.assetbaseurl}}{% link assets/2022/04/AMIDD-2022-04-From-Sequences-to-Structures.pdf %})
 * Material for offline activities
   * Required reading: [What does AlphaFold mean for drug discovery](https://www.nature.com/articles/d41573-021-00161-0), Asher Mullard, Nature Reviews Drug Discovery. See [the PDF version here]({{site.assetbaseurl}}{% link assets/2022/04/NRDD-2021-AlphaFold-DD.pdf %}).
-  * Optional reading: [AlphaFold2 is here: what’s behind the structure prediction miracle](https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/), by Oxford Protein Informatics Group (OPIG).
-  * A question about Markov chains: Given the Markov chain model represented on slide #15 [in the slides]({{site.assetbaseurl}}{% link assets/2022/04/AMIDD-2022-04-From-Sequences-to-Structures.pdf %}), what is the ratio between $p(ACGTGGT|M)$ and $p(ACCTGGT|M)$?
+  * Optional readings:
+      * [Mathematics techniques in structural biology]({{site.assetbaseurl}}{% link assets/2022/04/JRQuine-MathBiophysicsBook.pdf %}) by John R. Quine.  Recommended booklet for students interested in applications of mathematics in determining structures of DNA and proteins without or with drugs.
+      * [AlphaFold2 is here: what’s behind the structure prediction miracle](https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/), by Oxford Protein Informatics Group (OPIG). Recommended if you are interested in protein structure prediction and how AlphaFold2 achieved good performance.
+  * A question about Markov chains: Given the Markov chain model represented on slide #15 [in the slides]({{site.assetbaseurl}}{% link assets/2022/04/AMIDD-2022-04-From-Sequences-to-Structures.pdf %}), what is the ratio between $p(ACGTGGT\|M)$ and $p(ACCTGGT\|M)$?
   * [Handout for lecture 3 and 4]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-Lecture3-Handout.pdf %}), please finish the tasks titled *A subset of BLOSUM 50 values per aligned residue pair* and *What does Fomivirsen target?*.
   * Submit your answers for offline activities [here via the Google Form *AMIDD-2022-OA-Lecture4*](https://forms.gle/BbBVLNyzvQvsKqNd6).
 
@@ -106,9 +108,6 @@ course to meet your needs.
 * [Slides]({{site.assetbaseurl}}{% link assets/2021/05/AMIDD-2021-05-proteins-and-ligands.pdf %})
 * Material for offline activities:
    * Required reading: [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2021/05/BiologicalActivity-Dougall-Unitt.pdf%}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. **To answer offline-activity questions**, it is required to read pages 15-22 (1-8 of the 29 pages in total, before section &lsquo;*4. Types of Enzyme Inhibition and Their Analysis*&rsquo;), page 27 (section 6A), and pages 34-37 (*Assay Biostatistics*). The rest is optional reading.
-    * Optional reading:
-        * [Mathematics techniques in structural biology]({{site.assetbaseurl}}{% link assets/2021/05/JRQuine-MathBiophysicsBook.pdf %}) by John R. Quine.  Recommended booklet for students interested in applications of mathematics in determining structures of DNA and proteins without or with drugs.
-        * Mullard, Asher. “What Does AlphaFold Mean for Drug Discovery?” Nature Reviews Drug Discovery 20, no. 10 (September 14, 2021): 725–27. [Web link](https://doi.org/10.1038/d41573-021-00161-0). [PDF version available here]({{site.assetbaseurl}}{% link assets/2021/05/Mullard-2021-NRDD-AlphaFold-DD.pdf %}).
    * Submit your results here [via Google Form](https://forms.gle/ktcoMPP8ChF3x1eo8)
 
 ### 6. Structure- and ligand-based drug design
