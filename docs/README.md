@@ -93,10 +93,13 @@ course to meet your needs.
 
 ### 4. From sequences to structures
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2021/04/AMIDD-2021-04-From-Sequences-to-Structures.pdf %})
-* [Anonymous Post-lecture Survey #4](https://forms.gle/ajehjtKYPngji4yX7)
-* [Recording (passcode shared by emails)](https://unibas.zoom.us/rec/share/TsMJr5JRaEzkWWbAILLuLjbOglmIp_ZgqHEfC4UB7RALJJ3mloGq309mmlqMwGo.j3qOVERQBN4iXSYo)
-* Material for offline activities: the same as lecture 3
+* [Slides]({{site.assetbaseurl}}{% link assets/2022/04/AMIDD-2022-04-From-Sequences-to-Structures.pdf %})
+* Material for offline activities
+  * Required reading: [What does AlphaFold mean for drug discovery](https://www.nature.com/articles/d41573-021-00161-0), Asher Mullard, Nature Reviews Drug Discovery. See [the PDF version here]({{site.assetbaseurl}}{% link assets/2022/04/NRDD-2021-AlphaFold-DD.pdf %}).
+  * Optional reading: [AlphaFold2 is here: what’s behind the structure prediction miracle](https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/), by Oxford Protein Informatics Group (OPIG).
+  * [Handout for lecture 3 and 4]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-Lecture3-Handout.pdf %}), please finish the tasks titled *A subset of BLOSUM 50 values per aligned residue pair* and *What does Fomivirsen target?*.
+
+  * Submit your answers for offline activities [here via the Google Form *AMIDD-2022-OA-Lecture4*](https://forms.gle/BbBVLNyzvQvsKqNd6).
 
 ### 5. Proteins and ligands
 
