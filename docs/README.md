@@ -108,8 +108,8 @@ course to meet your needs.
 * Material for offline activities:
    * Watch the [YouTube video](https://www.youtube.com/watch?v=Q1ftYq13XKk) about the *Ramachandran Principal* by Prof. [Eric Martz](https://www.umass.edu/molvis/martz/), or read [the notes (including slides) on Proteopedia](https://proteopedia.org/wiki/index.php/Tutorial:Ramachandran_principle_and_phi_psi_angles), and finish a [Practice Quiz](https://proteopedia.org/w/User:Eric_Martz/Ramachandran_Principle_Quiz). 
    * Required reading: [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2022/05/BiologicalActivity-Dougall-Unitt.pdf%}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. **To answer offline-activity questions**, it is required to read pages 15-22 (1-8 of the 29 pages in total, before section &lsquo;*4. Types of Enzyme Inhibition and Their Analysis*&rsquo;), page 27 (section 6A), and pages 34-37 (*Assay Biostatistics*). The rest is optional reading.
-   * Optional reading: [Mathematics techniques in structural biology]({{site.assetbaseurl}}{% link assets/2022/04/JRQuine-MathBiophysicsBook.pdf %}) by John R. Quine.  Recommended booklet for students interested in applications of mathematics in determining structures of DNA and proteins without or with drugs.
    * Submit your results here [via Google Form](https://forms.gle/LXpMecFWjQ36oETA9)
+   * Optional reading: [Mathematics techniques in structural biology]({{site.assetbaseurl}}{% link assets/2022/04/JRQuine-MathBiophysicsBook.pdf %}) by John R. Quine.  Recommended booklet for students interested in applications of mathematics in determining structures of DNA and proteins without or with drugs.
 
 ### 6. Structure- and ligand-based drug design
 
