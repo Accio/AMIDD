@@ -113,11 +113,11 @@ course to meet your needs.
 
 ### 6. Structure- and ligand-based drug design
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2021/06/AMIDD-2021-06-Structure-and-ligand-based-drug-discovery.pdf %})
+* [Slides]({{site.assetbaseurl}}{% link assets/2022/06/AMIDD-2022-06-Structure-and-ligand-based-drug-discovery.pdf %})
+* [Anonymous post-lecture survey for lecture 6](https://forms.gle/QcVXr4UP7NT7qy978)
 * Material for offline activities:
-    * You can vote for your presentation topics via [Google Form](https://forms.gle/pov9pfaitWAwVoFS9) by November the first.
-    * **Offline activity: required reading**: [*Computational methods in drug discovery*]({{site.assetbaseurl}}{% link assets/2021/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf %}) by Gregory Sliwoski *et al.*. Please submit your replies to questions [via this Google Form](https://forms.gle/XjbLVi1QG5R1QiyDA).
-    * Optional reading: [*An introduction to machine learning*]({{site.assetbaseurl}}{% link assets/2021/06/Badillo-ML-2020.pdf %}) by Badillo *et al.*.
+    * Required reading: [*An introduction to machine learning*]({{site.assetbaseurl}}{% link assets/2022/06/Badillo-ML-2020.pdf %}) by Badillo *et al.*.
+    * Required reading for this and next week: [*Computational methods in drug discovery*]({{site.assetbaseurl}}{% link assets/2022/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf %}) by Gregory Sliwoski *et al.*. Please submit your replies to questions [via this Google Form](https://forms.gle/pfKX76K5XYuzxNSu8). The deadline of submitting the replies is *November 11th*.
 
 
 ### 7. From individual interactions to networks
