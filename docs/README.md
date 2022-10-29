@@ -124,7 +124,7 @@ course to meet your needs.
 
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2021/07/AMIDD-2021-07-from-individual-interactions-to-networks.pdf %})
-* No new offline activity this week, because the activity last week was time consuming. If you are not yet familiar with machine learning, please read the optional reading assigned last week, [*An introduction to machine learning*]({{site.assetbaseurl}}{% link assets/2021/06/Badillo-ML-2020.pdf %}) by Badillo *et al.*
+* No new offline activity this week, because the activity last week was time consuming.
 
 ### 8. Omics and cellular modelling
 
