@@ -123,8 +123,16 @@ course to meet your needs.
 ### 7. From individual interactions to networks
 
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2021/07/AMIDD-2021-07-from-individual-interactions-to-networks.pdf %})
-* No new offline activity this week, because the activity last week was time consuming.
+* [Slides]({{site.assetbaseurl}}{% link
+  assets/2022/07/AMIDD-2022-07-from-individual-interactions-to-networks.pdf %}).
+  This week we discussed QSAR, machine learning models, and causal inference.
+  And we introduced compartment models to model ligand-receptor interaction and
+  enzyme kinetics. Next week we will continue with the compartment model and
+  biological network analysis.
+* This week's offline activity is to finish the readings of the last week.
+     * Required reading: [*An introduction to machine learning*]({{site.assetbaseurl}}{% link assets/2022/06/Badillo-ML-2020.pdf %}) by Badillo *et al.*.
+     * Required reading for this and next week: [*Computational methods in drug discovery*]({{site.assetbaseurl}}{% link assets/2022/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf %}) by Gregory Sliwoski *et al.*. Please submit your replies to questions [via this Google Form](https://forms.gle/pfKX76K5XYuzxNSu8). The deadline of submitting the replies is *November 11th*.
+* Optional reading:  [Causal inference in drug discovery and development](https://arxiv.org/abs/2209.14664), pre-print manuscript on *arxiv*.
 
 ### 8. Omics and cellular modelling
 
