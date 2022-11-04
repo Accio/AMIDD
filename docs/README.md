@@ -191,19 +191,18 @@ Teams are also welcome to bring up their own ideas. If there are enough particip
 
 ## End-term project
 
-All participants are expected to finish the end-term project either individually
-or in a team of two people. She or he or the team shall choose *one* concept from a list of candidate topics, upon which they will write a short essay introducing the
-concept to non-experts, with examples and ideally applications in drug
-discovery. The topics will be announced during the semester.
+The choice of topic and the team composition is to be submitted via [this Google
+Form of voting for the project topic](https://forms.gle/m8vmz2XTeDkNZQFZ6) by
+*Thursday, December the 1st*. Two people working together need to vote just
+once. The deadline for submitting the essay by email is *January 13th, 2022*. No
+extension is possible.
 
-The essay should have an abstract (less than 200 words), a list of references,
-and a main text that does not exceed 3,000 words. Visual elements like table and
-figures that help readers understand the concept are welcome but not obligatory.
-In case of a team work, the contribution of the two people should be specified.
-
-Essays in literature-programming styles, combining texts and source code with
-Jupyter notebook or Rmarkdown, are encouraged. For such essays the source code does
-not count to the total words.
+All participants are expected to finish the end-term project in a team of two
+people, which is preferred, or individually. She or he or the team shall choose
+*one* concept from a list of candidate topics, upon which they will write a
+short essay introducing the concept to non-experts, with examples and ideally
+applications in drug discovery. The topics will be announced during the
+semester.
 
 List of candidate topics of year 2022:
 
@@ -221,11 +220,14 @@ List of candidate topics of year 2022:
     * Graph neural network
     * Shapley values
 
-The choice of topic and the team composition is to be submitted via [this Google
-Form of voting for the project topic](https://forms.gle/m8vmz2XTeDkNZQFZ6) by
-*Thursday, December the 1st*. Two people working together need to vote just
-once. The deadline for submitting the essay by email is *January 13th, 2022*. No
-extension is possible.
+The essay should have an abstract (less than 200 words), a list of references,
+and a main text that does not exceed 3,000 words. Visual elements like table and
+figures that help readers understand the concept are welcome but not obligatory.
+In case of a team work, the contribution of the two people should be specified.
+
+Essays in literature-programming styles, combining texts and source code with
+Jupyter notebook or Rmarkdown, are encouraged. For such essays the source code does
+not count to the total words.
 
 Submitted essays will be shared with the whole class for open review and joint
 learning.
