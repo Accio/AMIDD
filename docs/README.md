@@ -181,10 +181,10 @@ You can vote for your presentation topics via [the Google Form of voting for pre
 
 In HS 2022, our class will present on the following four topics:
 
-1. Phenotypic drug discovery: how phenotypic drug discovery complements target-based drug discovery.
-2. Productivity in drug discovery: return of investment, cost, and research productivity in drug discovery.
-3. Mathematical modeling in drug discovery: mathematical modeling techniques used in preclinical and clinical studies.
-4. Reverse translation: how we can leverage data from clinical trials and observational studies to empower preclinical studies.
+1. **Phenotypic drug discovery**: how phenotypic drug discovery complements target-based drug discovery.
+2. **Productivity in drug discovery**: return of investment, cost, and research productivity in drug discovery.
+3. **Mathematical modeling in drug discovery**: mathematical modeling techniques used in preclinical and clinical studies.
+4. **Reverse translation**: how we can leverage data from clinical trials and observational studies to empower preclinical studies.
 
 Teams are also welcome to bring up their own ideas. If there are enough participants, we may adopt these initiatives.
 
