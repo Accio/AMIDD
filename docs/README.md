@@ -29,7 +29,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=269095).
   * [9. PKPD modelling](#9-pkpd-modelling) (18.11.2022, exceptionally at Kollegienhaus, Hörsaal 120)
   * [10.*Dies academicus - optional Ask Me Anything session*](#10-dies-academicus---optional-ask-me-anything-session) (25.11.2022)
   * [11. Population modelling](#11-population-modelling) (02.12.2021)
-  * [11. Guest-speaker session](#11-guest-speaker-session) (09.12.2021)
+  * [12. Guest-speaker session](#11-guest-speaker-session) (09.12.2021)
 - [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
   * [12. Student presentation (I)](#12-student-presentation-i) (16.12.2021)
   * [13. Student presentation (II)](#13-student-presentation-ii) (23.12.2021)
@@ -170,6 +170,8 @@ Biology 17, no. 6 (June 3, 2021): e1008989.
 ### 12. Guest-speaker session
 
 To be announced
+
+# Student presentation topics and reference papers
 
 ## 13-14. Student presentations
 
