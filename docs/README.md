@@ -173,12 +173,20 @@ To be announced
 
 ## 13-14. Student presentations
 
-You can vote for your presentation topics via [Google Form](https://forms.gle/pov9pfaitWAwVoFS9) by November the first.
+You can vote for your presentation topics via [Google Form](https://forms.gle/VvQx7xfAK5FgRyQZ6) by November 14th.
 
-In HS 2021, our class will present on four topics: machine learning, causal
-inference, drug discovery for SARS-Cov-2, and mathematical and computational
-modelling. Each team is expected to deliver a talk of 30 minutes, which is
-followed by 10 minutes of Q&A.
+In HS 2022, our class will present on the following four topics:
+
+Topics 2022:
+
+1. Phenotypic drug discovery: how phenotypic drug discovery complements target-based drug discovery.
+2. Productivity in drug discovery: return of investment, cost, and research productivity in drug discovery.
+3. Mathematical modeling in drug discovery: mathematical modeling techniques used in preclinical and clinical studies.
+4. Reverse translation: how we can leverage data from clinical trials and observational studies to empower preclinical studies.
+
+Teams are also welcome to bring up their own ideas. If there are enough participants, we may adopt these initiatives.
+
+Each team is expected to deliver a talk of 35 minutes, which is followed by 10 minutes of Q&A.
 
 ## End-term project
 
@@ -193,25 +201,33 @@ figures that help readers understand the concept are welcome but not obligatory.
 In case of a team work, the contribution of the two people should be specified.
 
 Essays in literature-programming styles, combining texts and source code with
-Jupyter notebook or Rmarkdown, are welcome. For such essays the source code does
+Jupyter notebook or Rmarkdown, are encouraged. For such essays the source code does
 not count to the total words.
 
-List of candidate topics of year 2021 as a reference:p
+List of candidate topics of year 2022:
 
-1. [Simple/Statistics] Statistical power and sample-size calculation
-2. [Simple/Machine learning] Principal component analysis (PCA)
-3. [Simple/Algorithm] The Viterbi algorithm
-4. [Simple/Mathematical modelling] The Lotka-Volterra predator-prey model
-5. [Moderate/Statistics] Exploratory factor analysis
-6. [Moderate/Machine learning] Classification and regression trees
-7. [Moderate/Causal inference] Directed acyclic graphs (DAGs) for causal inference
-8. [Challenging/Causal inference] Mendelian randomization
-9. [Challenging/Algorithm] Community detection with Leiden clustering
-10. [Challenging/Statistics] Simpson's paradox and mixed models
+* Simple to intermediate
+    * Principal component analysis (PCA)
+    * The Lotka-Volterra predator-prey model
+    * Response surface method designs
+* Intermediate to demanding
+    * Exploratory factor analysis
+    * Regression trees and random forests
+    * Mann-Whitney-Wilcoxon tests
+    * Regularization (e.g. Ridge, LASSO, and elastic net)
+* Advanced
+    * Instrumental variable and Mendelian randomization
+    * Graph neural network
+    * Shapley values
 
-The choice of topic and the team composition is to be submitted via [this Google Form of voting for the project topic](https://forms.gle/VUTeFqsbu3yoF2DDA) by *Friday, December the 3rd*. Two people working together need to vote just once. The deadline for submitting the essay by email is *January 14th, 2022*. No extension is possible.
+The choice of topic and the team composition is to be submitted via [this Google
+Form of voting for the project topic](https://forms.gle/m8vmz2XTeDkNZQFZ6) by
+*Thursday, December the 1st*. Two people working together need to vote just
+once. The deadline for submitting the essay by email is *January 13th, 2022*. No
+extension is possible.
 
-Once the essays are submitted, they will be shared with the whole class for open review and joint learning.
+Submitted essays will be shared with the whole class for open review and joint
+learning.
 
 ## Assessment
 
