@@ -173,11 +173,11 @@ To be announced
 
 ## 13-14. Student presentations
 
+Each team is expected to deliver a talk of 30 minutes, which is followed by 10 minutes of Q&A.
+
 You can vote for your presentation topics via [Google Form](https://forms.gle/VvQx7xfAK5FgRyQZ6) by November 14th.
 
 In HS 2022, our class will present on the following four topics:
-
-Topics 2022:
 
 1. Phenotypic drug discovery: how phenotypic drug discovery complements target-based drug discovery.
 2. Productivity in drug discovery: return of investment, cost, and research productivity in drug discovery.
@@ -186,7 +186,6 @@ Topics 2022:
 
 Teams are also welcome to bring up their own ideas. If there are enough participants, we may adopt these initiatives.
 
-Each team is expected to deliver a talk of 35 minutes, which is followed by 10 minutes of Q&A.
 
 ## End-term project
 
