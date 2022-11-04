@@ -177,7 +177,7 @@ To be announced
 
 Each team is expected to deliver a talk of 30 minutes, which is followed by 10 minutes of Q&A.
 
-You can vote for your presentation topics via [Google Form](https://forms.gle/VvQx7xfAK5FgRyQZ6) by November 14th.
+You can vote for your presentation topics via [the Google Form of voting for presentation topics](https://forms.gle/VvQx7xfAK5FgRyQZ6) by November 14th.
 
 In HS 2022, our class will present on the following four topics:
 
