@@ -25,10 +25,10 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=269095).
   * [5. Proteins and ligands](#5-proteins-and-ligands) (21.10.2022)
   * [6. Structure- and ligand-based drug design](#6-structure--and-ligand-based-drug-design) (28.10.2022)
   * [7. From individial interactions to networks](#7-from-individual-interactions-to-networks) (04.11.2022)
-  * [8. Omics and cellular modelling](#8-omics-and-cellular-modelling) (11.11.2022)
-  * [9. PKPD modelling](#9-pkpd-modelling) (18.11.2022, exceptionally at Kollegienhaus, Hörsaal 120)
-  * [10.*Dies academicus - optional Ask Me Anything session*](#10-dies-academicus---optional-ask-me-anything-session) (25.11.2022)
-  * [11. Population modelling](#11-population-modelling) (02.12.2021)
+  * [8. Biological networks](#8-biological-networks) (11.11.2022)
+  * [9. Omics and cellular modelling](#9-omics-and-cellular-modelling) (18.11.2022, exceptionally at Kollegienhaus, Hörsaal 120)
+  * [10.*Dies academicus](#10-dies-academicus) (25.11.2022)
+  * [11. PK/PD and population modelling](#11-pk-pd-and-population-modelling) (02.12.2021)
   * [12. Guest-speaker session](#11-guest-speaker-session) (09.12.2021)
 - [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
   * [12. Student presentation (I)](#12-student-presentation-i) (16.12.2021)
@@ -134,38 +134,32 @@ course to meet your needs.
      * Required reading for this and next week: [*Computational methods in drug discovery*]({{site.assetbaseurl}}{% link assets/2022/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf %}) by Gregory Sliwoski *et al.*. Please submit your replies to questions [via this Google Form](https://forms.gle/pfKX76K5XYuzxNSu8). The deadline of submitting the replies is *November 11th*.
 * Optional reading:  [Causal inference in drug discovery and development](https://arxiv.org/abs/2209.14664), pre-print manuscript on *arxiv*.
 
-### 8. Omics and cellular modelling
+### 8. Biological networks
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2021/08/AMIDD-2021-08-omics.pdf %})
-* Offline activities
-    * Required readings (1): [Biological Image Analysis Primer]({{site.assetbaseurl}}{% link assets/2021/08/Meijering-vanCappellen-2006-BioImage.pdf %}) by Erik Meijering and Gert van Cappellen (2006).
-    * Required readings (2): Rudin, Markus, and Ralph Weissleder. 2003. “[Molecular Imaging in Drug Discovery and Development](https://doi.org/10.1038/nrd1007).” Nature Reviews Drug Discovery 2 (2): 123–31. ([PDF version]({{site.assetbaseurl}}{% link assets/2021/08/Rudin-Weissleder-2003-Molecular-imaging.pdf %}))
-    * Submit your offline activities with regard to the required reading [here via the Google Form](https://forms.gle/BP8r46B2iWaeMaXL7). Deadline: Friday, November 26th, 2021.
-    * Optional reading: [Spatial omics and multiplexed imaging to explore cancer biology](https://www.nature.com/articles/s41592-021-01203-6), a review by Lewis *et al.*
+* [Slides]({{site.assetbaseurl}}{% link assets/2022/08/AMIDD-2022-08-bioloigical-networks.pdf %})
+* Offline activities: three optional readings *for fun*:
+	1. Bennett, Craig M., Michael B. Miller, and George L. Wolford. “Neural Correlates of Interspecies Perspective Taking in the Post-Mortem Atlantic Salmon: An Argument for Multiple Comparisons Correction.” Neuroimage 47, no. Suppl 1 (2009): S125.
+	2. Lazebnik, Yuri. “Can a Biologist Fix a Radio?—Or, What I Learned While Studying Apoptosis.” Cancer Cell 2, no. 3 (September 1, 2002): 179–82. https://doi.org/10.1016/S1535-6108(02)00133-2
+	3. Jonas, Eric, and Konrad Paul Kording. “Could a Neuroscientist Understand a Microprocessor?” PLOS Computational Biology 13, no. 1 (January 12, 2017): e1005268. https://doi.org/10.1371/journal.pcbi.1005268.
 
-### 9. PKPD modelling
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2021/09/AMIDD-2021-09-PK-PD-modelling.pdf %})
+### 9. Omics and cellular modelling
+
 * Offline activities:
     * Required reading: backup slides on non-linear mixed-effect (NLME) models and clinical trials.
+
+
+### 10. *Dies academicus*
+
+No lectures. We invite registered students to visit Roche. Details are announced via email.
+
+### 11. PK/PD and population modelling
+
+* Slides
+* Offline activities
     * Optional reading:
         * Davies, Michael, et al.. 2020. “[Improving the Accuracy of Predicted Human Pharmacokinetics: Lessons Learned from the AstraZeneca Drug Pipeline Over Two Decades](https://doi.org/10.1016/j.tips.2020.03.004).” Trends in Pharmacological Sciences 41 (6): 390–408. *A good introduction to prediction of PK profiles in industry*.
         * Jones, H. M., and K. Rowland‐Yeo. 2013. “[Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development](https://doi.org/10.1038/psp.2013.41).” CPT: Pharmacometrics & Systems Pharmacology 2 (8): 63. *A good introduction to PBPK modelling*.
-
-
-### 10. *Dies academicus - optional Ask Me Anything session*
-
-You can ask me anything in this session.
-
-Besides scientific topics in drug discovery, my experience is that many students
-are interested in career topics: should I do a PhD or not? Should I consider
-working in industry? You may this article below interesting if you consider
-doing a PhD and perhaps doing a postdoc in pharma: Zhang, Jitao David. “[Ten
-Simple Rules for Doing a Postdoc in
-Pharma.](https://doi.org/10.1371/journal.pcbi.1008989)” PLOS Computational
-Biology 17, no. 6 (June 3, 2021): e1008989.
-
-### 11. Population modelling
 
 ### 12. Guest-speaker session
 
