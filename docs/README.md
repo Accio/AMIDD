@@ -136,7 +136,7 @@ course to meet your needs.
 
 ### 8. Biological networks
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2022/08/AMIDD-2022-08-bioloigical-networks.pdf %})
+* [Slides]({{site.assetbaseurl}}{% link assets/2022/08/AMIDD-2022-08-biological-networks.pdf %})
 * Offline activities: three optional readings *for fun*:
 	1. Bennett, Craig M., Michael B. Miller, and George L. Wolford. “Neural Correlates of Interspecies Perspective Taking in the Post-Mortem Atlantic Salmon: An Argument for Multiple Comparisons Correction.” Neuroimage 47, no. Suppl 1 (2009): S125.
 	2. Lazebnik, Yuri. “Can a Biologist Fix a Radio?—Or, What I Learned While Studying Apoptosis.” Cancer Cell 2, no. 3 (September 1, 2002): 179–82. https://doi.org/10.1016/S1535-6108(02)00133-2
