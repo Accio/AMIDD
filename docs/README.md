@@ -27,7 +27,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=269095).
   * [7. From individial interactions to networks](#7-from-individual-interactions-to-networks) (04.11.2022)
   * [8. Biological networks](#8-biological-networks) (11.11.2022)
   * [9. Omics and cellular modelling](#9-omics-and-cellular-modelling) (18.11.2022, exceptionally at Kollegienhaus, Hörsaal 120)
-  * [10.*Dies academicus*](#10-dies-academicus) (25.11.2022)
+  * [10.*Dies academicus*](#10-dies-academicus) (25.11.2022, no lecture)
   * [11. PK/PD and population modelling](#11-pkpd-and-population-modelling) (02.12.2021)
   * [12. Guest-speaker session](#11-guest-speaker-session) (09.12.2021)
 - [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
@@ -122,7 +122,6 @@ course to meet your needs.
 
 ### 7. From individual interactions to networks
 
-
 * [Slides]({{site.assetbaseurl}}{% link
   assets/2022/07/AMIDD-2022-07-from-individual-interactions-to-networks.pdf %}).
   This week we discussed QSAR, machine learning models, and causal inference.
@@ -145,8 +144,11 @@ course to meet your needs.
 
 ### 9. Omics and cellular modelling
 
-* Offline activities:
-    * Required reading: backup slides on non-linear mixed-effect (NLME) models and clinical trials.
+* [Slides]({{site.assetbaseurl}}{% link assets/2022/09/AMIDD-2022-09-omics-and-cellular-modelling.pdf %})
+* Offline activities are about image analysis. Biological image analysis is another important way to characterize MoA of compounds besides omics methods.
+    * Required readings (1): [Biological Image Analysis Primer]({{site.assetbaseurl}}{% link assets/2021/08/Meijering-vanCappellen-2006-BioImage.pdf %}) by Erik Meijering and Gert van Cappellen (2006).
+    * Required readings (2): Rudin, Markus, and Ralph Weissleder. 2003. “[Molecular Imaging in Drug Discovery and Development](https://doi.org/10.1038/nrd1007).” Nature Reviews Drug Discovery 2 (2): 123–31. ([PDF version]({{site.assetbaseurl}}{% link assets/2021/08/Rudin-Weissleder-2003-Molecular-imaging.pdf %}))
+    * Submit your offline activities with regard to the required reading [here via the Google Form](https://forms.gle/2oy6NX2acdSpQasZA). Deadline: Friday, December 2nd, 2022.
 
 
 ### 10. *Dies academicus*
