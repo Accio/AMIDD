@@ -28,7 +28,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=269095).
   * [8. Biological networks](#8-biological-networks) (11.11.2022)
   * [9. Omics and cellular modelling](#9-omics-and-cellular-modelling) (18.11.2022, exceptionally at Kollegienhaus, Hörsaal 120)
   * [10.*Dies academicus*](#10-dies-academicus) (25.11.2022, no lecture)
-  * [11. PK/PD and population modelling](#11-pkpd-and-population-modelling) (02.12.2021)
+  * [11. PK/PD modelling](#11-pkpd-modelling) (02.12.2021)
   * [12. Guest-speaker session](#11-guest-speaker-session) (09.12.2021)
 - [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
   * [12. Student presentation (I)](#12-student-presentation-i) (16.12.2021)
@@ -146,8 +146,8 @@ course to meet your needs.
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2022/09/AMIDD-2022-09-omics-and-cellular-modelling.pdf %})
 * Offline activities are about image analysis. Biological image analysis is another important way to characterize MoA of compounds besides omics methods.
-    * Required readings (1): [Biological Image Analysis Primer]({{site.assetbaseurl}}{% link assets/2021/08/Meijering-vanCappellen-2006-BioImage.pdf %}) by Erik Meijering and Gert van Cappellen (2006).
-    * Required readings (2): Rudin, Markus, and Ralph Weissleder. 2003. “[Molecular Imaging in Drug Discovery and Development](https://doi.org/10.1038/nrd1007).” Nature Reviews Drug Discovery 2 (2): 123–31. ([PDF version]({{site.assetbaseurl}}{% link assets/2021/08/Rudin-Weissleder-2003-Molecular-imaging.pdf %}))
+    * Required readings (1): [Biological Image Analysis Primer]({{site.assetbaseurl}}{% link assets/2022/09/Meijering-vanCappellen-2006-BioImage.pdf %}) by Erik Meijering and Gert van Cappellen (2006).
+    * Required readings (2): Rudin, Markus, and Ralph Weissleder. 2003. “[Molecular Imaging in Drug Discovery and Development](https://doi.org/10.1038/nrd1007).” Nature Reviews Drug Discovery 2 (2): 123–31. ([PDF version]({{site.assetbaseurl}}{% link assets/2022/09/Rudin-Weissleder-2003-Molecular-imaging.pdf %}))
     * Submit your offline activities with regard to the required reading [here via the Google Form](https://forms.gle/2oy6NX2acdSpQasZA). Deadline: Friday, December 2nd, 2022.
 
 
@@ -155,10 +155,11 @@ course to meet your needs.
 
 No lectures. We invite registered students to visit Roche. Details are announced via email.
 
-### 11. PK/PD and population modelling
+### 11. PK/PD modelling
 
-* Slides
+* [Slides]({{site.assetbaseurl}}{% link assets/2022/10/AMIDD-2022-10-PK-PD-modelling.pdf %})
 * Offline activities
+    * Required reading: the backup slides of lecture 10 to learn about the principles of population modelling, especially non-linear mixed-effect models (NLMEs), and about clinical trials.
     * Optional reading:
         * Davies, Michael, et al.. 2020. “[Improving the Accuracy of Predicted Human Pharmacokinetics: Lessons Learned from the AstraZeneca Drug Pipeline Over Two Decades](https://doi.org/10.1016/j.tips.2020.03.004).” Trends in Pharmacological Sciences 41 (6): 390–408. *A good introduction to prediction of PK profiles in industry*.
         * Jones, H. M., and K. Rowland‐Yeo. 2013. “[Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development](https://doi.org/10.1038/psp.2013.41).” CPT: Pharmacometrics & Systems Pharmacology 2 (8): 63. *A good introduction to PBPK modelling*.
