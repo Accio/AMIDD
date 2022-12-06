@@ -31,8 +31,8 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=269095).
   * [11. PK/PD modelling](#11-pkpd-modelling) (02.12.2022)
   * [12. Guest-speaker session](#11-guest-speaker-session) (09.12.2022)
 - [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
-  * [12. Student presentation (I)](#12-student-presentation-i) (16.12.2022)
-  * [13. Student presentation (II)](#13-student-presentation-ii) (23.12.2022)
+  * [13. Student presentation (I)](#13-student-presentation-i) (16.12.2022)
+  * [14. Student presentation (II)](#14-student-presentation-ii) (23.12.2022)
 - [End-term project](#end-term-project)
 - [Assessment](#assessment)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
@@ -170,8 +170,6 @@ To be announced
 
 # Student presentation topics and reference papers
 
-## 13-14. Student presentations
-
 Each team is expected to deliver a talk of 30 minutes, which is followed by 10 minutes of Q&A.
 
 You can vote for your presentation topics via [the Google Form of voting for presentation topics](https://forms.gle/VvQx7xfAK5FgRyQZ6) by November 14th.
@@ -183,7 +181,7 @@ In HS 2022, our class will present on the following four topics:
 3. **Mathematical modeling in drug discovery**: mathematical modeling techniques used in preclinical and clinical studies.
 4. **Reverse translation**: how we can leverage data from clinical trials and observational studies to empower preclinical studies.
 
-### References
+## 13. Student presentation (I)
 
 ### Team 1: Phenotypic drug discovery (December 16th)
 
@@ -197,6 +195,8 @@ In HS 2022, our class will present on the following four topics:
 2. Ringel, Michael S., Jack W. Scannell, Mathias Baedeker, and Ulrik Schulze. “Breaking Eroom’s Law.” Nature Reviews Drug Discovery 19, no. 12 (April 16, 2020): 833–34. [https://doi.org/10.1038/d41573-020-00059-3](https://doi.org/10.1038/d41573-020-00059-3).
 3. Fernando, Kathy, Sandeep Menon, Kathrin Jansen, Prakash Naik, Gianluca Nucci, John Roberts, Shuang Sarah Wu, and Mikael Dolsten. “Achieving End-to-End Success in the Clinic: Pfizer’s Learnings on R&D Productivity.” Drug Discovery Today, December 2021, S1359644621005444. [https://doi.org/10.1016/j.drudis.2021.12.010](https://doi.org/10.1016/j.drudis.2021.12.010).
 4. Scannell, Jack W., James Bosley, John A. Hickman, Gerard R. Dawson, Hubert Truebel, Guilherme S. Ferreira, Duncan Richards, and J. Mark Treherne. “Predictive Validity in Drug Discovery: What It Is, Why It Matters and How to Improve It.” Nature Reviews Drug Discovery, October 4, 2022, 1–17. [https://doi.org/10.1038/s41573-022-00552-x](https://doi.org/10.1038/s41573-022-00552-x).
+
+## 14. Student presentation (II)
 
 ### Team 3: Mathematical modelling in drug discovery (December 23rd)
 
