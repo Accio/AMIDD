@@ -28,11 +28,11 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=269095).
   * [8. Biological networks](#8-biological-networks) (11.11.2022)
   * [9. Omics and cellular modelling](#9-omics-and-cellular-modelling) (18.11.2022, exceptionally at Kollegienhaus, Hörsaal 120)
   * [10.*Dies academicus*](#10-dies-academicus) (25.11.2022, no lecture)
-  * [11. PK/PD modelling](#11-pkpd-modelling) (02.12.2021)
-  * [12. Guest-speaker session](#11-guest-speaker-session) (09.12.2021)
+  * [11. PK/PD modelling](#11-pkpd-modelling) (02.12.2022)
+  * [12. Guest-speaker session](#11-guest-speaker-session) (09.12.2022)
 - [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
-  * [12. Student presentation (I)](#12-student-presentation-i) (16.12.2021)
-  * [13. Student presentation (II)](#13-student-presentation-ii) (23.12.2021)
+  * [12. Student presentation (I)](#12-student-presentation-i) (16.12.2022)
+  * [13. Student presentation (II)](#13-student-presentation-ii) (23.12.2022)
 - [End-term project](#end-term-project)
 - [Assessment](#assessment)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
@@ -183,7 +183,32 @@ In HS 2022, our class will present on the following four topics:
 3. **Mathematical modeling in drug discovery**: mathematical modeling techniques used in preclinical and clinical studies.
 4. **Reverse translation**: how we can leverage data from clinical trials and observational studies to empower preclinical studies.
 
-Teams are also welcome to bring up their own ideas. If there are enough participants, we may adopt these initiatives.
+### References
+
+### Team 1: Phenotypic drug discovery (December 16th)
+
+1. Vincent, Fabien, Arsenio Nueda, Jonathan Lee, Monica Schenone, Marco Prunotto, and Mark Mercola. “Phenotypic Drug Discovery: Recent Successes, Lessons Learned and New Directions.” Nature Reviews Drug Discovery, May 30, 2022, 1–16. [https://doi.org/10.1038/s41573-022-00472-w](https://doi.org/10.1038/s41573-022-00472-w).
+2. Moffat, John G., Fabien Vincent, Jonathan A. Lee, Jörg Eder, and Marco Prunotto. 2017. “Opportunities and Challenges in Phenotypic Drug Discovery: An Industry Perspective.” Nature Reviews Drug Discovery 16 (8): 531–43.  https://doi.org/10.1038/nrd.2017.111. ([PDF]({{site.assetbaseurl}}{% link assets/2020/13-14/Moffat-Phenotypic.pdf %}))
+3. Vincent, Fabien, Paula M. Loria, Andrea D. Weston, Claire M. Steppan, Regis Doyonnas, Yue-Ming Wang, Kristin L. Rockwell, and Marie-Claire Peakman. “Hit Triage and Validation in Phenotypic Screening: Considerations and Strategies.” Cell Chemical Biology 27, no. 11 (November 19, 2020): 1332–46. [https://doi.org/10.1016/j.chembiol.2020.08.009](https://doi.org/10.1016/j.chembiol.2020.08.009).
+
+### Team 2: Productivity in drug discovery and development (December 16th)
+
+1. Smietana, Katarzyna, Leeland Ekstrom, Barbara Jeffery, and Martin Møller. “Improving R&D Productivity.” Nature Reviews Drug Discovery 14, no. 7 (July 2015): 455–56. [https://doi.org/10.1038/nrd4650](https://doi.org/10.1038/nrd4650).
+2. Ringel, Michael S., Jack W. Scannell, Mathias Baedeker, and Ulrik Schulze. “Breaking Eroom’s Law.” Nature Reviews Drug Discovery 19, no. 12 (April 16, 2020): 833–34. [https://doi.org/10.1038/d41573-020-00059-3](https://doi.org/10.1038/d41573-020-00059-3).
+3. Fernando, Kathy, Sandeep Menon, Kathrin Jansen, Prakash Naik, Gianluca Nucci, John Roberts, Shuang Sarah Wu, and Mikael Dolsten. “Achieving End-to-End Success in the Clinic: Pfizer’s Learnings on R&D Productivity.” Drug Discovery Today, December 2021, S1359644621005444. [https://doi.org/10.1016/j.drudis.2021.12.010](https://doi.org/10.1016/j.drudis.2021.12.010).
+4. Scannell, Jack W., James Bosley, John A. Hickman, Gerard R. Dawson, Hubert Truebel, Guilherme S. Ferreira, Duncan Richards, and J. Mark Treherne. “Predictive Validity in Drug Discovery: What It Is, Why It Matters and How to Improve It.” Nature Reviews Drug Discovery, October 4, 2022, 1–17. [https://doi.org/10.1038/s41573-022-00552-x](https://doi.org/10.1038/s41573-022-00552-x).
+
+### Team 3: Mathematical modelling in drug discovery (December 23rd)
+
+1. Handel, Andreas, Nicole L. La Gruta, and Paul G. Thomas. “Simulation Modelling for Immunologists.” Nature Reviews Immunology 20, no. 3 (March 2020): 186–95. [https://doi.org/10.1038/s41577-019-0235-3](https://doi.org/10.1038/s41577-019-0235-3).
+2. Gieschke, R., and J. L. Steimer. “Pharmacometrics: Modelling and Simulation Tools to Improve Decision Making in Clinical Drug Development.” European Journal of Drug Metabolism and Pharmacokinetics 25, no. 1 (March 2000): 49–58. [https://doi.org/10.1007/BF03190058](https://doi.org/10.1007/BF03190058).
+3. Elmokadem, Ahmed, Matthew M. Riggs, and Kyle T. Baron. “Quantitative Systems Pharmacology and Physiologically-Based Pharmacokinetic Modeling With Mrgsolve: A Hands-On Tutorial.” CPT: Pharmacometrics & Systems Pharmacology 8, no. 12 (2019): 883–93. [https://doi.org/10.1002/psp4.12467](https://doi.org/10.1002/psp4.12467).
+
+### Team 4: Reverse translation (December 23rd)
+
+1. Kasichayanula, Sreeneeranj, and Karthik Venkatakrishnan. “Reverse Translation: The Art of Cyclical Learning.” Clinical Pharmacology & Therapeutics 103, no. 2 (February 1, 2018): 152–59. [https://doi.org/10.1002/cpt.952](https://doi.org/10.1002/cpt.952).
+2. Maciejewski, Mateusz, Eugen Lounkine, Steven Whitebread, Pierre Farmer, William DuMouchel, Brian K Shoichet, and Laszlo Urban. “Reverse Translation of Adverse Event Reports Paves the Way for De-Risking Preclinical off-Targets.” Edited by Fiona M Watt. ELife 6 (August 8, 2017): e25818. [https://doi.org/10.7554/eLife.25818](https://doi.org/10.7554/eLife.25818).
+3. Michoel, Tom and Zhang, Jitao David. "Causal inference in drug discovery and development". [https://arxiv.org/abs/2209.14664](https://arxiv.org/abs/2209.14664).
 
 
 ## End-term project
