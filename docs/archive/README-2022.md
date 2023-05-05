@@ -1,9 +1,9 @@
 Welcome to the website for *Applied Mathematics and Informatics In Drug
 Discovery* (AMIDD), the course series running at the Department of Mathematics
-and Informatics, University of Basel in the fall semester 2023.
+and Informatics, University of Basel in the fall semester 2022.
 
 The course series introduces interdisciplinary research in drug discovery with
-mathematics as the language and computation as the tool. We have a diverse and
+mathematics as the language and informatics as the tool. We have a diverse and
 lively class room that learn together and from each other: every year about two
 third students of the class study mathematics or computer science, while other
 students study physics, chemistry, (computational) biology, pharmacy, and other
@@ -17,24 +17,24 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=269095).
 - [Time and place](#time-and-place)
 - [Course material and licensing](#course-material-and-licensing)
 - [Pre-course survey](#pre-course-survey)
-- [Assessment](#assessment)
 - [Syllabus](#syllabus)
-  * [1. Drug discovery: an overview](#1-drug-discovery-an-overview) (22.09.2023)
-  * [2. The central dogma and drug discovery](#2-the-central-dogma-and-drug-discovery) (29.09.2023)
-  * [3. Biological sequence analysis](#3-biological-sequence-analysis) (06.10.2023)
-  * [4. From sequences to structures](#4-from-sequences-to-structures) (13.10.2023)
-  * [5. Proteins and ligands](#5-proteins-and-ligands) (20.10.2023)
-  * [6. Structure- and ligand-based drug design](#6-structure--and-ligand-based-drug-design) (27.10.2023)
-  * [7. From individial interactions to networks](#7-from-individual-interactions-to-networks) (03.11.2023)
-  * [8. Biological networks](#8-biological-networks) (10.11.2023)
-  * [9. Omics and cellular modelling](#9-omics-and-cellular-modelling) (17.11.2023)
-  * [10.*Dies academicus*](#10-dies-academicus) (24.11.2023, no lecture)
-  * [11. PK/PD modelling](#11-pkpd-modelling) (01.12.2023)
-  * [12. Guest-speaker session](#11-guest-speaker-session) (08.12.2023)
+  * [1. Drug discovery: an overview](#1-drug-discovery-an-overview) (23.09.2022)
+  * [2. The central dogma and drug discovery](#2-the-central-dogma-and-drug-discovery) (30.09.2022)
+  * [3. Biological sequence analysis](#3-biological-sequence-analysis) (07.10.2022)
+  * [4. From sequences to structures](#4-from-sequences-to-structures) (14.10.2022)
+  * [5. Proteins and ligands](#5-proteins-and-ligands) (21.10.2022)
+  * [6. Structure- and ligand-based drug design](#6-structure--and-ligand-based-drug-design) (28.10.2022)
+  * [7. From individial interactions to networks](#7-from-individual-interactions-to-networks) (04.11.2022)
+  * [8. Biological networks](#8-biological-networks) (11.11.2022)
+  * [9. Omics and cellular modelling](#9-omics-and-cellular-modelling) (18.11.2022, exceptionally at Kollegienhaus, Hörsaal 120)
+  * [10.*Dies academicus*](#10-dies-academicus) (25.11.2022, no lecture)
+  * [11. PK/PD modelling](#11-pkpd-modelling) (02.12.2022)
+  * [12. Guest-speaker session](#11-guest-speaker-session) (09.12.2022)
 - [Student presentation topics and reference papers](#student-presentation-topics-and-reference-papers)
-  * [13. Student presentation (I)](#13-student-presentation-i) (15.12.2023)
-  * [14. Student presentation (II)](#14-student-presentation-ii) (22.12.2023)
+  * [13. Student presentation (I)](#13-student-presentation-i) (16.12.2022)
+  * [14. Student presentation (II)](#14-student-presentation-ii) (23.12.2022)
 - [End-term project](#end-term-project)
+- [Assessment](#assessment)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
 - [Archives of past courses](#archives-of-past-courses)
 
@@ -57,11 +57,6 @@ Commons (CC-BY-SA 4.0) license.
 Prior to attending the first session, please [fill out the voluntary pre-course
 survey](https://forms.gle/bkWpDSiwvRQHZeQs7). Your reply helps me to shape the
 course to meet your needs.
-
-## Assessment
-
-The final note is given by participation (20%), offline activities (50%), and
-near-end-term presentation in teams (30%).
 
 ## Syllabus
 
@@ -216,6 +211,54 @@ In HS 2022, our class will present on the following four topics:
 3. Michoel, Tom and Zhang, Jitao David. "Causal inference in drug discovery and development". [https://arxiv.org/abs/2209.14664](https://arxiv.org/abs/2209.14664).
 
 
+## End-term project
+
+The choice of topic and the team composition is to be submitted via [this Google
+Form of voting for the project topic](https://forms.gle/m8vmz2XTeDkNZQFZ6) by
+*Thursday, December the 1st*. Two people working together need to vote just
+once. The deadline for submitting the essay by email is *January 13th, 2022*. No
+extension is possible.
+
+All participants are expected to finish the end-term project in a team of two
+people, which is preferred, or individually. She or he or the team shall choose
+*one* concept from a list of candidate topics, upon which they will write a
+short essay introducing the concept to non-experts, with examples and ideally
+applications in drug discovery. The topics will be announced during the
+semester.
+
+List of candidate topics of year 2022:
+
+* Simple to intermediate
+    * Principal component analysis (PCA)
+    * The Lotka-Volterra predator-prey model
+    * Response surface method designs
+* Intermediate to demanding
+    * Exploratory factor analysis
+    * Regression trees and random forests
+    * Mann-Whitney-Wilcoxon tests
+    * Regularization (e.g. Ridge, LASSO, and elastic net)
+* Advanced
+    * Instrumental variable and Mendelian randomization
+    * Graph neural network
+    * Shapley values
+
+The essay should have an abstract (less than 200 words), a list of references,
+and a main text that does not exceed 3,000 words. Visual elements like table and
+figures that help readers understand the concept are welcome but not obligatory.
+In case of a team work, the contribution of the two people should be specified.
+
+Essays in literature-programming styles, combining texts and source code with
+Jupyter notebook or Rmarkdown, are encouraged. For such essays the source code does
+not count to the total words.
+
+Submitted essays will be shared with the whole class for open review and joint
+learning.
+
+## Assessment
+
+The final note is given by participation (40%), presentation (30%), and project
+work (30%).
+
 ## Further questions or suggestions?
 
 Please contact the lecturer, Jitao David Zhang, at [jitao-david.zhang@unibas.ch](mailto:jitao-david.zhang@unibas.ch).
@@ -223,7 +266,6 @@ Please contact the lecturer, Jitao David Zhang, at [jitao-david.zhang@unibas.ch]
 
 ## Archives of past courses
 
-* [AMIDD 2022]({{site.baseurl}}{% link archive/README-2022.md %})
 * [AMIDD 2021]({{site.baseurl}}{% link archive/README-2021.md %})
 * [AMIDD 2020]({{site.baseurl}}{% link archive/README-2020.md %})
 * [AMIDD 2019]({{site.baseurl}}{% link archive/README-2019.md %})
