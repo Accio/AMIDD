@@ -10,7 +10,7 @@ students study physics, chemistry, (computational) biology, pharmacy, and other
 fields such as epidemiology and medicine.
 
 More information on the course can be found at [the course directory of the University
-Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=269095).
+Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
 
 ## Table of content
 
@@ -68,7 +68,7 @@ a collaboration challenge in the final session (30%).
 ### 1. Drug discovery: an overview
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2022/01/AMIDD-2022-01-Intro.pdf %})
-* [Anonymous Post-lecture Survey of Lecture 1](https://forms.gle/XBZu3iHJyL1D618Y7)
+* Anonymous Post-lecture Survey of Lecture 1
 * Material for offline activities (see slides 31-33)
     * Watch [a video](https://www.ibiology.org/human-disease/herceptin/) on the
       discovery and development of the drug *Herceptin*, presented by Susan
