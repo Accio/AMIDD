@@ -55,13 +55,13 @@ Commons (CC-BY-SA 4.0) license.
 ## Pre-course survey
 
 Prior to attending the first session, please [fill out the voluntary pre-course
-survey](https://forms.gle/bkWpDSiwvRQHZeQs7). Your reply helps me to shape the
+survey](https://forms.gle/Xbk6ExbfNUxUgqm76). Your reply helps me to shape the
 course to meet your needs.
 
 ## Assessment
 
-The final note is given by participation (20%), offline activities (50%), and
-near-end-term presentation in teams (30%).
+The final note is given by participation including quizzes (30%), offline activities (40%), and
+a collaboration challenge in the final session (30%).
 
 ## Syllabus
 
