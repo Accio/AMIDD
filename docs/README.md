@@ -70,16 +70,12 @@ activities (40%), and a collaboration challenge in the final session (30%).
 The first module is finished with the first lecture.
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2023/01/AMIDD-2023-01-Intro.pdf %})
-* Anonymous post-lecture survey of Lecture 1
-* Offline activities:
-    * Check out [this poster](https://njardarson.lab.arizona.edu/sites/njardarson.lab.arizona.edu/files/NjardarsonGroup2022Top200PosterV5.pdf), which illustrates top 200 brand name drugs by retail sales in 2022. You can also find a snapshot in the slide deck. Focus on the top 14 compounds, and answer the questions by [filling out this form](https://forms.gle/Pvbj9oHGP7qzXcpd7).
-
+* Please fill [the anonymous post-lecture survey of Lecture 1](https://forms.gle/UDgSe3CVfzSCkCEa7).
+* Offline activities of Lecture 1: Check out [this poster](https://njardarson.lab.arizona.edu/sites/njardarson.lab.arizona.edu/files/NjardarsonGroup2022Top200PosterV5.pdf), which illustrates top 200 brand name drugs by retail sales in 2022. You can also find a snapshot in the slide deck. Focus on the top 14 compounds, and answer the questions by [filling out this form](https://forms.gle/Pvbj9oHGP7qzXcpd7).
 
 <p id="lec2_3"></p>
 
 ### Lecture 2 and 3: Mechanistic, statistical, and causal models
-
-Module II consists of lecture 2 and 3.
 
 ### Lecture 4 and 5: Molecular modelling
 
