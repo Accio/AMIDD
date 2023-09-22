@@ -63,66 +63,31 @@ activities (40%), and a collaboration challenge in the final session (30%).
 
 ## Syllabus
 
-### 1. Drug discovery: an overview
+### Lecture 1: Introduction to drug discovery
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2022/01/AMIDD-2022-01-Intro.pdf %})
+The first module is finished with the first lecture.
+
+* [Slides]({{site.assetbaseurl}}{% link assets/2023/AMIDD-2023-01-Intro.pdf %})
 * Anonymous Post-lecture Survey of Lecture 1
-* Material for offline activities (see slides 31-33)
-    * Watch [a video](https://www.ibiology.org/human-disease/herceptin/) on the
-      discovery and development of the drug *Herceptin*, presented by Susan
-      Desmond-Hellmann, and answer questions. See the questions and submit your
-      answers [here via a Google Form](https://forms.gle/1mAdkeebsB2QDx3m6).
-    * Required reading: [Principles of early drug discovery]({{site.assetbaseurl}}{% link assets/2022/01/Principles-DD-Hughes.pdf %}) by Hughes *et al.*
-
-### 2. The central dogma and drug discovery
-
-* [Slides]({{site.assetbaseurl}}{% link assets/2022/02/AMIDD-2022-02-TheCentralDogma.pdf %})
-* Material for offline activities (see slides 22-24)
-    * Required reading: [Clinical efficacy of a RAF inhibitor needs broad target blockade in BRAF-mutant melanoma]({{site.assetbaseurl}}{% link assets/2022/02/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010.
-    * Optional reading: [A comprehensive map of molecular drug targets]({{site.assetbaseurl}}{% link assets/2022/02/Santos-NRDD-2017.pdf %}) by Santos *et al.*, Nature Reviews Drug Discovery, 2017
-* Submit your answers for Offline Activities [here via Google Form](https://forms.gle/QhPwTK68BqzDMZ5ZA)
-
-### 3. Biological sequence analysis
-
-* [Slides]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-03-BiologicalSequenceAnalysis.pdf %})
-* [Anonymous Post-lecture Survey, #3](https://forms.gle/rj5hRuss8oE8kdSKA)
 * Material for offline activities
-  * Please go through the [slides #22 and #23]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-03-BiologicalSequenceAnalysis.pdf %}) to try out calculating the Levenshtein distance with dynamic programming.
-  * Required reading: [Discovery of a selective inhibitor of oncogenic B-Raf kinase with potent antimelanoma activity]({{site.assetbaseurl}}{% link assets/2021/03/Tsai-BRAF-PNAS-2008.pdf %}) by Tsai *et al.*, PNAS 2008.
-  * Optional reading: Richard Bell, the inventor of Dynamic Programming, on the origin of the name. See slide [#29]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-03-BiologicalSequenceAnalysis.pdf %}).
-  * [Handout for lecture 3 and 4]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-Lecture3-Handout.pdf %}), which contains genetic codes, information on amino acids, and offline exercises for both lecture 3 and 4. *Not all questions need to be answered now.* Please read the instructions in the Google Form below to finish this week's task.
-  * Submit your answers for offline activities [here via the Google Form *AMIDD-2022-OfflineActivity-Lecture3*](https://forms.gle/K5Z4PGsJofa66zHp6).
 
+### Lecture 2 and 3: Mechanistic, statistical, and causal models
 
-### 4. From sequences to structures
+Module II consists of lecture 2 and 3.
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2022/04/AMIDD-2022-04-From-Sequences-to-Structures.pdf %})
-* Material for offline activities
-  * Required reading: [What does AlphaFold mean for drug discovery](https://www.nature.com/articles/d41573-021-00161-0), Asher Mullard, Nature Reviews Drug Discovery. See [the PDF version here]({{site.assetbaseurl}}{% link assets/2022/04/NRDD-2021-AlphaFold-DD.pdf %}).
-  * Optional readings:
-      * [AlphaFold2 is here: what’s behind the structure prediction miracle](https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/), by Oxford Protein Informatics Group (OPIG). Recommended if you are interested in protein structure prediction and how AlphaFold2 achieved good performance.
-  * A question about Markov chains: Given the Markov chain model represented on slide #15 [in the slides]({{site.assetbaseurl}}{% link assets/2022/04/AMIDD-2022-04-From-Sequences-to-Structures.pdf %}), what is the ratio between $p(ACGTGGT\|M)$ and $p(ACCTGGT\|M)$?
-  * [Handout for lecture 3 and 4]({{site.assetbaseurl}}{% link assets/2022/03/AMIDD-2022-Lecture3-Handout.pdf %}), please finish the tasks titled *A subset of BLOSUM 50 values per aligned residue pair* and *What does Fomivirsen target?*.
-  * Submit your answers for offline activities [here via the Google Form *AMIDD-2022-OA-Lecture4*](https://forms.gle/BbBVLNyzvQvsKqNd6).
+### Lecture 4 and 5: Molecular modelling
 
-### 5. Proteins and ligands
+### Lecture 6 and 7: Omics- and cellular modelling
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2022/05/AMIDD-2022-05-protein-ligand-interaction.pdf %})
-* Material for offline activities:
-   * Watch the [YouTube video](https://www.youtube.com/watch?v=Q1ftYq13XKk) about the *Ramachandran Principal* by Prof. [Eric Martz](https://www.umass.edu/molvis/martz/), or read [the notes (including slides) on Proteopedia](https://proteopedia.org/wiki/index.php/Tutorial:Ramachandran_principle_and_phi_psi_angles), and finish a [Practice Quiz](https://proteopedia.org/w/User:Eric_Martz/Ramachandran_Principle_Quiz). 
-   * Required reading: [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2022/05/BiologicalActivity-Dougall-Unitt.pdf%}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. **To answer offline-activity questions**, it is required to read pages 15-22 (1-8 of the 29 pages in total, before section &lsquo;*4. Types of Enzyme Inhibition and Their Analysis*&rsquo;), page 27 (section 6A), and pages 34-37 (*Assay Biostatistics*). The rest is optional reading.
-   * Submit your results here [via Google Form](https://forms.gle/LXpMecFWjQ36oETA9)
-   * Optional reading: [Mathematics techniques in structural biology]({{site.assetbaseurl}}{% link assets/2022/04/JRQuine-MathBiophysicsBook.pdf %}) by John R. Quine.  Recommended booklet for students interested in applications of mathematics in determining structures of DNA and proteins without or with drugs.
+### Lecture 8 and 9: Organ- and system modelling
 
-### 6. Structure- and ligand-based drug design
+Note that on Friday, 24.11.2023, there is NO lecture due to Dies Academicus.
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2022/06/AMIDD-2022-06-Structure-and-ligand-based-drug-discovery.pdf %})
-* [Anonymous post-lecture survey for lecture 6](https://forms.gle/QcVXr4UP7NT7qy978)
-* Material for offline activities:
-    * Required reading: [*An introduction to machine learning*]({{site.assetbaseurl}}{% link assets/2022/06/Badillo-ML-2020.pdf %}) by Badillo *et al.*.
-    * Required reading for this and next week: [*Computational methods in drug discovery*]({{site.assetbaseurl}}{% link assets/2022/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf %}) by Gregory Sliwoski *et al.*. Please submit your replies to questions [via this Google Form](https://forms.gle/pfKX76K5XYuzxNSu8). The deadline of submitting the replies is *November 11th*.
+### Lecture 10 and 11: Population modelling
 
+### Lecture 12: Invited talks
 
+<<<<<<< HEAD
 ### 7. From individual interactions to networks
 
 * [Slides]({{site.assetbaseurl}}{% link
@@ -178,7 +143,11 @@ Details to be announced
 ### 13. Collaboration challenge
 
 Details to be announced
+=======
+### Lecture 13: A Collaboration Challenge
+>>>>>>> 5787afe (update 2023)
 
+Details will be announced.
 
 ## Further questions or suggestions?
 
