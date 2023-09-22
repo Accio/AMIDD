@@ -19,20 +19,20 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
 - [Pre-course survey](#pre-course-survey)
 - [Assessment](#assessment)
 - [Syllabus](#syllabus)
-  * [1. Drug discovery: an overview](#1-drug-discovery-an-overview) (22.09.2023)
-  * [2. The central dogma and drug discovery](#2-the-central-dogma-and-drug-discovery) (29.09.2023)
-  * [3. Biological sequence analysis](#3-biological-sequence-analysis) (06.10.2023)
-  * [4. From sequences to structures](#4-from-sequences-to-structures) (13.10.2023)
-  * [5. Proteins and ligands](#5-proteins-and-ligands) (20.10.2023)
-  * [6. Structure- and ligand-based drug design](#6-structure--and-ligand-based-drug-design) (27.10.2023)
-  * [7. From individial interactions to networks](#7-from-individual-interactions-to-networks) (03.11.2023)
-  * [8. Biological networks](#8-biological-networks) (10.11.2023)
-  * [9. Omics and cellular modelling](#9-omics-and-cellular-modelling) (17.11.2023)
-  * [10.*Dies academicus*](#10-dies-academicus) (24.11.2023, no lecture)
-  * [11. PK/PD modelling](#11-pkpd-modelling) (01.12.2023)
-  * [12. Population modelling](#12-population-modelling) (15.12.2023)
-  * [13. Guest-speaker session](#13-guest-speaker-session) (08.12.2023)
-  * [14. Collaboration challenge](#14-collaboration-challenge) (22.12.2023)
+  * [Lecture 1: introduction](#lec1) (22.09.2023)
+  * [Lecture 2: mechanistic, statistical, and causal modleling (I)](#lec2_3) (29.09.2023)
+  * [Lecture 3: mechanistic, statistical, and causal modleling (II)](#lec2_3) (06.10.2023)
+  * [Lecture 4](#4-from-sequences-to-structures) (13.10.2023)
+  * [Lecture 5](#5-proteins-and-ligands) (20.10.2023)
+  * [Lecture 6](#6-structure--and-ligand-based-drug-design) (27.10.2023)
+  * [Lecture 7](#7-from-individual-interactions-to-networks) (03.11.2023)
+  * [Lecture 8](#8-biological-networks) (10.11.2023)
+  * [Lecture 9](#9-omics-and-cellular-modelling) (17.11.2023)
+  * [*Dies academicus*](#10-dies-academicus) (24.11.2023, no lecture)
+  * [Lecture 10](#11-pkpd-modelling) (01.12.2023)
+  * [Lectuer 11](#11-guest-speaker-session) (08.12.2023)
+  * [Lecture 12: guest lectures](#13-student-presentation-i) (15.12.2023)
+  * [Lecture 13: a collaboration challenge](#14-student-presentation-ii) (22.12.2023)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
 - [Archives of past courses](#archives-of-past-courses)
 
@@ -63,13 +63,19 @@ activities (40%), and a collaboration challenge in the final session (30%).
 
 ## Syllabus
 
-### Lecture 1: Introduction to drug discovery
+<p id="lec1"></p>
+
+### Lecture 1: Introduction
 
 The first module is finished with the first lecture.
 
-* [Slides]({{site.assetbaseurl}}{% link assets/2023/AMIDD-2023-01-Intro.pdf %})
-* Anonymous Post-lecture Survey of Lecture 1
-* Material for offline activities
+* [Slides]({{site.assetbaseurl}}{% link assets/2023/01/AMIDD-2023-01-Intro.pdf %})
+* Anonymous post-lecture survey of Lecture 1
+* Offline activities:
+    * Check out [this poster](https://njardarson.lab.arizona.edu/sites/njardarson.lab.arizona.edu/files/NjardarsonGroup2022Top200PosterV5.pdf), which illustrates top 200 brand name drugs by retail sales in 2022. You can also find a snapshot in the slide deck. Focus on the top 14 compounds, and answer the questions by [filling out this form](https://forms.gle/Pvbj9oHGP7qzXcpd7).
+
+
+<p id="lec2_3"></p>
 
 ### Lecture 2 and 3: Mechanistic, statistical, and causal models
 
@@ -87,65 +93,7 @@ Note that on Friday, 24.11.2023, there is NO lecture due to Dies Academicus.
 
 ### Lecture 12: Invited talks
 
-<<<<<<< HEAD
-### 7. From individual interactions to networks
-
-* [Slides]({{site.assetbaseurl}}{% link
-  assets/2022/07/AMIDD-2022-07-from-individual-interactions-to-networks.pdf %}).
-  This week we discussed QSAR, machine learning models, and causal inference.
-  And we introduced compartment models to model ligand-receptor interaction and
-  enzyme kinetics. Next week we will continue with the compartment model and
-  biological network analysis.
-* This week's offline activity is to finish the readings of the last week.
-     * Required reading: [*An introduction to machine learning*]({{site.assetbaseurl}}{% link assets/2022/06/Badillo-ML-2020.pdf %}) by Badillo *et al.*.
-     * Required reading for this and next week: [*Computational methods in drug discovery*]({{site.assetbaseurl}}{% link assets/2022/06/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf %}) by Gregory Sliwoski *et al.*. Please submit your replies to questions [via this Google Form](https://forms.gle/pfKX76K5XYuzxNSu8). The deadline of submitting the replies is *November 11th*.
-* Optional reading:  [Causal inference in drug discovery and development](https://arxiv.org/abs/2209.14664), pre-print manuscript on *arxiv*.
-
-### 8. Biological networks
-
-* [Slides]({{site.assetbaseurl}}{% link assets/2022/08/AMIDD-2022-08-biological-networks.pdf %})
-* Offline activities: three optional readings *for fun*:
-	1. Bennett, Craig M., Michael B. Miller, and George L. Wolford. “Neural Correlates of Interspecies Perspective Taking in the Post-Mortem Atlantic Salmon: An Argument for Multiple Comparisons Correction.” Neuroimage 47, no. Suppl 1 (2009): S125.
-	2. Lazebnik, Yuri. “Can a Biologist Fix a Radio?—Or, What I Learned While Studying Apoptosis.” Cancer Cell 2, no. 3 (September 1, 2002): 179–82. https://doi.org/10.1016/S1535-6108(02)00133-2
-	3. Jonas, Eric, and Konrad Paul Kording. “Could a Neuroscientist Understand a Microprocessor?” PLOS Computational Biology 13, no. 1 (January 12, 2017): e1005268. https://doi.org/10.1371/journal.pcbi.1005268.
-
-
-### 9. Omics and cellular modelling
-
-* [Slides]({{site.assetbaseurl}}{% link assets/2022/09/AMIDD-2022-09-omics-and-cellular-modelling.pdf %})
-* Offline activities are about image analysis. Biological image analysis is another important way to characterize MoA of compounds besides omics methods.
-    * Required readings (1): [Biological Image Analysis Primer]({{site.assetbaseurl}}{% link assets/2022/09/Meijering-vanCappellen-2006-BioImage.pdf %}) by Erik Meijering and Gert van Cappellen (2006).
-    * Required readings (2): Rudin, Markus, and Ralph Weissleder. 2003. “[Molecular Imaging in Drug Discovery and Development](https://doi.org/10.1038/nrd1007).” Nature Reviews Drug Discovery 2 (2): 123–31. ([PDF version]({{site.assetbaseurl}}{% link assets/2022/09/Rudin-Weissleder-2003-Molecular-imaging.pdf %}))
-    * Submit your offline activities with regard to the required reading [here via the Google Form](https://forms.gle/2oy6NX2acdSpQasZA). Deadline: Friday, December 2nd, 2022.
-
-
-### 10. *Dies academicus*
-
-No lectures. We invite registered students to visit Roche. Details are announced via email.
-
-### 11. PK/PD modelling
-
-* [Slides]({{site.assetbaseurl}}{% link assets/2022/10/AMIDD-2022-10-PK-PD-modelling.pdf %})
-* Offline activities
-    * Required reading: the backup slides of lecture 10 to learn about the principles of population modelling, especially non-linear mixed-effect models (NLMEs), and about clinical trials.
-    * Optional reading:
-        * Davies, Michael, et al.. 2020. “[Improving the Accuracy of Predicted Human Pharmacokinetics: Lessons Learned from the AstraZeneca Drug Pipeline Over Two Decades](https://doi.org/10.1016/j.tips.2020.03.004).” Trends in Pharmacological Sciences 41 (6): 390–408. *A good introduction to prediction of PK profiles in industry*.
-        * Jones, H. M., and K. Rowland‐Yeo. 2013. “[Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development](https://doi.org/10.1038/psp.2013.41).” CPT: Pharmacometrics & Systems Pharmacology 2 (8): 63. *A good introduction to PBPK modelling*.
-
-### 12. Population modelling
-
-Details to be announced
-
-### 12. Guest-speaker session
-
-Details to be announced
-
-### 13. Collaboration challenge
-
-Details to be announced
-=======
 ### Lecture 13: A Collaboration Challenge
->>>>>>> 5787afe (update 2023)
 
 Details will be announced.
 
