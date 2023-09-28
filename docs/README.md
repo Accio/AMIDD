@@ -77,6 +77,8 @@ The first module is finished with the first lecture.
 
 ### Lecture 2 and 3: Mechanistic, statistical, and causal models
 
+* [Slides of lecture 2]({{site.assetbaseurl}}{% link AMIDD-2023-02-Drug-targets-and-mechanistic-modelling.pdf %}) on drug targets and mechanistic modelling.
+
 ### Lecture 4 and 5: Molecular modelling
 
 ### Lecture 6 and 7: Omics- and cellular modelling
