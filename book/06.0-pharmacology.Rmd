@@ -1,4 +1,20 @@
 
+```{r}
+knitr::opts_chunk$set(echo = TRUE, 
+                      fig.height=6, fig.width=6)
+library(ribiosUtils)
+library(ribiosIO)
+library(ribiosPlot)
+library(openxlsx)
+library(tidyverse)
+library(ggplot2)
+library(emmeans)
+library(knitr)
+library(rmarkdown)
+library(kableExtra)
+theme_set(theme_light(base_size=14))
+```
+
 # Drug-target interaction
 
 ## Goals
@@ -12,7 +28,71 @@
 
 The law of mass action assumes that the rate of a chemical reaction is
 proportional to the product of the concentrations of the entities participating
-the reaction, known as reactants.
+the reaction, known as reactants. The law of mass action can be deduced from the collision theory.  The plot below gives an intuition
+
+```{r collision, fig.height=5, fig.width=5}
+library(spatstat.geom)
+set.seed(1)
+runif01 <- function(x) runif(x, 0, 1)
+runif01LR <- function(nl, nr, scenario="Default scenario",
+                      distCutoff=0.01) {
+  lpoints <- spatstat.geom::runifrect(nl)
+  rpoints <- spatstat.geom::runifrect(nr)
+  df <- data.frame(scenario=scenario,
+                    species=rep(c("Ligand", "Receptor"), c(nl, nr)),
+                 x=c(lpoints$x, rpoints$x),
+                 y=c(lpoints$y, rpoints$y))
+  lrdist <- spatstat.geom::crossdist(lpoints, rpoints)
+  whichIsClose <- which(lrdist <= distCutoff, arr.ind = TRUE)
+  lcloseInd <- whichIsClose[,1]
+  rcloseInd <- whichIsClose[,2]
+  xclose <- (lpoints$x[lcloseInd] + rpoints$x[rcloseInd])/2
+  yclose <- (lpoints$y[lcloseInd] + rpoints$y[rcloseInd])/2
+  closeMidpoints <- data.frame(scenario=scenario, x=xclose, y=yclose, radius=distCutoff)
+  res <- list(df=df, collisions=closeMidpoints)
+  return(res)
+}
+circleFun <- function(center = matrix(c(0,0), nrow=1, by.row=TRUE),
+                      group=1:nrow(center),
+                      radius = 1, npoints = 100){
+    tt <- seq(0,2*pi,length.out = npoints)
+    groupOut <- rep(group, each=length(tt))
+    point <- rep(1:nrow(center), each=length(tt))
+    xx <- rep(center[,1], each=length(tt)) + radius * cos(tt)
+    yy <- rep(center[,2], each=length(tt)) + radius * sin(tt)
+    return(data.frame(group=groupOut, pointInd=point, x = xx, y = yy))
+}
+s1 <- runif01LR(50, 50, "Scenario 1")
+s2 <- runif01LR(500, 50, "Scenario 2")
+s3 <- runif01LR(50, 500, "Scenario 3")
+s4 <- runif01LR(500, 500, "Scenario 4")
+LRscenarios <- rbind(s1$df, s2$df, s3$df, s4$df)
+collisions <- rbind(s1$collisions, s2$collisions, s3$collisions, s4$collisions)
+collisionCircles <- circleFun(center=cbind(collisions$x,
+                                           collisions$y), 
+                              group=collisions$scenario,
+                              radius=collisions$radius[1]) %>%
+  mutate(scenario=group, color="Collision") %>%
+  mutate(group_point=interaction(group, pointInd, drop = TRUE))
+ggplot(LRscenarios, aes(x=x, y=y, col=species)) +
+  facet_wrap(~scenario) +
+  geom_point(pch=16, size=1) +
+  scale_color_manual(values=c("Ligand"="#1f78b4", "Receptor"="#b2df8a",
+                              "Collision"="#e41a1c")) +
+  xlab("") + ylab("") +
+  geom_path(data=collisionCircles, aes(x=x, y=y, group=group_point, col=color), 
+            inherit.aes = FALSE, lwd=1,
+            show.legend=FALSE) +
+  scale_fill_manual(name="Colission",values=c("Collision"="#e41a1c")) +
+  guides(colour = guide_legend(override.aes = list(size=3), title="")) +
+  theme(panel.grid = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        legend.position = "top",
+        legend.margin = margin(), legend.box.margin = margin(),
+        panel.border = element_rect(fill="transparent", colour="#333333"))
+```
+
 
 $$
 \require{mhchem}
@@ -39,10 +119,47 @@ k_1[L]([R_{total}]-[LR]) & = k_2[LR] , \\
 
 If we define $K_D \equiv k_2/k_1$, we have
 
-$$ [LR] = \frac{[R_{total}][L]}{[L]+K_D} $$
+$$ [LR] = [R_{total}]\frac{[L]}{[L]+K_D} $$
 
 If we plot the relationship between $[LR]$ and $[L]$, we observe a rectangular
 hyperbola curve.
+
+```{r hyperbola, fig.height=4, fig.width=4}
+kd <- 35
+l <- 1:1000
+r_total <- 1
+lr <- r_total * (l)/(l+kd)
+hyperbola_df <- data.frame(l=l,
+                           lr=lr)
+ggplot(hyperbola_df, aes(x=l, y=lr)) +
+  geom_line() +
+  geom_vline(xintercept = kd, lty=3, show.legend = TRUE) +
+  geom_hline(yintercept = 1, lty=2) +
+  scale_linetype_manual(name="", values=c("Full occupancy"=2,
+                                          "KD"=3)) +
+  annotate("text", x=quantile(l, 0.8), y=1.02, 
+           label="Full occupancy", vjust=0) +
+  annotate("text", x=kd*1.2, y=0.5, vjust=0, hjust=0,
+           label= "K[D]", parse=TRUE) +
+  scale_y_continuous(labels=scales::percent,
+                     breaks = seq(0,1, 0.25),
+                     expand=expansion(add=0.10)) +
+  xlab("Concentration of L (arbitrary unit)") + ylab("Relative occupancy of R")
+```
+```{r hyperbola_log, fig.height=4, fig.width=4}
+ggplot(hyperbola_df, aes(x=l, y=lr)) +
+  geom_line() +
+  geom_vline(xintercept = kd, lty=3, show.legend = TRUE) +
+  geom_hline(yintercept = 1, lty=2) +
+  scale_linetype_manual(name="", values=c("Full occupancy"=2,
+                                          "KD"=3)) +
+  annotate("text", x=quantile(l, 0.3), y=1.02, 
+           label="Full occupancy", vjust=0) +
+  annotate("text", x=kd*1.2, y=0.5, vjust=0, hjust=0,
+           label= "K[D]", parse=TRUE) +
+  scale_x_log10() +
+  xlab("concentration of L (log10(arbitrary unit))") + ylab("Relative occupancy of R")
+```
 
 We can interpret $K_D$ in two ways. First, it is the ratio of the velocity of
 the reverse reaction over that of the forward reaction. The smaller the value
