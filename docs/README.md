@@ -80,6 +80,7 @@ The first module is finished with the first lecture.
 * [Slides of lecture 2]({{site.assetbaseurl}}{% link
 assets/2023/02/AMIDD-2023-02-Drug-targets-and-mechanistic-modelling.pdf %}) on
 drug targets and mechanistic modelling.
+* Please fill [the anonymous post-lecture survey of Lecture 2](https://forms.gle/4P3HRHgLqim2DSgn7).
 * Offline activities of Lecture 2:
     * (Optional) Watch the video tutorials hyperlinked in the slides if you want
     to get familiar with protein structure and protein function classes.
