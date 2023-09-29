@@ -26,6 +26,32 @@ theme_set(theme_light(base_size=14))
 
 ## Reversible binding of a drug to its target at a single site
 
+Here is a typical binding curve: with one ligand binding to the receptor with a concentration-dependent occupancy curve, and the other ligand shows no clear relationship between its concentration and binding.
+
+```{r drc, fig.height=4, fig.width=4}
+library(drc)
+set.seed(1)
+conc_x <- rep(10^(-3:3), each=3)
+conc_y <- ribiosUtils::boundNorm(conc_x/(1+conc_x)) +
+  rnorm(length(conc_x), 0, 0.05)
+conc_y2 <- ribiosUtils::boundNorm(conc_x/(0.1+conc_x)) +
+  rnorm(length(conc_x), 0, 0.05)
+conc_y3 <- rnorm(length(conc_x), 0.05, 0.1)
+
+conc_xy_fit <- drm(conc_y~conc_x, fct=LL.2())
+conc_xy2_fit <- drm(conc_y2~conc_x, fct=LL.2())
+conc_xy3_fit <- drm(conc_y3~conc_x, fct=LL.2())
+
+{
+  compactPar(mar=c(4,4,4, 0), mgp=c(2.5, 1, 0))
+  plot(conc_xy_fit, xlab="Ligand concentration [micromolar]",
+     ylab="Relative occupancy of the receptor"); points(conc_x, conc_y)
+  ##plot(conc_xy2_fit, add=TRUE, col="darkgreen"); points(conc_x, conc_y2, col="darkgreen")
+  plot(conc_xy3_fit, add=TRUE, col="darkred"); points(conc_x, conc_y3, col="darkred")
+}
+```
+
+
 The law of mass action assumes that the rate of a chemical reaction is
 proportional to the product of the concentrations of the entities participating
 the reaction, known as reactants. The law of mass action can be deduced from the collision theory.  The plot below gives an intuition
@@ -163,9 +189,48 @@ ggplot(hyperbola_df, aes(x=l, y=lr)) +
 
 We can interpret $K_D$ in two ways. First, it is the ratio of the velocity of
 the reverse reaction over that of the forward reaction. The smaller the value
-is, the more quickly the ligand-receptor target is formed. Second, notice that
+is, the more quickly the ligand-receptor target is formed compared with the dissociation. Second, notice that
 when $[L]=K_D$, $[LR]=[R_{total}]/2$. $K_D$ there represents the concentration
 of ligand that occupies 50 percent of all receptors.
+
+```{r hill_comp, fig.height=4, fig.width=4}
+kd_cand2 <- 10
+lr_cand2 <- r_total * (l)/(l+kd_cand2)
+hyperbola_cand2_df <- data.frame(l=l,
+                               lr=lr_cand2)
+hyperbola_comb_df <- rbind(cbind(Treatment="Candidate 1", hyperbola_df),
+                           cbind(Treatment="Candidate 2", hyperbola_cand2_df))
+ggplot(hyperbola_comb_df, aes(x=l, y=lr, col=Treatment)) +
+  geom_line() +
+  geom_vline(xintercept = kd, lty=3, show.legend = TRUE) +
+  geom_vline(xintercept = kd_cand2, lty=3, col="red", show.legend = TRUE) +
+  geom_hline(yintercept = 1, lty=2) +
+  scale_linetype_manual(name="", values=c("Full occupancy"=2,
+                                          "KD"=3)) +
+  annotate("text", x=quantile(l, 0.3), y=1.02, 
+           label="Full occupancy", vjust=0) +
+  annotate("text", x=kd*1.2, y=0.5, vjust=0, hjust=0,
+           label= "K[D1]", parse=TRUE) +
+   annotate("text", x=kd_cand2*1.2, y=0.5, vjust=0, hjust=0,
+           label= "K[D2]", parse=TRUE) +
+  scale_x_log10() +
+  xlab("Ligand concentration (log10(A.U.))") + ylab("Relative occupancy of receptor") +
+  theme(legend.position = "top",
+        legend.margin = margin(), legend.box.margin = margin(),
+        panel.border = element_rect(fill="transparent", colour="#333333"))
+```
+
+The Hill function has another property: coupling two hill functions gives a function in the same form.
+
+$$ y =  x\frac{A}{A+B} $$
+
+$$[LR] = [R_{total}]\frac{[L]}{[L]+K_D}$$
+
+$$[LRS] = [S_{total}]\frac{[LR]}{[LR] + K_D'} = [S_{total}]\frac{[R_{total}]\frac{[L]}{[L]+K_D}}{[R_{total}]\frac{[L]}{[L]+K_D} + K_D'} = 
+[S_{total}]\frac{[R_{total}][L]}{[R_{total}][L] + K_D'([L]+K_{D})} = x'\frac{A'}{A'+B'}$$
+
+
+
 
 From physically chemistry we learn that thermodynamics studies can determine the
 relative contributions of enthalpy and entropy of a compound's binding energy.

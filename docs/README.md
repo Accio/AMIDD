@@ -20,8 +20,8 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
 - [Assessment](#assessment)
 - [Syllabus](#syllabus)
   * [Lecture 1: introduction](#lec1) (22.09.2023)
-  * [Lecture 2: mechanistic, statistical, and causal modleling (I)](#lec2_3) (29.09.2023)
-  * [Lecture 3: mechanistic, statistical, and causal modleling (II)](#lec2_3) (06.10.2023)
+  * [Lecture 2: Drug targets and mechanistic modelling](#lec2) (29.09.2023)
+  * [Lecture 3: Statistical modelling and causal inference in drug discovery](#lec3) (06.10.2023)
   * [Lecture 4](#4-from-sequences-to-structures) (13.10.2023)
   * [Lecture 5](#5-proteins-and-ligands) (20.10.2023)
   * [Lecture 6](#6-structure--and-ligand-based-drug-design) (27.10.2023)
@@ -73,11 +73,28 @@ The first module is finished with the first lecture.
 * Please fill [the anonymous post-lecture survey of Lecture 1](https://forms.gle/UDgSe3CVfzSCkCEa7).
 * Offline activities of Lecture 1: Check out [this poster](https://njardarson.lab.arizona.edu/sites/njardarson.lab.arizona.edu/files/NjardarsonGroup2022Top200PosterV5.pdf), which illustrates top 200 brand name drugs by retail sales in 2022. You can also find a snapshot in the slide deck. Focus on the top 14 compounds, and answer the questions by [filling out this form](https://forms.gle/Pvbj9oHGP7qzXcpd7).
 
-<p id="lec2_3"></p>
+<p id="lec2"></p>
 
-### Lecture 2 and 3: Mechanistic, statistical, and causal models
+### Lecture 2: Drug targets and mechanistic modelling
 
-* [Slides of lecture 2]({{site.assetbaseurl}}{% link assets/2023/02/AMIDD-2023-02-Drug-targets-and-mechanistic-modelling.pdf %}) on drug targets and mechanistic modelling.
+* [Slides of lecture 2]({{site.assetbaseurl}}{% link
+assets/2023/02/AMIDD-2023-02-Drug-targets-and-mechanistic-modelling.pdf %}) on
+drug targets and mechanistic modelling.
+* Please fill [the anonymous post-lecture survey of Lecture 2](https://forms.gle/4P3HRHgLqim2DSgn7).
+* Offline activities of Lecture 2:
+    * (Optional) Watch the video tutorials hyperlinked in the slides if you want
+    to get familiar with protein structure and protein function classes.
+    * Watch [a video](https://www.ibiology.org/human-disease/herceptin/) on the
+    development of the drug *Herceptin*, presented by Susan Desmond-Hellmann and
+    answer questions. See the questions and submit your answers [here via a
+    Google Form](https://forms.gle/Q35rVd19waVwvvUR8).
+    * Required reading: [Principles of early drug
+    discovery]({{site.assetbaseurl}}{% link
+    assets/2023/02/Principles-DD-Hughes.pdf %}) by Hughes *et al.*
+
+<p id="lec3"></p>
+### Lecture 3: Statistical modelling and causal inference in drug discovery
+
 
 ### Lecture 4 and 5: Molecular modelling
 
