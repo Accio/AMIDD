@@ -77,10 +77,23 @@ The first module is finished with the first lecture.
 
 ### Lecture 2: Drug targets and mechanistic modelling
 
+* [Slides of lecture 2]({{site.assetbaseurl}}{% link
+assets/2023/02/AMIDD-2023-02-Drug-targets-and-mechanistic-modelling.pdf %}) on
+drug targets and mechanistic modelling.
+* Offline activities of Lecture 2:
+    * (Optional) Watch the video tutorials hyperlinked in the slides if you want
+    to get familiar with protein structure and protein function classes.
+    * Watch [a video](https://www.ibiology.org/human-disease/herceptin/) on the
+    development of the drug *Herceptin*, presented by Susan Desmond-Hellmann and
+    answer questions. See the questions and submit your answers [here via a
+    Google Form](https://forms.gle/Q35rVd19waVwvvUR8).
+    * Required reading: [Principles of early drug
+    discovery]({{site.assetbaseurl}}{% link
+    assets/2023/02/Principles-DD-Hughes.pdf %}) by Hughes *et al.*
+
 <p id="lec3"></p>
 ### Lecture 3: Statistical modelling and causal inference in drug discovery
 
-* [Slides of lecture 2]({{site.assetbaseurl}}{% link assets/2023/02/AMIDD-2023-02-Drug-targets-and-mechanistic-modelling.pdf %}) on drug targets and mechanistic modelling.
 
 ### Lecture 4 and 5: Molecular modelling
 
