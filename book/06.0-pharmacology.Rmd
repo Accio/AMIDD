@@ -26,7 +26,7 @@ theme_set(theme_light(base_size=14))
 
 ## Reversible binding of a drug to its target at a single site
 
-Here is a typical dose-response curve.
+Here is a typical binding curve: with one ligand binding to the receptor with a concentration-dependent occupancy curve, and the other ligand shows no clear relationship between its concentration and binding.
 
 ```{r drc, fig.height=4, fig.width=4}
 library(drc)
