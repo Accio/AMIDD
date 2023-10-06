@@ -23,16 +23,16 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
   * [Lecture 2: protein as drug targets and mathematical modelling](#lec2) (29.09.2023)
   * [Lecture 3: statistical modelling and machine learning](#lec3) (06.10.2023)
   * [Lecture 4: causal inference](#lec4) (13.10.2023)
-  * [Lecture 5](#5-proteins-and-ligands) (20.10.2023)
-  * [Lecture 6](#6-structure--and-ligand-based-drug-design) (27.10.2023)
-  * [Lecture 7](#7-from-individual-interactions-to-networks) (03.11.2023)
-  * [Lecture 8](#8-biological-networks) (10.11.2023)
-  * [Lecture 9](#9-omics-and-cellular-modelling) (17.11.2023)
-  * [*Dies academicus*](#10-dies-academicus) (24.11.2023, no lecture)
-  * [Lecture 10](#11-pkpd-modelling) (01.12.2023)
-  * [Lectuer 11](#11-guest-speaker-session) (08.12.2023)
-  * [Lecture 12: guest lectures](#13-student-presentation-i) (15.12.2023)
-  * [Lecture 13: a collaboration challenge](#14-student-presentation-ii) (22.12.2023)
+  * [Lecture 5: biological sequence analysis](#lec5) (20.10.2023)
+  * [Lecture 6: molecular descriptors](#lec6) (27.10.2023)
+  * [Lecture 7: from individual interactions to networks](#lec7) (03.11.2023)
+  * [Lecture 8: omics and cellular modelling](#lec8) (10.11.2023)
+  * [Lecture 9: pharmacokinetic modelling (**Attention** Room Change)](#lec9) (17.11.2023)
+  * [*Dies academicus*](#dies-academicus) (24.11.2023, no lecture)
+  * [Lecture 10: Population modelling](#lec10) (01.12.2023)
+  * [Lectuer 11: clinical studies](#lec11) (08.12.2023)
+  * [Lecture 12: guest lectures](#lec12) (15.12.2023)
+  * [Lecture 13: a collaboration challenge](#lec13) (22.12.2023)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
 - [Archives of past courses](#archives-of-past-courses)
 
@@ -111,7 +111,10 @@ of submitting your answers is by end of lecture 5.
 
 ### Lecture 6 and 7: Omics- and cellular modelling
 
-### Lecture 8 and 9: Organ- and system modelling
+<p id="lec9"></p>
+### Lecture 9: Organ- and system modelling
+
+The course takes place exceptionally at Bernoullistrasse 30/32, kleiner Hörsaal 120.
 
 Note that on Friday, 24.11.2023, there is NO lecture due to Dies Academicus.
 
