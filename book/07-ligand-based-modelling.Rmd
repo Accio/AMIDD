@@ -1,5 +1,23 @@
 # Encoding and similarity search of chemical structures {#cheminfo}
 
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      fig.height=5, fig.width=5)
+library(ribiosUtils)
+library(ribiosIO)
+library(ribiosPlot)
+library(openxlsx)
+library(tidyverse)
+library(ggplot2)
+library(emmeans)
+library(knitr)
+library(rmarkdown)
+library(kableExtra)
+library(zoo)
+theme_set(theme_light(base_size=13))
+```
+
+
 ## What do we want to achieve today
 
 * Have a high-level understanding of encoding chemical structures and similarity search
@@ -73,6 +91,185 @@ Computational chemistry in drug discovery on youtube, https://www.youtube.com/wa
 ### ADMET
 
 ## Mathematical concepts and models
+
+### Linear model
+
+```{r fig.height=4, fig.width=6}
+library(ribiosPlot)
+library(ggplot2)
+library(RColorBrewer)
+genfun <- function(x) sin(x) + rnorm(length(x), mean=3, sd=0.5)
+x <- seq(0, 2*pi, 0.1)
+y <- genfun(x)
+x2 <- seq(2*pi, 3*pi, 0.1)
+y2 <- genfun(x2)
+data1 <- data.frame(x=x, y=y)
+data2 <- data.frame(x=x2, y=y2)
+data1_2 <- rbind(data1, data2)
+sinplot <- ggplot(data1, aes(x=x, y=y)) + 
+  geom_point() +
+  xlim(0, 3*pi) +
+  geom_vline(xintercept = 2*pi) +
+  geom_point(data=data2, col="gray")
+linecols <- brewer.pal(5, "Spectral")
+names(linecols) <- c("y~x", sprintf("y~poly(x,%d)",2:5))
+sinplot + 
+  geom_hline(yintercept=3, col="black") +
+  geom_smooth(aes(colour="y~x"), method="lm", formula="y~x", se=FALSE,
+              fullrange=TRUE, show.legend=TRUE) +
+  geom_smooth(aes(colour="y~poly(x,2)"), method="lm", formula=y~poly(x,2), 
+              se=FALSE, fullrange=TRUE) +
+  geom_smooth(aes(colour="y~poly(x,3)"), method="lm", formula=y~poly(x,3),  
+              se=FALSE, fullrange=TRUE) +
+  geom_smooth(aes(colour="y~poly(x,4)"), method="lm", formula=y~poly(x,4), 
+              se=FALSE, fullrange=TRUE) +
+  geom_smooth(aes(colour="y~poly(x,5)"), method="lm", formula=y~poly(x,5), 
+              se=FALSE, fullrange=TRUE) +
+  scale_colour_manual(name="Linear models", values=linecols) + 
+  guides() +
+  ylim(1,5)
+
+```
+```{r fig.height=3, fig.width=4}
+data1_2_kmeans <- kmeans(data1_2, centers = 3)
+kmeansPlot <- ggplot(data1_2 %>% mutate(cluster=factor(data1_2_kmeans$cluster)), 
+                     aes(x=x, y=y, col=cluster)) + 
+  geom_point() +
+  xlim(0, 3*pi)
+print(kmeansPlot)
+```
+
+Lasso
+
+```{r}
+library(glmnet)
+library(glmnet)
+# Loading the data
+data(swiss)
+x_vars <- model.matrix(Fertility~. , swiss)[,-1]
+y_var <- swiss$Fertility
+lambda_seq <- 10^seq(2, -2, by = -.1)
+# Splitting the data into test and train
+set.seed(86)
+train = sample(1:nrow(x_vars), nrow(x_vars)/2)
+x_test = (-train)
+y_test = y_var[x_test]
+cv_output <- cv.glmnet(x_vars[train,], y_var[train], relax=TRUE, nfold=5)
+# identifying best lamda
+best_lam <- cv_output$lambda.min
+best_lam
+# Output
+
+lasso_best <- glmnet(x_vars[train,], y_var[train], alpha = 1, lambda = best_lam)
+linear <- lm(y~., data=data.frame(y=y_var[train], x_vars[train,]))
+linear_pred <- predict(linear, data.frame(x_vars[x_test,]))
+glmnet_pred <- predict(lasso_best, s = best_lam, newx = x_vars[x_test,])
+
+final <- data.frame(truth=y_test, glmnet=glmnet_pred[,1], linear=linear_pred) %>%
+  pivot_longer(cols=c(glmnet,linear))
+# Checking the first six obs
+library(ggplot2)
+ggplot(final, aes(x=truth, y=value, col=name)) +
+  geom_point()
+
+coef(lasso_best)
+coef(linear)
+```
+
+```{r fig.height=3, fig.width=5}
+logistic_data <- data.frame(Hours=c(0.5, 0.75, 1, 1.25, 1.50, 1.75, 1.75,
+                                    2, 2.25, 2.5, 2.75, 3, 3.25, 3.5, 4,
+                                    4.25, 4.5, 4.75, 5, 5),
+                            Pass=c(0, 0, 0, 0, 0, 0,
+                                   1, 0, 1, 0, 1, 0,
+                                   1, 0, 1, 1, 1, 1, 1, 1))
+ggplot(logistic_data, aes(x=Hours, y=Pass)) +
+  geom_point() + 
+  geom_smooth(aes(col="linear"), method = "lm", se=FALSE) +
+  geom_smooth(aes(col="logistic"), method = "glm", 
+              method.args = list(family = "binomial"), 
+              se = FALSE) +
+  xlab("Hours of preparation") + ylab("Passing the exam") +
+  scale_color_manual(name="Model", values=c("linear"="orange", "logistic"="#004495"))
+```
+
+$$t = \alpha + \beta x$$
+$$y = \frac{1}{1+e^{-t}}$$
+$$y = \frac{1}{1+e^{-(\alpha+\beta x)}}$$
+
+```{r nonbi, fig.height=3, fig.width=4}
+## an XOR
+set.seed(1887)
+x <- rep(c(1, 1, -1, -1), each=40) + rnorm(160, sd=0.1)
+y <- rep(c(1, -1, -1, 1), each=40) + rnorm(160, sd=0.1)
+z <- factor(rep(c(1, 0, 1, 0), each=40))
+nonld <- data.frame(index=seq(along=x), x=x, y=y, z=z)
+ggplot(data=nonld, aes(x=x, y=y, col=z)) +
+  geom_point() +
+  ggh4x::coord_axes_inside(labels_inside = TRUE) +
+  theme(axis.line = element_line(colour = "black"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.background = element_blank()) 
+    
+```
+
+```{r nonldTrainTest, fig.height=3, fig.width=7}
+nonld_train_test <- rbind(cbind(nonld_train, partition="train"),
+                          cbind(nonld_test, partition="test")) %>%
+  mutate(partition=factor(partition, levels=c("train", "test")))
+ggplot(data=nonld_train_test, aes(x=x, y=y, col=z)) +
+  geom_point() + facet_wrap(~partition) +
+  ggh4x::coord_axes_inside(labels_inside = TRUE) +
+  theme(axis.line = element_line(colour = "black"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.background = element_blank()) 
+```
+
+```{r}
+set.seed(1887)
+library(randomForest)
+library(tree)
+nonld_train <- sample_frac(nonld, 0.8)
+nonld_test <- nonld %>% filter(!index %in% nonld_train$index)
+rf <- randomForest(z~., data=nonld_train %>% dplyr::select(-index),
+                   ntree=100)
+nonld_test_pred <- predict(rf, nonld_test)
+confusionMatrix(nonld_test_pred, nonld_test$z)
+```
+
+```{r, fig.height=4, fig.width=4}
+{
+  compactPar()
+  plot(rf, main="")
+}
+```
+
+```{r fig.height=4, fig.width=4}
+##install_github('munoztd0/reprtree')
+library(reprtree)
+reprtree::plot.getTree(rf, k=1)
+reprtree::plot.getTree(rf, k=20)
+```
+```{r}
+library(neuralnet)
+nonald_train_nn <- nonld_train %>% dplyr::select(-index) %>%
+  mutate(z=as.integer(as.character(z)))
+nn <- neuralnet(z ~ x + y, data=nonald_train_nn,
+                hidden=2, linear.output=TRUE)
+
+nnpred <- compute(nn, nonld_test)$net.result
+
+confusionMatrix(factor(round(nnpred), levels=c(0,1)),
+                nonld_test$z)
+```
+
+```{r, fig.height=4, fig.width=4}
+plot(nn, rep="best")
+```
 
 ### Unsupervised learning with principal component analysis
 

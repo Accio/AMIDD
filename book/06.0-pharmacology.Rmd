@@ -1,3 +1,4 @@
+# Drug-target interaction
 
 ```{r}
 knitr::opts_chunk$set(echo = TRUE, 
@@ -14,8 +15,6 @@ library(rmarkdown)
 library(kableExtra)
 theme_set(theme_light(base_size=14))
 ```
-
-# Drug-target interaction
 
 ## Goals
 
@@ -231,6 +230,28 @@ $$[LRS] = [S_{total}]\frac{[LR]}{[LR] + K_D'} = [S_{total}]\frac{[R_{total}]\fra
 
 
 
+
+Note that at very low concentrations, the hyperbola model can act like a linear model.
+
+```{r hyperbola_linear, fig.height=4, fig.width=4}
+hyperbola_linear <- hyperbola_df %>% filter(l<20)
+ggplot(hyperbola_df, aes(x=l, y=lr)) +
+  geom_line() + xlim(0,100)+
+  geom_vline(xintercept = kd, lty=3, show.legend = TRUE) +
+  geom_hline(yintercept = 1, lty=2) +
+  geom_smooth(data=hyperbola_linear, method="lm", formula="y~x", lty=2,
+              col="#004495", fullrange=TRUE, se=FALSE) +
+  scale_linetype_manual(name="", values=c("Full occupancy"=2,
+                                          "KD"=3)) +
+  annotate("text", x=quantile(l, 0.8), y=1.02, 
+           label="Full occupancy", vjust=0) +
+  annotate("text", x=kd*1.2, y=0.5, vjust=0, hjust=0,
+           label= "K[D]", parse=TRUE) +
+  scale_y_continuous(labels=scales::percent,
+                     breaks = seq(0,1, 0.25), limits=c(0,1),
+                     expand=expansion(add=0.10)) +
+  xlab("Concentration of L (arbitrary unit)") + ylab("Relative occupancy of R")
+```
 
 From physically chemistry we learn that thermodynamics studies can determine the
 relative contributions of enthalpy and entropy of a compound's binding energy.
