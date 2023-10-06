@@ -19,10 +19,10 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
 - [Pre-course survey](#pre-course-survey)
 - [Assessment](#assessment)
 - [Syllabus](#syllabus)
-  * [Lecture 1: introduction](#lec1) (22.09.2023)
-  * [Lecture 2: Drug targets and mechanistic modelling](#lec2) (29.09.2023)
-  * [Lecture 3: Statistical modelling and causal inference in drug discovery](#lec3) (06.10.2023)
-  * [Lecture 4](#4-from-sequences-to-structures) (13.10.2023)
+  * [Lecture 1](#lec1) (22.09.2023)
+  * [Lecture 2](#lec2) (29.09.2023)
+  * [Lecture 3](#lec3) (06.10.2023)
+  * [Lecture 4](#lec4) (13.10.2023)
   * [Lecture 5](#5-proteins-and-ligands) (20.10.2023)
   * [Lecture 6](#6-structure--and-ligand-based-drug-design) (27.10.2023)
   * [Lecture 7](#7-from-individual-interactions-to-networks) (03.11.2023)
@@ -93,16 +93,19 @@ drug targets and mechanistic modelling.
     assets/2023/02/Principles-DD-Hughes.pdf %}) by Hughes *et al.*
 
 <p id="lec3"></p>
-### Lecture 3: Statistical modelling and causal inference in drug discovery
+### Lecture 3: Statistical modelling and machine learning
 
 
 * [Slides of lecture 3]({{site.assetbaseurl}}{% link assets/2023/03/AMIDD-2023-03-statistical-and-causal-modelling.pdf %}) on statistical modelling and causal inference.
 * Offline activities of Lecture 3:
-    * Required reading 1: [An introduction to machine learning]({{site.assetbaseurl}}{% link assets/2023/03/Badillo-2020-An-Introduction-to-MachineLearning.pdf %}) by Badillo *et al.*.
+    * Required reading 1: [An introduction to machine learning]({{site.assetbaseurl}}{% link assets/2023/03/Badillo-2020-An-Introduction-to-MachineLearning.pdf %}) by Badillo *et al.*
     * Required reading 2: [The Environment and Disease: Association or Causation?]({{site.assetbaseurl}}{% link assets/2023/03/Hill-1965-Association-or-Causation.pdf %}) by Bradford Hill.
 
 <p id="lec4"></p>
-### Lecture 4 and 5: Molecular modelling
+### Lecture 4: Causal inference and target identification
+
+<p id="lec5"></p>
+### Lecture 5: Molecular modelling
 
 ### Lecture 6 and 7: Omics- and cellular modelling
 
