@@ -96,15 +96,18 @@ drug targets and mechanistic modelling.
 ### Lecture 3: Statistical modelling and machine learning
 
 
-* [Slides of lecture 3]({{site.assetbaseurl}}{% link assets/2023/03/AMIDD-2023-03-statistical-and-causal-modelling.pdf %}) on statistical modelling and causal inference.
+* [Slides of lecture 3]({{site.assetbaseurl}}{% link assets/2023/03/AMIDD-2023-03-statistical-and-causal-modelling.pdf %}) on statistical modelling and machine learning.
 * Offline activities of Lecture 3: read the following papers and answer the
 questions [via Google Form](https://forms.gle/Qta67uA1vNQ9GqdP8). The deadline
-of submitting your answers is by end of lecture 5.
+of submitting your answers is by the end of lecture 5.
     * Required reading 1: [An introduction to machine learning]({{site.assetbaseurl}}{% link assets/2023/03/Badillo-2020-An-Introduction-to-MachineLearning.pdf %}) by Badillo *et al.*
     * Required reading 2: [The Environment and Disease: Association or Causation?]({{site.assetbaseurl}}{% link assets/2023/03/Hill-1965-Association-or-Causation.pdf %}) by Bradford Hill.
 
 <p id="lec4"></p>
 ### Lecture 4: Causal inference
+
+* [Slides of lecture 4]({{site.assetbaseurl}}{% link assets/2023/04/AMIDD-2023-04-causal-inference.pdf %}) on causal inference.
+* Offline activities: read the review on [causal inference and its application in drug discovery and development]({{site.assetbaseurl}}{% link assets/2023/04/Michoel-Zhang-Causal-Inference-2023.pdf %}). Answer the questions via [Google Form](https://forms.gle/YyDcLSermvgYBmB67). The deadline of submission is by the end of lecture 6.
 
 <p id="lec5"></p>
 ### Lecture 5: Molecular modelling
