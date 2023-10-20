@@ -19,18 +19,18 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
 - [Pre-course survey](#pre-course-survey)
 - [Assessment](#assessment)
 - [Syllabus](#syllabus)
-  * [Lecture 1: introduction](#lec1) (22.09.2023)
-  * [Lecture 2: protein as drug targets and mathematical modelling](#lec2) (29.09.2023)
-  * [Lecture 3: statistical modelling and machine learning](#lec3) (06.10.2023)
-  * [Lecture 4: causal inference](#lec4) (13.10.2023)
+  * [Lecture 1: Introduction](#lec1) (22.09.2023)
+  * [Lecture 2: Protein as drug targets and mathematical modelling](#lec2) (29.09.2023)
+  * [Lecture 3: Statistical modelling and machine learning](#lec3) (06.10.2023)
+  * [Lecture 4: Causal inference](#lec4) (13.10.2023)
   * [Lecture 5: Understanding key questions for drug discovery](#lec5) (20.10.2023)
-  * [Lecture 6: molecular descriptors](#lec6) (27.10.2023)
-  * [Lecture 7: from individual interactions to networks](#lec7) (03.11.2023)
-  * [Lecture 8: omics and cellular modelling](#lec8) (10.11.2023)
-  * [Lecture 9: pharmacokinetic modelling (**Attention** Room Change)](#lec9) (17.11.2023)
+  * [Lecture 6: Disease understanding and target identification](#lec6) (27.10.2023)
+  * [Lecture 7: Biological sequence analysis](#lec7) (03.11.2023)
+  * [Lecture 8: Ligand-based and structure-based drug discovery](#lec8) (10.11.2023)
+  * [Lecture 9: From interactions to networks (**Attention** Room Change)](#lec9) (17.11.2023)
   * [*Dies academicus*](#dies-academicus) (24.11.2023, no lecture)
-  * [Lecture 10: Population modelling](#lec10) (01.12.2023)
-  * [Lectuer 11: clinical studies](#lec11) (08.12.2023)
+  * [Lecture 10: Pharmacokinetic modelling](#lec10) (01.12.2023)
+  * [Lectuer 11: Population modelling](#lec11) (08.12.2023)
   * [Lecture 12: guest lectures](#lec12) (15.12.2023)
   * [Lecture 13: a collaboration challenge](#lec13) (22.12.2023)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
@@ -111,22 +111,37 @@ of submitting your answers is by the end of lecture 5.
 
 <p id="lec5"></p>
 ### Lecture 5: Understanding key questions 
-* [Slides of lecture 5]({{site.assetbaseurl}}{% link assets/2023/05/AMIDD-2023-05-key-questions-in-DD.pdf %}).
+
+* [Slides of lecture 5]({{site.assetbaseurl}}{% link assets/2023/05/AMIDD-2023-05-key-questions-in-DD.pdf %}). In this lecture, we played roles to learn key questions for drug discovery.
+* Offline activities: read [Clinical efficacy of a RAF inhibitor needs broad target blockade in BRAF-mutant melanoma]({{site.assetbaseurl}}{% link assets/2023/05/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010. Answer questions by [filling out this Google Form](https://forms.gle/t52XovYrWpxbuaVT7). The activities must be finished before lecture 7.
 
 
-### Lecture 6 and 7: Molecular modelling
+<p id="lec6"></p>
+### Lecture 6: Disease understanding and target identification
+
+<p id="lec7"></p>
+### Lecture 7: Biological sequence analysis
+
+<p id="lec8"></p>
+### Lecture 8: Structure-based and ligand-based drug discovery
 
 <p id="lec9"></p>
-### Lecture 9: Organ- and system modelling
+### Lecture 9: From interactions to networks
 
 The course takes place exceptionally at Bernoullistrasse 30/32, kleiner Hörsaal 120.
 
 Note that on Friday, 24.11.2023, there is NO lecture due to Dies Academicus.
 
-### Lecture 10 and 11: Population modelling
+<p id="lec10"></p>
+### Lecture 10: Pharmacokinetic modeling
 
+<p id="lec11"></p>
+### Lecture 11: Population modeling
+
+<p id="lec12"></p>
 ### Lecture 12: Invited talks
 
+<p id="lec13"></p>
 ### Lecture 13: A Collaboration Challenge
 
 Details will be announced.
