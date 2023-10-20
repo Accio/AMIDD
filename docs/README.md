@@ -23,7 +23,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
   * [Lecture 2: protein as drug targets and mathematical modelling](#lec2) (29.09.2023)
   * [Lecture 3: statistical modelling and machine learning](#lec3) (06.10.2023)
   * [Lecture 4: causal inference](#lec4) (13.10.2023)
-  * [Lecture 5: biological sequence analysis](#lec5) (20.10.2023)
+  * [Lecture 5: Understanding key questions for drug discovery](#lec5) (20.10.2023)
   * [Lecture 6: molecular descriptors](#lec6) (27.10.2023)
   * [Lecture 7: from individual interactions to networks](#lec7) (03.11.2023)
   * [Lecture 8: omics and cellular modelling](#lec8) (10.11.2023)
@@ -110,9 +110,11 @@ of submitting your answers is by the end of lecture 5.
 * Offline activities: read the review on [causal inference and its application in drug discovery and development]({{site.assetbaseurl}}{% link assets/2023/04/Michoel-Zhang-Causal-Inference-2023.pdf %}). Answer the questions via [Google Form](https://forms.gle/YyDcLSermvgYBmB67). The deadline of submission is by the end of lecture 6.
 
 <p id="lec5"></p>
-### Lecture 5: Molecular modelling
+### Lecture 5: Understanding key questions 
+* [Slides of lecture 5]({{site.assetbaseurl}}{% link assets/2023/05/AMIDD-2023-05-key-questions-in-DD.pdf %}).
 
-### Lecture 6 and 7: Omics- and cellular modelling
+
+### Lecture 6 and 7: Molecular modelling
 
 <p id="lec9"></p>
 ### Lecture 9: Organ- and system modelling
