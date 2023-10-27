@@ -23,8 +23,8 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
   * [Lecture 2: Protein as drug targets and mathematical modelling](#lec2) (29.09.2023)
   * [Lecture 3: Statistical modelling and machine learning](#lec3) (06.10.2023)
   * [Lecture 4: Causal inference](#lec4) (13.10.2023)
-  * [Lecture 5: Understanding key questions for drug discovery](#lec5) (20.10.2023)
-  * [Lecture 6: Disease understanding and target identification](#lec6) (27.10.2023)
+  * [Lecture 5: Searching for key questions for drug discovery](#lec5) (20.10.2023)
+  * [Lecture 6: Five key questions of drug discovery](#lec6) (27.10.2023)
   * [Lecture 7: Biological sequence analysis](#lec7) (03.11.2023)
   * [Lecture 8: Ligand-based and structure-based drug discovery](#lec8) (10.11.2023)
   * [Lecture 9: From interactions to networks (**Attention** Room Change)](#lec9) (17.11.2023)
@@ -110,14 +110,18 @@ of submitting your answers is by the end of lecture 5.
 * Offline activities: read the review on [causal inference and its application in drug discovery and development]({{site.assetbaseurl}}{% link assets/2023/04/Michoel-Zhang-Causal-Inference-2023.pdf %}). Answer the questions via [Google Form](https://forms.gle/YyDcLSermvgYBmB67). The deadline of submission is by the end of lecture 6.
 
 <p id="lec5"></p>
-### Lecture 5: Understanding key questions 
+### Lecture 5: Searching for key questions in drug discovery
 
-* [Slides of lecture 5]({{site.assetbaseurl}}{% link assets/2023/05/AMIDD-2023-05-key-questions-in-DD.pdf %}). In this lecture, we played roles to learn key questions for drug discovery.
+* [Slides of lecture 5]({{site.assetbaseurl}}{% link assets/2023/05/AMIDD-2023-05-key-questions-in-DD.pdf %}). In this lecture, we played roles to search for key questions for drug discovery.
 * Offline activities: read [Clinical efficacy of a RAF inhibitor needs broad target blockade in BRAF-mutant melanoma]({{site.assetbaseurl}}{% link assets/2023/05/Bollag-Nature-2010.pdf %}) by Bollag *et al.*, Nature 2010. Answer questions by [filling out this Google Form](https://forms.gle/t52XovYrWpxbuaVT7). The activities must be finished before lecture 7.
 
 
 <p id="lec6"></p>
 ### Lecture 6: Disease understanding and target identification
+
+* [Slides of lecture 6]({{site.assetbaseurl}}{% link assets/2023/06/AMIDD-2023-06-FiveKeyQuestions.pdf %}).
+* Offline activities: continue reading the paper assigned last week, and fill
+the Google Form.
 
 <p id="lec7"></p>
 ### Lecture 7: Biological sequence analysis
