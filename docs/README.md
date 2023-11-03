@@ -29,8 +29,8 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
   * [Lecture 8: Ligand-based and structure-based drug discovery](#lec8) (10.11.2023)
   * [Lecture 9: From interactions to networks (**Attention** Room Change)](#lec9) (17.11.2023)
   * [*Dies academicus*](#dies-academicus) (24.11.2023, no lecture)
-  * [Lecture 10: Pharmacokinetic modelling](#lec10) (01.12.2023)
-  * [Lectuer 11: Population modelling](#lec11) (08.12.2023)
+  * [Lecture 10: Omics and novel models for translational research](#lec10) (01.12.2023)
+  * [Lectuer 11: DMPK and PKPD modelling](#lec11) (08.12.2023)
   * [Lecture 12: guest lectures](#lec12) (15.12.2023)
   * [Lecture 13: a collaboration challenge](#lec13) (22.12.2023)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
@@ -125,6 +125,9 @@ the Google Form.
 
 <p id="lec7"></p>
 ### Lecture 7: Biological sequence analysis
+
+* [Slides of lecture 7]({{site.assetbaseurl}}{% link assets/2023/07/AMIDD-2023-07-Biological-Sequence-Analysis.pdf %}).
+* Offline activities: four exercises indicated in the slides.
 
 <p id="lec8"></p>
 ### Lecture 8: Structure-based and ligand-based drug discovery
