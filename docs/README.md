@@ -127,7 +127,10 @@ the Google Form.
 ### Lecture 7: Biological sequence analysis
 
 * [Slides of lecture 7]({{site.assetbaseurl}}{% link assets/2023/07/AMIDD-2023-07-Biological-Sequence-Analysis.pdf %}).
-* Offline activities: four exercises indicated in the slides.
+* Offline activities (no need to report via Google Form, except for the feedback)
+	* Fill out [a feedback form](https://forms.gle/ebdxnux3YKZjadqT9) to this lecture and for the lectures so far.
+	* Check out [the examples](https://github.com/Accio/AMIDD/blob/master/docs/assets/2021/04/fib/dyn_prog.py) of dynamic programming and constant-space solution of the Fibonacci problem, and make sure that you can implement them yourself. 
+	* Calculate the Levenshtein distance between <pre>ATTAATGCC</pre> and <pre>ATATTTCGCC</pre> using dynamic programming, and validate your results with a programming language or large-language model of choice.
 
 <p id="lec8"></p>
 ### Lecture 8: Structure-based and ligand-based drug discovery
