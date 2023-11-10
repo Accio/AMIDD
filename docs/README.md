@@ -136,14 +136,17 @@ the Google Form.
 ### Lecture 8: Structure-based and ligand-based drug discovery
 
 * [Slides of lecture 8]({{site.assetbaseurl}}{% link assets/2023/08/AMIDD-2023-08-Protein-Ligand-Interaction.pdf %}).
-* Offline activities: see the slide #28 for the tasks. Submit the results before
-November 24th to [the Google form](https://forms.gle/ceSKTYNpURYHDuqNA)
+* Offline activities: Submit the results before November 24th to [the Google form](https://forms.gle/ceSKTYNpURYHDuqNA).
+   1. Compare `p(ACGTGGT|M)` and `p(ACCTGGT|M)`, where `M` stands for the Markov model given in the slide, in the Google form, and at the end of this section.
+   3. We have got a RNA sequence by sequencing sputum from a patient (see below). How can we know the original genome of the sequence, and ideally the gene encoding the sequences? Tips: go to the [NCBI BLAST tool](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome), copy and paste the sequence as the query sequence, and try your luck. Default parameters are okay. The query sequence is: `ATGTTTGTTTTTCTTGTTTTATTGCCACTAGTCTCTAGTCAGTGTGTTAATCTTACAACCAGAACTCAATTACCCCCTGCATACACTAATTCTTTCACACGTGGTGTTTATTACCCTGACAAAGTTTTCAGATCCTCAGT`.
+   4. Required reading: Selected pages from [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2023/08/BiologicalActivity-Dougall-Unitt.pdf%}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. **To answer offline-activity questions**, it is required to read pages 15-22 (1-8 of the 29 pages in total, before section &lsquo;*4. Types of Enzyme Inhibition and Their Analysis*&rsquo;), page 27 (section 6A), and pages 34-37 (*Assay Biostatistics*). The rest is optional reading.
 
+![]({{site.assetbaseurl}}{% link assets/2023/08/MarkovChain.jpg %}).
 
 <p id="lec9"></p>
 ### Lecture 9: From interactions to networks
 
-The course takes place exceptionally at Bernoullistrasse 30/32, kleiner Hörsaal 120.
+*The course takes place exceptionally at Bernoullistrasse 30/32, kleiner Hörsaal 120.*
 
 Note that on Friday, 24.11.2023, there is NO lecture due to Dies Academicus.
 
