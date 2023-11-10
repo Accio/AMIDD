@@ -135,6 +135,11 @@ the Google Form.
 <p id="lec8"></p>
 ### Lecture 8: Structure-based and ligand-based drug discovery
 
+* [Slides of lecture 8]({{site.assetbaseurl}}{% link assets/2023/08/AMIDD-2023-08-Protein-Ligand-Interaction.pdf %}).
+* Offline activities: see the slide #28 for the tasks. Submit the results before
+November 24th to [the Google form](https://forms.gle/ceSKTYNpURYHDuqNA)
+
+
 <p id="lec9"></p>
 ### Lecture 9: From interactions to networks
 
