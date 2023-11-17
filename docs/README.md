@@ -148,6 +148,9 @@ the Google Form.
 
 *The course takes place exceptionally at Bernoullistrasse 30/32, kleiner Hörsaal 120.*
 
+* [Slides of lecture 9]({{site.assetbaseurl}}{% link assets/2023/09/AMIDD-2023-09-From-Interactions-to-Networks.pdf %}).
+* Offline activities: read [*Computational methods in drug discovery*]({{site.assetbaseurl}}{% link assets/2023/09/Sliwoski-PharmacologicalReviews-2014-Computational-Methods-In-Drug-Discovery.pdf %}) by Gregory Sliwoski *et al*. Please submit your replies to questions [via this Google Form](https://forms.gle/RWyPctumbPHKdBoz9). The deadline of submitting the replies is *December 1st*.
+
 Note that on Friday, 24.11.2023, there is NO lecture due to Dies Academicus.
 
 <p id="lec10"></p>
