@@ -160,7 +160,7 @@ Note that on Friday, 24.11.2023, there is NO lecture due to Dies Academicus.
 
 
 <p id="lec11"></p>
-### Lecture 11: Population modeling
+### Lecture 11: DMPK and PK/PD modelling
 
 <p id="lec12"></p>
 ### Lecture 12: Invited talks
