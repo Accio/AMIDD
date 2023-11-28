@@ -29,7 +29,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
   * [Lecture 8: Ligand-based and structure-based drug discovery](#lec8) (10.11.2023)
   * [Lecture 9: From interactions to networks (**Attention** Room Change)](#lec9) (17.11.2023)
   * [*Dies academicus*](#dies-academicus) (24.11.2023, no lecture)
-  * [Lecture 10: Omics and novel models for translational research](#lec10) (01.12.2023)
+  * [Lecture 10: Omics and MoA studies for translational research](#lec10) (01.12.2023)
   * [Lectuer 11: DMPK and PKPD modelling](#lec11) (08.12.2023)
   * [Lecture 12: guest lectures](#lec12) (15.12.2023)
   * [Lecture 13: a collaboration challenge](#lec13) (22.12.2023)
@@ -154,7 +154,10 @@ the Google Form.
 Note that on Friday, 24.11.2023, there is NO lecture due to Dies Academicus.
 
 <p id="lec10"></p>
-### Lecture 10: Pharmacokinetic modeling
+### Lecture 10: Omics and MoA studies for translational research
+* [Slides of lecture 10]({{site.assetbaseurl}}{% link assets/2023/10/AMIDD-2023-10-omics-and-cellular-modelling.pdf %}).
+* Offline activities: read [*Ten Quick Tips for Effective Dimensionality Reduction*]({{site.assetbaseurl}}{% link assets/2023/10/Nguyen-Holmes-PLOSCompBio-2019-dim-red.pdf %}) by Nguyen und Holmes. Apply the knowledge to a real-world example: See the instructions in the slides.
+
 
 <p id="lec11"></p>
 ### Lecture 11: Population modeling
