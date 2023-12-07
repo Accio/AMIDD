@@ -30,7 +30,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
   * [Lecture 9: From interactions to networks (**Attention** Room Change)](#lec9) (17.11.2023)
   * [*Dies academicus*](#dies-academicus) (24.11.2023, no lecture)
   * [Lecture 10: Omics and MoA studies for translational research](#lec10) (01.12.2023)
-  * [Lectuer 11: DMPK and PKPD modelling](#lec11) (08.12.2023)
+  * [Lectuer 11: PK/PD modelling](#lec11) (08.12.2023)
   * [Lecture 12: guest lectures](#lec12) (15.12.2023)
   * [Lecture 13: a collaboration challenge](#lec13) (22.12.2023)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
@@ -155,12 +155,19 @@ Note that on Friday, 24.11.2023, there is NO lecture due to Dies Academicus.
 
 <p id="lec10"></p>
 ### Lecture 10: Omics and MoA studies for translational research
+
 * [Slides of lecture 10]({{site.assetbaseurl}}{% link assets/2023/10/AMIDD-2023-10-omics-and-cellular-modelling.pdf %}).
 * Offline activities: read [*Ten Quick Tips for Effective Dimensionality Reduction*]({{site.assetbaseurl}}{% link assets/2023/10/Nguyen-Holmes-PLOSCompBio-2019-dim-red.pdf %}) by Nguyen und Holmes. Apply the knowledge to a real-world example: See the instructions in the slides.
 
 
 <p id="lec11"></p>
-### Lecture 11: DMPK and PK/PD modelling
+### Lecture 11: PK/PD modelling
+
+* [Slides of lecture 11]({{site.assetbaseurl}}{% link assets/2023/11/AMIDD-2023-11-PKPD-modelling.pdf %}).
+* Required readings (no reply submission required)
+    * Davies, Michael, et al.. 2020. [“Improving the Accuracy of Predicted Human Pharmacokinetics: Lessons Learned from the AstraZeneca Drug Pipeline Over Two Decades.”](https://doi.org/10.1016/j.tips.2020.03.004) Trends in Pharmacological Sciences 41 (6): 390–408.
+    * Jones, H. M., and K. Rowland‐Yeo. 2013. [“Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development.”](https://doi.org/10.1038/psp.2013.41) CPT: Pharmacometrics & Systems Pharmacology 2 (8): 63.
+
 
 <p id="lec12"></p>
 ### Lecture 12: Invited talks
