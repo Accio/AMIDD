@@ -164,10 +164,10 @@ Note that on Friday, 24.11.2023, there is NO lecture due to Dies Academicus.
 ### Lecture 11: PK/PD modelling
 
 * [Slides of lecture 11]({{site.assetbaseurl}}{% link assets/2023/11/AMIDD-2023-11-PKPD-modelling.pdf %}).
-* Required readings (no reply submission required)
-    * Davies, Michael, et al.. 2020. [“Improving the Accuracy of Predicted Human Pharmacokinetics: Lessons Learned from the AstraZeneca Drug Pipeline Over Two Decades.”](https://doi.org/10.1016/j.tips.2020.03.004) Trends in Pharmacological Sciences 41 (6): 390–408.
-    * Jones, H. M., and K. Rowland‐Yeo. 2013. [“Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development.”](https://doi.org/10.1038/psp.2013.41) CPT: Pharmacometrics & Systems Pharmacology 2 (8): 63.
-
+* Required reading: pick *one* publication to read according to your interest. *No reply submission required.*
+    * [Industrial approach to predict human PK] Davies, Michael, et al.. 2020. [“Improving the Accuracy of Predicted Human Pharmacokinetics: Lessons Learned from the AstraZeneca Drug Pipeline Over Two Decades.”](https://doi.org/10.1016/j.tips.2020.03.004) Trends in Pharmacological Sciences 41 (6): 390–408.
+    * [Introduction to PBPK modelling] Jones, H. M., and K. Rowland‐Yeo. 2013. [“Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development.”](https://doi.org/10.1038/psp.2013.41) CPT: Pharmacometrics & Systems Pharmacology 2 (8): 63.
+    * [Application of machine learning for PK prediction] Stoyanova, R. et al. [Computational Predictions of Nonclinical Pharmacokinetics at the Drug Design Stage](https://pubs.acs.org/doi/10.1021/acs.jcim.2c01134). J. Chem. Inf. Model. 63, 442–458 (2023).
 
 <p id="lec12"></p>
 ### Lecture 12: Invited talks
