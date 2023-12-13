@@ -172,6 +172,17 @@ Note that on Friday, 24.11.2023, there is NO lecture due to Dies Academicus.
 <p id="lec12"></p>
 ### Lecture 12: Invited talks
 
+We shall have two guest speakers: Hanna Silber Baumann and Ercan Suekuer.
+
+* Hanna Silber Baumann holds a PhD in pharmacometric modeling and simulation. She has been working at Roche in the modeling and simulation group for about 10 years. Her talk will be *between 12:15 and 12:40*.
+* Ercan Suekuer holds a B.Sc. in Bioinformatics, a M.Sc. in Bioprocess Engineering, and a M.Sc. in Data Science (AI). He has spent the majority of my career since 2008 in the pharmaceutical industry. Now he is a Senior Data Scientist at Roche, where he provides data support to colleagues in both the preclinical and clinical environments. His talk will be *between 12:45 and 13:10*.
+
+After the two talks, we will use the rest of the time to
+
+* Review offline activities so far;
+* Give instructions about the collaboration challenge of the last lecture;
+* Fill the evaluation form of the course.
+
 <p id="lec13"></p>
 ### Lecture 13: A Collaboration Challenge
 
