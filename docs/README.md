@@ -31,8 +31,8 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
   * [*Dies academicus*](#dies-academicus) (24.11.2023, no lecture)
   * [Lecture 10: Omics and MoA studies for translational research](#lec10) (01.12.2023)
   * [Lectuer 11: PK/PD modelling](#lec11) (08.12.2023)
-  * [Lecture 12: guest lectures](#lec12) (15.12.2023)
-  * [Lecture 13: a collaboration challenge](#lec13) (22.12.2023)
+  * [Lecture 12: Guest lectures](#lec12) (15.12.2023)
+  * [Lecture 13: A collaboration challenge](#lec13) (22.12.2023)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
 - [Archives of past courses](#archives-of-past-courses)
 
@@ -170,12 +170,12 @@ Note that on Friday, 24.11.2023, there is NO lecture due to Dies Academicus.
     * [Application of machine learning for PK prediction] Stoyanova, R. et al. [Computational Predictions of Nonclinical Pharmacokinetics at the Drug Design Stage](https://pubs.acs.org/doi/10.1021/acs.jcim.2c01134). J. Chem. Inf. Model. 63, 442–458 (2023).
 
 <p id="lec12"></p>
-### Lecture 12: Invited talks
+### Lecture 12: Guest lectures
 
 We shall have two guest speakers: Hanna Silber Baumann and Ercan Suekuer.
 
 * Hanna Silber Baumann holds a PhD in pharmacometric modeling and simulation. She has been working at Roche in the modeling and simulation group for about 10 years. Her talk will be *between 12:15 and 12:40*.
-* Ercan Suekuer holds a B.Sc. in Bioinformatics, a M.Sc. in Bioprocess Engineering, and a M.Sc. in Data Science (AI). He has spent the majority of my career since 2008 in the pharmaceutical industry. Now he is a Senior Data Scientist at Roche, where he provides data support to colleagues in both the preclinical and clinical environments. His talk will be *between 12:45 and 13:10*.
+* Ercan Suekuer holds a B.Sc. in Bioinformatics, a M.Sc. in Bioprocess Engineering, and a M.Sc. in Data Science (AI). He has spent the majority of his career since 2008 in the pharmaceutical industry. Now he is a Senior Data Scientist at Roche, where he provides data support to colleagues in both the preclinical and clinical environments. His talk will be *between 12:45 and 13:10*.
 
 After the two talks, we will use the rest of the time to
 
@@ -184,7 +184,7 @@ After the two talks, we will use the rest of the time to
 * Fill the evaluation form of the course.
 
 <p id="lec13"></p>
-### Lecture 13: A Collaboration Challenge
+### Lecture 13: A collaboration challenge
 
 Details will be announced.
 
