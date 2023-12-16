@@ -34,6 +34,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
   * [Lecture 12: Guest lectures](#lec12) (15.12.2023)
   * [Lecture 13: A collaboration challenge](#lec13) (22.12.2023)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
+- [Offline activities](#oas)
 - [Archives of past courses](#archives-of-past-courses)
 
 ## Time and place
@@ -187,6 +188,11 @@ After the two talks, we will use the rest of the time to
 ### Lecture 13: A collaboration challenge
 
 Details will be announced.
+
+<p id="oas"></p>
+## Offline activities
+
+You can find all offline activity questions and answers for AMIDD 2023, as well as answers to the questions raised by participants, in [this PDF document]({{site.assetbaseurl}}{% link assets/2023/AMIDD-2023-OAs.pdf %}).
 
 ## Further questions or suggestions?
 
