@@ -187,7 +187,7 @@ After the two talks, we will use the rest of the time to
 <p id="lec13"></p>
 ### Lecture 13: A collaboration challenge
 
-Details will be announced.
+Details are announced in the classroom during lecture 12.
 
 <p id="oas"></p>
 ## Offline activities
