@@ -1,0 +1,112 @@
+# Pharmacokinetic model and physiologically based pharmacokinetic model (PBPK)
+
+## A minimastic example of a one-compartment PK model
+
+Example is cited from the vignette of [mrgsolve](https://mrgsolve.org/vignettes/01-get-started.html). Another good resource is provided by the [blog post *Pharmacometric simulation with mrgsolve*](https://blog.djnavarro.net/posts/2023-08-14_mrgsolve/#model-specification) by Danielle Navarro.
+
+```{r pbpk_setup}
+knitr::opts_chunk$set(echo=FALSE,
+                      message=FALSE,
+                      fig.path = "figures/15-pbpk-",
+                      dev = c('png','pdf'),
+                      dpi = 300,
+                      fig.width=7, fig.height=5)
+library(mrgsolve)
+library(ggplot2)
+library(ribiosUtils)
+library(tidyr)
+library(dplyr)
+theme_set(theme_light(base_size=13))
+```
+
+We use a one-compartment model to demonstrate the idea of PK modelling.
+
+```{r}
+mod <- modlib("pk1")
+mod
+```
+
+```{r}
+see(mod)
+```
+
+Compartments
+
+* EV: extravascular dosing compartments, for instance the injection site.
+* CENT: the central PK compartment
+
+Initially, after an extravascular administration, the entire drug is at the site of absorption and has not reached the systemic circulation. Therefore, the rate of absorption is high and there is no elimination yet. As long as the rate of absorption exceeds that of elimination, the plasma concentration rises. This phase is also called the absorption phase. The maximum concentration (Cmax) is reached when the rate of disposition matches the rate of absorption. Thereafter, the rate of disposition exceeds the rate of absorption and the plasma concentration declines (disposition phase).
+
+Input parameters:
+
+* CL: clearance (volume/time)
+* V: Volume of distribution in the central compartment (volume)
+* KA: first-order absorption rate from the extravascular compartment (1/time).
+
+Output parameter:
+
+* CP: concentration in the central compartment (CENT/VC)
+
+The differential equations for the one-compartment PK model can be written as:
+
+$$
+\frac{dC}{dt}=k_{A} - \frac{\mathrm{CL}}{V}C_{t}
+$$
+In the equation, $C$ stands for the plasma concentration, $t$ the time, $k_{A}$ the absorption rate, $\mathrm{CL}$ the clearance, $V$ the volume, and $C_{t}$ for the plasma concentration at the time point $t$.
+
+```{r pk1_conc_time, fig.height=4, fig.width=8}
+event <- ev(amt = 50, ii=24, addl = 9)
+out <- mod %>% ev(event) %>% mrgsim(end = 240, delta = 0.1)
+pk1plot <- ggplot(as.data.frame(out), aes(x=time, y=CP)) +
+  geom_line() +
+  xlab("Time [h]") +
+  ylab("Central-compartment concentration") +
+  ggtitle("Concentration in plasma (CP) versus time",
+          subtitle = "One-compartment PK model, first-order absorption and elimination")
+print(pk1plot)
+```
+
+## A minimastic example of a two-compartment PK model
+
+```{r}
+owd <- setwd("data")
+mod2    <- mread_file(file = "mod-pk2cmt.cpp", quiet = TRUE)
+events_mod2 <- ev_expand(amt = 10, ii = 24, addl = 19)
+times_mod2  <- tgrid(start = 0, end = 960, delta = 0.2)
+```
+
+```{r}
+see(mod2)
+```
+
+```{r, pk2cmt, fig.height=4, fig.width=8}
+# run simulation and plot results
+out_mod2 <- mrgsim_d(mod2, data = events_mod2, tgrid = times_mod2)
+data_mod2 <- as.data.frame(out_mod2) %>%
+  tidyr::pivot_longer(cols=c("GUT", "CENT", "PERIPH", "CP", "CT"))
+data_mod2_viz <- data_mod2 %>% dplyr::filter(name %in% c("CP", "CT")) %>%
+                       dplyr::mutate(name = relevels(name, refs=c("CP", "CT")))
+pk2cmtPlot <- ggplot(data_mod2_viz, aes(x=time, y=value)) +
+  geom_line() + facet_wrap(~name, scale="free_y") +
+  xlab("Time [h]") +
+  ylab("Concentration") +
+  ggtitle("Concentration in plasma (CP) and peripheral (CT) versus time",
+          subtitle = "Two-compartment PK model")
+print(pk2cmtPlot)
+```
+
+The differential equations for the two-compartment PK model can be written as:
+
+$$
+\frac{d\mathrm{Gut}}{dt}= - k_{A}\mathrm{Gut} \\
+\frac{d\mathrm{Cp}}{dt} = \frac{k_{A}\mathrm{Cgut} - \mathrm{CL}_\mathrm{NL}\mathrm{Cp} + Q\mathrm{Ct}}{\mathrm{V_C}} \\
+\frac{d\mathrm{Ct}}{dt} = \frac{Q\mathrm{Cp} - Q\mathrm{Ct}}{\mathrm{V_t}}
+$$
+In the equation, $\mathrm{Gut}$ stands for the drug amount in gut. $\mathrm{V_C}$ and $\mathrm{V_T}$ represent the volume of the central compartment (plasma) and peripheral tissues, respectively. Correspondingly, $\mathrm{Cp}$ and $\mathrm{Ct}$ represent plasma, and peripheral concentrations, respectively. Other parameters include the time $t$ and the absorption rate $k_{A}$. $Q$ represents the inter-compartment clearance, which is the volume-independent parameter that specifies the rate of drug transfer between compartments (volume/time). Finally, the parameter $\mathrm{CL}_\mathrm{NL}$ reflects non-linear clearance defined by the Michaelis-Menton kinetics (mass/time/(mass/volume), or volume/time).
+
+$$
+\mathrm{CL}_\mathrm{NL} = \frac{V_\mathrm{max}}{K_\mathrm{M} + \mathrm{Cp}}
+$$
+The $V_\mathrm{max}$ (maximum reaction rate) has the unit of moles/min. $K_\mathrm{M}$ has the same unit as $Cp$, namely the concentration (e.g. mol/mL).
+
+Options to draw compartment  diagrams: EpiModel and diagram.

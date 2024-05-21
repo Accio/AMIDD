@@ -14,9 +14,11 @@ knitr::opts_chunk$set(fig.path = "figures/02-")
 
 A popular mental model and visual representation of the drug discovery process is the linear view that starts with disease understanding and target identification and ends with clinical trials, product launch, and post-launch activities. One such model is represented in \@ref{fig:drugDiscoveryLinearGV}.
 
-```{r drugDiscoveryLinearGV, fig.cap="The linear presentation of the drug-discovery process", out.width="100%", fig.height=4}
-DiagrammeR::grViz("data/linear-drug-discovery-workflow.gv")
+```{r drugDiscoveryLinearGV, fig.cap="The linear presentation of the drug-discovery process. Box indicates coarse-grained phases of the process, which are explained in the main text.", out.width="100%", fig.height=4}
+DiagrammeR::grViz("data/linear-drug-discovery-workflow.gv", width=800)
 ```
+
+The linear model starts with disease understanding, which indicates the process of establishing cause-effect relationships in the context of human diseases that can be pharmaceutically exploited. Target identification describes the process of identifying one or few biological targets, such as proteins and RNAs, which shall be modulated by the drug candidate. In lead identification and optimization, scaffolds of pharmaceutical potential are selected, and the structures are modified to improve the affinity, pharmacological, and toxicological profiles of the drugs. In preclinical development, a few drug candidates are tested in animal studies or new approach methodologies such as stem-cell derived organoids or organ-on-a-chip platforms to select one candidate that will enter human, to determine PK/PD and safety profiles of the candidate, and to make other necessary preparations for the molecule in clinical testing (for instance formulation). In Phase I, II, and III clinical trials, the selected candidate is tested first in healthy volunteers, then in a small patient population, and finally in a large cohort of patients. Upon successful clinical trials, the drug is approved and launched. Post-marketing activities sometimes ensue, for instance pharmacovigilance studies to monitor efficacy and safety profiles of drugs in real-world applications.
 
 There are many variants of the model, with some stages merged, omitted, or named otherwise. However, the variants share the common feature that they represent drug discovery as a sequential process. Each stage receives input from the previous stage and provides input to the next stage, except for the first and the last stage.
 

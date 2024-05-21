@@ -130,6 +130,7 @@ sinplot +
   ylim(1,5)
 
 ```
+
 ```{r fig.height=3, fig.width=4}
 data1_2_kmeans <- kmeans(data1_2, centers = 3)
 kmeansPlot <- ggplot(data1_2 %>% mutate(cluster=factor(data1_2_kmeans$cluster)), 

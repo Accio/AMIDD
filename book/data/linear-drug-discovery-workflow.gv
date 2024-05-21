@@ -7,7 +7,7 @@ digraph LinearWorkflow {
 	fixedsize=false,
 	width=1,
 	height=0.618,
-	fontsize=16,
+	fontsize=40,
 	fillcolor = "lightyellow:khaki",
 	gradientangle=315,
 	fontname="Arial"]
@@ -28,7 +28,9 @@ digraph LinearWorkflow {
   edge [color = black,
         arrowname = vee,
         fontname="Helvetica",
-        fontsize=10]
+        fontsize=10,
+        penwidth=2]
+
   DU -> TI
   TI -> LI
   ## TI -> TV
