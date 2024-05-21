@@ -1,44 +1,47 @@
 digraph LinearWorkflow {
 
-  graph [rankdir = TB]
+  graph [rankdir = LR]
 
   node [shape = record,
 	style = filled,
-	fixedsize=true,
-	width=4,
+	fixedsize=false,
+	width=1,
 	height=0.618,
 	fontsize=14,
 	fillcolor = "lightyellow:khaki",
 	gradientangle=315,
 	fontname="Helvetica"]
-  DU[label=< <B>Disease understanding</B> >]
-  TI[label=< <B>Target Identification</B> >]
-  TV[label=< <B>Target Validation</B> >]
-  LI [label=< <B>Lead Identification</B> >]
-  LO [label=< <B>Lead Optimization</B> >]
-  PcD [label=< <B>Preclinical development</B> >]
-  CT1 [label=< <B>Phase I Clinical Trial</B> >]
-  CT2 [label=< <B>Phase II Clinical Trial</B> >]
-  CT3 [label=< <B>Phase III Clinical Trial</B> >] 
-  Sub [label=< <B>Submission to Launch</B> >] 
-  Approval [label=< <B>Approval</B> >]  
-  Launch [label=< <B>Launch</B> >]  
-  CT4 [label=< <B>Post-launch activities</B> >] 
-  
+  DU[label="Disease\nunderstanding"]
+  TI[label="Target\nidentification"]
+  ## TV[label="Target\nValidation"]
+  LI [label="Lead\nidentification"]
+  LO [label="Lead\noptimization"]
+  PcD [label="Preclinical\ndevelopment"]
+  CT1 [label="Phase I\nclinical trial"]
+  CT2 [label="Phase II\nclinical trial"]
+  CT3 [label="Phase III\nclinical trial"]
+  ## Sub [label="Submission"]
+  Approval [label="Approval &\nlaunch"]
+  ## Launch [label="Launch"]
+  ## CT4 [label="Post-launch activities"]
+
   edge [color = black,
         arrowname = vee,
         fontname="Helvetica",
         fontsize=10]
   DU -> TI
-  TI -> TV
-  TV -> LI
+  TI -> LI
+  ## TI -> TV
+  ## TV -> LI
   LI -> LO
   LO -> PcD
   PcD -> CT1
   CT1 -> CT2
   CT2 -> CT3
-  CT3 -> Sub
-  Sub -> Approval
-  Approval -> Launch
-  Launch -> CT4
+  ## CT3 -> Sub
+  ## Sub -> Approval
+  ## Approval -> Launch
+
+  CT3 -> Approval
+  ## Launch -> CT4
 }
