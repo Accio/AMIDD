@@ -1,6 +1,6 @@
 # Encoding and similarity search of chemical structures {#cheminfo}
 
-```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+```{r setup_chapter7, include=FALSE, message=FALSE, warning=FALSE}
 knitr::opts_chunk$set(echo = TRUE, 
                       fig.height=5, fig.width=5)
 library(ribiosUtils)
@@ -215,6 +215,19 @@ ggplot(data=nonld, aes(x=x, y=y, col=z)) +
     
 ```
 
+```{r}
+set.seed(1887)
+library(randomForest)
+library(tree)
+library(caret)
+nonld_train <- sample_frac(nonld, 0.8)
+nonld_test <- nonld %>% filter(!index %in% nonld_train$index)
+rf <- randomForest(z~., data=nonld_train %>% dplyr::select(-index),
+                   ntree=100)
+nonld_test_pred <- predict(rf, nonld_test)
+caret::confusionMatrix(nonld_test_pred, nonld_test$z)
+```
+
 ```{r nonldTrainTest, fig.height=3, fig.width=7}
 nonld_train_test <- rbind(cbind(nonld_train, partition="train"),
                           cbind(nonld_test, partition="test")) %>%
@@ -227,18 +240,6 @@ ggplot(data=nonld_train_test, aes(x=x, y=y, col=z)) +
         panel.grid.minor = element_blank(),
         panel.border = element_blank(),
         panel.background = element_blank()) 
-```
-
-```{r}
-set.seed(1887)
-library(randomForest)
-library(tree)
-nonld_train <- sample_frac(nonld, 0.8)
-nonld_test <- nonld %>% filter(!index %in% nonld_train$index)
-rf <- randomForest(z~., data=nonld_train %>% dplyr::select(-index),
-                   ntree=100)
-nonld_test_pred <- predict(rf, nonld_test)
-confusionMatrix(nonld_test_pred, nonld_test$z)
 ```
 
 ```{r, fig.height=4, fig.width=4}
@@ -254,6 +255,7 @@ library(reprtree)
 reprtree::plot.getTree(rf, k=1)
 reprtree::plot.getTree(rf, k=20)
 ```
+
 ```{r}
 library(neuralnet)
 nonald_train_nn <- nonld_train %>% dplyr::select(-index) %>%
