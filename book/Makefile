@@ -23,3 +23,10 @@ book-proposal-zhang-202010.pdf: 00-preface.Rmd
 
 copy-00-preface.txt: 00-preface.txt
 	xclip -i 00-preface.txt -selection clipboard
+
+## the two rules below were created on 21.05.24: is it possible to make them automatially?
+figures/linear-drug-discovery-workflow.pdf:
+	dot data/linear-drug-discovery-workflow.gv -Tpdf -o figures/linear-drug-discovery-workflow.pdf
+
+figures/linear-drug-discovery-workflow.png:
+	dot data/linear-drug-discovery-workflow.gv -Tpng -o figures/linear-drug-discovery-workflow.png

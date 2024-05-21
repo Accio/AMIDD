@@ -1,16 +1,16 @@
 digraph LinearWorkflow {
 
-  graph [rankdir = LR]
+  graph [rankdir = LR, dpi = 300]
 
   node [shape = record,
 	style = filled,
 	fixedsize=false,
 	width=1,
 	height=0.618,
-	fontsize=14,
+	fontsize=16,
 	fillcolor = "lightyellow:khaki",
 	gradientangle=315,
-	fontname="Helvetica"]
+	fontname="Arial"]
   DU[label="Disease\nunderstanding"]
   TI[label="Target\nidentification"]
   ## TV[label="Target\nValidation"]
