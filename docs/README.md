@@ -1,16 +1,19 @@
 Welcome to the website for *Applied Mathematics and Informatics In Drug
 Discovery* (AMIDD), the course series running at the Department of Mathematics
-and Informatics, University of Basel in the fall semester 2023.
+and Informatics, University of Basel in the fall semester 2024.
 
 The course series introduces interdisciplinary research in drug discovery with
-mathematics as the language and computation as the tool. We have a diverse and
-lively class room that learn together and from each other: every year about two
-third students of the class study mathematics or computer science, while other
+mathematics as the language and computation as the tool. We welcome bachelor,
+master, and PhD students of diverse backgrounds. We have a diverse and lively
+class room that learn together and from each other: every year about two third
+students of the class study mathematics or computer science, while other
 students study physics, chemistry, (computational) biology, pharmacy, and other
 fields such as epidemiology and medicine.
 
+The course is in-person only. Remote or virtual attendance is unfortunately not feasible.
+
 More information on the course can be found at [the course directory of the University
-Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
+Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=286574).
 
 ## Table of content
 
@@ -19,34 +22,31 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=276986).
 - [Pre-course survey](#pre-course-survey)
 - [Assessment](#assessment)
 - [Syllabus](#syllabus)
-  * [Lecture 1: Introduction](#lec1) (22.09.2023)
-  * [Lecture 2: Protein as drug targets and mathematical modelling](#lec2) (29.09.2023)
-  * [Lecture 3: Statistical modelling and machine learning](#lec3) (06.10.2023)
-  * [Lecture 4: Causal inference](#lec4) (13.10.2023)
-  * [Lecture 5: Searching for key questions for drug discovery](#lec5) (20.10.2023)
-  * [Lecture 6: Five key questions of drug discovery](#lec6) (27.10.2023)
-  * [Lecture 7: Biological sequence analysis](#lec7) (03.11.2023)
-  * [Lecture 8: Ligand-based and structure-based drug discovery](#lec8) (10.11.2023)
-  * [Lecture 9: From interactions to networks (**Attention** Room Change)](#lec9) (17.11.2023)
-  * [*Dies academicus*](#dies-academicus) (24.11.2023, no lecture)
-  * [Lecture 10: Omics and MoA studies for translational research](#lec10) (01.12.2023)
-  * [Lectuer 11: PK/PD modelling](#lec11) (08.12.2023)
-  * [Lecture 12: Guest lectures](#lec12) (15.12.2023)
-  * [Lecture 13: A collaboration challenge](#lec13) (22.12.2023)
+  * [Lecture 1: Introduction to drug discovery](#lec1) (20.09.2024)
+  * [Lecture 2: Protein as drug targets and mathematical modelling](#lec2) (27.09.2024)
+  * [Lecture 3: Statistical modelling, machine learning, and generative models](#lec3) (04.10.2024)
+  * [Lecture 4: Causal inference](#lec4) (11.10.2024)
+  * [Lecture 5: Searching for key questions for drug discovery](#lec5) (18.10.2024)
+  * [Lecture 6: Five key questions of drug discovery](#lec6) (25.10.2024)
+  * [Lecture 7: Biological sequence analysis](#lec7) (01.11.2024)
+  * [Lecture 8: Ligand-based and structure-based drug discovery](#lec8) (08.11.2024)
+  * [Lecture 9: From interactions to networks](#lec9) (15.11.2024)
+  * [Lecture 10: Omics and MoA studies for translational research](#lec10) (22.11.2024)
+  * [*Dies academicus*](#dies-academicus) (29.11.2024, no lecture)
+  * [Lectuer 11: PK/PD modelling](#lec11) (06.12.2024)
+  * [Lecture 12: Guest lectures](#lec12) (13.12.2024)
+  * [Lecture 13: A collaboration challenge](#lec13) (20.12.2024)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
 - [Offline activities](#oas)
 - [Archives of past courses](#archives-of-past-courses)
 
 ## Time and place
 
-The lecture takes place on Fridays between 12:15 and 14:00 at Spiegelgasse 5,
-Seminarraum 05.002.
+The lecture takes place on Fridays between 12:15 and 14:00 at Spiegelgasse 5, Seminarraum 05.002. In-person attendance is required.
 
 ## Course material and licensing
 
-Course material, including lecture notes, slides, and reading material, are
-shared on the course's web site, [AMIDD.ch](http://amidd.ch), unless otherwise
-specified in the course.
+Course material, including lecture notes, slides, and reading material, are shared on the course's web site, [AMIDD.ch](http://amidd.ch), unless otherwise specified in the course.
 
 All course material, unless otherwise stated, is shared under the Creative
 Commons (CC-BY-SA 4.0) license.
@@ -54,7 +54,7 @@ Commons (CC-BY-SA 4.0) license.
 ## Pre-course survey
 
 Prior to attending the first session, please [fill out the voluntary pre-course
-survey](https://forms.gle/Xbk6ExbfNUxUgqm76). Your reply helps me to shape the
+survey](). Your reply helps me to shape the
 course to meet your needs.
 
 ## Assessment
@@ -68,7 +68,7 @@ activities (40%), and a collaboration challenge in the final session (30%).
 
 ### Lecture 1: Introduction
 
-The first module is finished with the first lecture.
+The first lecture introduces drugs and drug discovery.
 
 * [Slides]({{site.assetbaseurl}}{% link assets/2023/01/AMIDD-2023-01-Intro.pdf %})
 * Please fill [the anonymous post-lecture survey of Lecture 1](https://forms.gle/UDgSe3CVfzSCkCEa7).
@@ -201,6 +201,7 @@ Please contact the lecturer, Jitao David Zhang, at [jitao-david.zhang@unibas.ch]
 
 ## Archives of past courses
 
+* [AMIDD 2023]({{site.baseurl}}{% link archive/README-2023.md %})
 * [AMIDD 2022]({{site.baseurl}}{% link archive/README-2022.md %})
 * [AMIDD 2021]({{site.baseurl}}{% link archive/README-2021.md %})
 * [AMIDD 2020]({{site.baseurl}}{% link archive/README-2020.md %})
