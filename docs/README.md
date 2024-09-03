@@ -4,13 +4,13 @@ and Informatics, University of Basel in the fall semester 2024.
 
 The course series introduces interdisciplinary research in drug discovery with
 mathematics as the language and computation as the tool. We welcome bachelor,
-master, and PhD students of diverse backgrounds. We have a diverse and lively
-class room that learn together and from each other: every year about two third
-students of the class study mathematics or computer science, while other
-students study physics, chemistry, (computational) biology, pharmacy, and other
-fields such as epidemiology and medicine.
+master, and PhD students of diverse backgrounds including (but not limited to)
+mathematics, computer science, physics, chemistry, (computational) biology,
+pharmacy, and other fields such as epidemiology and medicine.
 
-The course is in-person only. Remote or virtual attendance is unfortunately not feasible.
+We have a diverse and lively class room that work with and learn from each other
+interactively. Therefore the course is *in-person only*. Remote or virtual
+attendance is unfortunately not feasible.
 
 More information on the course can be found at [the course directory of the University
 Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=286574).
