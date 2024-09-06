@@ -55,7 +55,7 @@ Commons (CC-BY-SA 4.0) license.
 ## Pre-course survey
 
 Prior to attending the first session, please [fill out the voluntary pre-course
-survey](). Your reply helps me to shape the
+survey](https://forms.gle/JvkCKt5ZMeUkDUhq9). Your reply helps me to shape the
 course to meet your needs.
 
 ## Assessment
