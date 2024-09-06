@@ -35,7 +35,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=286574).
   * [Lecture 10: Omics and MoA studies for translational research](#lec10) (22.11.2024)
   * [*Dies academicus*](#dies-academicus) (29.11.2024, no lecture)
   * [Lectuer 11: PK/PD modelling](#lec11) (06.12.2024)
-  * [Lecture 12: Guest lectures](#lec12) (13.12.2024)
+  * [Lecture 12: Guest lecture](#lec12) (13.12.2024)
   * [Lecture 13: A collaboration challenge](#lec13) (20.12.2024)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
 - [Offline activities](#oas)
@@ -102,7 +102,7 @@ The first lecture introduces drugs and drug discovery.
 ### Lecture 11: PK/PD modelling
 
 <p id="lec12"></p>
-### Lecture 12: Guest lectures
+### Lecture 12: Guest lecture
 
 <p id="lec13"></p>
 ### Lecture 13: A collaboration challenge
