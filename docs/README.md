@@ -47,7 +47,7 @@ The lecture takes place on Fridays between 12:15 and 14:00 at Spiegelgasse 5, Se
 
 ## Course material and licensing
 
-Course material, including lecture notes, slides, and reading material, are shared on the course's web site, [AMIDD.ch](http://amidd.ch), unless otherwise specified in the course.
+Course material, including lecture notes, slides, and reading material, are shared on [this web site, http://AMIDD.ch](http://amidd.ch), unless otherwise specified in the course.
 
 All course material, unless otherwise stated, is shared under the Creative
 Commons (CC-BY-SA 4.0) license.
