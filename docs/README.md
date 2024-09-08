@@ -24,17 +24,17 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=286574).
 - [Assessment](#assessment)
 - [Syllabus](#syllabus)
   * [Lecture 1: Introduction to drug discovery](#lec1) (20.09.2024)
-  * [Lecture 2: Protein as drug targets and mathematical modelling](#lec2) (27.09.2024)
-  * [Lecture 3: Statistical modelling, machine learning, and generative models](#lec3) (04.10.2024)
-  * [Lecture 4: Causal inference](#lec4) (11.10.2024)
-  * [Lecture 5: Searching for key questions for drug discovery](#lec5) (18.10.2024)
-  * [Lecture 6: Five key questions of drug discovery](#lec6) (25.10.2024)
-  * [Lecture 7: Biological sequence analysis](#lec7) (01.11.2024)
-  * [Lecture 8: Ligand-based and structure-based drug discovery](#lec8) (08.11.2024)
-  * [Lecture 9: From interactions to networks](#lec9) (15.11.2024)
-  * [Lecture 10: Omics and MoA studies for translational research](#lec10) (22.11.2024)
+  * [Lecture 2: Players in the game of drug discovery](#lec2) (27.09.2024)
+  * [Lecture 3: Key questions to be addressed during drug discovery](#lec3) (04.10.2024)
+  * [Lecture 4: Proteins as drug targets](#lec4) (11.10.2024)
+  * [Lecture 5: Molecules as drug candidates](#lec5) (18.10.2024)
+  * [Lecture 6: Biological sequence analysis](#lec6) (25.10.2024)
+  * [Lecture 7: Ligand-target interaction](#lec7) (01.11.2024)
+  * [Lecture 8: Lead identification and optimization](#lec8) (08.11.2024)
+  * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (15.11.2024)
+  * [Lecture 10: Animal studies and other roads leading to entry into human](#lec10) (22.11.2024)
   * [*Dies academicus*](#dies-academicus) (29.11.2024, no lecture)
-  * [Lectuer 11: PK/PD modelling](#lec11) (06.12.2024)
+  * [Lectuer 11: Population PK/PD relationship](#lec11) (06.12.2024)
   * [Lecture 12: Guest lecture](#lec12) (13.12.2024)
   * [Lecture 13: A collaboration challenge](#lec13) (20.12.2024)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
@@ -58,48 +58,49 @@ Prior to attending the first session, please [fill out the pre-course survey](ht
 
 ## Assessment
 
-The final note is given by participation including quizzes (30%), offline
-activities (40%), and a collaboration challenge in the final session (30%).
+The final note is given by participation including in-class quizzes (30%),
+offline activities (40%), and a collaboration challenge in the final session
+(30%).
 
 ## Syllabus
 
 <p id="lec1"></p>
 
-### Lecture 1: Introduction
+### Lecture 1: Introduction to drug discovery
 
 The first lecture introduces drugs and drug discovery.
 
 <p id="lec2"></p>
 
-### Lecture 2: Drug targets and mechanistic modelling
+### Lecture 2: Players in the game of drug discovery
 
 <p id="lec3"></p>
-### Lecture 3: Statistical modelling and machine learning
+### Lecture 3: Key questions to be addressed by drug discovery
 
 <p id="lec4"></p>
-### Lecture 4: Causal inference
+### Lecture 4: Proteins as drug targets
 
 <p id="lec5"></p>
-### Lecture 5: Searching for key questions in drug discovery
+### Lecture 5: Molecules as drug candidates
 
 
 <p id="lec6"></p>
-### Lecture 6: Disease understanding and target identification
+### Lecture 6: Biological sequence analysis
 
 <p id="lec7"></p>
-### Lecture 7: Biological sequence analysis
+### Lecture 7: Ligand-target interaction
 
 <p id="lec8"></p>
-### Lecture 8: Structure-based and ligand-based drug discovery
+### Lecture 8: Lead identification and optimization
 
 <p id="lec9"></p>
-### Lecture 9: From interactions to networks
+### Lecture 9: Mechanism and mode of action of drug candidates
 
 <p id="lec10"></p>
-### Lecture 10: Omics and MoA studies for translational research
+### Lecture 10: Animal studies and other roads leading to entry into human
 
 <p id="lec11"></p>
-### Lecture 11: PK/PD modelling
+### Lecture 11: Population PK/PD relationship
 
 <p id="lec12"></p>
 ### Lecture 12: Guest lecture
