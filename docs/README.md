@@ -70,6 +70,10 @@ offline activities (40%), and a collaboration challenge in the final session
 
 The first lecture introduces drugs and drug discovery.
 
+* Preparatory reading/watching
+    * If you need a refresher of the central dogma of biology, please watch [this YouTube video](https://www.youtube.com/watch?v=9kOGOY7vthk).
+    * If you are not familiar with the process of drug discovery and development, you may benefit from watching [this YouTube video made by Novartis](https://www.youtube.com/watch?v=3Gl0gAcW8rw).
+
 <p id="lec2"></p>
 
 ### Lecture 2: Players in the game of drug discovery
