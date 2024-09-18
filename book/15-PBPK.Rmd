@@ -94,6 +94,24 @@ pk2cmtPlot <- ggplot(data_mod2_viz, aes(x=time, y=value)) +
           subtitle = "Two-compartment PK model")
 print(pk2cmtPlot)
 ```
+```{r, pk2cmt_alt, fig.height=4, fig.width=8}
+# run simulation and plot results
+alt_events_mod2 <- ev_expand(amt = 8, ii = 12, addl = 23)
+out_altmod2 <- mrgsim_d(mod2, data = alt_events_mod2, tgrid = times_mod2)
+data_altmod2 <- as.data.frame(out_altmod2) %>%
+  tidyr::pivot_longer(cols=c("GUT", "CENT", "PERIPH", "CP", "CT"))
+data_both <- rbind(cbind(Model="DosingRegimen1", data_mod2),
+                   cbind(Model="DosingRegimen2", data_altmod2))
+data_both_viz <- data_both %>% dplyr::filter(name %in% c("CP", "CT")) %>%
+                       dplyr::mutate(name = relevels(name, refs=c("CP", "CT")))
+pk2cmtBothPlot <- ggplot(data_both_viz, aes(x=time, y=value, col=Model)) +
+  geom_line() + facet_wrap(~name, scale="free_y") +
+  xlab("Time [h]") +
+  ylab("Concentration") +
+  ggtitle("Concentration in plasma (CP) and peripheral (CT) versus time",
+          subtitle = "Two-compartment PK model")
+print(pk2cmtBothPlot)
+```
 
 The differential equations for the two-compartment PK model can be written as:
 
