@@ -74,6 +74,8 @@ The first lecture introduces drugs and drug discovery.
     * If you need a refresher of the central dogma of biology, please watch [this YouTube video](https://www.youtube.com/watch?v=9kOGOY7vthk).
     * If you are not familiar with the process of drug discovery and development, you may benefit from watching [this YouTube video made by Novartis](https://www.youtube.com/watch?v=3Gl0gAcW8rw).
 * [Slides of lecture 1]({{site.assetbaseurl}}{% link assets/2024/01/AMIDD-2024-01-Intro.pdf %})
+    * Coincidentally, just the day before the lecture,  it was announced that Joel Habener, Lotte
+    Bjerre Knudsen, and Svetlana Mojsov were awarded the prestigious Lasker~Debakey clinical medical research award *for the discovery and development of GLP-1 based drugs that have revolutionized the treatment of obesity*. [Website of the Lasker Foundation](https://laskerfoundation.org/winners/glp-1-based-therapy-for-obesity/). I thank Urs Saner who shared the news with me.
 * There is no offline activity this week. However, [please fill out the anonymous post lecture survey](https://forms.gle/5g6T63zaGyopzoE39).
 
 <p id="lec2"></p>
