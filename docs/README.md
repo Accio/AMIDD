@@ -32,7 +32,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=286574).
   * [Lecture 7: Ligand-target interaction](#lec7) (01.11.2024)
   * [Lecture 8: Lead identification and optimization](#lec8) (08.11.2024)
   * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (15.11.2024)
-  * [Lecture 10: Animal studies and other roads leading to entry into human](#lec10) (22.11.2024)
+  * [Lecture 10: Animal studies and other roads leading to entry into human](#lec10) (22.11.2024. The lecture takes place exceptionally at Biozentrum, Hörsaal U1.141)
   * [*Dies academicus*](#dies-academicus) (29.11.2024, no lecture)
   * [Lectuer 11: Population PK/PD relationship](#lec11) (06.12.2024)
   * [Lecture 12: Guest lecture](#lec12) (13.12.2024)
