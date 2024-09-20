@@ -73,11 +73,16 @@ The first lecture introduces drugs and drug discovery.
 * Preparatory reading/watching
     * If you need a refresher of the central dogma of biology, please watch [this YouTube video](https://www.youtube.com/watch?v=9kOGOY7vthk).
     * If you are not familiar with the process of drug discovery and development, you may benefit from watching [this YouTube video made by Novartis](https://www.youtube.com/watch?v=3Gl0gAcW8rw).
-* [Slides]({{site.assetbaseurl}}{% link assets/2024/01/AMIDD-2024-01-Intro.pdf %})
+* [Slides of lecture 1]({{site.assetbaseurl}}{% link assets/2024/01/AMIDD-2024-01-Intro.pdf %})
+* There is no offline activity this week. However, [please fill out the anonymous post lecture survey](https://forms.gle/5g6T63zaGyopzoE39)
 
 <p id="lec2"></p>
 
 ### Lecture 2: Why mathematics and computer science is essential for drug discovery
+
+* Preparatory reading/watching: please [watch the video narrated by Susan Desmond-Hellmann
+on the discovery and development of Herceptin](https://www.youtube.com/watch?v=51AU8D0cqdI), a treatment for breast cancer.
+* [Slides of lecture 2]({{site.assetbaseurl}}{% link assets/2024/02/AMIDD-2024-02-Mathematics-and-Informatics-are-essential.pdf %})
 
 <p id="lec3"></p>
 ### Lecture 3: Key questions to be addressed by drug discovery
