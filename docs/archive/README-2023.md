@@ -1,3 +1,5 @@
+*This is an archived page of the AMIDD course 2023. Please visit [the course's website](http://amidd.ch) for the current version*.
+
 Welcome to the website for *Applied Mathematics and Informatics In Drug
 Discovery* (AMIDD), the course series running at the Department of Mathematics
 and Informatics, University of Basel in the fall semester 2023.
