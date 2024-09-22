@@ -24,7 +24,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=286574).
 - [Assessment](#assessment)
 - [Syllabus](#syllabus)
   * [Lecture 1: Introduction to drug discovery](#lec1) (20.09.2024)
-  * [Lecture 2: Mathematics and informatics are essential for drug discovery](#lec2) (27.09.2024)
+  * [Lecture 2: The *What*, the *Who*, and the *How* of drug discovery](#lec2) (27.09.2024)
   * [Lecture 3: Key questions to be addressed during drug discovery](#lec3) (04.10.2024)
   * [Lecture 4: Proteins as drug targets](#lec4) (11.10.2024)
   * [Lecture 5: Molecules as drug candidates](#lec5) (18.10.2024)
@@ -79,10 +79,10 @@ The first lecture introduces drugs and drug discovery.
 
 <p id="lec2"></p>
 
-### Lecture 2: Why mathematics and computer science is essential for drug discovery
+### Lecture 2: The *What*, the *Who*, and the *How* of drug discovery
 
-* [Slides of lecture 2]({{site.assetbaseurl}}{% link assets/2024/02/AMIDD-2024-02-Mathematics-and-Informatics-are-essential.pdf %})
-* Two offline activities:
+* [Slides of lecture 2]({{site.assetbaseurl}}{% link assets/2024/02/AMIDD-2024-02-What-Who-How.pdf %})
+* Offline activities of lecture 2:
     * Classify the top-selling drugs in 2023 by their modality, and interpret the patterns of indications.
     * Please read the history of GLP-1-based therapy for obesity made available by the Lasker Foundation, including the `Read More` section section in [this page](https://laskerfoundation.org/winners/glp-1-based-therapy-for-obesity/), and [this YouTube video](https://www.youtube.com/watch?v=Z08sPPyWlJw).
 
