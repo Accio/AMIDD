@@ -82,8 +82,9 @@ The first lecture introduces drugs and drug discovery.
 ### Lecture 2: Why mathematics and computer science is essential for drug discovery
 
 * [Slides of lecture 2]({{site.assetbaseurl}}{% link assets/2024/02/AMIDD-2024-02-Mathematics-and-Informatics-are-essential.pdf %})
-* Offline activities: (1) classify the top-selling drugs in 2023 by their
-modality, and interpret the patterns of indications, and (2) Please [watch the video narrated by Susan Desmond-Hellmann on the discovery and development of Herceptin](https://www.youtube.com/watch?v=51AU8D0cqdI), a treatment for breast cancer.
+* Two offline activities:
+    * Classify the top-selling drugs in 2023 by their modality, and interpret the patterns of indications.
+    * Please read the history of GLP-1-based therapy for obesity made available by the Lasker Foundation, including the `Read More` section section in [this page](https://laskerfoundation.org/winners/glp-1-based-therapy-for-obesity/), and [this YouTube video](https://www.youtube.com/watch?v=Z08sPPyWlJw).
 
 <p id="lec3"></p>
 ### Lecture 3: Key questions to be addressed by drug discovery
