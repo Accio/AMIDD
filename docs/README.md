@@ -85,11 +85,15 @@ The first lecture introduces drugs and drug discovery.
 
 * [Slides of lecture 2]({{site.assetbaseurl}}{% link assets/2024/02/AMIDD-2024-02-What-Who-How.pdf %})
 * Offline activities of lecture 2:
-    * Classify the top-selling drugs in 2023 by their modality, and interpret the patterns of indications.
-    * Please read the history of GLP-1-based therapy for obesity made available by the Lasker Foundation, including the `Read More` section section in [this page](https://laskerfoundation.org/winners/glp-1-based-therapy-for-obesity/), and [this YouTube video](https://www.youtube.com/watch?v=Z08sPPyWlJw).
+    * Fill out [the anonymous post-lecture survey of lecture 2](https://forms.gle/y25B124FYGsGUe1d9).
+    * Classify the top-selling drugs in 2023 by their modality, and interpret the patterns of indications. The drugs are listed in the slide (including the link to the original poster in PDF format). [Please submit your replies here via Google Form](https://forms.gle/9XCsb7qHhieWXoMc6). *Deadline of assignment*: before lecture 3.
 
 <p id="lec3"></p>
 ### Lecture 3: Key questions to be addressed by drug discovery
+
+* Slides of lecture 3
+* Offline activities of lecture 3:
+    * Please read the history of GLP-1-based therapy for obesity made available by the Lasker Foundation, including the `Read More` section section in [this page](https://laskerfoundation.org/winners/glp-1-based-therapy-for-obesity/), and [this YouTube video](https://www.youtube.com/watch?v=Z08sPPyWlJw).
 
 <p id="lec4"></p>
 ### Lecture 4: Proteins as drug targets
