@@ -87,6 +87,7 @@ The first lecture introduces drugs and drug discovery.
 * Offline activities of lecture 2:
     * Fill out [the anonymous post-lecture survey of lecture 2](https://forms.gle/y25B124FYGsGUe1d9).
     * Classify the top-selling drugs in 2023 by their modality, and interpret the patterns of indications. The drugs are listed in the slide (including the link to the original poster in PDF format). [Please submit your replies here via Google Form](https://forms.gle/9XCsb7qHhieWXoMc6). *Deadline of assignment*: before lecture 3.
+    * Continue the discussion of the role-play game. A random member of each team will be selected next week to give an update of the team.
 
 <p id="lec3"></p>
 ### Lecture 3: Key questions to be addressed by drug discovery
