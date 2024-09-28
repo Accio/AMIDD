@@ -62,6 +62,8 @@ The final note is given by participation including in-class quizzes (30%),
 offline activities (40%), and a collaboration challenge in the final session
 (30%).
 
+[The list of students from whom I received replies to in-class quizzes, i.e. the colour papers, is available here](https://docs.google.com/spreadsheets/d/1T64q3blQ94kIo7ip4suVizyFGLGjgJWgJyzOo2MOG2I/edit?usp=sharing). Please make a comment if you find mistakes.
+
 ## Syllabus
 
 <p id="lec1"></p>
