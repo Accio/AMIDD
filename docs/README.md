@@ -93,11 +93,11 @@ The first lecture introduces drugs and drug discovery.
 ### Lecture 3: Key questions in drug discovery
 
 * [Slides of lecture 3]({{site.assetbaseurl}}{% link assets/2024/03/AMIDD-2024-03-Key-Questions.pdf %})
-* Offline activities of lecture 3:
-    * (Mandatory) Please read the history of GLP-1-based therapy for obesity made available by the Lasker Foundation, including the `Read More` section section in [this page](https://laskerfoundation.org/winners/glp-1-based-therapy-for-obesity/), and [this YouTube video](https://www.youtube.com/watch?v=Z08sPPyWlJw).
-    * (Mandatory) Please watch the Nobel Lecture by Katalin Karikó on [developing mRNA for therapy](https://www.nobelprize.org/prizes/medicine/2023/kariko/lecture/)
+* Mandatory offline activities of lecture 3:
+    * Please read the history of GLP-1-based therapy for obesity made available by the Lasker Foundation, including the `Read More` section section in [this page](https://laskerfoundation.org/winners/glp-1-based-therapy-for-obesity/), and [this YouTube video](https://www.youtube.com/watch?v=Z08sPPyWlJw).
+    * Please watch the Nobel Lecture by Katalin Karikó on [developing mRNA for therapy](https://www.nobelprize.org/prizes/medicine/2023/kariko/lecture/)
     * Question to answer: what commonalities and differences did you perceive in the process of scientific discoveries that led to semaglutide and SARS-Cov-2 mRNA vaccines?
-    * (Optional) Please watch the Nobel Lecture by Drew Weissmann on [Nucleoside Modified mRNA-LNP Therapeutics](https://www.nobelprize.org/prizes/medicine/2023/weissman/lecture/)
+* Optional offline activity: Please watch the Nobel Lecture by Drew Weissmann on [Nucleoside Modified mRNA-LNP Therapeutics](https://www.nobelprize.org/prizes/medicine/2023/weissman/lecture/)
 
 <p id="lec4"></p>
 ### Lecture 4: Proteins as drug targets
