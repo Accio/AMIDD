@@ -25,7 +25,7 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=286574).
 - [Syllabus](#syllabus)
   * [Lecture 1: Introduction to drug discovery](#lec1) (20.09.2024)
   * [Lecture 2: The *What*, the *Who*, and the *How* of drug discovery](#lec2) (27.09.2024)
-  * [Lecture 3: Key questions to be addressed during drug discovery](#lec3) (04.10.2024)
+  * [Lecture 3: Key questions in drug discovery](#lec3) (04.10.2024)
   * [Lecture 4: Proteins as drug targets](#lec4) (11.10.2024)
   * [Lecture 5: Molecules as drug candidates](#lec5) (18.10.2024)
   * [Lecture 6: Biological sequence analysis](#lec6) (25.10.2024)
@@ -90,11 +90,14 @@ The first lecture introduces drugs and drug discovery.
     * Continue the discussion of the role-play game. A random member of each team will be selected next week to give an update of the team.
 
 <p id="lec3"></p>
-### Lecture 3: Key questions to be addressed by drug discovery
+### Lecture 3: Key questions in drug discovery
 
-* Slides of lecture 3
+* [Slides of lecture 3]({{site.assetbaseurl}}{% link assets/2024/03/AMIDD-2024-03-Key-Questions.pdf %})
 * Offline activities of lecture 3:
-    * Please read the history of GLP-1-based therapy for obesity made available by the Lasker Foundation, including the `Read More` section section in [this page](https://laskerfoundation.org/winners/glp-1-based-therapy-for-obesity/), and [this YouTube video](https://www.youtube.com/watch?v=Z08sPPyWlJw).
+    * (Mandatory) Please read the history of GLP-1-based therapy for obesity made available by the Lasker Foundation, including the `Read More` section section in [this page](https://laskerfoundation.org/winners/glp-1-based-therapy-for-obesity/), and [this YouTube video](https://www.youtube.com/watch?v=Z08sPPyWlJw).
+    * (Mandatory) Please watch the Nobel Lecture by Katalin Karikó on [developing mRNA for therapy](https://www.nobelprize.org/prizes/medicine/2023/kariko/lecture/)
+    * Question to answer: what commonalities and differences did you perceive in the process of scientific discoveries that led to semaglutide and SARS-Cov-2 mRNA vaccines?
+    * (Optional) Please watch the Nobel Lecture by Drew Weissmann on [Nucleoside Modified mRNA-LNP Therapeutics](https://www.nobelprize.org/prizes/medicine/2023/weissman/lecture/)
 
 <p id="lec4"></p>
 ### Lecture 4: Proteins as drug targets
