@@ -97,6 +97,7 @@ The first lecture introduces drugs and drug discovery.
     * Please read the history of GLP-1-based therapy for obesity made available by the Lasker Foundation, including the `Read More` section section in [this page](https://laskerfoundation.org/winners/glp-1-based-therapy-for-obesity/), and [this YouTube video](https://www.youtube.com/watch?v=Z08sPPyWlJw).
     * Please watch the Nobel Lecture by Katalin Karikó on [developing mRNA for therapy](https://www.nobelprize.org/prizes/medicine/2023/kariko/lecture/)
     * What commonalities and differences did you perceive in the process of scientific discoveries that led to semaglutide and SARS-Cov-2 mRNA vaccines? [Submit your reply via this Google Form](https://forms.gle/ZcL5RSyVXwKL4pUX9).  *Deadline: before lecture 4*.
+    * You are welcome to provide feedback and/or ask questions by [filling out the anonymous post-lecture survey for the third lecture](https://forms.gle/U1HURZWD7JwcFGSB9).
 * Optional offline activity: Please watch the Nobel Lecture by Drew Weissmann on [Nucleoside Modified mRNA-LNP Therapeutics](https://www.nobelprize.org/prizes/medicine/2023/weissman/lecture/)
 
 <p id="lec4"></p>
