@@ -103,6 +103,8 @@ The first lecture introduces drugs and drug discovery.
 <p id="lec4"></p>
 ### Lecture 4: Proteins as drug targets
 
+* [Slides of lecture 4]({{site.assetbaseurl}}{% link assets/2024/04/AMIDD-2024-04-Proteins.pdf %})
+
 <p id="lec5"></p>
 ### Lecture 5: Molecules as drug candidates
 
