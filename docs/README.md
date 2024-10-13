@@ -62,7 +62,7 @@ The final note is given by participation including in-class quizzes (30%),
 offline activities (40%), and a collaboration challenge in the final session
 (30%).
 
-[The list of students from whom I received replies to in-class quizzes, i.e. the colour papers, is available here](https://docs.google.com/spreadsheets/d/1T64q3blQ94kIo7ip4suVizyFGLGjgJWgJyzOo2MOG2I/edit?usp=sharing). Please make a comment if you find mistakes.
+[The list of students from whom I received replies to in-class quizzes, i.e. the colour papers, as well as offline activity submissions, is available here](https://docs.google.com/spreadsheets/d/1T64q3blQ94kIo7ip4suVizyFGLGjgJWgJyzOo2MOG2I/edit?usp=sharing). Please make a comment if you find mistakes.
 
 ## Syllabus
 
@@ -104,10 +104,18 @@ The first lecture introduces drugs and drug discovery.
 ### Lecture 4: Proteins as drug targets
 
 * [Slides of lecture 4]({{site.assetbaseurl}}{% link assets/2024/04/AMIDD-2024-04-Proteins.pdf %})
+* Mandatory offline activities of lecture 4:
+	* Please kindly provide feedback and/or ask questions anonymously by [filling out the anonymous post-lecture survey for the fourth lecture](https://forms.gle/neK3LcRWbZXTAeSWA).
+	* Please read [the advanced scientific background information for Nobel Prize in Chemistry 2024](https://www.nobelprize.org/prizes/chemistry/2024/advanced-information/).
+	* The blog *In the Pipepine*, created and maintained by Derek Lowe, is a popular blog among drug discovers. Read [his summary of the Chemistry Nobel Prize 2024](https://www.science.org/content/blog-post/2024-chemistry-nobel-computational-protein-design).
+	* Having read the material, what is your take on the value of being able to predict protein structure for drug discovery? What is the most surprising learning for you? And do you have questions? [Submit your replies via this Google Form](https://forms.gle/JpTU7C5AmoQD2KJy8). *Deadline: latest Saturday following lecture 5*.
+* Optional offline activity: Read the scientific background information for [Nobel Prize in Physics 2024](https://www.nobelprize.org/prizes/physics/2024/advanced-information/).
+
 
 <p id="lec5"></p>
-### Lecture 5: Molecules as drug candidates
+### Lecture 5: Protein-ligand interaction
 
+* [Slides of lecture 5]({{site.assetbaseurl}}{% link assets/2024/05/AMIDD-2024-05-Protein-Ligand-Interaction.pdf %})
 
 <p id="lec6"></p>
 ### Lecture 6: Biological sequence analysis
