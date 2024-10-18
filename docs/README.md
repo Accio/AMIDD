@@ -27,14 +27,14 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=286574).
   * [Lecture 2: The *What*, the *Who*, and the *How* of drug discovery](#lec2) (27.09.2024)
   * [Lecture 3: Key questions in drug discovery](#lec3) (04.10.2024)
   * [Lecture 4: Proteins as drug targets](#lec4) (11.10.2024)
-  * [Lecture 5: Molecules as drug candidates](#lec5) (18.10.2024)
-  * [Lecture 6: Biological sequence analysis](#lec6) (25.10.2024)
-  * [Lecture 7: Ligand-target interaction](#lec7) (01.11.2024)
+  * [Lecture 5: Protein-ligand interaction](#lec5) (18.10.2024)
+  * [Lecture 6: Statistical model, machine learning, and artificial intelligence](#lec6) (25.10.2024)
+  * [Lecture 7: Causal inference](#lec7) (01.11.2024)
   * [Lecture 8: Lead identification and optimization](#lec8) (08.11.2024)
   * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (15.11.2024)
-  * [Lecture 10: Animal studies and other roads leading to entry into human](#lec10) (22.11.2024. The lecture takes place exceptionally at Biozentrum, Hörsaal U1.141)
+  * [Lecture 10: Omics](#lec10) (22.11.2024. The lecture takes place exceptionally at Biozentrum, Hörsaal U1.141)
   * [*Dies academicus*](#dies-academicus) (29.11.2024, no lecture)
-  * [Lectuer 11: Population PK/PD relationship](#lec11) (06.12.2024)
+  * [Lectuer 11: DMPK and PKPD modelling](#lec11) (06.12.2024)
   * [Lecture 12: Guest lecture](#lec12) (13.12.2024)
   * [Lecture 13: A collaboration challenge](#lec13) (20.12.2024)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
@@ -116,12 +116,19 @@ The first lecture introduces drugs and drug discovery.
 ### Lecture 5: Protein-ligand interaction
 
 * [Slides of lecture 5]({{site.assetbaseurl}}{% link assets/2024/05/AMIDD-2024-05-Protein-Ligand-Interaction.pdf %})
+* Mandatory offline activities of lecture 5:
+	* Please kindly provide feedback and/or questions anonymously by [filling out the anonymous post-lecture survey for the fifth lecture](https://forms.gle/uAMNANxFYEShkRoU6).
+	* Choose **one** task below to perform. In each case, consider using the [Feynman technique](https://law-hawaii.libguides.com/notetaking/feynman).
+		* If you have a strong background in mathematics/statistics and particularly in machine learning, please review the material shared in the slides about proteins so that you gain more knowledge about drug targets.
+		* If you have a strong background in biology but yet to develop more skills in machine learning, please read [An Introduction to Machine Learning](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/cpt.1796), and try to understand the concepts.
+		* If you have strong background in both fields, please read [Accurate structure prediction of biomolecular interactions with AlphaFold3](https://www.nature.com/articles/s41586-024-07487-w), by Abramson *et al*.
+	* Confirm that you have performed one of the tasks above by [filling out this Google Form](https://forms.gle/PooBkFR3rwd7cssy9). Deadline: Friday of lecture 6.
 
 <p id="lec6"></p>
-### Lecture 6: Biological sequence analysis
+### Lecture 6: Statistical model, machine learning, and artificial intelligence
 
 <p id="lec7"></p>
-### Lecture 7: Ligand-target interaction
+### Lecture 7: Causal inference
 
 <p id="lec8"></p>
 ### Lecture 8: Lead identification and optimization
@@ -130,10 +137,10 @@ The first lecture introduces drugs and drug discovery.
 ### Lecture 9: Mechanism and mode of action of drug candidates
 
 <p id="lec10"></p>
-### Lecture 10: Animal studies and other roads leading to entry into human
+### Lecture 10: Omics
 
 <p id="lec11"></p>
-### Lecture 11: Population PK/PD relationship
+### Lecture 11: DMPK and PKPD modeling
 
 <p id="lec12"></p>
 ### Lecture 12: Guest lecture
