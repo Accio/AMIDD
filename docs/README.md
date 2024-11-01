@@ -121,12 +121,18 @@ The first lecture introduces drugs and drug discovery.
 	* Please kindly provide feedback and/or questions anonymously by [filling out the anonymous post-lecture survey for the fifth lecture](https://forms.gle/uAMNANxFYEShkRoU6).
 	* Choose **one** task below to perform. In each case, consider using the [Feynman technique](https://law-hawaii.libguides.com/notetaking/feynman).
 		* If you have a strong background in mathematics/statistics and particularly in machine learning, please review the material shared in the slides about proteins so that you gain more knowledge about drug targets.
-		* If you have a strong background in biology but yet to develop more skills in machine learning, please read [An Introduction to Machine Learning](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/cpt.1796), and try to understand the concepts.
+		* If you have a strong background in biology but yet to develop more skills in machine learning, please read [An Introduction to Machine Learning](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/cpt.1796).
 		* If you have strong background in both fields, please read [Accurate structure prediction of biomolecular interactions with AlphaFold3](https://www.nature.com/articles/s41586-024-07487-w), by Abramson *et al*.
 	* Confirm that you have performed one of the tasks above by [filling out this Google Form](https://forms.gle/PooBkFR3rwd7cssy9). Deadline: Friday of lecture 6.
 
 <p id="lec6"></p>
 ### Lecture 6: Statistical model, machine learning, and artificial intelligence
+
+* [Slides of lecture 6]({{site.assetbaseurl}}{% link assets/2024/06/AMIDD-2024-06-statistical-and-causal-modelling.pdf %})
+* Mandatory offline activities of lecture 6:
+   * Mandatory: Keep thinking about the last question that we discussed in the course (see slide page 23). Find your own examples and explanations to answer the questions; which outcomes (red stars or blue crosses) would support which models, and why. [Submit your answers to this Google Form](https://forms.gle/xwtxF2vZXMVALWJb8). Deadline: before lecture 7.
+   * Optional: you are welcome to provide feedback and/or raise questions anonymously by [filling out the anonymous post-lecture survey for the fifth lecture](https://forms.gle/bvKxViVHbZpmdVfZA).
+   * Optional: read [Causal inference in drug discovery and development](https://doi.org/10.1016/j.drudis.2023.103737).
 
 <p id="lec7"></p>
 ### Lecture 7: Causal inference
