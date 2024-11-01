@@ -29,8 +29,8 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=286574).
   * [Lecture 4: Proteins as drug targets](#lec4) (11.10.2024)
   * [Lecture 5: Protein-ligand interaction](#lec5) (18.10.2024)
   * *No lecture on 25.10.2024*
-  * [Lecture 6: Statistical model, machine learning, and artificial intelligence](#lec6) (01.11.2024)
-  * [Lecture 7: Causal inference](#lec7) (08.11.2024)
+  * [Lecture 6: Statistical model and machine learning](#lec6) (01.11.2024)
+  * [Lecture 7: Causal inference and artificial intelligence](#lec7) (08.11.2024)
   * [Lecture 8: Lead identification and optimization](#lec8) (15.11.2024)
   * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (22.11.2024. The lecture takes place exceptionally at Biozentrum, Hörsaal U1.141)
   * [Lecture 10: Omics](#lec10) (22.11.2024)
@@ -126,16 +126,16 @@ The first lecture introduces drugs and drug discovery.
 	* Confirm that you have performed one of the tasks above by [filling out this Google Form](https://forms.gle/PooBkFR3rwd7cssy9). Deadline: Friday of lecture 6.
 
 <p id="lec6"></p>
-### Lecture 6: Statistical model, machine learning, and artificial intelligence
+### Lecture 6: Statistical model and machine learning
 
 * [Slides of lecture 6]({{site.assetbaseurl}}{% link assets/2024/06/AMIDD-2024-06-statistical-and-causal-modelling.pdf %})
 * Mandatory offline activities of lecture 6:
    * Mandatory: Keep thinking about the last question that we discussed in the course (see slide page 23). Find your own examples and explanations to answer the questions; which outcomes (red stars or blue crosses) would support which models, and why. [Submit your answers to this Google Form](https://forms.gle/xwtxF2vZXMVALWJb8). Deadline: before lecture 7.
-   * Optional: you are welcome to provide feedback and/or raise questions anonymously by [filling out the anonymous post-lecture survey for the fifth lecture](https://forms.gle/bvKxViVHbZpmdVfZA).
-   * Optional: read [Causal inference in drug discovery and development](https://doi.org/10.1016/j.drudis.2023.103737).
+   * Optional: you are welcome to provide feedback and/or raise questions anonymously by [filling out the anonymous post-lecture survey for the sixth lecture](https://forms.gle/bvKxViVHbZpmdVfZA).
+   * Optional: read the review article [Causal inference in drug discovery and development](https://doi.org/10.1016/j.drudis.2023.103737).
 
 <p id="lec7"></p>
-### Lecture 7: Causal inference
+### Lecture 7: Causal inference and artificial intelligence
 
 <p id="lec8"></p>
 ### Lecture 8: Lead identification and optimization
