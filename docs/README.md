@@ -137,6 +137,10 @@ The first lecture introduces drugs and drug discovery.
 <p id="lec7"></p>
 ### Lecture 7: Causal inference
 * [Slides of lecture 7]({{site.assetbaseurl}}{% link assets/2024/07/AMIDD-2024-07-causal-inference.pdf %})
+* Offline activities of lecture 7:
+	* Mandatory: read the article [*The environment and disease: Association and Causation*]({{site.assetbaseurl}}{% link assets/2024/07/Hill-1965-Association-or-Causation.pdf %}), a talk given by Austin Bradford Hill in 1965, introducing the Hill's criterion for causality. And review today's material. Fill [this Google Form](https://forms.gle/aXmJ31sqtW3EUMFG8) before the eighth lecture.
+	* Optional: you are welcome to provide feedback, and/or raise questions, anonymously by [filling out the anonymous post-lecture survey for the seventh lecture](https://forms.gle/KDbrKXRowGSp3yi99).
+	* Optional: read [*Applying the Bradford Hill criteria in the 21st century: how data integration has changed causal inference in molecular epidemiology*]({{site.assetbaseurl}}{% link assets/2024/07/Fedak-2015.pdf %}) by Fedak *et al.* (2015). This extends the material that we covered in the lecture and the mandatory reading, and introduces the current understanding of causal inference based on data integration.
 
 <p id="lec8"></p>
 ### Lecture 8: Lead identification and optimization
