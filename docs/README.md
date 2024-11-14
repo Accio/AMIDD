@@ -144,6 +144,7 @@ The first lecture introduces drugs and drug discovery.
 
 <p id="lec8"></p>
 ### Lecture 8: Lead identification and optimization
+* [Slides of lecture 8]({{site.assetbaseurl}}{% link assets/2024/08/AMIDD-2024-08-LI-LO.pdf %})
 
 <p id="lec9"></p>
 ### Lecture 9: Mechanism and mode of action of drug candidates
