@@ -34,9 +34,9 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=286574).
   * [Lecture 8: Lead identification and optimization](#lec8) (15.11.2024)
   * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (22.11.2024. The lecture takes place exceptionally at Biozentrum, Hörsaal U1.141)
   * [*Dies academicus*](#dies-academicus) (29.11.2024, no lecture)
-  * [Lectuer 10: DMPK and PKPD modelling](#lec11) (06.12.2024)
-  * [Lecture 11: Guest lecture](#lec12) (13.12.2024)
-  * [Lecture 12: A collaboration challenge](#lec13) (20.12.2024)
+  * [Lectuer 10: DMPK and PKPD modelling](#lec10) (06.12.2024)
+  * [Lecture 11: Guest lecture](#lec11) (13.12.2024)
+  * [Lecture 12: A collaboration challenge](#lec12) (20.12.2024)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
 - [Offline activities](#oas)
 - [Archives of past courses](#archives-of-past-courses)
@@ -163,16 +163,13 @@ The first lecture introduces drugs and drug discovery.
 ### Lecture 9: Mechanism and mode of action of drug candidates
 
 <p id="lec10"></p>
-### Lecture 10: Omics
+### Lecture 10: DMPK and PKPD modeling
 
 <p id="lec11"></p>
-### Lecture 11: DMPK and PKPD modeling
+### Lecture 11: Guest lecture
 
 <p id="lec12"></p>
-### Lecture 12: Guest lecture
-
-<p id="lec13"></p>
-### Lecture 13: A collaboration challenge
+### Lecture 12: A collaboration challenge
 
 Details are announced in the classroom during lecture 12.
 
