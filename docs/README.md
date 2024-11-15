@@ -33,11 +33,10 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=286574).
   * [Lecture 7: Causal inference](#lec7) (08.11.2024)
   * [Lecture 8: Lead identification and optimization](#lec8) (15.11.2024)
   * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (22.11.2024. The lecture takes place exceptionally at Biozentrum, Hörsaal U1.141)
-  * [Lecture 10: Omics](#lec10) (22.11.2024)
   * [*Dies academicus*](#dies-academicus) (29.11.2024, no lecture)
-  * [Lectuer 11: DMPK and PKPD modelling](#lec11) (06.12.2024)
-  * [Lecture 12: Guest lecture](#lec12) (13.12.2024)
-  * [Lecture 13: A collaboration challenge](#lec13) (20.12.2024)
+  * [Lectuer 10: DMPK and PKPD modelling](#lec11) (06.12.2024)
+  * [Lecture 11: Guest lecture](#lec12) (13.12.2024)
+  * [Lecture 12: A collaboration challenge](#lec13) (20.12.2024)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
 - [Offline activities](#oas)
 - [Archives of past courses](#archives-of-past-courses)
@@ -148,7 +147,7 @@ The first lecture introduces drugs and drug discovery.
 * [Slides of lecture 8]({{site.assetbaseurl}}{% link assets/2024/08/AMIDD-2024-08-LI-LO.pdf %})
 * Offline activities of lecture 8:
 	* You are welcome to provide feedback, and/or raise questions, anonymously by [filling out the anonymous post-lecture survey for the eighth lecture](https://forms.gle/hxV9RW8Y14Vhe3qZ7).
-	* Mandatory: Read [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2024/08/BiologicalActivity-Dougall-Unitt.pdf%}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. Use this and other resources, for instance Wikipedia and ChatGPT, to answer following questions in your own words. Submit the answers [here via Google Form](https://forms.gle/7NpzKNbQJLgKSWaC6) until *November 29th*.
+	* Mandatory: Read [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2024/08/BiologicalActivity-Dougall-Unitt.pdf%}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. Use this and other resources, for instance Wikipedia and large language models (LLM) such as ChatGPT, to answer following questions in your own words. Submit the answers [here via Google Form](https://forms.gle/7NpzKNbQJLgKSWaC6) until *November 29th*.
 		* What is surface plasmon resonance (SPR), and how it is used to study the kinetics of target-ligand interactions?
 		* What do $K_d$, $k_{on}$, and $k_{off}$ mean in the context of kinetics of target-ligand interaction?
 		* What does microsomal clearance mean? Why it is important to measure it in drug discovery?
@@ -158,7 +157,7 @@ The first lecture introduces drugs and drug discovery.
 		* What is Ames test, and what does it measure?
 		* What is the micronucleus test, and why it is important to perform it?
 		* What does phototoxicity mean, and why it is important to predict or measure it?
-	* Optional: Read [Structure-Guided Discovery of cis-Hexahydro-pyrido-oxazinones as Reversible, Drug-like Monoacylglycerol Lipase Inhibitors]({{site.assetbaseurl}}{% link assets/2024/08/Kuhn-JMedChem-2024.pdf %}) to gain detailed understanding of the project that we dissected in the lecture. An unsolicited advice: don't get frustrated if you meet details that you do not understand at the first sight, that is normal when reading interdisciplinary papers. It may help to focus on the big lecture.
+	* Optional: In the lecture, we dissected the example of the discovery of a novel, reversible, and specific MAGL inhibitor. If you are interested in exploring the topic further, read the original publication [*Structure-Guided Discovery of cis-Hexahydro-pyrido-oxazinones as Reversible, Drug-like Monoacylglycerol Lipase Inhibitors*]({{site.assetbaseurl}}{% link assets/2024/08/Kuhn-JMedChem-2024.pdf %}) by Bernd Kuhn, *et al*. (J Med Chem, 2024). An unsolicited advice: don't get frustrated if you meet details that you do not understand at the first sight. That is normal when reading interdisciplinary papers. It may help to focus on the big lecture.
 
 <p id="lec9"></p>
 ### Lecture 9: Mechanism and mode of action of drug candidates
