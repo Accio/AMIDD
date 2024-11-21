@@ -163,7 +163,7 @@ The first lecture introduces drugs and drug discovery.
 ### Lecture 9: Mechanism and mode of action of drug candidates
 * [Slides of lecture 9]({{site.assetbaseurl}}{% link assets/2024/09/AMIDD-2024-09-Network-and-omics.pdf %})
 
-* Offline activities of lecture 8:
+* Offline activities of lecture 9: to be announced
 
 <p id="lec10"></p>
 ### Lecture 10: DMPK and PKPD modeling
