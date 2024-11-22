@@ -162,8 +162,9 @@ The first lecture introduces drugs and drug discovery.
 <p id="lec9"></p>
 ### Lecture 9: Mechanism and mode of action of drug candidates
 * [Slides of lecture 9]({{site.assetbaseurl}}{% link assets/2024/09/AMIDD-2024-09-Network-and-omics.pdf %})
-
-* Offline activities of lecture 9: to be announced
+* Offline activities of lecture 9:
+	* You are welcome to provide feedback, and/or raise questions, anonymously by [filling out the anonymous post-lecture survey for the nineth lecture on network analysis and omics](https://forms.gle/rNKCFzGzKQNxR7Hv7).
+	* Mandatory: Read [*Drug discovery effectiveness from the standpoint of therapeutic mechanisms and indications*]({{site.assetbaseurl}}{% link assets/2024/09/Shih-2018-DD-effectiveness-MoA.pdf %}) by Shih *et al.*, Nature Reviews Drug Discovery (2018). Submit your learnings [here via Google Form](https://forms.gle/uqEdavcSReygKzBW9) until *December the 6th*.
 
 <p id="lec10"></p>
 ### Lecture 10: DMPK and PKPD modeling
