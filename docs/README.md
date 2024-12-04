@@ -172,6 +172,33 @@ The first lecture introduces drugs and drug discovery.
 <p id="lec11"></p>
 ### Lecture 11: Guest lecture
 
+We will have two guest speakers sharing their experience working in drug discovery and development:
+
+* **Audrey Yeo**. Audrey is a Biostatistician and Statistical Software Engineer
+with three plus years of Pharma experience. At F. Hoffmann La-Roche, she leads
+the development of a state-of-art engineering tool "phase1b" to enhance decision
+making for drug discovery. Audrey's background in Pharma spans oncology,
+hematology and neuroscience rare disease areas and enjoys creating statistical
+software and contributing to conversations about the development of early phase
+trials. Audrey has a MSc Biostatistics (Uni of Zürich) and M Nursing (Uni of
+Sydney) and is also a Registered Nurse who worked in the COVID ICU during the
+lockdown in her home city of Melbourne, Australia. Personal website:
+[https://audreyyeoch.github.io/](https://audreyyeoch.github.io/)
+* **Nicole Schaefer**. Nicole is a seasoned Scientific Researcher and certified
+apprentice supervisor with approximately 25 years of experience in research and
+development. Currently, she supports Roche's Biomolecules in clinical trials,
+managing clinical samples such as cerebronspinal fluid (CSF), Aqueous Humor,
+Blood, and Serum from patients to scientists for further analysis. Nicole has a
+robust background in Reprotoxicology, cell-based in vitro assays, and
+3D-Organoid methods. She holds a Swiss federal diploma in Biology and is also a
+graduated cosmetician. In her spare time, Nicole volunteers for the foundation
+"Lookgoodfeelbetter": [https://lgfb.ch/](https://lgfb.ch/)
+
+Each talk will be about 20 minutes, followed by Q&A.
+
+After the talks, when time allows, we will use the rest of the time to review
+the lecture, answer any open question, and explain the collaboration challenge.
+
 <p id="lec12"></p>
 ### Lecture 12: A collaboration challenge
 
