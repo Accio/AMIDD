@@ -168,6 +168,10 @@ The first lecture introduces drugs and drug discovery.
 
 <p id="lec10"></p>
 ### Lecture 10: DMPK and PKPD modeling
+* [Slides of lecture 10]({{site.assetbaseurl}}{% link assets/2024/10/AMIDD-2024-10-DMPK-PKPD.pdf %})
+* Offline activities of lecture 10: Pick *one* publication to read depending on your interest
+	* [Introduction to PBPK modelling] Jones, H. M., and K. Rowland‐Yeo. 2013. [Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development.](https://doi.org/10.1038/psp.2013.41), CPT: Pharmacometrics & Systems Pharmacology 2 (8): 63.
+	* [Application of machine learning for PK prediction] Stoyanova, R. et al. [Computational Predictions of Nonclinical Pharmacokinetics at the Drug Design Stage](https://pubs.acs.org/doi/10.1021/acs.jcim.2c01134). J. Chem. Inf. Model. 63, 442–458 (2023).
 
 <p id="lec11"></p>
 ### Lecture 11: Guest lecture
