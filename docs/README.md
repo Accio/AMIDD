@@ -200,13 +200,12 @@ graduated cosmetician. In her spare time, Nicole volunteers for the foundation
 
 Each talk will be about 20 minutes, followed by Q&A.
 
-After the talks, when time allows, we will use the rest of the time to review
-the lecture, answer any open question, and explain the collaboration challenge.
+There is no offline activity this week. We welcome your feedback and/or questions to the guest speakers: [please fill this anonymous feedback form](https://forms.gle/3QWWuuSAsfVThNM8A).
 
 <p id="lec12"></p>
 ### Lecture 12: A collaboration challenge
 
-Details are announced in the classroom during lecture 12.
+In the collaboration challenge, students will be divided randomly into teams. The challenge will be tackled by both inter-team and intra-team collaboration. No specific preparation is necessary. More details will be announced in the course.
 
 <p id="oas"></p>
 ## Offline activities
