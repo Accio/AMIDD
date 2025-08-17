@@ -46,7 +46,7 @@ Commons (CC-BY-SA 4.0) license.
 
 ## Pre-course survey
 
-Prior to attending the first session, please [fill out the pre-course survey](https://forms.gle/JvkCKt5ZMeUkDUhq9). Your reply helps me to shape the course to meet your needs.
+The URL will be provided soon.
 
 ## Assessment
 
