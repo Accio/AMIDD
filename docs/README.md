@@ -6,7 +6,7 @@ We welcome bachelor, master, and PhD students of diverse backgrounds including (
 
 The course is *in-person only*. Remote or virtual attendance is unfortunately not feasible. We have a diverse and lively class room that work with and learn from each other interactively, which is challenging in a virtual or hybrid setting.
 
-More information on the course can be found at [the course directory of the University Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=293921).
+More information on the course can be found at [the course directory of the University Basel](https://vorlesungsverzeichnis.unibas.ch/de/vorlesungsverzeichnis?id=293921).
 
 ## Table of content
 
