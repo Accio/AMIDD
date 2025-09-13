@@ -46,7 +46,7 @@ Commons (CC-BY-SA 4.0) license.
 
 ## Pre-course survey
 
-The URL will be provided soon.
+Please [fill the pre-course survey](https://forms.gle/P4fGxcxa7yPrzefH6) before attending the course.
 
 ## Assessment
 
