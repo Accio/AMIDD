@@ -74,6 +74,10 @@ The first lecture introduces drugs and drug discovery.
 
 ### Lecture 2: The *What*, the *Who*, and the *How* of drug discovery
 
+In the second lecture, we discuss the workflow of modern drug discovery, the relevant stakeholders, and possible paths towards new drugs.
+
+* [Slides of lecture 2]({{site.assetbaseurl}}{% link assets/2025/02/AMIDD-2025-02-What-Who-How.pdf %})
+
 <p id="lec3"></p>
 ### Lecture 3: Key questions in drug discovery
 
