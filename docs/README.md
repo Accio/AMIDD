@@ -77,6 +77,9 @@ The first lecture introduces drugs and drug discovery.
 In the second lecture, we discuss the workflow of modern drug discovery, the relevant stakeholders, and possible paths towards new drugs.
 
 * [Slides of lecture 2]({{site.assetbaseurl}}{% link assets/2025/02/AMIDD-2025-02-What-Who-How.pdf %})
+* Offline activities
+    * Please [fill the post-lecture survey](https://forms.gle/ER9tr7JxtiDTzE9N8): I look forward to your feedback!
+    * Assignment is [described here](https://forms.gle/gsckhwaHUvw82kzE8), which is a Google Form with which you will submit your answers. Deadline: EOB October 2nd.
 
 <p id="lec3"></p>
 ### Lecture 3: Key questions in drug discovery
