@@ -90,7 +90,8 @@ In the third lecture, we explore the five key questions in drug discovery: medic
 * [Slides of lecture 3]({{site.assetbaseurl}}{% link assets/2025/03/AMIDD-2025-03-Key-Questions.pdf %})
 * Offline activities
     * Please [fill the post-lecture survey](https://forms.gle/rdvaUDx3VdrtPLnJ9): I look forward to your feedback!
-    * Assignment #1: Watch [the Nobel Prize Lecture by Katalin Karikó, Nobel Prize Laureate in Physiology or Medicine 2023](https://www.youtube.com/watch?v=gPdUnYjvWxo) (42 min), and answer questions.
+    * Assignment #1: If you need a quick refreshment of the concept of central dogma and the process of information flow from DNA to protein, check out [this video by *yourgenome*](https://www.youtube.com/watch?v=gG7uCskUOrA) (~3 min).
+    * Assignment #2: Watch [the Nobel Prize Lecture by Katalin Karikó, Nobel Prize Laureate in Physiology or Medicine 2023](https://www.youtube.com/watch?v=gPdUnYjvWxo) (42 min). Think about three questions: (1) What did you find most interesting? (2) What surprised you the most? (3) What you can do differently in your work and life, inspired by the learning shared by Katalin Karikó? Submit your answers [via Google Form](https://forms.gle/FAYabUE1z3UipXZR9) by Thursday, 09.10., EOB.
 
 <p id="lec4"></p>
 ### Lecture 4: Proteins as drug targets
