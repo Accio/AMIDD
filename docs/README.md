@@ -85,6 +85,12 @@ In the second lecture, we discuss the workflow of modern drug discovery, the rel
 <p id="lec3"></p>
 ### Lecture 3: Key questions in drug discovery
 
+In the third lecture, we explore the five key questions in drug discovery: medical need, target and modality, PK/PD, benefit and risk, and patient stratification.
+
+* [Slides of lecture 3]({{site.assetbaseurl}}{% link assets/2025/03/AMIDD-2025-03-Key-Questions.pdf %})
+* Offline activities
+    * Please [fill the post-lecture survey](https://forms.gle/rdvaUDx3VdrtPLnJ9): I look forward to your feedback!
+
 <p id="lec4"></p>
 ### Lecture 4: Proteins as drug targets
 
