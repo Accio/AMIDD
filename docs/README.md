@@ -90,6 +90,7 @@ In the third lecture, we explore the five key questions in drug discovery: medic
 * [Slides of lecture 3]({{site.assetbaseurl}}{% link assets/2025/03/AMIDD-2025-03-Key-Questions.pdf %})
 * Offline activities
     * Please [fill the post-lecture survey](https://forms.gle/rdvaUDx3VdrtPLnJ9): I look forward to your feedback!
+    * Assignment #1: Watch [the Nobel Prize Lecture by Katalin Karikó, Nobel Prize Laureate in Physiology or Medicine 2023](https://www.youtube.com/watch?v=gPdUnYjvWxo) (42 min), and answer questions.
 
 <p id="lec4"></p>
 ### Lecture 4: Proteins as drug targets
