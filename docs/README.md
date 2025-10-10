@@ -18,7 +18,7 @@ More information on the course can be found at [the course directory of the Univ
   * [Lecture 1: Introduction to drug discovery](#lec1) (20.09.2024)
   * [Lecture 2: The *What*, the *Who*, and the *How* of drug discovery](#lec2) (27.09.2024)
   * [Lecture 3: Key questions in drug discovery](#lec3) (04.10.2024)
-  * [Lecture 4: Proteins as drug targets](#lec4) (11.10.2024)
+  * [Lecture 4: Biological foundation of drug discovery](#lec4) (11.10.2024)
   * [Lecture 5: Protein-ligand interaction](#lec5) (18.10.2024)
   * *No lecture on 25.10.2024*
   * [Lecture 6: Statistical model and machine learning](#lec6) (01.11.2024)
@@ -94,7 +94,12 @@ In the third lecture, we explore the five key questions in drug discovery: medic
     * Assignment #2: Watch [the Nobel Prize Lecture by Katalin Karikó, Nobel Prize Laureate in Physiology or Medicine 2023](https://www.youtube.com/watch?v=gPdUnYjvWxo) (42 min). Think about three questions: (1) What did you find most interesting? (2) What surprised you the most? (3) What you can do differently in your work and life, inspired by the learning shared by Katalin Karikó? Submit your answers [via Google Form](https://forms.gle/FAYabUE1z3UipXZR9) by Thursday, 09.10., EOB.
 
 <p id="lec4"></p>
-### Lecture 4: Proteins as drug targets
+### Lecture 4: Biological foundation of drug discovery
+
+
+In lecture 4, we will explore biological foundations of drug discovery.
+
+* [Slides of lecture 4]({{site.assetbaseurl}}{% link assets/2025/04/AMIDD-2025-04-BiologicalFoundation.pdf %})
 
 <p id="lec5"></p>
 ### Lecture 5: Protein-ligand interaction
