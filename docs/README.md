@@ -100,6 +100,10 @@ In the third lecture, we explore the five key questions in drug discovery: medic
 In lecture 4, we will explore biological foundations of drug discovery.
 
 * [Slides of lecture 4]({{site.assetbaseurl}}{% link assets/2025/04/AMIDD-2025-04-BiologicalFoundation.pdf %})
+* Offline activities:
+	* Please [fill the post-lecture survey](https://forms.gle/TQf8GAf2T3BZiMTs9) (including the survey about an *Ask Me Anything* session).
+	* Assignment #1: Read the Popular Information of Nobel Prize 2025 in Physiology or Medicine 2025, https://www.nobelprize.org/prizes/medicine/2025/popular-information/ What was the most interesting learning for you?
+	* Assignment #2: Read the article [*Principles of early drug discovery*]({{site.assetbaseurl}}{% link assets/2025/04/Hughes-2011-Principles.pdf) twice. The first time, read the whole paper however as you wish. The second time, use one sentence to summarize each paragraph of the sections 'target identification' and 'target validation'. Write down your summary sentences (no formatting/polishing needed). Submit your answers via [this form](https://forms.gle/ZaLaz1vUCoqE4K4b6) by Thursday, 16.10., EOB.
 
 <p id="lec5"></p>
 ### Lecture 5: Protein-ligand interaction
