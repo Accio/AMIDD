@@ -112,6 +112,12 @@ In lecture 5, we will explore properties of proteins as drug targets, and learn 
 * [Slides of lecture 5]({{site.assetbaseurl}}{% link assets/2025/05/AMIDD-2025-05-Proteins-as-drug-target.pdf %})
 * Offline activities:
 	* Please [fill the post-lecture survey](https://forms.gle/D7e37HpmRXzUJ6qCA) (including a follow-up survey about an *Ask Me Anything* session).
+	* Choose **one** task below to perform. In each case, consider using the [Feynman technique](https://law-hawaii.libguides.com/notetaking/feynman).
+                * If you have a strong background in mathematics/statistics and particularly in machine learning, please review the material shared in the slides about proteins so that you gain more knowledge about drug targets.
+                * If you have a strong background in biology but yet to develop more skills in machine learning, please read [An Introduction to Machine Learning](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/cpt.1796).
+                * If you have strong background in both fields, please read [Accurate structure prediction of biomolecular interactions with AlphaFold3](https://www.nature.com/articles/s41586-024-07487-w), by Abramson *et al*.
+	* * Confirm that you have performed one of the tasks above by [filling out this Google Form](https://forms.gle/JySud1J4VVcoYJsRA). Deadline: Thursday before Lecture 6.
+
 
 <p id="lec6"></p>
 ### Lecture 6: Statistical model and machine learning
