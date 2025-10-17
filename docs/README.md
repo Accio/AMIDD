@@ -15,16 +15,15 @@ More information on the course can be found at [the course directory of the Univ
 - [Pre-course survey](#pre-course-survey)
 - [Assessment](#assessment)
 - [Syllabus](#syllabus)
-  * [Lecture 1: Introduction to drug discovery](#lec1) (20.09.2024)
-  * [Lecture 2: The *What*, the *Who*, and the *How* of drug discovery](#lec2) (27.09.2024)
-  * [Lecture 3: Key questions in drug discovery](#lec3) (04.10.2024)
-  * [Lecture 4: Biological foundation of drug discovery](#lec4) (11.10.2024)
-  * [Lecture 5: Protein-ligand interaction](#lec5) (18.10.2024)
-  * *No lecture on 25.10.2024*
-  * [Lecture 6: Statistical model and machine learning](#lec6) (01.11.2024)
-  * [Lecture 7: Causal inference](#lec7) (08.11.2024)
-  * [Lecture 8: Lead identification and optimization](#lec8) (15.11.2024)
-  * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (22.11.2024. The lecture takes place exceptionally at Biozentrum, Hörsaal U1.141)
+  * [Lecture 1: Introduction to drug discovery](#lec1) (19.09.2025)
+  * [Lecture 2: The *What*, the *Who*, and the *How* of drug discovery](#lec2) (26.09.2025)
+  * [Lecture 3: Key questions in drug discovery](#lec3) (03.10.2025)
+  * [Lecture 4: Biological foundation of drug discovery](#lec4) (10.10.2025)
+  * [Lecture 5: Protein as drug target](#lec5) (17.10.2025)
+  * [Lecture 6: Statistical model and machine learning](#lec6) (24.10.2025)
+  * [Lecture 7: Causal inference](#lec7) (31.10.2025)
+  * [Lecture 8: Lead identification and optimization](#lec8) (7.11.2025)
+  * [Lecture 9: Mechanism and mode of action of drugs](#lec9)
   * [*Dies academicus*](#dies-academicus) (29.11.2024, no lecture)
   * [Lectuer 10: DMPK and PKPD modelling](#lec10) (06.12.2024)
   * [Lecture 11: Guest lecture](#lec11) (13.12.2024)
@@ -106,7 +105,13 @@ In lecture 4, we will explore biological foundations of drug discovery.
 	* Assignment #2: Read the article [*Principles of early drug discovery*]({{site.assetbaseurl}}{% link assets/2025/04/Hughes-2011-Principles.pdf %}) by Hughes *et al.* (2011) twice. The first time, read the whole paper however as you wish. The second time, use one sentence to summarize each paragraph of the sections 'target identification' and 'target validation'. Write down your summary sentences (no formatting/polishing needed). Submit your answers via [this form](https://forms.gle/ZaLaz1vUCoqE4K4b6) by Thursday, 16.10., EOB.
 
 <p id="lec5"></p>
-### Lecture 5: Protein-ligand interaction
+### Lecture 5: Protein as drug target
+
+In lecture 5, we will explore properties of proteins as drug targets, and learn an example of physics-based/mechanistic mathematical modelling.
+
+* [Slides of lecture 5]({{site.assetbaseurl}}{% link assets/2025/05/AMIDD-2025-05-Proteins-as-drug-target.pdf %})
+* Offline activities:
+	* Please [fill the post-lecture survey](https://forms.gle/D7e37HpmRXzUJ6qCA) (including a follow-up survey about an *Ask Me Anything* session).
 
 <p id="lec6"></p>
 ### Lecture 6: Statistical model and machine learning
