@@ -131,7 +131,7 @@ In lecture 6, we will explore statistical and machine-learning based models.
 	* Read [*The Environment and Disease: Association or Causation?*]({{site.assetbaseurl}}{% link assets/2025/06/Hill-1965.pdf %}) by Austin Bradford Hill (1965).
 	* Read [*Exposure to sugar rationing in the first 1000 days of life protected against chronic disease*](https://www.science.org/doi/10.1126/science.adn5421) by Gracner, Boone and Gertler (Science, 2024). Use the example to check whether the evidences and conclusion meets Hill's criteria of causality, including (1) strength, (2) consistency, (3) specificity, (4) temporality, (5) biological gradient, (6) plausibility, (7) coherence, (8) experiment, and (9) analogy.
 	* Submit the answers to [the form for the offline activity of lecture 6](https://forms.gle/vTxvCdrMbSXXTWC49). Deadline: EOB, Thursday before lecture 7.
-	* (Optional) If you are intrigued by the findings of the study, and/or if you are interested the hypothesis of *fetal origins of disease* in the cardiovascular domain, please read [*Exposure to sugar rationing in first 1000 days after conception and long term cardiovascular outcomes: natural experiment study*](https://www.bmj.com/content/391/bmj-2024-083890) by Zheng *et al.* (BMJ 2025).
+	* (Optional) If you are intrigued by the findings of the study, and/or if you are interested the hypothesis of *fetal origins of disease* in the cardiovascular domain, please read [*Exposure to sugar rationing in first 1000 days after conception and long term cardiovascular outcomes: natural experiment study*](https://www.bmj.com/content/391/bmj-2024-083890) by Zheng *et al.* (BMJ, 2025).
 
 <p id="lec7"></p>
 ### Lecture 7: Causal inference
