@@ -24,7 +24,7 @@ More information on the course can be found at [the course directory of the Univ
   * [Lecture 7: Causal inference](#lec7) (31.10.2025)
   * [Lecture 8: Lead identification and optimization](#lec8) (7.11.2025)
   * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (14.11.2025)
-  * [Lectuer 10: DMPK and PKPD modelling](#lec10) (21.12.2025, **IMPORTANT** taking place exceptionally at [Kleinen Hörsaal 4.04, Physical Chemistry](https://rauminfo.unibas.ch/raum/7984))
+  * [Lectuer 10: DMPK and PKPD modelling](#lec10) (21.11.2025, **IMPORTANT** taking place exceptionally at [Kleinen Hörsaal 4.04, Physical Chemistry](https://rauminfo.unibas.ch/raum/7984))
   * [*Dies academicus*](#dies-academicus) (28.11.2025, no lecture)
   * [Lectuer 11: Preclinical and early development](#lec11) (5.12.2025)
   * [Lecture 12: Guest lecture](#lec12) (12.12.2025)
@@ -122,7 +122,7 @@ In lecture 5, we will explore properties of proteins as drug targets, and learn 
 
 <p id="lec6"></p>
 ### Lecture 6: Statistical model and machine learning
-In lecture 5, we will explore statistical and machine-learning based models.
+In lecture 6, we will explore statistical and machine-learning based models.
 
 * [Slides of lecture 6]({{site.assetbaseurl}}{% link assets/2025/06/AMIDD-2025-06-statistical-and-causal-modelling.pdf %})
 
