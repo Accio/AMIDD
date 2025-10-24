@@ -122,6 +122,9 @@ In lecture 5, we will explore properties of proteins as drug targets, and learn 
 
 <p id="lec6"></p>
 ### Lecture 6: Statistical model and machine learning
+In lecture 5, we will explore statistical and machine-learning based models.
+
+* [Slides of lecture 6]({{site.assetbaseurl}}{% link assets/2025/06/AMIDD-2025-06-statistical-and-causal-modelling.pdf %})
 
 <p id="lec7"></p>
 ### Lecture 7: Causal inference
