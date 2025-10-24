@@ -14,6 +14,7 @@ library(knitr)
 library(rmarkdown)
 library(kableExtra)
 library(zoo)
+library(devtools)
 theme_set(theme_light(base_size=13))
 ```
 
@@ -112,6 +113,7 @@ sinplot <- ggplot(data1, aes(x=x, y=y)) +
   geom_vline(xintercept = 2*pi) +
   geom_point(data=data2, col="gray")
 linecols <- brewer.pal(5, "Spectral")
+linecols[3] <- "#90AEA0"
 names(linecols) <- c("y~x", sprintf("y~poly(x,%d)",2:5))
 sinplot + 
   geom_hline(yintercept=3, col="black") +
@@ -128,7 +130,6 @@ sinplot +
   scale_colour_manual(name="Linear models", values=linecols) + 
   guides() +
   ylim(1,5)
-
 ```
 
 ```{r fig.height=3, fig.width=4}
@@ -251,8 +252,26 @@ ggplot(data=nonld_train_test, aes(x=x, y=y, col=z)) +
 ```
 
 ```{r fig.height=4, fig.width=4}
-##install_github('munoztd0/reprtree')
+##devtools::install_github('munoztd0/reprtree')
 library(reprtree)
+options(digits=2)
+labelBG2 <- function (tr) {
+    require(plotrix)
+    charht <- par("cxy")[2L]
+    xy <- tree:::treeco(tr, uniform = TRUE)
+    nodes <- as.integer(row.names(tr$frame))
+    left.child <- match(2 * nodes, nodes)
+    rows <- tree:::labels.tree(tr)[left.child]
+    rows <- gsub("NA,", "", rows)
+    ind <- !is.na(left.child)
+    
+    ## simple now: take two digits, later we can improve it
+    rows <- gsub("([0-9]\\.[0-9][0-9])[0-9]+", "\\1", rows)
+    
+    boxed.labels(xy$x[ind], xy$y[ind] + 0.5 * charht, rows[ind], 
+        border = F, bg = "white", cex = 0.8, xpad = 0.5, ypad = 1)
+}
+assignInNamespace("labelBG", labelBG2, "reprtree")
 reprtree::plot.getTree(rf, k=1)
 reprtree::plot.getTree(rf, k=20)
 ```
@@ -271,6 +290,7 @@ confusionMatrix(factor(round(nnpred), levels=c(0,1)),
 ```
 
 ```{r, fig.height=4, fig.width=4}
+options(digits=3)
 plot(nn, rep="best")
 ```
 
