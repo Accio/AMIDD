@@ -143,7 +143,7 @@ In lecture 7, we will explore the concept of causality and application in data a
     * Please [fill the post-lecture survey](https://forms.gle/sAvPqrCXUJMYcG986)
     * Offline activities:
 	    * Review the slides to make sure that you understand the idea of using generative models to simulate and explore causality.
-	    * Read [Causal inference in drug discovery and development](https://www.sciencedirect.com/science/article/pii/S1359644623002532#f0005)
+	    * Read the review [Causal inference in drug discovery and development]({{site.assetbaseurl}}{% link assets/2025/07/Michoel-Zhang-2023.pdf %}).
 	    * (Optional) Checkout the [Causal inference for drug discovery and development](https://github.com/Accio/causal_drug_discovery) that teaches basic concepts of causal inference, which contains code in R and Python.
 	    * Answer questions [in this
 	    form](https://forms.gle/L2aHy8mnUbpufteQ7). Submission deadline: Thursday, November the 6th, EOB
