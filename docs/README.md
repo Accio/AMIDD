@@ -140,13 +140,12 @@ In lecture 7, we will explore the concept of causality and application in data a
 
 * [Slides of lecture 7 and 8]({{site.assetbaseurl}}{% link assets/2025/07/AMIDD-2025-07-causal-inference.pdf %}) (until slide 16)
 * Offline activities
-    * Please [fill the post-lecture survey](https://forms.gle/sAvPqrCXUJMYcG986)
+    * Please [fill the post-lecture survey](https://forms.gle/sAvPqrCXUJMYcG986).
     * Offline activities:
 	    * Review the slides to make sure that you understand the idea of using generative models to simulate and explore causality.
 	    * Read the review [Causal inference in drug discovery and development]({{site.assetbaseurl}}{% link assets/2025/07/Michoel-Zhang-2023.pdf %}).
-	    * (Optional) Checkout the [Causal inference for drug discovery and development](https://github.com/Accio/causal_drug_discovery) that teaches basic concepts of causal inference, which contains code in R and Python.
-	    * Answer questions [in this
-	    form](https://forms.gle/L2aHy8mnUbpufteQ7). Submission deadline: Thursday, November the 6th, EOB
+	    * (Optional) Checkout [Causal inference for drug discovery and development](https://github.com/Accio/causal_drug_discovery), an accompanying repo of Rmarkdown and Python notebooks that introduce basic concepts of causal inference.
+	    * Answer questions [in this form](https://forms.gle/L2aHy8mnUbpufteQ7). Submission deadline: Thursday, November the 6th, EOB.
 
 <p id="lec8"></p>
 ### Lecture 8: Causal inference (II)
