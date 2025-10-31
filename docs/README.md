@@ -136,6 +136,10 @@ In lecture 6, we will explore statistical and machine-learning based models.
 <p id="lec7"></p>
 ### Lecture 7: Causal inference
 
+In lecture 7, we will explore causal modelling methods and their relationship to mechanistic and statistical models.
+
+* [Slides of lecture 7]({{site.assetbaseurl}}{% link assets/2025/07/AMIDD-2025-07-causal-inference.pdf %})
+
 <p id="lec8"></p>
 ### Lecture 8: Lead identification and optimization
 
