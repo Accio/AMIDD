@@ -21,12 +21,12 @@ More information on the course can be found at [the course directory of the Univ
   * [Lecture 4: Biological foundation of drug discovery](#lec4) (10.10.2025)
   * [Lecture 5: Protein as drug target](#lec5) (17.10.2025)
   * [Lecture 6: Statistical model and machine learning](#lec6) (24.10.2025)
-  * [Lecture 7: Causal inference](#lec7) (31.10.2025)
-  * [Lecture 8: Lead identification and optimization](#lec8) (7.11.2025)
-  * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (14.11.2025)
-  * [Lectuer 10: DMPK and PKPD modelling](#lec10) (21.11.2025, **IMPORTANT** taking place exceptionally at Hörsaal 3.10, Physical Chemistry, Klingelbergstrasse 80)
+  * [Lecture 7: Causal inference (I)](#lec7) (31.10.2025)
+  * [Lecture 8: Causal inference (II)](#lec8) (7.11.2025)
+  * [Lecture 9: Lead identification and optimization](#lec9) (14.11.2025)
+  * [Lectuer 10: Mechanism and mode of action of drugs](#lec10) (21.11.2025, **IMPORTANT** taking place exceptionally at Hörsaal 3.10, Physical Chemistry, Klingelbergstrasse 80)
   * [*Dies academicus*](#dies-academicus) (28.11.2025, no lecture)
-  * [Lectuer 11: Preclinical and early development](#lec11) (5.12.2025)
+  * [Lectuer 11: PK/PD modeling and early development](#lec11) (5.12.2025)
   * [Lecture 12: Guest lecture](#lec12) (12.12.2025)
   * [Lecture 13: A collaboration challenge](#lec13) (19.12.2025)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
@@ -134,27 +134,42 @@ In lecture 6, we will explore statistical and machine-learning based models.
 	* (Optional) If you are intrigued by the findings of the study, and/or if you are interested the hypothesis of *fetal origins of disease* in the cardiovascular domain, please read [*Exposure to sugar rationing in first 1000 days after conception and long term cardiovascular outcomes: natural experiment study*](https://www.bmj.com/content/391/bmj-2024-083890) by Zheng *et al.* (BMJ, 2025).
 
 <p id="lec7"></p>
-### Lecture 7: Causal inference
+### Lecture 7: Causal inference (I)
 
-In lecture 7, we will explore causal modelling methods and their relationship to mechanistic and statistical models.
+In lecture 7, we will explore the concept of causality and application in data analysis.
 
-* [Slides of lecture 7]({{site.assetbaseurl}}{% link assets/2025/07/AMIDD-2025-07-causal-inference.pdf %})
+* [Slides of lecture 7 and 8]({{site.assetbaseurl}}{% link assets/2025/07/AMIDD-2025-07-causal-inference.pdf %}) (until slide 16)
+* Offline activities
+    * Please [fill the post-lecture survey](https://forms.gle/sAvPqrCXUJMYcG986)
+    * Offline activities:
+	    * Review the slides to make sure that you understand the idea of using generative models to simulate and explore causality.
+	    * Read [Causal inference in drug discovery and development](https://www.sciencedirect.com/science/article/pii/S1359644623002532#f0005)
+	    * (Optional) Checkout the [Causal inference for drug discovery and development](https://github.com/Accio/causal_drug_discovery) that teaches basic concepts of causal inference, which contains code in R and Python.
+	    * Answer questions [in this
+	    form](https://forms.gle/L2aHy8mnUbpufteQ7). Submission deadline: Thursday, November the 6th, EOB
 
 <p id="lec8"></p>
-### Lecture 8: Lead identification and optimization
+### Lecture 8: Causal inference (II)
+
+In lecture 8, we demonstrate the difference between correlation and causality with real-world examples, and introduce techniques to infer causality.
+
+* [Slides of lecture 7 and 8]({{site.assetbaseurl}}{% link assets/2025/07/AMIDD-2025-07-causal-inference.pdf %})
 
 <p id="lec9"></p>
-### Lecture 9: Mechanism and mode of action of drug candidates
+### Lecture 9: Lead identification and optimization
 
 <p id="lec10"></p>
-### Lecture 10: DMPK and PKPD modeling
+### Lecture 10: Mechanism and mode of action of drug candidates
 
 **IMPORTANT**: Lecture 10 taking place exceptionally at the Hörsaal 3.10, Physical Chemistry, Klingelbergstrasse 80.
 
 <p id="lec11"></p>
-### Lecture 11: Guest lecture
+### Lecture 11: DMPK and PKPD modeling
 
 <p id="lec12"></p>
+### Lecture 11: Guest lecture
+
+<p id="lec13"></p>
 ### Lecture 12: A collaboration challenge
 
 <p id="oas"></p>
