@@ -153,6 +153,11 @@ In lecture 7, we will explore the concept of causality and application in data a
 In lecture 8, we demonstrate the difference between correlation and causality with real-world examples, and introduce techniques to infer causality.
 
 * [Slides of lecture 7 and 8]({{site.assetbaseurl}}{% link assets/2025/07/AMIDD-2025-07-causal-inference.pdf %})
+* Offline activities
+   * Please [fill this form](https://forms.gle/BHjmnkauDLmTyjHZA) to give feedback to the lecture.
+   * Read [Accurate prdictions on small data with a tabular foundational model](https://www.nature.com/articles/s41586-024-08328-6) by Hollmann *et al.*, Nature 2025.
+   * Try [TabPFN](https://github.com/PriorLabs/TabPFN) with any problem of your choice.
+   * Share your learnings and experience by [filling this Google Form](https://forms.gle/5CtUubwnsBPe2GaN6). Deadline: Thursday, November the 13th, EOB.
 
 <p id="lec9"></p>
 ### Lecture 9: Lead identification and optimization
