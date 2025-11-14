@@ -184,7 +184,9 @@ An unsolicited advice about the readings: don't get frustrated if you meet detai
 <p id="lec10"></p>
 ### Lecture 10: Mechanism and mode of action of drug candidates
 
-**IMPORTANT**: Lecture 10 taking place exceptionally at the Hörsaal 3.10, Physical Chemistry, Klingelbergstrasse 80.
+**IMPORTANT**: Lecture 10 (November 21th, 2025) taking place exceptionally at the Hörsaal 3.10, Physical Chemistry, Klingelbergstrasse 80.
+
+**AND**: NO LECTURE on *Dies academicus* on November 28th, 2025.
 
 <p id="lec11"></p>
 ### Lecture 11: DMPK and PKPD modeling
