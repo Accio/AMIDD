@@ -162,6 +162,12 @@ In lecture 8, we demonstrate the difference between correlation and causality wi
 <p id="lec9"></p>
 ### Lecture 9: Lead identification and optimization
 
+In lecture 9, we will have a high-level overview of the process of lead identification and optimization (LI/LO) of small-molecule drug discovery.
+
+* [Slides of lecture 9]({{site.assetbaseurl}}{% link assets/2025/09/AMIDD-2025-09-LI-LO.pdf %})
+* Offline activities
+   * Please [fill this form](https://forms.gle/xfojWuc36ACyh3Wh6) to give feedback to the lecture.
+
 <p id="lec10"></p>
 ### Lecture 10: Mechanism and mode of action of drug candidates
 
