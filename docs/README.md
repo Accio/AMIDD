@@ -167,6 +167,19 @@ In lecture 9, we will have a high-level overview of the process of lead identifi
 * [Slides of lecture 9]({{site.assetbaseurl}}{% link assets/2025/09/AMIDD-2025-09-LI-LO.pdf %})
 * Offline activities
    * Please [fill this form](https://forms.gle/xfojWuc36ACyh3Wh6) to give feedback to the lecture.
+   * Mandatory: read [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2025/09/BiologicalActivity-Dougall-Unitt.pdf %}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. Use this and other resources, including Wikipedia and large language models (LLMs), to answer questions in your own words. Submit the answers [here via Google Form](https://forms.gle/sgg6nVQ5p4mbbKxx6) until *November 20th*, EOB.
+	* What is surface plasmon resonance (SPR), and how it is used to study the kinetics of target-ligand interactions?
+	* What do $K_d$, $k_{on}$, and $k_{off}$ mean in the context of kinetics of target-ligand interaction?
+	* What does microsomal clearance mean? Why it is important to measure it in drug discovery?
+	* Why is plasma protein binding an important parameter for drug discovery?
+	* What does GSH adduct mean? Why GSH assay is required for drug candidates?
+	* What is hERG, and what does hERG assay measure?
+	* What is Ames test, and what does it measure?
+	* What is the micronucleus test, and why it is important to perform it?
+	* What does phototoxicity mean, and why it is important to predict or measure it?
+    * Optional: In the lecture, we dissected the example of the discovery of a novel, reversible, and specific MAGL inhibitor. If you are interested in exploring the topic further, read the original publication [*Structure-Guided Discovery of cis-Hexahydro-pyrido-oxazinones as Reversible, Drug-like Monoacylglycerol Lipase Inhibitors*]({{site.assetbaseurl}}{% link assets/2025/09/Kuhn-JMedChem-2024.pdf %}) by Bernd Kuhn, *et al*. (J Med Chem, 2024).
+
+An unsolicited advice about the readings: don't get frustrated if you meet details that you do not understand at the first sight. That is normal when reading interdisciplinary papers. It may help to focus on the big lecture.
 
 <p id="lec10"></p>
 ### Lecture 10: Mechanism and mode of action of drug candidates
