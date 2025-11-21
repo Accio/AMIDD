@@ -11,3 +11,4 @@ slides/*.pdf
 *.RData
 .DS_Store
 .*.sw*
+*.html

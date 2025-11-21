@@ -1,0 +1,198 @@
+---
+title: "Simulation of drug treatment reversing disease-induced gene expression"
+author: "Jitao David Zhang"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+output:
+  html_document:
+    df_print: paged
+    theme: spacelab
+    mathjax: default
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    number_sections: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+  pdf_document:
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+editor_options: 
+  chunk_output_type: inline
+params:
+  echo: yes
+  relative: FALSE
+---
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      fig.height=6, fig.width=6)
+library(ribiosUtils)
+library(ribiosIO)
+library(ribiosPlot)
+library(openxlsx)
+library(tidyverse)
+library(ggplot2)
+library(MASS) # for mvrnorm
+library(dplyr)
+library(tidyr)
+library(ggrepel)
+set.seed(1887)
+theme_set(theme_light(base_size=16))
+```
+
+# 1) Boxplot of three groups (healthy, disease, treatment)
+
+
+We simulate 3 groups with 10 samples each. Means: healthy = 5, disease = 8, treatment = 6; standard deviation = 1.
+
+
+```{r boxplot-sim, fig.height=4, fig.width=6}
+n <- 10
+means <- c(healthy = 5, disease = 8, treatment = 6)
+sd <- 1
+
+df_box <- bind_rows(
+  lapply(names(means), function(g) {
+    data.frame(group = g,
+               value = rnorm(n = n, mean = means[[g]], sd = sd))
+  })
+) %>%
+  mutate(group=factor(group, c("healthy", "disease", "treatment")))
+
+ggplot(df_box, aes(x = group, y = value, fill = group)) +
+  geom_boxplot(alpha = 0.8, outliers = FALSE) +
+  scale_fill_manual(values=c("darkgray", royalbluered(5)[5],
+                             royalbluered(5)[1])) +
+  geom_jitter(width=0.15) +
+  theme(plot.subtitle = element_text(size=15),
+        axis.title = element_text(size=15),
+        axis.text.x = element_text(size=15)) +
+  labs(title = "Simulation: an partially working treatment",
+       subtitle = "Expression of a gene causally regulated by the disease",
+       y = "Expression", x="")
+```
+
+
+# 2) Scatterplot of 20,000 points with correlation -0.65
+
+Gaussian distribution
+
+```{r scatter, fig.height=7, fig.width=7, message=FALSE}
+N <- 20000
+rho <- -0.65
+
+# covariance matrix for bivariate normal
+Sigma <- matrix(c(1, rho, rho, 1), nrow = 2)
+
+
+# simulate bivariate normal
+z <- mvrnorm(n = N, mu = c(0,0), Sigma = Sigma)
+
+# assemble data frame
+df_scatter <- data.frame(x = z[, 1], y = z[, 2])
+
+# quick check of empirical correlation (Spearman/Kendall are better for heavy tails)
+emp_cor <- with(df_scatter, cor(x, y, method = "pearson"))
+emp_cor_spearman <- with(df_scatter, cor(x, y, method = "spearman"))
+
+p_scatter <- ggplot(df_scatter, aes(x = x, y = y)) +
+  geom_point(alpha = 0.15, size = 0.7) +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 0) +
+  labs(title = "Simulation of an partially working treatment",
+       subtitle = sprintf("Log2 fold change (log2FC) of %s genes in two comparisons",
+                          N),
+       x = "Expression change Disease-Healthy (log2FC)",
+       y = "Expression change Drug-Control (log2FC)",) +
+  scale_x_continuous(limits=c(-3, 3), oob=scales::censor) +
+  scale_y_continuous(limits=c(-3, 3), oob=scales::censor) +
+  theme(plot.subtitle = element_text(size=15),
+        axis.title = element_text(size=16),
+        axis.text.x = element_text(size=15)) +
+  annotate("text", x=0.2, 
+           y=3, label=sprintf("Spearman correlation:%1.2f", emp_cor_spearman),
+           hjust=0)
+
+p_scatter
+```
+
+
+# 3) PCA of 30 samples (10 healthy, 10 disease, 10 treatment)
+
+
+We simulate multivariate normal features (e.g. 50 variables) where disease shifts the data along the first principal axis and treatment is placed halfway between healthy and disease so it lies between the two groups in PCA space.
+
+
+```{r pca-sim, fig.height=4, fig.width=6}
+set.seed(2025)
+p <- 5000
+n_group <- 10
+
+# group centers: healthy = 0 vector; disease shift along first feature(s)
+healthy_center <- rep(0, p)
+disease_center <- c(rep(5, round(p/100)),
+                        rep(0, p-round(p/100))) # shift along 1/10 of the features
+# treatment halfway between
+treatment_center <- (healthy_center *0.7 + disease_center*0.3)
+
+# generate data with modest noise
+sigma_noise <- 0.2
+
+
+generate_group <- function(center, n) {
+  m <- matrix(rnorm(n * p, mean = 0, sd = sigma_noise), nrow = n, ncol = p)
+  sweep(m, 2, center, FUN = "+")
+}
+
+
+mat_healthy <- generate_group(healthy_center, n_group)
+mat_disease <- generate_group(disease_center, n_group)
+mat_treatment <- generate_group(treatment_center, n_group)
+
+
+mat_all <- rbind(mat_healthy, mat_disease, mat_treatment)
+rownames(mat_all) <- paste0(rep(c("Healthy","Disease","Treatment"), each = n_group), "_", 1:n_group)
+
+
+# PCA
+pca_res <- prcomp(mat_all, scale. = TRUE)
+npc_df <- data.frame(pca_res$x[,1:2])
+colnames(npc_df) <- c("PC1","PC2")
+npc_df$group <- rep(c("healthy","disease","treatment"), each = n_group)
+npc_df_healthy <- npc_df %>% filter(group=="healthy")
+npc_df_healthyZero <- npc_df %>%
+  mutate(PC1=(PC1 - mean(npc_df_healthy$PC1))/sd(npc_df_healthy$PC1),
+         PC2=(PC2 - mean(npc_df_healthy$PC2))/sd(npc_df_healthy$PC2)) %>%
+  mutate(group=factor(group, c("healthy", "disease", "treatment")))
+
+# Plot
+ggplot(npc_df_healthyZero, aes(x = PC1, y = PC2, color = group)) +
+  geom_point(size = 4, alpha = 0.9) +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 0) +
+  scale_color_manual(values=c("black", royalbluered(5)[5],
+                             royalbluered(5)[1])) +
+  stat_ellipse(level = 0.68, linetype = "dashed") +
+  ##geom_text_repel(aes(label = rownames(mat_all)), size = 4, max.overlaps = 12) +
+  labs(title = "PCA of simulated samples",
+       subtitle = "10 samples per group, 5000 features, 1% diff. exp.",
+       x = "Principal component 1 (PC1)", y = "Principal component 2 (PC2)") +
+  theme(plot.subtitle = element_text(size=15),
+        axis.title = element_text(size=15),
+        axis.text.x = element_text(size=15))
+```
+
+
+# Session information
+
+```{r bedaInfo}
+bedaInfo()
+```
+
+```{r sessionInfo}
+sessionInfo()
+```
+
+# Appendix
