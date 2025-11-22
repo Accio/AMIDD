@@ -185,6 +185,10 @@ An unsolicited advice about the readings: don't get frustrated if you meet detai
 ### Lecture 10: Mechanism and mode of action of drug candidates
 
 * [Slides of lecture 10]({{site.assetbaseurl}}{% link assets/2025/10/AMIDD-2025-10-Network-and-omics.pdf %})
+* Offline activities
+    * Please fill out [a two-question survey](https://forms.gle/RWATv9BDdcTM3L2D6) to give feedback about the lecture.
+    * Read [*Drug discovery effectiveness from the standpoint of therapeutic mechanisms and indications*]({{site.assetbaseurl}}{% link assets/2025/10/Shih-2018-DD-effectiveness-MoA.pdf %}) by Shih *et al.*, Nature Reviews Drug Discovery (2018). Submit your learnings [here via Google Form](https://forms.gle/4rRcCgTq1guDCGTj9) until *December the 6th*.
+
 
 **AND**: NO LECTURE on *Dies academicus* on November 28th, 2025.
 
