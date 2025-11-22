@@ -178,7 +178,6 @@ two_comp_boxplot <- ggplot(df_box, aes(x = group, y = value, fill = group)) +
         axis.text.x = element_text(size=15, angle = 15,
                                    hjust = sqrt(5/6), vjust=sqrt(5/6))) +
   labs(title = "Simulation: two comparisons",
-       subtitle = "The gene is causally regulated by the disease",
        y = "Expression", x="")
 print(two_comp_boxplot)
 ```
