@@ -219,8 +219,8 @@ lfc_scatter <- ggplot(df_scatter, aes(x = x, y = y)) +
   theme(plot.subtitle = element_text(size=12),
         axis.title = element_text(size=16),
         axis.text.x = element_text(size=16)) +
-  annotate("text", x=-0.5, 
-           y=3, label=sprintf("Spearman correlation:%1.2f", emp_cor_spearman),
+  annotate("text", x=-0.8, 
+           y=3, label=sprintf("Spearman cor.:%1.2f", emp_cor_spearman),
            hjust=0, size=5) +
   coord_fixed() + coord_equal()
 
