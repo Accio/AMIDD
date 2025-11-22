@@ -184,7 +184,7 @@ An unsolicited advice about the readings: don't get frustrated if you meet detai
 <p id="lec10"></p>
 ### Lecture 10: Mechanism and mode of action of drug candidates
 
-**IMPORTANT**: Lecture 10 (November 21th, 2025) taking place exceptionally at the Hörsaal 3.10, Physical Chemistry, Klingelbergstrasse 80.
+* [Slides of lecture 10]({{site.assetbaseurl}}{% link assets/2025/10/AMIDD-2025-10-Network-and-omics.pdf %})
 
 **AND**: NO LECTURE on *Dies academicus* on November 28th, 2025.
 
