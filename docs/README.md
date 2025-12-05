@@ -201,6 +201,7 @@ In lecture 11, we will introduce PK/PD modelling and basic concepts in clinical 
      * [Introduction to PBPK modelling] Jones, H. M., and K. Rowland‐Yeo. [Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development](https://doi.org/10.1038/psp.2013.41). CPT: Pharmacometrics & Systems Pharmacology (2013)
      * [Application of machine learning for PK prediction] Komissarov *et al.* [Actionable Predictions of Human Pharmacokinetics at the Drug Design Stage](https://pubs.acs.org/doi/abs/10.1021/acs.molpharmaceut.4c00311). Molecular Pharmaceutics (2024).
      * Confirm the completion of the task, and bring up any questions, [here via a Google Form](https://forms.gle/Fr3YXDqbxc1sZZMEA) until EOB December 11th.
+     * If you want to raise a question to David for the *Ask Me Anything* session, you can do it [by filling out this Form](https://forms.gle/7YL7cbTiSXiw6AgUA).
 
 
 <p id="lec12"></p>
