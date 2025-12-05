@@ -26,7 +26,7 @@ More information on the course can be found at [the course directory of the Univ
   * [Lecture 9: Lead identification and optimization](#lec9) (14.11.2025)
   * [Lectuer 10: Mechanism and mode of action of drugs](#lec10) (21.11.2025, **IMPORTANT** taking place exceptionally at Hörsaal 3.10, Physical Chemistry, Klingelbergstrasse 80)
   * [*Dies academicus*](#dies-academicus) (28.11.2025, no lecture)
-  * [Lectuer 11: PK/PD modeling and early development](#lec11) (5.12.2025)
+  * [Lectuer 11: PK/PD modeling and basics of clinical trials](#lec11) (5.12.2025)
   * [Lecture 12: Guest lecture](#lec12) (12.12.2025)
   * [Lecture 13: A collaboration challenge](#lec13) (19.12.2025)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
@@ -192,7 +192,16 @@ An unsolicited advice about the readings: don't get frustrated if you meet detai
 **AND**: NO LECTURE on *Dies academicus* on November 28th, 2025.
 
 <p id="lec11"></p>
-### Lecture 11: DMPK and PKPD modeling
+### Lecture 11: PK/PD modeling and basics of clinical trails
+
+In lecture 11, we will introduce PK/PD modelling and basic concepts in clinical trials.
+
+* [Slides of lecture 11]({{site.assetbaseurl}}{% link assets/2025/11/AMIDD-2025-11-PKPD.pdf %})
+* Offline activities: pick *one* publication to read, depending on your interest.
+     * [Introduction to PBPK modelling] Jones, H. M., and K. Rowland‐Yeo. 2013. [Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development](https://doi.org/10.1038/psp.2013.41). CPT: Pharmacometrics & Systems Pharmacology 2 (8): 63.
+     * [Application of machine learning for PK prediction] Stoyanova, R. et al. [Computational Predictions of Nonclinical Pharmacokinetics at the Drug Design Stage](https://pubs.acs.org/doi/10.1021/acs.jcim.2c01134). J. Chem. Inf. Model. 63, 442–458 (2023).
+     * Confirm the completion of the task, and bring up any questions, [here via a Google Form](https://forms.gle/Fr3YXDqbxc1sZZMEA) until EBD December 11th.
+
 
 <p id="lec12"></p>
 ### Lecture 11: Guest lecture
