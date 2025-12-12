@@ -27,7 +27,7 @@ More information on the course can be found at [the course directory of the Univ
   * [Lectuer 10: Mechanism and mode of action of drugs](#lec10) (21.11.2025, **IMPORTANT** taking place exceptionally at Hörsaal 3.10, Physical Chemistry, Klingelbergstrasse 80)
   * [*Dies academicus*](#dies-academicus) (28.11.2025, no lecture)
   * [Lectuer 11: PK/PD modeling and basics of clinical trials](#lec11) (5.12.2025)
-  * [Lecture 12: Guest lecture](#lec12) (12.12.2025)
+  * [Lecture 12: Guest lectures](#lec12) (12.12.2025)
   * [Lecture 13: A collaboration challenge](#lec13) (19.12.2025)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
 - [Offline activities](#oas)
@@ -205,11 +205,13 @@ In lecture 11, we will introduce PK/PD modelling and basic concepts in clinical 
 
 
 <p id="lec12"></p>
-### Lecture 12: Guest lecture
+### Lecture 12: Guest lectures
 
-In lecture 12, we have the honor to have **Dr. Martha Serrano** and **Dr. Chih-hsuan Hsin** with us. They will share their experience and learning from working in drug discovery and development.
+In lecture 12, we are honored to have **Dr. Martha Serrano** and **Dr. Chih-hsuan Hsin** talk with us. They will share their experience and learning from working in drug discovery and development. A Q&A session will follow after each talk.
 
 * [Biography of Dr. Serrano and Dr. Hsin]({{site.assetbaseurl}}{% link assets/2025/12/AMIDD-2025-Guest-lectures.pdf %})
+
+After the guest lectures, we will talk about the results of the survey for the course, and David will offer an *Ask Me Anything* session.
 
 <p id="lec13"></p>
 ### Lecture 13: A collaboration challenge
