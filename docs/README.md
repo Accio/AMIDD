@@ -205,10 +205,14 @@ In lecture 11, we will introduce PK/PD modelling and basic concepts in clinical 
 
 
 <p id="lec12"></p>
-### Lecture 11: Guest lecture
+### Lecture 12: Guest lecture
+
+In lecture 12, we have the honor to have **Dr. Martha Serrano** and **Dr. Chih-hsuan Hsin** with us. They will share their experience and learning from working in drug discovery and development.
+
+* [Biography of Dr. Serrano and Dr. Hsin]({{site.assetbaseurl}}{% link assets/2025/12/AMIDD-2025-Guest-lectures.pdf %})
 
 <p id="lec13"></p>
-### Lecture 12: A collaboration challenge
+### Lecture 13: A collaboration challenge
 
 <p id="oas"></p>
 ## Offline activities
