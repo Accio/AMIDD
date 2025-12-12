@@ -213,6 +213,14 @@ In lecture 12, we are honored to have **Dr. Martha Serrano** and **Dr. Chih-hsua
 
 After the guest lectures, we will talk about the results of the survey for the course, and David will offer an *Ask Me Anything* session.
 
+Written questions collected prior to the lecture:
+* *Do you supervise master’s theses?*
+* *The pharma industry is notorious for its ruthless "restructuring" strategies: whole departments vanish from a year to the other, and people are let go regardless of their performance metrics. How do you cope with such uncertainties when working at Roche?*
+* *Is it still possible to create a start up in pharma industry?*
+* *What are the most researched skills in the pharma industry?*
+* *Is it possible to go back to academia after industry?*
+* *For what do you use LLMs?*
+
 <p id="lec13"></p>
 ### Lecture 13: A collaboration challenge
 
