@@ -211,11 +211,12 @@ In lecture 12, we are honored to have **Dr. Martha Serrano** and **Dr. Chih-hsua
 
 * [Biography of Dr. Serrano and Dr. Hsin]({{site.assetbaseurl}}{% link assets/2025/12/AMIDD-2025-Guest-lectures.pdf %})
 * [Presentation by Dr. Martha Serrano]({{site.assetbaseurl}}{% link assets/2025/12/Serrano_AMIDD_2025.pdf %})
+* [Presentation by Dr. Chih-hsuan Hsin]({{site.assetbaseurl}}{% link assets/2025/12/Hsin_AMIDD_2025.pdf %})
 * [Anonymous feedback for the guest lectures](https://forms.gle/R7Fnr2ErMUDNZojd6)
 
 After the guest lectures, we talked about the results of the survey for the course, and David will offer an *Ask Me Anything* session.
 
-Written questions collected prior to the lecture:
+Written [questions](questions) collected prior to the lecture:
 * *Do you supervise master’s theses?*
 * *The pharma industry is notorious for its ruthless "restructuring" strategies: whole departments vanish from a year to the other, and people are let go regardless of their performance metrics. How do you cope with such uncertainties when working at Roche?*
 * *Is it still possible to create a start up in pharma industry?*
@@ -225,6 +226,8 @@ Written questions collected prior to the lecture:
 
 <p id="lec13"></p>
 ### Lecture 13: A collaboration challenge
+
+We had much fun with the collaboration challenge. Photos and individual feedback were shared with emails.
 
 <p id="oas"></p>
 ## Offline activities
