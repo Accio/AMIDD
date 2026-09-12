@@ -46,7 +46,7 @@ Commons (CC-BY-SA 4.0) license.
 
 ## Pre-course survey
 
-Please fill the pre-course survey [Form URL to be updated] before attending the course.
+Please fill [the pre-course survey](https://forms.gle/YAvN54tgRiFtjrvn6) before attending the course.
 
 ## Assessment
 
