@@ -22,7 +22,7 @@ More information on the course can be found at [the course directory of the Univ
   * [Lecture 5: Protein as drug target](#lec5) (16.10.2026)
   * [Lecture 6: Statistical model and machine learning](#lec6) (23.10.2026)
   * [Lecture 7: Causal inference](#lec7) (30.10.2026)
-  * [No lecture on 06.11.26 because David is travelling](#david-is-travelling) (06.11.2026, no lecture)
+  * [No lecture on 06.11.26](#no-lecture-061126) (06.11.2026, no lecture)
   * [Lecture 8: Lead identification and optimization](#lec8) (13.11.2026)
   * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (20.11.2026)
   * [*Dies academicus*](#dies-academicus) (27.11.2026, no lecture)
@@ -147,10 +147,10 @@ In lecture 7, we will explore the concept of causality and application in data a
 	    * (Optional) Checkout [Causal inference for drug discovery and development](https://github.com/Accio/causal_drug_discovery), an accompanying repo of Rmarkdown and Python notebooks that introduce basic concepts of causal inference.
 	    * Answer questions in this form [Form URL to be updated]. Submission deadline: Thursday, November the 5th, EOB.
 
-<p id="david-is-travelling"></p>
-### No lecture on 06.11.26 because David is travelling
+<p id="no-lecture-061126"></p>
+### No lecture on 06.11.26
 
-We will use the time for a hand-on project with tabular models. More details will follow.
+We will have no lecture on 06.11.26 because of a conflicting meeting. We will use the time for a hand-on project with tabular models. More details will follow.
 
 * Activities
    * Read [Accurate predictions on small data with a tabular foundational model](https://www.nature.com/articles/s41586-024-08328-6) by Hollmann *et al.*, Nature 2025.
