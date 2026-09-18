@@ -20,17 +20,17 @@ More information on the course can be found at [the course directory of the Univ
   * [Lecture 3: Key questions in drug discovery](#lec3) (02.10.2026)
   * [Lecture 4: Biological foundation of drug discovery](#lec4) (09.10.2026)
   * [Lecture 5: Protein as drug target](#lec5) (16.10.2026)
-  * [Lecture 6: Statistical model and machine learning](#lec6) (23.10.2026)
+  * [Lecture 6: Statistical, machine learning, and artificial intelligence models](#lec6) (23.10.2026)
   * [Lecture 7: Causal inference](#lec7) (30.10.2026)
   * [No lecture on 06.11.26](#no-lecture-061126) (06.11.2026, no lecture)
   * [Lecture 8: Lead identification and optimization](#lec8) (13.11.2026)
-  * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (20.11.2026)
-  * [*Dies academicus*](#dies-academicus) (27.11.2026, no lecture)
+  * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (20.11.2026, *Hörsaal 101 in der Alten Universität*)
+  * [No lecture on 27.11.26 due to *Dies academicus*](#dies-academicus) (27.11.2026, no lecture)
   * [Lecture 10: PK/PD modeling and basics of clinical trials](#lec10) (04.12.2026)
   * [Lecture 11: Guest lectures](#lec11) (11.12.2026)
   * [Lecture 12: A collaboration challenge](#lec12) (18.12.2026)
+- [Commonly Asked Questions and Answers](#QandA)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
-- [Offline activities](#oas)
 - [Archives of past courses](#archives-of-past-courses)
 
 ## Time and place
@@ -50,8 +50,7 @@ Please fill [the pre-course survey](https://forms.gle/YAvN54tgRiFtjrvn6) before 
 
 ## Assessment
 
-The final note is given by participation including in-class quizzes (30%),
-offline activities (40%), and a collaboration challenge in the final session
+The final note is given by participation including in-class quizzes (taking place randomly through out the semester, 30%), offline activities (announced in each lecture, 40%), and a collaboration challenge in the final session
 (30%).
 
 ## Syllabus
@@ -121,9 +120,9 @@ In lecture 5, we will explore properties of proteins as drug targets, and learn 
 
 
 <p id="lec6"></p>
-### Lecture 6: Statistical model and machine learning
+### Lecture 6: Statistical, machine learning, and artificial intelligence models
 
-In lecture 6, we will explore statistical and machine-learning based models.
+In lecture 6, we will explore statistical, machine learning (ML), and artificial intelligence (AI) models and their applications in drug discovery.
 
 * [Slides of lecture 6]({{site.assetbaseurl}}{% link assets/2026/06/AMIDD-2026-06-statistical-and-causal-modelling.pdf %})
 * Offline activities:
@@ -134,7 +133,7 @@ In lecture 6, we will explore statistical and machine-learning based models.
 	* (Optional) If you are intrigued by the findings of the study, and/or if you are interested the hypothesis of *fetal origins of disease* in the cardiovascular domain, please read [*Exposure to sugar rationing in first 1000 days after conception and long term cardiovascular outcomes: natural experiment study*](https://www.bmj.com/content/391/bmj-2024-083890) by Zheng *et al.* (BMJ, 2025).
 
 <p id="lec7"></p>
-### Lecture 7: Causal inference (I)
+### Lecture 7: Causal inference
 
 In lecture 7, we will explore the concept of causality and application in data analysis.
 
@@ -180,7 +179,9 @@ In lecture 8, we will have a high-level overview of the process of lead identifi
 An unsolicited advice about the readings: don't get frustrated if you meet details that you do not understand at the first sight. That is normal when reading interdisciplinary papers. It may help to focus on the big lecture.
 
 <p id="lec9"></p>
-### Lecture 9: Mechanism and mode of action of drug candidates
+### Lecture 9: Mechanism and mode of action of drugs
+
+*Attention*: this lecture takes place exceptionally at the Hörsaal 101 in the *Alte Universität*, Rheinsprung 9, 4051 Basel.
 
 * [Slides of lecture 9]({{site.assetbaseurl}}{% link assets/2026/10/AMIDD-2026-10-Network-and-omics.pdf %})
 * Offline activities
@@ -208,8 +209,10 @@ Details to be announced.
 <p id="lec12"></p>
 ### Lecture 12: A collaboration challenge
 
-<p id="oas"></p>
-## Offline activities
+<p id="QandA"></p>
+## Commonly asked questions and answers
+
+* *What happens if I have to miss lectures?* If you are missing courses due to reasons beyond your control (e.g. sickness, military service, etc.), please submit a written confirmation either before or latest 14 days after. Without the confirmation you will not receive the grade for the quiz that may take place during the course.
 
 ## Further questions or suggestions?
 
