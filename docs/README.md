@@ -6,7 +6,7 @@ We welcome bachelor, master, and PhD students of diverse backgrounds including (
 
 The course is *in-person only*. Remote or virtual attendance is unfortunately not feasible. We have a diverse and lively class room that work with and learn from each other interactively, which is challenging in a virtual or hybrid setting.
 
-More information on the course can be found at [the course directory of the University Basel](https://vorlesungsverzeichnis.unibas.ch/de/vorlesungsverzeichnis?id=302761).
+A one-page summary of the course 2026 can be found here [AMIDD 2026 Agenda]({{site.assetbaseurl}}{% link assets/2026/AMIDD-2026-agenda-A4.pdf %}). More information on the course can be found at [the course directory of the University Basel](https://vorlesungsverzeichnis.unibas.ch/de/vorlesungsverzeichnis?id=302761).
 
 ## Table of content
 
