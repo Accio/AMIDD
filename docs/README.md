@@ -65,9 +65,8 @@ The first lecture introduces drugs and drug discovery.
     * If you need a refresher of the central dogma of biology, please watch [this YouTube video](https://www.youtube.com/watch?v=9kOGOY7vthk).
     * If you are not familiar with the process of drug discovery and development, you may benefit from watching [this YouTube video made by Novartis](https://www.youtube.com/watch?v=3Gl0gAcW8rw).
 * [Slides of lecture 1]({{site.assetbaseurl}}{% link assets/2026/01/AMIDD-2026-01-Intro.pdf %})
-* Offline activities:
-     * Assignment: see slide #20. Please submit your response [Form URL to be updated] latest by September 24th, Thursday, End of Business Day (EOB).
-     * Please fill the post-lecture survey [Form URL to be updated]. The due date is the same as the offline activities.
+* Please fill the short post-lecture survey at [https://forms.gle/KvvfXX9cES5w6D1N8](https://forms.gle/KvvfXX9cES5w6D1N8). Please submit your response latest by September 24th, Thursday, End of Business Day (EOB).
+* Offline activities: see slide #29. Please submit your response at [https://forms.gle/Yu7ymqScHzZpDLxQA](https://forms.gle/Yu7ymqScHzZpDLxQA) latest by September 24th, Thursday, EOB.
 
 <p id="lec2"></p>
 
