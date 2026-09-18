@@ -33,20 +33,20 @@ Examples of models and their applications are introduced in the context of lead 
 
 | #  | Date   | Session                                                           | Scope
 |----|--------|-------------------------------------------------------------------|--------------------------------------------|
-| 1  | 18.09. | Introduction to drug discovery                                    | The whole arc, seen through one drug       |
-| 2  | 25.09. | The *What*, the *Who*, and the *How*                              | Workflow, stakeholders, paths to a drug    |
-| 3  | 02.10. | Key questions in drug discovery                                   | The five questions as a project compass    |
-| 4  | 09.10. | Biological foundation of drug discovery                           | From genes to phenotypes                   |
-| 5  | 16.10. | Protein as drug target                                            | Molecular, physics-based models            |
-| 6  | 23.10. | Statistical, machine learning, and artificial intelligence models | Statistical modeling                       |
-| 7  | 30.10. | Causal inference                                                  | Causal models, generative simulation       |
+| 1  | 18.09. | Introduction to drug discovery                                    | Drug discovery seen through one drug       |
+| 2  | 25.09. | The *What*, the *Who*, and the *How*                              | Stakeholders and paths to a drug           |
+| 3  | 02.10. | Key questions in drug discovery                                   | The five questions of drug discovery       |
+| 4  | 09.10. | Biological foundation of drug discovery                           | Genotype, environment, and phenotype       |
+| 5  | 16.10. | Protein as drug target                                            | Biophysics, biochemistry, and computation  |
+| 6  | 23.10. | Statistical, machine learning, and artificial intelligence models | Prediction, explanation, understanding     |
+| 7  | 30.10. | Causal inference                                                  | Causal models and causal thinking          |
 | -  | 06.11. | No lecture - excise planned                                       |                                            |
 | 8  | 13.11. | Lead identification and optimization                              | Molecule-level design and profiling        |
 | 9  | 20.11. | Mechanism and mode of action                                      | Omics, networks, cell-level models         |
 | -  | 27.11. | *Dies academicus* — no lecture                                    |                                            |
-| 10 | 04.12. | PK/PD modeling and clinical trials                               | Organ, organism, and population models     |
+| 10 | 04.12. | PK/PD modeling and clinical trials                                | Temporal profiles in population            |
 | 11 | 11.12. | Guest lectures                                                    | Practitioners' perspectives                |
-| 12 | 18.12. | A collaboration challenge                                         | Everything above, applied in teams         |
+| 12 | 18.12. | A collaboration challenge                                         | Problem solving by teamwork                |
 
 ## Topics we will cover
 
