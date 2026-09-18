@@ -1,7 +1,6 @@
 ---
 title: "Applied Mathematics and Informatics in Drug Discovery (AMIDD)"
 subtitle: "Course outline - Fall semester 2026, University of Basel"
-author: "Jitao David Zhang · jitao-david.zhang@unibas.ch · www.AMIDD.ch"
 documentclass: extarticle
 geometry: "a4paper,margin=13mm"
 fontsize: 9pt
