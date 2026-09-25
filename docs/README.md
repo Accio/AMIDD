@@ -78,7 +78,7 @@ In the second lecture, we discuss the workflow of modern drug discovery, the rel
 * Offline activities
     * Please fill the post-lecture survey [Form URL to be updated]: I look forward to your feedback!
     * Assignment is described here [Form URL to be updated]. Deadline: EOB October 1st.
-    * Keep reading and thinking about your roles as pharma company, regulatory agency, insurance company, medical doctors, and patients, and exchanging with your fellow peers.
+    * Keep reading and thinking about your roles as basic researchers, funding agency, pharma company, regulatory agency, insurance company, medical doctors, or patients, and exchanging with your fellow peers.
 
 <p id="lec3"></p>
 ### Lecture 3: Key questions in drug discovery
