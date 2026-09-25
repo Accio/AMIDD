@@ -16,8 +16,8 @@ A one-page summary of the course 2026 can be found here [AMIDD 2026 Agenda]({{si
 - [Assessment](#assessment)
 - [Syllabus](#syllabus)
   * [Lecture 1: Introduction to drug discovery](#lec1) (18.09.2026)
-  * [Lecture 2: The *What*, the *Who*, and the *How* of drug discovery](#lec2) (25.09.2026)
-  * [Lecture 3: Key questions in drug discovery](#lec3) (02.10.2026)
+  * [Lecture 2: The linear model of drug discovery](#lec2) (25.09.2026)
+  * [Lecture 3: The *What*, the *Who*, and the *How* of drug discovery](#lec3) (02.10.2026)
   * [Lecture 4: Biological foundation of drug discovery](#lec4) (09.10.2026)
   * [Lecture 5: Protein as drug target](#lec5) (16.10.2026)
   * [Lecture 6: Statistical, machine learning, and artificial intelligence models](#lec6) (23.10.2026)
@@ -53,6 +53,8 @@ Please fill [the pre-course survey](https://forms.gle/YAvN54tgRiFtjrvn6) before 
 The final note is given by participation including in-class quizzes (taking place randomly through out the semester, 30%), offline activities (announced in each lecture, 40%), and a collaboration challenge in the final session
 (30%).
 
+[Here you can have an overview of the records of submitted offline activities](https://docs.google.com/spreadsheets/d/1pO3K4pkDZmAbAOmPGx_I8ioI2z-kzfva1JMMjv-7aCc/edit?usp=sharing).
+
 ## Syllabus
 
 <p id="lec1"></p>
@@ -70,15 +72,14 @@ The first lecture introduces drugs and drug discovery.
 
 <p id="lec2"></p>
 
-### Lecture 2: The *What*, the *Who*, and the *How* of drug discovery
+### Lecture 2: The linear model of drug discovery
 
-In the second lecture, we discuss the workflow of modern drug discovery, the relevant stakeholders, and possible paths towards new drugs.
+In the second lecture, we planned to discuss the workflow of modern drug discovery, the relevant stakeholders, and possible paths towards new drugs. Finally we managed to discuss the linear model of drug discovery, different stages, and the time, cost, and technical success rates associated with each phase.
 
 * [Slides of lecture 2]({{site.assetbaseurl}}{% link assets/2026/02/AMIDD-2026-02-What-Who-How.pdf %})
 * Offline activities
-    * Please fill the post-lecture survey [Form URL to be updated]: I look forward to your feedback!
-    * Assignment is described here [Form URL to be updated]. Deadline: EOB October 1st.
-    * Keep reading and thinking about your roles as basic researchers, funding agency, pharma company, regulatory agency, insurance company, medical doctors, or patients, and exchanging with your fellow peers.
+    * Please fill [the survey of lecture 2](https://forms.gle/eLTwTT7wYhzrGnnE8): I look forward to your feedback!
+    * Read two related publications, one on [the principles of early drug discovery]({{site.assetbaseurl}}{% link assets/2026/02/Principles-DD-Hughes.pdf %}) by Hughes *et al.* (2010), and the other on [the productivity challenge of pharma industry]({{site.assetbaseurl}}{% link assets/2026/02/Paul-2010-Productivity.pdf %}). Despite that the papers are published many years ago, most key points have withstood the testing of time. Please fill out [the offline activity form of lecture 2](https://forms.gle/CFbZtLiXAPF7iS2S9) by October 1st, EOB.
 
 <p id="lec3"></p>
 ### Lecture 3: Key questions in drug discovery
