@@ -88,6 +88,8 @@ In the third lecture, we explore the five key questions in drug discovery: medic
 
 * [Slides of lecture 3]({{site.assetbaseurl}}{% link assets/2026/03/AMIDD-2026-03-What-Who-How.pdf %})
 * Offline activities
+    * Please [fill the anonymous survey](https://forms.gle/RnmY6Ndh13zjomxMA) for the third lecture.
+    * See the task in the page #18 of the slides. [Use this Google Form to submit your replies](https://forms.gle/gep9A9nnn9jECskD8).
 
 <p id="lec4"></p>
 ### Lecture 4: Biological foundation of drug discovery
