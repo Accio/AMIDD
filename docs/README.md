@@ -86,11 +86,8 @@ In the second lecture, we planned to discuss the workflow of modern drug discove
 
 In the third lecture, we explore the five key questions in drug discovery: medical need, target and modality, PK/PD, benefit and risk, and patient stratification.
 
-* [Slides of lecture 3]({{site.assetbaseurl}}{% link assets/2026/03/AMIDD-2026-03-Key-Questions.pdf %})
+* [Slides of lecture 3]({{site.assetbaseurl}}{% link assets/2026/03/AMIDD-2026-03-What-Who-How.pdf %})
 * Offline activities
-    * Please fill the post-lecture survey [Form URL to be updated]: I look forward to your feedback!
-    * Assignment #1: If you need a quick refreshment of the concept of central dogma and the process of information flow from DNA to protein, check out [this video by *yourgenome*](https://www.youtube.com/watch?v=gG7uCskUOrA) (~3 min).
-    * Assignment #2: Watch [the Nobel Prize Lecture by Katalin Karikó, Nobel Prize Laureate in Physiology or Medicine 2023](https://www.youtube.com/watch?v=gPdUnYjvWxo) (42 min). Think about three questions: (1) What did you find most interesting? (2) What surprised you the most? (3) What you can do differently in your work and life, inspired by the learning shared by Katalin Karikó? Submit your answers [Form URL to be updated] by Thursday, 08.10., EOB.
 
 <p id="lec4"></p>
 ### Lecture 4: Biological foundation of drug discovery
