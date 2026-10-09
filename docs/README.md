@@ -99,7 +99,7 @@ In lecture 4, we will explore key questions of drug discovery.
 * [Slides of lecture 4]({{site.assetbaseurl}}{% link assets/2026/04/AMIDD-2026-04-Key-Questions.pdf %})
 * Offline activities:
 	* Please fill the post-lecture survey [Form URL to be updated].
-	* Assignment #1: Read the [Popular Information of Nobel Prize 2026 in Chemistry 2025](https://www.nobelprize.org/prizes/chemistry/2026/popular-information/). What was the most interesting learning for you?
+	* Assignment #1: Read the [Popular Information of Nobel Prize 2026 in Chemistry](https://www.nobelprize.org/prizes/chemistry/2026/popular-information/). What was the most interesting learning for you?
 	* Assignment #2: Watch [the Nobel Prize Lecture by Katalin Karikó, Nobel Prize Laureate in Physiology or Medicine 2023](https://www.youtube.com/watch?v=gPdUnYjvWxo) (42 min), and answer questions.
 
 <p id="lec5"></p>
