@@ -18,7 +18,7 @@ A one-page summary of the course 2026 can be found here [AMIDD 2026 Agenda]({{si
   * [Lecture 1: Introduction to drug discovery](#lec1) (18.09.2026)
   * [Lecture 2: The linear model of drug discovery](#lec2) (25.09.2026)
   * [Lecture 3: The *What*, the *Who*, and the *How* of drug discovery](#lec3) (02.10.2026)
-  * [Lecture 4: Biological foundation of drug discovery](#lec4) (09.10.2026)
+  * [Lecture 4: Key questions of drug discovery](#lec4) (09.10.2026)
   * [Lecture 5: Protein as drug target](#lec5) (16.10.2026)
   * [Lecture 6: Statistical, machine learning, and artificial intelligence models](#lec6) (23.10.2026)
   * [Lecture 7: Causal inference](#lec7) (30.10.2026)
@@ -92,16 +92,15 @@ In the third lecture, we explore the five key questions in drug discovery: medic
     * See the task in the page #18 of the slides. [Use this Google Form to submit your replies](https://forms.gle/gep9A9nnn9jECskD8).
 
 <p id="lec4"></p>
-### Lecture 4: Biological foundation of drug discovery
+### Lecture 4: Key questions of drug discovery
 
+In lecture 4, we will explore key questions of drug discovery.
 
-In lecture 4, we will explore biological foundations of drug discovery.
-
-* [Slides of lecture 4]({{site.assetbaseurl}}{% link assets/2026/04/AMIDD-2026-04-BiologicalFoundation.pdf %})
+* [Slides of lecture 4]({{site.assetbaseurl}}{% link assets/2026/04/AMIDD-2026-04-Key-Questions.pdf %})
 * Offline activities:
 	* Please fill the post-lecture survey [Form URL to be updated].
-	* Assignment #1: Read the [Popular Information of Nobel Prize 2025 in Physiology or Medicine 2025](https://www.nobelprize.org/prizes/medicine/2025/popular-information/). What was the most interesting learning for you?
-	* Assignment #2: Read the article [*Principles of early drug discovery*]({{site.assetbaseurl}}{% link assets/2026/04/Hughes-2011-Principles.pdf %}) by Hughes *et al.* (2011) twice. The first time, read the whole paper however as you wish. The second time, use one sentence to summarize each paragraph of the sections 'target identification' and 'target validation'. Write down your summary sentences (no formatting/polishing needed). Submit your answers [Form URL to be updated] by Thursday, 15.10., EOB.
+	* Assignment #1: Read the [Popular Information of Nobel Prize 2026 in Chemistry 2025](https://www.nobelprize.org/prizes/chemistry/2026/popular-information/). What was the most interesting learning for you?
+	* Assignment #2: Watch [the Nobel Prize Lecture by Katalin Karikó, Nobel Prize Laureate in Physiology or Medicine 2023](https://www.youtube.com/watch?v=gPdUnYjvWxo) (42 min), and answer questions.
 
 <p id="lec5"></p>
 ### Lecture 5: Protein as drug target
