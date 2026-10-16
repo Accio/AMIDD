@@ -19,7 +19,7 @@ A one-page summary of the course 2026 can be found here [AMIDD 2026 Agenda]({{si
   * [Lecture 2: The linear model of drug discovery](#lec2) (25.09.2026)
   * [Lecture 3: The *What*, the *Who*, and the *How* of drug discovery](#lec3) (02.10.2026)
   * [Lecture 4: Key questions of drug discovery](#lec4) (09.10.2026)
-  * [Lecture 5: Protein as drug target](#lec5) (16.10.2026)
+  * [Lecture 5: Biological foundations of drug discovery](#lec5) (16.10.2026)
   * [Lecture 6: Statistical, machine learning, and artificial intelligence models](#lec6) (23.10.2026)
   * [Lecture 7: Causal inference](#lec7) (30.10.2026)
   * [No lecture on 06.11.26](#no-lecture-061126) (06.11.2026, no lecture)
@@ -103,18 +103,14 @@ In lecture 4, we will explore key questions of drug discovery.
 	* Assignment #2: Watch [the Nobel Prize Lecture by Katalin Karikó, Nobel Prize Laureate in Physiology or Medicine 2023](https://www.youtube.com/watch?v=gPdUnYjvWxo) (42 min), and answer questions. Submission link: [AMIDD 2026 Lecture 4 OA](https://forms.gle/GNysqAoX9D1mk3Nc7). Deadline: Thursday before 5th lecture.
 
 <p id="lec5"></p>
-### Lecture 5: Protein as drug target
+### Lecture 5: Biological foundations of drug discovery
 
-In lecture 5, we will explore properties of proteins as drug targets, and learn an example of physics-based/mechanistic mathematical modelling.
+In lecture 5, we will explore biological foundations of key questions in drug discovery.
 
-* [Slides of lecture 5]({{site.assetbaseurl}}{% link assets/2026/05/AMIDD-2026-05-Proteins-as-drug-target.pdf %})
+* [Slides of lecture 5]({{site.assetbaseurl}}{% link assets/2026/05/AMIDD-2026-05-Biological-Foundation.pdf %})
 * Offline activities:
 	* Please fill the post-lecture survey [Form URL to be updated].
-	* Answer the question listed in the slide #21. And choose **one** task below to perform. In each case, consider using the [Feynman technique](https://law-hawaii.libguides.com/notetaking/feynman).
-		* If you have a strong background in mathematics/statistics and particularly in machine learning, please review the material shared in the slides about proteins so that you gain more knowledge about drug targets.
-		* If you have a strong background in biology but yet to develop more skills in machine learning, please read [An Introduction to Machine Learning](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/cpt.1796).
-		* If you have strong background in both fields, please read [Accurate structure prediction of biomolecular interactions with AlphaFold3](https://www.nature.com/articles/s41586-024-07487-w), by Abramson *et al*.
-	* Confirm that you have performed one of the tasks above by filling out this form [Form URL to be updated]. Deadline: Thursday before Lecture 6.
+	* Follow the instructions in the slide #22. Confirm that you have performed one of the tasks above by filling out this form [Form URL to be updated]. Deadline: Thursday before Lecture 6.
 
 
 <p id="lec6"></p>
