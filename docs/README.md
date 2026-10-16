@@ -109,8 +109,8 @@ In lecture 5, we will explore biological foundations of key questions in drug di
 
 * [Slides of lecture 5]({{site.assetbaseurl}}{% link assets/2026/05/AMIDD-2026-05-Biological-Foundation.pdf %})
 * Offline activities:
-	* Please fill the post-lecture survey [Form URL to be updated].
-	* Follow the instructions in the slide #22. Confirm that you have performed one of the tasks above by filling out this form [Form URL to be updated]. Deadline: Thursday before Lecture 6.
+	* Please fill the [post-lecture survey of lecture 5](https://forms.gle/uCJP3ShVJP8dE7D87)
+	* Follow the instructions in the slide #15. Confirm that you have performed the tasks above by [filling out this form](https://forms.gle/akAD3axz8VhwJQBD6). Deadline: Thursday before Lecture 6.
 
 
 <p id="lec6"></p>
