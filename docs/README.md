@@ -121,7 +121,8 @@ In lecture 6, we will learn about proteins as drug targets.
 * [Slides of lecture 6]({{site.assetbaseurl}}{% link assets/2026/06/AMIDD-2026-06-Proteins-as-Drug-Targets.pdf %})
 * Offline activities:
 	* Please fill [the post-lecture survey](https://forms.gle/LLr4icgrzfRY31W48).
-	* Read [*The Environment and Disease: Association or Causation?*]({{site.assetbaseurl}}{% link assets/2026/06/Hill-1965.pdf %}) by Austin Bradford Hill (1965).
+	* Read [*The Environment and Disease: Association or Causation?*]({{site.assetbaseurl}}{% link assets/2026/07/Hill-1965.pdf %}) by Austin Bradford Hill (1965). [Submit the response via the Google Form](https://forms.gle/pY76Vz33ifqTYMi49).
+	* (Optional) If you are familiar with the biology concepts that we discussed in the course and wish to gain a deeper understanding, please read [The principles of systems biology, laid out by Denis Noble 2007]({{site.assetbaseurl}}{% link assets/2026/06/Noble-2007-The-Principles-of-Systems-Biology.pdf %}) and [follow-up in 2026]({{site.assetbaseurl}}{% link assets/2026/06/Noble-and-Bourret-2026-The-Principles-of-Systems-Biology.pdf %}). In case you have questions, you can submit them via [the Google Form](https://forms.gle/X3Hrviiz1iQ3CRjg8).
 
 <p id="lec7"></p>
 ### Lecture 7: Causal inference
