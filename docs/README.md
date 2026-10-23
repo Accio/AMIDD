@@ -120,7 +120,7 @@ In lecture 6, we will learn about proteins as drug targets.
 
 * [Slides of lecture 6]({{site.assetbaseurl}}{% link assets/2026/06/AMIDD-2026-06-Proteins-as-Drug-Targets.pdf %})
 * Offline activities:
-	* Please fill the post-lecture survey [Form URL to be updated].
+	* Please fill [the post-lecture survey](https://forms.gle/LLr4icgrzfRY31W48).
 	* Read [*The Environment and Disease: Association or Causation?*]({{site.assetbaseurl}}{% link assets/2026/06/Hill-1965.pdf %}) by Austin Bradford Hill (1965).
 
 <p id="lec7"></p>
