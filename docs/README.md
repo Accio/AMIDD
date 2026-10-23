@@ -121,7 +121,7 @@ In lecture 6, we will learn about proteins as drug targets.
 * [Slides of lecture 6]({{site.assetbaseurl}}{% link assets/2026/06/AMIDD-2026-06-Proteins-as-Drug-Targets.pdf %})
 * Offline activities:
 	* Please fill [the post-lecture survey](https://forms.gle/LLr4icgrzfRY31W48).
-	* Read [*The Environment and Disease: Association or Causation?*]({{site.assetbaseurl}}{% link assets/2026/07/Hill-1965.pdf %}) by Austin Bradford Hill (1965). [Submit the response via the Google Form](https://forms.gle/pY76Vz33ifqTYMi49).
+	* Read [The evolving landscape of drug targets by Halip *et al.*]({{site.assetbaseurl}}{% link assets/2026/06/Halip-2026-the-evolving-landscape-of-drug-targets.pdf %}): it is a state-of-the-art review of drug targets. [Submit your questions about the topic via the Google Form](https://forms.gle/pY76Vz33ifqTYMi49).
 	* (Optional) If you are familiar with the biology concepts that we discussed in the course and wish to gain a deeper understanding, please read [The principles of systems biology, laid out by Denis Noble 2007]({{site.assetbaseurl}}{% link assets/2026/06/Noble-2007-The-Principles-of-Systems-Biology.pdf %}) and [follow-up in 2026]({{site.assetbaseurl}}{% link assets/2026/06/Noble-and-Bourret-2026-The-Principles-of-Systems-Biology.pdf %}). In case you have questions, you can submit them via [the Google Form](https://forms.gle/X3Hrviiz1iQ3CRjg8).
 
 <p id="lec7"></p>
@@ -134,6 +134,7 @@ In lecture 7, we will explore the concept of causality and application in data a
     * Please fill the post-lecture survey [Form URL to be updated].
     * Offline activities:
 	    * Review the slides to make sure that you understand the idea of using generative models to simulate and explore causality.
+	* Read [*The Environment and Disease: Association or Causation?*]({{site.assetbaseurl}}{% link assets/2026/07/Hill-1965.pdf %}) by Austin Bradford Hill (1965).
 	    * Read the review [Causal inference in drug discovery and development]({{site.assetbaseurl}}{% link assets/2026/07/Michoel-Zhang-2023.pdf %}).
 	    * (Optional) Checkout [Causal inference for drug discovery and development](https://github.com/Accio/causal_drug_discovery), an accompanying repo of Rmarkdown and Python notebooks that introduce basic concepts of causal inference.
 	    * Answer questions in this form [Form URL to be updated]. Submission deadline: Thursday, November the 5th, EOB.
