@@ -131,7 +131,7 @@ In lecture 7, we will explore three types of computational models that are commo
 
 * [Slides of lecture 7]({{site.assetbaseurl}}{% link assets/2026/07/AMIDD-2026-07-three-types-of-models.pdf %})
 * Offline activities
-    * Please fill the post-lecture survey [Form URL to be updated].
+    * Please fill the [post-lecture survey of lecture 7](https://forms.gle/3GPo8WHKsUgt5gdi9).
     * Offline activities:
 	* Read [*The Environment and Disease: Association or Causation?*]({{site.assetbaseurl}}{% link assets/2026/07/Hill-1965.pdf %}) by Austin Bradford Hill (1965).
 	* Read the review [Causal inference in drug discovery and development]({{site.assetbaseurl}}{% link assets/2026/07/Michoel-Zhang-2023.pdf %}).
