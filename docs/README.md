@@ -133,20 +133,16 @@ In lecture 7, we will explore three types of computational models that are commo
 * Offline activities
     * Please fill the [post-lecture survey of lecture 7](https://forms.gle/3GPo8WHKsUgt5gdi9).
     * Offline activities:
-	* Read [*The Environment and Disease: Association or Causation?*]({{site.assetbaseurl}}{% link assets/2026/07/Hill-1965.pdf %}) by Austin Bradford Hill (1965).
-	* Read the review [Causal inference in drug discovery and development]({{site.assetbaseurl}}{% link assets/2026/07/Michoel-Zhang-2023.pdf %}).
-	* (Optional) Checkout [Causal inference for drug discovery and development](https://github.com/Accio/causal_drug_discovery), an accompanying repo of Rmarkdown and Python notebooks that introduce basic concepts of causal inference.
-	* Answer questions in this form [Form URL to be updated]. Submission deadline: Thursday, November the 5th, EOB.
+	* Read [*The Environment and Disease: Association or Causation?*]({{site.assetbaseurl}}{% link assets/2026/07/Hill-1965.pdf %}) by Austin Bradford Hill (1965), and think about the following questions: What views by Austin Hill surprise you? And how can we apply Hill's criteria to determine the causal effect of treatment with a drug?
+	* Read the review [Causal inference in drug discovery and development]({{site.assetbaseurl}}{% link assets/2026/07/Michoel-Zhang-2023.pdf %}), and think about the following questions: What are the relationship between statistical/ML/AI models with causal inference? How can we bring causal thinking to statistical/ML/AI models, especially in the context of drug discovery?
+	* (Optional) Checkout [Causal inference for drug discovery and development](https://github.com/Accio/causal_drug_discovery), an accompanying repo of Rmarkdown and Python notebooks that introduce basic concepts of causal inference with hands-on exercises.
+	* Answer questions in [the offline activity form of lecture 7](https://forms.gle/MD1d9H52BQY1VoyY7). Submission deadline: Thursday, November the 12th, EOB.
 
 <p id="no-lecture-061126"></p>
 ### No lecture on 06.11.26
 
-We will have no lecture on 06.11.26 because of a conflicting meeting. We will use the time for a hand-on project with tabular models. More details will follow.
+We will have no lecture on 06.11.26 due to David's schedule.
 
-* Activities
-   * Read [Accurate predictions on small data with a tabular foundational model](https://www.nature.com/articles/s41586-024-08328-6) by Hollmann *et al.*, Nature 2025.
-   * Try [TabPFN](https://github.com/PriorLabs/TabPFN) with any problem of your choice.
-   * Share your learnings and experience by filling this form [Form URL to be updated]. Deadline: Thursday, November the 12th, EOB.
 
 <p id="lec8"></p>
 ### Lecture 8: Lead identification and optimization
@@ -156,6 +152,9 @@ In lecture 8, we will have a high-level overview of the process of lead identifi
 * [Slides of lecture 8]({{site.assetbaseurl}}{% link assets/2026/09/AMIDD-2026-09-LI-LO.pdf %})
 * Offline activities
 	* Please fill this form [Form URL to be updated] to give feedback to the lecture.
+	* Read [Accurate predictions on small data with a tabular foundational model](https://www.nature.com/articles/s41586-024-08328-6) by Hollmann *et al.*, Nature 2025.
+	* Try [TabPFN](https://github.com/PriorLabs/TabPFN) with any problem of your choice.
+	* Share your learnings and experience by filling this form [Form URL to be updated]. Deadline: Thursday, November the 12th, EOB.
 	* Mandatory: read [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2026/09/BiologicalActivity-Dougall-Unitt.pdf %}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. Use this and other resources, including Wikipedia and large language models (LLMs), to answer questions in your own words. Submit the answers [Form URL to be updated] until *November 19th*, EOB.
 		* What is surface plasmon resonance (SPR), and how it is used to study the kinetics of target-ligand interactions?
 		* What do $K_d$, $k_{on}$, and $k_{off}$ mean in the context of kinetics of target-ligand interaction?
