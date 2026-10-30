@@ -134,7 +134,7 @@ In lecture 7, we will explore three types of computational models that are commo
     * Please fill the [post-lecture survey of lecture 7](https://forms.gle/3GPo8WHKsUgt5gdi9).
     * Read [*The Environment and Disease: Association or Causation?*]({{site.assetbaseurl}}{% link assets/2026/07/Hill-1965.pdf %}) by Austin Bradford Hill (1965), and think about the following questions: What views by Austin Hill surprise you? And how can we apply Hill's criteria to determine the causal effect of treatment with a drug?
     * Read the review [Causal inference in drug discovery and development]({{site.assetbaseurl}}{% link assets/2026/07/Michoel-Zhang-2023.pdf %}), and think about the following questions: What are the relationship between statistical/ML/AI models with causal inference? How can we bring causal thinking to statistical/ML/AI models, especially in the context of drug discovery?
-    * (Optional) Checkout [Causal inference for drug discovery and development](https://github.com/Accio/causal_drug_discovery), an accompanying repo of Rmarkdown and Python notebooks that introduce basic concepts of causal inference with hands-on exercises.
+    * (Optional) Checkout [Causal inference for drug discovery and development](https://github.com/Accio/causal_drug_discovery), an accompanying repo of the review with Rmarkdown and Python notebooks that introduce basic concepts of causal inference with hands-on exercises.
     * Answer questions in [the offline activity form of lecture 7](https://forms.gle/MD1d9H52BQY1VoyY7). Submission deadline: Thursday, November the 12th, EOB.
 
 <p id="no-lecture-061126"></p>
