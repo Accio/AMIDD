@@ -21,7 +21,7 @@ A one-page summary of the course 2026 can be found here [AMIDD 2026 Agenda]({{si
   * [Lecture 4: Key questions of drug discovery](#lec4) (09.10.2026)
   * [Lecture 5: Biological foundations of drug discovery](#lec5) (16.10.2026)
   * [Lecture 6: Proteins as drug targets](#lec6) (23.10.2026)
-  * [Lecture 7: Causal inference](#lec7) (30.10.2026)
+  * [Lecture 7: Three types of computational models](#lec7) (30.10.2026)
   * [No lecture on 06.11.26](#no-lecture-061126) (06.11.2026, no lecture)
   * [Lecture 8: Lead identification and optimization](#lec8) (13.11.2026)
   * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (20.11.2026, *Hörsaal 101 in der Alten Universität*)
@@ -125,19 +125,18 @@ In lecture 6, we will learn about proteins as drug targets.
 	* (Optional) If you are familiar with the biology concepts that we discussed in the course and wish to gain a deeper understanding, please read [The principles of systems biology, laid out by Denis Noble 2007]({{site.assetbaseurl}}{% link assets/2026/06/Noble-2007-The-Principles-of-Systems-Biology.pdf %}) and [follow-up in 2026]({{site.assetbaseurl}}{% link assets/2026/06/Noble-and-Bourret-2026-The-Principles-of-Systems-Biology.pdf %}). In case you have questions, you can submit them via [the Google Form](https://forms.gle/X3Hrviiz1iQ3CRjg8).
 
 <p id="lec7"></p>
-### Lecture 7: Causal inference
+### Lecture 7: Three types of computational models
 
-In lecture 7, we will explore the concept of causality and application in data analysis.
+In lecture 7, we will explore three types of computational models that are commonly used in drug discovery.
 
-* [Slides of lecture 7 and 8]({{site.assetbaseurl}}{% link assets/2026/07/AMIDD-2026-07-causal-inference.pdf %}) (until slide 16)
+* [Slides of lecture 7]({{site.assetbaseurl}}{% link assets/2026/07/AMIDD-2026-07-three-types-of-models.pdf %})
 * Offline activities
     * Please fill the post-lecture survey [Form URL to be updated].
     * Offline activities:
-	    * Review the slides to make sure that you understand the idea of using generative models to simulate and explore causality.
 	* Read [*The Environment and Disease: Association or Causation?*]({{site.assetbaseurl}}{% link assets/2026/07/Hill-1965.pdf %}) by Austin Bradford Hill (1965).
-	    * Read the review [Causal inference in drug discovery and development]({{site.assetbaseurl}}{% link assets/2026/07/Michoel-Zhang-2023.pdf %}).
-	    * (Optional) Checkout [Causal inference for drug discovery and development](https://github.com/Accio/causal_drug_discovery), an accompanying repo of Rmarkdown and Python notebooks that introduce basic concepts of causal inference.
-	    * Answer questions in this form [Form URL to be updated]. Submission deadline: Thursday, November the 5th, EOB.
+	* Read the review [Causal inference in drug discovery and development]({{site.assetbaseurl}}{% link assets/2026/07/Michoel-Zhang-2023.pdf %}).
+	* (Optional) Checkout [Causal inference for drug discovery and development](https://github.com/Accio/causal_drug_discovery), an accompanying repo of Rmarkdown and Python notebooks that introduce basic concepts of causal inference.
+	* Answer questions in this form [Form URL to be updated]. Submission deadline: Thursday, November the 5th, EOB.
 
 <p id="no-lecture-061126"></p>
 ### No lecture on 06.11.26
