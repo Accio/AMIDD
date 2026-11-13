@@ -23,11 +23,11 @@ A one-page summary of the course 2026 can be found here [AMIDD 2026 Agenda]({{si
   * [Lecture 6: Proteins as drug targets](#lec6) (23.10.2026)
   * [Lecture 7: Three types of computational models](#lec7) (30.10.2026)
   * [No lecture on 06.11.26](#no-lecture-061126) (06.11.2026, no lecture)
-  * [Lecture 8: Lead identification and optimization](#lec8) (13.11.2026)
-  * [Lecture 9: Mechanism and mode of action of drugs](#lec9) (20.11.2026, *Hörsaal 101 in der Alten Universität*)
+  * [Lecture 8: Causal inference and AI](#lec8) (13.11.2026)
+  * [Lecture 9: Lead identification and optimization](#lec9) (20.11.2026, *Hörsaal 101 in der Alten Universität*)
   * [No lecture on 27.11.26 due to *Dies academicus*](#dies-academicus) (27.11.2026, no lecture)
-  * [Lecture 10: PK/PD modeling and basics of clinical trials](#lec10) (04.12.2026)
-  * [Lecture 11: Guest lectures](#lec11) (11.12.2026)
+  * [Lecture 10: Mechanism and mode of action of drugs ](#lec10) (04.12.2026)
+  * [Lecture 11: PK/PD modeling and basics of clinical trials](#lec11) (11.12.2026)
   * [Lecture 12: A collaboration challenge](#lec12) (18.12.2026)
 - [Commonly Asked Questions and Answers](#QandA)
 - [Further questions or suggestions?](#further-questions-or-suggestions)
@@ -144,16 +144,25 @@ We will have no lecture on 06.11.26 due to David's schedule.
 
 
 <p id="lec8"></p>
-### Lecture 8: Lead identification and optimization
+### Lecture 8: Causal inference and AI
 
-In lecture 8, we will have a high-level overview of the process of lead identification and optimization (LI/LO) of small-molecule drug discovery.
+In lecture 8, we will talk about causal inference and AI, two important tools for modern drug discovery.
 
-* [Slides of lecture 8]({{site.assetbaseurl}}{% link assets/2026/09/AMIDD-2026-09-LI-LO.pdf %})
+* [Slides of lecture 8]({{site.assetbaseurl}}{% link assets/2026/08/AMIDD-2026-08-Causal-AI.pdf %})
 * Offline activities
 	* Please fill this form [Form URL to be updated] to give feedback to the lecture.
+	* Read Bender *et al.* [“Artificial Intelligence in Drug Discovery — What It Is, Where We Stand and the Path Forward.”](https://doi.org/10.1038/s41573-026-01496-2), Nature Reviews Drug Discovery (2026).
 	* Read [Accurate predictions on small data with a tabular foundational model](https://www.nature.com/articles/s41586-024-08328-6) by Hollmann *et al.*, Nature 2025.
 	* Try [TabPFN](https://github.com/PriorLabs/TabPFN) with any problem of your choice.
-	* Share your learnings and experience by filling this form [Form URL to be updated]. Deadline: Thursday, November the 12th, EOB.
+
+<p id="lec9"></p>
+### Lecture 9: Lead identification and optimization
+
+In lecture 9, we will have a high-level overview of the process of lead identification and optimization (LI/LO) of small-molecule drug discovery.
+
+* [Slides of lecture 9]({{site.assetbaseurl}}{% link assets/2026/09/AMIDD-2026-09-LI-LO.pdf %})
+* Offline activities
+	* Please fill this form [Form URL to be updated] to give feedback to the lecture.
 	* Mandatory: read [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2026/09/BiologicalActivity-Dougall-Unitt.pdf %}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. Use this and other resources, including Wikipedia and large language models (LLMs), to answer questions in your own words. Submit the answers [Form URL to be updated] until *November 19th*, EOB.
 		* What is surface plasmon resonance (SPR), and how it is used to study the kinetics of target-ligand interactions?
 		* What do $K_d$, $k_{on}$, and $k_{off}$ mean in the context of kinetics of target-ligand interaction?
@@ -168,33 +177,28 @@ In lecture 8, we will have a high-level overview of the process of lead identifi
 
 An unsolicited advice about the readings: don't get frustrated if you meet details that you do not understand at the first sight. That is normal when reading interdisciplinary papers. It may help to focus on the big lecture.
 
-<p id="lec9"></p>
-### Lecture 9: Mechanism and mode of action of drugs
+<p id="lec10"></p>
+### Lecture 10: Mechanism and mode of action of drugs
 
 *Attention*: this lecture takes place exceptionally at the Hörsaal 101 in the *Alte Universität*, Rheinsprung 9, 4051 Basel.
 
-* [Slides of lecture 9]({{site.assetbaseurl}}{% link assets/2026/10/AMIDD-2026-10-Network-and-omics.pdf %})
+* [Slides of lecture 10]({{site.assetbaseurl}}{% link assets/2026/10/AMIDD-2026-10-Network-and-omics.pdf %})
 * Offline activities
     * Please fill out a survey [Form URL to be updated] to give feedback about the lecture.
     * Read [*Drug discovery effectiveness from the standpoint of therapeutic mechanisms and indications*]({{site.assetbaseurl}}{% link assets/2026/10/Shih-2018-DD-effectiveness-MoA.pdf %}) by Shih *et al.*, Nature Reviews Drug Discovery (2018). Submit your learnings [Form URL to be updated] until *December the 3rd*.
 
 **AND**: NO LECTURE on *Dies academicus* on November 27th, 2026.
 
-<p id="lec10"></p>
-### Lecture 10: PK/PD modeling and basics of clinical trials
+<p id="lec11"></p>
+### Lecture 11: PK/PD modeling and basics of clinical trials
 
-In lecture 10, we will introduce PK/PD modelling and basic concepts in clinical trials.
+In lecture 11, we will introduce PK/PD modelling and basic concepts in clinical trials.
 
-* [Slides of lecture 10]({{site.assetbaseurl}}{% link assets/2026/11/AMIDD-2026-11-PKPD.pdf %})
+* [Slides of lecture 11]({{site.assetbaseurl}}{% link assets/2026/11/AMIDD-2026-11-PKPD.pdf %})
 * Offline activities: pick *one* publication to read, depending on your interest.
      * [Introduction to PBPK modelling] Jones, H. M., and K. Rowland‐Yeo. [Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development](https://doi.org/10.1038/psp.2013.41). CPT: Pharmacometrics & Systems Pharmacology (2013)
      * [Application of machine learning for PK prediction] Komissarov *et al.* [Actionable Predictions of Human Pharmacokinetics at the Drug Design Stage](https://pubs.acs.org/doi/abs/10.1021/acs.molpharmaceut.4c00311). Molecular Pharmaceutics (2024).
      * Confirm the completion of the task, and bring up any questions, [Form URL to be updated] until EOB December 10th.
-
-<p id="lec11"></p>
-### Lecture 11: Guest lectures
-
-Details to be announced.
 
 <p id="lec12"></p>
 ### Lecture 12: A collaboration challenge
