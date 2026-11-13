@@ -23,7 +23,7 @@ A one-page summary of the course 2026 can be found here [AMIDD 2026 Agenda]({{si
   * [Lecture 6: Proteins as drug targets](#lec6) (23.10.2026)
   * [Lecture 7: Three types of computational models](#lec7) (30.10.2026)
   * [No lecture on 06.11.26](#no-lecture-061126) (06.11.2026, no lecture)
-  * [Lecture 8: Causal inference and AI](#lec8) (13.11.2026)
+  * [Lecture 8: Causal inference](#lec8) (13.11.2026)
   * [Lecture 9: Lead identification and optimization](#lec9) (20.11.2026, *Hörsaal 101 in der Alten Universität*)
   * [No lecture on 27.11.26 due to *Dies academicus*](#dies-academicus) (27.11.2026, no lecture)
   * [Lecture 10: Mechanism and mode of action of drugs ](#lec10) (04.12.2026)
@@ -144,16 +144,14 @@ We will have no lecture on 06.11.26 due to David's schedule.
 
 
 <p id="lec8"></p>
-### Lecture 8: Causal inference and AI
+### Lecture 8: Causal inference
 
-In lecture 8, we will talk about causal inference and AI, two important tools for modern drug discovery.
+In lecture 8, we will talk about causal inference and its applications in drug discovery.
 
 * [Slides of lecture 8]({{site.assetbaseurl}}{% link assets/2026/08/AMIDD-2026-08-Causal-AI.pdf %})
 * Offline activities
-	* Please fill this form [Form URL to be updated] to give feedback to the lecture.
-	* Read Bender *et al.* [“Artificial Intelligence in Drug Discovery — What It Is, Where We Stand and the Path Forward.”](https://doi.org/10.1038/s41573-026-01496-2), Nature Reviews Drug Discovery (2026).
-	* Read [Accurate predictions on small data with a tabular foundational model](https://www.nature.com/articles/s41586-024-08328-6) by Hollmann *et al.*, Nature 2025.
-	* Try [TabPFN](https://github.com/PriorLabs/TabPFN) with any problem of your choice.
+	* Please [fill this form](https://forms.gle/eVEB5aYKUhCze7tN6) to give feedback to the lecture.
+	* Read [Accurate predictions on small data with a tabular foundational model](https://www.nature.com/articles/s41586-024-08328-6) by Hollmann *et al.*, Nature 2025. Try [TabPFN](https://github.com/PriorLabs/TabPFN) with any problem of your choice, or follow one of the examples [given at docs.priorlab.ai](https://docs.priorlabs.ai/overview), comparing its performance with the performance of a method of your choice. Please submit a brief description of your problem, and your observations [here in a Google Form](https://forms.gle/trwmdVKQaJ2GdqZc6). Deadline of submission: Thursday, 18.11.2026, EOB.
 
 <p id="lec9"></p>
 ### Lecture 9: Lead identification and optimization
@@ -163,6 +161,7 @@ In lecture 9, we will have a high-level overview of the process of lead identifi
 * [Slides of lecture 9]({{site.assetbaseurl}}{% link assets/2026/09/AMIDD-2026-09-LI-LO.pdf %})
 * Offline activities
 	* Please fill this form [Form URL to be updated] to give feedback to the lecture.
+	* Read Bender *et al.* [“Artificial Intelligence in Drug Discovery — What It Is, Where We Stand and the Path Forward.”](https://doi.org/10.1038/s41573-026-01496-2), Nature Reviews Drug Discovery (2026).
 	* Mandatory: read [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2026/09/BiologicalActivity-Dougall-Unitt.pdf %}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. Use this and other resources, including Wikipedia and large language models (LLMs), to answer questions in your own words. Submit the answers [Form URL to be updated] until *November 19th*, EOB.
 		* What is surface plasmon resonance (SPR), and how it is used to study the kinetics of target-ligand interactions?
 		* What do $K_d$, $k_{on}$, and $k_{off}$ mean in the context of kinetics of target-ligand interaction?
