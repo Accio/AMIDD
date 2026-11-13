@@ -149,12 +149,15 @@ We will have no lecture on 06.11.26 due to David's schedule.
 In lecture 8, we will talk about causal inference and its applications in drug discovery.
 
 * [Slides of lecture 8]({{site.assetbaseurl}}{% link assets/2026/08/AMIDD-2026-08-Causal-AI.pdf %})
-* Offline activities
-	* Please [fill this form](https://forms.gle/eVEB5aYKUhCze7tN6) to give feedback to the lecture.
-	* Offline activity:
-		* Read [Accurate predictions on small data with a tabular foundational model](https://www.nature.com/articles/s41586-024-08328-6) by Hollmann *et al.*, Nature 2025.
-		* Try [TabPFN](https://github.com/PriorLabs/TabPFN) with any problem of your choice, or follow one of the examples [given at docs.priorlab.ai](https://docs.priorlabs.ai/overview), comparing its performance with the performance of a method of your choice.
-		* Please submit a brief description of your problem, and your observations [here in this Google Form](https://forms.gle/trwmdVKQaJ2GdqZc6). Deadline of submission: Thursday, 18.11.2026, EOB.
+* Please [fill this form](https://forms.gle/eVEB5aYKUhCze7tN6) to give feedback to the lecture.
+* Offline activity:
+	* Read [Accurate predictions on small data with a tabular foundational model](https://www.nature.com/articles/s41586-024-08328-6) by Hollmann *et al.*, Nature 2025.
+	* Try [TabPFN](https://github.com/PriorLabs/TabPFN) with any problem of your choice, or follow one of the examples [given at docs.priorlab.ai](https://docs.priorlabs.ai/overview), comparing its performance with the performance of a method of your choice.
+	* Please submit a brief description of your problem, and your observations [here in this Google Form](https://forms.gle/trwmdVKQaJ2GdqZc6). Deadline of submission: Thursday, 18.11.2026, EOB.
+* References
+	* For those who are interested in the sugar rationing story that we talked about in the class, here is the paper: Gracner, Tadeja, Claire Boone, and Paul J. Gertler. [“Exposure to Sugar Rationing in the First 1000 Days of Life Protected against Chronic Disease.”](https://doi.org/10.1126/science.adn5421), Science 386, no. 6725 (2024): 1043–48.
+	* For those who are interested in learning more about causal inference, I recommend [The Book of Why](https://en.wikipedia.org/wiki/The_Book_of_Why) (2018) by Judea Pearl and Dana Mackenzie.
+
 
 *Attention*: next lecture on 20.11. takes place exceptionally at the Hörsaal 101 in the *Alte Universität*, Rheinsprung 9, 4051 Basel.
 
