@@ -151,10 +151,17 @@ In lecture 8, we will talk about causal inference and its applications in drug d
 * [Slides of lecture 8]({{site.assetbaseurl}}{% link assets/2026/08/AMIDD-2026-08-Causal-AI.pdf %})
 * Offline activities
 	* Please [fill this form](https://forms.gle/eVEB5aYKUhCze7tN6) to give feedback to the lecture.
-	* Read [Accurate predictions on small data with a tabular foundational model](https://www.nature.com/articles/s41586-024-08328-6) by Hollmann *et al.*, Nature 2025. Try [TabPFN](https://github.com/PriorLabs/TabPFN) with any problem of your choice, or follow one of the examples [given at docs.priorlab.ai](https://docs.priorlabs.ai/overview), comparing its performance with the performance of a method of your choice. Please submit a brief description of your problem, and your observations [here in a Google Form](https://forms.gle/trwmdVKQaJ2GdqZc6). Deadline of submission: Thursday, 18.11.2026, EOB.
+	* Offline activity:
+		* Read [Accurate predictions on small data with a tabular foundational model](https://www.nature.com/articles/s41586-024-08328-6) by Hollmann *et al.*, Nature 2025.
+		* Try [TabPFN](https://github.com/PriorLabs/TabPFN) with any problem of your choice, or follow one of the examples [given at docs.priorlab.ai](https://docs.priorlabs.ai/overview), comparing its performance with the performance of a method of your choice.
+		* Please submit a brief description of your problem, and your observations [here in this Google Form](https://forms.gle/trwmdVKQaJ2GdqZc6). Deadline of submission: Thursday, 18.11.2026, EOB.
+
+*Attention*: next lecture on 20.11. takes place exceptionally at the Hörsaal 101 in the *Alte Universität*, Rheinsprung 9, 4051 Basel.
 
 <p id="lec9"></p>
 ### Lecture 9: Lead identification and optimization
+
+*Attention*: this lecture takes place exceptionally at the Hörsaal 101 in the *Alte Universität*, Rheinsprung 9, 4051 Basel.
 
 In lecture 9, we will have a high-level overview of the process of lead identification and optimization (LI/LO) of small-molecule drug discovery.
 
@@ -179,7 +186,6 @@ An unsolicited advice about the readings: don't get frustrated if you meet detai
 <p id="lec10"></p>
 ### Lecture 10: Mechanism and mode of action of drugs
 
-*Attention*: this lecture takes place exceptionally at the Hörsaal 101 in the *Alte Universität*, Rheinsprung 9, 4051 Basel.
 
 * [Slides of lecture 10]({{site.assetbaseurl}}{% link assets/2026/10/AMIDD-2026-10-Network-and-omics.pdf %})
 * Offline activities
