@@ -24,7 +24,7 @@ A one-page summary of the course 2026 can be found here [AMIDD 2026 Agenda]({{si
   * [Lecture 7: Three types of computational models](#lec7) (30.10.2026)
   * [No lecture on 06.11.26](#no-lecture-061126) (06.11.2026, no lecture)
   * [Lecture 8: Causal inference](#lec8) (13.11.2026)
-  * [Lecture 9: Lead identification and optimization](#lec9) (20.11.2026, *Hörsaal 101 in der Alten Universität*)
+  * [Lecture 9: Lead identification and optimization](#lec9) (20.11.2026, *Hörsaal -101, 1.0 UG, in der Alten Universität*)
   * [No lecture on 27.11.26 due to *Dies academicus*](#dies-academicus) (27.11.2026, no lecture)
   * [Lecture 10: Mechanism and mode of action of drugs ](#lec10) (04.12.2026)
   * [Lecture 11: PK/PD modeling and basics of clinical trials](#lec11) (11.12.2026)
@@ -159,12 +159,12 @@ In lecture 8, we will talk about causal inference and its applications in drug d
 	* For those who are interested in learning more about causal inference, I recommend [The Book of Why](https://en.wikipedia.org/wiki/The_Book_of_Why) (2018) by Judea Pearl and Dana Mackenzie.
 
 
-*Attention*: next lecture on 20.11. takes place exceptionally at the Hörsaal 101 in the *Alte Universität*, Rheinsprung 9, 4051 Basel.
+*Attention*: next lecture on 20.11. takes place exceptionally at the Hörsaal -101 (1.0 UG) in the *Alte Universität*, Rheinsprung 9, 4051 Basel.
 
 <p id="lec9"></p>
 ### Lecture 9: Lead identification and optimization
 
-*Attention*: this lecture takes place exceptionally at the Hörsaal 101 in the *Alte Universität*, Rheinsprung 9, 4051 Basel.
+*Attention*: this lecture takes place exceptionally at the Hörsaal -101 (1.0 UG) in the *Alte Universität*, Rheinsprung 9, 4051 Basel.
 
 In lecture 9, we will have a high-level overview of the process of lead identification and optimization (LI/LO) of small-molecule drug discovery.
 
