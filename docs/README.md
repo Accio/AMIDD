@@ -186,9 +186,10 @@ In lecture 9, we will discuss application of causal inference and AI in drug dis
 
 An unsolicited advice about the readings: it is definitely okay if you meet details that you do not understand at the first sight. That is normal when reading interdisciplinary papers. It may help to focus on the big lecture.
 
+**AND**: NO LECTURE on *Dies academicus* on November 27th, 2026.
+
 <p id="lec10"></p>
 ### Lecture 10: Mechanism and mode of action of drugs
-
 
 * [Slides of lecture 10]({{site.assetbaseurl}}{% link assets/2026/10/AMIDD-2026-10-Network-and-omics.pdf %})
 * Offline activities
@@ -196,7 +197,6 @@ An unsolicited advice about the readings: it is definitely okay if you meet deta
     * Read [*Drug discovery effectiveness from the standpoint of therapeutic mechanisms and indications*]({{site.assetbaseurl}}{% link assets/2026/10/Shih-2018-DD-effectiveness-MoA.pdf %}) by Shih *et al.*, Nature Reviews Drug Discovery (2018). Submit your learnings [Form URL to be updated] until *December the 3rd*.
     * Optional: In the lecture, we dissected the example of the discovery of a novel, reversible, and specific MAGL inhibitor. If you are interested in exploring the topic further, read the original publication [*Structure-Guided Discovery of cis-Hexahydro-pyrido-oxazinones as Reversible, Drug-like Monoacylglycerol Lipase Inhibitors*]({{site.assetbaseurl}}{% link assets/2026/09/Kuhn-JMedChem-2024.pdf %}) by Bernd Kuhn, *et al*. (J Med Chem, 2024).
 
-**AND**: NO LECTURE on *Dies academicus* on November 27th, 2026.
 
 <p id="lec11"></p>
 ### Lecture 11: PK/PD modeling and basics of clinical trials
