@@ -24,7 +24,7 @@ A one-page summary of the course 2026 can be found here [AMIDD 2026 Agenda]({{si
   * [Lecture 7: Three types of computational models](#lec7) (30.10.2026)
   * [No lecture on 06.11.26](#no-lecture-061126) (06.11.2026, no lecture)
   * [Lecture 8: Causal inference](#lec8) (13.11.2026)
-  * [Lecture 9: Lead identification and optimization](#lec9) (20.11.2026, *Hörsaal -101, 1.0 UG, in der Alten Universität*)
+  * [Lecture 9: AI in drug discovery](#lec9) (20.11.2026, *Hörsaal -101, 1.0 UG, in der Alten Universität*)
   * [No lecture on 27.11.26 due to *Dies academicus*](#dies-academicus) (27.11.2026, no lecture)
   * [Lecture 10: Mechanism and mode of action of drugs ](#lec10) (04.12.2026)
   * [Lecture 11: PK/PD modeling and basics of clinical trials](#lec11) (11.12.2026)
@@ -162,13 +162,13 @@ In lecture 8, we will talk about causal inference and its applications in drug d
 *Attention*: next lecture on 20.11. takes place exceptionally at the Hörsaal -101 (1.0 UG) in the *Alte Universität*, Rheinsprung 9, 4051 Basel.
 
 <p id="lec9"></p>
-### Lecture 9: Lead identification and optimization
+### Lecture 9: AI in drug discovery
 
 *Attention*: this lecture takes place exceptionally at the Hörsaal -101 (1.0 UG) in the *Alte Universität*, Rheinsprung 9, 4051 Basel.
 
-In lecture 9, we will have a high-level overview of the process of lead identification and optimization (LI/LO) of small-molecule drug discovery.
+In lecture 9, we will discuss application of causal inference and AI in drug discovery.
 
-* [Slides of lecture 9]({{site.assetbaseurl}}{% link assets/2026/09/AMIDD-2026-09-LI-LO.pdf %})
+* [Slides of lecture 9]({{site.assetbaseurl}}{% link assets/2026/09/AMIDD-2026-09-AI-in-drug-discovery.pdf %})
 * Offline activities
 	* Please fill this form [Form URL to be updated] to give feedback to the lecture.
 	* Read Bender *et al.* [“Artificial Intelligence in Drug Discovery — What It Is, Where We Stand and the Path Forward.”](https://doi.org/10.1038/s41573-026-01496-2), Nature Reviews Drug Discovery (2026).
@@ -182,7 +182,6 @@ In lecture 9, we will have a high-level overview of the process of lead identifi
 		* What is Ames test, and what does it measure?
 		* What is the micronucleus test, and why it is important to perform it?
 		* What does phototoxicity mean, and why it is important to predict or measure it?
-    * Optional: In the lecture, we dissected the example of the discovery of a novel, reversible, and specific MAGL inhibitor. If you are interested in exploring the topic further, read the original publication [*Structure-Guided Discovery of cis-Hexahydro-pyrido-oxazinones as Reversible, Drug-like Monoacylglycerol Lipase Inhibitors*]({{site.assetbaseurl}}{% link assets/2026/09/Kuhn-JMedChem-2024.pdf %}) by Bernd Kuhn, *et al*. (J Med Chem, 2024).
 
 An unsolicited advice about the readings: don't get frustrated if you meet details that you do not understand at the first sight. That is normal when reading interdisciplinary papers. It may help to focus on the big lecture.
 
@@ -194,6 +193,7 @@ An unsolicited advice about the readings: don't get frustrated if you meet detai
 * Offline activities
     * Please fill out a survey [Form URL to be updated] to give feedback about the lecture.
     * Read [*Drug discovery effectiveness from the standpoint of therapeutic mechanisms and indications*]({{site.assetbaseurl}}{% link assets/2026/10/Shih-2018-DD-effectiveness-MoA.pdf %}) by Shih *et al.*, Nature Reviews Drug Discovery (2018). Submit your learnings [Form URL to be updated] until *December the 3rd*.
+    * Optional: In the lecture, we dissected the example of the discovery of a novel, reversible, and specific MAGL inhibitor. If you are interested in exploring the topic further, read the original publication [*Structure-Guided Discovery of cis-Hexahydro-pyrido-oxazinones as Reversible, Drug-like Monoacylglycerol Lipase Inhibitors*]({{site.assetbaseurl}}{% link assets/2026/09/Kuhn-JMedChem-2024.pdf %}) by Bernd Kuhn, *et al*. (J Med Chem, 2024).
 
 **AND**: NO LECTURE on *Dies academicus* on November 27th, 2026.
 
