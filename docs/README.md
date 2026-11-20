@@ -172,7 +172,7 @@ In lecture 9, we will discuss application of causal inference and AI in drug dis
 * Offline activities
 	* Please fill this form [Form URL to be updated] to give feedback to the lecture.
 	* Read Bender *et al.* [“Artificial Intelligence in Drug Discovery — What It Is, Where We Stand and the Path Forward.”](https://doi.org/10.1038/s41573-026-01496-2), Nature Reviews Drug Discovery (2026).
-	* Mandatory: read [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2026/09/BiologicalActivity-Dougall-Unitt.pdf %}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*. Use this and other resources, including Wikipedia and large language models (LLMs), to answer questions in your own words. Submit the answers [Form URL to be updated] until *November 19th*, EOB.
+	* Read [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2026/09/BiologicalActivity-Dougall-Unitt.pdf %}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*, and answer questions in your own words. Submit the answers [Form URL to be updated] until *December 3rd*, EOB.
 		* What is surface plasmon resonance (SPR), and how it is used to study the kinetics of target-ligand interactions?
 		* What do $K_d$, $k_{on}$, and $k_{off}$ mean in the context of kinetics of target-ligand interaction?
 		* What does microsomal clearance mean? Why it is important to measure it in drug discovery?
