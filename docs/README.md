@@ -183,7 +183,7 @@ In lecture 9, we will discuss application of causal inference and AI in drug dis
 		* What is the micronucleus test, and why it is important to perform it?
 		* What does phototoxicity mean, and why it is important to predict or measure it?
 
-An unsolicited advice about the readings: don't get frustrated if you meet details that you do not understand at the first sight. That is normal when reading interdisciplinary papers. It may help to focus on the big lecture.
+An unsolicited advice about the readings: it is definitely okay if you meet details that you do not understand at the first sight. That is normal when reading interdisciplinary papers. It may help to focus on the big lecture.
 
 <p id="lec10"></p>
 ### Lecture 10: Mechanism and mode of action of drugs
