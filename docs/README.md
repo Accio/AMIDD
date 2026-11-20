@@ -170,7 +170,7 @@ In lecture 9, we will discuss application of causal inference and AI in drug dis
 
 * [Slides of lecture 9]({{site.assetbaseurl}}{% link assets/2026/09/AMIDD-2026-09-AI-in-drug-discovery.pdf %})
 * Offline activities
-	* Please fill this form [Form URL to be updated] to give feedback to the lecture.
+	* Please fill [this form to give feedback](https://forms.gle/X2zGGXHjiMzfXp5c7) for the lecture.
 	* Read Bender *et al.* [“Artificial Intelligence in Drug Discovery — What It Is, Where We Stand and the Path Forward.”](https://doi.org/10.1038/s41573-026-01496-2), Nature Reviews Drug Discovery (2026).
 	* Read [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2026/09/BiologicalActivity-Dougall-Unitt.pdf %}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*, and answer questions in your own words. Submit the answers [Form URL to be updated] until *December 3rd*, EOB.
 		* What is surface plasmon resonance (SPR), and how it is used to study the kinetics of target-ligand interactions?
