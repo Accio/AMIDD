@@ -172,7 +172,7 @@ In lecture 9, we will discuss application of causal inference and AI in drug dis
 * Offline activities
 	* Please fill [this form to give feedback](https://forms.gle/X2zGGXHjiMzfXp5c7) for the lecture.
 	* Read Bender *et al.* [“Artificial Intelligence in Drug Discovery — What It Is, Where We Stand and the Path Forward.”](https://doi.org/10.1038/s41573-026-01496-2), Nature Reviews Drug Discovery (2026).
-	* Read [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2026/09/BiologicalActivity-Dougall-Unitt.pdf %}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*, and answer questions in your own words. Submit the answers [via this Google Form](https://forms.gle/TFY6RM3UD45NNG649) until *December 3rd*, EOB.
+	* Read [*Evaluation of the Biological Activity of Compounds: Techniques and Mechanism of Action Studies*]({{site.assetbaseurl}}{% link assets/2026/09/BiologicalActivity-Dougall-Unitt.pdf %}) by Iain G. Dougall and John Unitt, chapter two of the book *The Practice of Medicinal Chemistry*, and answer questions in your own words. 
 		* What is surface plasmon resonance (SPR), and how it is used to study the kinetics of target-ligand interactions?
 		* What do $K_d$, $k_{on}$, and $k_{off}$ mean in the context of kinetics of target-ligand interaction?
 		* What does microsomal clearance mean? Why it is important to measure it in drug discovery?
@@ -182,6 +182,7 @@ In lecture 9, we will discuss application of causal inference and AI in drug dis
 		* What is Ames test, and what does it measure?
 		* What is the micronucleus test, and why it is important to perform it?
 		* What does phototoxicity mean, and why it is important to predict or measure it?
+	* Submit the answers [via this Google Form](https://forms.gle/TFY6RM3UD45NNG649) until *December 3rd*, EOB.
 
 An unsolicited advice about the readings: it is definitely okay if you meet details that you do not understand at the first sight. That is normal when reading interdisciplinary papers. It may help to focus on the big lecture.
 
